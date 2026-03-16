@@ -58,8 +58,9 @@ with tab1:
 
         # Feature Importance
         fi = met_clf.get("feature_importances", {})
-        if fi:
-            df_fi = pd.DataFrame(fi.items(), columns=["Feature", "Importância"])
+        if fi and isinstance(fi, dict):
+            df_fi = pd.DataFrame(list(fi.items()), columns=["Feature", "Importância"])
+            df_fi["Importância"] = pd.to_numeric(df_fi["Importância"], errors="coerce").fillna(0)
             df_fi = df_fi.sort_values("Importância")
             fig_fi = px.bar(
                 df_fi, x="Importância", y="Feature", orientation="h",

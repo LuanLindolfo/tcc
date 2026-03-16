@@ -75,13 +75,16 @@ else:
             top10 = setores_crit.sort_values(indicador).head(10)
             st.dataframe(top10[exibir], use_container_width=True)
 
+            _x_col = "setor_id" if "setor_id" in top10.columns else "_idx"
+            if _x_col == "_idx":
+                top10 = top10.copy()
+                top10["_idx"] = top10.index.astype(str)
             fig_bar = px.bar(
-                top10, x="setor_id" if "setor_id" in top10.columns else top10.index.astype(str),
-                y=indicador,
+                top10, x=_x_col, y=indicador,
                 title=f"10 Setores mais críticos — {indicador.replace('_', ' ').title()}",
                 color=indicador,
                 color_continuous_scale="RdYlGn_r",
-                labels={"setor_id": "Setor Censitário", indicador: indicador.replace("_", " ").title()},
+                labels={_x_col: "Setor Censitário", indicador: indicador.replace("_", " ").title()},
             )
             if limiar:
                 fig_bar.add_hline(y=limiar, line_dash="dash", line_color="red",

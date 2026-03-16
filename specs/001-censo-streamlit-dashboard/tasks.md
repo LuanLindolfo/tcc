@@ -2,26 +2,36 @@
 
 **Feature**: `001-censo-streamlit-dashboard`  
 **Gerado em**: 2026-03-16  
-**Colab (fonte de verdade)**: https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p?usp=sharing  
 **Repositório**: https://github.com/LuanLindolfo/tcc  
 **Total de tarefas**: 22 | **Total de fases**: 7
 
-> **Contexto atual**: Estrutura Streamlit criada localmente. XLSX do IBGE já estão no GitHub em
-> `censo_castanhal/censo_castanhal/`. Notebook do Colab é a **fonte de verdade** do pipeline.
-> Pasta local `/home/lindolfo/tcc` ainda NÃO foi commitada/pushed para o GitHub.
+---
+
+## ⚠️ Princípio V — Notebook Colab como Fonte de Verdade (Constituição v1.1.0)
+
+| Item | Valor |
+|------|-------|
+| **Notebook canônico (fonte de verdade)** | https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p?usp=sharing |
+| **Arquivo no repo** | `notebooks/censo_castanhal_pipeline.ipynb` — **espelho**, não fonte |
+| **Fluxo de alterações** | Colab (editar) → upload manual → GitHub |
+| **Em divergência** | O conteúdo do **Colab** prevalece |
+| **Proibido** | Criar notebooks duplicados; editar o pipeline no repo sem refletir o Colab |
+
+> Todas as tasks que alteram o pipeline DEVEM ser executadas **no notebook Colab**. O arquivo
+> no repositório é atualizado apenas após sincronização (download do Colab + push).
 
 ---
 
-## Arquitetura do Pipeline (fonte de verdade = Colab)
+## Arquitetura do Pipeline
 
 ```
 GitHub (censo_castanhal/censo_castanhal/*.xlsx — dados IBGE públicos)
       ↓  lidos via URL raw pelo notebook no Colab
-Google Colab (fonte de verdade: limpa + treina ML + gera artefatos)
+Notebook Colab (FONTE DE VERDADE — limpa + treina ML + gera artefatos)
       ↓  push via GITHUB_TOKEN (Colab Secrets)
 GitHub (data/processed/*.parquet + models/*.joblib + data/results/*.json)
       ↓  GitHub raw URLs + @st.cache_data
-Streamlit Community Cloud (visualização pública — banca avaliadora)
+Streamlit Community Cloud (visualização pública)
 ```
 
 ---
@@ -51,29 +61,29 @@ Fase 7 (Deploy)
 
 - [x] T001 Inicializar git no workspace local: `git init && git remote add origin https://github.com/LuanLindolfo/tcc.git` em `/home/lindolfo/tcc`
 - [x] T002 Fazer primeiro commit e push de toda a estrutura Streamlit para a branch main do GitHub: `git add . && git commit -m "feat: add streamlit app structure"` em `/home/lindolfo/tcc`
-- [ ] T003 Verificar no GitHub que os seguintes arquivos existem após o push: `app.py`, `requirements.txt`, `pages/`, `utils/`, `notebooks/censo_castanhal_pipeline.ipynb`
+- [x] T003 Verificar no GitHub que os seguintes arquivos existem após o push: `app.py`, `requirements.txt`, `pages/`, `utils/`, `notebooks/censo_castanhal_pipeline.ipynb`
 
 ---
 
 ## Fase 2: US5 — Notebook Colab como Fonte de Verdade
 
-> Objetivo: garantir que o notebook no Colab (https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p)
-> usa o pipeline atualizado que lê XLSX do GitHub (sem Google Drive).
+> Objetivo: usar o notebook canônico no Colab (Princípio V). Alterações no pipeline
+> são feitas **no Colab**; o arquivo no repo é espelho e só é atualizado após sincronização.
 
-- [ ] T004 [US5] No Colab, abrir o notebook da URL e substituir seu conteúdo pelo arquivo `notebooks/censo_castanhal_pipeline.ipynb` do GitHub (File → Open Notebook → GitHub → LuanLindolfo/tcc → notebooks/censo_castanhal_pipeline.ipynb), OU copiar o conteúdo célula a célula
+- [ ] T004 [US5] Abrir o **notebook canônico** no Colab: https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p — este é o notebook fonte de verdade; NÃO substituir pelo arquivo do GitHub (o Colab prevalece em caso de divergência)
 - [ ] T005 [US5] Configurar o secret `GITHUB_TOKEN` no Colab Secrets (🔑 menu lateral): Personal Access Token com permissão `Contents: Write` no repositório `LuanLindolfo/tcc` — gerado em https://github.com/settings/tokens
-- [ ] T006 [US5] Executar apenas a **Célula 2** do notebook e inspecionar o output: anotar os nomes de colunas reais retornados para cada um dos 19 XLSX (o print mostrará as colunas depois do `snake()`)
-- [ ] T007 [US5] Atualizar a **Célula 4** do notebook (consolidação) com os nomes de colunas reais detectados na T006 — mapear cada coluna para o campo esperado (ex: coluna de faixas etárias, coluna de sexo, coluna de valor de renda, etc.) em `notebooks/censo_castanhal_pipeline.ipynb`
+- [ ] T006 [US5] No notebook Colab (fonte de verdade), executar apenas a **Célula 2** e inspecionar o output: anotar os nomes de colunas reais retornados para cada um dos 19 XLSX (o print mostrará as colunas depois do `snake()`)
+- [ ] T007 [US5] No notebook Colab (fonte de verdade), atualizar a **Célula 4** (consolidação) com os nomes de colunas reais detectados na T006 — mapear cada coluna para o campo esperado. Depois, sincronizar para o GitHub: File → Download .ipynb (ou Save a copy to GitHub) e fazer push do arquivo para `notebooks/censo_castanhal_pipeline.ipynb`
 
 ---
 
 ## Fase 3: US5 — Pipeline End-to-End (Colab → GitHub)
 
-> Critério independente: Executar notebook gera artefatos no GitHub que o Streamlit lê.
+> Critério independente: Executar notebook canônico no Colab gera artefatos no GitHub que o Streamlit lê.
 
-- [ ] T008 [US5] Executar o notebook completo (Ctrl+F9) no Colab e verificar que todos os artefatos aparecem no GitHub: `data/processed/demografico.parquet`, `data/processed/domicilios.parquet`, `data/processed/educacao.parquet`, `data/processed/trabalho_renda.parquet`, `data/processed/features_compostas.parquet`
+- [ ] T008 [US5] No notebook Colab (fonte de verdade), executar o pipeline completo (Ctrl+F9) e verificar que todos os artefatos aparecem no GitHub: `data/processed/demografico.parquet`, `data/processed/domicilios.parquet`, `data/processed/educacao.parquet`, `data/processed/trabalho_renda.parquet`, `data/processed/features_compostas.parquet`
 - [ ] T009 [US5] Verificar que os modelos e métricas foram gerados no GitHub: `models/random_forest_ivs.joblib`, `models/xgboost_iah.joblib`, `models/kmeans_ocupacao.joblib`, `data/results/ml_classificacao_metricas.json`, `data/results/ml_regressao_metricas.json`, `data/results/politicas_recomendacoes.json`
-- [ ] T010 [US5] Commitar e fazer push do notebook atualizado com os mapeamentos de colunas reais: `git add notebooks/ && git commit -m "feat: update pipeline with real column mappings"` em `/home/lindolfo/tcc`
+- [ ] T010 [US5] Sincronizar o notebook Colab para o repo (Princípio V): fazer download do .ipynb do Colab, substituir `notebooks/censo_castanhal_pipeline.ipynb` localmente e commitar: `git add notebooks/ && git commit -m "chore: sync notebook from Colab (fonte de verdade)"` em `/home/lindolfo/tcc`
 
 ---
 
@@ -92,7 +102,7 @@ Fase 7 (Deploy)
 
 > Critério independente: Aba ML exibe métricas e gráficos interpretáveis carregados do GitHub.
 
-- [ ] T015 [P] [US2] Validar `pages/4_machine_learning.py` após execução do pipeline (Fase 3): verificar que as 3 abas internas (Classificação, Regressão, Clustering) carregam métricas dos JSONs e gráficos sem erro — corrigir quaisquer referências a colunas inexistentes em `pages/4_machine_learning.py`
+- [x] T015 [P] [US2] Validar `pages/4_machine_learning.py` após execução do pipeline (Fase 3): verificar que as 3 abas internas (Classificação, Regressão, Clustering) carregam métricas dos JSONs e gráficos sem erro — corrigir quaisquer referências a colunas inexistentes em `pages/4_machine_learning.py`
 - [x] T016 [US2] Adicionar filtro interativo por cluster (`st.selectbox`) na aba de Clustering em `pages/4_machine_learning.py` para satisfazer US2 Acceptance Scenario 2 (filtro que atualiza gráfico) — executar após T015
 
 ---
@@ -103,7 +113,7 @@ Fase 7 (Deploy)
 > Critério US4: Aba exibe 5 políticas com setores prioritários identificados pelos modelos.
 
 - [ ] T017 [P] [US3] Obter `GEMINI_API_KEY` em https://aistudio.google.com/app/apikey e configurar localmente em `.streamlit/secrets.toml` (nunca commitar) — testar resposta no `pages/6_assistente_ia.py` rodando `streamlit run app.py` localmente
-- [ ] T018 [P] [US4] Validar `pages/5_politicas.py` após pipeline executado (Fase 3): verificar que o JSON `politicas_recomendacoes.json` é lido corretamente e os 5 cards de política são exibidos sem erro
+- [x] T018 [P] [US4] Validar `pages/5_politicas.py` após pipeline executado (Fase 3): verificar que o JSON `politicas_recomendacoes.json` é lido corretamente e os 5 cards de política são exibidos sem erro
 
 ---
 
@@ -111,10 +121,10 @@ Fase 7 (Deploy)
 
 > Critério final: URL pública funcional, Streamlit lê dados do GitHub, banca avaliadora acessa.
 
-- [ ] T019 Acessar https://share.streamlit.io → "New app" → selecionar repositório `LuanLindolfo/tcc` → Main file path: `app.py` → branch: `main` → clicar "Deploy"
-- [ ] T020 Configurar os 2 secrets no painel do Streamlit Cloud (Settings → Secrets) conforme template `.streamlit/secrets.toml.example`: `GEMINI_API_KEY` e `GITHUB_RAW_BASE = "https://raw.githubusercontent.com/LuanLindolfo/tcc/main"`
+- [ ] T019 Acessar https://share.streamlit.io → "New app" → selecionar repositório `LuanLindolfo/tcc` → Main file path: `app.py` → branch: `001-censo-streamlit-dashboard` → clicar "Deploy"
+- [ ] T020 Configurar os 2 secrets no painel do Streamlit Cloud (Settings → Secrets) conforme template `.streamlit/secrets.toml.example`: `GEMINI_API_KEY` e `GITHUB_RAW_BASE = "https://raw.githubusercontent.com/LuanLindolfo/tcc/001-censo-streamlit-dashboard"`
 - [ ] T021 Verificar que o app carrega sem erros no Streamlit Cloud — checar logs se alguma página travar e corrigir imports ou colunas faltantes
-- [ ] T022 Commitar o notebook final e a URL do app Streamlit no `README.md` do repositório: `git add README.md notebooks/ && git commit -m "docs: add streamlit app URL and finalize pipeline"` em `/home/lindolfo/tcc`
+- [ ] T022 Sincronizar o notebook Colab final para o repo (Princípio V) e documentar a URL do app no `README.md`: `git add README.md notebooks/ && git commit -m "docs: add streamlit app URL; chore: sync notebook from Colab"` em `/home/lindolfo/tcc`
 
 ---
 
@@ -157,12 +167,22 @@ Tasks com `[P]` na mesma fase podem ser executadas simultaneamente:
 
 ---
 
+## Sincronização Colab → GitHub (Princípio V)
+
+Para manter o espelho sincronizado após alterações no notebook canônico:
+
+1. No Colab: File → Download → Download .ipynb
+2. Localmente: substituir `notebooks/censo_castanhal_pipeline.ipynb` pelo arquivo baixado
+3. `git add notebooks/ && git commit -m "chore: sync notebook from Colab (fonte de verdade)" && git push`
+
+---
+
 ## MVP Sugerido
 
 Execute nesta ordem para ter o dashboard funcional o mais rápido possível:
 
 1. **T001–T003** → código no GitHub
-2. **T004–T005** → notebook do Colab configurado com token
-3. **T006–T009** → pipeline executa e artefatos aparecem no GitHub
+2. **T004–T005** → abrir notebook canônico no Colab e configurar token
+3. **T006–T009** → pipeline executa no Colab e artefatos aparecem no GitHub
 4. **T019–T021** → deploy imediato (já funciona com dados básicos)
 5. **T011–T018** → refinamento das páginas com colunas reais
