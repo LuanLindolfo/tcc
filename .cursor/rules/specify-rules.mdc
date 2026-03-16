@@ -1,0 +1,64 @@
+---
+description: Project Development Guidelines
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# tcc Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-03-16
+
+## Active Technologies
+
+- **001-censo-streamlit-dashboard**: Python 3.11, Streamlit 1.32+, Pandas 2.0+, Plotly, scikit-learn 1.4+, XGBoost 2.0+, Google Gemini (`google-generativeai`), PyArrow/Parquet, Joblib
+
+## Project Structure
+
+```text
+app.py                     ← Entry point Streamlit
+pages/
+├── 1_demografia.py
+├── 2_domicilios.py
+├── 3_educacao_renda.py
+├── 4_machine_learning.py
+├── 5_politicas.py
+└── 6_assistente_ia.py
+utils/
+├── data_loader.py         ← @st.cache_data, lê .parquet do GitHub
+├── ml_utils.py            ← carrega .joblib do GitHub
+└── gemini_utils.py        ← integração Gemini API
+data/
+├── processed/             ← *.parquet (gerados pelo Colab)
+└── results/               ← *.json, *.parquet (métricas ML)
+models/                    ← *.joblib (modelos treinados)
+notebooks/
+└── censo_castanhal_pipeline.ipynb
+requirements.txt
+.gitignore
+.streamlit/secrets.toml    ← NÃO commitar
+```
+
+## Commands
+
+```bash
+# Rodar app localmente
+streamlit run app.py
+
+# Instalar dependências
+pip install -r requirements.txt
+```
+
+## Code Style
+
+- Python: snake_case para funções/variáveis, PascalCase para classes
+- Streamlit: usar `@st.cache_data(ttl=3600)` em TODAS as funções de carga de dados
+- Dados: sempre usar `.parquet` (nunca `.csv` ou `.pickle` para artefatos)
+- Segredos: NUNCA hardcodar chaves; usar `st.secrets["KEY"]` no Streamlit e `userdata.get("KEY")` no Colab
+- Erros de carga: sempre retornar `pd.DataFrame()` vazio como fallback com `st.error()` visível
+
+## Recent Changes
+
+- 001-censo-streamlit-dashboard: Added
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
