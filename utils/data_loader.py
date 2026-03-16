@@ -1,11 +1,45 @@
 import io
-import json
+import re
+import unicodedata
 
 import pandas as pd
 import requests
 import streamlit as st
 
 from utils.config import get_github_raw_base
+
+
+def find_col(df: pd.DataFrame, candidates: list[str]) -> str | None:
+    """
+    Retorna o primeiro nome de coluna encontrado no DataFrame dentre os candidatos.
+    A busca é case-insensitive e ignora acentos.
+    """
+    def norm(s: str) -> str:
+        s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
+        return re.sub(r"[^a-z0-9]", "_", s)
+
+    normed_cols = {norm(c): c for c in df.columns}
+    for candidate in candidates:
+        key = norm(candidate)
+        if key in normed_cols:
+            return normed_cols[key]
+        # busca parcial: o candidato está contido no nome da coluna
+        for col_norm, col_orig in normed_cols.items():
+            if key in col_norm:
+                return col_orig
+    return None
+
+
+def col_sum(df: pd.DataFrame, candidates: list[str]) -> float | None:
+    """Soma os valores de uma coluna encontrada via find_col. Retorna None se não encontrar."""
+    col = find_col(df, candidates)
+    return float(df[col].sum()) if col else None
+
+
+def col_mean(df: pd.DataFrame, candidates: list[str]) -> float | None:
+    """Média dos valores de uma coluna encontrada via find_col. Retorna None se não encontrar."""
+    col = find_col(df, candidates)
+    return float(df[col].mean()) if col else None
 
 
 def _raw_url(path: str) -> str:
