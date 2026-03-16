@@ -126,26 +126,50 @@ with tab3:
     st.caption("Segmentação dos setores pelo perfil econômico (primário, secundário, terciário + renda)")
 
     if not df.empty and "cluster_ocupacao" in df.columns:
-        feat_cluster = [c for c in [
-            "pct_setor_primario", "pct_setor_secundario",
-            "pct_setor_terciario", "renda_media_per_capita",
-        ] if c in df.columns]
+        clusters_disponiveis = sorted(df["cluster_ocupacao"].unique().tolist())
+        cluster_labels = {c: f"Cluster {c}" for c in clusters_disponiveis}
+
+        # Filtro interativo — T016 (US2 Acceptance Scenario 2)
+        col_filtro, col_info = st.columns([1, 3])
+        with col_filtro:
+            opcoes = ["Todos"] + [cluster_labels[c] for c in clusters_disponiveis]
+            filtro = st.selectbox("🔍 Filtrar por Cluster", opcoes, key="cluster_select")
+        with col_info:
+            if filtro != "Todos":
+                cl_num = int(filtro.split()[-1])
+                n_setores_cluster = int((df["cluster_ocupacao"] == cl_num).sum())
+                st.info(f"Cluster {cl_num}: **{n_setores_cluster}** setores")
+
+        df_cl = df.copy()
+        if filtro != "Todos":
+            cl_num = int(filtro.split()[-1])
+            df_cl = df_cl[df_cl["cluster_ocupacao"] == cl_num]
+
+        feat_cluster = [c for c in df_cl.select_dtypes(include="number").columns
+                        if c not in ["cluster_ocupacao", "iah"] and
+                        any(x in c for x in ["setor", "renda", "rendimento", "primario",
+                                              "secundario", "terciario", "ocupacao"])]
+        if not feat_cluster:
+            feat_cluster = [c for c in df_cl.select_dtypes(include="number").columns
+                            if c not in ["cluster_ocupacao"]]
 
         if len(feat_cluster) >= 2:
             fig_cl = px.scatter(
-                df, x=feat_cluster[0], y=feat_cluster[-1],
-                color=df["cluster_ocupacao"].astype(str),
-                title="Clusters de Perfil de Ocupação por Setor",
+                df_cl, x=feat_cluster[0], y=feat_cluster[min(1, len(feat_cluster)-1)],
+                color=df_cl["cluster_ocupacao"].astype(str),
+                title=f"Clusters de Perfil de Ocupação — {filtro}",
                 labels={feat_cluster[0]: feat_cluster[0].replace("_", " ").title(),
-                        feat_cluster[-1]: feat_cluster[-1].replace("_", " ").title(),
+                        feat_cluster[1]: feat_cluster[1].replace("_", " ").title(),
                         "color": "Cluster"},
                 color_discrete_sequence=px.colors.qualitative.Bold,
             )
             st.plotly_chart(fig_cl, use_container_width=True)
 
         st.markdown("**Distribuição de Setores por Cluster**")
-        contagem = df["cluster_ocupacao"].value_counts().reset_index()
+        contagem = df_cl["cluster_ocupacao"].value_counts().reset_index()
         contagem.columns = ["Cluster", "Setores"]
+        pct = (contagem["Setores"] / len(df) * 100).round(1)
+        contagem["% do Total"] = pct.astype(str) + "%"
         st.dataframe(contagem, use_container_width=True)
     else:
         st.info("Dados de clustering não disponíveis. Execute o pipeline Colab.")

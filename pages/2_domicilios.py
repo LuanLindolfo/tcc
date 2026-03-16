@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-from utils.data_loader import load_domicilios
+from utils.data_loader import find_col, load_domicilios
 
 st.set_page_config(page_title="Diagnóstico Habitacional — Castanhal", layout="wide")
 
@@ -23,20 +23,22 @@ if df.empty:
 # ── KPIs ──────────────────────────────────────────────────────────────────────
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    total_dom = int(df["total_domicilios"].sum()) if "total_domicilios" in df.columns else "N/D"
+    c = find_col(df, ["total_domicilios", "domicilios", "total", "quantidade"])
+    total_dom = int(df[c].sum()) if c else "N/D"
     st.metric("🏘️ Total de Domicílios", f"{total_dom:,}".replace(",", ".") if isinstance(total_dom, int) else total_dom)
 with col2:
-    media_mor = df["media_moradores"].mean() if "media_moradores" in df.columns else None
+    c = find_col(df, ["media_moradores", "media_de_moradores", "moradores", "numero_de_moradores"])
+    media_mor = float(df[c].mean()) if c else None
     st.metric("👨‍👩‍👧 Média de Moradores", f"{media_mor:.1f}" if media_mor else "N/D")
 with col3:
-    iah_medio = df["iah"].mean() if "iah" in df.columns else None
+    c = find_col(df, ["iah", "indice_adequacao_habitacional", "adequacao"])
+    iah_medio = float(df[c].mean()) if c else None
     st.metric("🏗️ IAH Médio", f"{iah_medio:.2f}" if iah_medio else "N/D", help="Índice de Adequação Habitacional (0-1)")
 with col4:
-    pct_saneamento = None
-    cols_san = ["pct_agua_encanada", "pct_esgoto", "pct_coleta_lixo", "pct_energia_eletrica"]
-    available = [c for c in cols_san if c in df.columns]
-    if available:
-        pct_saneamento = df[available].mean().mean()
+    cands_san = ["agua", "esgoto", "lixo", "energia", "saneamento"]
+    cols_san = [find_col(df, [k]) for k in cands_san]
+    available = [c for c in cols_san if c is not None]
+    pct_saneamento = float(df[available].mean().mean()) if available else None
     st.metric("🚰 Saneamento Básico Médio", f"{pct_saneamento:.1f}%" if pct_saneamento else "N/D")
 
 st.divider()
@@ -58,12 +60,16 @@ if "iah" in df.columns:
 # ── Saneamento Básico ─────────────────────────────────────────────────────────
 st.subheader("🚿 Acesso a Serviços de Saneamento Básico")
 san_data = {
-    "💧 Água Encanada": "pct_agua_encanada",
-    "🪣 Esgoto Sanitário": "pct_esgoto",
-    "🗑️ Coleta de Lixo": "pct_coleta_lixo",
-    "⚡ Energia Elétrica": "pct_energia_eletrica",
+    "💧 Água Encanada":    ["pct_agua_encanada", "agua_encanada", "agua"],
+    "🪣 Esgoto Sanitário": ["pct_esgoto", "esgoto", "esgoto_sanitario"],
+    "🗑️ Coleta de Lixo":  ["pct_coleta_lixo", "coleta_lixo", "lixo"],
+    "⚡ Energia Elétrica": ["pct_energia_eletrica", "energia_eletrica", "energia"],
 }
-san_medias = {k: df[v].mean() for k, v in san_data.items() if v in df.columns}
+san_medias = {}
+for label, cands in san_data.items():
+    c = find_col(df, cands)
+    if c:
+        san_medias[label] = float(df[c].mean())
 if san_medias:
     df_san = pd.DataFrame(list(san_medias.items()), columns=["Serviço", "% Média dos Setores"])
     fig_san = px.bar(

@@ -87,13 +87,24 @@ with st.expander("🔍 Diagnóstico — colunas disponíveis no parquet demográ
 
 # ── Distribuição Étnico-Racial ────────────────────────────────────────────────
 st.subheader("🌈 Distribuição Étnico-Racial")
-raca_cols = {
-    "Branca": "pct_branca", "Preta": "pct_preta", "Parda": "pct_parda",
-    "Indígena": "pct_indigena", "Amarela": "pct_amarela",
+st.caption(
+    "⚠️ Dados de distribuição étnico-racial estão sujeitos a limitações dos questionários "
+    "censitários e possíveis vieses de autodeclaração — interprete com cautela."
+)
+raca_candidatos = {
+    "Branca":   ["branca", "pct_branca", "cor_branca"],
+    "Preta":    ["preta", "pct_preta", "cor_preta"],
+    "Parda":    ["parda", "pct_parda", "cor_parda"],
+    "Indígena": ["indigena", "pct_indigena", "cor_indigena"],
+    "Amarela":  ["amarela", "pct_amarela", "cor_amarela"],
 }
-raca_data = {k: df[v].mean() for k, v in raca_cols.items() if v in df.columns}
+raca_data = {}
+for label, cands in raca_candidatos.items():
+    c = find_col(df, cands)
+    if c:
+        raca_data[label] = float(df[c].mean())
+
 if raca_data:
-    import pandas as pd
     df_raca = pd.DataFrame(list(raca_data.items()), columns=["Cor/Raça", "% Média"])
     fig_raca = px.pie(
         df_raca, names="Cor/Raça", values="% Média",
@@ -102,7 +113,7 @@ if raca_data:
     )
     st.plotly_chart(fig_raca, use_container_width=True)
 else:
-    st.info("Dados étnico-raciais não disponíveis.")
+    st.info("Dados étnico-raciais não disponíveis nos dados processados.")
 
 # ── Migração ──────────────────────────────────────────────────────────────────
 if "pct_naturais_castanhal" in df.columns or "pct_migrantes" in df.columns:

@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-from utils.data_loader import load_educacao, load_trabalho_renda
+from utils.data_loader import find_col, load_educacao, load_trabalho_renda
 
 st.set_page_config(page_title="Educação & Renda — Castanhal", layout="wide")
 
@@ -24,10 +24,12 @@ if df_edu.empty and df_ren.empty:
 # ── KPIs ──────────────────────────────────────────────────────────────────────
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    analf = df_edu["taxa_analfabetismo"].mean() if "taxa_analfabetismo" in df_edu.columns else None
+    c = find_col(df_edu, ["taxa_analfabetismo", "analfabetismo", "analf", "taxa_de_analfabetismo"])
+    analf = float(df_edu[c].mean()) if c else None
     st.metric("📖 Taxa de Analfabetismo", f"{analf:.1f}%" if analf else "N/D")
 with col2:
-    renda = df_ren["renda_media_per_capita"].mean() if "renda_media_per_capita" in df_ren.columns else None
+    c = find_col(df_ren, ["renda_media_per_capita", "rendimento", "renda", "rendimento_domiciliar"])
+    renda = float(df_ren[c].mean()) if c else None
     st.metric("💰 Renda Média per Capita", f"R$ {renda:,.0f}".replace(",", ".") if renda else "N/D")
 with col3:
     freq = df_edu["pct_freq_escolar_criancas"].mean() if "pct_freq_escolar_criancas" in df_edu.columns else None
