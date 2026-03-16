@@ -49,8 +49,8 @@ Fase 7 (Deploy)
 > Objetivo: tornar o repositório local `/home/lindolfo/tcc` o repositório GitHub, para que
 > o Streamlit Community Cloud possa fazer deploy a partir dele.
 
-- [ ] T001 Inicializar git no workspace local: `git init && git remote add origin https://github.com/LuanLindolfo/tcc.git` em `/home/lindolfo/tcc`
-- [ ] T002 Fazer primeiro commit e push de toda a estrutura Streamlit para a branch main do GitHub: `git add . && git commit -m "feat: add streamlit app structure"` em `/home/lindolfo/tcc`
+- [x] T001 Inicializar git no workspace local: `git init && git remote add origin https://github.com/LuanLindolfo/tcc.git` em `/home/lindolfo/tcc`
+- [x] T002 Fazer primeiro commit e push de toda a estrutura Streamlit para a branch main do GitHub: `git add . && git commit -m "feat: add streamlit app structure"` em `/home/lindolfo/tcc`
 - [ ] T003 Verificar no GitHub que os seguintes arquivos existem após o push: `app.py`, `requirements.txt`, `pages/`, `utils/`, `notebooks/censo_castanhal_pipeline.ipynb`
 
 ---
@@ -81,10 +81,10 @@ Fase 7 (Deploy)
 
 > Critério independente: Todas as 3 abas de dados carregam gráficos corretos sem erro.
 
-- [ ] T011 [P] [US1] Atualizar `utils/data_loader.py` com as funções `carregar_demografico()`, `carregar_domicilios()`, `carregar_educacao()`, `carregar_trabalho_renda()` e `carregar_features()` usando os nomes de colunas reais confirmados na T006 — garantir que cada função retorna DataFrame não-vazio com as colunas esperadas pelos gráficos
-- [ ] T012 [P] [US1] Atualizar `pages/1_demografia.py` para usar as colunas reais da pirâmide etária (ex: coluna de faixa etária, colunas de homens/mulheres) e do arquivo de razão de sexo/índice de envelhecimento, garantindo que os gráficos renderizam sem `KeyError`
-- [ ] T013 [P] [US1] Atualizar `pages/2_domicilios.py` para usar colunas reais de saneamento, tipos de domicílio e condições de ocupação dos XLSX — garantir que KPIs e histograma IAH exibem valores corretos
-- [ ] T014 [P] [US1] Atualizar `pages/3_educacao_renda.py` para usar colunas reais de nível de instrução, taxa de analfabetismo, frequência escolar e rendimento per capita — placeholder do Gini deve permanecer com `st.info()`
+- [x] T011 [P] [US1] Atualizar `utils/data_loader.py` com as funções `carregar_demografico()`, `carregar_domicilios()`, `carregar_educacao()`, `carregar_trabalho_renda()` e `carregar_features()` usando os nomes de colunas reais confirmados na T006 — garantir que cada função retorna DataFrame não-vazio com as colunas esperadas pelos gráficos
+- [x] T012 [P] [US1] Atualizar `pages/1_demografia.py` para usar as colunas reais da pirâmide etária (ex: coluna de faixa etária, colunas de homens/mulheres) e do arquivo de razão de sexo/índice de envelhecimento, garantindo que os gráficos renderizam sem `KeyError`
+- [x] T013 [P] [US1] Atualizar `pages/2_domicilios.py` para usar colunas reais de saneamento, tipos de domicílio e condições de ocupação dos XLSX — garantir que KPIs e histograma IAH exibem valores corretos
+- [x] T014 [P] [US1] Atualizar `pages/3_educacao_renda.py` para usar colunas reais de nível de instrução, taxa de analfabetismo, frequência escolar e rendimento per capita — placeholder do Gini deve permanecer com `st.info()`
 
 ---
 
@@ -93,7 +93,7 @@ Fase 7 (Deploy)
 > Critério independente: Aba ML exibe métricas e gráficos interpretáveis carregados do GitHub.
 
 - [ ] T015 [P] [US2] Validar `pages/4_machine_learning.py` após execução do pipeline (Fase 3): verificar que as 3 abas internas (Classificação, Regressão, Clustering) carregam métricas dos JSONs e gráficos sem erro — corrigir quaisquer referências a colunas inexistentes em `pages/4_machine_learning.py`
-- [ ] T016 [US2] Adicionar filtro interativo por cluster (`st.selectbox`) na aba de Clustering em `pages/4_machine_learning.py` para satisfazer US2 Acceptance Scenario 2 (filtro que atualiza gráfico) — executar após T015
+- [x] T016 [US2] Adicionar filtro interativo por cluster (`st.selectbox`) na aba de Clustering em `pages/4_machine_learning.py` para satisfazer US2 Acceptance Scenario 2 (filtro que atualiza gráfico) — executar após T015
 
 ---
 
