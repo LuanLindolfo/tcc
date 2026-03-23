@@ -1,6 +1,6 @@
 # 🏙️ Sistema de Inteligência Territorial de Castanhal
 
-Dashboard interativo para análise dos dados do **Censo IBGE 2022** do município de
+Dashboard interativo para análise dos dados do **Censo IBGE** (2010–2022) do município de
 Castanhal – PA, com modelos de Machine Learning e assistente de IA conversacional.
 
 > **Projeto**: Trabalho de Conclusão de Curso (TCC)
@@ -80,6 +80,8 @@ streamlit run app.py
 
 ### DataFrames gerados pelo `tcc_tabelas_merge.ipynb`
 
+**Período dos dados**: 2010–2022 (Censo IBGE). Dados anteriores a 2010 não são utilizados.
+
 | DataFrame | O que é |
 |-----------|---------|
 | `df_demografia` | Indicadores populacionais: população total, densidade, urbanização, taxa de crescimento, índice de envelhecimento e razão de sexo do município |
@@ -142,4 +144,4 @@ Ver [`specs/001-censo-streamlit-dashboard/quickstart.md`](specs/001-censo-stream
 
 ---
 
-*Dados: IBGE Censo 2022 | IA: Google Gemini 1.5 Flash | Deploy: Streamlit Community Cloud*
+*Dados: IBGE Censo 2010–2022 | IA: Google Gemini 1.5 Flash | Deploy: Streamlit Community Cloud*

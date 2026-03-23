@@ -4,6 +4,8 @@
 **Data**: 2026-03-23  
 **Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC
 
+**Período dos dados**: 2010–2022 (Censo Demográfico IBGE). Dados anteriores a 2010 não são utilizados.
+
 ---
 
 ## Contexto
@@ -26,7 +28,7 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 ### 1. `limpar_taxa_atividade(df_raw)` → `pd.DataFrame`
 
-**Arquivo fonte**: `taxa_atividade.xlsx`  
+**Arquivo fonte**: `taxa_atividade.xlsx` (ano: 2022)  
 **Saída**: DataFrame com `Condicao_Atividade`, `Total`, `Codigo_Municipio`
 
 | Lógica | Descrição |
@@ -40,7 +42,7 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 ### 2. `limpar_taxa_atividade_percentual(_)` → `pd.DataFrame`
 
-**Arquivo fonte**: `taxa_atividade_percentual.xlsx`  
+**Arquivo fonte**: `taxa_atividade_percentual.xlsx` (ano: 2022)  
 **Saída**: DataFrame com `Seção de Atividade`, `Valor`
 
 | Lógica | Descrição |
@@ -55,7 +57,7 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 ### 3. `limpar_profissoes(_)` → `pd.DataFrame`
 
-**Arquivo fonte**: `profissões.xlsx`  
+**Arquivo fonte**: `profissões.xlsx` (ano: 2022)  
 **Saída**: DataFrame com `Grupo de Ocupação`, `Valor`
 
 | Lógica | Descrição |
@@ -70,7 +72,7 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 ### 4. `limpar_distribuicao_renda(_)` → `pd.DataFrame`
 
-**Arquivo fonte**: `distribuição de renda.xlsx`  
+**Arquivo fonte**: `distribuição de renda.xlsx` (ano: 2022)  
 **Saída**: DataFrame com `Classes_de_Rendimento`, `Total`
 
 | Lógica | Descrição |
@@ -84,7 +86,7 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 ### 5. `extrair_esc(df_raw, sexo, pct=False)` → `pd.DataFrame`
 
-**Arquivos fonte**: `analise_escolaridade_mulheres.xlsx`, `analise_escolaridade_homens.xlsx`, `analise_escolaridade_mulheres_percetual.xlsx`, `analise_escolaridade_homens_percetual.xlsx`  
+**Arquivos fonte** (ano: 2022): `analise_escolaridade_mulheres.xlsx`, `analise_escolaridade_homens.xlsx`, `analise_escolaridade_mulheres_percetual.xlsx`, `analise_escolaridade_homens_percetual.xlsx`  
 **Saída**: DataFrame com `Municipio`, `Sexo`, `Ano`, e colunas de escolaridade
 
 | Lógica | Descrição |

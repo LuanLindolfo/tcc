@@ -4,6 +4,17 @@
 
 ---
 
+## Período dos Dados
+
+| Ano | Fonte | Escopo |
+|-----|-------|--------|
+| **2010** | Censo Demográfico IBGE | Comparação histórica (quando disponível) |
+| **2022** | Censo Demográfico IBGE | Dados principais — demografia, domicílios, educação, trabalho, renda |
+
+Os dados utilizados no projeto são exclusivamente dos Censos **2010** e **2022** (ou posteriores). Nenhum dado anterior a 2010 é considerado.
+
+---
+
 ## Visão Geral
 
 O sistema opera com dados em duas camadas:
@@ -20,26 +31,26 @@ Todos os dados são agregados por **setor censitário** ou **município** (Casta
 
 Dados demográficos por setor censitário de Castanhal.
 
-| Campo | Tipo | Descrição | Fonte XLSX |
-|-------|------|-----------|-----------|
-| `setor_id` | `str` (PK) | Código do setor censitário | Censo 2022 |
-| `bairro` | `str` | Nome do bairro (se disponível) | Censo 2022 |
-| `pop_total` | `int` | Total de habitantes | Censo 2022 |
+| Campo | Tipo | Descrição | Fonte (ano) |
+|-------|------|------------|-----------|
+| `setor_id` | `str` (PK) | Código do setor censitário | 2022 |
+| `bairro` | `str` | Nome do bairro (se disponível) | 2022 |
+| `pop_total` | `int` | Total de habitantes | 2022 |
 | `densidade_demografica` | `float` | Hab./km² | Calculado |
-| `pop_masculina` | `int` | Total de homens | Censo 2022 |
-| `pop_feminina` | `int` | Total de mulheres | Censo 2022 |
+| `pop_masculina` | `int` | Total de homens | 2022 |
+| `pop_feminina` | `int` | Total de mulheres | 2022 |
 | `razao_sexo` | `float` | Homens por 100 mulheres | Calculado |
-| `pop_0_14` | `int` | Pop. de 0 a 14 anos | Censo 2022 |
-| `pop_15_64` | `int` | Pop. de 15 a 64 anos | Censo 2022 |
-| `pop_65_mais` | `int` | Pop. de 65+ anos | Censo 2022 |
+| `pop_0_14` | `int` | Pop. de 0 a 14 anos | 2022 |
+| `pop_15_64` | `int` | Pop. de 15 a 64 anos | 2022 |
+| `pop_65_mais` | `int` | Pop. de 65+ anos | 2022 |
 | `indice_envelhecimento` | `float` | (Pop.65+ / Pop.0-14) × 100 | Calculado |
 | `ide` | `float` | Indicador de Dependência Econômica | Calculado (feature composta) |
-| `pct_branca` | `float` | % população branca | Censo 2022 |
-| `pct_preta` | `float` | % população preta | Censo 2022 |
-| `pct_parda` | `float` | % população parda | Censo 2022 |
-| `pct_indigena` | `float` | % população indígena | Censo 2022 |
-| `pct_amarela` | `float` | % população amarela | Censo 2022 |
-| `pct_naturais_castanhal` | `float` | % residentes nascidos em Castanhal | Censo 2022 |
+| `pct_branca` | `float` | % população branca | 2022 |
+| `pct_preta` | `float` | % população preta | 2022 |
+| `pct_parda` | `float` | % população parda | 2022 |
+| `pct_indigena` | `float` | % população indígena | 2022 |
+| `pct_amarela` | `float` | % população amarela | 2022 |
+| `pct_naturais_castanhal` | `float` | % residentes nascidos em Castanhal | 2022 |
 | `pct_migrantes` | `float` | % residentes nascidos fora do Pará | Calculado |
 
 ---
@@ -48,24 +59,24 @@ Dados demográficos por setor censitário de Castanhal.
 
 Condições habitacionais por setor censitário.
 
-| Campo | Tipo | Descrição | Fonte XLSX |
-|-------|------|-----------|-----------|
-| `setor_id` | `str` (FK → demografico) | Código do setor censitário | Censo 2022 |
-| `total_domicilios` | `int` | Total de domicílios ocupados | Censo 2022 |
+| Campo | Tipo | Descrição | Fonte (ano) |
+|-------|------|------------|-----------|
+| `setor_id` | `str` (FK → demografico) | Código do setor censitário | 2022 |
+| `total_domicilios` | `int` | Total de domicílios ocupados | 2022 |
 | `media_moradores` | `float` | Média de moradores/domicílio | Calculado |
-| `pct_casas` | `float` | % domicílios do tipo casa | Censo 2022 |
-| `pct_apartamentos` | `float` | % domicílios do tipo apartamento | Censo 2022 |
-| `pct_comodos` | `float` | % domicílios do tipo cômodo | Censo 2022 |
-| `pct_agua_encanada` | `float` | % com acesso à água encanada | Censo 2022 |
-| `pct_esgoto` | `float` | % com esgoto sanitário | Censo 2022 |
-| `pct_coleta_lixo` | `float` | % com coleta de lixo | Censo 2022 |
-| `pct_energia_eletrica` | `float` | % com energia elétrica | Censo 2022 |
-| `pct_parede_alvenaria` | `float` | % paredes de alvenaria | Censo 2022 |
-| `pct_parede_madeira` | `float` | % paredes de madeira | Censo 2022 |
-| `pct_parede_taipa` | `float` | % paredes de taipa | Censo 2022 |
-| `pct_proprio` | `float` | % domicílios próprios | Censo 2022 |
-| `pct_alugado` | `float` | % domicílios alugados | Censo 2022 |
-| `pct_cedido` | `float` | % domicílios cedidos | Censo 2022 |
+| `pct_casas` | `float` | % domicílios do tipo casa | 2022 |
+| `pct_apartamentos` | `float` | % domicílios do tipo apartamento | 2022 |
+| `pct_comodos` | `float` | % domicílios do tipo cômodo | 2022 |
+| `pct_agua_encanada` | `float` | % com acesso à água encanada | 2022 |
+| `pct_esgoto` | `float` | % com esgoto sanitário | 2022 |
+| `pct_coleta_lixo` | `float` | % com coleta de lixo | 2022 |
+| `pct_energia_eletrica` | `float` | % com energia elétrica | 2022 |
+| `pct_parede_alvenaria` | `float` | % paredes de alvenaria | 2022 |
+| `pct_parede_madeira` | `float` | % paredes de madeira | 2022 |
+| `pct_parede_taipa` | `float` | % paredes de taipa | 2022 |
+| `pct_proprio` | `float` | % domicílios próprios | 2022 |
+| `pct_alugado` | `float` | % domicílios alugados | 2022 |
+| `pct_cedido` | `float` | % domicílios cedidos | 2022 |
 | `iah` | `float` | Índice de Adequação Habitacional (0–1) | Calculado (feature composta) |
 
 **IAH (feature composta)**:
@@ -80,18 +91,18 @@ Normalizado para 0–1. Alvo da regressão.
 
 Indicadores educacionais por setor censitário.
 
-| Campo | Tipo | Descrição | Fonte XLSX |
-|-------|------|-----------|-----------|
-| `setor_id` | `str` (FK) | Código do setor censitário | Censo 2022 |
-| `taxa_analfabetismo` | `float` | % analfabetos (15+ anos) | Censo 2022 |
-| `pct_fundamental_incompleto` | `float` | % sem fundamental completo | Censo 2022 |
-| `pct_fundamental_completo` | `float` | % com fundamental completo | Censo 2022 |
-| `pct_medio_incompleto` | `float` | % com médio incompleto | Censo 2022 |
-| `pct_medio_completo` | `float` | % com médio completo | Censo 2022 |
-| `pct_superior_incompleto` | `float` | % com superior incompleto | Censo 2022 |
-| `pct_superior_completo` | `float` | % com superior completo | Censo 2022 |
-| `pct_freq_escolar_criancas` | `float` | % crianças (6-14) na escola | Censo 2022 |
-| `pct_freq_escolar_jovens` | `float` | % jovens (15-17) na escola | Censo 2022 |
+| Campo | Tipo | Descrição | Fonte (ano) |
+|-------|------|------------|-----------|
+| `setor_id` | `str` (FK) | Código do setor censitário | 2022 |
+| `taxa_analfabetismo` | `float` | % analfabetos (15+ anos) | 2022 |
+| `pct_fundamental_incompleto` | `float` | % sem fundamental completo | 2022 |
+| `pct_fundamental_completo` | `float` | % com fundamental completo | 2022 |
+| `pct_medio_incompleto` | `float` | % com médio incompleto | 2022 |
+| `pct_medio_completo` | `float` | % com médio completo | 2022 |
+| `pct_superior_incompleto` | `float` | % com superior incompleto | 2022 |
+| `pct_superior_completo` | `float` | % com superior completo | 2022 |
+| `pct_freq_escolar_criancas` | `float` | % crianças (6-14) na escola | 2022 |
+| `pct_freq_escolar_jovens` | `float` | % jovens (15-17) na escola | 2022 |
 | `escolaridade_media_anos` | `float` | Anos médios de estudo | Calculado |
 
 ---
@@ -100,18 +111,18 @@ Indicadores educacionais por setor censitário.
 
 Indicadores de trabalho e renda por setor censitário.
 
-| Campo | Tipo | Descrição | Fonte XLSX |
-|-------|------|-----------|-----------|
-| `setor_id` | `str` (FK) | Código do setor censitário | Censo 2022 |
-| `taxa_atividade_pea` | `float` | % PEA sobre pop. em idade ativa | Censo 2022 |
-| `pct_setor_primario` | `float` | % PEA em agropecuária/extrativismo | Censo 2022 |
-| `pct_setor_secundario` | `float` | % PEA em indústria/construção | Censo 2022 |
-| `pct_setor_terciario` | `float` | % PEA em comércio/serviços | Censo 2022 |
-| `renda_media_per_capita` | `float` | Renda domiciliar per capita (R$) | Censo 2022 |
-| `pct_sem_renda` | `float` | % domicílios sem rendimento | Censo 2022 |
-| `pct_ate_1sm` | `float` | % com renda até 1 salário mínimo | Censo 2022 |
-| `pct_1_2sm` | `float` | % com renda de 1 a 2 SM | Censo 2022 |
-| `pct_acima_2sm` | `float` | % com renda acima de 2 SM | Censo 2022 |
+| Campo | Tipo | Descrição | Fonte (ano) |
+|-------|------|------------|-----------|
+| `setor_id` | `str` (FK) | Código do setor censitário | 2022 |
+| `taxa_atividade_pea` | `float` | % PEA sobre pop. em idade ativa | 2022 |
+| `pct_setor_primario` | `float` | % PEA em agropecuária/extrativismo | 2022 |
+| `pct_setor_secundario` | `float` | % PEA em indústria/construção | 2022 |
+| `pct_setor_terciario` | `float` | % PEA em comércio/serviços | 2022 |
+| `renda_media_per_capita` | `float` | Renda domiciliar per capita (R$) | 2022 |
+| `pct_sem_renda` | `float` | % domicílios sem rendimento | 2022 |
+| `pct_ate_1sm` | `float` | % com renda até 1 salário mínimo | 2022 |
+| `pct_1_2sm` | `float` | % com renda de 1 a 2 SM | 2022 |
+| `pct_acima_2sm` | `float` | % com renda acima de 2 SM | 2022 |
 | `indice_gini` | `float` | Índice de Gini — ⏳ **DIFERIDO** (campo reservado no schema; cálculo suspenso até disponibilidade de microdados) | Calculado |
 | `cluster_ocupacao` | `int` (0–3) | Cluster K-Means por perfil econômico | ML output |
 
@@ -122,7 +133,7 @@ Indicadores de trabalho e renda por setor censitário.
 Dataset consolidado para treinamento ML (join de todas as entidades acima).
 
 | Campo | Tipo | Descrição |
-|-------|------|-----------|
+|-------|------|------------|
 | `setor_id` | `str` (PK) | Código do setor censitário |
 | *(todas as features acima)* | — | Join de demografico + domicilios + educacao + trabalho_renda |
 | `iah` | `float` | **Alvo de Regressão** |
@@ -224,7 +235,7 @@ Modelo de clustering para perfil econômico.
 Gerenciado via `st.session_state` — não persistido em arquivo.
 
 | Campo | Tipo | Descrição |
-|-------|------|-----------|
+|-------|------|------------|
 | `messages` | `list[dict]` | Lista de `{"role": "user"/"assistant", "content": str}` |
 | `contexto_ativo` | `str` | Tema atual da conversa (ex: "educacao", "renda") |
 | `dados_contexto` | `pd.DataFrame` | Slice do DataFrame relevante para o tema |
@@ -255,21 +266,21 @@ trabalho_renda.parquet ─┘         ↓
 
 ## Tabelas Consolidadas (tcc_tabelas_merge.ipynb)
 
-O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames consolidados por tópico** do documento TCC. Fonte: Google Drive `/content/drive/MyDrive/censo_castanhal/` ou GitHub fallback.
+O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames consolidados por tópico** do documento TCC. **Período dos dados**: 2010–2022 (Censo IBGE). Fonte: Google Drive `/content/drive/MyDrive/censo_castanhal/` ou GitHub fallback.
 
 ### Tabelas geradas
 
-| DataFrame | O que é | Colunas principais |
-|-----------|---------|--------------------|
-| `df_demografia` | Indicadores demográficos do município: população total, densidade, urbanização, taxa de crescimento anual, índice de envelhecimento (60+ por 100 jovens), razão de sexo | Municipio, Codigo_Municipio, Populacao_Total, Densidade_Demografica, Percentual_Urbano, Taxa_Crescimento_Anual, Indice_Envelhecimento, Razao_Sexo |
-| `df_domicilios` | Características habitacionais: tipos de domicílio (casa/apartamento/cômodo), saneamento (água, esgoto, lixo, energia), material das paredes, condições de ocupação | Codigo_Municipio, total_domicilios, pct_casas, pct_apartamentos, saneamento, material_paredes, ocupacao |
-| `df_educacao` | Escolaridade por sexo (18+ anos): pessoas por nível de instrução — sem instrução/fundamental incompleto, fundamental completo, médio completo, superior completo | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
-| `df_educacao_sexo_pct` | Versão percentual de df_educacao (mesmas variáveis com sufixo _Perc) | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais_Perc, ... |
-| `df_trabalho_renda` | Condição de atividade econômica (PEA): economicamente ativas (ocupadas/desocupadas) e não economicamente ativas | Condicao_Atividade, Total, Codigo_Municipio |
-| `taxa_atividade_pct_cleaned` | Distribuição de ocupados por seção CNAE (agricultura, indústria, comércio, construção, administração pública, educação etc.) | Seção de Atividade, Valor |
-| `profissao_cleaned` | Distribuição por grande grupo de ocupação CBO (diretores, técnicos, vendedores, operários, ocupações elementares etc.) | Grupo de Ocupação, Valor |
-| `df_renda` | Rendimento domiciliar mensal per capita (R$) e total de domicílios com dados de distribuição de renda | Codigo_Municipio, Municipio, Rendimento_Per_Capita, Total_Domicilios_DistRenda |
-| `distribuicao_renda` | Quantidade de domicílios em cada faixa de renda (até 1/4 SM, 1/2 SM, 1 SM, 2 SM, 3 SM ... até sem rendimento) | Classes_de_Rendimento, Total |
+| DataFrame | O que é | Ano | Colunas principais |
+|------------|---------|-----|--------------------|
+| `df_demografia` | Indicadores demográficos do município: população total, densidade, urbanização, taxa de crescimento anual, índice de envelhecimento (60+ por 100 jovens), razão de sexo | 2022 | Municipio, Codigo_Municipio, Populacao_Total, Densidade_Demografica, Percentual_Urbano, Taxa_Crescimento_Anual, Indice_Envelhecimento, Razao_Sexo |
+| `df_domicilios` | Características habitacionais: tipos de domicílio (casa/apartamento/cômodo), saneamento (água, esgoto, lixo, energia), material das paredes, condições de ocupação | 2022 | Codigo_Municipio, total_domicilios, pct_casas, pct_apartamentos, saneamento, material_paredes, ocupacao |
+| `df_educacao` | Escolaridade por sexo (18+ anos): pessoas por nível de instrução — sem instrução/fundamental incompleto, fundamental completo, médio completo, superior completo | 2022 | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
+| `df_educacao_sexo_pct` | Versão percentual de df_educacao (mesmas variáveis com sufixo _Perc) | 2022 | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais_Perc, ... |
+| `df_trabalho_renda` | Condição de atividade econômica (PEA): economicamente ativas (ocupadas/desocupadas) e não economicamente ativas | 2022 | Condicao_Atividade, Total, Codigo_Municipio |
+| `taxa_atividade_pct_cleaned` | Distribuição de ocupados por seção CNAE (agricultura, indústria, comércio, construção, administração pública, educação etc.) | 2022 | Seção de Atividade, Valor |
+| `profissao_cleaned` | Distribuição por grande grupo de ocupação CBO (diretores, técnicos, vendedores, operários, ocupações elementares etc.) | 2022 | Grupo de Ocupação, Valor |
+| `df_renda` | Rendimento domiciliar mensal per capita (R$) e total de domicílios com dados de distribuição de renda | 2022 | Codigo_Municipio, Municipio, Rendimento_Per_Capita, Total_Domicilios_DistRenda |
+| `distribuicao_renda` | Quantidade de domicílios em cada faixa de renda (até 1/4 SM, 1/2 SM, 1 SM, 2 SM, 3 SM ... até sem rendimento) | 2022 | Classes_de_Rendimento, Total |
 
 **Funções de limpeza**: Ver [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md).
 
@@ -278,7 +289,7 @@ O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames c
 ## Regras de Validação
 
 | Regra | Campo | Constraint |
-|-------|-------|-----------|
+|-------|-------|------------|
 | Setor único | `setor_id` | PK único em cada parquet |
 | Percentuais válidos | Todos `pct_*` | `0.0 ≤ valor ≤ 100.0` |
 | IAH normalizado | `iah` | `0.0 ≤ valor ≤ 1.0` |

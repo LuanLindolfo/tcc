@@ -10,7 +10,7 @@
 > **Constituição aplicada**: v1.1.0 — Princípios I–V. O notebook Colab (link acima) é a **fonte de verdade** do pipeline; o arquivo no repo é espelho.
 > **Índice de Gini**: ⏳ diferido — campo reservado no schema, cálculo e exibição pendentes.
 
-Projeto de TCC que utiliza dados do Censo 2022 (e anos anteriores) do IBGE para o município de **Castanhal – PA**. O pipeline integra Google Colab (processamento) → GitHub (armazenamento dos xlsx e código) → Streamlit (visualização e exploração interativa). O objetivo final é subsidiar análises de **políticas públicas municipais** com apoio de modelos de Machine Learning (classificação e regressão) e um assistente de IA conversacional.
+Projeto de TCC que utiliza dados do **Censo IBGE 2010–2022** do município de **Castanhal – PA**. O período dos dados é restrito a 2010 em diante; dados anteriores não são considerados. O pipeline integra Google Colab (processamento) → GitHub (armazenamento dos xlsx e código) → Streamlit (visualização e exploração interativa). O objetivo final é subsidiar análises de **políticas públicas municipais** com apoio de modelos de Machine Learning (classificação e regressão) e um assistente de IA conversacional.
 
 ## Domínio de Dados (Censo Castanhal)
 
