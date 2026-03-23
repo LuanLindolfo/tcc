@@ -8,10 +8,18 @@
 
 | Ano | Fonte | Escopo |
 |-----|-------|--------|
-| **2010** | Censo Demográfico IBGE | Comparação histórica (quando disponível) |
+| **2010** | Censo Demográfico IBGE | Usado **apenas** na taxa de crescimento anual (comparação 2010→2022). XLSX do Censo 2010 não estão no repositório (item diferido). |
 | **2022** | Censo Demográfico IBGE | Dados principais — demografia, domicílios, educação, trabalho, renda |
 
 Os dados utilizados no projeto são exclusivamente dos Censos **2010** e **2022** (ou posteriores). Nenhum dado anterior a 2010 é considerado.
+
+### Indicadores que usam Censo 2010
+
+| Indicador | Onde | Descrição |
+|-----------|------|-----------|
+| **Taxa_Crescimento_Anual** | `df_demografia`, `Censo 2022 - Taxa de crescimento anual da população - Municípios.xlsx` | Taxa média geométrica de crescimento entre **Censo 2010** e **Censo 2022**. O valor já vem calculado pelo IBGE no arquivo do Censo 2022. |
+
+*\* `df_demografia`: 2010+2022 apenas em Taxa_Crescimento_Anual; demais campos são 2022.*
 
 ---
 
@@ -272,7 +280,7 @@ O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames c
 
 | DataFrame | O que é | Ano | Colunas principais |
 |------------|---------|-----|--------------------|
-| `df_demografia` | Indicadores demográficos do município: população total, densidade, urbanização, taxa de crescimento anual, índice de envelhecimento (60+ por 100 jovens), razão de sexo | 2022 | Municipio, Codigo_Municipio, Populacao_Total, Densidade_Demografica, Percentual_Urbano, Taxa_Crescimento_Anual, Indice_Envelhecimento, Razao_Sexo |
+| `df_demografia` | Indicadores demográficos do município: população total, densidade, urbanização, taxa de crescimento anual (2010→2022), índice de envelhecimento, razão de sexo | 2010+2022* | Municipio, Codigo_Municipio, Populacao_Total, Densidade_Demografica, Percentual_Urbano, **Taxa_Crescimento_Anual**, Indice_Envelhecimento, Razao_Sexo |
 | `df_domicilios` | Características habitacionais: tipos de domicílio (casa/apartamento/cômodo), saneamento (água, esgoto, lixo, energia), material das paredes, condições de ocupação | 2022 | Codigo_Municipio, total_domicilios, pct_casas, pct_apartamentos, saneamento, material_paredes, ocupacao |
 | `df_educacao` | Escolaridade por sexo (18+ anos): pessoas por nível de instrução — sem instrução/fundamental incompleto, fundamental completo, médio completo, superior completo | 2022 | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
 | `df_educacao_sexo_pct` | Versão percentual de df_educacao (mesmas variáveis com sufixo _Perc) | 2022 | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais_Perc, ... |

@@ -6,6 +6,8 @@
 
 **Período dos dados**: 2010–2022 (Censo Demográfico IBGE). Dados anteriores a 2010 não são utilizados.
 
+**Único indicador que usa Censo 2010**: `Taxa_Crescimento_Anual` (arquivo `Censo 2022 - Taxa de crescimento anual da população - Municípios.xlsx`), que é a taxa média geométrica entre 2010 e 2022. Demais tabelas/arquivos são exclusivamente Censo 2022.
+
 ---
 
 ## Contexto

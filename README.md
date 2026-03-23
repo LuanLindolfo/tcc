@@ -80,7 +80,7 @@ streamlit run app.py
 
 ### DataFrames gerados pelo `tcc_tabelas_merge.ipynb`
 
-**Período dos dados**: 2010–2022 (Censo IBGE). Dados anteriores a 2010 não são utilizados.
+**Período dos dados**: 2010–2022 (Censo IBGE). Dados anteriores a 2010 não são utilizados. **Usa Censo 2010**: apenas `Taxa_Crescimento_Anual` (comparação 2010→2022).
 
 | DataFrame | O que é |
 |-----------|---------|
