@@ -2,7 +2,7 @@ import os
 import streamlit as st
 
 GITHUB_REPO = "LuanLindolfo/tcc"
-GITHUB_BRANCH = "main"
+GITHUB_BRANCH = "001-censo-streamlit-dashboard"
 GITHUB_RAW_BASE_DEFAULT = (
     f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}"
 )

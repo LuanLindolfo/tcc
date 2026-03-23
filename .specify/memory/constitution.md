@@ -1,34 +1,28 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version change: [template / unreleased] → 1.0.0
-Type of bump: MINOR — primeira ratificação a partir do template genérico;
-              4 princípios concretos adicionados, seções de restrições e governança preenchidas.
+Version change: 1.0.0 → 1.1.0
+Type of bump: MINOR — adição do Princípio V (Notebook Colab como Fonte de Verdade).
+
+Princípios modificados:
+  - (nenhum)
 
 Princípios adicionados (novos):
-  - I.  LGPD & Anonimização por Agregação
-  - II. IA Ética como Ferramenta de Apoio à Decisão
-  - III. Segurança de Credenciais — Zero-Exposure
-  - IV. Rigor Acadêmico e Persistência Estruturada (.parquet)
+  - V. Notebook Colab como Fonte de Verdade — notebook canônico em
+    https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p
+    O arquivo no repositório (notebooks/censo_castanhal_pipeline.ipynb) é espelho;
+    alterações fluem Colab → GitHub (upload manual). Não criar notebooks duplicados.
 
 Seções adicionadas:
-  - Restrições de Escopo & Itens Diferidos
-  - Governança (procedimento de emenda, versionamento, compliance)
+  - Princípio V (após IV)
 
 Templates verificados:
-  ✅ .specify/templates/plan-template.md — Constitution Check gates compatíveis
-  ✅ .specify/templates/spec-template.md — Seção Requirements alinhada com FR existentes
-  ✅ .specify/templates/tasks-template.md — Sem referências a princípios antigos
-  ✅ specs/001-censo-streamlit-dashboard/plan.md — Constitution Check retroativamente alinhado
+  ✅ plan.md — Constitution Check deve incluir Princípio V
+  ✅ spec.md — Colab Source já referenciado
+  ✅ tasks.md — referência ao notebook como fonte de verdade
 
 Itens diferidos (TODOs):
-  - TODO(GINI_IMPL): Índice Gini presente no schema (trabalho_renda.parquet campo indice_gini)
-    mas cálculo e exibição DIFERIDOS. Implementar quando o autor confirmar disponibilidade
-    dos microdados necessários. Ver Princípio IV e seção de Restrições.
-
-Follow-up necessário:
-  - Após implementação do Gini: emenda PATCH atualizando seção de Restrições para
-    remover o item diferido e adicionar critério de validação ao SC-002.
+  - TODO(GINI_IMPL): Índice Gini — cálculo e exibição DIFERIDOS.
 -->
 
 # Constituição — Sistema de Inteligência Territorial de Castanhal
@@ -140,6 +134,32 @@ científica do trabalho.
 
 ---
 
+### V. Notebook Colab como Fonte de Verdade
+
+O pipeline de processamento do Censo DEVE ter um **único notebook canônico**, que é
+a fonte de verdade para toda a lógica de ingestão, limpeza, feature engineering e
+treinamento de modelos.
+
+Regras não-negociáveis:
+- O notebook **fonte de verdade** está em:
+  `https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p?usp=sharing`
+- O arquivo `notebooks/censo_castanhal_pipeline.ipynb` no repositório GitHub é um
+  **espelho** do notebook canônico — NÃO é permitido criar notebooks duplicados ou
+  alternativos para o mesmo pipeline.
+- Alterações no pipeline DEVEM ser feitas primeiro no notebook Colab; em seguida,
+  o autor faz upload manual para a branch do projeto no GitHub.
+- Qualquer divergência entre o notebook no Colab e o arquivo no repositório DEVE
+  ser resolvida priorizando o conteúdo do **Colab** como autoritativo.
+- O fluxo de sincronização é: Colab (desenvolvimento) → upload → GitHub (versionamento
+  e consumo pelo Streamlit).
+
+**Rationale**: O autor desenvolve e executa o pipeline no Google Colab. O repositório
+GitHub serve para versionamento, compartilhamento e integração com o app Streamlit.
+Manter uma única fonte de verdade evita inconsistências e garante que o código em
+produção reflita exatamente o que foi testado no Colab.
+
+---
+
 ## Restrições de Escopo & Itens Diferidos
 
 Esta seção registra decisões de escopo e itens intencionalmente excluídos da versão
@@ -173,7 +193,7 @@ conflito, a constituição prevalece e os demais documentos DEVEM ser emendados.
 
 **Compliance**:
 - Todo novo requisito funcional adicionado ao `spec.md` DEVE ser verificado contra
-  os 4 princípios desta constituição antes de ser aceito.
+  os princípios desta constituição antes de ser aceito.
 - Todo plano de implementação (`plan.md`) DEVE incluir uma seção "Constitution Check"
   que avalie explicitamente cada princípio.
 - Qualquer desvio de princípio DEVE ser justificado na seção "Complexity Tracking"
@@ -181,4 +201,4 @@ conflito, a constituição prevalece e os demais documentos DEVEM ser emendados.
 - A revisão de compliance DEVE ocorrer: (a) antes de iniciar a implementação de cada
   fase; (b) ao submeter o TCC para avaliação da banca.
 
-**Version**: 1.0.0 | **Ratified**: 2026-03-16 | **Last Amended**: 2026-03-16
+**Version**: 1.1.0 | **Ratified**: 2026-03-16 | **Last Amended**: 2026-03-16
