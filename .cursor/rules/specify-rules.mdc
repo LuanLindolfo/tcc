@@ -32,7 +32,9 @@ data/
 └── results/               ← *.json, *.parquet (métricas ML)
 models/                    ← *.joblib (modelos treinados)
 notebooks/
-└── censo_castanhal_pipeline.ipynb
+└── censo_castanhal_pipeline.ipynb   ← Pipeline Colab (fonte de verdade)
+
+Raiz: tcc_tabelas_merge.ipynb (tabelas consolidadas), tcc_censo_2022.ipynb (análises)
 requirements.txt
 .gitignore
 .streamlit/secrets.toml    ← NÃO commitar
@@ -61,4 +63,6 @@ pip install -r requirements.txt
 - 001-censo-streamlit-dashboard: Added
 
 <!-- MANUAL ADDITIONS START -->
+- Funções de limpeza IBGE: specs/001-censo-streamlit-dashboard/contracts/ibge-table-cleaning.md
+- tcc_tabelas_merge.ipynb: df_demografia, df_domicilios, df_educacao, df_trabalho_renda, df_renda
 <!-- MANUAL ADDITIONS END -->

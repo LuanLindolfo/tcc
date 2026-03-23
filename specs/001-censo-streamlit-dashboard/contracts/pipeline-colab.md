@@ -3,6 +3,10 @@
 **Projeto**: Sistema de Inteligência Territorial de Castanhal  
 **Data**: 2026-03-16
 
+> **Constituição v1.1.0 Princípio V**: O notebook **fonte de verdade** está em
+> https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p
+> O arquivo `notebooks/censo_castanhal_pipeline.ipynb` no repo é espelho.
+
 ---
 
 ## Estrutura do Notebook Colab
@@ -68,6 +72,8 @@ def ingerir_dados(base_path: str) -> dict[str, pd.DataFrame]:
 
 **Entradas**: `dict[str, pd.DataFrame]` brutos  
 **Saídas**: `dict[str, pd.DataFrame]` limpos
+
+**Tabelas IBGE com metadados**: Para arquivos XLSX com metadados no topo (ex: `taxa_atividade.xlsx`, `profissões.xlsx`, `distribuição de renda.xlsx`), usar as funções documentadas em [ibge-table-cleaning.md](./ibge-table-cleaning.md): `limpar_taxa_atividade`, `limpar_taxa_atividade_percentual`, `limpar_profissoes`, `limpar_distribuicao_renda`, `extrair_esc`. Padrão: `header=None` → localizar dados por texto → extrair colunas → remover vazios/Total → `reset_index(drop=True)`.
 
 **Operações obrigatórias**:
 ```python

@@ -234,6 +234,24 @@ __pycache__/
 
 ---
 
+## 9. Limpeza de Tabelas IBGE (Excel com Metadados)
+
+**Problema**: Arquivos XLSX do IBGE (taxa de atividade, profissões, distribuição de renda) têm **metadados no topo**; o header real está em linhas variáveis.
+
+**Decisão**: Usar padrão `header=None` + localização por texto + extração de colunas + exclusão de vazios/Total. Funções dedicadas documentadas em [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md):
+
+| Tabela | Função |
+|--------|--------|
+| taxa_atividade | `limpar_taxa_atividade` |
+| taxa_atividade_percentual | `limpar_taxa_atividade_percentual` |
+| profissões | `limpar_profissoes` |
+| distribuição de renda | `limpar_distribuicao_renda` |
+| escolaridade (mulheres/homens) | `extrair_esc` |
+
+**Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC.
+
+---
+
 ## Incógnitas resolvidas
 
 | Incógnita original | Decisão tomada |

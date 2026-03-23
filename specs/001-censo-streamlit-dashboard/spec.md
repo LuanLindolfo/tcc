@@ -7,12 +7,22 @@
 
 ## Contexto
 
-> **Constituição aplicada**: v1.0.0 — Princípios I (LGPD), II (IA Ética), III (Zero-Exposure), IV (Rigor Acadêmico).
+> **Constituição aplicada**: v1.1.0 — Princípios I–V. O notebook Colab (link acima) é a **fonte de verdade** do pipeline; o arquivo no repo é espelho.
 > **Índice de Gini**: ⏳ diferido — campo reservado no schema, cálculo e exibição pendentes.
 
 Projeto de TCC que utiliza dados do Censo 2022 (e anos anteriores) do IBGE para o município de **Castanhal – PA**. O pipeline integra Google Colab (processamento) → GitHub (armazenamento dos xlsx e código) → Streamlit (visualização e exploração interativa). O objetivo final é subsidiar análises de **políticas públicas municipais** com apoio de modelos de Machine Learning (classificação e regressão) e um assistente de IA conversacional.
 
 ## Domínio de Dados (Censo Castanhal)
+
+### Notebooks de Dados
+
+| Notebook | Propósito | Localização |
+|----------|-----------|-------------|
+| `notebooks/censo_castanhal_pipeline.ipynb` | Pipeline Colab: limpeza + ML + push GitHub | Fonte de verdade (Colab); espelho no repo |
+| `tcc_tabelas_merge.ipynb` | Tabelas consolidadas por tópico (doc TCC) | Raiz do repo |
+| `tcc_censo_2022.ipynb` | Análises exploratórias e processamento auxiliar | Raiz do repo |
+
+O `tcc_tabelas_merge.ipynb` gera: `df_demografia`, `df_domicilios`, `df_educacao`, `df_trabalho_renda`, `df_renda`, `distribuicao_renda`. Tabelas IBGE com metadados no topo usam funções de limpeza documentadas em [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md).
 
 ### Variáveis disponíveis nos arquivos XLSX importados no Colab:
 

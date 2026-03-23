@@ -26,7 +26,7 @@ Dashboard interativo em Streamlit para análise dos dados do Censo 2022 de Casta
 
 ## Constitution Check
 
-*GATE: Verificado contra Constituição v1.0.0 (ratificada 2026-03-16).*
+*GATE: Verificado contra Constituição v1.1.0 (ratificada 2026-03-16).*
 
 | Princípio Constitucional | Status | Evidência no Plano |
 |--------------------------|--------|--------------------|
@@ -34,9 +34,10 @@ Dashboard interativo em Streamlit para análise dos dados do Censo 2022 de Casta
 | **II. IA Ética** | ✅ PASS | Feature importances exportadas ao GitHub; métricas exibidas junto com resultados; Gemini como "apoio à decisão" |
 | **III. Zero-Exposure de Credenciais** | ✅ PASS | `GITHUB_TOKEN` via Colab Secrets; `GEMINI_API_KEY` via `st.secrets`; `.gitignore` bloqueia `.env` e `secrets.toml` |
 | **IV. Rigor Acadêmico + .parquet** | ✅ PASS | Todos os artefatos em `.parquet`/`.joblib`; `random_state=42`; `@st.cache_data`; `GITHUB_RAW_BASE` via secret |
+| **V. Notebook Colab como Fonte de Verdade** | ✅ PASS | Notebook canônico em Colab Drive; `notebooks/censo_castanhal_pipeline.ipynb` é espelho; alterações fluem Colab → GitHub |
 | **Índice Gini (diferido)** | ⏳ DEFERIDO | Campo `indice_gini` reservado no schema; cálculo e exibição aguardam confirmação de microdados |
 
-**Resultado**: Nenhuma violação. Todos os 4 princípios satisfeitos. Prosseguir para implementação.
+**Resultado**: Nenhuma violação. Todos os 5 princípios satisfeitos. Prosseguir para implementação.
 
 ---
 
@@ -53,7 +54,8 @@ specs/001-censo-streamlit-dashboard/
 ├── quickstart.md        ← Guia de setup e configuração
 ├── contracts/
 │   ├── streamlit-pages.md   ← Contrato de interface das páginas
-│   └── pipeline-colab.md    ← Contrato do pipeline Colab→GitHub
+│   ├── pipeline-colab.md    ← Contrato do pipeline Colab→GitHub
+│   └── ibge-table-cleaning.md ← Funções de limpeza de tabelas IBGE (metadados no topo)
 └── tasks.md             ← (gerado por /speckit.tasks)
 ```
 
@@ -89,6 +91,10 @@ tcc-castanhal/
 │
 └── notebooks/
     └── censo_castanhal_pipeline.ipynb  ← Notebook principal (Colab)
+
+Raiz (análise TCC):
+├── tcc_tabelas_merge.ipynb  ← Tabelas consolidadas: df_demografia, df_domicilios, df_educacao, df_trabalho_renda, df_renda
+└── tcc_censo_2022.ipynb     ← Análises exploratórias auxiliares
 ```
 
 **Decisão de estrutura**: Projeto único (single-project). O Streamlit é o frontend e o Colab é o backend de processamento. Não há servidor separado — o Streamlit lê artefatos estáticos do GitHub.

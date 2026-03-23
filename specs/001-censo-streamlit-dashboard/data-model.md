@@ -251,6 +251,30 @@ trabalho_renda.parquet ─┘         ↓
 
 ---
 
+---
+
+## Tabelas Consolidadas (tcc_tabelas_merge.ipynb)
+
+O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames consolidados por tópico** do documento TCC. Fonte: Google Drive `/content/drive/MyDrive/censo_castanhal/` ou GitHub fallback.
+
+### Tabelas geradas
+
+| DataFrame | O que é | Colunas principais |
+|-----------|---------|--------------------|
+| `df_demografia` | Indicadores demográficos do município: população total, densidade, urbanização, taxa de crescimento anual, índice de envelhecimento (60+ por 100 jovens), razão de sexo | Municipio, Codigo_Municipio, Populacao_Total, Densidade_Demografica, Percentual_Urbano, Taxa_Crescimento_Anual, Indice_Envelhecimento, Razao_Sexo |
+| `df_domicilios` | Características habitacionais: tipos de domicílio (casa/apartamento/cômodo), saneamento (água, esgoto, lixo, energia), material das paredes, condições de ocupação | Codigo_Municipio, total_domicilios, pct_casas, pct_apartamentos, saneamento, material_paredes, ocupacao |
+| `df_educacao` | Escolaridade por sexo (18+ anos): pessoas por nível de instrução — sem instrução/fundamental incompleto, fundamental completo, médio completo, superior completo | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
+| `df_educacao_sexo_pct` | Versão percentual de df_educacao (mesmas variáveis com sufixo _Perc) | Municipio, Sexo, Ano, Total_Pessoas_18_ou_mais_Perc, ... |
+| `df_trabalho_renda` | Condição de atividade econômica (PEA): economicamente ativas (ocupadas/desocupadas) e não economicamente ativas | Condicao_Atividade, Total, Codigo_Municipio |
+| `taxa_atividade_pct_cleaned` | Distribuição de ocupados por seção CNAE (agricultura, indústria, comércio, construção, administração pública, educação etc.) | Seção de Atividade, Valor |
+| `profissao_cleaned` | Distribuição por grande grupo de ocupação CBO (diretores, técnicos, vendedores, operários, ocupações elementares etc.) | Grupo de Ocupação, Valor |
+| `df_renda` | Rendimento domiciliar mensal per capita (R$) e total de domicílios com dados de distribuição de renda | Codigo_Municipio, Municipio, Rendimento_Per_Capita, Total_Domicilios_DistRenda |
+| `distribuicao_renda` | Quantidade de domicílios em cada faixa de renda (até 1/4 SM, 1/2 SM, 1 SM, 2 SM, 3 SM ... até sem rendimento) | Classes_de_Rendimento, Total |
+
+**Funções de limpeza**: Ver [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md).
+
+---
+
 ## Regras de Validação
 
 | Regra | Campo | Constraint |

@@ -63,16 +63,41 @@ streamlit run app.py
 
 **Streamlit Community Cloud** (produção):
 - `GEMINI_API_KEY` → chave do Google AI Studio (https://aistudio.google.com/app/apikey)
-- `GITHUB_RAW_BASE` → `https://raw.githubusercontent.com/LuanLindolfo/tcc/main`
+- `GITHUB_RAW_BASE` → `https://raw.githubusercontent.com/LuanLindolfo/tcc/001-censo-streamlit-dashboard`
 
 **Google Colab** (pipeline):
 - `GITHUB_TOKEN` → Personal Access Token com permissão `Contents: Write`
 
 ---
 
+## 📓 Notebooks
+
+| Notebook | Propósito |
+|----------|-----------|
+| `notebooks/censo_castanhal_pipeline.ipynb` | Pipeline Colab (fonte de verdade): limpeza + ML + push GitHub |
+| `tcc_tabelas_merge.ipynb` | Tabelas consolidadas por tópico do documento TCC (ver DataFrames abaixo) |
+| `tcc_censo_2022.ipynb` | Análises exploratórias e processamento auxiliar |
+
+### DataFrames gerados pelo `tcc_tabelas_merge.ipynb`
+
+| DataFrame | O que é |
+|-----------|---------|
+| `df_demografia` | Indicadores populacionais: população total, densidade, urbanização, taxa de crescimento, índice de envelhecimento e razão de sexo do município |
+| `df_domicilios` | Características habitacionais: tipos de domicílio (casa/apartamento), saneamento, material das paredes e condições de ocupação (próprio/alugado/cedido) |
+| `df_educacao` | Escolaridade por sexo: distribuição de pessoas de 18+ anos por nível de instrução (sem instrução, fundamental, médio, superior) |
+| `df_trabalho_renda` | Condição de atividade econômica: PEA ocupada, PEA desocupada e não economicamente ativas |
+| `df_renda` | Renda domiciliar mensal per capita e total de domicílios na distribuição de renda |
+| `distribuicao_renda` | Quantidade de domicílios em cada faixa de renda (até 1/4 SM, 1/2 SM, 1 SM, 2 SM etc.) |
+| `taxa_atividade_pct_cleaned` | Quantidade de ocupados por seção CNAE (agricultura, indústria, comércio, serviços, administração pública etc.) |
+| `profissao_cleaned` | Quantidade de pessoas por grande grupo de ocupação (CBO): diretores, técnicos, operários, vendedores etc. |
+
+Tabelas IBGE com metadados no topo usam funções de limpeza documentadas em [`specs/001-censo-streamlit-dashboard/contracts/ibge-table-cleaning.md`](specs/001-censo-streamlit-dashboard/contracts/ibge-table-cleaning.md).
+
+---
+
 ## 🔬 Executar o Pipeline
 
-1. Abrir `notebooks/censo_castanhal_pipeline.ipynb` no Google Colab
+1. Abrir o notebook no Colab — **fonte de verdade**: [link direto](https://colab.research.google.com/drive/1DI1Xzzeo1JjgIgJQQr80zfOTLICUTG3p?usp=sharing) ou File → Open notebook → GitHub → `LuanLindolfo/tcc` (branch `001-censo-streamlit-dashboard`) → `notebooks/censo_castanhal_pipeline.ipynb`
 2. Configurar `GITHUB_TOKEN` nos Colab Secrets (🔑 menu lateral)
    - Token precisa de permissão `Contents: Write` no repositório `LuanLindolfo/tcc`
 3. Executar todas as células (Ctrl+F9) — os XLSX são baixados automaticamente do GitHub
