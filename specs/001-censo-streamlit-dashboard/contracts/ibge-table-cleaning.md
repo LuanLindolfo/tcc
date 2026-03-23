@@ -89,8 +89,8 @@ Muitos arquivos XLSX do IBGE (CNAE, taxa de atividade, profissões, distribuiç�
 
 | Lógica | Descrição |
 |--------|-----------|
-| Busca | Linha onde coluna 1 contém "Ensino Superior" |
-| Campos | Colunas 3–7 mapeadas para: Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
+| Busca | Linha onde **coluna 1** é igual a `sexo` (`'Mulheres'` ou `'Homens'`) — estrutura real: col 1 = Sexo |
+| Campos | Colunas 3–7: Total_Pessoas_18_ou_mais, Sem_instr_fund_incompl, Fund_compl_medio_incompl, Medio_compl_super_incompl, Superior_completo |
 | Variante | Se `pct=True`: sufixo `_Perc` nos nomes das colunas |
 
 ---
