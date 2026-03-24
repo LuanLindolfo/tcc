@@ -112,6 +112,12 @@ Função auxiliar `_get_source(path)`:
 
 ---
 
+## Nota: `df_geral_municipal` (fora do escopo deste contrato)
+
+Este documento descreve **limpeza de XLSX IBGE** (funções `limpar_*`, `extrair_esc`). A **junção única** `df_geral_municipal` é montada em `tcc_tabelas_merge.ipynb` (seção 8) sobre os DataFrames já limpos; **renomeação de colunas** nessa junção não faz parte das funções acima — ver [data-model.md](../data-model.md#df_geral_municipal).
+
+---
+
 ## Invariantes Pós-Limpeza
 
 - Nenhuma linha com `Classes_de_Rendimento` ou `Seção de Atividade` ou `Grupo de Ocupação` igual a `""`, `"nan"` ou `"Total"`

@@ -19,10 +19,10 @@ Projeto de TCC que utiliza dados do **Censo IBGE 2010–2022** do município de 
 | Notebook | Propósito | Localização |
 |----------|-----------|-------------|
 | `notebooks/censo_castanhal_pipeline.ipynb` | Pipeline Colab: limpeza + ML + push GitHub | Fonte de verdade (Colab); espelho no repo |
-| `tcc_tabelas_merge.ipynb` | Tabelas consolidadas por tópico (doc TCC) | Raiz do repo |
+| `tcc_tabelas_merge.ipynb` | Tabelas consolidadas por tópico (doc TCC); seção 8: `df_geral_municipal` | Raiz do repo |
 | `tcc_censo_2022.ipynb` | Análises exploratórias e processamento auxiliar | Raiz do repo |
 
-O `tcc_tabelas_merge.ipynb` gera: `df_demografia`, `df_domicilios`, `df_educacao`, `df_trabalho_renda`, `df_renda`, `distribuicao_renda`. Tabelas IBGE com metadados no topo usam funções de limpeza documentadas em [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md).
+O `tcc_tabelas_merge.ipynb` gera: `df_demografia`, `df_domicilios`, `df_educacao`, `df_trabalho_renda`, `df_renda`, `distribuicao_renda`, e na **seção 8** o **`df_geral_municipal`** (junção única municipal). Tabelas IBGE com metadados no topo usam funções de limpeza em [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md). A convenção de nomes de coluna do `df_geral_municipal` está em [data-model.md](./data-model.md#df_geral_municipal).
 
 ### Variáveis disponíveis nos arquivos XLSX importados no Colab:
 

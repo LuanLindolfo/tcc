@@ -289,8 +289,28 @@ O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames c
 | `profissao_cleaned` | Distribuição por grande grupo de ocupação CBO (diretores, técnicos, vendedores, operários, ocupações elementares etc.) | 2022 | Grupo de Ocupação, Valor |
 | `df_renda` | Rendimento domiciliar mensal per capita (R$) e total de domicílios com dados de distribuição de renda | 2022 | Codigo_Municipio, Municipio, Rendimento_Per_Capita, Total_Domicilios_DistRenda |
 | `distribuicao_renda` | Quantidade de domicílios em cada faixa de renda (até 1/4 SM, 1/2 SM, 1 SM, 2 SM, 3 SM ... até sem rendimento) | 2022 | Classes_de_Rendimento, Total |
+| `df_geral_municipal` | Junção única (1 linha): demografia + domicílios + renda + achatamento das tabelas longas; convenção de nomes apenas aqui | (insumos) | Ver subseção [df_geral_municipal](#df_geral_municipal) |
 
 **Funções de limpeza**: Ver [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md).
+
+### df_geral_municipal
+
+**Junção única (1 linha municipal). Fonte de definição**: `tcc_tabelas_merge.ipynb`, **seção 8** (código inline; não há módulo separado).
+
+**O que é**: um único `DataFrame` com **uma linha** por `Codigo_Municipio`, produzido por `merge` das tabelas **largas** (`df_demografia`, `df_domicilios`, `df_renda`) e por **achatamento** das tabelas **longas** (educação, `df_trabalho_renda`/PEA, taxa CNAE %, grupos de ocupação, `distribuicao_renda`, pirâmide etária).
+
+**Escopo da renomeação de colunas**: alterações aplicam-se **somente** às colunas **criadas nessa junção**. Os DataFrames intermediários listados na tabela acima **não** têm colunas renomeadas por esta lógica.
+
+**Convenção de nomes (ordem fixa)**:
+
+| Passo | Função | Regra |
+|-------|--------|--------|
+| 1 | `_normalizar_nome_coluna_juncao` | Troca ` — ` por `\|`; substituições IBGE (ex.: `Município`→`Mun`, `População feminina(pessoas)`→`Pop_fem(pes)`). |
+| 2 | `_encurtar_se_ainda_longo` | Só se `len(nome) > MAX_COL_LEN` **após** o passo 1 (`MAX_COL_LEN = 48` no notebook): prefixo legível + `_` + 8 caracteres hex (prefixo de SHA-256 do nome já normalizado). |
+| 3 | `_garantir_nome_unico` | Colisões: sufixos ` (2)`, ` (3)`, … |
+| — | Pirâmide | Não gerar colunas para metadado municipal já coberto pelo merge demográfico (`Mun`, `UF`, `CodMun`, `codMun`, …). |
+
+**Metadados**: `df_geral_municipal.attrs["legenda_nomes_colunas"]` — mapa `{nome_final: nome_após_passo_1}` preenchido apenas quando o passo 2 foi aplicado.
 
 ---
 

@@ -248,7 +248,7 @@ __pycache__/
 | distribuição de renda | `limpar_distribuicao_renda` |
 | escolaridade (mulheres/homens) | `extrair_esc` |
 
-**Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC.
+**Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC; **seção 8** produz `df_geral_municipal` (junção única). Convenção de nomes dessa junção: [data-model.md](./data-model.md#df_geral_municipal).
 
 ---
 

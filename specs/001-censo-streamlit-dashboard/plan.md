@@ -85,7 +85,7 @@ tcc-castanhal/
     └── censo_castanhal_pipeline.ipynb  ← Notebook principal (Colab)
 
 Raiz (análise TCC):
-├── tcc_tabelas_merge.ipynb  ← Tabelas consolidadas: df_demografia, df_domicilios, df_educacao, df_trabalho_renda, df_renda
+├── tcc_tabelas_merge.ipynb  ← Tabelas consolidadas + seção 8: df_geral_municipal (junção única; convenção de nomes: specs/001-censo-streamlit-dashboard/data-model.md#df_geral_municipal)
 └── tcc_censo_2022.ipynb     ← Análises exploratórias auxiliares
 ```
 

@@ -173,7 +173,7 @@ Tasks com `[P]` na mesma fase podem ser executadas simultaneamente:
 
 ## Notebook tcc_tabelas_merge.ipynb (Análise TCC)
 
-O notebook `tcc_tabelas_merge.ipynb` na raiz gera tabelas consolidadas por tópico do documento TCC (`df_demografia`, `df_domicilios`, `df_educacao`, `df_trabalho_renda`, `df_renda`). Usa funções de limpeza para XLSX IBGE com metadados no topo — ver [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md). **Não é o pipeline Colab** (Princípio V aplica-se apenas a `censo_castanhal_pipeline.ipynb`).
+O notebook `tcc_tabelas_merge.ipynb` na raiz gera tabelas consolidadas por tópico do documento TCC (`df_demografia`, `df_domicilios`, `df_educacao`, `df_trabalho_renda`, `df_renda`, …) e, na **seção 8**, o **`df_geral_municipal`** (uma linha municipal, junção de todos os blocos). Usa funções de limpeza para XLSX IBGE com metadados no topo — ver [contracts/ibge-table-cleaning.md](./contracts/ibge-table-cleaning.md). **Convenção de nomes** só na junção final: [data-model.md](./data-model.md#df_geral_municipal). **Não é o pipeline Colab** (Princípio V aplica-se apenas a `censo_castanhal_pipeline.ipynb`).
 
 ---
 
