@@ -5,7 +5,7 @@
 **Repositório**: https://github.com/LuanLindolfo/tcc  
 **Total de tarefas**: 22 | **Total de fases**: 7
 
-> **Nota de alinhamento (2026-03-24)**: O Streamlit está consolidado em **`app.py`** com `st.navigation` (sem pasta `pages/`). Referências históricas a `pages/*.py` correspondem às **seções** implementadas como `render_*` no mesmo arquivo. A seção dedicada a Machine Learning na UI foi removida; artefatos ML seguem no GitHub e são usados em Políticas/IA.
+Streamlit: um único `app.py` com `st.navigation` (sem `pages/`); seções `render_*`. Sem página só de ML.
 
 ---
 
@@ -49,7 +49,7 @@ Fase 3 (Pipeline end-to-end)
     ↓
 Fase 4 (US1 — Streamlit dados)  ←→  Fase 5 (US2 — ML)
     ↓                                        ↓
-Fase 6 (US3 — Gemini IA)         Fase 6 (US4 — Políticas)
+Fase 6 (US3 — Assistente IA)     Fase 6 (US4 — Políticas)
     ↓
 Fase 7 (Deploy)
 ```
@@ -102,7 +102,7 @@ Fase 7 (Deploy)
 
 ## Fase 5: US2 — Resultados de ML no Streamlit
 
-> **Estado atual**: não há aba exclusiva de ML na UI; artefatos permanecem no GitHub e são usados em Políticas/contexto IA. As tasks abaixo referem-se ao desenho original (página dedicada).
+> **Estado atual**: não há aba exclusiva de ML na UI; artefatos permanecem no GitHub e são usados em Políticas e no contexto do assistente de IA. As tasks abaixo referem-se ao desenho original (página dedicada).
 
 > Critério independente (histórico): Aba ML exibia métricas e gráficos interpretáveis carregados do GitHub.
 
@@ -111,12 +111,12 @@ Fase 7 (Deploy)
 
 ---
 
-## Fase 6: US3 + US4 — Gemini IA e Políticas Públicas
+## Fase 6: US3 + US4 — Assistente IA (Gemini) e Políticas Públicas
 
 > Critério US3: Resposta coerente a 3 perguntas sobre os dados via Gemini.
 > Critério US4: Aba exibe 5 políticas com setores prioritários identificados pelos modelos.
 
-- [ ] T017 [P] [US3] Obter `GEMINI_API_KEY` em https://aistudio.google.com/app/apikey e configurar localmente em `.streamlit/secrets.toml` (nunca commitar) — testar resposta na seção **Assistente IA** (`render_assistente_ia` em `app.py`) rodando `streamlit run app.py` localmente
+- [ ] T017 [P] [US3] Obter `GEMINI_API_KEY` em https://aistudio.google.com/app/apikey e configurar localmente em `.streamlit/secrets.toml` (nunca commitar) — testar na seção **Assistente IA** (`render_assistente_ia` em `app.py`) com `streamlit run app.py`
 - [x] T018 [P] [US4] Validar a seção Políticas em `app.py` (`render_politicas`) após pipeline executado (Fase 3): verificar que o JSON `politicas_recomendacoes.json` é lido corretamente e os cards de política são exibidos sem erro
 
 ---
@@ -151,7 +151,7 @@ Tasks com `[P]` na mesma fase podem ser executadas simultaneamente:
 | US5 — Pipeline | Colab executa, artefatos aparecem no GitHub | T004–T010 |
 | US1 — Dados | 3 abas com gráficos corretos | T011–T014 |
 | US2 — ML | Artefatos no GitHub; UI dedicada removida (T015–T016 históricas) | T015–T016 |
-| US3 — IA | Resposta coerente ao chat | T017 |
+| US3 — IA | Resposta coerente ao assistente | T017 |
 | US4 — Políticas | 5 políticas com setores | T018 |
 | Deploy | URL pública funcionando | T019–T022 |
 

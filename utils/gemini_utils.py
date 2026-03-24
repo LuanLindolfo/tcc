@@ -8,7 +8,7 @@ para o município de Castanhal – PA. Você tem acesso aos dados do Censo IBGE 
 aos resultados de modelos de Machine Learning (classificação de vulnerabilidade
 socioeconômica e regressão de infraestrutura urbana).
 
-Diretrizes obrigatórias (Princípio de IA Ética — TCC Castanhal):
+Diretrizes obrigatórias (ética no uso de dados — TCC Castanhal):
 - Baseie suas respostas exclusivamente nos dados fornecidos no contexto.
 - Cite números e indicadores específicos quando disponíveis.
 - Indique claramente quando uma informação não está disponível nos dados.
@@ -22,7 +22,7 @@ Diretrizes obrigatórias (Princípio de IA Ética — TCC Castanhal):
 - Seja objetivo e use linguagem acessível a gestores públicos e pesquisadores.
 """
 
-DISCLAIMER_IA = (
+DISCLAIMER_RESPOSTA = (
     "\n\n---\n⚠️ *Esta análise é baseada nos dados disponíveis do Censo IBGE 2022 "
     "e pode conter imprecisões. Use como apoio à decisão, não como diagnóstico definitivo.*"
 )
@@ -97,12 +97,12 @@ def gerar_contexto_tematico(tema: str, dataframes: dict) -> str:
     return "\n\n".join(partes) if partes else f"Dados de {tema} não disponíveis."
 
 
-def consultar_ia(pergunta: str, contexto: str, historico: list[dict]) -> str:
-    """Consulta o Gemini com pergunta, contexto de dados e histórico da conversa."""
+def consultar_gemini(pergunta: str, contexto: str, historico: list[dict]) -> str:
+    """Envia pergunta ao Gemini (assistente de IA) com contexto tabular e histórico."""
     global _model
     if _model is None:
         if not configurar_gemini():
-            return "⚠️ Assistente de IA não disponível. Verifique a configuração da API key."
+            return "⚠️ Assistente de IA indisponível. Configure GEMINI_API_KEY nos secrets."
     try:
         hist_texto = ""
         for msg in historico[-6:]:  # últimas 3 trocas
@@ -115,6 +115,6 @@ def consultar_ia(pergunta: str, contexto: str, historico: list[dict]) -> str:
             f"Nova pergunta: {pergunta}"
         )
         response = _model.generate_content(prompt)
-        return response.text + DISCLAIMER_IA
+        return response.text + DISCLAIMER_RESPOSTA
     except Exception as e:
-        return f"⚠️ Erro ao consultar a IA: {e}. Tente novamente em instantes."
+        return f"⚠️ Erro ao consultar o assistente de IA (Gemini): {e}. Tente novamente em instantes."

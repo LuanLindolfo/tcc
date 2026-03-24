@@ -60,9 +60,9 @@ df_demografico = load_data("data/processed/demografico.parquet")
 
 ---
 
-## 3. Assistente de IA com Gemini (padrão RAG simplificado)
+## 3. Assistente de IA — Gemini (context injection)
 
-**Decisão**: Usar **context injection** (RAG simplificado) em vez de vector stores completos. Os dados processados são compactos o suficiente para caber no contexto do Gemini (128k tokens), tornando embeddings desnecessários para o TCC.
+**Decisão**: **Context injection** em vez de vector store. Os dados cabem no contexto do Gemini (128k tokens); embeddings não são necessários para o TCC.
 
 **Arquitetura**:
 ```
@@ -86,7 +86,7 @@ def gerar_contexto_dados(df: pd.DataFrame, tema: str) -> str:
     stats = df.describe().to_string()
     return f"Dados do Censo 2022 de Castanhal ({tema}):\n{stats}"
 
-def consultar_ia(pergunta: str, contexto: str) -> str:
+def consultar_gemini(pergunta: str, contexto: str) -> str:
     prompt = f"""Você é um especialista em análise de dados censitários e políticas públicas.
     
 Contexto dos dados:
@@ -248,7 +248,7 @@ __pycache__/
 | distribuição de renda | `limpar_distribuicao_renda` |
 | escolaridade (mulheres/homens) | `extrair_esc` |
 
-**Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC; **seção 8** produz `df_geral_municipal` (junção única). Convenção de nomes dessa junção: [data-model.md](./data-model.md#df_geral_municipal).
+**Notebook**: `tcc_tabelas_merge.ipynb` — tabelas consolidadas por tópico do documento TCC; **seção 8** produz `df_geral_municipal` (junção única). Convenção de nomes: [data-model.md](./data-model.md#df_geral_municipal).
 
 ---
 

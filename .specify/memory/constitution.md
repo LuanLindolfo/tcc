@@ -57,7 +57,7 @@ provê base legal, desde que mantida a anonimização efetiva.
 
 ### II. IA Ética como Ferramenta de Apoio à Decisão
 
-O componente de Inteligência Artificial (modelos ML + assistente Gemini) DEVE operar
+Modelos de ML e **assistente de IA** (Gemini) DEVEM operar
 estritamente como **ferramenta de apoio à decisão**, não como substituta de análise
 humana ou tomadora de decisão autônoma.
 
@@ -66,7 +66,7 @@ Regras não-negociáveis:
   disponibilizados publicamente** no repositório GitHub — transparência total.
 - Toda visualização de resultado de ML DEVE acompanhar as **métricas de avaliação**
   (acurácia, F1, R², RMSE) para que o usuário possa julgar a confiabilidade.
-- O assistente Gemini DEVE sempre indicar que suas respostas são baseadas nos dados
+- O assistente de IA (Gemini) DEVE sempre indicar que as respostas são baseadas nos dados
   disponíveis e PODEM conter imprecisões — sem apresentar conclusões como definitivas.
 - Análises de grupos étnico-raciais, fluxos migratórios e distribuição de renda DEVEM
   incluir advertência explícita sobre limitações do modelo e possíveis vieses nos

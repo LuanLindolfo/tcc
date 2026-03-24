@@ -110,11 +110,7 @@ Função auxiliar `_get_source(path)`:
 - Se arquivo existe localmente → retorna path
 - Se `USAR_GITHUB` e não encontrado → baixa via `requests.get(GITHUB_RAW/.../path)`
 
----
-
-## Nota: `df_geral_municipal` (fora do escopo deste contrato)
-
-Este documento descreve **limpeza de XLSX IBGE** (funções `limpar_*`, `extrair_esc`). A **junção única** `df_geral_municipal` é montada em `tcc_tabelas_merge.ipynb` (seção 8) sobre os DataFrames já limpos; **renomeação de colunas** nessa junção não faz parte das funções acima — ver [data-model.md](../data-model.md#df_geral_municipal).
+Junção `df_geral_municipal` (seção 8 de `tcc_tabelas_merge.ipynb`, nomes de coluna): [data-model.md](../data-model.md#df_geral_municipal). Este contrato cobre só `limpar_*` / `extrair_esc`.
 
 ---
 

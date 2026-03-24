@@ -29,7 +29,7 @@ utils/
 | 5 | Políticas | `render_politicas` |
 | 6 | Assistente IA | `render_assistente_ia` |
 
-> **Machine Learning**: não há seção dedicada exclusivamente a resultados de ML na UI atual. Artefatos (`features_compostas.parquet`, métricas JSON, modelos `.joblib`) são gerados pelo Colab e **consumidos** pela seção **Políticas** e pelo contexto injetado no **Assistente IA** (`load_features_compostas`, `gerar_contexto_tematico`).
+> **Machine Learning**: não há seção dedicada exclusivamente a resultados de ML na UI atual. Artefatos (`features_compostas.parquet`, métricas JSON, modelos `.joblib`) são gerados pelo Colab e **consumidos** pela seção **Políticas** e pelo **assistente de IA** (`load_features_compostas`, `gerar_contexto_tematico`).
 
 ---
 

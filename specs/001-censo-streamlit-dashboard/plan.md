@@ -7,7 +7,7 @@
 
 ## Summary
 
-Dashboard interativo em Streamlit para análise dos dados do Censo 2022 de Castanhal–PA, com modelos de ML (Random Forest para vulnerabilidade socioeconômica, XGBoost para infraestrutura urbana, K-Means para perfil de ocupação) e assistente conversacional powered by Google Gemini. O pipeline integra Google Colab (processamento manual) → GitHub (armazenamento de artefatos `.parquet`/`.joblib`) → Streamlit Community Cloud (visualização pública).
+Dashboard Streamlit para o Censo 2022 de Castanhal–PA, com ML (Random Forest, XGBoost, K-Means conforme pipeline) e **assistente de IA** (Gemini). Fluxo: Colab → GitHub (`.parquet`/`.joblib`) → Streamlit Cloud.
 
 ---
 
@@ -56,7 +56,7 @@ specs/001-censo-streamlit-dashboard/
 │   ├── streamlit-pages.md   ← Contrato de interface das páginas
 │   ├── pipeline-colab.md    ← Contrato do pipeline Colab→GitHub
 │   └── ibge-table-cleaning.md ← Funções de limpeza de tabelas IBGE (metadados no topo)
-└── tasks.md             ← (gerado por /speckit.tasks)
+└── tasks.md             ← lista de tarefas do feature
 ```
 
 ### Código-Fonte (raiz do repositório)
@@ -123,7 +123,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 │                   ↓                                         │
 │  ┌────────────────────────────────────────────────────┐    │
 │  │  app.py — st.navigation (Início, Demografia,        │    │
-│  │  Domicílios, Educação & Renda, Políticas, Assistente)│    │
+│  │  Domicílios, Educação & Renda, Políticas, Assistente IA)│    │
 │  └────────────────────────────────────────────────────┘    │
 │                   ↑                                         │
 │  ┌────────────────┴───────────────────────────────────┐    │
@@ -171,7 +171,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 
 ### Fase C: Resultados de ML (P2 — Diferencial)
 
-**Objetivo**: Modelos treinados no Colab e artefatos no GitHub; contextualização nas políticas e no assistente.
+**Objetivo**: Modelos treinados no Colab e artefatos no GitHub; contextualização em Políticas e no assistente de IA.
 
 **Entregáveis**:
 1. `utils/ml_utils.py` com funções de carga e predição (consumo opcional pelo app)
@@ -183,7 +183,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 
 ---
 
-### Fase D: Assistente Gemini (P2 — IA Conversacional)
+### Fase D: Assistente de IA — Gemini (P2)
 
 **Objetivo**: Chat contextualizado sobre os dados do censo.
 

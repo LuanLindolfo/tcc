@@ -27,7 +27,7 @@ Os dados utilizados no projeto são exclusivamente dos Censos **2010** e **2022*
 
 O sistema opera com dados em duas camadas:
 1. **Colab** — transforma XLSX brutos em `.parquet` processados e treina modelos
-2. **Streamlit** — lê `.parquet` e `.joblib` do GitHub para visualização e IA. A interface é um único **`app.py`** com `st.navigation` (seções `render_*`); não há pasta `pages/` na estrutura atual.
+2. **Streamlit** — lê `.parquet` e `.joblib` do GitHub para visualização e **assistente de IA** (Gemini). A interface é um único **`app.py`** com `st.navigation` (seções `render_*`); não há pasta `pages/` na estrutura atual.
 
 Todos os dados são agregados por **setor censitário** ou **município** (Castanhal). Não há dados individuais.
 
@@ -265,10 +265,8 @@ trabalho_renda.parquet ─┘         ↓
                                    ↓ [GitHub → Streamlit]
                                    ↓
                           Streamlit Dashboard
-                          (visualização + IA conversacional)
+                          (visualização + assistente IA)
 ```
-
----
 
 ---
 
@@ -295,22 +293,16 @@ O notebook `tcc_tabelas_merge.ipynb` na raiz do repositório gera **DataFrames c
 
 ### df_geral_municipal
 
-**Junção única (1 linha municipal). Fonte de definição**: `tcc_tabelas_merge.ipynb`, **seção 8** (código inline; não há módulo separado).
+Definido em `tcc_tabelas_merge.ipynb` (seção 8). Uma linha por `Codigo_Municipio`: `merge` de `df_demografia`, `df_domicilios`, `df_renda` mais achatamento das tabelas longas (educação, PEA, CNAE %, ocupação, distribuição de renda, pirâmide). Renomeação de coluna só nas colunas criadas nessa junção; os DataFrames intermediários da tabela acima não são renomeados por ela.
 
-**O que é**: um único `DataFrame` com **uma linha** por `Codigo_Municipio`, produzido por `merge` das tabelas **largas** (`df_demografia`, `df_domicilios`, `df_renda`) e por **achatamento** das tabelas **longas** (educação, `df_trabalho_renda`/PEA, taxa CNAE %, grupos de ocupação, `distribuicao_renda`, pirâmide etária).
-
-**Escopo da renomeação de colunas**: alterações aplicam-se **somente** às colunas **criadas nessa junção**. Os DataFrames intermediários listados na tabela acima **não** têm colunas renomeadas por esta lógica.
-
-**Convenção de nomes (ordem fixa)**:
-
-| Passo | Função | Regra |
+| Etapa | Função | Regra |
 |-------|--------|--------|
-| 1 | `_normalizar_nome_coluna_juncao` | Troca ` — ` por `\|`; substituições IBGE (ex.: `Município`→`Mun`, `População feminina(pessoas)`→`Pop_fem(pes)`). |
-| 2 | `_encurtar_se_ainda_longo` | Só se `len(nome) > MAX_COL_LEN` **após** o passo 1 (`MAX_COL_LEN = 48` no notebook): prefixo legível + `_` + 8 caracteres hex (prefixo de SHA-256 do nome já normalizado). |
-| 3 | `_garantir_nome_unico` | Colisões: sufixos ` (2)`, ` (3)`, … |
-| — | Pirâmide | Não gerar colunas para metadado municipal já coberto pelo merge demográfico (`Mun`, `UF`, `CodMun`, `codMun`, …). |
+| 1 | `_normalizar_nome_coluna_juncao` | ` — ` → `\|`; substituições IBGE (ex.: `Município`→`Mun`). |
+| 2 | `_encurtar_se_ainda_longo` | Se `len > MAX_COL_LEN` (48) após (1): prefixo + `_` + 8 hex (SHA-256 do nome já normalizado). |
+| 3 | `_garantir_nome_unico` | Colisão: ` (2)`, ` (3)`, … |
+| — | Pirâmide | Omitir colunas de metadado municipal já presentes no merge (`Mun`, `UF`, `CodMun`, …). |
 
-**Metadados**: `df_geral_municipal.attrs["legenda_nomes_colunas"]` — mapa `{nome_final: nome_após_passo_1}` preenchido apenas quando o passo 2 foi aplicado.
+`attrs["legenda_nomes_colunas"]`: só entradas em que o passo 2 alterou o nome (`{final: nome após passo 1}`).
 
 ---
 

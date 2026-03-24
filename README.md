@@ -1,7 +1,7 @@
 # 🏙️ Sistema de Inteligência Territorial de Castanhal
 
 Dashboard interativo para análise dos dados do **Censo IBGE** (2010–2022) do município de
-Castanhal – PA, com modelos de Machine Learning e assistente de IA conversacional.
+Castanhal – PA, com modelos de Machine Learning e **assistente de IA** conversacional (Gemini) no Streamlit.
 
 > **Projeto**: Trabalho de Conclusão de Curso (TCC)
 > **Constituição**: v1.0.0 — LGPD, IA Ética, Zero-Exposure, Rigor Acadêmico
@@ -36,9 +36,9 @@ O app é um único `app.py` com navegação via `st.navigation` (sem pasta `page
 | 🏠 Domicílios | IAH, saneamento básico, tipos de domicílio |
 | 📚 Educação & Renda | Escolaridade, distribuição de renda, PEA |
 | 🏛️ Políticas Públicas | Políticas com setores prioritários (usa artefatos de ML do pipeline) |
-| 💬 Assistente IA | Chat contextualizado com Google Gemini |
+| 💬 Assistente IA | Chat com IA (Gemini) sobre os dados do censo |
 
-> **Machine Learning**: os modelos continuam sendo treinados no Colab e os artefatos ficam no GitHub (`models/`, `data/results/`); não há seção dedicada só a ML no Streamlit — os resultados entram no contexto da aba **Políticas** e do assistente.
+> **Machine Learning**: treino no Colab; artefatos no GitHub (`models/`, `data/results/`); sem tela só de ML — uso em **Políticas** e no **assistente de IA**.
 
 ---
 
@@ -148,4 +148,4 @@ Ver [`specs/001-censo-streamlit-dashboard/quickstart.md`](specs/001-censo-stream
 
 ---
 
-*Dados: IBGE Censo 2010–2022 | IA: Google Gemini (`gemini-2.5-flash` em `utils/gemini_utils.py`) | Deploy: Streamlit Community Cloud*
+*Dados: IBGE Censo 2010–2022 | IA: Gemini `gemini-2.5-flash` (`utils/gemini_utils.py`) | Deploy: Streamlit Community Cloud*

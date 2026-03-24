@@ -18,7 +18,7 @@ from utils.data_loader import (
 )
 from utils.gemini_utils import (
     TEMAS_DISPONIVEIS,
-    consultar_ia,
+    consultar_gemini,
     gerar_contexto_tematico,
 )
 
@@ -34,7 +34,7 @@ def render_inicio():
     st.title("Gestão Pública Inteligente: Censo Castanhal 2022")
     st.markdown(
         "Dashboard interativo com dados do **Censo IBGE 2022** de Castanhal – PA, "
-        "políticas públicas e assistente de IA. Use o menu à esquerda para navegar."
+        "políticas públicas e **assistente de IA** (Gemini) no Streamlit. Use o menu à esquerda para navegar."
     )
     st.divider()
     c1, c2, c3 = st.columns(3)
@@ -529,7 +529,7 @@ def render_politicas():
         st.dataframe(df_pol, use_container_width=True)
 
 
-# ── Assistente IA ─────────────────────────────────────────────────────────────
+# ── Assistente de IA (Gemini) ────────────────────────────────────────────────
 @st.cache_data(ttl=3600)
 def _carregar_dataframes_ia():
     return {
@@ -544,8 +544,8 @@ def _carregar_dataframes_ia():
 def render_assistente_ia():
     st.title("Assistente de IA — Gemini")
     st.markdown(
-        "Faça perguntas em linguagem natural sobre os dados do Censo 2022 de Castanhal. "
-        "As respostas são geradas por IA e devem ser tratadas como **apoio à análise**, "
+        "Perguntas em linguagem natural sobre o Censo 2022 de Castanhal. "
+        "As respostas são geradas por **IA** (modelo Gemini) e devem ser tratadas como **apoio à análise**, "
         "não como diagnóstico definitivo."
     )
     st.divider()
@@ -555,8 +555,8 @@ def render_assistente_ia():
             {
                 "role": "assistant",
                 "content": (
-                    "Olá! Sou o assistente de IA do Sistema de Inteligência Territorial de Castanhal.\n\n"
-                    "Posso ajudar com perguntas sobre os dados do Censo 2022. Exemplos:\n"
+                    "Olá! Sou o **assistente de IA** do sistema (Gemini), com contexto dos dados do Censo 2022 de Castanhal.\n\n"
+                    "Exemplos:\n"
                     "- *Qual é a taxa de analfabetismo em Castanhal?*\n"
                     "- *Quais setores têm maior vulnerabilidade socioeconômica?*\n"
                     "- *Como a renda se distribui entre os bairros?*\n"
@@ -570,7 +570,7 @@ def render_assistente_ia():
         st.divider()
         st.subheader("Configurações — IA")
         tema = st.selectbox("Tema dos dados:", TEMAS_DISPONIVEIS, key="ia_tema_select")
-        st.caption("O tema selecionado injeta estatísticas dos dados correspondentes no contexto da IA.")
+        st.caption("O tema define quais estatísticas entram no contexto enviado ao modelo (Gemini).")
         if st.button("Limpar conversa", use_container_width=True, key="ia_clear_chat"):
             st.session_state["messages"] = []
             st.rerun()
@@ -590,9 +590,9 @@ def render_assistente_ia():
             st.markdown(pergunta)
 
         with st.chat_message("assistant"):
-            with st.spinner("Consultando IA..."):
+            with st.spinner("Consultando assistente de IA..."):
                 contexto = gerar_contexto_tematico(tema, dataframes)
-                resposta = consultar_ia(
+                resposta = consultar_gemini(
                     pergunta,
                     contexto,
                     st.session_state["messages"][:-1],
