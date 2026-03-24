@@ -47,7 +47,7 @@ def configurar_gemini() -> bool:
             raise ValueError("GEMINI_API_KEY está vazia.")
         genai.configure(api_key=api_key)
         _model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
+            model_name="gemini-2.5-flash",
             system_instruction=SYSTEM_PROMPT,
         )
         return True

@@ -27,7 +27,7 @@ Os dados utilizados no projeto são exclusivamente dos Censos **2010** e **2022*
 
 O sistema opera com dados em duas camadas:
 1. **Colab** — transforma XLSX brutos em `.parquet` processados e treina modelos
-2. **Streamlit** — lê `.parquet` e `.joblib` do GitHub para visualização e IA
+2. **Streamlit** — lê `.parquet` e `.joblib` do GitHub para visualização e IA. A interface é um único **`app.py`** com `st.navigation` (seções `render_*`); não há pasta `pages/` na estrutura atual.
 
 Todos os dados são agregados por **setor censitário** ou **município** (Castanhal). Não há dados individuais.
 

@@ -1,34 +1,46 @@
 # Contrato de Interface: Páginas Streamlit
 
 **Projeto**: Sistema de Inteligência Territorial de Castanhal  
-**Data**: 2026-03-16
+**Data**: 2026-03-16  
+**Atualizado**: 2026-03-24 — alinhado ao app monolítico (`app.py` + `st.navigation`)
 
 ---
 
 ## Estrutura de Navegação
 
-O app usa `st.navigation` (Streamlit 1.32+) com páginas definidas como arquivos em `pages/`. A sidebar exibe o menu de navegação sempre visível.
+O app usa **`st.navigation`** (Streamlit 1.36+) no arquivo **`app.py`**. As seções são **funções Python** (`render_*`), não arquivos em `pages/`. Quando `st.navigation` é executado, o Streamlit **ignora** a pasta `pages/` (se existir).
 
 ```
-app.py                    ← Entry point principal
-pages/
-├── 1_demografia.py       ← Aba 1: Dinâmica Populacional
-├── 2_domicilios.py       ← Aba 2: Diagnóstico Habitacional
-├── 3_educacao_renda.py   ← Aba 3: Educação & Trabalho/Renda
-├── 4_machine_learning.py ← Aba 4: Resultados de ML
-├── 5_politicas.py        ← Aba 5: Políticas Públicas
-└── 6_assistente_ia.py    ← Aba 6: Assistente IA (Gemini)
+app.py                    ← Entry point único: st.navigation + pg.run()
 utils/
 ├── data_loader.py        ← Funções de carga de dados do GitHub
 ├── ml_utils.py           ← Carregamento de modelos e predições
 └── gemini_utils.py       ← Integração com Google Gemini
 ```
 
+**Seções expostas no menu** (títulos como no `st.Page`):
+
+| Ordem | Título no menu | Função em `app.py` |
+|-------|----------------|-------------------|
+| 1 | Início | `render_inicio` |
+| 2 | Demografia | `render_demografia` |
+| 3 | Domicílios | `render_domicilios` |
+| 4 | Educação & Renda | `render_educacao_renda` |
+| 5 | Políticas | `render_politicas` |
+| 6 | Assistente IA | `render_assistente_ia` |
+
+> **Machine Learning**: não há seção dedicada exclusivamente a resultados de ML na UI atual. Artefatos (`features_compostas.parquet`, métricas JSON, modelos `.joblib`) são gerados pelo Colab e **consumidos** pela seção **Políticas** e pelo contexto injetado no **Assistente IA** (`load_features_compostas`, `gerar_contexto_tematico`).
+
 ---
 
-## Contrato por Página
+## Contrato por Seção
 
-### Página 1: Dinâmica Populacional (`1_demografia.py`)
+### Início (`render_inicio`)
+
+- Landing com descrição do dashboard e métricas resumo.
+- Não carrega parquets obrigatórios.
+
+### Demografia (`render_demografia`)
 
 **Entradas**:
 - Dados: `demografico.parquet`
@@ -47,7 +59,7 @@ utils/
 
 ---
 
-### Página 2: Diagnóstico Habitacional (`2_domicilios.py`)
+### Domicílios (`render_domicilios`)
 
 **Entradas**:
 - Dados: `domicilios.parquet`
@@ -63,7 +75,7 @@ utils/
 
 ---
 
-### Página 3: Educação & Trabalho/Renda (`3_educacao_renda.py`)
+### Educação & Trabalho/Renda (`render_educacao_renda`)
 
 **Entradas**:
 - Dados: `educacao.parquet` + `trabalho_renda.parquet`
@@ -80,29 +92,13 @@ utils/
 
 ---
 
-### Página 4: Resultados de ML (`4_machine_learning.py`)
+### ~~Resultados de ML~~ (não exposto como seção própria)
 
-**Entradas**:
-- Dados: `features_compostas.parquet`
-- Modelos: `random_forest_ivs.joblib`, `xgboost_iah.joblib`, `kmeans_ocupacao.joblib`
-- Métricas: `ml_classificacao_metricas.json`, `ml_regressao_metricas.json`
-
-**Componentes obrigatórios**:
-| Componente | Tipo Streamlit | Dado |
-|-----------|---------------|------|
-| Métricas de classificação | `st.metric` + tabela | Acurácia, F1-macro |
-| Matriz de confusão | `plotly` heatmap | `matriz_confusao` do JSON |
-| Feature importance | `plotly` bar chart horizontal | `feature_importances` do JSON |
-| Mapa de IVS | `plotly` choropleth | `ivs_label` por setor |
-| Métricas de regressão | `st.metric` | R², RMSE, MAE |
-| Gráfico real vs predito | `plotly` scatter | IAH real vs IAH predito |
-| Clusters de ocupação | `plotly` scatter 2D | `cluster_ocupacao` colorido |
-
-**Estado sem artefatos**: `st.warning("Modelos ainda não treinados. Execute o notebook Colab para gerar os artefatos de ML.")`
+O contrato anterior previa `4_machine_learning.py` com métricas, matriz de confusão, feature importance, IVS, regressão IAH e clustering. **Na UI atual essa seção não existe**; o pipeline Colab continua gerando artefatos para o repositório.
 
 ---
 
-### Página 5: Políticas Públicas (`5_politicas.py`)
+### Políticas Públicas (`render_politicas`)
 
 **Entradas**:
 - Dados: `politicas_recomendacoes.json` + `features_compostas.parquet`
@@ -123,7 +119,7 @@ utils/
 
 ---
 
-### Página 6: Assistente IA (`6_assistente_ia.py`)
+### Assistente IA (`render_assistente_ia`)
 
 **Entradas**:
 - Todos os parquets (para contexto dinâmico)
@@ -134,7 +130,7 @@ utils/
 |-----------|---------------|-----------|
 | Histórico de mensagens | Loop sobre `st.session_state.messages` | Exibe mensagens user/assistant |
 | Input de pergunta | `st.chat_input` | Campo de digitação na base da tela |
-| Seletor de tema | `st.selectbox` (sidebar) | Pré-carrega contexto de dados relevante |
+| Seletor de tema | `st.selectbox` (sidebar, ao visualizar esta seção) | Pré-carrega contexto de dados relevante |
 | Indicador de loading | `st.spinner` | Exibido enquanto Gemini processa |
 
 **Comportamento**:

@@ -198,7 +198,7 @@ models/
 
 | Categoria | Biblioteca | Versão mínima | Uso |
 |-----------|-----------|--------------|-----|
-| Streamlit | `streamlit` | 1.32+ | App principal |
+| Streamlit | `streamlit` | 1.36+ (`st.navigation`) | App principal |
 | Dados | `pandas` | 2.0+ | Manipulação DataFrames |
 | Dados | `pyarrow` | 14.0+ | Leitura/escrita .parquet |
 | ML | `scikit-learn` | 1.4+ | RF, Ridge, KMeans |

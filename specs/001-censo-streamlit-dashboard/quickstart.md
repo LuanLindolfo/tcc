@@ -23,8 +23,8 @@
 git clone https://github.com/SEU_USUARIO/tcc-castanhal.git
 cd tcc-castanhal
 
-# Estrutura inicial de diretórios
-mkdir -p data/processed data/results data/raw models pages utils
+# Estrutura inicial de diretórios (sem pasta pages/ — app único em app.py)
+mkdir -p data/processed data/results data/raw models utils
 ```
 
 **Criar `.gitignore`**:
@@ -59,7 +59,7 @@ venv/
 
 **Criar `requirements.txt`**:
 ```txt
-streamlit>=1.32.0
+streamlit>=1.36.0
 pandas>=2.0.0
 pyarrow>=14.0.0
 plotly>=5.18.0
@@ -176,7 +176,7 @@ streamlit run app.py
 - [ ] Artefatos visíveis no GitHub (`data/processed/`, `models/`)
 - [ ] `GEMINI_API_KEY` configurada nos Streamlit Secrets
 - [ ] App rodando no Streamlit Community Cloud
-- [ ] Todas as 6 abas carregando sem erro
+- [ ] Todas as seções do menu (Início, Demografia, Domicílios, Educação & Renda, Políticas, Assistente IA) carregando sem erro
 
 ---
 

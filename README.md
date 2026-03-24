@@ -27,14 +27,18 @@ Streamlit Community Cloud (visualização pública)
 
 ## 📊 Funcionalidades
 
-| Página | Conteúdo |
+O app é um único `app.py` com navegação via `st.navigation` (sem pasta `pages/`). Seções:
+
+| Seção | Conteúdo |
 |--------|----------|
-| 📊 Dinâmica Populacional | Pirâmide etária, distribuição étnico-racial, densidade |
-| 🏠 Diagnóstico Habitacional | IAH, saneamento básico, tipos de domicílio |
+| 🏠 Início | Boas-vindas e visão geral do dashboard |
+| 📊 Demografia | Pirâmide etária, distribuição étnico-racial, KPIs |
+| 🏠 Domicílios | IAH, saneamento básico, tipos de domicílio |
 | 📚 Educação & Renda | Escolaridade, distribuição de renda, PEA |
-| 🤖 Machine Learning | Classificação IVS, Regressão IAH, Clustering |
-| 🏛️ Políticas Públicas | 5 políticas com setores prioritários por ML |
+| 🏛️ Políticas Públicas | Políticas com setores prioritários (usa artefatos de ML do pipeline) |
 | 💬 Assistente IA | Chat contextualizado com Google Gemini |
+
+> **Machine Learning**: os modelos continuam sendo treinados no Colab e os artefatos ficam no GitHub (`models/`, `data/results/`); não há seção dedicada só a ML no Streamlit — os resultados entram no contexto da aba **Políticas** e do assistente.
 
 ---
 
@@ -130,7 +134,7 @@ Tabelas IBGE com metadados no topo usam funções de limpeza documentadas em [`s
 ## 📦 Dependências Principais
 
 ```
-streamlit>=1.32  pandas>=2.0  plotly>=5.18  scikit-learn>=1.4
+streamlit>=1.36  pandas>=2.0  plotly>=5.18  scikit-learn>=1.4
 xgboost>=2.0     pyarrow>=14  google-generativeai>=0.5  joblib>=1.3
 ```
 
@@ -144,4 +148,4 @@ Ver [`specs/001-censo-streamlit-dashboard/quickstart.md`](specs/001-censo-stream
 
 ---
 
-*Dados: IBGE Censo 2010–2022 | IA: Google Gemini 1.5 Flash | Deploy: Streamlit Community Cloud*
+*Dados: IBGE Censo 2010–2022 | IA: Google Gemini (`gemini-2.5-flash` em `utils/gemini_utils.py`) | Deploy: Streamlit Community Cloud*

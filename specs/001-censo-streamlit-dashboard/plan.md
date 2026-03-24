@@ -14,7 +14,7 @@ Dashboard interativo em Streamlit para análise dos dados do Censo 2022 de Casta
 ## Technical Context
 
 **Language/Version**: Python 3.11  
-**Primary Dependencies**: streamlit 1.32+, pandas 2.0+, plotly 5.18+, scikit-learn 1.4+, xgboost 2.0+, google-generativeai 0.5+, pyarrow 14.0+, joblib 1.3+  
+**Primary Dependencies**: streamlit 1.36+ (usa `st.navigation`), pandas 2.0+, plotly 5.18+, scikit-learn 1.4+, xgboost 2.0+, google-generativeai 0.5+, pyarrow 14.0+, joblib 1.3+  
 **Storage**: GitHub público — XLSX do IBGE em `censo_castanhal/censo_castanhal/` (dados públicos), artefatos processados em `data/processed/` (`.parquet`), `models/` (`.joblib`) e `data/results/` (`.json`)  
 **Testing**: Testes manuais via Streamlit + validação de métricas ML no Colab  
 **Target Platform**: Streamlit Community Cloud (Linux, Python 3.11)  
@@ -63,19 +63,11 @@ specs/001-censo-streamlit-dashboard/
 
 ```text
 tcc-castanhal/
-├── app.py                          ← Entry point Streamlit
+├── app.py                          ← Único entry point: st.navigation + funções render_* por seção
 ├── requirements.txt                ← Dependências Python
 ├── .gitignore                      ← Protege dados brutos e credenciais
 ├── .streamlit/
 │   └── secrets.toml               ← NÃO commitar (Streamlit Cloud lê automaticamente)
-│
-├── pages/
-│   ├── 1_demografia.py            ← Dinâmica Populacional
-│   ├── 2_domicilios.py            ← Diagnóstico Habitacional
-│   ├── 3_educacao_renda.py        ← Educação & Trabalho/Renda
-│   ├── 4_machine_learning.py      ← Resultados de ML
-│   ├── 5_politicas.py             ← Políticas Públicas
-│   └── 6_assistente_ia.py         ← Assistente Gemini
 │
 ├── utils/
 │   ├── data_loader.py             ← Carga de .parquet do GitHub (cached)
@@ -97,7 +89,7 @@ Raiz (análise TCC):
 └── tcc_censo_2022.ipynb     ← Análises exploratórias auxiliares
 ```
 
-**Decisão de estrutura**: Projeto único (single-project). O Streamlit é o frontend e o Colab é o backend de processamento. Não há servidor separado — o Streamlit lê artefatos estáticos do GitHub.
+**Decisão de estrutura**: Projeto único (single-project). O Streamlit é o frontend e o Colab é o backend de processamento. Não há servidor separado — o Streamlit lê artefatos estáticos do GitHub. **Interface**: todas as seções vivem em `app.py` (`st.navigation`); não há pasta `pages/` (o uso de `st.navigation` faz o Streamlit ignorar `pages/` mesmo que exista).
 
 ---
 
@@ -130,9 +122,8 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 │  └────────────────┬──────────────────────────────────┘    │
 │                   ↓                                         │
 │  ┌────────────────────────────────────────────────────┐    │
-│  │  pages/ (6 abas)                                    │    │
-│  │  1_demografia  2_domicilios  3_educacao_renda        │    │
-│  │  4_ml_results  5_politicas  6_assistente_ia          │    │
+│  │  app.py — st.navigation (Início, Demografia,        │    │
+│  │  Domicílios, Educação & Renda, Políticas, Assistente)│    │
 │  └────────────────────────────────────────────────────┘    │
 │                   ↑                                         │
 │  ┌────────────────┴───────────────────────────────────┐    │
@@ -168,27 +159,25 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 **Objetivo**: App funcional com as 3 abas de visualização de dados base.
 
 **Entregáveis**:
-1. `app.py` com configuração da sidebar e navegação
+1. `app.py` com `st.set_page_config`, `st.navigation` e funções `render_*` por seção
 2. `utils/data_loader.py` com todas as funções de carga (com cache)
-3. `pages/1_demografia.py` — pirâmide etária, distribuição étnico-racial, KPIs
-4. `pages/2_domicilios.py` — mapa IAH, saneamento, tipos de domicílio
-5. `pages/3_educacao_renda.py` — dispersão renda×escolaridade, pirâmide educacional, Gini
+3. Seções de dados em `app.py`: Demografia, Domicílios, Educação & Renda (equivalente ao que antes estava em arquivos separados em `pages/`)
 
-**Critério de conclusão**: Todas as 3 abas carregam com dados reais do GitHub sem erro.
+**Critério de conclusão**: As três seções de exploração de dados carregam com dados reais do GitHub sem erro.
 
 **Dependências**: Fase A concluída (artefatos no GitHub).
 
 ---
 
-### Fase C: Resultados de ML no Streamlit (P2 — Diferencial)
+### Fase C: Resultados de ML (P2 — Diferencial)
 
-**Objetivo**: Visualizar resultados dos modelos treinados de forma interpretável.
+**Objetivo**: Modelos treinados no Colab e artefatos no GitHub; contextualização nas políticas e no assistente.
 
 **Entregáveis**:
-1. `utils/ml_utils.py` com funções de carga e predição
-2. `pages/4_machine_learning.py` — métricas, matriz de confusão, feature importance, mapa IVS, scatter IAH real vs predito, clusters
+1. `utils/ml_utils.py` com funções de carga e predição (consumo opcional pelo app)
+2. Artefatos em `data/results/*.json`, `models/*.joblib` — utilizados pela seção **Políticas** (`load_features_compostas`, JSON de políticas) e pelo contexto do Gemini
 
-**Critério de conclusão**: Aba ML exibe ao menos métricas de classificação + regressão e um gráfico interpretável para cada.
+**Estado atual (UI)**: não há seção dedicada exclusivamente a “Machine Learning” no Streamlit; métricas e gráficos de modelos não são exibidos em uma aba própria.
 
 **Dependências**: Fase A + Fase B concluídas.
 
@@ -199,8 +188,8 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 **Objetivo**: Chat contextualizado sobre os dados do censo.
 
 **Entregáveis**:
-1. `utils/gemini_utils.py` — funções de geração de contexto e consulta
-2. `pages/6_assistente_ia.py` — interface de chat com histórico (`st.chat_input`, `st.session_state`)
+1. `utils/gemini_utils.py` — funções de geração de contexto e consulta (modelo configurável, ex.: `gemini-2.5-flash`)
+2. Seção **Assistente IA** em `app.py` (`render_assistente_ia`) — chat com histórico (`st.chat_input`, `st.session_state`)
 3. Configuração de `st.secrets["GEMINI_API_KEY"]` documentada
 
 **Critério de conclusão**: Resposta coerente a ao menos 3 perguntas diferentes sobre os dados.
@@ -215,7 +204,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 
 **Entregáveis**:
 1. `data/results/politicas_recomendacoes.json` populado (no Colab)
-2. `pages/5_politicas.py` — seletor de área, cards de política, mapa de setores prioritários
+2. Seção **Políticas** em `app.py` (`render_politicas`) — seletor de área, cards, tabela/gráfico de setores prioritários
 3. Ao menos 3 políticas mapeadas: Habitação Popular, Combate ao Analfabetismo, Geração de Emprego
 
 **Critério de conclusão**: Aba exibe 3+ políticas com setores prioritários identificados pelos modelos.
@@ -231,7 +220,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 | Formato de artefatos | `.parquet` | Compacto, tipado, leitura colunar eficiente |
 | Pipeline disparo | Manual (Colab) | Dados Censo não mudam; simplicidade > automação |
 | Deploy | Streamlit Community Cloud | Gratuito, integra diretamente com GitHub |
-| LLM | Google Gemini 1.5 Flash | Gratuito, 128k contexto, ecossistema Google |
+| LLM | Google Gemini (`gemini-2.5-flash` no app) | API Google AI; modelo atualizado conforme disponibilidade |
 | Padrão IA | Context injection (não RAG completo) | Volume de dados cabe no contexto; sem overhead de vector store |
 | Modelos ML | RF + XGBoost + K-Means | Interpretáveis, robustos, padrão acadêmico |
 | Segredos | Colab Secrets + Streamlit Secrets | Nunca expostos em código ou histórico |
@@ -242,7 +231,7 @@ Nenhuma violação de princípios detectada. Tabela não aplicável.
 
 | Risco | Probabilidade | Impacto | Mitigação |
 |-------|--------------|---------|----------|
-| Cota Gemini API esgotada | Média | Alto | Usar `gemini-1.5-flash` (cota maior que Pro); implementar fallback de mensagem |
+| Cota Gemini API esgotada | Média | Alto | Usar modelo flash atual (`gemini-2.5-flash` ou equivalente); implementar fallback de mensagem |
 | GitHub raw URL lenta | Baixa | Médio | `@st.cache_data(ttl=3600)` evita re-downloads frequentes |
 | Sessão Colab expira durante treinamento | Alta | Médio | Salvar checkpoints após cada modelo; re-executar apenas células necessárias |
 | Dados XLSX com estrutura variada | Alta | Alto | Implementar limpeza defensiva com nomes de colunas flexíveis + log de colunas não encontradas |

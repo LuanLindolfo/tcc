@@ -5,6 +5,8 @@
 **Repositório**: https://github.com/LuanLindolfo/tcc  
 **Total de tarefas**: 22 | **Total de fases**: 7
 
+> **Nota de alinhamento (2026-03-24)**: O Streamlit está consolidado em **`app.py`** com `st.navigation` (sem pasta `pages/`). Referências históricas a `pages/*.py` correspondem às **seções** implementadas como `render_*` no mesmo arquivo. A seção dedicada a Machine Learning na UI foi removida; artefatos ML seguem no GitHub e são usados em Políticas/IA.
+
 ---
 
 ## ⚠️ Princípio V — Notebook Colab como Fonte de Verdade (Constituição v1.1.0)
@@ -61,7 +63,7 @@ Fase 7 (Deploy)
 
 - [x] T001 Inicializar git no workspace local: `git init && git remote add origin https://github.com/LuanLindolfo/tcc.git` em `/home/lindolfo/tcc`
 - [x] T002 Fazer primeiro commit e push de toda a estrutura Streamlit para a branch main do GitHub: `git add . && git commit -m "feat: add streamlit app structure"` em `/home/lindolfo/tcc`
-- [x] T003 Verificar no GitHub que os seguintes arquivos existem após o push: `app.py`, `requirements.txt`, `pages/`, `utils/`, `notebooks/censo_castanhal_pipeline.ipynb`
+- [x] T003 Verificar no GitHub que os seguintes existem após o push: `app.py`, `requirements.txt`, `utils/`, `notebooks/censo_castanhal_pipeline.ipynb` (estrutura atual sem pasta `pages/` obrigatória)
 
 ---
 
@@ -92,18 +94,20 @@ Fase 7 (Deploy)
 > Critério independente: Todas as 3 abas de dados carregam gráficos corretos sem erro.
 
 - [x] T011 [P] [US1] Atualizar `utils/data_loader.py` com as funções `carregar_demografico()`, `carregar_domicilios()`, `carregar_educacao()`, `carregar_trabalho_renda()` e `carregar_features()` usando os nomes de colunas reais confirmados na T006 — garantir que cada função retorna DataFrame não-vazio com as colunas esperadas pelos gráficos
-- [x] T012 [P] [US1] Atualizar `pages/1_demografia.py` para usar as colunas reais da pirâmide etária (ex: coluna de faixa etária, colunas de homens/mulheres) e do arquivo de razão de sexo/índice de envelhecimento, garantindo que os gráficos renderizam sem `KeyError`
-- [x] T013 [P] [US1] Atualizar `pages/2_domicilios.py` para usar colunas reais de saneamento, tipos de domicílio e condições de ocupação dos XLSX — garantir que KPIs e histograma IAH exibem valores corretos
-- [x] T014 [P] [US1] Atualizar `pages/3_educacao_renda.py` para usar colunas reais de nível de instrução, taxa de analfabetismo, frequência escolar e rendimento per capita — placeholder do Gini deve permanecer com `st.info()`
+- [x] T012 [P] [US1] Atualizar a seção Demografia em `app.py` (`render_demografia`) para usar as colunas reais da pirâmide etária (ex: coluna de faixa etária, colunas de homens/mulheres) e do arquivo de razão de sexo/índice de envelhecimento, garantindo que os gráficos renderizam sem `KeyError`
+- [x] T013 [P] [US1] Atualizar a seção Domicílios em `app.py` (`render_domicilios`) para usar colunas reais de saneamento, tipos de domicílio e condições de ocupação dos XLSX — garantir que KPIs e histograma IAH exibem valores corretos
+- [x] T014 [P] [US1] Atualizar a seção Educação & Renda em `app.py` (`render_educacao_renda`) para usar colunas reais de nível de instrução, taxa de analfabetismo, frequência escolar e rendimento per capita — placeholder do Gini deve permanecer com `st.info()`
 
 ---
 
 ## Fase 5: US2 — Resultados de ML no Streamlit
 
-> Critério independente: Aba ML exibe métricas e gráficos interpretáveis carregados do GitHub.
+> **Estado atual**: não há aba exclusiva de ML na UI; artefatos permanecem no GitHub e são usados em Políticas/contexto IA. As tasks abaixo referem-se ao desenho original (página dedicada).
 
-- [x] T015 [P] [US2] Validar `pages/4_machine_learning.py` após execução do pipeline (Fase 3): verificar que as 3 abas internas (Classificação, Regressão, Clustering) carregam métricas dos JSONs e gráficos sem erro — corrigir quaisquer referências a colunas inexistentes em `pages/4_machine_learning.py`
-- [x] T016 [US2] Adicionar filtro interativo por cluster (`st.selectbox`) na aba de Clustering em `pages/4_machine_learning.py` para satisfazer US2 Acceptance Scenario 2 (filtro que atualiza gráfico) — executar após T015
+> Critério independente (histórico): Aba ML exibia métricas e gráficos interpretáveis carregados do GitHub.
+
+- [x] T015 [P] [US2] ~~Validar `pages/4_machine_learning.py`~~ — *supersedido*: validação de métricas/JSON pode ser feita no Colab ou inspecionando artefatos; UI dedicada removida
+- [x] T016 [US2] ~~Filtro por cluster na aba ML~~ — *supersedido* junto com a seção ML dedicada
 
 ---
 
@@ -112,8 +116,8 @@ Fase 7 (Deploy)
 > Critério US3: Resposta coerente a 3 perguntas sobre os dados via Gemini.
 > Critério US4: Aba exibe 5 políticas com setores prioritários identificados pelos modelos.
 
-- [ ] T017 [P] [US3] Obter `GEMINI_API_KEY` em https://aistudio.google.com/app/apikey e configurar localmente em `.streamlit/secrets.toml` (nunca commitar) — testar resposta no `pages/6_assistente_ia.py` rodando `streamlit run app.py` localmente
-- [x] T018 [P] [US4] Validar `pages/5_politicas.py` após pipeline executado (Fase 3): verificar que o JSON `politicas_recomendacoes.json` é lido corretamente e os 5 cards de política são exibidos sem erro
+- [ ] T017 [P] [US3] Obter `GEMINI_API_KEY` em https://aistudio.google.com/app/apikey e configurar localmente em `.streamlit/secrets.toml` (nunca commitar) — testar resposta na seção **Assistente IA** (`render_assistente_ia` em `app.py`) rodando `streamlit run app.py` localmente
+- [x] T018 [P] [US4] Validar a seção Políticas em `app.py` (`render_politicas`) após pipeline executado (Fase 3): verificar que o JSON `politicas_recomendacoes.json` é lido corretamente e os cards de política são exibidos sem erro
 
 ---
 
@@ -134,8 +138,8 @@ Tasks com `[P]` na mesma fase podem ser executadas simultaneamente:
 
 | Fase | Paralelas | Sequenciais |
 |------|-----------|-------------|
-| Fase 4 | T011, T012, T013, T014 (páginas independentes) | após T008-T009 (artefatos no GitHub) |
-| Fase 5 | T015 (validação) | T016 sequencial após T015 (mesmo arquivo) |
+| Fase 4 | T011, T012, T013, T014 (seções em `app.py`) | após T008-T009 (artefatos no GitHub) |
+| Fase 5 | T015, T016 (histórico — UI ML removida) | — |
 | Fase 6 | T017 (Gemini), T018 (Políticas) | independentes entre si |
 
 ---
@@ -146,7 +150,7 @@ Tasks com `[P]` na mesma fase podem ser executadas simultaneamente:
 |-------|----------|-------|
 | US5 — Pipeline | Colab executa, artefatos aparecem no GitHub | T004–T010 |
 | US1 — Dados | 3 abas com gráficos corretos | T011–T014 |
-| US2 — ML | Métricas + gráficos + filtro | T015–T016 |
+| US2 — ML | Artefatos no GitHub; UI dedicada removida (T015–T016 históricas) | T015–T016 |
 | US3 — IA | Resposta coerente ao chat | T017 |
 | US4 — Políticas | 5 políticas com setores | T018 |
 | Deploy | URL pública funcionando | T019–T022 |
@@ -191,4 +195,4 @@ Execute nesta ordem para ter o dashboard funcional o mais rápido possível:
 2. **T004–T005** → abrir notebook canônico no Colab e configurar token
 3. **T006–T009** → pipeline executa no Colab e artefatos aparecem no GitHub
 4. **T019–T021** → deploy imediato (já funciona com dados básicos)
-5. **T011–T018** → refinamento das páginas com colunas reais
+5. **T011–T018** → refinamento das seções em `app.py` com colunas reais

@@ -64,23 +64,25 @@ Como pesquisador/gestor público, quero explorar graficamente os dados demográf
 
 **Acceptance Scenarios**:
 
-1. **Given** o app Streamlit está aberto, **When** seleciono a aba "Demografia", **Then** vejo gráficos de distribuição etária, pirâmide etária e distribuição étnico-racial de Castanhal.
-2. **Given** o app está aberto, **When** seleciono a aba "Renda", **Then** vejo distribuição de renda per capita e Índice de Gini (quando disponível).
+1. **Given** o app Streamlit está aberto, **When** seleciono a seção "Demografia", **Then** vejo gráficos de distribuição etária, pirâmide etária e distribuição étnico-racial de Castanhal.
+2. **Given** o app está aberto, **When** seleciono a seção "Educação & Renda", **Then** vejo distribuição de renda per capita e Índice de Gini (quando disponível).
 
 ---
 
 ### User Story 2 — Resultados de ML (Classificação e Regressão) (Priority: P2)
 
-Como analista, quero visualizar no Streamlit os resultados dos modelos de classificação e regressão treinados no Colab, para interpretar padrões previstos pela IA sobre a população de Castanhal.
+Como analista, quero que os resultados dos modelos de classificação e regressão treinados no Colab estejam disponíveis para o sistema (artefatos no GitHub e uso em políticas/contexto de IA), para interpretar padrões previstos sobre a população de Castanhal.
 
 **Why this priority**: Os modelos ML são o diferencial analítico do TCC.
 
-**Independent Test**: Aba de ML exibe métricas do modelo (acurácia, R², etc.) e visualizações dos resultados (matriz de confusão, gráfico de regressão).
+**Independent Test**: Artefatos `.json` / `features_compostas.parquet` presentes no repositório após o pipeline; a seção **Políticas** e o assistente conseguem usar indicadores derivados dos modelos.
 
 **Acceptance Scenarios**:
 
-1. **Given** o pipeline foi executado no Colab e os resultados salvos, **When** acesso a aba "Machine Learning" no Streamlit, **Then** vejo métricas do modelo e gráficos interpretáveis.
-2. **Given** resultados de classificação disponíveis, **When** interajo com filtros (ex: faixa etária), **Then** os gráficos atualizam para o subgrupo selecionado.
+1. **Given** o pipeline foi executado no Colab e os resultados salvos, **When** acesso à seção **Políticas** (`render_politicas`), **Then** vejo políticas e indicadores que dependem de `features_compostas` / JSON gerados pelo pipeline.
+2. **Given** resultados de classificação disponíveis no GitHub, **When** o assistente de IA recebe contexto com dados agregados, **Then** pode responder sobre vulnerabilidade e infraestrutura com base nos dados injetados.
+
+> **Nota de produto (2026-03-24)**: não existe seção de menu dedicada exclusivamente a “Machine Learning” no Streamlit; métricas e gráficos de modelos não são exibidos em uma tela própria.
 
 ---
 
@@ -94,7 +96,7 @@ Como usuário do sistema, quero fazer perguntas em linguagem natural sobre os da
 
 **Acceptance Scenarios**:
 
-1. **Given** estou na aba "Perguntar à IA", **When** digito "Qual é a taxa de analfabetismo em Castanhal?", **Then** recebo uma resposta contextualizada com os dados disponíveis.
+1. **Given** estou na seção **Assistente IA**, **When** digito "Qual é a taxa de analfabetismo em Castanhal?", **Then** recebo uma resposta contextualizada com os dados disponíveis.
 2. **Given** o assistente está ativo, **When** faço perguntas em sequência, **Then** o histórico da conversa fica visível na tela (dinamismo conversacional).
 
 ---
@@ -105,11 +107,11 @@ Como gestor público ou pesquisador, quero visualizar as políticas públicas mu
 
 **Why this priority**: Finalidade aplicada do TCC — conectar dados a ações concretas.
 
-**Independent Test**: Aba "Políticas Públicas" exibe ao menos 3 políticas com sugestões de uso dos dados ML.
+**Independent Test**: A seção "Políticas" exibe ao menos 3 políticas com sugestões de uso dos dados ML.
 
 **Acceptance Scenarios**:
 
-1. **Given** estou na aba "Políticas Públicas", **When** seleciono uma política (ex: educação), **Then** vejo uma análise de como os dados de escolaridade e os resultados do modelo podem orientar intervenções.
+1. **Given** estou na seção **Políticas**, **When** seleciono uma política (ex: educação), **Then** vejo uma análise de como os dados de escolaridade e os resultados do modelo podem orientar intervenções.
 
 ---
 
@@ -141,11 +143,11 @@ Como desenvolvedor do TCC, quero um pipeline documentado e funcional que puxe os
 
 - **FR-001**: O pipeline DEVE ler os dados XLSX do Censo 2022 diretamente do **repositório GitHub** (`censo_castanhal/censo_castanhal/`) via URL raw, processar no Colab e salvar artefatos limpos de volta no GitHub. Os dados XLSX do IBGE são públicos e estão commitados no repositório. O disparo do pipeline é **manual** — o desenvolvedor executa o notebook Colab quando precisar atualizar dados ou re-treinar modelos.
 - **FR-002**: O Colab DEVE treinar modelos de classificação e regressão sobre as variáveis censitárias e salvar os artefatos (modelos serializados + resultados) no GitHub.
-- **FR-003**: O Streamlit DEVE exibir abas dinâmicas para: Exploração de Dados, Machine Learning, IA Conversacional e Políticas Públicas.
+- **FR-003**: O Streamlit DEVE exibir navegação (`st.navigation`) com as seções: Início, Demografia, Domicílios, Educação & Renda, Políticas Públicas e Assistente IA (IA conversacional). **Não** há obrigatoriedade de seção dedicada exclusivamente a telas de Machine Learning; artefatos de ML permanecem no GitHub e são consumidos onde aplicável (ex.: Políticas, contexto do Gemini).
 - **FR-004**: O assistente de IA DEVE gerar respostas contextualizadas sobre os dados do censo em linguagem natural com histórico conversacional visível.
 - **FR-005**: A aba de Políticas Públicas DEVE apresentar políticas municipais de Castanhal e como os resultados de ML podem ser aplicados a cada uma.
 - **FR-006**: O Streamlit DEVE ler artefatos (modelos, dados processados) diretamente do repositório GitHub e será implantado no **Streamlit Community Cloud**, com URL pública para acesso da banca avaliadora. O app é **público, sem autenticação**.
-- **FR-007**: O sistema DEVE usar **Google Gemini** (via `google-generativeai` SDK) para gerar respostas do assistente conversacional, aproveitando a integração nativa com o ecossistema Google (Colab, Drive).
+- **FR-007**: O sistema DEVE usar **Google Gemini** (via `google-generativeai` SDK; modelo configurado em `utils/gemini_utils.py`, ex.: `gemini-2.5-flash`) para gerar respostas do assistente conversacional, aproveitando a integração nativa com o ecossistema Google (Colab, Drive).
 - **FR-008**: O modelo de **classificação** DEVE prever **nível de vulnerabilidade socioeconômica** (ex: baixo/médio/alto) combinando variáveis de renda, escolaridade e condições de moradia. O modelo de **regressão** DEVE estimar indicadores de **infraestrutura urbana** (ex: acesso a saneamento, energia, coleta de lixo por setor censitário).
 
 ### Key Entities
@@ -173,5 +175,5 @@ Como desenvolvedor do TCC, quero um pipeline documentado e funcional que puxe os
 - **SC-001**: Pipeline Colab executa end-to-end (GitHub XLSX → limpeza → treinamento → push de artefatos para GitHub) com exit code 0 e arquivos `.parquet`, `.joblib` e `.json` visíveis no repositório após a execução.
 - **SC-002**: Streamlit exibe visualizações para todas as 4 categorias de dados (demografia, domicílios, educação, renda).
 - **SC-003**: Assistente de IA responde corretamente a ao menos 80% das perguntas sobre os dados em testes manuais.
-- **SC-004**: Aba de Políticas Públicas conecta ao menos 3 políticas municipais com recomendações baseadas nos resultados de ML.
+- **SC-004**: A seção Políticas Públicas conecta ao menos 3 políticas municipais com recomendações baseadas nos resultados de ML.
 - **SC-005**: Dados e artefatos persistidos no GitHub garantem que nenhum arquivo seja perdido entre sessões do Colab.

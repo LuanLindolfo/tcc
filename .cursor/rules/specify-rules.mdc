@@ -6,23 +6,16 @@ alwaysApply: true
 
 # tcc Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2026-03-16
+Auto-generated from all feature plans. Last updated: 2026-03-24
 
 ## Active Technologies
 
-- **001-censo-streamlit-dashboard**: Python 3.11, Streamlit 1.32+, Pandas 2.0+, Plotly, scikit-learn 1.4+, XGBoost 2.0+, Google Gemini (`google-generativeai`), PyArrow/Parquet, Joblib
+- **001-censo-streamlit-dashboard**: Python 3.11, Streamlit 1.36+ (`st.navigation`), Pandas 2.0+, Plotly, scikit-learn 1.4+, XGBoost 2.0+, Google Gemini (`google-generativeai`), PyArrow/Parquet, Joblib
 
 ## Project Structure
 
 ```text
-app.py                     ← Entry point Streamlit
-pages/
-├── 1_demografia.py
-├── 2_domicilios.py
-├── 3_educacao_renda.py
-├── 4_machine_learning.py
-├── 5_politicas.py
-└── 6_assistente_ia.py
+app.py                     ← App único: st.navigation (Início, Demografia, Domicílios, …)
 utils/
 ├── data_loader.py         ← @st.cache_data, lê .parquet do GitHub
 ├── ml_utils.py            ← carrega .joblib do GitHub
