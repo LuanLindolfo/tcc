@@ -555,7 +555,7 @@ def render_assistente_ia():
             {
                 "role": "assistant",
                 "content": (
-                    "Olá! Sou o **assistente de IA** do sistema (Gemini), com contexto dos dados do Censo 2022 de Castanhal.\n\n"
+                    "Olá! Sou o **assistente de IA** do sistema, com contexto dos dados do Censo 2022 de Castanhal.\n\n"
                     "Exemplos:\n"
                     "- *Qual é a taxa de analfabetismo em Castanhal?*\n"
                     "- *Quais setores têm maior vulnerabilidade socioeconômica?*\n"
