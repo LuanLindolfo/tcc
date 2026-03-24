@@ -177,3 +177,4 @@ Como desenvolvedor do TCC, quero um pipeline documentado e funcional que puxe os
 - **SC-003**: Assistente de IA responde corretamente a ao menos 80% das perguntas sobre os dados em testes manuais.
 - **SC-004**: A seção Políticas Públicas conecta ao menos 3 políticas municipais com recomendações baseadas nos resultados de ML.
 - **SC-005**: Dados e artefatos persistidos no GitHub garantem que nenhum arquivo seja perdido entre sessões do Colab.
+                                                                                                               
