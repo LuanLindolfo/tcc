@@ -1,0 +1,39 @@
+# Dados brutos de fontes externas (não IBGE) — protegidos por LGPD
+# Os XLSX do IBGE/Censo em censo_castanhal/ são dados PÚBLICOS e podem ser commitados
+data/raw/
+
+# Credenciais — NUNCA commitar (Princípio III da Constituição)
+.env
+*.env
+.streamlit/secrets.toml
+google_auth.json
+credentials.json
+service_account.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Modelos temporários (apenas versões finais vão ao GitHub)
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
