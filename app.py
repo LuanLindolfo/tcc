@@ -1,616 +1,414 @@
 """
-Sistema de Inteligência Territorial de Castanhal — app único (Streamlit multipágina via st.navigation).
+Painel Streamlit — TCC Castanhal-PA (Censo / notebook Arquivo_tcc.ipynb).
+Multipágina via st.navigation; tema em .streamlit/config.toml.
 """
 
-import pandas as pd
+from __future__ import annotations
+
+import streamlit as st
+import streamlit.components.v1 as components
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st
+import pandas as pd
 
-from utils.data_loader import (
-    find_col,
-    load_demografico,
-    load_domicilios,
-    load_educacao,
-    load_features_compostas,
-    load_politicas,
-    load_trabalho_renda,
+from utils.censo_projecoes import (
+    SERIES,
+    projetar_mlp,
+    series_com_pelo_menos_2_censos_no_periodo,
+    dataframe_relatorio_completo,
 )
 from utils.gemini_utils import (
-    TEMAS_DISPONIVEIS,
-    consultar_gemini,
-    gerar_contexto_tematico,
+    consultar_gemini_modo,
+    texto_contexto_notebook_completo,
 )
+from utils.relatorio_export import csv_bytes, pdf_bytes
 
+# ── Página ───────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Dashboard Estratégico — Castanhal",
+    page_title="Castanhal em dados | TCC",
     layout="wide",
     initial_sidebar_state="expanded",
+    page_icon="📊",
 )
 
 
-# ── Início ────────────────────────────────────────────────────────────────────
-def render_inicio():
-    st.title("Gestão Pública Inteligente: Censo Castanhal 2022")
+@st.cache_data(ttl=3600, show_spinner=False)
+def _contexto_gemini_cache() -> str:
+    return texto_contexto_notebook_completo()
+
+
+def _inject_css() -> None:
     st.markdown(
-        "Dashboard interativo com dados do **Censo IBGE 2022** de Castanhal – PA, "
-        "políticas públicas e **assistente de IA** (Gemini) no Streamlit. Use o menu à esquerda para navegar."
+        """
+        <style>
+          .block-container { padding-top: 1.2rem; max-width: 1200px; }
+          div[data-testid="stSidebarNav"] { font-weight: 500; }
+          .tcc-hero {
+            background: linear-gradient(135deg, #E3F2FD 0%, #FFFFFF 55%, #FFF8E1 100%);
+            padding: 1.75rem 1.5rem;
+            border-radius: 18px;
+            border: 1px solid #BBDEFB;
+            margin-bottom: 1.25rem;
+          }
+          .tcc-badge {
+            display: inline-block;
+            background: #1565C0;
+            color: white !important;
+            padding: 0.2rem 0.65rem;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            letter-spacing: 0.03em;
+          }
+          .stTabs [data-baseweb="tab-list"] { gap: 8px; }
+        </style>
+        """,
+        unsafe_allow_html=True,
     )
-    st.divider()
-    c1, c2, c3 = st.columns(3)
+
+
+def _fig_indicador_serie(s) -> go.Figure:
+    pr = projetar_mlp(s.anos, s.valores)
+    fig = go.Figure()
+    fig.add_trace(
+        go.Scatter(
+            x=list(s.anos),
+            y=list(s.valores),
+            mode="lines+markers",
+            name="Censos IBGE",
+            line=dict(color="#1565C0", width=3),
+            marker=dict(size=11, color="#0D47A1"),
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=pr["anos_curva"],
+            y=pr["val_curva"],
+            mode="lines",
+            name="Curva MLP (treinada)",
+            line=dict(color="#7B1FA2", width=2, dash="solid"),
+            opacity=0.85,
+        )
+    )
+    for af, pv in pr["previsoes"]:
+        fig.add_trace(
+            go.Scatter(
+                x=[af],
+                y=[pv],
+                mode="markers+text",
+                name=f"Projeção {af}",
+                text=[f"{pv:.2f}"],
+                textposition="top center",
+                marker=dict(size=14, color="#E65100", symbol="star", line=dict(width=1, color="#FFF")),
+            )
+        )
+    fig.update_layout(
+        template="plotly_white",
+        height=420,
+        margin=dict(l=40, r=20, t=50, b=40),
+        title=dict(text=f"<b>{s.titulo}</b> <span style='font-size:12px'>({s.unidade})</span>", x=0.02),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
+        hovermode="x unified",
+    )
+    fig.update_xaxes(title="Ano")
+    fig.update_yaxes(title=s.unidade)
+    return fig
+
+
+def render_home() -> None:
+    st.markdown(
+        """
+        <div class="tcc-hero">
+          <span class="tcc-badge">Trabalho de Conclusão de Curso</span>
+          <h1 style="margin:0.6rem 0 0.4rem 0; color:#0D47A1;">Castanhal em perspectiva censitária</h1>
+          <p style="font-size:1.05rem; line-height:1.55; color:#334155; margin:0;">
+            Este painel apoia a leitura dos <strong>dados agregados do IBGE</strong> e das
+            <strong>projeções com redes neurais</strong> construídas no notebook
+            <code>Arquivo_tcc.ipynb</code> — um estudo que combina Ciência de Dados e visualização
+            para o município de <strong>Castanhal – PA</strong>.
+          </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    c1, c2, c3, c4 = st.columns(4)
     with c1:
-        st.metric("Município", "Castanhal", "PA")
+        st.metric("População (2022)", "192.256", "habitantes", help="Total residente — série comparativa do notebook.")
     with c2:
-        st.metric("Base", "Censo 2022", "IBGE")
+        st.metric("Renda per capita (2022)", "R$ 1.055", "nominal", help="Rendimento domiciliar mensal per capita.")
     with c3:
-        st.metric("Módulos", "6", "seções")
-    st.info(
-        "**Demografia** · **Domicílios** · **Educação & Renda** · "
-        "**Políticas Públicas** · **Assistente IA** — escolha uma seção no menu lateral.",
-        icon="📊",
+        st.metric("Indicadores modelados", str(len(SERIES)), "séries", help="Quantidade de séries com gráficos MLP no TCC.")
+    with c4:
+        st.metric("Censos na base", "1991–2022", "recortes", help="Conforme disponibilidade por indicador.")
+
+    st.subheader("Panorama dinâmico")
+    p1, p2 = st.columns(2, gap="large")
+
+    df_pop = pd.DataFrame(
+        {
+            "Censo": ["1991", "2000", "2010", "2022"],
+            "População": [102_071, 134_496, 173_149, 192_256],
+        }
     )
+    fig_bar = px.bar(
+        df_pop,
+        x="Censo",
+        y="População",
+        color="Censo",
+        color_discrete_sequence=px.colors.qualitative.Bold,
+        text_auto=",",
+        title="População total — evolução entre censos",
+    )
+    fig_bar.update_layout(template="plotly_white", height=360, showlegend=False)
+    p1.plotly_chart(fig_bar, use_container_width=True)
 
+    # Sunburst composição cor/raça 2022 (valores absolutos do notebook)
+    labels = ["Castanhal 2022", "Parda", "Branca", "Preta", "Amarela", "Indígena"]
+    parents = ["", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022"]
+    values = [192_256, 132_079, 42_881, 16_429, 719, 144]
+    fig_sb = px.sunburst(
+        names=labels,
+        parents=parents,
+        values=values,
+        color=labels,
+        color_discrete_sequence=px.colors.qualitative.Set2,
+        title="Composição por cor ou raça (hab.) — referência 2022",
+    )
+    fig_sb.update_layout(height=360, margin=dict(t=50, l=10, r=10, b=10))
+    p2.plotly_chart(fig_sb, use_container_width=True)
 
-# ── Demografia ─────────────────────────────────────────────────────────────────
-def render_demografia():
-    st.title("Dinâmica Populacional")
-    st.markdown("Análise demográfica do município de **Castanhal – PA** (Censo IBGE 2022)")
-    st.divider()
+    df_renda = pd.DataFrame(
+        {
+            "Ano": [1991, 2000, 2010, 2022],
+            "R$ per capita": [160.54, 260.98, 467.32, 1055.05],
+        }
+    )
+    fig_line = px.area(
+        df_renda,
+        x="Ano",
+        y="R$ per capita",
+        title="Rendimento domiciliar mensal per capita (R$)",
+        color_discrete_sequence=["#00897B"],
+    )
+    fig_line.update_traces(fill="tozeroy", line=dict(width=3))
+    fig_line.update_layout(template="plotly_white", height=340)
+    st.plotly_chart(fig_line, use_container_width=True)
 
-    with st.spinner("Carregando dados demográficos..."):
-        df = load_demografico()
-
-    if df.empty:
-        st.error(
-            "Dados demográficos não disponíveis. Execute o pipeline no Colab para gerar os dados.",
-            icon="❌",
-        )
-        return
-
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        c = find_col(df, ["pop_total", "populacao_total", "total", "populacao", "pessoas"])
-        pop = int(df[c].sum()) if c else "N/D"
-        st.metric("População Total", f"{pop:,}".replace(",", ".") if isinstance(pop, int) else pop)
-    with col2:
-        c = find_col(df, ["indice_envelhecimento", "ie", "envelhecimento"])
-        ie = float(df[c].mean()) if c else None
-        st.metric("Índice de Envelhecimento", f"{ie:.1f}" if ie else "N/D")
-    with col3:
-        c = find_col(df, ["razao_sexo", "razao_de_sexo", "sex_ratio"])
-        rs = float(df[c].mean()) if c else None
-        st.metric("Razão de Sexo", f"{rs:.1f} H/100M" if rs else "N/D")
-    with col4:
-        st.metric("Linhas carregadas", len(df))
-
-    st.divider()
-    st.subheader("Pirâmide Etária")
-
-    col_masc = find_col(df, ["homens", "masculino", "masc", "pop_masc", "h"])
-    col_fem = find_col(df, ["mulheres", "feminino", "fem", "pop_fem", "m"])
-    col_faixa = find_col(df, ["faixa", "faixa_de_idade", "faixa_etaria", "grupo_de_idade", "idade"])
-
-    if col_masc and col_fem and col_faixa:
-        df_pir = df[[col_faixa, col_masc, col_fem]].copy()
-        df_pir.columns = ["Faixa", "Masculino", "Feminino"]
-        df_pir = df_pir.dropna()
-        fig_piramide = go.Figure()
-        fig_piramide.add_trace(
-            go.Bar(
-                y=df_pir["Faixa"],
-                x=-df_pir["Masculino"].astype(float),
-                name="Masculino",
-                orientation="h",
-                marker_color="#2196F3",
-            )
-        )
-        fig_piramide.add_trace(
-            go.Bar(
-                y=df_pir["Faixa"],
-                x=df_pir["Feminino"].astype(float),
-                name="Feminino",
-                orientation="h",
-                marker_color="#E91E63",
-            )
-        )
-        fig_piramide.update_layout(
-            barmode="overlay",
-            title="Pirâmide Etária — Castanhal 2022",
-            xaxis_title="População",
-            yaxis_title="Faixa Etária",
-            height=400,
-        )
-        st.plotly_chart(fig_piramide, use_container_width=True)
-    elif col_faixa:
-        col_val = find_col(df, ["total", "populacao", "pessoas", "valor"])
-        if col_val:
-            fig_piramide = px.bar(
-                df.dropna(subset=[col_faixa, col_val]),
-                x=col_faixa,
-                y=col_val,
-                title="Distribuição por Faixa Etária — Castanhal 2022",
-                color_discrete_sequence=px.colors.qualitative.Pastel,
-            )
-            st.plotly_chart(fig_piramide, use_container_width=True)
-        else:
-            st.info("Colunas de valor não encontradas nos dados de pirâmide etária.")
-    else:
-        st.info("Colunas de faixa etária não encontradas. Execute o pipeline Colab para gerar os dados.")
-
-    with st.expander("Diagnóstico — colunas disponíveis no parquet demográfico"):
-        st.write(list(df.columns))
-
-    st.subheader("Distribuição Étnico-Racial")
     st.caption(
-        "Dados de distribuição étnico-racial estão sujeitos a limitações dos questionários "
-        "censitários e possíveis vieses de autodeclaração — interprete com cautela."
-    )
-    raca_candidatos = {
-        "Branca": ["branca", "pct_branca", "cor_branca"],
-        "Preta": ["preta", "pct_preta", "cor_preta"],
-        "Parda": ["parda", "pct_parda", "cor_parda"],
-        "Indígena": ["indigena", "pct_indigena", "cor_indigena"],
-        "Amarela": ["amarela", "pct_amarela", "cor_amarela"],
-    }
-    raca_data = {}
-    for label, cands in raca_candidatos.items():
-        c = find_col(df, cands)
-        if c:
-            raca_data[label] = float(df[c].mean())
-
-    if raca_data:
-        df_raca = pd.DataFrame(list(raca_data.items()), columns=["Cor/Raça", "% Média"])
-        fig_raca = px.pie(
-            df_raca,
-            names="Cor/Raça",
-            values="% Média",
-            title="Distribuição por Cor/Raça — Média dos Setores",
-            color_discrete_sequence=px.colors.qualitative.Set3,
-        )
-        st.plotly_chart(fig_raca, use_container_width=True)
-    else:
-        st.info("Dados étnico-raciais não disponíveis nos dados processados.")
-
-    if "pct_naturais_castanhal" in df.columns or "pct_migrantes" in df.columns:
-        st.subheader("Perfil Migratório")
-        col_a, col_b = st.columns(2)
-        if "pct_naturais_castanhal" in df.columns:
-            col_a.metric("Naturais de Castanhal", f"{df['pct_naturais_castanhal'].mean():.1f}%")
-        if "pct_migrantes" in df.columns:
-            col_b.metric("Migrantes (fora do Pará)", f"{df['pct_migrantes'].mean():.1f}%")
-
-    with st.expander("Ver dados brutos por setor censitário"):
-        st.dataframe(df, use_container_width=True)
-
-
-# ── Domicílios ────────────────────────────────────────────────────────────────
-def render_domicilios():
-    st.title("Diagnóstico Habitacional")
-    st.markdown("Condições de moradia e infraestrutura dos domicílios de **Castanhal – PA** (Censo 2022)")
-    st.divider()
-
-    with st.spinner("Carregando dados habitacionais..."):
-        df = load_domicilios()
-
-    if df.empty:
-        st.error(
-            "Dados habitacionais não disponíveis. Execute o pipeline no Colab para gerar os dados.",
-            icon="❌",
-        )
-        return
-
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        c = find_col(df, ["total_domicilios", "domicilios", "total", "quantidade"])
-        total_dom = int(df[c].sum()) if c else "N/D"
-        st.metric("Total de Domicílios", f"{total_dom:,}".replace(",", ".") if isinstance(total_dom, int) else total_dom)
-    with col2:
-        c = find_col(df, ["media_moradores", "media_de_moradores", "moradores", "numero_de_moradores"])
-        media_mor = float(df[c].mean()) if c else None
-        st.metric("Média de Moradores", f"{media_mor:.1f}" if media_mor else "N/D")
-    with col3:
-        c = find_col(df, ["iah", "indice_adequacao_habitacional", "adequacao"])
-        iah_medio = float(df[c].mean()) if c else None
-        st.metric("IAH Médio", f"{iah_medio:.2f}" if iah_medio else "N/D", help="Índice de Adequação Habitacional (0-1)")
-    with col4:
-        cands_san = ["agua", "esgoto", "lixo", "energia", "saneamento"]
-        cols_san = [find_col(df, [k]) for k in cands_san]
-        available = [c for c in cols_san if c is not None]
-        pct_saneamento = float(df[available].mean().mean()) if available else None
-        st.metric("Saneamento Básico Médio", f"{pct_saneamento:.1f}%" if pct_saneamento else "N/D")
-
-    st.divider()
-
-    if "iah" in df.columns:
-        st.subheader("Distribuição do IAH por Setor")
-        st.caption("Índice de Adequação Habitacional: quanto mais próximo de 1, melhor a infraestrutura.")
-        fig_iah = px.histogram(
-            df,
-            x="iah",
-            nbins=20,
-            title="Distribuição do Índice de Adequação Habitacional (IAH)",
-            labels={"iah": "IAH (0 = inadequado, 1 = adequado)"},
-            color_discrete_sequence=["#FF7043"],
-        )
-        fig_iah.add_vline(x=0.5, line_dash="dash", line_color="red", annotation_text="Limiar crítico (0,5)")
-        st.plotly_chart(fig_iah, use_container_width=True)
-
-    st.subheader("Acesso a Serviços de Saneamento Básico")
-    san_data = {
-        "Água Encanada": ["pct_agua_encanada", "agua_encanada", "agua"],
-        "Esgoto Sanitário": ["pct_esgoto", "esgoto", "esgoto_sanitario"],
-        "Coleta de Lixo": ["pct_coleta_lixo", "coleta_lixo", "lixo"],
-        "Energia Elétrica": ["pct_energia_eletrica", "energia_eletrica", "energia"],
-    }
-    san_medias = {}
-    for label, cands in san_data.items():
-        c = find_col(df, cands)
-        if c:
-            san_medias[label] = float(df[c].mean())
-    if san_medias:
-        df_san = pd.DataFrame(list(san_medias.items()), columns=["Serviço", "% Média dos Setores"])
-        fig_san = px.bar(
-            df_san,
-            x="Serviço",
-            y="% Média dos Setores",
-            title="Cobertura Média de Serviços de Saneamento — Castanhal 2022",
-            color="Serviço",
-            color_discrete_sequence=px.colors.qualitative.Pastel2,
-            text_auto=".1f",
-        )
-        fig_san.update_layout(yaxis_range=[0, 100], showlegend=False)
-        st.plotly_chart(fig_san, use_container_width=True)
-
-    st.subheader("Tipos de Domicílio")
-    tipo_data = {"Casas": "pct_casas", "Apartamentos": "pct_apartamentos", "Cômodos": "pct_comodos"}
-    tipo_medias = {k: df[v].mean() for k, v in tipo_data.items() if v in df.columns}
-    if tipo_medias:
-        df_tipo = pd.DataFrame(list(tipo_medias.items()), columns=["Tipo", "% Médio"])
-        fig_tipo = px.pie(
-            df_tipo,
-            names="Tipo",
-            values="% Médio",
-            title="Distribuição de Tipos de Domicílio",
-            color_discrete_sequence=px.colors.qualitative.Bold,
-            hole=0.4,
-        )
-        st.plotly_chart(fig_tipo, use_container_width=True)
-
-    st.subheader("Posse e Condição de Ocupação")
-    posse_data = {"Próprio": "pct_proprio", "Alugado": "pct_alugado", "Cedido": "pct_cedido"}
-    posse_medias = {k: df[v].mean() for k, v in posse_data.items() if v in df.columns}
-    if posse_medias:
-        df_posse = pd.DataFrame(list(posse_medias.items()), columns=["Condição", "% Médio"])
-        fig_posse = px.bar(
-            df_posse,
-            x="Condição",
-            y="% Médio",
-            title="Condição de Ocupação dos Domicílios",
-            color="Condição",
-            color_discrete_sequence=["#42A5F5", "#EF5350", "#66BB6A"],
-            text_auto=".1f",
-        )
-        fig_posse.update_layout(showlegend=False, yaxis_range=[0, 100])
-        st.plotly_chart(fig_posse, use_container_width=True)
-
-    with st.expander("Ver dados brutos por setor censitário"):
-        st.dataframe(df, use_container_width=True)
-
-
-# ── Educação & Renda ──────────────────────────────────────────────────────────
-def render_educacao_renda():
-    st.title("Educação & Trabalho/Renda")
-    st.markdown("Indicadores educacionais e econômicos de **Castanhal – PA** (Censo IBGE 2022)")
-    st.divider()
-
-    with st.spinner("Carregando dados de educação e renda..."):
-        df_edu = load_educacao()
-        df_ren = load_trabalho_renda()
-
-    if df_edu.empty and df_ren.empty:
-        st.error(
-            "Dados de educação e renda não disponíveis. Execute o pipeline no Colab para gerar os dados.",
-            icon="❌",
-        )
-        return
-
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        c = find_col(df_edu, ["taxa_analfabetismo", "analfabetismo", "analf", "taxa_de_analfabetismo"])
-        analf = float(df_edu[c].mean()) if c else None
-        st.metric("Taxa de Analfabetismo", f"{analf:.1f}%" if analf else "N/D")
-    with col2:
-        c = find_col(df_ren, ["renda_media_per_capita", "rendimento", "renda", "rendimento_domiciliar"])
-        renda = float(df_ren[c].mean()) if c else None
-        st.metric("Renda Média per Capita", f"R$ {renda:,.0f}".replace(",", ".") if renda else "N/D")
-    with col3:
-        freq = df_edu["pct_freq_escolar_criancas"].mean() if "pct_freq_escolar_criancas" in df_edu.columns else None
-        st.metric("Freq. Escolar (6–14 anos)", f"{freq:.1f}%" if freq else "N/D")
-    with col4:
-        pea = df_ren["taxa_atividade_pea"].mean() if "taxa_atividade_pea" in df_ren.columns else None
-        st.metric("Taxa de Atividade (PEA)", f"{pea:.1f}%" if pea else "N/D")
-
-    st.divider()
-    st.subheader("Distribuição por Nível de Instrução")
-    esc_cols = {
-        "Fund. Incompleto": "pct_fundamental_incompleto",
-        "Fund. Completo": "pct_fundamental_completo",
-        "Médio Incompleto": "pct_medio_incompleto",
-        "Médio Completo": "pct_medio_completo",
-        "Superior Incompleto": "pct_superior_incompleto",
-        "Superior Completo": "pct_superior_completo",
-    }
-    esc_data = {k: df_edu[v].mean() for k, v in esc_cols.items() if v in df_edu.columns}
-    if esc_data:
-        df_esc = pd.DataFrame(list(esc_data.items()), columns=["Nível", "% Médio"])
-        df_esc = df_esc.sort_values("% Médio", ascending=True)
-        fig_esc = px.funnel(
-            df_esc,
-            x="% Médio",
-            y="Nível",
-            title="Funil de Escolaridade — Castanhal 2022",
-            color_discrete_sequence=["#5C6BC0"],
-        )
-        st.plotly_chart(fig_esc, use_container_width=True)
-    else:
-        st.info("Dados de nível de instrução não disponíveis.")
-
-    if not df_edu.empty and not df_ren.empty and "setor_id" in df_edu.columns and "setor_id" in df_ren.columns:
-        st.subheader("Relação entre Escolaridade e Renda per Capita")
-        df_merge = df_edu.merge(df_ren, on="setor_id", how="inner")
-        if "escolaridade_media_anos" in df_merge.columns and "renda_media_per_capita" in df_merge.columns:
-            fig_scatter = px.scatter(
-                df_merge,
-                x="escolaridade_media_anos",
-                y="renda_media_per_capita",
-                title="Escolaridade Média vs. Renda Domiciliar per Capita por Setor",
-                labels={
-                    "escolaridade_media_anos": "Anos médios de estudo",
-                    "renda_media_per_capita": "Renda média per capita (R$)",
-                },
-                trendline="ols",
-                color_discrete_sequence=["#26A69A"],
-            )
-            st.plotly_chart(fig_scatter, use_container_width=True)
-
-    if "renda_media_per_capita" in df_ren.columns:
-        st.subheader("Distribuição de Renda Domiciliar per Capita")
-        fig_renda = px.histogram(
-            df_ren,
-            x="renda_media_per_capita",
-            nbins=25,
-            title="Distribuição de Renda per Capita por Setor Censitário",
-            labels={"renda_media_per_capita": "Renda (R$)"},
-            color_discrete_sequence=["#FFA726"],
-        )
-        st.plotly_chart(fig_renda, use_container_width=True)
-
-    st.subheader("Desigualdade de Renda (Índice de Gini)")
-    st.info(
-        "**Índice de Gini**: Esta análise será disponibilizada em versão futura, "
-        "após a validação dos microdados necessários para o cálculo. "
-        "O campo está reservado no modelo de dados.",
-        icon="⏳",
+        "Valores conforme extraídos do notebook de análise. Visualizações com Plotly — "
+        "passe o cursor para detalhes."
     )
 
-    st.subheader("Distribuição da PEA por Setor Econômico")
-    pea_cols = {
-        "Primário": "pct_setor_primario",
-        "Secundário": "pct_setor_secundario",
-        "Terciário": "pct_setor_terciario",
-    }
-    pea_data = {k: df_ren[v].mean() for k, v in pea_cols.items() if v in df_ren.columns}
-    if pea_data:
-        df_pea = pd.DataFrame(list(pea_data.items()), columns=["Setor", "% Médio"])
-        fig_pea = px.bar(
-            df_pea,
-            x="Setor",
-            y="% Médio",
-            title="Distribuição da PEA por Setor de Atividade Econômica",
-            color="Setor",
-            color_discrete_sequence=["#8D6E63", "#78909C", "#42A5F5"],
-            text_auto=".1f",
-        )
-        fig_pea.update_layout(showlegend=False, yaxis_range=[0, 100])
-        st.plotly_chart(fig_pea, use_container_width=True)
-    else:
-        st.info("Dados de distribuição da PEA por setor não disponíveis.")
 
-    with st.expander("Ver dados brutos — Educação"):
-        st.dataframe(df_edu, use_container_width=True)
-    with st.expander("Ver dados brutos — Trabalho & Renda"):
-        st.dataframe(df_ren, use_container_width=True)
-
-
-# ── Políticas ─────────────────────────────────────────────────────────────────
-def render_politicas():
-    st.title("Políticas Públicas de Castanhal")
+def render_dados() -> None:
+    st.title("Dados e projeções (MLP)")
     st.markdown(
-        "Recomendações baseadas nos dados do Censo 2022 e nos resultados dos modelos de ML. "
-        "As análises são de **apoio à decisão** — não substituem o processo político-administrativo."
+        "Cada bloco reproduz a **lógica do notebook**: escalonamento, `MLPRegressor` "
+        "(duas camadas de 10 neurônios, solver `lbfgs`) e pontos futuros ilustrativos."
     )
-    st.divider()
 
-    with st.spinner("Carregando dados de políticas..."):
-        politicas = load_politicas()
-        df = load_features_compostas()
-
-    if not politicas:
-        st.warning(
-            "Nenhuma política pública cadastrada. Execute o notebook Colab para gerar os artefatos.",
-            icon="⚠️",
-        )
-        return
-
-    areas = [p["politica"] for p in politicas]
-    area_selecionada = st.selectbox("Selecione uma área temática:", areas)
-    politica = next((p for p in politicas if p["politica"] == area_selecionada), None)
-
-    if not politica:
-        st.error("Política não encontrada.")
-        return
-
-    st.divider()
-
-    col_info, col_modelo = st.columns([2, 1])
-    with col_info:
-        st.subheader(politica["politica"])
-        st.markdown(politica["descricao"])
-    with col_modelo:
-        st.metric("Indicador-chave", politica.get("indicador_chave", "N/D").replace("_", " ").title())
-        st.metric("Modelo ML", politica.get("modelo_relacionado", "N/D").replace("_", " ").title())
-
-    st.info(f"**Recomendação de Ação:** {politica.get('recomendacao', 'N/D')}", icon="💡")
-    st.divider()
-
-    if df.empty:
-        st.warning("Dados dos setores não disponíveis. Execute o pipeline Colab.")
-    else:
-        indicador = politica.get("indicador_chave")
-        limiar = politica.get("limiar")
-
-        if indicador and indicador in df.columns:
-            st.subheader(f"Top 10 Setores Prioritários — {indicador.replace('_', ' ').title()}")
-
-            if limiar is not None:
-                setores_crit = df[df[indicador] < limiar].copy()
-                st.caption(f"Setores com `{indicador}` abaixo de **{limiar}** (limiar crítico)")
-            else:
-                q3 = df[indicador].quantile(0.75)
-                setores_crit = df[df[indicador] >= q3].copy()
-                st.caption(f"Setores acima do 3º quartil de `{indicador}` (≥ {q3:.2f})")
-
-            if setores_crit.empty:
-                st.success("Nenhum setor em situação crítica para este indicador.")
-            else:
-                colunas_exibir = ["setor_id", indicador]
-                if "bairro" in df.columns:
-                    colunas_exibir.insert(1, "bairro")
-                exibir = [c for c in colunas_exibir if c in setores_crit.columns]
-                top10 = setores_crit.sort_values(indicador).head(10)
-                st.dataframe(top10[exibir], use_container_width=True)
-
-                _x_col = "setor_id" if "setor_id" in top10.columns else "_idx"
-                if _x_col == "_idx":
-                    top10 = top10.copy()
-                    top10["_idx"] = top10.index.astype(str)
-                fig_bar = px.bar(
-                    top10,
-                    x=_x_col,
-                    y=indicador,
-                    title=f"10 Setores mais críticos — {indicador.replace('_', ' ').title()}",
-                    color=indicador,
-                    color_continuous_scale="RdYlGn_r",
-                    labels={_x_col: "Setor Censitário", indicador: indicador.replace("_", " ").title()},
-                )
-                if limiar:
-                    fig_bar.add_hline(
-                        y=limiar,
-                        line_dash="dash",
-                        line_color="red",
-                        annotation_text=f"Limiar crítico ({limiar})",
-                    )
-                st.plotly_chart(fig_bar, use_container_width=True)
-        else:
-            st.info(f"Indicador `{indicador}` não encontrado nos dados processados.")
-
-    with st.expander("Ver todas as políticas cadastradas"):
-        df_pol = pd.DataFrame(
-            [
-                {
-                    "Política": p["politica"],
-                    "Área": p["area"],
-                    "Indicador-chave": p["indicador_chave"],
-                    "Modelo ML": p["modelo_relacionado"],
-                }
-                for p in politicas
-            ]
-        )
-        st.dataframe(df_pol, use_container_width=True)
-
-
-# ── Assistente de IA (Gemini) ────────────────────────────────────────────────
-@st.cache_data(ttl=3600)
-def _carregar_dataframes_ia():
-    return {
-        "demografico": load_demografico(),
-        "domicilios": load_domicilios(),
-        "educacao": load_educacao(),
-        "trabalho_renda": load_trabalho_renda(),
-        "features_compostas": load_features_compostas(),
-    }
-
-
-def render_assistente_ia():
-    st.title("Assistente de IA — Gemini")
-    st.markdown(
-        "Perguntas em linguagem natural sobre o Censo 2022 de Castanhal. "
-        "As respostas são geradas por **IA** (modelo Gemini) e devem ser tratadas como **apoio à análise**, "
-        "não como diagnóstico definitivo."
-    )
-    st.divider()
-
-    if "messages" not in st.session_state:
-        st.session_state["messages"] = [
+    st.subheader("Indicadores com histórico em ao menos dois censos (1991, 2000, 2010 ou 2022)")
+    sub = series_com_pelo_menos_2_censos_no_periodo()
+    rows = []
+    for s in sub:
+        pr = projetar_mlp(s.anos, s.valores)
+        pv = ", ".join(f"{a}: {v:.2f}" for a, v in pr["previsoes"])
+        rows.append(
             {
-                "role": "assistant",
-                "content": (
-                    "Olá! Sou o **assistente de IA** do sistema, com contexto dos dados do Censo 2022 de Castanhal.\n\n"
-                    "Exemplos:\n"
-                    "- *Qual é a taxa de analfabetismo em Castanhal?*\n"
-                    "- *Quais setores têm maior vulnerabilidade socioeconômica?*\n"
-                    "- *Como a renda se distribui entre os bairros?*\n"
-                    "- *Quais políticas públicas são recomendadas para habitação?*\n\n"
-                    "Selecione um tema abaixo para que eu tenha mais contexto sobre os dados!"
-                ),
+                "Área": s.area,
+                "Indicador": s.titulo,
+                "Censos no modelo": ", ".join(str(x) for x in s.anos),
+                "Nº censos": len(s.anos),
+                "Projeções (MLP)": pv,
             }
-        ]
+        )
+    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+    st.info(
+        "Somente indicadores cuja série cruza **pelo menos dois** desses anos censitários entram neste recorte.",
+        icon="📌",
+    )
 
-    with st.sidebar:
-        st.divider()
-        st.subheader("Configurações — IA")
-        tema = st.selectbox("Tema dos dados:", TEMAS_DISPONIVEIS, key="ia_tema_select")
-        st.caption("O tema define quais estatísticas entram no contexto enviado ao modelo (Gemini).")
-        if st.button("Limpar conversa", use_container_width=True, key="ia_clear_chat"):
-            st.session_state["messages"] = []
-            st.rerun()
+    areas = sorted({s.area for s in SERIES})
+    tabs = st.tabs(areas)
+    for tab, area in zip(tabs, areas):
+        with tab:
+            series_area = [s for s in SERIES if s.area == area]
+            for s in series_area:
+                st.markdown(f"#### {s.titulo}")
+                st.plotly_chart(_fig_indicador_serie(s), use_container_width=True)
+                st.markdown(
+                    f"**O que os dados mostram:** {s.descricao_curta}\n\n"
+                    f"**Metodologia (notebook):** {s.o_que_foi_feito}\n\n"
+                    f"**Projeção:** {s.nota_prev}"
+                )
+                st.divider()
 
-    with st.spinner("Preparando contexto dos dados..."):
-        dataframes = _carregar_dataframes_ia()
 
-    for msg in st.session_state["messages"]:
+EXEMPLOS_PERGUNTAS = [
+    "Quais indicadores têm maior incerteza nas projeções e por quê?",
+    "Como o rendimento per capita evoluiu e o que as projeções sugerem para políticas de renda?",
+    "O que explica o perfil de população urbana versus rural em Castanhal?",
+    "Quais ações poderiam melhorar o componente educação do IDH, com base na série histórica?",
+    "Como interpretar com responsabilidade os dados de cor ou raça entre 2010 e 2022?",
+]
+
+
+def render_perguntas() -> None:
+    st.title("Perguntas ao assistente (Gemini)")
+    st.caption("Configure `GEMINI_API_KEY` em `.streamlit/secrets.toml` (ou Secrets no Cloud).")
+
+    modo = st.radio(
+        "Modo de conversa",
+        options=["dados", "livre"],
+        format_func=lambda x: "📊 Dados do Censo (notebook + projeções)"
+        if x == "dados"
+        else "🌐 Livre (engenharia de dados e temas gerais)",
+        horizontal=True,
+    )
+
+    if modo == "dados":
+        st.info(
+            "O modelo usa o **texto consolidado** das séries e previsões MLP do notebook "
+            "`Arquivo_tcc.ipynb` como contexto.",
+            icon="ℹ️",
+        )
+    else:
+        st.info("Modo livre: sem injeção automática das tabelas do Censo.", icon="🌐")
+
+    st.markdown("**Sugestões de pergunta:**")
+    st.caption(" • ".join(EXEMPLOS_PERGUNTAS[:3]) + " …")
+    if st.button("Limpar histórico do chat", type="secondary"):
+        st.session_state["chat_msgs"] = []
+        st.rerun()
+
+    if "chat_msgs" not in st.session_state:
+        st.session_state["chat_msgs"] = []
+
+    for msg in st.session_state["chat_msgs"]:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
 
-    pergunta = st.chat_input("Digite sua pergunta sobre os dados de Castanhal...")
+    prompt = st.chat_input("Escreva sua pergunta…")
 
-    if pergunta:
-        st.session_state["messages"].append({"role": "user", "content": pergunta})
+    if prompt:
+        st.session_state["chat_msgs"].append({"role": "user", "content": prompt})
         with st.chat_message("user"):
-            st.markdown(pergunta)
-
+            st.markdown(prompt)
+        ctx = _contexto_gemini_cache() if modo == "dados" else None
         with st.chat_message("assistant"):
-            with st.spinner("Consultando assistente de IA..."):
-                contexto = gerar_contexto_tematico(tema, dataframes)
-                resposta = consultar_gemini(
-                    pergunta,
-                    contexto,
-                    st.session_state["messages"][:-1],
+            with st.spinner("Gerando resposta…"):
+                resposta = consultar_gemini_modo(
+                    prompt,
+                    st.session_state["chat_msgs"][:-1],
+                    modo=modo,
+                    contexto_dados_censo=ctx,
                 )
             st.markdown(resposta)
+        st.session_state["chat_msgs"].append({"role": "assistant", "content": resposta})
 
-        st.session_state["messages"].append({"role": "assistant", "content": resposta})
+
+def render_info() -> None:
+    st.title("Sobre este TCC")
+    st.markdown(
+        "### Trabalho de Conclusão de Curso\n\n"
+        "**Autor:** Luan Evaristo de Melo Lindolfo  \n"
+        "**Tema:** Ciência de dados aplicada a indicadores censitários de Castanhal–PA, "
+        "com projeções via redes neurais e divulgação em ambiente web (Streamlit).\n\n"
+        "**Funcionamento deste painel:**\n"
+        "- **Home:** síntese contextual e infográficos sobre a população e a renda.  \n"
+        "- **Dados:** séries extraídas do notebook, alinhadas aos gráficos de rede neural, com texto explicativo.  \n"
+        "- **Perguntas:** chat com Gemini — modo **dados** (com contexto do notebook) ou **livre**.  \n"
+        "- **Download:** exportação CSV/PDF com tabela de indicadores e projeções.  \n\n"
+        "**Pipeline conceitual (mesma ideia do estudo):**"
+    )
+
+    diagram = """
+flowchart LR
+  A[Colab + Drive] --> B[CSV IBGE comparativos]
+  B --> C[DataFrames por tema]
+  C --> D[Agrupar indicadores por nº de censos]
+  C --> E[Modelos: RNA poly SVR ARIMA ensemble...]
+  D --> E
+  E --> F[Melhores gráficos / painéis]
+  F --> G[Push para GitHub / uso Streamlit]
+"""
+    components.html(
+        f"""
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body style="margin:0;background:#F8FAFC;">
+  <script>mermaid.initialize({{startOnLoad:true, theme: 'neutral'}});</script>
+  <div class="mermaid">
+{diagram}
+  </div>
+</body>
+</html>
+""",
+        height=280,
+    )
+    with st.expander("Ver diagrama em texto (Mermaid)"):
+        st.code(diagram.strip(), language="text")
+
+    st.markdown(
+        "---\n\n### Agradecimento sugerido\n\n"
+        "> *Obrigado por acompanhar este estudo!*  \n"
+        "> *Este projeto une Ciência de Dados e Desenvolvimento Web para entender o passado "
+        "e projetar o futuro de Castanhal–PA.*  \n"
+        "> *Desenvolvido com dedicação por **Luan Evaristo de Melo Lindolfo**.*"
+    )
 
 
-# ── Navegação ─────────────────────────────────────────────────────────────────
+def render_download() -> None:
+    st.title("Download de relatórios")
+    st.markdown(
+        "Baixe a **tabela consolidada** (indicadores históricos e colunas `previsto_*` das projeções MLP) "
+        "para reutilização em planilhas ou apresentações. O PDF é um resumo textual automático."
+    )
+
+    df_preview = dataframe_relatorio_completo()
+    st.dataframe(df_preview.head(25), use_container_width=True)
+
+    b1, b2 = st.columns(2)
+    with b1:
+        st.download_button(
+            label="Baixar CSV (UTF-8)",
+            data=csv_bytes(),
+            file_name="castanhal_indicadores_projecoes_mlp.csv",
+            mime="text/csv",
+            type="primary",
+            use_container_width=True,
+        )
+    with b2:
+        try:
+            pdf = pdf_bytes()
+            st.download_button(
+                label="Baixar PDF (resumo)",
+                data=pdf,
+                file_name="castanhal_relatorio_tcc.pdf",
+                mime="application/pdf",
+                use_container_width=True,
+            )
+        except ImportError:
+            st.warning("Instale `fpdf2` para habilitar o PDF: `pip install fpdf2`")
+
+
+# ── Navegação principal ───────────────────────────────────────────────────────
+_inject_css()
+
 pages = [
-    st.Page(render_inicio, title="Início", icon="🏠", default=True),
-    st.Page(render_demografia, title="Demografia", icon="📊"),
-    st.Page(render_domicilios, title="Domicílios", icon="🏠"),
-    st.Page(render_educacao_renda, title="Educação & Renda", icon="📚"),
-    st.Page(render_politicas, title="Políticas", icon="🏛️"),
-    st.Page(render_assistente_ia, title="Assistente IA", icon="💬"),
+    st.Page(render_home, title="Home", icon="🏠", default=True),
+    st.Page(render_dados, title="Dados", icon="📈"),
+    st.Page(render_perguntas, title="Perguntas", icon="💬"),
+    st.Page(render_info, title="Info", icon="ℹ️"),
+    st.Page(render_download, title="Download", icon="⬇️"),
 ]
 
 nav = st.navigation(pages)
+with st.sidebar:
+    st.markdown("### Castanhal · dados")
+    st.caption("TCC — notebook `Arquivo_tcc.ipynb` + Streamlit")
+    st.divider()
 nav.run()
