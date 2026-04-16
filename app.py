@@ -22,6 +22,18 @@ from utils.gemini_utils import (
     texto_contexto_notebook_completo,
 )
 from utils.relatorio_export import csv_bytes, pdf_bytes
+from utils.a11y import (
+    TEXTO_DADOS,
+    TEXTO_DOWNLOAD,
+    TEXTO_HOME,
+    TEXTO_INFO,
+    TEXTO_PERGUNTAS,
+    TEXTO_TRILHA,
+    bloco_texto_leitores_ecra,
+    render_ouvir_descricao,
+)
+from utils.trilha_censo import TRILHA_PASSOS, serie_por_id, texto_tts_passo
+from utils.castanhal_apresentacao import markdown_apresentacao
 
 # ── Página ───────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -60,6 +72,7 @@ def _inject_css() -> None:
             letter-spacing: 0.03em;
           }
           .stTabs [data-baseweb="tab-list"] { gap: 8px; }
+          .a11y-hint { font-size: 0.85rem; color: #475569; margin-bottom: 0.5rem; }
         </style>
         """,
         unsafe_allow_html=True,
@@ -114,7 +127,15 @@ def _fig_indicador_serie(s) -> go.Figure:
     return fig
 
 
+def _render_a11y_bloco(texto: str, key: str) -> None:
+    """Descrição textual + botão TTS (voz do navegador)."""
+    st.caption("♿ Acessibilidade: descrição abaixo; use «Ouvir descrição» para áudio opcional.")
+    st.markdown(bloco_texto_leitores_ecra(texto))
+    render_ouvir_descricao(texto, key=key)
+
+
 def render_home() -> None:
+    _render_a11y_bloco(TEXTO_HOME, "tts_home")
     st.markdown(
         """
         <div class="tcc-hero">
@@ -130,6 +151,9 @@ def render_home() -> None:
         """,
         unsafe_allow_html=True,
     )
+
+    with st.container():
+        st.markdown(markdown_apresentacao())
 
     c1, c2, c3, c4 = st.columns(4)
     with c1:
@@ -200,7 +224,59 @@ def render_home() -> None:
     )
 
 
+def render_trilha() -> None:
+    """
+    Trilha tipo «dungeon» Streamlit: passos em session_state, narrativa + gráfico por sala.
+    Inspirado em apps interativos por passos (ex.: dungeon.streamlit.app).
+    """
+    total = len(TRILHA_PASSOS)
+    if "trilha_passo" not in st.session_state:
+        st.session_state.trilha_passo = 0
+    i = int(st.session_state.trilha_passo)
+    i = max(0, min(i, total - 1))
+    st.session_state.trilha_passo = i
+
+    passo = TRILHA_PASSOS[i]
+    tts = TEXTO_TRILHA + " " + texto_tts_passo(passo, i, total)
+    _render_a11y_bloco(tts, f"tts_trilha_{i}_{passo['id']}")
+
+    st.title("Trilha interativa — Castanhal em dados")
+    st.caption(
+        "Avance por «salas» temáticas. Cada etapa usa **dados reais** do notebook do TCC — "
+        "estilo jogo por passos, semelhante a templates interativos no Streamlit Community Cloud."
+    )
+    st.caption(f"Progresso: sala {i + 1} de {total}")
+    st.progress((i + 1) / total)
+
+    st.markdown(f"### {passo['titulo']}")
+    st.markdown(passo["narrativa"])
+
+    sid = passo.get("serie_id")
+    if sid:
+        s = serie_por_id(sid)
+        if s is not None:
+            st.plotly_chart(_fig_indicador_serie(s), use_container_width=True)
+
+    b1, b2, b3 = st.columns(3)
+    with b1:
+        if st.button("◀ Voltar", disabled=i <= 0, key="trilha_voltar"):
+            st.session_state.trilha_passo = i - 1
+            st.rerun()
+    with b2:
+        if st.button("Reiniciar trilha", key="trilha_reset"):
+            st.session_state.trilha_passo = 0
+            st.rerun()
+    with b3:
+        if st.button("Avançar ▶", disabled=i >= total - 1, key="trilha_avanc"):
+            st.session_state.trilha_passo = i + 1
+            st.rerun()
+
+    if i >= total - 1:
+        st.success("Trilha concluída! Explore **Dados** para o painel completo ou **Download** para os ficheiros.")
+
+
 def render_dados() -> None:
+    _render_a11y_bloco(TEXTO_DADOS, "tts_dados")
     st.title("Dados e projeções (MLP)")
     st.markdown(
         "Cada bloco reproduz a **lógica do notebook**: escalonamento, `MLPRegressor` "
@@ -254,6 +330,7 @@ EXEMPLOS_PERGUNTAS = [
 
 
 def render_perguntas() -> None:
+    _render_a11y_bloco(TEXTO_PERGUNTAS, "tts_perg")
     st.title("Perguntas ao assistente (Gemini)")
     st.caption("Configure `GEMINI_API_KEY` em `.streamlit/secrets.toml` (ou Secrets no Cloud).")
 
@@ -308,7 +385,15 @@ def render_perguntas() -> None:
 
 
 def render_info() -> None:
+    _render_a11y_bloco(TEXTO_INFO, "tts_info")
     st.title("Sobre este TCC")
+    st.info(
+        "**Acessibilidade:** cada página inclui uma **descrição em texto** para leitores de ecrã e um botão "
+        "**«Ouvir descrição»**, que usa a **síntese de voz do próprio navegador** (Web Speech API, português quando disponível). "
+        "O áudio é opcional e complementar — não substitui ferramentas de acessibilidade do sistema.",
+        icon="♿",
+    )
+    st.markdown(markdown_apresentacao())
     st.markdown(
         "### Trabalho de Conclusão de Curso\n\n"
         "**Autor:** Luan Evaristo de Melo Lindolfo  \n"
@@ -316,6 +401,7 @@ def render_info() -> None:
         "com projeções via redes neurais e divulgação em ambiente web (Streamlit).\n\n"
         "**Funcionamento deste painel:**\n"
         "- **Home:** síntese contextual e infográficos sobre a população e a renda.  \n"
+        "- **Trilha:** jogo interativo por «salas» — avance e desbloqueie gráficos reais dos censos.  \n"
         "- **Dados:** séries extraídas do notebook, alinhadas aos gráficos de rede neural, com texto explicativo.  \n"
         "- **Perguntas:** chat com Gemini — modo **dados** (com contexto do notebook) ou **livre**.  \n"
         "- **Download:** exportação CSV/PDF com tabela de indicadores e projeções.  \n\n"
@@ -362,6 +448,7 @@ flowchart LR
 
 
 def render_download() -> None:
+    _render_a11y_bloco(TEXTO_DOWNLOAD, "tts_dl")
     st.title("Download de relatórios")
     st.markdown(
         "Baixe a **tabela consolidada** (indicadores históricos e colunas `previsto_*` das projeções MLP) "
@@ -400,6 +487,7 @@ _inject_css()
 
 pages = [
     st.Page(render_home, title="Home", icon="🏠", default=True),
+    st.Page(render_trilha, title="Trilha", icon="🎮"),
     st.Page(render_dados, title="Dados", icon="📈"),
     st.Page(render_perguntas, title="Perguntas", icon="💬"),
     st.Page(render_info, title="Info", icon="ℹ️"),
