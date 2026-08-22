@@ -1,6 +1,10 @@
 """
 Painel Streamlit — TCC Castanhal-PA (Censo / notebook Arquivo_tcc.ipynb).
 Multipágina via st.navigation; tema em .streamlit/config.toml.
+
+Este arquivo é o deploy do painel (separado do notebook de análise).
+Depende dos módulos em utils/: censo_projecoes, gemini_utils,
+relatorio_export, a11y, trilha_censo, castanhal_apresentacao.
 """
 
 from __future__ import annotations
@@ -35,13 +39,31 @@ from utils.a11y import (
 from utils.trilha_censo import TRILHA_PASSOS, serie_por_id, texto_tts_passo
 from utils.castanhal_apresentacao import markdown_apresentacao
 
-# ── Página ───────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Castanhal em dados | TCC",
     layout="wide",
     initial_sidebar_state="expanded",
     page_icon="📊",
 )
+
+EXEMPLOS_PERGUNTAS = [
+    "Quais indicadores têm maior incerteza nas projeções e por quê?",
+    "Como o rendimento per capita evoluiu e o que as projeções sugerem para políticas de renda?",
+    "O que explica o perfil de população urbana versus rural em Castanhal?",
+    "Quais ações poderiam melhorar o componente educação do IDH, com base na série histórica?",
+    "Como interpretar com responsabilidade os dados de cor ou raça entre 2010 e 2022?",
+]
+
+DIAGRAMA_PIPELINE = """
+flowchart LR
+  A[Colab + Drive] --> B[CSV IBGE comparativos]
+  B --> C[DataFrames por tema]
+  C --> D[Agrupar indicadores por nº de censos]
+  C --> E[Modelos: RNA poly SVR ARIMA ensemble...]
+  D --> E
+  E --> F[Melhores gráficos / painéis]
+  F --> G[Push para GitHub / uso Streamlit]
+"""
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -82,45 +104,24 @@ def _inject_css() -> None:
 def _fig_indicador_serie(s) -> go.Figure:
     pr = projetar_mlp(s.anos, s.valores)
     fig = go.Figure()
-    fig.add_trace(
-        go.Scatter(
-            x=list(s.anos),
-            y=list(s.valores),
-            mode="lines+markers",
-            name="Censos IBGE",
-            line=dict(color="#1565C0", width=3),
-            marker=dict(size=11, color="#0D47A1"),
-        )
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=pr["anos_curva"],
-            y=pr["val_curva"],
-            mode="lines",
-            name="Curva MLP (treinada)",
-            line=dict(color="#7B1FA2", width=2, dash="solid"),
-            opacity=0.85,
-        )
-    )
+    fig.add_trace(go.Scatter(
+        x=list(s.anos), y=list(s.valores), mode="lines+markers", name="Censos IBGE",
+        line=dict(color="#1565C0", width=3), marker=dict(size=11, color="#0D47A1"),
+    ))
+    fig.add_trace(go.Scatter(
+        x=pr["anos_curva"], y=pr["val_curva"], mode="lines", name="Curva MLP (treinada)",
+        line=dict(color="#7B1FA2", width=2, dash="solid"), opacity=0.85,
+    ))
     for af, pv in pr["previsoes"]:
-        fig.add_trace(
-            go.Scatter(
-                x=[af],
-                y=[pv],
-                mode="markers+text",
-                name=f"Projeção {af}",
-                text=[f"{pv:.2f}"],
-                textposition="top center",
-                marker=dict(size=14, color="#E65100", symbol="star", line=dict(width=1, color="#FFF")),
-            )
-        )
+        fig.add_trace(go.Scatter(
+            x=[af], y=[pv], mode="markers+text", name=f"Projeção {af}",
+            text=[f"{pv:.2f}"], textposition="top center",
+            marker=dict(size=14, color="#E65100", symbol="star", line=dict(width=1, color="#FFF")),
+        ))
     fig.update_layout(
-        template="plotly_white",
-        height=420,
-        margin=dict(l=40, r=20, t=50, b=40),
+        template="plotly_white", height=420, margin=dict(l=40, r=20, t=50, b=40),
         title=dict(text=f"<b>{s.titulo}</b> <span style='font-size:12px'>({s.unidade})</span>", x=0.02),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
-        hovermode="x unified",
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0), hovermode="x unified",
     )
     fig.update_xaxes(title="Ano")
     fig.update_yaxes(title=s.unidade)
@@ -168,49 +169,35 @@ def render_home() -> None:
     st.subheader("Panorama dinâmico")
     p1, p2 = st.columns(2, gap="large")
 
-    df_pop = pd.DataFrame(
-        {
-            "Censo": ["1991", "2000", "2010", "2022"],
-            "População": [102_071, 134_496, 173_149, 192_256],
-        }
-    )
+    df_pop = pd.DataFrame({
+        "Censo": ["1991", "2000", "2010", "2022"],
+        "População": [102_071, 134_496, 173_149, 192_256],
+    })
     fig_bar = px.bar(
-        df_pop,
-        x="Censo",
-        y="População",
-        color="Censo",
-        color_discrete_sequence=px.colors.qualitative.Bold,
-        text_auto=",",
+        df_pop, x="Censo", y="População", color="Censo",
+        color_discrete_sequence=px.colors.qualitative.Bold, text_auto=",",
         title="População total — evolução entre censos",
     )
     fig_bar.update_layout(template="plotly_white", height=360, showlegend=False)
     p1.plotly_chart(fig_bar, use_container_width=True)
 
-    # Sunburst composição cor/raça 2022 (valores absolutos do notebook)
     labels = ["Castanhal 2022", "Parda", "Branca", "Preta", "Amarela", "Indígena"]
     parents = ["", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022"]
     values = [192_256, 132_079, 42_881, 16_429, 719, 144]
     fig_sb = px.sunburst(
-        names=labels,
-        parents=parents,
-        values=values,
-        color=labels,
+        names=labels, parents=parents, values=values, color=labels,
         color_discrete_sequence=px.colors.qualitative.Set2,
         title="Composição por cor ou raça (hab.) — referência 2022",
     )
     fig_sb.update_layout(height=360, margin=dict(t=50, l=10, r=10, b=10))
     p2.plotly_chart(fig_sb, use_container_width=True)
 
-    df_renda = pd.DataFrame(
-        {
-            "Ano": [1991, 2000, 2010, 2022],
-            "R$ per capita": [160.54, 260.98, 467.32, 1055.05],
-        }
-    )
+    df_renda = pd.DataFrame({
+        "Ano": [1991, 2000, 2010, 2022],
+        "R$ per capita": [160.54, 260.98, 467.32, 1055.05],
+    })
     fig_line = px.area(
-        df_renda,
-        x="Ano",
-        y="R$ per capita",
+        df_renda, x="Ano", y="R$ per capita",
         title="Rendimento domiciliar mensal per capita (R$)",
         color_discrete_sequence=["#00897B"],
     )
@@ -227,13 +214,11 @@ def render_home() -> None:
 def render_trilha() -> None:
     """
     Trilha tipo «dungeon» Streamlit: passos em session_state, narrativa + gráfico por sala.
-    Inspirado em apps interativos por passos (ex.: dungeon.streamlit.app).
     """
     total = len(TRILHA_PASSOS)
     if "trilha_passo" not in st.session_state:
         st.session_state.trilha_passo = 0
-    i = int(st.session_state.trilha_passo)
-    i = max(0, min(i, total - 1))
+    i = max(0, min(int(st.session_state.trilha_passo), total - 1))
     st.session_state.trilha_passo = i
 
     passo = TRILHA_PASSOS[i]
@@ -285,19 +270,16 @@ def render_dados() -> None:
 
     st.subheader("Indicadores com histórico em ao menos dois censos (1991, 2000, 2010 ou 2022)")
     sub = series_com_pelo_menos_2_censos_no_periodo()
-    rows = []
-    for s in sub:
-        pr = projetar_mlp(s.anos, s.valores)
-        pv = ", ".join(f"{a}: {v:.2f}" for a, v in pr["previsoes"])
-        rows.append(
-            {
-                "Área": s.area,
-                "Indicador": s.titulo,
-                "Censos no modelo": ", ".join(str(x) for x in s.anos),
-                "Nº censos": len(s.anos),
-                "Projeções (MLP)": pv,
-            }
-        )
+    rows = [
+        {
+            "Área": s.area,
+            "Indicador": s.titulo,
+            "Censos no modelo": ", ".join(str(x) for x in s.anos),
+            "Nº censos": len(s.anos),
+            "Projeções (MLP)": ", ".join(f"{a}: {v:.2f}" for a, v in projetar_mlp(s.anos, s.valores)["previsoes"]),
+        }
+        for s in sub
+    ]
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
     st.info(
         "Somente indicadores cuja série cruza **pelo menos dois** desses anos censitários entram neste recorte.",
@@ -308,8 +290,7 @@ def render_dados() -> None:
     tabs = st.tabs(areas)
     for tab, area in zip(tabs, areas):
         with tab:
-            series_area = [s for s in SERIES if s.area == area]
-            for s in series_area:
+            for s in [s for s in SERIES if s.area == area]:
                 st.markdown(f"#### {s.titulo}")
                 st.plotly_chart(_fig_indicador_serie(s), use_container_width=True)
                 st.markdown(
@@ -320,28 +301,12 @@ def render_dados() -> None:
                 st.divider()
 
 
-EXEMPLOS_PERGUNTAS = [
-    "Quais indicadores têm maior incerteza nas projeções e por quê?",
-    "Como o rendimento per capita evoluiu e o que as projeções sugerem para políticas de renda?",
-    "O que explica o perfil de população urbana versus rural em Castanhal?",
-    "Quais ações poderiam melhorar o componente educação do IDH, com base na série histórica?",
-    "Como interpretar com responsabilidade os dados de cor ou raça entre 2010 e 2022?",
-]
-
-
 def render_perguntas() -> None:
-    _render_a11y_bloco(TEXTO_PERGUNTAS, "tts_perg")
-    st.title("Perguntas ao assistente (Gemini)")
-    st.caption("Configure `GEMINI_API_KEY` em `.streamlit/secrets.toml` (ou Secrets no Cloud).")
+    _render_a11y_bloco(TEXTO_PERGUNTAS, "tts_perguntas")
+    st.title("Perguntas — chat com Gemini")
 
-    modo = st.radio(
-        "Modo de conversa",
-        options=["dados", "livre"],
-        format_func=lambda x: "📊 Dados do Censo (notebook + projeções)"
-        if x == "dados"
-        else "🌐 Livre (engenharia de dados e temas gerais)",
-        horizontal=True,
-    )
+    modo = st.radio("Modo do chat", ["dados", "livre"], horizontal=True,
+                     help="'dados' injeta o contexto consolidado do notebook; 'livre' não injeta nada.")
 
     if modo == "dados":
         st.info(
@@ -375,10 +340,7 @@ def render_perguntas() -> None:
         with st.chat_message("assistant"):
             with st.spinner("Gerando resposta…"):
                 resposta = consultar_gemini_modo(
-                    prompt,
-                    st.session_state["chat_msgs"][:-1],
-                    modo=modo,
-                    contexto_dados_censo=ctx,
+                    prompt, st.session_state["chat_msgs"][:-1], modo=modo, contexto_dados_censo=ctx,
                 )
             st.markdown(resposta)
         st.session_state["chat_msgs"].append({"role": "assistant", "content": resposta})
@@ -408,27 +370,15 @@ def render_info() -> None:
         "**Pipeline conceitual (mesma ideia do estudo):**"
     )
 
-    diagram = """
-flowchart LR
-  A[Colab + Drive] --> B[CSV IBGE comparativos]
-  B --> C[DataFrames por tema]
-  C --> D[Agrupar indicadores por nº de censos]
-  C --> E[Modelos: RNA poly SVR ARIMA ensemble...]
-  D --> E
-  E --> F[Melhores gráficos / painéis]
-  F --> G[Push para GitHub / uso Streamlit]
-"""
     components.html(
         f"""
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-</head>
+<head><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script></head>
 <body style="margin:0;background:#F8FAFC;">
   <script>mermaid.initialize({{startOnLoad:true, theme: 'neutral'}});</script>
   <div class="mermaid">
-{diagram}
+{DIAGRAMA_PIPELINE}
   </div>
 </body>
 </html>
@@ -436,7 +386,7 @@ flowchart LR
         height=280,
     )
     with st.expander("Ver diagrama em texto (Mermaid)"):
-        st.code(diagram.strip(), language="text")
+        st.code(DIAGRAMA_PIPELINE.strip(), language="text")
 
     st.markdown(
         "---\n\n### Agradecimento sugerido\n\n"
@@ -461,31 +411,22 @@ def render_download() -> None:
     b1, b2 = st.columns(2)
     with b1:
         st.download_button(
-            label="Baixar CSV (UTF-8)",
-            data=csv_bytes(),
-            file_name="castanhal_indicadores_projecoes_mlp.csv",
-            mime="text/csv",
-            type="primary",
-            use_container_width=True,
+            label="Baixar CSV (UTF-8)", data=csv_bytes(),
+            file_name="castanhal_indicadores_projecoes_mlp.csv", mime="text/csv",
+            type="primary", use_container_width=True,
         )
     with b2:
         try:
-            pdf = pdf_bytes()
             st.download_button(
-                label="Baixar PDF (resumo)",
-                data=pdf,
-                file_name="castanhal_relatorio_tcc.pdf",
-                mime="application/pdf",
+                label="Baixar PDF (resumo)", data=pdf_bytes(),
+                file_name="castanhal_relatorio_tcc.pdf", mime="application/pdf",
                 use_container_width=True,
             )
         except ImportError:
             st.warning("Instale `fpdf2` para habilitar o PDF: `pip install fpdf2`")
 
 
-# ── Navegação principal ───────────────────────────────────────────────────────
-_inject_css()
-
-pages = [
+PAGES = [
     st.Page(render_home, title="Home", icon="🏠", default=True),
     st.Page(render_trilha, title="Trilha", icon="🎮"),
     st.Page(render_dados, title="Dados", icon="📈"),
@@ -494,9 +435,16 @@ pages = [
     st.Page(render_download, title="Download", icon="⬇️"),
 ]
 
-nav = st.navigation(pages)
-with st.sidebar:
-    st.markdown("### Castanhal · dados")
-    st.caption("TCC — notebook `Arquivo_tcc.ipynb` + Streamlit")
-    st.divider()
-nav.run()
+
+def main() -> None:
+    _inject_css()
+    nav = st.navigation(PAGES)
+    with st.sidebar:
+        st.markdown("### Castanhal · dados")
+        st.caption("TCC — notebook `Arquivo_tcc.ipynb` + Streamlit")
+        st.divider()
+    nav.run()
+
+
+if __name__ == "__main__":
+    main()
