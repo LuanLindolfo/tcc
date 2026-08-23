@@ -1,0 +1,705 @@
+# -*- coding: utf-8 -*-
+"""
+TCC — Projeções Censitárias com Redes Neurais
+Edite apenas o bloco CONFIGURAÇÃO para trocar de município.
+"""
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+!pip -q install streamlit plotly yellowbrick numpy statsmodels fpdf2 pyarrow
+
+import re
+import itertools
+import warnings
+import os
+import shutil
+import glob
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from IPython.display import display, Markdown
+
+from sklearn.neural_network import MLPRegressor
+from sklearn.preprocessing import StandardScaler, PolynomialFeatures
+from sklearn.linear_model import LinearRegression
+from sklearn.svm import SVR
+from sklearn.exceptions import ConvergenceWarning
+from scipy.optimize import curve_fit
+from statsmodels.tsa.arima.model import ARIMA
+
+warnings.filterwarnings('ignore', category=ConvergenceWarning)
+
+
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║              BLOCO DE CONFIGURAÇÃO — EDITE APENAS AQUI                  ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
+
+MUNICIPIO = "Castanhal"
+
+# Pasta raiz no Google Drive com os CSVs do município
+BASE_DRIVE = "/content/drive/MyDrive/dados_ibge/Dados comparativos 90, 00, 10 e 22 - Castanhal"
+
+# Mapa: chave interna → caminho relativo ao BASE_DRIVE
+ARQUIVOS = {
+    "composicaofamiliar":    "Composição familiar/composição familiar_2.csv",
+    "deslocamento":          "Deslocamento para trabalho e estudo/Deslocamento.csv",
+    "domicilios":            "Domicílios/Raio-X do Lar Urbano.csv",
+    "educacao":              "Educação/educacao.csv",
+    "entornodomicilios":     "Entorno dos domicílios/entorno.csv",
+    "familiasenupcialidade": "Famílias e Nupcialidade/Familias_e_Nupcialidade.csv",
+    "favelasecomunidade":    "Favelas e comunidades urbanas/Favelas.csv",
+    "indigenas":             "Indígenas/indigenas.csv",
+    "populacao":             "População/populacao.csv",
+    "quilombolas":           "Quilombolas/Quilombolas.csv",
+    "religiao":              "Religião/religiao.csv",
+    "trabalhoerendimento":   "Trabalho e rendimento/Trabalho_e_Rendimento.csv",
+}
+
+# Nome da coluna identificadora nos CSVs
+COL_INDICADOR = "Indicador / Categoria"
+
+# Colunas de ano (ajuste se os cabeçalhos forem diferentes nos seus CSVs)
+COL_1991 = "Censo 1991"
+COL_2000 = "Censo 2000"
+COL_2010 = "Censo 2010"
+COL_2022 = "Censo 2022"
+
+# Grupos de colunas
+C4      = [COL_1991, COL_2000, COL_2010, COL_2022]
+C3_URB  = [COL_2000, COL_2010, COL_2022]
+C3_IDHM = [COL_1991, COL_2000, COL_2010]
+C2      = [COL_2010, COL_2022]
+
+# Indicadores a modelar — adicione ou remova entradas conforme o município
+# df_key    → chave em ARQUIVOS
+# indicador → texto da linha no CSV (busca parcial se não bater exato)
+# colunas   → colunas de ano a extrair
+# anos      → anos numéricos correspondentes
+# ativacao/solver → melhor combinação identificada na exploração
+INDICADORES = [
+    dict(
+        chave="populacao_total",
+        df_key="populacao", indicador="População Residente Total",
+        colunas=C4, anos=[1991, 2000, 2010, 2022],
+        titulo="População Total", ylabel="Habitantes", grupo="4 Censos",
+        ativacao="relu", solver="lbfgs",
+    ),
+    dict(
+        chave="rendimento_percapita",
+        df_key="trabalhoerendimento", indicador="Rendimento domiciliar mensal per capita",
+        colunas=C4, anos=[1991, 2000, 2010, 2022],
+        titulo="Rendimento Mensal per capita", ylabel="Rendimento (R$)", grupo="4 Censos",
+        ativacao="relu", solver="lbfgs", format_str="R$ {:.2f}",
+    ),
+    dict(
+        chave="idhm_educacao",
+        df_key="educacao", indicador="IDHM Educação (Índice de Desenv. Humano)",
+        colunas=C3_IDHM, anos=[1991, 2000, 2010],
+        titulo="IDHM Educação", ylabel="Índice", grupo="3 Censos",
+        ativacao="identity", solver="lbfgs",
+        future_years=[2022, 2030], curve_range=(1990, 2035),
+        format_str="{:.3f}", y_lim=(0.1, 1.1),
+    ),
+    dict(
+        chave="populacao_urbana",
+        df_key="populacao", indicador="População Urbana",
+        colunas=C3_URB, anos=[2000, 2010, 2022],
+        titulo="População Urbana", ylabel="Habitantes", grupo="3 Censos",
+        ativacao="relu", solver="lbfgs",
+    ),
+    dict(
+        chave="populacao_rural",
+        df_key="populacao", indicador="População Rural",
+        colunas=C3_URB, anos=[2000, 2010, 2022],
+        titulo="População Rural", ylabel="Habitantes", grupo="3 Censos",
+        ativacao="logistic", solver="lbfgs",
+    ),
+    dict(
+        chave="moradores_por_domicilio",
+        df_key="domicilios", indicador="Média de Moradores por Domicílio",
+        colunas=C2, anos=[2010, 2022],
+        titulo="Média de Moradores", ylabel="Moradores por Lar", grupo="2 Censos",
+        ativacao="logistic", solver="lbfgs",
+        format_str="{:.2f}", y_lim=(1.5, 5),
+    ),
+    dict(
+        chave="total_domicilios",
+        df_key="domicilios", indicador="Total de Domicílios Recenseados",
+        colunas=C2, anos=[2010, 2022],
+        titulo="Total de Domicílios", ylabel="Domicílios", grupo="2 Censos",
+        ativacao="identity", solver="lbfgs", curve_range=(2008, 2045),
+    ),
+    dict(
+        chave="populacao_parda",
+        df_key="populacao", indicador="População Parda",
+        colunas=C2, anos=[2010, 2022],
+        titulo="População Parda", ylabel="Habitantes", grupo="2 Censos",
+        ativacao="identity", solver="lbfgs",
+    ),
+    dict(
+        chave="populacao_preta",
+        df_key="populacao", indicador="População Preta",
+        colunas=C2, anos=[2010, 2022],
+        titulo="População Preta", ylabel="Habitantes", grupo="2 Censos",
+        ativacao="identity", solver="lbfgs",
+    ),
+    dict(
+        chave="populacao_amarela",
+        df_key="populacao", indicador="População Amarela",
+        colunas=C2, anos=[2010, 2022],
+        titulo="População Amarela", ylabel="Habitantes", grupo="2 Censos",
+        ativacao="identity", solver="lbfgs",
+    ),
+    dict(
+        chave="populacao_indigena",
+        df_key="populacao", indicador="População Indígena",
+        colunas=C2, anos=[2010, 2022],
+        titulo="População Indígena", ylabel="Pessoas", grupo="2 Censos",
+        ativacao="identity", solver="lbfgs",
+    ),
+    # Adicione novos indicadores aqui seguindo o mesmo padrão
+]
+
+# Parâmetros globais dos modelos
+RANDOM_STATE  = 42
+HIDDEN_LAYERS = (10, 10)
+
+# Anos futuros padrão para projeção
+ANOS_FUTUROS_PADRAO = [2030, 2040]
+
+# Pasta de saída local no Colab
+DIR_PROCESSED = '/content/dados_processados'
+
+# GitHub
+GITHUB_USUARIO = "LuanLindolfo"
+GITHUB_REPO    = "tcc"
+GITHUB_BRANCH  = "main"
+GITHUB_EMAIL   = "luan.lindolfo1211@gmail.com"
+# Pasta dentro do repositório onde os dados serão salvos
+# Castanhal → "data" | Belém → "data_belem" | nova cidade → "data_<cidade>"
+GITHUB_PASTA   = "data"
+
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║                     FIM DO BLOCO DE CONFIGURAÇÃO                        ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 1) CARGA DOS DADOS
+# ═══════════════════════════════════════════════════════════════════════════
+
+dados = {}
+for nome, caminho_relativo in ARQUIVOS.items():
+    caminho_completo = f"{BASE_DRIVE}/{caminho_relativo}"
+    try:
+        dados[nome] = pd.read_csv(caminho_completo, sep=',')
+        print(f"✅ {nome}")
+    except FileNotFoundError:
+        print(f"⚠️  Não encontrado, pulando: {caminho_completo}")
+
+# Expõe cada DataFrame como variável global
+for nome, df in dados.items():
+    globals()[nome] = df
+
+print(f"\n{len(dados)} arquivo(s) carregado(s).")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 2) FUNÇÕES AUXILIARES DE ACESSO AOS DADOS
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _linha(df: pd.DataFrame, indicador: str) -> pd.DataFrame:
+    """Localiza a primeira linha cujo COL_INDICADOR bate com `indicador`."""
+    if COL_INDICADOR not in df.columns:
+        return pd.DataFrame()
+    s = df[COL_INDICADOR].astype(str).str.strip()
+    hit = df.loc[s == indicador.strip()]
+    if hit.empty:
+        trecho = indicador.strip()[:40]
+        hit = df.loc[s.str.contains(trecho, case=False, regex=False, na=False)]
+    return hit.iloc[[0]].copy() if not hit.empty else pd.DataFrame()
+
+
+def _sub(df: pd.DataFrame, indicador: str, colunas: list) -> pd.DataFrame:
+    """Retorna a linha do indicador com apenas as colunas de ano pedidas."""
+    r = _linha(df, indicador)
+    if r.empty:
+        return pd.DataFrame({COL_INDICADOR: [f"⚠️ Não encontrado: {indicador!r}"]})
+    cols = [COL_INDICADOR] + [c for c in colunas if c in r.columns]
+    return r[cols]
+
+
+def _extrair_float(df: pd.DataFrame, indicador: str, coluna: str) -> float:
+    """
+    Extrai o primeiro número de uma célula bruta.
+    Trata formato BR: ponto como milhar, vírgula como decimal.
+    Ex: '1.393.399 hab.' → 1393399.0 | '3,52' → 3.52
+    """
+    r = _linha(df, indicador)
+    if r.empty or coluna not in r.columns:
+        return np.nan
+    raw = str(r[coluna].values[0]).replace('\xa0', '').strip()
+    match = re.search(r'[\d.,]+', raw)
+    if not match:
+        return np.nan
+    s = match.group()
+    if ',' in s and '.' in s:
+        s = s.replace('.', '').replace(',', '.')
+    elif ',' in s:
+        s = s.replace(',', '.')
+    elif s.count('.') > 1:
+        s = s.replace('.', '')
+    try:
+        return float(s)
+    except ValueError:
+        return np.nan
+
+
+def _secao(titulo: str):
+    display(Markdown(f"### {titulo}"))
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 3) EXIBIÇÃO DOS GRUPOS
+# ═══════════════════════════════════════════════════════════════════════════
+
+_secao(f"{MUNICIPIO} — Grupo A: 4 censos")
+for ind in INDICADORES:
+    if ind["colunas"] == C4:
+        df_ind = dados.get(ind["df_key"])
+        if df_ind is not None:
+            display(_sub(df_ind, ind["indicador"], ind["colunas"]))
+
+_secao(f"{MUNICIPIO} — Grupo B: 3 censos")
+for ind in INDICADORES:
+    if ind["colunas"] in (C3_URB, C3_IDHM):
+        df_ind = dados.get(ind["df_key"])
+        if df_ind is not None:
+            display(_sub(df_ind, ind["indicador"], ind["colunas"]))
+
+_secao(f"{MUNICIPIO} — Grupo C: 2 censos")
+for ind in INDICADORES:
+    if ind["colunas"] == C2:
+        df_ind = dados.get(ind["df_key"])
+        if df_ind is not None:
+            display(_sub(df_ind, ind["indicador"], ind["colunas"]))
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 4) EXTRAÇÃO DINÂMICA DOS VALORES PARA MODELAGEM
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _build_series_config(indicadores: list, dados: dict) -> dict:
+    """
+    Extrai os valores numéricos dos DataFrames para cada indicador.
+    Nenhum valor é hardcoded — tudo vem do CSV.
+    """
+    config = {}
+    for ind in indicadores:
+        df = dados.get(ind["df_key"])
+        if df is None:
+            print(f"⚠️  df_key '{ind['df_key']}' não carregado — pulando '{ind['chave']}'")
+            continue
+
+        valores = [_extrair_float(df, ind["indicador"], col) for col in ind["colunas"]]
+
+        nans = [a for a, v in zip(ind["anos"], valores) if np.isnan(v)]
+        if nans:
+            print(f"⚠️  '{ind['chave']}': NaN nos anos {nans} — verifique o nome do indicador no CSV.")
+
+        config[ind["chave"]] = {
+            "titulo":       ind["titulo"],
+            "anos":         ind["anos"],
+            "valores":      valores,
+            "ylabel":       ind["ylabel"],
+            "grupo":        ind["grupo"],
+            "ativacao":     ind["ativacao"],
+            "solver":       ind["solver"],
+            "format_str":   ind.get("format_str", "{:.0f}"),
+            "y_lim":        ind.get("y_lim"),
+            "future_years": ind.get("future_years", ANOS_FUTUROS_PADRAO),
+            "curve_range":  ind.get("curve_range", (1990, 2045)),
+        }
+    return config
+
+
+SERIES_CONFIG = _build_series_config(INDICADORES, dados)
+
+print(f"\n✅ Valores extraídos para {MUNICIPIO}:")
+for chave, cfg in SERIES_CONFIG.items():
+    pares = list(zip(cfg["anos"], [round(v, 2) if not np.isnan(v) else "NaN"
+                                   for v in cfg["valores"]]))
+    print(f"  {chave}: {pares}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 5) MODELOS — FUNÇÕES GENÉRICAS
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _treinar_mlp(anos, valores, ativacao, solver, anos_alvo,
+                 max_iter=5000, **kwargs):
+    X = np.array(anos).reshape(-1, 1)
+    y = np.array(valores).reshape(-1, 1)
+    sx, sy = StandardScaler(), StandardScaler()
+    Xs = sx.fit_transform(X)
+    ys = sy.fit_transform(y)
+    rs = kwargs.pop("random_state", RANDOM_STATE)
+    m = MLPRegressor(
+        hidden_layer_sizes=HIDDEN_LAYERS, activation=ativacao,
+        solver=solver, max_iter=max_iter, random_state=rs, **kwargs,
+    )
+    m.fit(Xs, ys.ravel())
+    return sy.inverse_transform(
+        m.predict(sx.transform(
+            np.array(anos_alvo).reshape(-1, 1)
+        )).reshape(-1, 1)
+    )
+
+
+def explorar_combinacoes_rna(chave: str, config=None):
+    """
+    Grid 4×3 (ativação × solver) para qualquer indicador em SERIES_CONFIG.
+    Uso: explorar_combinacoes_rna("populacao_total")
+    """
+    if config is None:
+        config = SERIES_CONFIG
+    cfg = config[chave]
+    anos, valores = cfg["anos"], cfg["valores"]
+
+    if any(np.isnan(v) for v in valores):
+        print(f"⚠️  '{chave}' tem NaN — não é possível treinar.")
+        return
+
+    anos_curva  = np.arange(*cfg["curve_range"]).reshape(-1, 1)
+    anos_fut    = np.array(cfg["future_years"])
+    combinacoes = list(itertools.product(
+        ['identity', 'logistic', 'tanh', 'relu'],
+        ['lbfgs', 'sgd', 'adam'],
+    ))
+
+    fig, axes = plt.subplots(4, 3, figsize=(18, 20))
+    fig.suptitle(
+        f"{cfg['titulo']} — {MUNICIPIO}: Matriz de RNAs",
+        fontsize=18, y=0.92,
+    )
+    print(f"Treinando 12 RNAs para '{chave}'...")
+
+    for ax, (ativ, solver) in zip(axes.flatten(), combinacoes):
+        tend = _treinar_mlp(anos, valores, ativ, solver, anos_curva.ravel())
+        prev = _treinar_mlp(anos, valores, ativ, solver, anos_fut)
+        ax.scatter(anos, valores, color='royalblue', s=100, zorder=5, label='Dados Reais')
+        ax.plot(anos_curva, tend, color='indigo', linewidth=2.5)
+        ax.scatter(anos_fut, prev, color='red', s=80, zorder=5)
+        fmt = cfg["format_str"]
+        ax.set_title(
+            f"'{ativ}' | '{solver}'\n"
+            f"Prev {anos_fut[-1]}: {fmt.format(prev[-1][0])}",
+            fontsize=11,
+        )
+        ax.set_ylabel(cfg["ylabel"])
+        if cfg["y_lim"]:
+            ax.set_ylim(*cfg["y_lim"])
+        ax.grid(True, linestyle=':', alpha=0.7)
+
+    plt.subplots_adjust(hspace=0.4, wspace=0.3)
+    plt.show()
+
+
+def plot_final_model(chave: str, config=None):
+    """Gráfico final com a melhor ativação/solver definida em INDICADORES."""
+    if config is None:
+        config = SERIES_CONFIG
+    cfg = config[chave]
+    anos, valores = cfg["anos"], cfg["valores"]
+    ativ, solver  = cfg["ativacao"], cfg["solver"]
+    fmt           = cfg["format_str"]
+
+    if any(np.isnan(v) for v in valores):
+        print(f"⚠️  '{chave}' tem NaN — gráfico ignorado.")
+        return
+
+    X  = np.array(anos).reshape(-1, 1)
+    y  = np.array(valores).reshape(-1, 1)
+    sx, sy = StandardScaler(), StandardScaler()
+    Xs = sx.fit_transform(X)
+    ys = sy.fit_transform(y)
+
+    m = MLPRegressor(
+        hidden_layer_sizes=HIDDEN_LAYERS, activation=ativ,
+        solver=solver, max_iter=5000, random_state=RANDOM_STATE,
+    )
+    m.fit(Xs, ys.ravel())
+
+    Xc = np.arange(*cfg["curve_range"]).reshape(-1, 1)
+    yc = sy.inverse_transform(m.predict(sx.transform(Xc)).reshape(-1, 1))
+    Xf = np.array(cfg["future_years"]).reshape(-1, 1)
+    yf = sy.inverse_transform(m.predict(sx.transform(Xf)).reshape(-1, 1))
+
+    plt.figure(figsize=(10, 5))
+    plt.scatter(X, y, color='blue', s=100, zorder=5, label='Dados Reais (IBGE)')
+    plt.plot(Xc, yc, color='indigo', linewidth=2.5, label='Curva RNA')
+    plt.scatter(Xf, yf, color='red', s=100, zorder=5, label='Projeção')
+    plt.title(
+        f"{cfg['titulo']} — {MUNICIPIO} ({cfg['grupo']})\n"
+        f"Ativação: '{ativ}' | Solver: '{solver}'",
+        fontsize=13, pad=15,
+    )
+    for i, ano in enumerate(cfg["future_years"]):
+        plt.annotate(
+            f"{ano}: {fmt.format(yf[i][0])}",
+            (Xf[i], yf[i]),
+            xytext=(10, 10), textcoords='offset points',
+            fontsize=10, fontweight='bold',
+        )
+    plt.ylabel(cfg["ylabel"])
+    plt.xlabel('Ano')
+    plt.grid(True, linestyle=':', alpha=0.7)
+    plt.legend()
+    if cfg["y_lim"]:
+        plt.ylim(*cfg["y_lim"])
+    if np.max(y) > 1000:
+        plt.ticklabel_format(style='plain', axis='y')
+    plt.tight_layout()
+    plt.show()
+
+
+def gerar_todos_os_graficos_finais(config=None):
+    """Gera o gráfico final de todos os indicadores em SERIES_CONFIG."""
+    if config is None:
+        config = SERIES_CONFIG
+    for chave in config:
+        plot_final_model(chave, config)
+
+
+gerar_todos_os_graficos_finais()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 6) MODELOS ALTERNATIVOS DE POPULAÇÃO
+#    (puxa direto do SERIES_CONFIG — sem hardcode)
+# ═══════════════════════════════════════════════════════════════════════════
+
+_pop_cfg     = SERIES_CONFIG.get("populacao_total", {})
+ANOS_POP     = _pop_cfg.get("anos", [])
+POPULACAO    = _pop_cfg.get("valores", [])
+_ANOS_FUT    = _pop_cfg.get("future_years", ANOS_FUTUROS_PADRAO)
+_CURVE_RANGE = _pop_cfg.get("curve_range", (1990, 2045))
+CURVA_POP    = np.arange(*_CURVE_RANGE)
+
+
+def _pop_valida() -> bool:
+    if not ANOS_POP or not POPULACAO:
+        print("⚠️  'populacao_total' não encontrada em SERIES_CONFIG.")
+        return False
+    if any(np.isnan(v) for v in POPULACAO):
+        print("⚠️  'populacao_total' contém NaN — modelos alternativos ignorados.")
+        return False
+    return True
+
+
+def _plot_comparacao(anos, valores, anos_curva, tend, anos_fut, prev,
+                     titulo, cor_curva, label_curva):
+    plt.figure(figsize=(10, 6))
+    plt.scatter(anos, valores, color='blue', s=100, label='Dados Reais (IBGE)', zorder=5)
+    plt.plot(anos_curva, tend, color=cor_curva, linewidth=2, label=label_curva)
+    plt.scatter(anos_fut, prev, color='red', s=100, label='Projeção', zorder=5)
+    plt.title(titulo, fontsize=14)
+    plt.xlabel('Ano')
+    plt.ylabel('Habitantes')
+    plt.grid(True, linestyle=':', alpha=0.7)
+    plt.legend()
+    plt.ticklabel_format(style='plain', axis='y')
+    plt.show()
+
+
+def modelo_rna_simples():
+    if not _pop_valida(): return
+    tend = _treinar_mlp(ANOS_POP, POPULACAO, 'relu', 'lbfgs', CURVA_POP)
+    prev = _treinar_mlp(ANOS_POP, POPULACAO, 'relu', 'lbfgs', _ANOS_FUT)
+    print("--- RNA SIMPLES ---")
+    for a, p in zip(_ANOS_FUT, prev):
+        print(f"  {a}: {int(p[0])} hab.")
+    _plot_comparacao(
+        ANOS_POP, POPULACAO, CURVA_POP, tend, _ANOS_FUT, prev,
+        f'População — {MUNICIPIO} (RNA)', 'purple', 'Curva RNA',
+    )
+
+
+def modelo_polinomial(grau=2):
+    if not _pop_valida(): return
+    X    = np.array(ANOS_POP).reshape(-1, 1)
+    poly = PolynomialFeatures(degree=grau)
+    m    = LinearRegression().fit(poly.fit_transform(X), POPULACAO)
+    prev = m.predict(poly.transform(np.array(_ANOS_FUT).reshape(-1, 1)))
+    tend = m.predict(poly.transform(CURVA_POP.reshape(-1, 1)))
+    print("--- POLINOMIAL ---")
+    for a, p in zip(_ANOS_FUT, prev):
+        print(f"  {a}: {int(p)} hab.")
+    _plot_comparacao(
+        ANOS_POP, POPULACAO, CURVA_POP, tend, _ANOS_FUT, prev,
+        f'População — {MUNICIPIO} (Polinomial grau {grau})',
+        'green', f'Grau {grau}',
+    )
+
+
+def modelo_logistico(chute=(250000, 0.1, 2000)):
+    if not _pop_valida(): return
+    def _fn(t, K, r, t0):
+        return K / (1 + np.exp(-r * (t - t0)))
+    params, _ = curve_fit(_fn, ANOS_POP, POPULACAO, p0=chute, maxfev=10000)
+    K, r, t0  = params
+    prev = _fn(np.array(_ANOS_FUT), K, r, t0)
+    print(f"--- LOGÍSTICO --- Teto K = {int(K)} hab.")
+    for a, p in zip(_ANOS_FUT, prev):
+        print(f"  {a}: {int(p)} hab.")
+
+
+def modelo_svr():
+    if not _pop_valida(): return
+    X  = np.array(ANOS_POP).reshape(-1, 1)
+    y  = np.array(POPULACAO).reshape(-1, 1)
+    sx, sy = StandardScaler(), StandardScaler()
+    m  = SVR(kernel='poly', degree=2, C=100.0).fit(
+        sx.fit_transform(X), sy.fit_transform(y).ravel()
+    )
+    prev = sy.inverse_transform(
+        m.predict(sx.transform(np.array(_ANOS_FUT).reshape(-1, 1))).reshape(-1, 1)
+    )
+    tend = sy.inverse_transform(
+        m.predict(sx.transform(CURVA_POP.reshape(-1, 1))).reshape(-1, 1)
+    )
+    print("--- SVR ---")
+    for a, p in zip(_ANOS_FUT, prev):
+        print(f"  {a}: {int(p[0])} hab.")
+    _plot_comparacao(
+        ANOS_POP, POPULACAO, CURVA_POP, tend, _ANOS_FUT, prev,
+        f'População — {MUNICIPIO} (SVR)', 'magenta', 'SVR Poly',
+    )
+
+
+def modelo_arima(order=(1, 1, 0)):
+    if not _pop_valida(): return
+    res      = ARIMA(np.array(POPULACAO, dtype=float), order=order, trend='t').fit()
+    prev     = res.forecast(steps=2)
+    anos_fut = [ANOS_POP[-1] + 10, ANOS_POP[-1] + 20]
+    print("--- ARIMA ---")
+    for a, p in zip(anos_fut, prev):
+        print(f"  ~{a}: {int(p)} hab.")
+
+
+def modelo_ensemble_rna(n=50):
+    if not _pop_valida(): return
+    print(f"--- ENSEMBLE {n} RNAs ---  aguarde...")
+    lp, lt = [], []
+    for i in range(n):
+        lp.append(_treinar_mlp(ANOS_POP, POPULACAO, 'relu', 'lbfgs', _ANOS_FUT,
+                               max_iter=2000, alpha=0.5, random_state=i))
+        lt.append(_treinar_mlp(ANOS_POP, POPULACAO, 'relu', 'lbfgs', CURVA_POP,
+                               max_iter=2000, alpha=0.5, random_state=i))
+    prev = np.mean(lp, axis=0)
+    tend = np.mean(lt, axis=0)
+    for a, p in zip(_ANOS_FUT, prev):
+        print(f"  {a}: {int(p[0])} hab.")
+    plt.figure(figsize=(10, 6))
+    for t in lt:
+        plt.plot(CURVA_POP, t, color='purple', alpha=0.05)
+    plt.scatter(ANOS_POP, POPULACAO, color='blue', s=100, zorder=5,
+                label='Dados Reais (IBGE)')
+    plt.plot(CURVA_POP, tend, color='indigo', linewidth=3,
+             label='Consenso do Comitê')
+    plt.scatter(_ANOS_FUT, prev, color='red', s=100, zorder=5,
+                label='Projeção')
+    plt.title(f'População — {MUNICIPIO} (Ensemble {n} RNAs)', fontsize=14)
+    plt.xlabel('Ano')
+    plt.ylabel('Habitantes')
+    plt.grid(True, linestyle=':', alpha=0.7)
+    plt.legend()
+    plt.ticklabel_format(style='plain', axis='y')
+    plt.show()
+
+
+modelo_rna_simples()
+modelo_polinomial()
+modelo_logistico()
+modelo_svr()
+modelo_arima()
+modelo_ensemble_rna()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 7) EXPORTAÇÃO CSV / PARQUET
+#    Nome do arquivo segue o padrão: indicadores_<municipio>_tratados.csv
+#    (mesmo padrão esperado pelo app.py)
+# ═══════════════════════════════════════════════════════════════════════════
+
+os.makedirs(DIR_PROCESSED, exist_ok=True)
+
+linhas = []
+for chave, cfg in SERIES_CONFIG.items():
+    for ano, valor in zip(cfg["anos"], cfg["valores"]):
+        linhas.append({
+            "municipio":      MUNICIPIO,
+            "indicador_id":   chave,
+            "indicador_nome": cfg["titulo"],
+            "grupo_censo":    cfg["grupo"],
+            "ano":            ano,
+            "valor":          valor,
+            "unidade_medida": cfg["ylabel"],
+        })
+
+df_export  = pd.DataFrame(linhas)
+nome_base  = MUNICIPIO.lower().replace(' ', '_')
+path_csv   = f"{DIR_PROCESSED}/indicadores_{nome_base}_tratados.csv"
+path_parq  = f"{DIR_PROCESSED}/indicadores_{nome_base}_tratados.parquet"
+
+df_export.to_csv(path_csv, index=False, encoding='utf-8')
+df_export.to_parquet(path_parq, index=False)
+
+print(f"✅ Exportado:\n  {path_csv}\n  {path_parq}")
+display(df_export.head(10))
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 8) DEPLOY NO GITHUB
+# ═══════════════════════════════════════════════════════════════════════════
+
+def publicar_no_github():
+    from google.colab import userdata
+    token     = userdata.get('GITHUB_TOKEN')
+    auth_url  = f"https://{GITHUB_USUARIO}:{token}@github.com/{GITHUB_USUARIO}/{GITHUB_REPO}.git"
+    repo_path = f'/content/{GITHUB_REPO}'
+
+    print("🧹 Limpando cache local...")
+    if os.path.exists(repo_path):
+        shutil.rmtree(repo_path)
+
+    print(f"📥 Clonando branch '{GITHUB_BRANCH}'...")
+    os.chdir('/content')
+    os.system(f'git clone -b {GITHUB_BRANCH} {auth_url} {repo_path}')
+
+    os.chdir(repo_path)
+    os.system(f'git config user.email "{GITHUB_EMAIL}"')
+    os.system(f'git config user.name "{GITHUB_USUARIO}"')
+
+    destino = os.path.join(repo_path, GITHUB_PASTA)
+    os.makedirs(destino, exist_ok=True)
+
+    print(f"📁 Copiando dados para '{GITHUB_PASTA}'...")
+    for arq in glob.glob(f'{DIR_PROCESSED}/*'):
+        shutil.copy(arq, destino)
+
+    # Copia notebooks presentes no /content
+    for nb in glob.glob('/content/*.ipynb'):
+        shutil.copy(nb, repo_path)
+
+    print("🚀 Commit e push...")
+    os.chdir(repo_path)
+    os.system('git add .')
+    os.system(f'git commit -m "feat: dados {MUNICIPIO} — indicadores_{nome_base}_tratados"')
+    os.system(f'git push origin {GITHUB_BRANCH}')
+    print(f"\n✅ Deploy concluído → {GITHUB_REPO}/{GITHUB_PASTA}")
+
+
+publicar_no_github()
