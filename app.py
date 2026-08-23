@@ -35,18 +35,18 @@ MUNICIPIOS = [
     {
         "nome":    "Castanhal",
         "pasta":   "data",
-        "arquivo": "castanhal_indicadores.csv",
+        "arquivo": "indicadores_castanhal_tratados.csv",
     },
     {
         "nome":    "Belém",
         "pasta":   "data_belem",
-        "arquivo": "belem_indicadores.csv",
+        "arquivo": "indicadores_belem_tratados.csv",
     },
-    # Para adicionar uma nova cidade, copie o bloco abaixo e preencha:
+    # Para adicionar uma nova cidade:
     # {
     #     "nome":    "Nome da Cidade",
     #     "pasta":   "data_nomecidade",
-    #     "arquivo": "nomecidade_indicadores.csv",
+    #     "arquivo": "indicadores_nomecidade_tratados.csv",
     # },
 ]
 
