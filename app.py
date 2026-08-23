@@ -1,449 +1,462 @@
+# -*- coding: utf-8 -*-
 """
-Painel Streamlit — TCC Castanhal-PA (Censo / notebook Arquivo_tcc.ipynb).
-Multipágina via st.navigation; tema em .streamlit/config.toml.
-
-Este arquivo é o deploy do painel (separado do notebook de análise).
-Depende dos módulos em utils/: censo_projecoes, gemini_utils,
-relatorio_export, a11y, trilha_censo, castanhal_apresentacao.
+app.py — Painel Streamlit TCC (coringa multi-município)
+Edite apenas o bloco CONFIGURAÇÃO para adicionar novas cidades.
 """
 
 from __future__ import annotations
 
+import os
+import re
+import glob
+
+import numpy as np
+import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 import plotly.express as px
 import plotly.graph_objects as go
-import pandas as pd
 
-from utils.censo_projecoes import (
-    SERIES,
-    projetar_mlp,
-    series_com_pelo_menos_2_censos_no_periodo,
-    dataframe_relatorio_completo,
-)
-from utils.gemini_utils import (
-    consultar_gemini_modo,
-    texto_contexto_notebook_completo,
-)
-from utils.relatorio_export import csv_bytes, pdf_bytes
-from utils.a11y import (
-    TEXTO_DADOS,
-    TEXTO_DOWNLOAD,
-    TEXTO_HOME,
-    TEXTO_INFO,
-    TEXTO_PERGUNTAS,
-    TEXTO_TRILHA,
-    bloco_texto_leitores_ecra,
-    render_ouvir_descricao,
-)
-from utils.trilha_censo import TRILHA_PASSOS, serie_por_id, texto_tts_passo
-from utils.castanhal_apresentacao import markdown_apresentacao
+from sklearn.neural_network import MLPRegressor
+from sklearn.preprocessing import StandardScaler
 
-st.set_page_config(
-    page_title="Castanhal em dados | TCC",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    page_icon="📊",
-)
 
-EXEMPLOS_PERGUNTAS = [
-    "Quais indicadores têm maior incerteza nas projeções e por quê?",
-    "Como o rendimento per capita evoluiu e o que as projeções sugerem para políticas de renda?",
-    "O que explica o perfil de população urbana versus rural em Castanhal?",
-    "Quais ações poderiam melhorar o componente educação do IDH, com base na série histórica?",
-    "Como interpretar com responsabilidade os dados de cor ou raça entre 2010 e 2022?",
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║              BLOCO DE CONFIGURAÇÃO — EDITE APENAS AQUI                  ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
+
+# Título geral do painel
+TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
+
+# Cada entrada é um município.
+# "pasta" aponta para a pasta de dados dentro do repositório.
+# "arquivo" é o nome do CSV exportado pelo notebook (seção 7).
+# "nome"    é o rótulo exibido na aba.
+MUNICIPIOS = [
+    {
+        "nome":    "Castanhal",
+        "pasta":   "data",
+        "arquivo": "castanhal_indicadores.csv",
+    },
+    {
+        "nome":    "Belém",
+        "pasta":   "data_belem",
+        "arquivo": "belem_indicadores.csv",
+    },
+    # Para adicionar uma nova cidade, copie o bloco abaixo e preencha:
+    # {
+    #     "nome":    "Nome da Cidade",
+    #     "pasta":   "data_nomecidade",
+    #     "arquivo": "nomecidade_indicadores.csv",
+    # },
 ]
 
-DIAGRAMA_PIPELINE = """
-flowchart LR
-  A[Colab + Drive] --> B[CSV IBGE comparativos]
-  B --> C[DataFrames por tema]
-  C --> D[Agrupar indicadores por nº de censos]
-  C --> E[Modelos: RNA poly SVR ARIMA ensemble...]
-  D --> E
-  E --> F[Melhores gráficos / painéis]
-  F --> G[Push para GitHub / uso Streamlit]
-"""
+# Anos futuros para projeção MLP
+ANOS_PROJECAO = [2030, 2040]
+
+# Parâmetros do modelo MLP (mesmos do notebook)
+HIDDEN_LAYERS = (10, 10)
+RANDOM_STATE  = 42
+MAX_ITER      = 5000
+
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║                     FIM DO BLOCO DE CONFIGURAÇÃO                        ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
 
 
-@st.cache_data(ttl=3600, show_spinner=False)
-def _contexto_gemini_cache() -> str:
-    return texto_contexto_notebook_completo()
+# ═══════════════════════════════════════════════════════════════════════════
+# UTILITÁRIOS
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _raiz_repo() -> str:
+    """Retorna o diretório raiz do repositório (onde app.py está)."""
+    return os.path.dirname(os.path.abspath(__file__))
 
 
-def _inject_css() -> None:
+@st.cache_data(show_spinner=False)
+def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
+    """Lê o CSV de indicadores gerado pelo notebook. Retorna None se não existir."""
+    caminho = os.path.join(_raiz_repo(), pasta, arquivo)
+    if not os.path.exists(caminho):
+        return None
+    df = pd.read_csv(caminho)
+    # Garante coluna numérica limpa
+    if "valor" in df.columns:
+        df["valor"] = pd.to_numeric(df["valor"], errors="coerce")
+    return df
+
+
+def _treinar_mlp(anos: list[int], valores: list[float],
+                 anos_alvo: list[int]) -> list[float]:
+    """Treina MLP igual ao notebook e retorna previsões para anos_alvo."""
+    X = np.array(anos).reshape(-1, 1)
+    y = np.array(valores).reshape(-1, 1)
+    sx, sy = StandardScaler(), StandardScaler()
+    Xs = sx.fit_transform(X)
+    ys = sy.fit_transform(y)
+    m = MLPRegressor(
+        hidden_layer_sizes=HIDDEN_LAYERS,
+        activation="relu", solver="lbfgs",
+        max_iter=MAX_ITER, random_state=RANDOM_STATE,
+    )
+    m.fit(Xs, ys.ravel())
+    Xa = sx.transform(np.array(anos_alvo).reshape(-1, 1))
+    return sy.inverse_transform(m.predict(Xa).reshape(-1, 1)).ravel().tolist()
+
+
+def _curva_mlp(anos: list[int], valores: list[float]) -> tuple[list[int], list[float]]:
+    """Gera curva contínua para o gráfico (1990–2045)."""
+    anos_curva = list(range(min(anos) - 2, 2046))
+    vals_curva = _treinar_mlp(anos, valores, anos_curva)
+    return anos_curva, vals_curva
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GRÁFICOS
+# ═══════════════════════════════════════════════════════════════════════════
+
+def fig_serie(titulo: str, anos: list[int], valores: list[float],
+              ylabel: str, municipio: str) -> go.Figure:
+    """Gráfico de linha com dados reais + curva MLP + projeções."""
+    anos_proj = ANOS_PROJECAO
+    vals_proj = _treinar_mlp(anos, valores, anos_proj)
+    anos_curva, vals_curva = _curva_mlp(anos, valores)
+
+    fig = go.Figure()
+
+    # Curva MLP
+    fig.add_trace(go.Scatter(
+        x=anos_curva, y=vals_curva,
+        mode="lines", name="Curva MLP",
+        line=dict(color="#7B1FA2", width=2, dash="solid"), opacity=0.8,
+    ))
+    # Dados reais
+    fig.add_trace(go.Scatter(
+        x=anos, y=valores,
+        mode="lines+markers", name="Censos IBGE",
+        line=dict(color="#1565C0", width=3),
+        marker=dict(size=11, color="#0D47A1"),
+    ))
+    # Projeções
+    fig.add_trace(go.Scatter(
+        x=anos_proj, y=vals_proj,
+        mode="markers+text", name="Projeção",
+        text=[f"{v:,.1f}" for v in vals_proj],
+        textposition="top center",
+        marker=dict(size=14, color="#E65100", symbol="star"),
+    ))
+
+    fig.update_layout(
+        template="plotly_white", height=420,
+        title=dict(text=f"<b>{titulo}</b> — {municipio}", x=0.01),
+        xaxis_title="Ano",
+        yaxis_title=ylabel,
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
+        hovermode="x unified",
+        margin=dict(l=50, r=20, t=60, b=40),
+    )
+    if max(valores) > 1000:
+        fig.update_yaxes(tickformat=",")
+    return fig
+
+
+def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
+    """Gráfico de barras agrupadas: todos os indicadores × anos disponíveis."""
+    fig = px.bar(
+        df, x="indicador_nome", y="valor", color="ano",
+        barmode="group", text_auto=True,
+        title=f"Visão geral — {municipio}",
+        color_continuous_scale="Blues",
+        labels={"indicador_nome": "Indicador", "valor": "Valor", "ano": "Ano"},
+    )
+    fig.update_layout(
+        template="plotly_white", height=500,
+        xaxis_tickangle=-35,
+        margin=dict(l=40, r=20, t=60, b=120),
+    )
+    return fig
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEÇÕES DO PAINEL
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _css() -> None:
     st.markdown(
         """
         <style>
-          .block-container { padding-top: 1.2rem; max-width: 1200px; }
-          div[data-testid="stSidebarNav"] { font-weight: 500; }
-          .tcc-hero {
-            background: linear-gradient(135deg, #E3F2FD 0%, #FFFFFF 55%, #FFF8E1 100%);
-            padding: 1.75rem 1.5rem;
-            border-radius: 18px;
+          .block-container { padding-top: 1rem; max-width: 1200px; }
+          .municipio-header {
+            background: linear-gradient(135deg, #E3F2FD 0%, #fff 60%, #FFF8E1 100%);
+            padding: 1.2rem 1.5rem;
+            border-radius: 14px;
             border: 1px solid #BBDEFB;
-            margin-bottom: 1.25rem;
+            margin-bottom: 1rem;
           }
-          .tcc-badge {
+          .badge {
             display: inline-block;
             background: #1565C0;
             color: white !important;
-            padding: 0.2rem 0.65rem;
+            padding: 0.18rem 0.6rem;
             border-radius: 999px;
             font-size: 0.78rem;
-            letter-spacing: 0.03em;
           }
-          .stTabs [data-baseweb="tab-list"] { gap: 8px; }
-          .a11y-hint { font-size: 0.85rem; color: #475569; margin-bottom: 0.5rem; }
+          .dado-ausente {
+            background: #FFF3E0;
+            border-left: 4px solid #FB8C00;
+            padding: 0.8rem 1rem;
+            border-radius: 6px;
+          }
         </style>
         """,
         unsafe_allow_html=True,
     )
 
 
-def _fig_indicador_serie(s) -> go.Figure:
-    pr = projetar_mlp(s.anos, s.valores)
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(
-        x=list(s.anos), y=list(s.valores), mode="lines+markers", name="Censos IBGE",
-        line=dict(color="#1565C0", width=3), marker=dict(size=11, color="#0D47A1"),
-    ))
-    fig.add_trace(go.Scatter(
-        x=pr["anos_curva"], y=pr["val_curva"], mode="lines", name="Curva MLP (treinada)",
-        line=dict(color="#7B1FA2", width=2, dash="solid"), opacity=0.85,
-    ))
-    for af, pv in pr["previsoes"]:
-        fig.add_trace(go.Scatter(
-            x=[af], y=[pv], mode="markers+text", name=f"Projeção {af}",
-            text=[f"{pv:.2f}"], textposition="top center",
-            marker=dict(size=14, color="#E65100", symbol="star", line=dict(width=1, color="#FFF")),
-        ))
-    fig.update_layout(
-        template="plotly_white", height=420, margin=dict(l=40, r=20, t=50, b=40),
-        title=dict(text=f"<b>{s.titulo}</b> <span style='font-size:12px'>({s.unidade})</span>", x=0.02),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0), hovermode="x unified",
-    )
-    fig.update_xaxes(title="Ano")
-    fig.update_yaxes(title=s.unidade)
-    return fig
+def render_municipio(cfg: dict) -> None:
+    """Renderiza a aba completa de um município."""
+    nome   = cfg["nome"]
+    df     = carregar_dados(cfg["pasta"], cfg["arquivo"])
 
-
-def _render_a11y_bloco(texto: str, key: str) -> None:
-    """Descrição textual + botão TTS (voz do navegador)."""
-    st.caption("♿ Acessibilidade: descrição abaixo; use «Ouvir descrição» para áudio opcional.")
-    st.markdown(bloco_texto_leitores_ecra(texto))
-    render_ouvir_descricao(texto, key=key)
-
-
-def render_home() -> None:
-    _render_a11y_bloco(TEXTO_HOME, "tts_home")
     st.markdown(
-        """
-        <div class="tcc-hero">
-          <span class="tcc-badge">Trabalho de Conclusão de Curso</span>
-          <h1 style="margin:0.6rem 0 0.4rem 0; color:#0D47A1;">Castanhal em perspectiva censitária</h1>
-          <p style="font-size:1.05rem; line-height:1.55; color:#334155; margin:0;">
-            Este painel apoia a leitura dos <strong>dados agregados do IBGE</strong> e das
-            <strong>projeções com redes neurais</strong> construídas no notebook
-            <code>Arquivo_tcc.ipynb</code> — um estudo que combina Ciência de Dados e visualização
-            para o município de <strong>Castanhal – PA</strong>.
+        f"""
+        <div class="municipio-header">
+          <span class="badge">Município</span>
+          <h2 style="margin: 0.4rem 0 0.2rem; color:#0D47A1;">{nome}</h2>
+          <p style="margin:0; color:#475569; font-size:0.95rem;">
+            Dados do IBGE (Censos 1991–2022) com projeções MLP para
+            {" e ".join(str(a) for a in ANOS_PROJECAO)}.
           </p>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
-    with st.container():
-        st.markdown(markdown_apresentacao())
-
-    c1, c2, c3, c4 = st.columns(4)
-    with c1:
-        st.metric("População (2022)", "192.256", "habitantes", help="Total residente — série comparativa do notebook.")
-    with c2:
-        st.metric("Renda per capita (2022)", "R$ 1.055", "nominal", help="Rendimento domiciliar mensal per capita.")
-    with c3:
-        st.metric("Indicadores modelados", str(len(SERIES)), "séries", help="Quantidade de séries com gráficos MLP no TCC.")
-    with c4:
-        st.metric("Censos na base", "1991–2022", "recortes", help="Conforme disponibilidade por indicador.")
-
-    st.subheader("Panorama dinâmico")
-    p1, p2 = st.columns(2, gap="large")
-
-    df_pop = pd.DataFrame({
-        "Censo": ["1991", "2000", "2010", "2022"],
-        "População": [102_071, 134_496, 173_149, 192_256],
-    })
-    fig_bar = px.bar(
-        df_pop, x="Censo", y="População", color="Censo",
-        color_discrete_sequence=px.colors.qualitative.Bold, text_auto=",",
-        title="População total — evolução entre censos",
-    )
-    fig_bar.update_layout(template="plotly_white", height=360, showlegend=False)
-    p1.plotly_chart(fig_bar, use_container_width=True)
-
-    labels = ["Castanhal 2022", "Parda", "Branca", "Preta", "Amarela", "Indígena"]
-    parents = ["", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022", "Castanhal 2022"]
-    values = [192_256, 132_079, 42_881, 16_429, 719, 144]
-    fig_sb = px.sunburst(
-        names=labels, parents=parents, values=values, color=labels,
-        color_discrete_sequence=px.colors.qualitative.Set2,
-        title="Composição por cor ou raça (hab.) — referência 2022",
-    )
-    fig_sb.update_layout(height=360, margin=dict(t=50, l=10, r=10, b=10))
-    p2.plotly_chart(fig_sb, use_container_width=True)
-
-    df_renda = pd.DataFrame({
-        "Ano": [1991, 2000, 2010, 2022],
-        "R$ per capita": [160.54, 260.98, 467.32, 1055.05],
-    })
-    fig_line = px.area(
-        df_renda, x="Ano", y="R$ per capita",
-        title="Rendimento domiciliar mensal per capita (R$)",
-        color_discrete_sequence=["#00897B"],
-    )
-    fig_line.update_traces(fill="tozeroy", line=dict(width=3))
-    fig_line.update_layout(template="plotly_white", height=340)
-    st.plotly_chart(fig_line, use_container_width=True)
-
-    st.caption(
-        "Valores conforme extraídos do notebook de análise. Visualizações com Plotly — "
-        "passe o cursor para detalhes."
-    )
-
-
-def render_trilha() -> None:
-    """
-    Trilha tipo «dungeon» Streamlit: passos em session_state, narrativa + gráfico por sala.
-    """
-    total = len(TRILHA_PASSOS)
-    if "trilha_passo" not in st.session_state:
-        st.session_state.trilha_passo = 0
-    i = max(0, min(int(st.session_state.trilha_passo), total - 1))
-    st.session_state.trilha_passo = i
-
-    passo = TRILHA_PASSOS[i]
-    tts = TEXTO_TRILHA + " " + texto_tts_passo(passo, i, total)
-    _render_a11y_bloco(tts, f"tts_trilha_{i}_{passo['id']}")
-
-    st.title("Trilha interativa — Castanhal em dados")
-    st.caption(
-        "Avance por «salas» temáticas. Cada etapa usa **dados reais** do notebook do TCC — "
-        "estilo jogo por passos, semelhante a templates interativos no Streamlit Community Cloud."
-    )
-    st.caption(f"Progresso: sala {i + 1} de {total}")
-    st.progress((i + 1) / total)
-
-    st.markdown(f"### {passo['titulo']}")
-    st.markdown(passo["narrativa"])
-
-    sid = passo.get("serie_id")
-    if sid:
-        s = serie_por_id(sid)
-        if s is not None:
-            st.plotly_chart(_fig_indicador_serie(s), use_container_width=True)
-
-    b1, b2, b3 = st.columns(3)
-    with b1:
-        if st.button("◀ Voltar", disabled=i <= 0, key="trilha_voltar"):
-            st.session_state.trilha_passo = i - 1
-            st.rerun()
-    with b2:
-        if st.button("Reiniciar trilha", key="trilha_reset"):
-            st.session_state.trilha_passo = 0
-            st.rerun()
-    with b3:
-        if st.button("Avançar ▶", disabled=i >= total - 1, key="trilha_avanc"):
-            st.session_state.trilha_passo = i + 1
-            st.rerun()
-
-    if i >= total - 1:
-        st.success("Trilha concluída! Explore **Dados** para o painel completo ou **Download** para os ficheiros.")
-
-
-def render_dados() -> None:
-    _render_a11y_bloco(TEXTO_DADOS, "tts_dados")
-    st.title("Dados e projeções (MLP)")
-    st.markdown(
-        "Cada bloco reproduz a **lógica do notebook**: escalonamento, `MLPRegressor` "
-        "(duas camadas de 10 neurônios, solver `lbfgs`) e pontos futuros ilustrativos."
-    )
-
-    st.subheader("Indicadores com histórico em ao menos dois censos (1991, 2000, 2010 ou 2022)")
-    sub = series_com_pelo_menos_2_censos_no_periodo()
-    rows = [
-        {
-            "Área": s.area,
-            "Indicador": s.titulo,
-            "Censos no modelo": ", ".join(str(x) for x in s.anos),
-            "Nº censos": len(s.anos),
-            "Projeções (MLP)": ", ".join(f"{a}: {v:.2f}" for a, v in projetar_mlp(s.anos, s.valores)["previsoes"]),
-        }
-        for s in sub
-    ]
-    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-    st.info(
-        "Somente indicadores cuja série cruza **pelo menos dois** desses anos censitários entram neste recorte.",
-        icon="📌",
-    )
-
-    areas = sorted({s.area for s in SERIES})
-    tabs = st.tabs(areas)
-    for tab, area in zip(tabs, areas):
-        with tab:
-            for s in [s for s in SERIES if s.area == area]:
-                st.markdown(f"#### {s.titulo}")
-                st.plotly_chart(_fig_indicador_serie(s), use_container_width=True)
-                st.markdown(
-                    f"**O que os dados mostram:** {s.descricao_curta}\n\n"
-                    f"**Metodologia (notebook):** {s.o_que_foi_feito}\n\n"
-                    f"**Projeção:** {s.nota_prev}"
-                )
-                st.divider()
-
-
-def render_perguntas() -> None:
-    _render_a11y_bloco(TEXTO_PERGUNTAS, "tts_perguntas")
-    st.title("Perguntas — chat com Gemini")
-
-    modo = st.radio("Modo do chat", ["dados", "livre"], horizontal=True,
-                     help="'dados' injeta o contexto consolidado do notebook; 'livre' não injeta nada.")
-
-    if modo == "dados":
-        st.info(
-            "O modelo usa o **texto consolidado** das séries e previsões MLP do notebook "
-            "`Arquivo_tcc.ipynb` como contexto.",
-            icon="ℹ️",
+    if df is None:
+        st.markdown(
+            f"""
+            <div class="dado-ausente">
+              <strong>⚠️ Arquivo não encontrado:</strong>
+              <code>{cfg['pasta']}/{cfg['arquivo']}</code><br>
+              Execute o notebook para gerar os dados e faça push para o repositório.
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
-    else:
-        st.info("Modo livre: sem injeção automática das tabelas do Censo.", icon="🌐")
+        return
 
-    st.markdown("**Sugestões de pergunta:**")
-    st.caption(" • ".join(EXEMPLOS_PERGUNTAS[:3]) + " …")
-    if st.button("Limpar histórico do chat", type="secondary"):
-        st.session_state["chat_msgs"] = []
-        st.rerun()
+    # ── Métricas de resumo ────────────────────────────────────────────────
+    n_indicadores = df["indicador_id"].nunique()
+    anos_disp     = sorted(df["ano"].dropna().unique().astype(int))
+    grupos        = df["grupo_censo"].unique()
 
-    if "chat_msgs" not in st.session_state:
-        st.session_state["chat_msgs"] = []
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Indicadores", n_indicadores)
+    m2.metric("Anos disponíveis", f"{anos_disp[0]}–{anos_disp[-1]}")
+    m3.metric("Grupos", len(grupos))
 
-    for msg in st.session_state["chat_msgs"]:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+    st.divider()
 
-    prompt = st.chat_input("Escreva sua pergunta…")
+    # ── Visão geral (barras) ──────────────────────────────────────────────
+    with st.expander("📊 Visão geral — todos os indicadores", expanded=False):
+        st.plotly_chart(fig_barras_todos(df, nome), use_container_width=True)
 
-    if prompt:
-        st.session_state["chat_msgs"].append({"role": "user", "content": prompt})
-        with st.chat_message("user"):
-            st.markdown(prompt)
-        ctx = _contexto_gemini_cache() if modo == "dados" else None
-        with st.chat_message("assistant"):
-            with st.spinner("Gerando resposta…"):
-                resposta = consultar_gemini_modo(
-                    prompt, st.session_state["chat_msgs"][:-1], modo=modo, contexto_dados_censo=ctx,
-                )
-            st.markdown(resposta)
-        st.session_state["chat_msgs"].append({"role": "assistant", "content": resposta})
+    st.divider()
 
-
-def render_info() -> None:
-    _render_a11y_bloco(TEXTO_INFO, "tts_info")
-    st.title("Sobre este TCC")
-    st.info(
-        "**Acessibilidade:** cada página inclui uma **descrição em texto** para leitores de ecrã e um botão "
-        "**«Ouvir descrição»**, que usa a **síntese de voz do próprio navegador** (Web Speech API, português quando disponível). "
-        "O áudio é opcional e complementar — não substitui ferramentas de acessibilidade do sistema.",
-        icon="♿",
-    )
-    st.markdown(markdown_apresentacao())
-    st.markdown(
-        "### Trabalho de Conclusão de Curso\n\n"
-        "**Autor:** Luan Evaristo de Melo Lindolfo  \n"
-        "**Tema:** Ciência de dados aplicada a indicadores censitários de Castanhal–PA, "
-        "com projeções via redes neurais e divulgação em ambiente web (Streamlit).\n\n"
-        "**Funcionamento deste painel:**\n"
-        "- **Home:** síntese contextual e infográficos sobre a população e a renda.  \n"
-        "- **Trilha:** jogo interativo por «salas» — avance e desbloqueie gráficos reais dos censos.  \n"
-        "- **Dados:** séries extraídas do notebook, alinhadas aos gráficos de rede neural, com texto explicativo.  \n"
-        "- **Perguntas:** chat com Gemini — modo **dados** (com contexto do notebook) ou **livre**.  \n"
-        "- **Download:** exportação CSV/PDF com tabela de indicadores e projeções.  \n\n"
-        "**Pipeline conceitual (mesma ideia do estudo):**"
-    )
-
-    components.html(
-        f"""
-<!DOCTYPE html>
-<html>
-<head><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script></head>
-<body style="margin:0;background:#F8FAFC;">
-  <script>mermaid.initialize({{startOnLoad:true, theme: 'neutral'}});</script>
-  <div class="mermaid">
-{DIAGRAMA_PIPELINE}
-  </div>
-</body>
-</html>
-""",
-        height=280,
-    )
-    with st.expander("Ver diagrama em texto (Mermaid)"):
-        st.code(DIAGRAMA_PIPELINE.strip(), language="text")
-
-    st.markdown(
-        "---\n\n### Agradecimento sugerido\n\n"
-        "> *Obrigado por acompanhar este estudo!*  \n"
-        "> *Este projeto une Ciência de Dados e Desenvolvimento Web para entender o passado "
-        "e projetar o futuro de Castanhal–PA.*  \n"
-        "> *Desenvolvido com dedicação por **Luan Evaristo de Melo Lindolfo**.*"
-    )
-
-
-def render_download() -> None:
-    _render_a11y_bloco(TEXTO_DOWNLOAD, "tts_dl")
-    st.title("Download de relatórios")
-    st.markdown(
-        "Baixe a **tabela consolidada** (indicadores históricos e colunas `previsto_*` das projeções MLP) "
-        "para reutilização em planilhas ou apresentações. O PDF é um resumo textual automático."
-    )
-
-    df_preview = dataframe_relatorio_completo()
-    st.dataframe(df_preview.head(25), use_container_width=True)
-
-    b1, b2 = st.columns(2)
-    with b1:
+    # ── Tabela de dados brutos ────────────────────────────────────────────
+    with st.expander("🗂️ Tabela de dados brutos", expanded=False):
+        st.dataframe(
+            df.sort_values(["indicador_nome", "ano"]),
+            use_container_width=True,
+            hide_index=True,
+        )
+        csv = df.to_csv(index=False).encode("utf-8")
         st.download_button(
-            label="Baixar CSV (UTF-8)", data=csv_bytes(),
-            file_name="castanhal_indicadores_projecoes_mlp.csv", mime="text/csv",
-            type="primary", use_container_width=True,
+            label="⬇️ Baixar CSV",
+            data=csv,
+            file_name=cfg["arquivo"],
+            mime="text/csv",
         )
-    with b2:
-        try:
-            st.download_button(
-                label="Baixar PDF (resumo)", data=pdf_bytes(),
-                file_name="castanhal_relatorio_tcc.pdf", mime="application/pdf",
-                use_container_width=True,
+
+    st.divider()
+
+    # ── Gráficos por indicador ────────────────────────────────────────────
+    st.subheader("Séries históricas e projeções MLP")
+    st.caption(
+        "Selecione um indicador no menu abaixo ou percorra todos pelo botão."
+    )
+
+    indicadores = sorted(df["indicador_nome"].unique())
+    escolha = st.selectbox(
+        "Indicador",
+        options=["(Todos)"] + indicadores,
+        key=f"sel_{nome}",
+    )
+
+    def _render_grafico_indicador(ind_nome: str) -> None:
+        sub = df[df["indicador_nome"] == ind_nome].sort_values("ano")
+        anos   = sub["ano"].astype(int).tolist()
+        vals   = sub["valor"].tolist()
+        ylabel = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+        grupo  = sub["grupo_censo"].iloc[0] if "grupo_censo" in sub.columns else ""
+
+        if len(anos) < 2 or any(np.isnan(v) for v in vals):
+            st.warning(
+                f"**{ind_nome}** — série com menos de 2 pontos válidos; projeção indisponível.",
+                icon="⚠️",
             )
-        except ImportError:
-            st.warning("Instale `fpdf2` para habilitar o PDF: `pip install fpdf2`")
+            return
+
+        st.plotly_chart(
+            fig_serie(ind_nome, anos, vals, ylabel, nome),
+            use_container_width=True,
+        )
+
+        # Tabela de projeções
+        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
+        df_proj = pd.DataFrame({
+            "Ano": ANOS_PROJECAO,
+            f"Projeção MLP ({ylabel})": [round(v, 2) for v in vals_proj],
+        })
+        col_tab, col_esp = st.columns([1, 2])
+        col_tab.caption(f"Grupo: **{grupo}** | Censos na série: {anos}")
+        col_tab.dataframe(df_proj, hide_index=True, use_container_width=True)
+        st.divider()
+
+    if escolha == "(Todos)":
+        for ind in indicadores:
+            _render_grafico_indicador(ind)
+    else:
+        _render_grafico_indicador(escolha)
 
 
-PAGES = [
-    st.Page(render_home, title="Home", icon="🏠", default=True),
-    st.Page(render_trilha, title="Trilha", icon="🎮"),
-    st.Page(render_dados, title="Dados", icon="📈"),
-    st.Page(render_perguntas, title="Perguntas", icon="💬"),
-    st.Page(render_info, title="Info", icon="ℹ️"),
-    st.Page(render_download, title="Download", icon="⬇️"),
-]
+def render_comparativo(municipios_carregados: list[dict]) -> None:
+    """Aba que compara o mesmo indicador entre municípios."""
+    st.header("Comparativo entre municípios")
+    st.caption(
+        "Selecione um indicador para visualizar a evolução histórica "
+        "e as projeções MLP lado a lado."
+    )
 
+    # Coleta todos os indicadores disponíveis em pelo menos um município
+    todos_indicadores: set[str] = set()
+    dfs: dict[str, pd.DataFrame] = {}
+    for cfg in municipios_carregados:
+        df = carregar_dados(cfg["pasta"], cfg["arquivo"])
+        if df is not None:
+            dfs[cfg["nome"]] = df
+            todos_indicadores.update(df["indicador_nome"].unique())
+
+    if not dfs:
+        st.warning("Nenhum dado carregado ainda. Execute o notebook e faça push.")
+        return
+
+    ind_escolhido = st.selectbox(
+        "Indicador para comparar",
+        sorted(todos_indicadores),
+        key="sel_comparativo",
+    )
+
+    fig = go.Figure()
+    cores = px.colors.qualitative.Bold
+    tem_dados = False
+
+    for i, (mun, df) in enumerate(dfs.items()):
+        sub = df[df["indicador_nome"] == ind_escolhido].sort_values("ano")
+        if sub.empty:
+            continue
+        anos = sub["ano"].astype(int).tolist()
+        vals = sub["valor"].tolist()
+        if len(anos) < 2 or any(np.isnan(v) for v in vals):
+            continue
+
+        cor = cores[i % len(cores)]
+        ylabel = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+
+        # Dados reais
+        fig.add_trace(go.Scatter(
+            x=anos, y=vals,
+            mode="lines+markers", name=f"{mun} — Censos",
+            line=dict(color=cor, width=3),
+            marker=dict(size=10),
+        ))
+        # Projeções
+        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
+        fig.add_trace(go.Scatter(
+            x=ANOS_PROJECAO, y=vals_proj,
+            mode="markers+text", name=f"{mun} — Projeção",
+            text=[f"{v:,.1f}" for v in vals_proj],
+            textposition="top center",
+            marker=dict(size=13, symbol="star", color=cor),
+        ))
+        tem_dados = True
+
+    if not tem_dados:
+        st.info(f"Nenhum município tem dados para **{ind_escolhido}**.")
+        return
+
+    fig.update_layout(
+        template="plotly_white", height=460,
+        title=dict(text=f"<b>{ind_escolhido}</b> — comparativo", x=0.01),
+        xaxis_title="Ano", yaxis_title=ylabel,
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
+        hovermode="x unified",
+        margin=dict(l=50, r=20, t=60, b=40),
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Tabela comparativa
+    linhas = []
+    for mun, df in dfs.items():
+        sub = df[df["indicador_nome"] == ind_escolhido].sort_values("ano")
+        if sub.empty:
+            continue
+        anos = sub["ano"].astype(int).tolist()
+        vals = sub["valor"].tolist()
+        if len(anos) < 2 or any(np.isnan(v) for v in vals):
+            continue
+        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
+        for ano, val in zip(anos, vals):
+            linhas.append({"Município": mun, "Ano": ano, "Valor (censo)": val, "Tipo": "Censo"})
+        for ano, val in zip(ANOS_PROJECAO, vals_proj):
+            linhas.append({"Município": mun, "Ano": ano, "Valor (projeção MLP)": round(val, 2), "Tipo": "Projeção"})
+
+    st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════════════════════════
 
 def main() -> None:
-    _inject_css()
-    nav = st.navigation(PAGES)
+    st.set_page_config(
+        page_title=TITULO_PAINEL,
+        layout="wide",
+        initial_sidebar_state="expanded",
+        page_icon="📊",
+    )
+    _css()
+
     with st.sidebar:
-        st.markdown("### Castanhal · dados")
-        st.caption("TCC — notebook `Arquivo_tcc.ipynb` + Streamlit")
+        st.markdown(f"### {TITULO_PAINEL}")
+        st.caption("TCC — Projeções via MLP (sklearn)")
         st.divider()
-    nav.run()
+        st.markdown(
+            "**Como adicionar uma cidade:**\n"
+            "1. Rode o notebook coringa para o município.\n"
+            "2. Faça push da pasta `data_<cidade>/` com o CSV.\n"
+            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+        )
+
+    # Abas dinâmicas: uma por município + aba de comparativo
+    nomes_abas = [cfg["nome"] for cfg in MUNICIPIOS] + ["🔀 Comparativo"]
+    abas = st.tabs(nomes_abas)
+
+    for aba, cfg in zip(abas[:-1], MUNICIPIOS):
+        with aba:
+            render_municipio(cfg)
+
+    with abas[-1]:
+        render_comparativo(MUNICIPIOS)
 
 
 if __name__ == "__main__":
