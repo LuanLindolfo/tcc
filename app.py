@@ -47,6 +47,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_ananindeua_tratados.csv",
     },
+        {
+        "nome":    "Santarém",
+        "pasta":   "data",
+        "arquivo": "indicadores_santarem_tratados.csv",
+    },
     # Para adicionar uma nova cidade:
     # {
     #     "nome":    "Nome da Cidade",
