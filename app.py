@@ -42,6 +42,11 @@ MUNICIPIOS = [
         "pasta":   "data_belem",
         "arquivo": "indicadores_belem_tratados.csv",
     },
+    {
+        "nome":    "Ananindeua",
+        "pasta":   "data",
+        "arquivo": "indicadores_ananindeua_tratados.csv",
+    },
     # Para adicionar uma nova cidade:
     # {
     #     "nome":    "Nome da Cidade",
