@@ -51,7 +51,7 @@ MUNICIPIOS = [
     {
         "nome":    "Belém",
         "pasta":   "data",
-        "arquivo": "indicadores_belém_tratados.csv",
+        "arquivo": "indicadores_belem_tratados.csv",
     },
     {
         "nome":    "Ananindeua",
@@ -70,6 +70,14 @@ MUNICIPIOS = [
     #     "arquivo": "indicadores_nomecidade_tratados.csv",
     # },
 ]
+
+# Quantos níveis acima de app.py fica a raiz do repositório (onde estão
+# as pastas de dados, ex: "data/", "data_belem/"). Ajuste se a estrutura
+# de pastas mudar:
+#   app.py na raiz do repo               -> 0
+#   app.py dentro de "Streamlit/"        -> 1 (caso atual)
+#   app.py dentro de "app/streamlit/"    -> 2
+NIVEIS_ACIMA_PARA_DADOS = 1
 
 # Anos futuros para projeção (usados só quando o app precisa recalcular
 # porque o CSV de projeções do notebook ainda não existe)
@@ -93,8 +101,14 @@ MAX_ITER          = 5000
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _raiz_repo() -> str:
-    """Retorna o diretório raiz do repositório (onde app.py está)."""
-    return os.path.dirname(os.path.abspath(__file__))
+    """
+    Retorna o diretório onde ficam as pastas de dados (ex: 'data/'),
+    subindo NIVEIS_ACIMA_PARA_DADOS níveis a partir da pasta de app.py.
+    """
+    caminho = os.path.dirname(os.path.abspath(__file__))
+    for _ in range(NIVEIS_ACIMA_PARA_DADOS):
+        caminho = os.path.dirname(caminho)
+    return caminho
 
 
 def _arquivo_projecoes(arquivo_historico: str) -> str:
@@ -340,6 +354,9 @@ def render_municipio(cfg: dict) -> None:
     )
 
     if df is None:
+        caminho_esperado = os.path.join(_raiz_repo(), cfg["pasta"], cfg["arquivo"])
+        pasta_absoluta   = os.path.join(_raiz_repo(), cfg["pasta"])
+
         st.markdown(
             f"""
             <div class="dado-ausente">
@@ -350,6 +367,33 @@ def render_municipio(cfg: dict) -> None:
             """,
             unsafe_allow_html=True,
         )
+
+        with st.expander("🔎 Diagnóstico — o que existe de fato no repositório", expanded=True):
+            st.code(f"Caminho esperado:\n{caminho_esperado}", language="text")
+
+            if not os.path.isdir(pasta_absoluta):
+                st.error(f"A pasta '{cfg['pasta']}/' nem existe no repositório (ao lado de app.py).")
+                st.write("Pastas encontradas na raiz do repositório:")
+                st.code("\n".join(sorted(os.listdir(_raiz_repo()))) or "(vazio)", language="text")
+            else:
+                arquivos_na_pasta = sorted(os.listdir(pasta_absoluta))
+                st.write(f"Arquivos encontrados em `{cfg['pasta']}/`:")
+                st.code("\n".join(arquivos_na_pasta) or "(pasta vazia)", language="text")
+
+                # Sugere o mais parecido, caso seja só diferença de acento/maiúscula/underline
+                alvo = cfg["arquivo"].lower()
+                parecidos = [
+                    a for a in arquivos_na_pasta
+                    if a.lower().replace('í', 'i').replace('é', 'e').replace('á', 'a')
+                       == alvo.replace('í', 'i').replace('é', 'e').replace('á', 'a')
+                ]
+                if parecidos:
+                    st.warning(
+                        f"Existe um arquivo parecido, mas com nome diferente: "
+                        f"`{parecidos[0]}` — confira acentos, maiúsculas ou "
+                        f"underline vs. espaço, e ajuste `MUNICIPIOS` em app.py "
+                        f"ou renomeie o CSV no repositório para bater exatamente."
+                    )
         return
 
     # ── Métricas de resumo ────────────────────────────────────────────────
