@@ -1,0 +1,33 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Castanhal,populacao__populacao_residente_total,População Residente Total,populacao,Grupo 1 — 4 censos,logistic,lbfgs,True,7.009023866864197,2030,197.23624700213722
+Castanhal,populacao__populacao_residente_total,População Residente Total,populacao,Grupo 1 — 4 censos,logistic,lbfgs,True,7.009023866864197,2040,200.33943072984664
+Castanhal,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 1 — 4 censos,relu,lbfgs,True,146.33793768531635,2030,1448.7720331861292
+Castanhal,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 1 — 4 censos,relu,lbfgs,True,146.33793768531635,2040,1841.8920287475753
+Castanhal,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,lbfgs,True,0.0054506648014300925,2030,0.9305600644805172
+Castanhal,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,lbfgs,True,0.0054506648014300925,2040,1.1053595113372503
+Castanhal,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,7.839573321471268,2030,17.752452724059594
+Castanhal,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,7.839573321471268,2040,17.7286882570347
+Castanhal,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,identity,adam,True,1.1263713813734217,2030,198.55858532283318
+Castanhal,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,identity,adam,True,1.1263713813734217,2040,224.17390767415415
+Castanhal,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.804043737159768
+Castanhal,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.5322293791661843
+Castanhal,indigenas__pessoas_sem_registro_civil_de_nascimento,Pessoas sem registro civil de nascimento,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.202980338129327
+Castanhal,indigenas__pessoas_sem_registro_civil_de_nascimento,Pessoas sem registro civil de nascimento,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.35571514572216
+Castanhal,populacao__populacao_amarela,População Amarela,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1020.3772269337663
+Castanhal,populacao__populacao_amarela,População Amarela,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1389.857167953095
+Castanhal,populacao__populacao_branca,População Branca,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.921768909279855
+Castanhal,populacao__populacao_branca,População Branca,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.97175043691351
+Castanhal,populacao__populacao_indigena,População Indígena,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,135.76174948639073
+Castanhal,populacao__populacao_indigena,População Indígena,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,124.88917516664742
+Castanhal,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,135.76174948639073
+Castanhal,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,124.88917516664742
+Castanhal,populacao__populacao_parda,População Parda,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,137.51765655753937
+Castanhal,populacao__populacao_parda,População Parda,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,144.1852953985645
+Castanhal,populacao__populacao_preta,População Preta,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.498436540935842
+Castanhal,populacao__populacao_preta,População Preta,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.26147877092089
+Castanhal,indigenas__proporcao_na_populacao_de_castanhal,Proporção na população de Castanhal,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.056269582477317906
+Castanhal,indigenas__proporcao_na_populacao_de_castanhal,Proporção na população de Castanhal,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.03814862527774572
+Castanhal,indigenas__registro_de_nascimento_em_cartorio,Registro de nascimento em cartório,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.13479123865895
+Castanhal,indigenas__registro_de_nascimento_em_cartorio,Registro de nascimento em cartório,indigenas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.07431263887284
+Castanhal,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.4579184410643
+Castanhal,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,105.49396805694717
