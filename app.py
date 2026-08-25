@@ -44,9 +44,24 @@ TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
 # do nome do "arquivo" — não precisa declarar mais nada aqui.
 MUNICIPIOS = [
     {
+        "nome":    "Castanhal",
+        "pasta":   "data",
+        "arquivo": "indicadores_castanhal_tratados.csv",
+    },
+    {
         "nome":    "Belém",
         "pasta":   "data_belem",
         "arquivo": "indicadores_belem_tratados.csv",
+    },
+    {
+        "nome":    "Ananindeua",
+        "pasta":   "data",
+        "arquivo": "indicadores_ananindeua_tratados.csv",
+    },
+    {
+        "nome":    "Santarém",
+        "pasta":   "data",
+        "arquivo": "indicadores_santarem_tratados.csv",
     },
     # Para adicionar uma nova cidade:
     # {
@@ -574,6 +589,14 @@ def main() -> None:
     with st.sidebar:
         st.markdown(f"### {TITULO_PAINEL}")
         st.caption("TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV")
+        st.info(
+            "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama "
+            "do Censo. Parte das informações é estimada, podendo haver "
+            "margem de erro para mais ou para menos, dado o alto volume de "
+            "dados pesquisados e o tempo de atualização das bases ao longo "
+            "do tempo.",
+            icon="ℹ️",
+        )
         st.divider()
         st.markdown(
             "**Como adicionar uma cidade:**\n"
