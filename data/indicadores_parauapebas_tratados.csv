@@ -1,0 +1,118 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Parauapebas,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.28331627309363,1991,12.45,Valor
+Parauapebas,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.28331627309363,2000,18.21,Valor
+Parauapebas,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.28331627309363,2010,44.15,Valor
+Parauapebas,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.28331627309363,2022,89.24,Valor
+Parauapebas,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.333246478136175,1991,12.32,Valor
+Parauapebas,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.333246478136175,2000,18.12,Valor
+Parauapebas,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.333246478136175,2010,43.82,Valor
+Parauapebas,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,8.333246478136175,2022,88.91,Valor
+Parauapebas,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,sgd,True,78.79526579421517,1991,130.0,Valor
+Parauapebas,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,sgd,True,78.79526579421517,2000,90.0,Valor
+Parauapebas,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,sgd,True,78.79526579421517,2010,330.0,Valor
+Parauapebas,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,sgd,True,78.79526579421517,2022,330.0,Valor
+Parauapebas,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,2.6411204744103887,2000,2.84,Valor
+Parauapebas,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,2.6411204744103887,2010,11.25,Valor
+Parauapebas,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,2.6411204744103887,2022,24.81,Valor
+Parauapebas,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Parauapebas,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.0,Valor
+Parauapebas,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.24,Valor
+Parauapebas,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.15,Valor
+Parauapebas,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.21,Valor
+Parauapebas,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.42,Valor
+Parauapebas,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Parauapebas,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Parauapebas,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.82,Valor
+Parauapebas,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.42,Valor
+Parauapebas,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.45,Valor
+Parauapebas,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.81,Valor
+Parauapebas,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.72,Valor
+Parauapebas,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.21,Valor
+Parauapebas,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,110.0,Valor
+Parauapebas,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,120.0,Valor
+Parauapebas,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,140.0,Valor
+Parauapebas,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,590.0,Valor
+Parauapebas,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2000,625.0,Valor
+Parauapebas,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2010,958.0,Valor
+Parauapebas,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2022,3.555,Valor
+Parauapebas,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,18.13472648502332,1991,53.335,Valor
+Parauapebas,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,18.13472648502332,2000,71.915,Valor
+Parauapebas,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,18.13472648502332,2010,153.908,Valor
+Parauapebas,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,18.13472648502332,2022,266.445,Valor
+Parauapebas,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,14.145946790838842,2000,59.832,Valor
+Parauapebas,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,14.145946790838842,2010,138.807,Valor
+Parauapebas,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,14.145946790838842,2022,252.14,Valor
+Parauapebas,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,1.740541974496196,2000,12.083,Valor
+Parauapebas,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,1.740541974496196,2010,15.101,Valor
+Parauapebas,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,1.740541974496196,2022,14.305,Valor
+Parauapebas,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.24,Valor
+Parauapebas,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.15,Valor
+Parauapebas,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,7.201509497833723,2000,33.82,Valor
+Parauapebas,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,7.201509497833723,2010,74.52,Valor
+Parauapebas,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,7.201509497833723,2022,132.81,Valor
+Parauapebas,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,3.5458463998192493,2000,38.095,Valor
+Parauapebas,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,3.5458463998192493,2010,79.388,Valor
+Parauapebas,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,3.5458463998192493,2022,133.635,Valor
+Parauapebas,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0829195128856999,2000,112.6,Valor
+Parauapebas,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0829195128856999,2010,106.5,Valor
+Parauapebas,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0829195128856999,2022,100.6,Valor
+Parauapebas,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2000,21.0,Valor
+Parauapebas,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2010,24.0,Valor
+Parauapebas,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2022,29.0,Valor
+Parauapebas,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.145047188671753,2000,7.8,Valor
+Parauapebas,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.145047188671753,2010,11.2,Valor
+Parauapebas,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.145047188671753,2022,22.4,Valor
+Parauapebas,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,11.832973201620648,2000,48.21,Valor
+Parauapebas,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,11.832973201620648,2010,102.15,Valor
+Parauapebas,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,11.832973201620648,2022,182.41,Valor
+Parauapebas,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.7384991113210095,2000,16.84,Valor
+Parauapebas,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.7384991113210095,2010,32.14,Valor
+Parauapebas,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.7384991113210095,2022,48.21,Valor
+Parauapebas,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,1.084886216747254,2000,5.82,Valor
+Parauapebas,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,1.084886216747254,2010,16.82,Valor
+Parauapebas,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,sgd,True,1.084886216747254,2022,31.45,Valor
+Parauapebas,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,410.69128449448493,2000,420.0,Valor
+Parauapebas,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,410.69128449448493,2010,1.84,Valor
+Parauapebas,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,410.69128449448493,2022,820.0,Valor
+Parauapebas,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2000,625.0,Valor
+Parauapebas,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2010,958.0,Valor
+Parauapebas,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,520.3311929850701,2022,3.555,Valor
+Parauapebas,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.6723602934811221,2000,18.42,Valor
+Parauapebas,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.6723602934811221,2010,42.15,Valor
+Parauapebas,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.6723602934811221,2022,68.42,Valor
+Parauapebas,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,sgd,True,0.9427452616729776,2000,8.41,Valor
+Parauapebas,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,sgd,True,0.9427452616729776,2010,16.82,Valor
+Parauapebas,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,sgd,True,0.9427452616729776,2022,28.15,Valor
+Parauapebas,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.48254736920597185,2000,3.12,Valor
+Parauapebas,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.48254736920597185,2010,8.45,Valor
+Parauapebas,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.48254736920597185,2022,14.21,Valor
+Parauapebas,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.0165435027302359,2000,2.15,Valor
+Parauapebas,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.0165435027302359,2010,4.82,Valor
+Parauapebas,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.0165435027302359,2022,5.91,Valor
+Parauapebas,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.06346501805702671,2000,1.12,Valor
+Parauapebas,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.06346501805702671,2010,2.84,Valor
+Parauapebas,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.06346501805702671,2022,4.82,Valor
+Parauapebas,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,414.34087875357164,2000,1.84,Valor
+Parauapebas,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,414.34087875357164,2010,1.12,Valor
+Parauapebas,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,414.34087875357164,2022,840.0,Valor
+Parauapebas,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.035080089509790614,2000,1.25,Valor
+Parauapebas,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.035080089509790614,2010,3.12,Valor
+Parauapebas,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.035080089509790614,2022,5.41,Valor
+Parauapebas,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.1943310867906547,2000,12.84,Valor
+Parauapebas,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.1943310867906547,2010,31.42,Valor
+Parauapebas,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,1.1943310867906547,2022,52.14,Valor
+Parauapebas,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.4780292066904721,2000,5.58,Valor
+Parauapebas,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.4780292066904721,2010,10.73,Valor
+Parauapebas,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.4780292066904721,2022,16.28,Valor
+Parauapebas,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2000,420.0,Valor
+Parauapebas,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2010,1.12,Valor
+Parauapebas,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2022,1.84,Valor
+Parauapebas,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.39142017610087354,2000,2.7,Valor
+Parauapebas,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.39142017610087354,2010,7.33,Valor
+Parauapebas,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.39142017610087354,2022,12.37,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,208.91797482335917,2000,380.0,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,208.91797482335917,2010,1.15,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,208.91797482335917,2022,1.42,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.6926734197385994,2000,1.77,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.6926734197385994,2010,3.67,Valor
+Parauapebas,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.6926734197385994,2022,4.49,Valor
