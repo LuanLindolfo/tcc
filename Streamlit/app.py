@@ -74,7 +74,7 @@ MUNICIPIOS = [
 # Quantos níveis acima de app.py fica a raiz do repositório (onde estão
 # as pastas de dados, ex: "data/", "data_belem/"). Ajuste se a estrutura
 # de pastas mudar:
-#   app.py na raiz do repo               -> 0
+#   app.py na raiz do repo             -> 0
 #   app.py dentro de "Streamlit/"        -> 1 (caso atual)
 #   app.py dentro de "app/streamlit/"    -> 2
 NIVEIS_ACIMA_PARA_DADOS = 1
@@ -127,7 +127,7 @@ def _arquivo_projecoes(arquivo_historico: str) -> str:
     return ""
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl="1h")
 def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
     """Lê o CSV histórico de indicadores gerado pelo notebook. None se não existir."""
     caminho = os.path.join(_raiz_repo(), pasta, arquivo)
@@ -150,7 +150,7 @@ def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
     return df
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl="1h")
 def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | None:
     """
     Lê o CSV de projeções 2030/2040 já calculado pelo notebook (mesmo
@@ -632,6 +632,13 @@ def main() -> None:
 
     with st.sidebar:
         st.markdown(f"### {TITULO_PAINEL}")
+        
+        # --- NOVO: Botão de limpar cache na sidebar ---
+        if st.button("🔄 Recarregar Dados", help="Use para limpar o cache após subir novos dados no GitHub", use_container_width=True):
+            st.cache_data.clear()
+            st.rerun()
+        # ----------------------------------------------
+        
         st.caption("TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV")
         st.info(
             "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama "
