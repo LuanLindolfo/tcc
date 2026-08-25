@@ -1,0 +1,304 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Santarem,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Santarem,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.4,Valor
+Santarem,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.8,Valor
+Santarem,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.5,Valor
+Santarem,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.1,Valor
+Santarem,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Santarem,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.9,Valor
+Santarem,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.3,Valor
+Santarem,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.5033201619058355,2000,18.2,Valor
+Santarem,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.5033201619058355,2010,22.4,Valor
+Santarem,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.5033201619058355,2022,28.1,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.189685520601131,2000,54.1,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.189685520601131,2010,46.3,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.189685520601131,2022,38.5,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.25894294051237665,2000,8.9,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.25894294051237665,2010,11.2,Valor
+Santarem,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.25894294051237665,2022,14.3,Valor
+Santarem,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Santarem,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Santarem,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.7,Valor
+Santarem,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.1,Valor
+Santarem,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Santarem,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Santarem,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622578,2000,3.9,Valor
+Santarem,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622578,2010,3.4,Valor
+Santarem,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622578,2022,2.9,Valor
+Santarem,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.2790706264286647,2000,4.8,Valor
+Santarem,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.2790706264286647,2010,3.8,Valor
+Santarem,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.2790706264286647,2022,3.2,Valor
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.222482403407128,2000,4.2,Valor
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.222482403407128,2010,3.4,Valor
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,0.222482403407128,2022,2.9,Valor
+Santarem,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.3484732241487644,2000,15.2,Valor
+Santarem,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.3484732241487644,2010,18.9,Valor
+Santarem,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,sgd,True,0.3484732241487644,2022,23.8,Valor
+Santarem,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.42525145353879995,2000,17.8,Valor
+Santarem,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.42525145353879995,2010,21.1,Valor
+Santarem,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,3,identity,adam,True,0.42525145353879995,2022,24.5,Valor
+Santarem,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,4.2830193341750835,2000,44.1,Valor
+Santarem,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,4.2830193341750835,2010,28.6,Valor
+Santarem,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,3,relu,adam,True,4.2830193341750835,2022,18.2,Valor
+Santarem,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.2,Valor
+Santarem,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.8,Valor
+Santarem,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Santarem,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.1,Valor
+Santarem,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Santarem,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Santarem,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Santarem,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Santarem,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Santarem,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.5,Valor
+Santarem,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Santarem,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Santarem,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.1,Valor
+Santarem,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Santarem,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Santarem,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Santarem,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.5,Valor
+Santarem,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Santarem,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.1,Valor
+Santarem,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.5,Valor
+Santarem,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.4,Valor
+Santarem,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.1,Valor
+Santarem,deslocamento__estuda_no_proprio_municipio_santarem,Estuda no próprio município (Santarém),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,98.5,Valor
+Santarem,deslocamento__estuda_no_proprio_municipio_santarem,Estuda no próprio município (Santarém),deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,97.9,Valor
+Santarem,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.5,Valor
+Santarem,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.301478371152797,1991,42.15,Valor
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.301478371152797,2000,58.42,Valor
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.301478371152797,2010,81.25,Valor
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.301478371152797,2022,118.42,Valor
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.459827328242561,1991,41.8,Valor
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.459827328242561,2000,57.98,Valor
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.459827328242561,2010,80.51,Valor
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,adam,True,7.459827328242561,2022,117.85,Valor
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,lbfgs,True,155.14775128395638,1991,350.0,Valor
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,lbfgs,True,155.14775128395638,2000,440.0,Valor
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,lbfgs,True,155.14775128395638,2010,740.0,Valor
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,tanh,lbfgs,True,155.14775128395638,2022,570.0,Valor
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10491825222772877,1991,5.4,Valor
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10491825222772877,2000,4.5,Valor
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10491825222772877,2010,3.6,Valor
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10491825222772877,2022,3.1,Valor
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.2436037741242743,1991,78.2,Valor
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.2436037741242743,2000,85.4,Valor
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.2436037741242743,2010,91.8,Valor
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.2436037741242743,2022,94.6,Valor
+Santarem,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,3,logistic,adam,True,1.9678524144180234,2000,93.1,Valor
+Santarem,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,3,logistic,adam,True,1.9678524144180234,2010,97.4,Valor
+Santarem,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,3,logistic,adam,True,1.9678524144180234,2022,98.5,Valor
+Santarem,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.3967655514631165,2000,42.1,Valor
+Santarem,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.3967655514631165,2010,54.8,Valor
+Santarem,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.3967655514631165,2022,68.2,Valor
+Santarem,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2000,91.2,Valor
+Santarem,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2010,96.8,Valor
+Santarem,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2022,97.4,Valor
+Santarem,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.5959768020695158,2000,8.42,Valor
+Santarem,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.5959768020695158,2010,18.25,Valor
+Santarem,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.5959768020695158,2022,32.14,Valor
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.2955733506599345,1991,4.2,Valor
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.2955733506599345,2000,5.8,Valor
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.2955733506599345,2010,7.6,Valor
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.2955733506599345,2022,9.2,Valor
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778104,1991,4.4,Valor
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778104,2000,6.1,Valor
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778104,2010,8.0,Valor
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778104,2022,9.6,Valor
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.22269065010541622,1991,4.0,Valor
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.22269065010541622,2000,5.5,Valor
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.22269065010541622,2010,7.2,Valor
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,4,identity,adam,True,0.22269065010541622,2022,8.8,Valor
+Santarem,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.02638132838696187,1991,0.385,Valor
+Santarem,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.02638132838696187,2000,0.524,Valor
+Santarem,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.02638132838696187,2010,0.645,Valor
+Santarem,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2000,91.2,Valor
+Santarem,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2010,96.8,Valor
+Santarem,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.7583739047493623,2022,97.4,Valor
+Santarem,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,3,relu,adam,True,2.8753867166307523,2000,71.4,Valor
+Santarem,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,3,relu,adam,True,2.8753867166307523,2010,81.2,Valor
+Santarem,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,3,relu,adam,True,2.8753867166307523,2022,86.5,Valor
+Santarem,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.3890720184547347,2000,28.5,Valor
+Santarem,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.3890720184547347,2010,32.4,Valor
+Santarem,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.3890720184547347,2022,31.8,Valor
+Santarem,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2000,7.2,Valor
+Santarem,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2010,9.1,Valor
+Santarem,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2022,10.8,Valor
+Santarem,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2000,6.8,Valor
+Santarem,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2010,8.9,Valor
+Santarem,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2022,10.2,Valor
+Santarem,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.516931846598971,2000,5.4,Valor
+Santarem,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.516931846598971,2010,7.3,Valor
+Santarem,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.516931846598971,2022,8.9,Valor
+Santarem,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194305,2000,3.8,Valor
+Santarem,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194305,2010,5.2,Valor
+Santarem,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194305,2022,7.1,Valor
+Santarem,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,84.2,Valor
+Santarem,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.5,Valor
+Santarem,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Santarem,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.5,Valor
+Santarem,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0524134728086096,2000,56.1,Valor
+Santarem,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0524134728086096,2010,48.2,Valor
+Santarem,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0524134728086096,2022,40.1,Valor
+Santarem,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348893,2000,11.2,Valor
+Santarem,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348893,2010,14.5,Valor
+Santarem,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348893,2022,18.2,Valor
+Santarem,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.3037134055919933,2000,16.4,Valor
+Santarem,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.3037134055919933,2010,18.9,Valor
+Santarem,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.3037134055919933,2022,21.5,Valor
+Santarem,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348882,2000,2.8,Valor
+Santarem,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348882,2010,3.1,Valor
+Santarem,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348882,2022,3.6,Valor
+Santarem,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8735763597010795,2000,8.2,Valor
+Santarem,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8735763597010795,2010,9.1,Valor
+Santarem,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8735763597010795,2022,7.4,Valor
+Santarem,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.43651557552329834,2000,4.1,Valor
+Santarem,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.43651557552329834,2010,4.8,Valor
+Santarem,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.43651557552329834,2022,4.2,Valor
+Santarem,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2015886636679587,2000,1.2,Valor
+Santarem,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2015886636679587,2010,1.4,Valor
+Santarem,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2015886636679587,2022,1.0,Valor
+Santarem,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.0,Valor
+Santarem,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.0,Valor
+Santarem,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.412,Valor
+Santarem,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.51,Valor
+Santarem,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.12,Valor
+Santarem,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.84,Valor
+Santarem,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Santarem,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.0,Valor
+Santarem,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Santarem,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.8,Valor
+Santarem,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,98.1,Valor
+Santarem,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,96.4,Valor
+Santarem,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Santarem,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.1,Valor
+Santarem,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.21,Valor
+Santarem,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.14,Valor
+Santarem,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.84,Valor
+Santarem,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.21,Valor
+Santarem,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.11,Valor
+Santarem,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.45,Valor
+Santarem,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,90.0,Valor
+Santarem,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.0,Valor
+Santarem,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,162.0,Valor
+Santarem,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,630.0,Valor
+Santarem,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.1,Valor
+Santarem,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.4,Valor
+Santarem,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.5,Valor
+Santarem,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Santarem,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Santarem,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.9,Valor
+Santarem,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Santarem,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.3,Valor
+Santarem,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.1,Valor
+Santarem,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+Santarem,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Santarem,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.5,Valor
+Santarem,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Santarem,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.1,Valor
+Santarem,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.5,Valor
+Santarem,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Santarem,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Santarem,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.9,Valor
+Santarem,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.4395577189169515,2000,1.98,Valor
+Santarem,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.4395577189169515,2010,4.988,Valor
+Santarem,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.4395577189169515,2022,11.83,Valor
+Santarem,indigenas__proporcao_na_populacao_de_santarem,Proporção na população de Santarém,indigenas,Grupo 2 — 3 censos,3,identity,adam,True,0.5648576401109692,2000,0.75,Valor
+Santarem,indigenas__proporcao_na_populacao_de_santarem,Proporção na população de Santarém,indigenas,Grupo 2 — 3 censos,3,identity,adam,True,0.5648576401109692,2010,1.69,Valor
+Santarem,indigenas__proporcao_na_populacao_de_santarem,Proporção na população de Santarém,indigenas,Grupo 2 — 3 censos,3,identity,adam,True,0.5648576401109692,2022,3.56,Valor
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,7.993233588556812,1991,265.061,Valor
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,7.993233588556812,2000,262.538,Valor
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,7.993233588556812,2010,294.58,Valor
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,relu,lbfgs,True,7.993233588556812,2022,331.937,Valor
+Santarem,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,17.76373946485837,2000,183.181,Valor
+Santarem,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,17.76373946485837,2010,209.688,Valor
+Santarem,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,17.76373946485837,2022,264.832,Valor
+Santarem,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,9.918345687006436,2000,79.357,Valor
+Santarem,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,9.918345687006436,2010,84.892,Valor
+Santarem,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,9.918345687006436,2022,67.105,Valor
+Santarem,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.412,Valor
+Santarem,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.51,Valor
+Santarem,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.5773292754791157,2000,132.89,Valor
+Santarem,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.5773292754791157,2010,149.888,Valor
+Santarem,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.5773292754791157,2022,169.521,Valor
+Santarem,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.2462307459602376,2000,129.648,Valor
+Santarem,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.2462307459602376,2010,144.692,Valor
+Santarem,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.2462307459602376,2022,162.416,Valor
+Santarem,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496451,2000,97.5,Valor
+Santarem,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496451,2010,96.5,Valor
+Santarem,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496451,2022,95.8,Valor
+Santarem,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,21.0,Valor
+Santarem,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,25.0,Valor
+Santarem,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,31.0,Valor
+Santarem,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.05011071517539,2000,16.4,Valor
+Santarem,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.05011071517539,2010,24.8,Valor
+Santarem,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.05011071517539,2022,44.5,Valor
+Santarem,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,8.455229356778972,2000,184.21,Valor
+Santarem,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,8.455229356778972,2010,215.102,Valor
+Santarem,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,identity,adam,True,8.455229356778972,2022,241.05,Valor
+Santarem,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.7205245800796334,2000,58.12,Valor
+Santarem,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.7205245800796334,2010,52.84,Valor
+Santarem,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,2.7205245800796334,2022,55.21,Valor
+Santarem,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,relu,adam,True,1.701962080342924,2000,12.35,Valor
+Santarem,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,relu,adam,True,1.701962080342924,2010,18.23,Valor
+Santarem,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,relu,adam,True,1.701962080342924,2022,22.31,Valor
+Santarem,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,tanh,adam,True,480.5459714711264,2000,1.12,Valor
+Santarem,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,tanh,adam,True,480.5459714711264,2010,3.42,Valor
+Santarem,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,tanh,adam,True,480.5459714711264,2022,980.0,Valor
+Santarem,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.491074407492145,2000,1.98,Valor
+Santarem,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.491074407492145,2010,4.988,Valor
+Santarem,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.491074407492145,2022,16.955,Valor
+Santarem,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,94.4321925108632,2000,342.1,Valor
+Santarem,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,94.4321925108632,2010,518.4,Valor
+Santarem,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,94.4321925108632,2022,854.0,Valor
+Santarem,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8914932666009605,2000,93.8,Valor
+Santarem,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8914932666009605,2010,94.5,Valor
+Santarem,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8914932666009605,2022,92.8,Valor
+Santarem,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.808650793234284,2000,5.4,Valor
+Santarem,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.808650793234284,2010,4.8,Valor
+Santarem,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.808650793234284,2022,6.3,Valor
+Santarem,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033912,2000,0.8,Valor
+Santarem,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033912,2010,0.7,Valor
+Santarem,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033912,2022,0.9,Valor
+Santarem,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.0629981181579624,2000,32.14,Valor
+Santarem,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.0629981181579624,2010,41.25,Valor
+Santarem,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.0629981181579624,2022,54.89,Valor
+Santarem,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.1308232416004613,2000,24.81,Valor
+Santarem,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.1308232416004613,2010,31.42,Valor
+Santarem,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.1308232416004613,2022,42.15,Valor
+Santarem,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.620661652158816,2000,11.2,Valor
+Santarem,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.620661652158816,2010,16.85,Valor
+Santarem,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.620661652158816,2022,21.34,Valor
+Santarem,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0072434741416318,2000,6.45,Valor
+Santarem,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0072434741416318,2010,8.12,Valor
+Santarem,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0072434741416318,2022,7.98,Valor
+Santarem,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2690346453573224,2000,2.18,Valor
+Santarem,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2690346453573224,2010,3.45,Valor
+Santarem,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2690346453573224,2022,4.62,Valor
+Santarem,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.9488926477047794,2000,5.82,Valor
+Santarem,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.9488926477047794,2010,3.11,Valor
+Santarem,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.9488926477047794,2022,1.84,Valor
+Santarem,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.18082055712126732,2000,1.89,Valor
+Santarem,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.18082055712126732,2010,2.34,Valor
+Santarem,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.18082055712126732,2022,2.51,Valor
+Santarem,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2019298018731798,2000,14.82,Valor
+Santarem,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2019298018731798,2010,22.41,Valor
+Santarem,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.2019298018731798,2022,31.25,Valor
+Santarem,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7701951134000566,2000,17.32,Valor
+Santarem,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7701951134000566,2010,18.84,Valor
+Santarem,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7701951134000566,2022,23.64,Valor
+Santarem,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.12612206759981368,2000,1.45,Valor
+Santarem,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.12612206759981368,2010,2.18,Valor
+Santarem,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.12612206759981368,2022,2.89,Valor
+Santarem,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.4146244414556122,2000,9.75,Valor
+Santarem,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.4146244414556122,2010,14.67,Valor
+Santarem,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,1.4146244414556122,2022,18.45,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.554492413983348,2000,1.21,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.554492413983348,2010,2.15,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,sgd,True,0.554492413983348,2022,1.94,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3641299298809466,2000,5.24,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3641299298809466,2010,5.97,Valor
+Santarem,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3641299298809466,2022,6.04,Valor

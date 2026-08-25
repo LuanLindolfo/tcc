@@ -1,0 +1,227 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,identity,adam,True,0.2955733506599345,2030,10.631081342947613
+Santarem,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,identity,adam,True,0.2955733506599345,2040,12.248651980953422
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,tanh,lbfgs,True,155.14775128395638,2030,538.9123216801432
+Santarem,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,tanh,lbfgs,True,155.14775128395638,2040,526.1925178930709
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,relu,adam,True,7.459827328242561,2030,133.46171321215286
+Santarem,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,relu,adam,True,7.459827328242561,2040,153.18556407588358
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,identity,adam,True,0.22269065010541622,2030,10.145765727136883
+Santarem,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,identity,adam,True,0.22269065010541622,2040,11.697314370625609
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,relu,adam,True,0.32264985294778104,2030,10.47657579536741
+Santarem,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,relu,adam,True,0.32264985294778104,2040,11.406457873119649
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,logistic,lbfgs,True,0.10491825222772877,2030,2.965908879500482
+Santarem,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,logistic,lbfgs,True,0.10491825222772877,2040,2.8887125310689097
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,relu,lbfgs,True,7.993233588556812,2030,357.78635072549713
+Santarem,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,relu,lbfgs,True,7.993233588556812,2040,390.0988248723452
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,logistic,lbfgs,True,1.2436037741242743,2030,95.3154788369975
+Santarem,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,logistic,lbfgs,True,1.2436037741242743,2040,95.74686631420563
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,relu,adam,True,7.301478371152797,2030,134.0466505921695
+Santarem,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,relu,adam,True,7.301478371152797,2040,153.71348070223752
+Santarem,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.808650793234284,2030,5.506044838662272
+Santarem,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.808650793234284,2040,5.503894569431605
+Santarem,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033912,2030,0.800861854514785
+Santarem,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033912,2040,0.8005656022837713
+Santarem,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8914932666009605,2030,93.70250067841987
+Santarem,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8914932666009605,2040,93.69884886261521
+Santarem,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,1.0524134728086096,2030,34.10582391360372
+Santarem,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,1.0524134728086096,2040,26.85033131321067
+Santarem,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.8735763597010795,2030,8.237105309330907
+Santarem,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.8735763597010795,2040,8.233590205793424
+Santarem,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348893,2030,20.767946075120573
+Santarem,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348893,2040,23.93404499328313
+Santarem,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,2.1308232416004613,2030,48.07429914645384
+Santarem,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,2.1308232416004613,2040,55.96181065468073
+Santarem,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,sgd,True,0.3484732241487644,2030,27.10853168928985
+Santarem,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,sgd,True,0.3484732241487644,2040,31.20919019765964
+Santarem,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.42525145353879995,2030,26.997687739051443
+Santarem,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.42525145353879995,2040,30.024389415908065
+Santarem,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,4.2830193341750835,2030,12.967428124379872
+Santarem,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,4.2830193341750835,2040,5.876472463551469
+Santarem,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.2690346453573224,2030,5.548862963341971
+Santarem,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.2690346453573224,2040,6.649405246702144
+Santarem,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7583739047493623,2030,97.28258264799312
+Santarem,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7583739047493623,2040,97.16761334718956
+Santarem,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,relu,adam,True,2.8753867166307523,2030,88.89012577142691
+Santarem,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,relu,adam,True,2.8753867166307523,2040,91.63218267291788
+Santarem,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,logistic,sgd,True,2.3890720184547347,2030,30.917928692561492
+Santarem,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,logistic,sgd,True,2.3890720184547347,2040,30.912250673711885
+Santarem,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,adam,True,0.02638132838696187,2030,0.9220536105403363
+Santarem,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,adam,True,0.02638132838696187,2040,1.0580891955609308
+Santarem,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,34.46879368938008
+Santarem,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,39.011896464596354
+Santarem,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.18082055712126732,2030,2.5781682108707367
+Santarem,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.18082055712126732,2040,2.6623292209439935
+Santarem,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.3037134055919933,2030,23.39786076742601
+Santarem,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.3037134055919933,2040,25.702076344540266
+Santarem,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.43651557552329834,2030,4.369265603376467
+Santarem,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.43651557552329834,2040,4.367955202798372
+Santarem,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572005,2030,12.177875818825989
+Santarem,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572005,2040,13.800983996543756
+Santarem,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,relu,adam,True,0.6119066072016919,2030,10.790026904981861
+Santarem,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,relu,adam,True,0.6119066072016919,2040,11.472330479287713
+Santarem,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,identity,adam,True,0.16777338730194305,2030,8.266995440727905
+Santarem,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,identity,adam,True,0.16777338730194305,2040,9.763889608670365
+Santarem,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,identity,adam,True,0.516931846598971,2030,10.254556514632055
+Santarem,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,identity,adam,True,0.516931846598971,2040,11.831307514967852
+Santarem,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.9488926477047794,2030,1.0194189397605715
+Santarem,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.9488926477047794,2040,0.02667608542616895
+Santarem,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348882,2030,3.871948028113822
+Santarem,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348882,2040,4.235998066656155
+Santarem,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.2015886636679587,2030,1.200863121027754
+Santarem,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.2015886636679587,2040,1.200029959658081
+Santarem,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,tanh,adam,True,480.5459714711264,2030,1109.8470118217463
+Santarem,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,tanh,adam,True,480.5459714711264,2040,1161.5462187024
+Santarem,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,logistic,sgd,True,2.7205245800796334,2030,55.40160781645213
+Santarem,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,logistic,sgd,True,2.7205245800796334,2040,55.39066164767664
+Santarem,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,relu,lbfgs,True,4.491074407492145,2030,23.071448192171044
+Santarem,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,relu,lbfgs,True,4.491074407492145,2040,30.24750294360194
+Santarem,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,relu,lbfgs,True,2.4395577189169515,2030,14.98314360262837
+Santarem,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,relu,lbfgs,True,2.4395577189169515,2040,18.828300226080348
+Santarem,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,identity,adam,True,8.455229356778972,2030,263.0582080222607
+Santarem,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,identity,adam,True,8.455229356778972,2040,288.66378787827256
+Santarem,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,relu,adam,True,1.701962080342924,2030,24.168908150669488
+Santarem,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,relu,adam,True,1.701962080342924,2040,26.333774089118464
+Santarem,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,9.918345687006436,2030,77.14139554465238
+Santarem,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,9.918345687006436,2040,77.10159935122692
+Santarem,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,identity,adam,True,17.76373946485837,2030,291.45056589489536
+Santarem,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,identity,adam,True,17.76373946485837,2040,328.7360418703493
+Santarem,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,identity,adam,True,1.5959768020695158,2030,40.463220126583515
+Santarem,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,identity,adam,True,1.5959768020695158,2040,51.22943224208309
+Santarem,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,identity,adam,True,0.2462307459602376,2030,174.32356993125902
+Santarem,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,identity,adam,True,0.2462307459602376,2040,189.15539811135005
+Santarem,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,identity,adam,True,0.5773292754791157,2030,182.88298460812848
+Santarem,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,identity,adam,True,0.5773292754791157,2040,199.458443011856
+Santarem,indigenas__proporcao_na_populacao_de_santarem,Proporção na população de Santarém,indigenas,Grupo 2 — 3 censos,identity,adam,True,0.5648576401109692,2030,4.483738373560499
+Santarem,indigenas__proporcao_na_populacao_de_santarem,Proporção na população de Santarém,indigenas,Grupo 2 — 3 censos,identity,adam,True,0.5648576401109692,2040,5.766019599302432
+Santarem,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496451,2030,95.45501810039546
+Santarem,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496451,2040,94.98679544242509
+Santarem,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,94.4321925108632,2030,1023.6762030233057
+Santarem,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,94.4321925108632,2040,1257.1097676670197
+Santarem,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,1.189685520601131,2030,32.628341438503654
+Santarem,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,1.189685520601131,2040,25.556910432534263
+Santarem,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,identity,sgd,True,0.25894294051237665,2030,16.37095602321552
+Santarem,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,identity,sgd,True,0.25894294051237665,2040,18.94645046616748
+Santarem,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.5033201619058355,2030,31.600986322183715
+Santarem,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.5033201619058355,2040,36.0916688260111
+Santarem,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.2790706264286647,2030,2.8697760748323375
+Santarem,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.2790706264286647,2040,2.44050842988539
+Santarem,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2030,2.523611630673311
+Santarem,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2040,2.0703147713162986
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.222482403407128,2030,2.633477329239674
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.222482403407128,2040,2.282055760552801
+Santarem,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,2.0629981181579624,2030,62.78428789476278
+Santarem,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,2.0629981181579624,2040,73.11955071381901
+Santarem,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.2019298018731798,2030,37.23365330839714
+Santarem,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.2019298018731798,2040,44.66911738374686
+Santarem,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,relu,lbfgs,True,1.7701951134000566,2030,26.069925015292608
+Santarem,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,relu,lbfgs,True,1.7701951134000566,2040,28.918779021554144
+Santarem,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.620661652158816,2030,23.39166077757544
+Santarem,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.620661652158816,2040,25.90727194255544
+Santarem,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.12612206759981368,2030,3.432668458185573
+Santarem,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.12612206759981368,2040,4.082654855654336
+Santarem,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.4146244414556122,2030,20.176523505672094
+Santarem,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.4146244414556122,2040,22.292301881570147
+Santarem,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,identity,adam,True,1.3967655514631165,2030,77.88607435931524
+Santarem,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,identity,adam,True,1.3967655514631165,2040,89.6806783930667
+Santarem,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,logistic,adam,True,1.9678524144180234,2030,99.41088761453696
+Santarem,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,logistic,adam,True,1.9678524144180234,2040,99.693876073838
+Santarem,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7583739047493623,2030,97.28258264799312
+Santarem,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7583739047493623,2040,97.16761334718956
+Santarem,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0072434741416318,2030,7.900273142861204
+Santarem,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0072434741416318,2040,7.856217252626617
+Santarem,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.554492413983348,2030,1.7707850808072356
+Santarem,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.554492413983348,2040,1.7694242648635534
+Santarem,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,tanh,lbfgs,True,0.3641299298809466,2030,6.02346737290648
+Santarem,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,tanh,lbfgs,True,0.3641299298809466,2040,6.007993037421255
+Santarem,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,relu,lbfgs,True,7.05011071517539,2030,53.409190360733405
+Santarem,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,relu,lbfgs,True,7.05011071517539,2040,64.42325504097958
+Santarem,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.522568583076986
+Santarem,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.988981929160406
+Santarem,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.58703994489191
+Santarem,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.84282944863659
+Santarem,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.212222655581954
+Santarem,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.685330709712424
+Santarem,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.039162331870436
+Santarem,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.04872890683164
+Santarem,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.586831006035599
+Santarem,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.422358204157524
+Santarem,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.30877171446028
+Santarem,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.10081508552163
+Santarem,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.01599682654665
+Santarem,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.46832914763385
+Santarem,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7840596067625865
+Santarem,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8871143029144432
+Santarem,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.66896221751491
+Santarem,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.689046341656095
+Santarem,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.888417247338106
+Santarem,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.609800120401102
+Santarem,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.355102725107852
+Santarem,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.261614603917199
+Santarem,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.349311348776904
+Santarem,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.61651466411775
+Santarem,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.234481108757452
+Santarem,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.244523170828039
+Santarem,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.35217882028776
+Santarem,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.66134290874333
+Santarem,deslocamento__estuda_no_proprio_municipio_santarem,Estuda no próprio município (Santarém),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.48808747431954
+Santarem,deslocamento__estuda_no_proprio_municipio_santarem,Estuda no próprio município (Santarém),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.94445875833239
+Santarem,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.547960232623346
+Santarem,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.651954434715323
+Santarem,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.30728154539561
+Santarem,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.52295751266053
+Santarem,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.68119213525173
+Santarem,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.742286058288865
+Santarem,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.814506657481985
+Santarem,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.690471574772767
+Santarem,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.63772859611501
+Santarem,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.62631478451886
+Santarem,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.10469979455629
+Santarem,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.75567006665896
+Santarem,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.521788202877596
+Santarem,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.613429087433296
+Santarem,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.85565971450766
+Santarem,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.63525872701132
+Santarem,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.13479123865895
+Santarem,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.07431263887284
+Santarem,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.785808306323718
+Santarem,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.491732974963936
+Santarem,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,826.6994798244525
+Santarem,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1067.847468819797
+Santarem,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.15415554338829
+Santarem,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.30136816884654
+Santarem,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.01319936530933
+Santarem,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.70366582952677
+Santarem,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.85565971450766
+Santarem,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.63525872701132
+Santarem,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.23291451057203
+Santarem,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.69263314860841
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Santarem,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Santarem,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.039162331870438
+Santarem,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.04872890683164
+Santarem,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.089963849712
+Santarem,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.94310114381047
+Santarem,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3623278371942256
+Santarem,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.929128666029437
+Santarem,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.78990741640277
+Santarem,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.08765769326218
+Santarem,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.31886429805749
+Santarem,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.81315739225941
+Santarem,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.82380671959704
+Santarem,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.255897548780858
+Santarem,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.23480469129492
+Santarem,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.626043089344982
+Santarem,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.788417247338106
+Santarem,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.509800120401103
+Santarem,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.83887077341224
+Santarem,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.57040376944218
+Santarem,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.61599682654665
+Santarem,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.068329147633847
+Santarem,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.420354467122174
+Santarem,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.491014965120513
+Santarem,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.39718896179839
+Santarem,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.91061520592272
+Santarem,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.1710995516545
+Santarem,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.529943751551045
+Santarem,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.525391649546359
+Santarem,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.162972505554917
