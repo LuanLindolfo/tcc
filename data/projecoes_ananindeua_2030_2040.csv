@@ -1,0 +1,225 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Ananindeua,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,relu,adam,True,0.3118216845268884,2030,11.211884491260676
+Ananindeua,educacao__anos_de_estudo_media,Anos de Estudo (Média),educacao,Grupo 1 — 4 censos,relu,adam,True,0.3118216845268884,2040,12.076590642702573
+Ananindeua,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,logistic,sgd,True,301.48552791279167,2030,459.84794714057716
+Ananindeua,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,logistic,sgd,True,301.48552791279167,2040,458.88816444256753
+Ananindeua,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,relu,adam,True,11.821373747507021,2030,208.85927475999534
+Ananindeua,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,relu,adam,True,11.821373747507021,2040,236.29410846979505
+Ananindeua,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,relu,adam,True,0.30488853922564085,2030,10.796089033222131
+Ananindeua,educacao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,educacao,Grupo 1 — 4 censos,relu,adam,True,0.30488853922564085,2040,11.652838542237621
+Ananindeua,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,relu,adam,True,0.3628646992368125,2030,11.630490608879233
+Ananindeua,educacao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,educacao,Grupo 1 — 4 censos,relu,adam,True,0.3628646992368125,2040,12.502322781757758
+Ananindeua,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,relu,adam,True,0.21526373027285983,2030,2.572273645088991
+Ananindeua,domicilios__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,domicilios,Grupo 1 — 4 censos,relu,adam,True,0.21526373027285983,2040,2.1435551887234983
+Ananindeua,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3058161879920718,2030,97.53192190751048
+Ananindeua,educacao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),educacao,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3058161879920718,2040,97.8027592296062
+Ananindeua,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,relu,adam,True,11.538075857685406,2030,209.44661940577544
+Ananindeua,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,relu,adam,True,11.538075857685406,2040,236.6831207065617
+Ananindeua,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8304456814109903,2030,5.040049087657167
+Ananindeua,trabalhoerendimento__2_trabalhos,2 trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8304456814109903,2040,5.037617628806846
+Ananindeua,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.13848923902940566,2030,0.7341013655995576
+Ananindeua,trabalhoerendimento__3_ou_mais_trabalhos,3 ou mais trabalhos,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.13848923902940566,2040,0.733695780490652
+Ananindeua,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.9744471429548346,2030,94.23766680220767
+Ananindeua,trabalhoerendimento__apenas_1_trabalho,Apenas 1 trabalho,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.9744471429548346,2040,94.23400153253195
+Ananindeua,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,1.9980641457483301,2030,30.138670410479868
+Ananindeua,familiasenupcialidade__casais_com_filhos,Casais com filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,1.9980641457483301,2040,22.262270426721667
+Ananindeua,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,1.0235657825651965,2030,7.9359925504111795
+Ananindeua,familiasenupcialidade__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,1.0235657825651965,2040,7.931843442055887
+Ananindeua,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2030,19.79984836920457
+Ananindeua,familiasenupcialidade__casais_sem_filhos,Casais sem filhos,familiasenupcialidade,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2040,22.799889491110577
+Ananindeua,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.6055229617731447,2030,69.49106213757618
+Ananindeua,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.6055229617731447,2040,79.99203068867583
+Ananindeua,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.015254456061908192,2030,28.375067967785547
+Ananindeua,composicaofamiliar__domicilios_com_2_moradores,Domicílios com 2 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.015254456061908192,2040,32.465783381060284
+Ananindeua,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.9729629549495206,2030,28.607399950286844
+Ananindeua,composicaofamiliar__domicilios_com_3_moradores,Domicílios com 3 moradores,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.9729629549495206,2040,31.89755797010406
+Ananindeua,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,4.866047132292744,2030,9.793278172200587
+Ananindeua,composicaofamiliar__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,4.866047132292744,2040,2.6541050431349014
+Ananindeua,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.4270999648256771,2030,9.329509149278604
+Ananindeua,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.4270999648256771,2040,11.120302331166656
+Ananindeua,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.151713282973423,2030,98.1007682067708
+Ananindeua,educacao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.151713282973423,2040,98.00889202338466
+Ananindeua,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,relu,adam,True,3.013496647461835,2030,89.7116023862671
+Ananindeua,educacao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),educacao,Grupo 2 — 3 censos,relu,adam,True,3.013496647461835,2040,91.5513916718912
+Ananindeua,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,logistic,sgd,True,2.4446565830647935,2030,34.385811472114234
+Ananindeua,educacao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),educacao,Grupo 2 — 3 censos,logistic,sgd,True,2.4446565830647935,2040,34.378496459695405
+Ananindeua,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,adam,True,0.03506493443870351,2030,0.9980140010113463
+Ananindeua,educacao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),educacao,Grupo 2 — 3 censos,identity,adam,True,0.03506493443870351,2040,1.128206464996968
+Ananindeua,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678772,2030,39.21825763972987
+Ananindeua,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678772,2040,44.66412589942698
+Ananindeua,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,logistic,adam,True,0.3317638526880229,2030,4.2843462210396765
+Ananindeua,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,logistic,adam,True,0.3317638526880229,2040,4.339492032650963
+Ananindeua,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.33396620330367455,2030,28.246116096846148
+Ananindeua,familiasenupcialidade__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,identity,adam,True,0.33396620330367455,2040,31.228959150173658
+Ananindeua,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2030,4.737731563978103
+Ananindeua,familiasenupcialidade__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2040,4.736253786341124
+Ananindeua,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231821,2030,12.53098445007176
+Ananindeua,educacao__media_populacao_amarela,Média: População Amarela,educacao,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231821,2040,13.426336378216412
+Ananindeua,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,relu,adam,True,0.5785820688290828,2030,11.83775586788122
+Ananindeua,educacao__media_populacao_branca,Média: População Branca,educacao,Grupo 2 — 3 censos,relu,adam,True,0.5785820688290828,2040,12.580966913233402
+Ananindeua,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,identity,adam,True,0.25826835188695973,2030,9.77463709010003
+Ananindeua,educacao__media_populacao_indigena,Média: População Indígena,educacao,Grupo 2 — 3 censos,identity,adam,True,0.25826835188695973,2040,11.309925176479714
+Ananindeua,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,identity,adam,True,0.5017395906056213,2030,11.379584558125407
+Ananindeua,educacao__media_populacao_preta_parda,Média: População Preta / Parda,educacao,Grupo 2 — 3 censos,identity,adam,True,0.5017395906056213,2040,12.866031902688007
+Ananindeua,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.0033491649179151,2030,1.3091519988751767
+Ananindeua,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,1.0033491649179151,2040,0.3006604367036618
+Ananindeua,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2030,3.336933912354431
+Ananindeua,familiasenupcialidade__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),familiasenupcialidade,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2040,3.50461138477876
+Ananindeua,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.5037372805525427,2030,1.302961731521426
+Ananindeua,familiasenupcialidade__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,familiasenupcialidade,Grupo 2 — 3 censos,logistic,sgd,True,0.5037372805525427,2040,1.301444514567368
+Ananindeua,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,logistic,sgd,True,1.8416071378320897,2030,2.392180024130691
+Ananindeua,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,logistic,sgd,True,1.8416071378320897,2040,2.3859410154772154
+Ananindeua,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,identity,lbfgs,True,0.019830818679570445,2030,85.8477584251612
+Ananindeua,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,identity,lbfgs,True,0.019830818679570445,2040,81.71562392794203
+Ananindeua,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,tanh,adam,True,250.35108682740528,2030,575.3737307620141
+Ananindeua,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,tanh,adam,True,250.35108682740528,2040,602.0597598616087
+Ananindeua,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,logistic,sgd,True,0.3808042129852225,2030,1.3515446443725134
+Ananindeua,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,logistic,sgd,True,0.3808042129852225,2040,1.3504907214420223
+Ananindeua,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,28.59536771652995,2030,338.57597563194264
+Ananindeua,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,28.59536771652995,2040,337.49524548314633
+Ananindeua,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,9.30274571908884,2030,47.15694398725754
+Ananindeua,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,9.30274571908884,2040,46.89403918095348
+Ananindeua,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,459.1096012561893,2030,463.47622040051044
+Ananindeua,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,logistic,sgd,True,459.1096012561893,2040,461.8176290601413
+Ananindeua,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,38.73893726745359,2030,476.39266575146473
+Ananindeua,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,38.73893726745359,2040,474.760563109039
+Ananindeua,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,identity,adam,True,2.2611435717839066,2030,90.83944968323286
+Ananindeua,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,identity,adam,True,2.2611435717839066,2040,113.75786547151603
+Ananindeua,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,17.20057230513491,2030,225.9574955193545
+Ananindeua,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,17.20057230513491,2040,225.22836637194217
+Ananindeua,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,22.72842169423244,2030,250.75955701224194
+Ananindeua,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,tanh,lbfgs,True,22.72842169423244,2040,249.76046404372664
+Ananindeua,indigenas__proporcao_na_populacao_de_ananindeua,Proporção na população de Ananindeua,indigenas,Grupo 2 — 3 censos,logistic,sgd,True,0.08967742401880441,2030,0.3005877215231155
+Ananindeua,indigenas__proporcao_na_populacao_de_ananindeua,Proporção na população de Ananindeua,indigenas,Grupo 2 — 3 censos,logistic,sgd,True,0.08967742401880441,2040,0.30032559801914965
+Ananindeua,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,tanh,adam,True,1.592958088544388,2030,90.0337618627254
+Ananindeua,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,tanh,adam,True,1.592958088544388,2040,90.11307676513938
+Ananindeua,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,81.91746157204265,2030,1362.554214201329
+Ananindeua,trabalhoerendimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,81.91746157204265,2040,1684.2866231575704
+Ananindeua,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,1.0524131520239663,2030,27.70581493209341
+Ananindeua,composicaofamiliar__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,1.0524131520239663,2040,19.950324165453566
+Ananindeua,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.3202228043355208,2030,15.810645443484063
+Ananindeua,composicaofamiliar__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,0.3202228043355208,2040,18.396711629450834
+Ananindeua,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,1.1730965683634313,2030,37.686114087512706
+Ananindeua,composicaofamiliar__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,composicaofamiliar,Grupo 2 — 3 censos,identity,adam,True,1.1730965683634313,2040,43.184455373770255
+Ananindeua,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.2599500419193525,2030,2.8075830794202834
+Ananindeua,composicaofamiliar__responsavel_homem,Responsável Homem,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.2599500419193525,2040,2.4369966071963853
+Ananindeua,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Ananindeua,composicaofamiliar__responsavel_mulher,Responsável Mulher,composicaofamiliar,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Ananindeua,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.19225304755684944,2030,2.5568410344401262
+Ananindeua,composicaofamiliar__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,composicaofamiliar,Grupo 2 — 3 censos,relu,adam,True,0.19225304755684944,2040,2.225708923580604
+Ananindeua,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,3.83577669833434,2030,113.59107374468152
+Ananindeua,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,3.83577669833434,2040,131.65485047887267
+Ananindeua,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,4.4863563719556625,2030,76.88778810347979
+Ananindeua,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,4.4863563719556625,2040,91.73720719445956
+Ananindeua,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.650579673621318,2030,36.705349508181776
+Ananindeua,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,identity,adam,True,0.650579673621318,2040,39.921925500449916
+Ananindeua,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,2.393473685207667,2030,39.56207887468681
+Ananindeua,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,2.393473685207667,2040,43.316358385666874
+Ananindeua,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.3279301832617347,2030,5.217575318702646
+Ananindeua,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,0.3279301832617347,2040,5.704461222406353
+Ananindeua,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,2.065543501945933,2030,34.34814662903844
+Ananindeua,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,relu,adam,True,2.065543501945933,2040,37.61757623121517
+Ananindeua,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,identity,adam,True,2.1119870116257573,2030,86.4254833836161
+Ananindeua,educacao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),educacao,Grupo 2 — 3 censos,identity,adam,True,2.1119870116257573,2040,97.98276076435174
+Ananindeua,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2133212435518839,2030,99.16347476219117
+Ananindeua,educacao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2133212435518839,2040,99.11740265548477
+Ananindeua,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.151713282973423,2030,98.1007682067708
+Ananindeua,educacao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),educacao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.151713282973423,2040,98.00889202338466
+Ananindeua,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,1.5341836644246591,2030,14.351375800389247
+Ananindeua,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,1.5341836644246591,2040,14.347584095579663
+Ananindeua,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.7839158307756807,2030,3.6424606159772965
+Ananindeua,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.7839158307756807,2040,3.6404920824523064
+Ananindeua,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.7502678336489789,2030,10.708918715563989
+Ananindeua,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,logistic,sgd,True,0.7502678336489789,2040,10.707093226585624
+Ananindeua,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,identity,adam,True,9.545828506183506,2030,72.54858190040379
+Ananindeua,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,identity,adam,True,9.545828506183506,2040,92.64042497844423
+Ananindeua,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.415045722051325
+Ananindeua,deslocamento__a_pe,A pé,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.059321286106938
+Ananindeua,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.61599682654665
+Ananindeua,favelasecomunidade__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.06832914763385
+Ananindeua,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.912222655581957
+Ananindeua,deslocamento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.385330709712427
+Ananindeua,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.027579579208545
+Ananindeua,deslocamento__automovel_carro,Automóvel (Carro),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.75852902723275
+Ananindeua,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.147960232623346
+Ananindeua,deslocamento__bicicleta,Bicicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.2519544347153229
+Ananindeua,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.5681756468344
+Ananindeua,favelasecomunidade__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.32967205637718
+Ananindeua,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.03916233187044
+Ananindeua,favelasecomunidade__com_coleta_de_lixo,Com Coleta de Lixo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.04872890683166
+Ananindeua,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8420298033812934
+Ananindeua,composicaofamiliar__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8935571514572217
+Ananindeua,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.80031012990149
+Ananindeua,composicaofamiliar__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.7297894680448
+Ananindeua,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.014506657481986
+Ananindeua,composicaofamiliar__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.890471574772768
+Ananindeua,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.829069748273206
+Ananindeua,favelasecomunidade__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.13638660009382
+Ananindeua,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.76668547776974
+Ananindeua,deslocamento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.95181448351609
+Ananindeua,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.834481108757455
+Ananindeua,composicaofamiliar__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.844523170828046
+Ananindeua,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.634804691294917
+Ananindeua,deslocamento__estuda_em_outro_municipio,Estuda em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.026043089344984
+Ananindeua,deslocamento__estuda_no_proprio_municipio_ananindeua,Estuda no próprio município (Ananindeua),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.64639363443791
+Ananindeua,deslocamento__estuda_no_proprio_municipio_ananindeua,Estuda no próprio município (Ananindeua),deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.20006441249566
+Ananindeua,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.98526440785017
+Ananindeua,familiasenupcialidade__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.270468181937872
+Ananindeua,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.92322193863303
+Ananindeua,familiasenupcialidade__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),familiasenupcialidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.03584320974609
+Ananindeua,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.94208623669053
+Ananindeua,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.54900060200551
+Ananindeua,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.697132528489146
+Ananindeua,deslocamento__mais_de_1_hora,Mais de 1 hora,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.655171755374422
+Ananindeua,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.165251742014316
+Ananindeua,deslocamento__motocicleta,Motocicleta,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.329400361203305
+Ananindeua,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.35548309364901
+Ananindeua,composicaofamiliar__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.281615077768805
+Ananindeua,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.724768541006924
+Ananindeua,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.96914423315546
+Ananindeua,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,203.60629592308558
+Ananindeua,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,225.90217943553978
+Ananindeua,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,452.5391649546358
+Ananindeua,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,416.29725055549136
+Ananindeua,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.788583194237347
+Ananindeua,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.8342189128517
+Ananindeua,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,904.9311348776904
+Ananindeua,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1131.6514664117751
+Ananindeua,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,148.98577550906418
+Ananindeua,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,165.88674567796866
+Ananindeua,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.463818006258887
+Ananindeua,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.606986238890514
+Ananindeua,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,203.60629592308558
+Ananindeua,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,225.90217943553978
+Ananindeua,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.01943538670612
+Ananindeua,favelasecomunidade__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.3852018847211
+Ananindeua,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Ananindeua,composicaofamiliar__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Ananindeua,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.9102054502157
+Ananindeua,favelasecomunidade__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.72322920783439
+Ananindeua,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.91599682654663
+Ananindeua,favelasecomunidade__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.36832914763383
+Ananindeua,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.082625871007158
+Ananindeua,favelasecomunidade__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.164700180601653
+Ananindeua,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.57396702316535
+Ananindeua,composicaofamiliar__sem_conjuge,Sem cônjuge,composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.974771996176614
+Ananindeua,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.20871528115104
+Ananindeua,favelasecomunidade__taxa_de_alfabetizacao,Taxa de Alfabetização,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.44537163497333
+Ananindeua,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.427967906316255
+Ananindeua,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.36281006268223
+Ananindeua,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.334804691294917
+Ananindeua,deslocamento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.726043089344982
+Ananindeua,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.99713252848914
+Ananindeua,deslocamento__trabalha_em_outro_municipio,Trabalha em outro município,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.955171755374415
+Ananindeua,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.9912206706904
+Ananindeua,deslocamento__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.548238802771685
+Ananindeua,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.426145843453114
+Ananindeua,composicaofamiliar__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),composicaofamiliar,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.136114904919953
+Ananindeua,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.28560620913649
+Ananindeua,favelasecomunidade__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.52041532632381
+Ananindeua,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.8986226975538
+Ananindeua,favelasecomunidade__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.4330293282355
+Ananindeua,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.521901069496074
+Ananindeua,favelasecomunidade__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),favelasecomunidade,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.72431598852988
+Ananindeua,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.715045722051325
+Ananindeua,deslocamento__onibus,Ônibus,deslocamento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.35932128610694
