@@ -50,7 +50,7 @@ MUNICIPIOS = [
     },
     {
         "nome":    "Belém",
-        "pasta":   "data_belem",
+        "pasta":   "data",
         "arquivo": "indicadores_belem_tratados.csv",
     },
     {
