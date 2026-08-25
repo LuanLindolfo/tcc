@@ -63,6 +63,16 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_santarem_tratados.csv",
     },
+    {
+        "nome":    "Parauapebas",
+        "pasta":   "data",
+        "arquivo": "indicadores_parauapebas_tratados.csv",
+    },
+    {
+        "nome":    "Marabá",
+        "pasta":   "data",
+        "arquivo": "indicadores_maraba_tratados.csv",
+    },
     # Para adicionar uma nova cidade:
     # {
     #     "nome":    "Nome da Cidade",
