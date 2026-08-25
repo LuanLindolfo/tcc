@@ -1,0 +1,118 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Maraba,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.576882748080944,1991,28.42,Valor
+Maraba,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.576882748080944,2000,41.25,Valor
+Maraba,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.576882748080944,2010,62.81,Valor
+Maraba,domicilios__total_de_domicilios_recenseados,Total de Domicílios Recenseados,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.576882748080944,2022,94.82,Valor
+Maraba,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.6732110926735615,1991,28.15,Valor
+Maraba,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.6732110926735615,2000,40.89,Valor
+Maraba,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.6732110926735615,2010,62.24,Valor
+Maraba,domicilios__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,domicilios,Grupo 1 — 4 censos,4,relu,lbfgs,True,5.6732110926735615,2022,94.38,Valor
+Maraba,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,115.18381122512197,1991,270.0,Valor
+Maraba,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,115.18381122512197,2000,360.0,Valor
+Maraba,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,115.18381122512197,2010,570.0,Valor
+Maraba,domicilios__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),domicilios,Grupo 1 — 4 censos,4,logistic,lbfgs,True,115.18381122512197,2022,440.0,Valor
+Maraba,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.364435453878004,2000,4.82,Valor
+Maraba,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.364435453878004,2010,13.82,Valor
+Maraba,educacao__populacao_com_superior_completo,População com Superior Completo,educacao,Grupo 2 — 3 censos,3,identity,adam,True,1.364435453878004,2022,26.41,Valor
+Maraba,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.0,Valor
+Maraba,favelasecomunidade__numero_de_favelas_comunidades,Número de Favelas / Comunidades,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.0,Valor
+Maraba,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.45,Valor
+Maraba,favelasecomunidade__populacao_residente_em_favelas,População Residente em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.21,Valor
+Maraba,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.82,Valor
+Maraba,favelasecomunidade__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.84,Valor
+Maraba,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Maraba,favelasecomunidade__idade_mediana,Idade Mediana,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.0,Valor
+Maraba,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.21,Valor
+Maraba,favelasecomunidade__populacao_parda,População Parda,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.42,Valor
+Maraba,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.84,Valor
+Maraba,favelasecomunidade__populacao_branca,População Branca,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.21,Valor
+Maraba,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.98,Valor
+Maraba,favelasecomunidade__populacao_preta,População Preta,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.12,Valor
+Maraba,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,120.0,Valor
+Maraba,favelasecomunidade__populacao_amarela,População Amarela,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,140.0,Valor
+Maraba,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,300.0,Valor
+Maraba,favelasecomunidade__populacao_indigena,População Indígena,favelasecomunidade,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.32,Valor
+Maraba,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2000,670.0,Valor
+Maraba,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2010,939.0,Valor
+Maraba,indigenas__populacao_indigena_total,População Indígena Total,indigenas,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2022,3.193,Valor
+Maraba,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,9.340554313961817,1991,122.231,Valor
+Maraba,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,9.340554313961817,2000,168.02,Valor
+Maraba,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,9.340554313961817,2010,233.669,Valor
+Maraba,populacao__populacao_total,População Total,populacao,Grupo 1 — 4 censos,4,logistic,lbfgs,True,9.340554313961817,2022,266.533,Valor
+Maraba,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.48624071250443,2000,139.112,Valor
+Maraba,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.48624071250443,2010,198.8,Valor
+Maraba,populacao__populacao_urbana,População Urbana,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.48624071250443,2022,232.11,Valor
+Maraba,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.562540066685237,2000,28.908,Valor
+Maraba,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.562540066685237,2010,34.869,Valor
+Maraba,populacao__populacao_rural,População Rural,populacao,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.562540066685237,2022,34.423,Valor
+Maraba,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.45,Valor
+Maraba,populacao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,populacao,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.21,Valor
+Maraba,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,relu,adam,True,9.76034194901583,2000,83.12,Valor
+Maraba,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,relu,adam,True,9.76034194901583,2010,116.42,Valor
+Maraba,populacao__populacao_de_mulheres,População de Mulheres,populacao,Grupo 2 — 3 censos,3,relu,adam,True,9.76034194901583,2022,134.82,Valor
+Maraba,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,relu,adam,True,11.44507522475484,2000,84.9,Valor
+Maraba,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,relu,adam,True,11.44507522475484,2010,117.249,Valor
+Maraba,populacao__populacao_de_homens,População de Homens,populacao,Grupo 2 — 3 censos,3,relu,adam,True,11.44507522475484,2022,131.713,Valor
+Maraba,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7653655553718343,2000,102.1,Valor
+Maraba,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7653655553718343,2010,100.7,Valor
+Maraba,populacao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),populacao,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7653655553718343,2022,97.7,Valor
+Maraba,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2000,22.0,Valor
+Maraba,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2010,25.0,Valor
+Maraba,populacao__idade_mediana,Idade Mediana,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2022,31.0,Valor
+Maraba,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,identity,adam,True,5.800498961043194,2000,12.4,Valor
+Maraba,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,identity,adam,True,5.800498961043194,2010,20.8,Valor
+Maraba,populacao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),populacao,Grupo 2 — 3 censos,3,identity,adam,True,5.800498961043194,2022,38.5,Valor
+Maraba,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.239140182133962,2000,112.4,Valor
+Maraba,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.239140182133962,2010,162.81,Valor
+Maraba,populacao__populacao_parda,População Parda,populacao,Grupo 2 — 3 censos,3,relu,adam,True,17.239140182133962,2022,186.21,Valor
+Maraba,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,relu,adam,True,2.394566745599642,2000,41.25,Valor
+Maraba,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,relu,adam,True,2.394566745599642,2010,48.21,Valor
+Maraba,populacao__populacao_branca,População Branca,populacao,Grupo 2 — 3 censos,3,relu,adam,True,2.394566745599642,2022,51.42,Valor
+Maraba,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.062175779630234,2000,12.81,Valor
+Maraba,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.062175779630234,2010,18.9,Valor
+Maraba,populacao__populacao_preta,População Preta,populacao,Grupo 2 — 3 censos,3,identity,adam,True,1.062175779630234,2022,24.81,Valor
+Maraba,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,589.2994433208802,2000,890.0,Valor
+Maraba,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,589.2994433208802,2010,2.81,Valor
+Maraba,populacao__populacao_amarela,População Amarela,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,589.2994433208802,2022,890.0,Valor
+Maraba,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2000,670.0,Valor
+Maraba,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2010,939.0,Valor
+Maraba,populacao__populacao_indigena,População Indígena,populacao,Grupo 2 — 3 censos,3,logistic,sgd,True,529.1546118253428,2022,3.193,Valor
+Maraba,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.598666060513054,2000,24.81,Valor
+Maraba,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.598666060513054,2010,38.91,Valor
+Maraba,trabalhoerendimento__setor_privado,Setor privado,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,2.598666060513054,2022,52.41,Valor
+Maraba,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.7794989581705304,2000,16.42,Valor
+Maraba,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.7794989581705304,2010,26.81,Valor
+Maraba,trabalhoerendimento__conta_propria,Conta própria,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.7794989581705304,2022,38.25,Valor
+Maraba,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.9420779287177581,2000,7.82,Valor
+Maraba,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.9420779287177581,2010,13.42,Valor
+Maraba,trabalhoerendimento__setor_publico,Setor público,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.9420779287177581,2022,18.9,Valor
+Maraba,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2743078420863958,2000,4.21,Valor
+Maraba,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2743078420863958,2010,6.82,Valor
+Maraba,trabalhoerendimento__trabalhador_domestico,Trabalhador doméstico,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2743078420863958,2022,7.12,Valor
+Maraba,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.05602694719037286,2000,1.84,Valor
+Maraba,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.05602694719037286,2010,2.91,Valor
+Maraba,trabalhoerendimento__empregador,Empregador,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.05602694719037286,2022,4.12,Valor
+Maraba,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.3556582519416907,2000,3.42,Valor
+Maraba,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.3556582519416907,2010,2.15,Valor
+Maraba,trabalhoerendimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),trabalhoerendimento,Grupo 2 — 3 censos,3,relu,adam,True,0.3556582519416907,2022,1.42,Valor
+Maraba,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.16416856472069905,2000,1.45,Valor
+Maraba,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.16416856472069905,2010,2.18,Valor
+Maraba,trabalhoerendimento__militar_e_empresa_estatal,Militar e Empresa Estatal,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.16416856472069905,2022,2.84,Valor
+Maraba,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.14184438822578707,2000,11.25,Valor
+Maraba,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.14184438822578707,2010,21.42,Valor
+Maraba,trabalhoerendimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.14184438822578707,2022,33.81,Valor
+Maraba,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,adam,True,1.7331836091477204,2000,13.56,Valor
+Maraba,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,adam,True,1.7331836091477204,2010,17.49,Valor
+Maraba,trabalhoerendimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,logistic,adam,True,1.7331836091477204,2022,18.6,Valor
+Maraba,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,539.3850506390694,2000,980.0,Valor
+Maraba,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,539.3850506390694,2010,1.82,Valor
+Maraba,trabalhoerendimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,539.3850506390694,2022,2.45,Valor
+Maraba,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.6546676904658947,2000,6.84,Valor
+Maraba,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.6546676904658947,2010,11.6,Valor
+Maraba,trabalhoerendimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),trabalhoerendimento,Grupo 2 — 3 censos,3,identity,adam,True,0.6546676904658947,2022,16.45,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,451.0049534228104,2000,820.0,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,451.0049534228104,2010,1.72,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,adam,True,451.0049534228104,2022,1.85,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8496186954801588,2000,3.39,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8496186954801588,2010,5.1,Valor
+Maraba,trabalhoerendimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,trabalhoerendimento,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8496186954801588,2022,5.27,Valor
