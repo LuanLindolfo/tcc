@@ -2,13 +2,22 @@
 """
 app.py — Painel Streamlit TCC (coringa multi-município)
 Edite apenas o bloco CONFIGURAÇÃO para adicionar novas cidades.
+
+Ajustado para o notebook v2 (seleção automática de ativação/solver por
+LOOCV): o app NÃO usa mais 'relu'/'lbfgs' fixo. Ele lê, por indicador,
+qual combinação foi escolhida pelo notebook (colunas 'ativacao'/'solver'
+no CSV histórico) e, quando disponível, usa diretamente as previsões
+2030/2040 já calculadas pelo notebook (CSV de projeções) — em vez de
+retreinar com um modelo genérico que poderia divergir do notebook.
+Se o CSV de projeções não existir (notebook antigo/ainda não gerado),
+o app recalcula em tempo real usando a ativação/solver salvos por
+indicador (ou 'relu'/'lbfgs' como último fallback, para CSVs antigos
+que nem tinham essas colunas).
 """
 
 from __future__ import annotations
 
 import os
-import re
-import glob
 
 import numpy as np
 import pandas as pd
@@ -29,28 +38,15 @@ TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
 
 # Cada entrada é um município.
 # "pasta" aponta para a pasta de dados dentro do repositório.
-# "arquivo" é o nome do CSV exportado pelo notebook (seção 7).
+# "arquivo" é o nome do CSV histórico exportado pelo notebook (seção 7).
 # "nome"    é o rótulo exibido na aba.
+# O CSV de projeções (2030/2040) é localizado automaticamente a partir
+# do nome do "arquivo" — não precisa declarar mais nada aqui.
 MUNICIPIOS = [
-    {
-        "nome":    "Castanhal",
-        "pasta":   "data",
-        "arquivo": "indicadores_castanhal_tratados.csv",
-    },
     {
         "nome":    "Belém",
         "pasta":   "data_belem",
         "arquivo": "indicadores_belem_tratados.csv",
-    },
-    {
-        "nome":    "Ananindeua",
-        "pasta":   "data",
-        "arquivo": "indicadores_ananindeua_tratados.csv",
-    },
-        {
-        "nome":    "Santarém",
-        "pasta":   "data",
-        "arquivo": "indicadores_santarem_tratados.csv",
     },
     # Para adicionar uma nova cidade:
     # {
@@ -60,13 +56,17 @@ MUNICIPIOS = [
     # },
 ]
 
-# Anos futuros para projeção MLP
+# Anos futuros para projeção (usados só quando o app precisa recalcular
+# porque o CSV de projeções do notebook ainda não existe)
 ANOS_PROJECAO = [2030, 2040]
 
-# Parâmetros do modelo MLP (mesmos do notebook)
-HIDDEN_LAYERS = (10, 10)
-RANDOM_STATE  = 42
-MAX_ITER      = 5000
+# Parâmetros do modelo MLP (mesmos do notebook) — usados apenas como
+# fallback de treino quando o notebook não informou ativação/solver
+ATIVACAO_FALLBACK = "relu"
+SOLVER_FALLBACK   = "lbfgs"
+HIDDEN_LAYERS     = (10, 10)
+RANDOM_STATE      = 42
+MAX_ITER          = 5000
 
 # ╔═══════════════════════════════════════════════════════════════════════════╗
 # ║                     FIM DO BLOCO DE CONFIGURAÇÃO                        ║
@@ -82,22 +82,72 @@ def _raiz_repo() -> str:
     return os.path.dirname(os.path.abspath(__file__))
 
 
+def _arquivo_projecoes(arquivo_historico: str) -> str:
+    """
+    Deriva o nome do CSV de projeções a partir do nome do CSV histórico,
+    seguindo o padrão do notebook:
+      indicadores_<municipio>_tratados.csv → projecoes_<municipio>_2030_2040.csv
+    Não exige configuração extra em MUNICIPIOS.
+    """
+    nome = arquivo_historico
+    if nome.startswith("indicadores_") and nome.endswith("_tratados.csv"):
+        meio = nome[len("indicadores_"):-len("_tratados.csv")]
+        anos_tag = "_".join(str(a) for a in ANOS_PROJECAO)
+        return f"projecoes_{meio}_{anos_tag}.csv"
+    # nome fora do padrão esperado — sem CSV de projeções correspondente
+    return ""
+
+
 @st.cache_data(show_spinner=False)
 def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
-    """Lê o CSV de indicadores gerado pelo notebook. Retorna None se não existir."""
+    """Lê o CSV histórico de indicadores gerado pelo notebook. None se não existir."""
     caminho = os.path.join(_raiz_repo(), pasta, arquivo)
     if not os.path.exists(caminho):
         return None
     df = pd.read_csv(caminho)
-    # Garante coluna numérica limpa
     if "valor" in df.columns:
         df["valor"] = pd.to_numeric(df["valor"], errors="coerce")
+    # Compatibilidade com CSVs antigos, gerados antes da seleção automática
+    if "ativacao" not in df.columns:
+        df["ativacao"] = ATIVACAO_FALLBACK
+    if "solver" not in df.columns:
+        df["solver"] = SOLVER_FALLBACK
+    if "auto_selecionado" not in df.columns:
+        df["auto_selecionado"] = False
+    if "loocv_mae" not in df.columns:
+        df["loocv_mae"] = np.nan
+    if "indicador_id" not in df.columns:
+        df["indicador_id"] = df.get("indicador_nome", "")
     return df
 
 
-def _treinar_mlp(anos: list[int], valores: list[float],
-                 anos_alvo: list[int]) -> list[float]:
-    """Treina MLP igual ao notebook e retorna previsões para anos_alvo."""
+@st.cache_data(show_spinner=False)
+def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | None:
+    """
+    Lê o CSV de projeções 2030/2040 já calculado pelo notebook (mesmo
+    modelo escolhido por LOOCV). Retorna None se ainda não existir —
+    nesse caso o app recalcula sob demanda.
+    """
+    nome_proj = _arquivo_projecoes(arquivo_historico)
+    if not nome_proj:
+        return None
+    caminho = os.path.join(_raiz_repo(), pasta, nome_proj)
+    if not os.path.exists(caminho):
+        return None
+    df = pd.read_csv(caminho)
+    if "valor_previsto" in df.columns:
+        df["valor_previsto"] = pd.to_numeric(df["valor_previsto"], errors="coerce")
+    return df
+
+
+def _treinar_mlp(anos: list[int], valores: list[float], anos_alvo: list[int],
+                 ativacao: str = ATIVACAO_FALLBACK,
+                 solver: str = SOLVER_FALLBACK) -> list[float]:
+    """
+    Treina um MLP com a ativação/solver informados (por padrão, o que o
+    notebook escolheu para aquele indicador específico via LOOCV — não
+    um valor fixo) e retorna previsões para anos_alvo.
+    """
     X = np.array(anos).reshape(-1, 1)
     y = np.array(valores).reshape(-1, 1)
     sx, sy = StandardScaler(), StandardScaler()
@@ -105,7 +155,7 @@ def _treinar_mlp(anos: list[int], valores: list[float],
     ys = sy.fit_transform(y)
     m = MLPRegressor(
         hidden_layer_sizes=HIDDEN_LAYERS,
-        activation="relu", solver="lbfgs",
+        activation=ativacao, solver=solver,
         max_iter=MAX_ITER, random_state=RANDOM_STATE,
     )
     m.fit(Xs, ys.ravel())
@@ -113,11 +163,27 @@ def _treinar_mlp(anos: list[int], valores: list[float],
     return sy.inverse_transform(m.predict(Xa).reshape(-1, 1)).ravel().tolist()
 
 
-def _curva_mlp(anos: list[int], valores: list[float]) -> tuple[list[int], list[float]]:
-    """Gera curva contínua para o gráfico (1990–2045)."""
+def _curva_mlp(anos: list[int], valores: list[float],
+               ativacao: str, solver: str) -> tuple[list[int], list[float]]:
+    """Gera curva contínua para o gráfico, usando a mesma ativação/solver do ponto previsto."""
     anos_curva = list(range(min(anos) - 2, 2046))
-    vals_curva = _treinar_mlp(anos, valores, anos_curva)
+    vals_curva = _treinar_mlp(anos, valores, anos_curva, ativacao, solver)
     return anos_curva, vals_curva
+
+
+def _projecao_indicador(ind_id: str, anos: list[int], valores: list[float],
+                        ativacao: str, solver: str,
+                        df_proj_precalc: pd.DataFrame | None) -> list[float]:
+    """
+    Retorna a projeção 2030/2040 para o indicador. Prioriza o valor já
+    calculado pelo notebook (df_proj_precalc, casado por indicador_id);
+    se não houver, recalcula em tempo real com a mesma ativação/solver.
+    """
+    if df_proj_precalc is not None and "indicador_id" in df_proj_precalc.columns:
+        sub = df_proj_precalc[df_proj_precalc["indicador_id"] == ind_id].sort_values("ano_previsto")
+        if len(sub) == len(ANOS_PROJECAO) and list(sub["ano_previsto"]) == ANOS_PROJECAO:
+            return sub["valor_previsto"].tolist()
+    return _treinar_mlp(anos, valores, ANOS_PROJECAO, ativacao, solver)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -125,30 +191,26 @@ def _curva_mlp(anos: list[int], valores: list[float]) -> tuple[list[int], list[f
 # ═══════════════════════════════════════════════════════════════════════════
 
 def fig_serie(titulo: str, anos: list[int], valores: list[float],
-              ylabel: str, municipio: str) -> go.Figure:
-    """Gráfico de linha com dados reais + curva MLP + projeções."""
-    anos_proj = ANOS_PROJECAO
-    vals_proj = _treinar_mlp(anos, valores, anos_proj)
-    anos_curva, vals_curva = _curva_mlp(anos, valores)
+              ylabel: str, municipio: str, ativacao: str, solver: str,
+              vals_proj: list[float]) -> go.Figure:
+    """Gráfico de linha com dados reais + curva MLP + projeções já calculadas."""
+    anos_curva, vals_curva = _curva_mlp(anos, valores, ativacao, solver)
 
     fig = go.Figure()
 
-    # Curva MLP
     fig.add_trace(go.Scatter(
         x=anos_curva, y=vals_curva,
-        mode="lines", name="Curva MLP",
+        mode="lines", name=f"Curva MLP ({ativacao}/{solver})",
         line=dict(color="#7B1FA2", width=2, dash="solid"), opacity=0.8,
     ))
-    # Dados reais
     fig.add_trace(go.Scatter(
         x=anos, y=valores,
         mode="lines+markers", name="Censos IBGE",
         line=dict(color="#1565C0", width=3),
         marker=dict(size=11, color="#0D47A1"),
     ))
-    # Projeções
     fig.add_trace(go.Scatter(
-        x=anos_proj, y=vals_proj,
+        x=ANOS_PROJECAO, y=vals_proj,
         mode="markers+text", name="Projeção",
         text=[f"{v:,.1f}" for v in vals_proj],
         textposition="top center",
@@ -210,6 +272,24 @@ def _css() -> None:
             border-radius: 999px;
             font-size: 0.78rem;
           }
+          .badge-auto {
+            display: inline-block;
+            background: #2E7D32;
+            color: white !important;
+            padding: 0.12rem 0.5rem;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            margin-left: 0.4rem;
+          }
+          .badge-fixo {
+            display: inline-block;
+            background: #757575;
+            color: white !important;
+            padding: 0.12rem 0.5rem;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            margin-left: 0.4rem;
+          }
           .dado-ausente {
             background: #FFF3E0;
             border-left: 4px solid #FB8C00;
@@ -224,8 +304,9 @@ def _css() -> None:
 
 def render_municipio(cfg: dict) -> None:
     """Renderiza a aba completa de um município."""
-    nome   = cfg["nome"]
-    df     = carregar_dados(cfg["pasta"], cfg["arquivo"])
+    nome = cfg["nome"]
+    df   = carregar_dados(cfg["pasta"], cfg["arquivo"])
+    df_proj_precalc = carregar_projecoes(cfg["pasta"], cfg["arquivo"])
 
     st.markdown(
         f"""
@@ -234,7 +315,9 @@ def render_municipio(cfg: dict) -> None:
           <h2 style="margin: 0.4rem 0 0.2rem; color:#0D47A1;">{nome}</h2>
           <p style="margin:0; color:#475569; font-size:0.95rem;">
             Dados do IBGE (Censos 1991–2022) com projeções MLP para
-            {" e ".join(str(a) for a in ANOS_PROJECAO)}.
+            {" e ".join(str(a) for a in ANOS_PROJECAO)}, usando a
+            ativação/solver escolhida automaticamente por indicador
+            (validação leave-one-out) no notebook.
           </p>
         </div>
         """,
@@ -257,12 +340,21 @@ def render_municipio(cfg: dict) -> None:
     # ── Métricas de resumo ────────────────────────────────────────────────
     n_indicadores = df["indicador_id"].nunique()
     anos_disp     = sorted(df["ano"].dropna().unique().astype(int))
-    grupos        = df["grupo_censo"].unique()
+    grupos        = df["grupo_censo"].unique() if "grupo_censo" in df.columns else []
+    n_auto        = df.drop_duplicates("indicador_id")["auto_selecionado"].sum()
 
-    m1, m2, m3 = st.columns(3)
+    m1, m2, m3, m4 = st.columns(4)
     m1.metric("Indicadores", n_indicadores)
-    m2.metric("Anos disponíveis", f"{anos_disp[0]}–{anos_disp[-1]}")
+    m2.metric("Anos disponíveis", f"{anos_disp[0]}–{anos_disp[-1]}" if anos_disp else "—")
     m3.metric("Grupos", len(grupos))
+    m4.metric("Modelo auto-selecionado", f"{int(n_auto)}/{n_indicadores}")
+
+    if df_proj_precalc is None:
+        st.caption(
+            "ℹ️ CSV de projeções do notebook ainda não encontrado nesta pasta — "
+            "as previsões abaixo estão sendo recalculadas em tempo real pelo app "
+            "(mesma ativação/solver salva por indicador)."
+        )
 
     st.divider()
 
@@ -304,10 +396,15 @@ def render_municipio(cfg: dict) -> None:
 
     def _render_grafico_indicador(ind_nome: str) -> None:
         sub = df[df["indicador_nome"] == ind_nome].sort_values("ano")
-        anos   = sub["ano"].astype(int).tolist()
-        vals   = sub["valor"].tolist()
-        ylabel = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
-        grupo  = sub["grupo_censo"].iloc[0] if "grupo_censo" in sub.columns else ""
+        anos     = sub["ano"].astype(int).tolist()
+        vals     = sub["valor"].tolist()
+        ylabel   = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+        grupo    = sub["grupo_censo"].iloc[0] if "grupo_censo" in sub.columns else ""
+        ind_id   = sub["indicador_id"].iloc[0]
+        ativacao = sub["ativacao"].iloc[0]
+        solver   = sub["solver"].iloc[0]
+        auto     = bool(sub["auto_selecionado"].iloc[0])
+        loocv    = sub["loocv_mae"].iloc[0]
 
         if len(anos) < 2 or any(np.isnan(v) for v in vals):
             st.warning(
@@ -316,20 +413,30 @@ def render_municipio(cfg: dict) -> None:
             )
             return
 
+        badge_modelo = (
+            f'<span class="badge-auto">auto — LOOCV MAE={loocv:,.2f}</span>'
+            if auto and pd.notna(loocv)
+            else f'<span class="badge-fixo">modelo fixo</span>'
+        )
+        st.markdown(
+            f"**{ativacao} / {solver}** {badge_modelo}",
+            unsafe_allow_html=True,
+        )
+
+        vals_proj = _projecao_indicador(ind_id, anos, vals, ativacao, solver, df_proj_precalc)
+
         st.plotly_chart(
-            fig_serie(ind_nome, anos, vals, ylabel, nome),
+            fig_serie(ind_nome, anos, vals, ylabel, nome, ativacao, solver, vals_proj),
             use_container_width=True,
         )
 
-        # Tabela de projeções
-        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
-        df_proj = pd.DataFrame({
+        df_proj_tabela = pd.DataFrame({
             "Ano": ANOS_PROJECAO,
             f"Projeção MLP ({ylabel})": [round(v, 2) for v in vals_proj],
         })
         col_tab, col_esp = st.columns([1, 2])
         col_tab.caption(f"Grupo: **{grupo}** | Censos na série: {anos}")
-        col_tab.dataframe(df_proj, hide_index=True, use_container_width=True)
+        col_tab.dataframe(df_proj_tabela, hide_index=True, use_container_width=True)
         st.divider()
 
     if escolha == "(Todos)":
@@ -344,16 +451,18 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
     st.header("Comparativo entre municípios")
     st.caption(
         "Selecione um indicador para visualizar a evolução histórica "
-        "e as projeções MLP lado a lado."
+        "e as projeções lado a lado. Cada município usa a ativação/solver "
+        "escolhida individualmente pelo seu próprio notebook."
     )
 
-    # Coleta todos os indicadores disponíveis em pelo menos um município
     todos_indicadores: set[str] = set()
     dfs: dict[str, pd.DataFrame] = {}
+    dfs_proj: dict[str, pd.DataFrame | None] = {}
     for cfg in municipios_carregados:
         df = carregar_dados(cfg["pasta"], cfg["arquivo"])
         if df is not None:
             dfs[cfg["nome"]] = df
+            dfs_proj[cfg["nome"]] = carregar_projecoes(cfg["pasta"], cfg["arquivo"])
             todos_indicadores.update(df["indicador_nome"].unique())
 
     if not dfs:
@@ -369,6 +478,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
     fig = go.Figure()
     cores = px.colors.qualitative.Bold
     tem_dados = False
+    ylabel = "Valor"
 
     for i, (mun, df) in enumerate(dfs.items()):
         sub = df[df["indicador_nome"] == ind_escolhido].sort_values("ano")
@@ -379,21 +489,25 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
         if len(anos) < 2 or any(np.isnan(v) for v in vals):
             continue
 
-        cor = cores[i % len(cores)]
-        ylabel = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+        ind_id   = sub["indicador_id"].iloc[0]
+        ativacao = sub["ativacao"].iloc[0]
+        solver   = sub["solver"].iloc[0]
+        ylabel   = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+        cor      = cores[i % len(cores)]
 
-        # Dados reais
         fig.add_trace(go.Scatter(
             x=anos, y=vals,
             mode="lines+markers", name=f"{mun} — Censos",
             line=dict(color=cor, width=3),
             marker=dict(size=10),
         ))
-        # Projeções
-        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
+
+        vals_proj = _projecao_indicador(
+            ind_id, anos, vals, ativacao, solver, dfs_proj.get(mun)
+        )
         fig.add_trace(go.Scatter(
             x=ANOS_PROJECAO, y=vals_proj,
-            mode="markers+text", name=f"{mun} — Projeção",
+            mode="markers+text", name=f"{mun} — Projeção ({ativacao}/{solver})",
             text=[f"{v:,.1f}" for v in vals_proj],
             textposition="top center",
             marker=dict(size=13, symbol="star", color=cor),
@@ -424,11 +538,22 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
         vals = sub["valor"].tolist()
         if len(anos) < 2 or any(np.isnan(v) for v in vals):
             continue
-        vals_proj = _treinar_mlp(anos, vals, ANOS_PROJECAO)
+        ind_id   = sub["indicador_id"].iloc[0]
+        ativacao = sub["ativacao"].iloc[0]
+        solver   = sub["solver"].iloc[0]
+        vals_proj = _projecao_indicador(
+            ind_id, anos, vals, ativacao, solver, dfs_proj.get(mun)
+        )
         for ano, val in zip(anos, vals):
-            linhas.append({"Município": mun, "Ano": ano, "Valor (censo)": val, "Tipo": "Censo"})
+            linhas.append({
+                "Município": mun, "Ano": ano, "Valor": val,
+                "Tipo": "Censo", "Modelo": "—",
+            })
         for ano, val in zip(ANOS_PROJECAO, vals_proj):
-            linhas.append({"Município": mun, "Ano": ano, "Valor (projeção MLP)": round(val, 2), "Tipo": "Projeção"})
+            linhas.append({
+                "Município": mun, "Ano": ano, "Valor": round(val, 2),
+                "Tipo": "Projeção", "Modelo": f"{ativacao}/{solver}",
+            })
 
     st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
 
@@ -448,16 +573,19 @@ def main() -> None:
 
     with st.sidebar:
         st.markdown(f"### {TITULO_PAINEL}")
-        st.caption("TCC — Projeções via MLP (sklearn)")
+        st.caption("TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV")
         st.divider()
         st.markdown(
             "**Como adicionar uma cidade:**\n"
             "1. Rode o notebook coringa para o município.\n"
-            "2. Faça push da pasta `data_<cidade>/` com o CSV.\n"
-            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
+            "(`indicadores_..._tratados.csv` e, se já gerado, "
+            "`projecoes_..._2030_2040.csv`).\n"
+            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py` "
+            "(apenas nome, pasta e nome do CSV histórico — o CSV de "
+            "projeções é localizado automaticamente).\n"
         )
 
-    # Abas dinâmicas: uma por município + aba de comparativo
     nomes_abas = [cfg["nome"] for cfg in MUNICIPIOS] + ["🔀 Comparativo"]
     abas = st.tabs(nomes_abas)
 
