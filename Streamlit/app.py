@@ -46,12 +46,12 @@ MUNICIPIOS = [
     {
         "nome":    "Castanhal",
         "pasta":   "data",
-        "arquivo": "indicadores_castanhal_tratados.csv",
+        "arquivo": "projecoes_castanhal_2030_2040.csv",
     },
     {
         "nome":    "Belém",
         "pasta":   "data",
-        "arquivo": "indicadores_belem_tratados.csv",
+        "arquivo": "projecoes_belém_2030_2040.csv",
     },
     {
         "nome":    "Ananindeua",
