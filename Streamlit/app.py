@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 app.py — Painel Streamlit TCC (coringa multi-município)
-Versão Otimizada com Caching de ML para Evitar Throttling no Streamlit Cloud.
+Versão com Navegação Intuitiva por Sub-abas, Filtros por Grupo e Caching de ML.
 """
 
 from __future__ import annotations
@@ -61,10 +61,8 @@ ANOS_PROJECAO = [2030, 2040]
 
 ATIVACAO_FALLBACK = "relu"
 SOLVER_FALLBACK   = "lbfgs"
-HIDDEN_LAYERS     = (10, 10)
-RANDOM_STATE      = 42
-
-# OTIMIZAÇÃO: Reduzido de 5000 para 500. É suficiente para 4-5 pontos censitários.
+HIDDEN_LAYERS      = (10, 10)
+RANDOM_STATE       = 42
 MAX_ITER          = 500
 
 # ╔═══════════════════════════════════════════════════════════════════════════╗
@@ -73,7 +71,7 @@ MAX_ITER          = 500
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# UTILITÁRIOS
+# UTILITÁRIOS & CACHING DE DADOS / ML
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _raiz_repo() -> str:
@@ -127,7 +125,6 @@ def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | Non
     return df
 
 
-# OTIMIZAÇÃO: Função interna com @st.cache_data usando tuplas (hasháveis)
 @st.cache_data(show_spinner=False)
 def _treinar_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...], 
                         anos_alvo: tuple[int, ...], ativacao: str, solver: str) -> list[float]:
@@ -149,7 +146,6 @@ def _treinar_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...],
 def _treinar_mlp(anos: list[int], valores: list[float], anos_alvo: list[int],
                  ativacao: str = ATIVACAO_FALLBACK,
                  solver: str = SOLVER_FALLBACK) -> list[float]:
-    """Converte listas em tuplas para usar o cache do Streamlit."""
     return _treinar_mlp_cached(tuple(anos), tuple(valores), tuple(anos_alvo), ativacao, solver)
 
 
@@ -207,7 +203,7 @@ def fig_serie(titulo: str, anos: list[int], valores: list[float],
     ))
 
     fig.update_layout(
-        template="plotly_white", height=420,
+        template="plotly_white", height=400,
         title=dict(text=f"<b>{titulo}</b> — {municipio}", x=0.01),
         xaxis_title="Ano",
         yaxis_title=ylabel,
@@ -229,7 +225,7 @@ def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
         labels={"indicador_nome": "Indicador", "valor": "Valor", "ano": "Ano"},
     )
     fig.update_layout(
-        template="plotly_white", height=500,
+        template="plotly_white", height=450,
         xaxis_tickangle=-35,
         margin=dict(l=40, r=20, t=60, b=120),
     )
@@ -237,7 +233,7 @@ def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# SEÇÕES DO PAINEL
+# ESTILOS E COMPONENTES VISUAIS
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _css() -> None:
@@ -290,6 +286,10 @@ def _css() -> None:
     )
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# SEÇÕES DO PAINEL
+# ═══════════════════════════════════════════════════════════════════════════
+
 def render_municipio(cfg: dict) -> None:
     nome = cfg["nome"]
     df   = carregar_dados(cfg["pasta"], cfg["arquivo"])
@@ -302,9 +302,7 @@ def render_municipio(cfg: dict) -> None:
           <h2 style="margin: 0.4rem 0 0.2rem; color:#0D47A1;">{nome}</h2>
           <p style="margin:0; color:#475569; font-size:0.95rem;">
             Dados do IBGE (Censos 1991–2022) com projeções MLP para
-            {" e ".join(str(a) for a in ANOS_PROJECAO)}, usando a
-            ativação/solver escolhida automaticamente por indicador
-            (validação leave-one-out) no notebook.
+            {" e ".join(str(a) for a in ANOS_PROJECAO)}, usando otimização por indicador (LOOCV).
           </p>
         </div>
         """,
@@ -337,48 +335,104 @@ def render_municipio(cfg: dict) -> None:
                 arquivos_na_pasta = sorted(os.listdir(pasta_absoluta))
                 st.write(f"Arquivos encontrados em `{cfg['pasta']}/`:")
                 st.code("\n".join(arquivos_na_pasta) or "(pasta vazia)", language="text")
-
-                alvo = cfg["arquivo"].lower()
-                parecidos = [
-                    a for a in arquivos_na_pasta
-                    if a.lower().replace('í', 'i').replace('é', 'e').replace('á', 'a')
-                       == alvo.replace('í', 'i').replace('é', 'e').replace('á', 'a')
-                ]
-                if parecidos:
-                    st.warning(
-                        f"Existe um arquivo parecido, mas com nome diferente: "
-                        f"`{parecidos[0]}` — confira acentos, maiúsculas ou "
-                        f"underline vs. espaço, e ajuste `MUNICIPIOS` em app.py "
-                        f"ou renomeie o CSV no repositório para bater exatamente."
-                    )
         return
 
-    n_indicadores = df["indicador_id"].nunique()
-    anos_disp     = sorted(df["ano"].dropna().unique().astype(int))
-    grupos        = df["grupo_censo"].unique() if "grupo_censo" in df.columns else []
-    n_auto        = df.drop_duplicates("indicador_id")["auto_selecionado"].sum()
+    # ESTRUTURAÇÃO DA NAVEGAÇÃO EM SUB-ABAS POR MUNICÍPIO
+    aba_geral, aba_detalhes, aba_tabela = st.tabs([
+        "📊 Visão Geral & KPIs", 
+        "📈 Análise por Indicador", 
+        "🗂️ Tabela de Dados"
+    ])
 
-    m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Indicadores", n_indicadores)
-    m2.metric("Anos disponíveis", f"{anos_disp[0]}–{anos_disp[-1]}" if anos_disp else "—")
-    m3.metric("Grupos", len(grupos))
-    m4.metric("Modelo auto-selecionado", f"{int(n_auto)}/{n_indicadores}")
+    # -------------------------------------------------------------------------
+    # SUB-ABA 1: VISÃO GERAL & KPIS
+    # -------------------------------------------------------------------------
+    with aba_geral:
+        n_indicadores = df["indicador_id"].nunique()
+        anos_disp     = sorted(df["ano"].dropna().unique().astype(int))
+        grupos        = sorted(df["grupo_censo"].unique()) if "grupo_censo" in df.columns else []
+        n_auto        = df.drop_duplicates("indicador_id")["auto_selecionado"].sum() if "auto_selecionado" in df.columns else 0
 
-    if df_proj_precalc is None:
-        st.caption(
-            "ℹ️ CSV de projeções do notebook ainda não encontrado nesta pasta — "
-            "as previsões abaixo estão sendo recalculadas em tempo real pelo app "
-            "(mesma ativação/solver salva por indicador)."
-        )
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Indicadores", n_indicadores)
+        m2.metric("Período Censitário", f"{anos_disp[0]}–{anos_disp[-1]}" if anos_disp else "—")
+        m3.metric("Grupos Temáticos", len(grupos))
+        m4.metric("Modelos Otimizados", f"{int(n_auto)}/{n_indicadores}")
 
-    st.divider()
+        if df_proj_precalc is None:
+            st.caption(
+                "ℹ️ CSV de projeções pré-calculadas não encontrado — "
+                "as previsões estão sendo recalculadas em tempo real."
+            )
 
-    with st.expander("📊 Visão geral — todos os indicadores", expanded=False):
+        st.divider()
         st.plotly_chart(fig_barras_todos(df, nome), use_container_width=True)
 
-    st.divider()
+    # -------------------------------------------------------------------------
+    # SUB-ABA 2: ANÁLISE POR INDICADOR (COM FILTRO POR GRUPO TEMÁTICO)
+    # -------------------------------------------------------------------------
+    with aba_detalhes:
+        col_grupo, col_ind = st.columns([1, 2])
+        
+        # Filtro 1: Grupo Temático
+        if "grupo_censo" in df.columns:
+            grupos_disponiveis = ["(Todos os Grupos)"] + sorted(df["grupo_censo"].dropna().unique().tolist())
+            grupo_sel = col_grupo.selectbox("1. Filtrar por Grupo", grupos_disponiveis, key=f"grp_{nome}")
+            df_filtrado = df if grupo_sel == "(Todos os Grupos)" else df[df["grupo_censo"] == grupo_sel]
+        else:
+            df_filtrado = df
 
-    with st.expander("🗂️ Tabela de dados brutos", expanded=False):
+        # Filtro 2: Indicador (atualizado dinamicamente)
+        indicadores_disponiveis = sorted(df_filtrado["indicador_nome"].unique())
+        ind_sel = col_ind.selectbox("2. Selecionar Indicador", indicadores_disponiveis, key=f"ind_{nome}")
+
+        st.divider()
+
+        # Detalhes do indicador selecionado
+        sub = df[df["indicador_nome"] == ind_sel].sort_values("ano")
+        anos     = sub["ano"].astype(int).tolist()
+        vals     = sub["valor"].tolist()
+        ylabel   = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
+        grupo    = sub["grupo_censo"].iloc[0] if "grupo_censo" in sub.columns else ""
+        ind_id   = sub["indicador_id"].iloc[0]
+        ativacao = sub["ativacao"].iloc[0] if "ativacao" in sub.columns else ATIVACAO_FALLBACK
+        solver   = sub["solver"].iloc[0] if "solver" in sub.columns else SOLVER_FALLBACK
+        auto     = bool(sub["auto_selecionado"].iloc[0]) if "auto_selecionado" in sub.columns else False
+        loocv    = sub["loocv_mae"].iloc[0] if "loocv_mae" in sub.columns else np.nan
+
+        if len(anos) < 2 or any(np.isnan(v) for v in vals):
+            st.warning(f"**{ind_sel}** — série com menos de 2 pontos válidos; projeção indisponível.", icon="⚠️")
+        else:
+            badge_modelo = (
+                f'<span class="badge-auto">auto — LOOCV MAE={loocv:,.2f}</span>'
+                if auto and pd.notna(loocv)
+                else f'<span class="badge-fixo">modelo fixo</span>'
+            )
+            st.markdown(f"**{ativacao} / {solver}** {badge_modelo}", unsafe_allow_html=True)
+
+            vals_proj = _projecao_indicador(ind_id, anos, vals, ativacao, solver, df_proj_precalc)
+
+            col_grafico, col_resumo = st.columns([3, 1])
+
+            with col_grafico:
+                st.plotly_chart(
+                    fig_serie(ind_sel, anos, vals, ylabel, nome, ativacao, solver, vals_proj),
+                    use_container_width=True,
+                )
+
+            with col_resumo:
+                st.markdown("##### 📌 Projeções MLP")
+                df_proj_tabela = pd.DataFrame({
+                    "Ano": ANOS_PROJECAO,
+                    f"Valor ({ylabel})": [round(v, 2) for v in vals_proj],
+                })
+                st.dataframe(df_proj_tabela, hide_index=True, use_container_width=True)
+                st.caption(f"**Grupo:** {grupo}<br>**Censos na série:** {anos}", unsafe_allow_html=True)
+
+    # -------------------------------------------------------------------------
+    # SUB-ABA 3: DADOS BRUTOS
+    # -------------------------------------------------------------------------
+    with aba_tabela:
         st.dataframe(
             df.sort_values(["indicador_nome", "ano"]),
             use_container_width=True,
@@ -392,79 +446,12 @@ def render_municipio(cfg: dict) -> None:
             mime="text/csv",
         )
 
-    st.divider()
-
-    st.subheader("Séries históricas e projeções MLP")
-    st.caption("Selecione um indicador no menu abaixo.")
-
-    indicadores = sorted(df["indicador_nome"].unique())
-
-    # OTIMIZAÇÃO: Define o primeiro indicador como seleção padrão em vez de "(Todos)"
-    # para evitar a geração simultânea massiva de gráficos Plotly.
-    escolha = st.selectbox(
-        "Indicador",
-        options=indicadores + ["(Exibir Todos)"],
-        key=f"sel_{nome}",
-    )
-
-    def _render_grafico_indicador(ind_nome: str) -> None:
-        sub = df[df["indicador_nome"] == ind_nome].sort_values("ano")
-        anos     = sub["ano"].astype(int).tolist()
-        vals     = sub["valor"].tolist()
-        ylabel   = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
-        grupo    = sub["grupo_censo"].iloc[0] if "grupo_censo" in sub.columns else ""
-        ind_id   = sub["indicador_id"].iloc[0]
-        ativacao = sub["ativacao"].iloc[0]
-        solver   = sub["solver"].iloc[0]
-        auto     = bool(sub["auto_selecionado"].iloc[0])
-        loocv    = sub["loocv_mae"].iloc[0]
-
-        if len(anos) < 2 or any(np.isnan(v) for v in vals):
-            st.warning(
-                f"**{ind_nome}** — série com menos de 2 pontos válidos; projeção indisponível.",
-                icon="⚠️",
-            )
-            return
-
-        badge_modelo = (
-            f'<span class="badge-auto">auto — LOOCV MAE={loocv:,.2f}</span>'
-            if auto and pd.notna(loocv)
-            else f'<span class="badge-fixo">modelo fixo</span>'
-        )
-        st.markdown(
-            f"**{ativacao} / {solver}** {badge_modelo}",
-            unsafe_allow_html=True,
-        )
-
-        vals_proj = _projecao_indicador(ind_id, anos, vals, ativacao, solver, df_proj_precalc)
-
-        st.plotly_chart(
-            fig_serie(ind_nome, anos, vals, ylabel, nome, ativacao, solver, vals_proj),
-            use_container_width=True,
-        )
-
-        df_proj_tabela = pd.DataFrame({
-            "Ano": ANOS_PROJECAO,
-            f"Projeção MLP ({ylabel})": [round(v, 2) for v in vals_proj],
-        })
-        col_tab, col_esp = st.columns([1, 2])
-        col_tab.caption(f"Grupo: **{grupo}** | Censos na série: {anos}")
-        col_tab.dataframe(df_proj_tabela, hide_index=True, use_container_width=True)
-        st.divider()
-
-    if escolha == "(Exibir Todos)":
-        for ind in indicadores:
-            _render_grafico_indicador(ind)
-    else:
-        _render_grafico_indicador(escolha)
-
 
 def render_comparativo(municipios_carregados: list[dict]) -> None:
     st.header("Comparativo entre municípios")
     st.caption(
         "Selecione um indicador para visualizar a evolução histórica "
-        "e as projeções lado a lado. Cada município usa a ativação/solver "
-        "escolhida individualmente pelo seu próprio notebook."
+        "e as projeções lado a lado."
     )
 
     todos_indicadores: set[str] = set()
@@ -593,19 +580,15 @@ def main() -> None:
         st.info(
             "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama "
             "do Censo. Parte das informações é estimada, podendo haver "
-            "margem de erro para mais ou para menos, dado o alto volume de "
-            "dados pesquisados e o tempo de atualização das bases ao longo "
-            "do tempo.",
+            "margem de erro para mais ou para menos.",
             icon="ℹ️",
         )
         st.divider()
         st.markdown(
-            "**Como adicionar uma cidade:**\n"
-            "1. Rode o notebook coringa para o município.\n"
-            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
-            "(`indicadores_..._tratados.csv` e, se já gerado, "
-            "`projecoes_..._2030_2040.csv`).\n"
-            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+            "**Instruções de Adição:**\n"
+            "1. Rode o notebook para o município.\n"
+            "2. Adicione os arquivos CSV na pasta `data/`.\n"
+            "3. Configure a lista `MUNICIPIOS` no topo do código.\n"
         )
 
     nomes_abas = [cfg["nome"] for cfg in MUNICIPIOS] + ["🔀 Comparativo"]
