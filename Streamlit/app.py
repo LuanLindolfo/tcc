@@ -1,31 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 app.py — Painel Streamlit TCC (coringa multi-município)
-Edite apenas o bloco CONFIGURAÇÃO para adicionar novas cidades.
-
-Ajustado para o notebook v2 (seleção automática de ativação/solver por
-LOOCV): o app NÃO usa mais 'relu'/'lbfgs' fixo. Ele lê, por indicador,
-qual combinação foi escolhida pelo notebook (colunas 'ativacao'/'solver'
-no CSV histórico) e, quando disponível, usa diretamente as previsões
-2030/2040 já calculadas pelo notebook (CSV de projeções) — em vez de
-retreinar com um modelo genérico que poderia divergir do notebook.
-Se o CSV de projeções não existir (notebook antigo/ainda não gerado),
-o app recalcula em tempo real usando a ativação/solver salvos por
-indicador (ou 'relu'/'lbfgs' como último fallback, para CSVs antigos
-que nem tinham essas colunas).
-
-OTIMIZAÇÕES DE PERFORMANCE E RECURSOS:
-- Decoradores @st.cache_data adicionados às funções de treino e geração de curva MLP
-  para evitar retreinamentos excessivos de CPU no Streamlit Cloud.
-- MAX_ITER reduzido para evitar travamentos de processamento em tempo real.
-- Botão manual de limpeza de cache adicionado à barra lateral.
-- Seleção individual padrão para evitar renderização simultânea massiva.
+Versão Otimizada com Caching de ML para Evitar Throttling no Streamlit Cloud.
 """
 
 from __future__ import annotations
 
 import os
-
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -82,15 +63,17 @@ ATIVACAO_FALLBACK = "relu"
 SOLVER_FALLBACK   = "lbfgs"
 HIDDEN_LAYERS     = (10, 10)
 RANDOM_STATE      = 42
-MAX_ITER          = 1000  # Reduzido de 5000 para otimizar execução no Streamlit Cloud
+
+# OTIMIZAÇÃO: Reduzido de 5000 para 500. É suficiente para 4-5 pontos censitários.
+MAX_ITER          = 500
 
 # ╔═══════════════════════════════════════════════════════════════════════════╗
-# ║                    FIM DO BLOCO DE CONFIGURAÇÃO                           ║
+# ║                     FIM DO BLOCO DE CONFIGURAÇÃO                          ║
 # ╚═══════════════════════════════════════════════════════════════════════════╝
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# UTILITÁRIOS E MODELOS CACHEADOS
+# UTILITÁRIOS
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _raiz_repo() -> str:
@@ -109,7 +92,7 @@ def _arquivo_projecoes(arquivo_historico: str) -> str:
     return ""
 
 
-@st.cache_data(show_spinner=False, ttl="1h")
+@st.cache_data(show_spinner=False, ttl="24h")
 def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
     caminho = os.path.join(_raiz_repo(), pasta, arquivo)
     if not os.path.exists(caminho):
@@ -130,7 +113,7 @@ def carregar_dados(pasta: str, arquivo: str) -> pd.DataFrame | None:
     return df
 
 
-@st.cache_data(show_spinner=False, ttl="1h")
+@st.cache_data(show_spinner=False, ttl="24h")
 def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | None:
     nome_proj = _arquivo_projecoes(arquivo_historico)
     if not nome_proj:
@@ -144,13 +127,10 @@ def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | Non
     return df
 
 
+# OTIMIZAÇÃO: Função interna com @st.cache_data usando tuplas (hasháveis)
 @st.cache_data(show_spinner=False)
-def _treinar_mlp(anos: tuple[int, ...], valores: tuple[float, ...], anos_alvo: tuple[int, ...],
-                 ativacao: str = ATIVACAO_FALLBACK,
-                 solver: str = SOLVER_FALLBACK) -> tuple[float, ...]:
-    """
-    Treina o MLP com CACHE do Streamlit para evitar execuções repetidas de CPU.
-    """
+def _treinar_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...], 
+                        anos_alvo: tuple[int, ...], ativacao: str, solver: str) -> list[float]:
     X = np.array(anos).reshape(-1, 1)
     y = np.array(valores).reshape(-1, 1)
     sx, sy = StandardScaler(), StandardScaler()
@@ -163,27 +143,37 @@ def _treinar_mlp(anos: tuple[int, ...], valores: tuple[float, ...], anos_alvo: t
     )
     m.fit(Xs, ys.ravel())
     Xa = sx.transform(np.array(anos_alvo).reshape(-1, 1))
-    preds = sy.inverse_transform(m.predict(Xa).reshape(-1, 1)).ravel().tolist()
-    return tuple(preds)
+    return sy.inverse_transform(m.predict(Xa).reshape(-1, 1)).ravel().tolist()
+
+
+def _treinar_mlp(anos: list[int], valores: list[float], anos_alvo: list[int],
+                 ativacao: str = ATIVACAO_FALLBACK,
+                 solver: str = SOLVER_FALLBACK) -> list[float]:
+    """Converte listas em tuplas para usar o cache do Streamlit."""
+    return _treinar_mlp_cached(tuple(anos), tuple(valores), tuple(anos_alvo), ativacao, solver)
 
 
 @st.cache_data(show_spinner=False)
-def _curva_mlp(anos: tuple[int, ...], valores: tuple[float, ...],
+def _curva_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...],
+                       ativacao: str, solver: str) -> tuple[list[int], list[float]]:
+    anos_curva = list(range(min(anos) - 2, 2046))
+    vals_curva = _treinar_mlp_cached(anos, valores, tuple(anos_curva), ativacao, solver)
+    return anos_curva, vals_curva
+
+
+def _curva_mlp(anos: list[int], valores: list[float],
                ativacao: str, solver: str) -> tuple[list[int], list[float]]:
-    """Gera a curva contínua com CACHE ativado."""
-    anos_curva = tuple(range(min(anos) - 2, 2046))
-    vals_curva = _treinar_mlp(anos, valores, anos_curva, ativacao, solver)
-    return list(anos_curva), list(vals_curva)
+    return _curva_mlp_cached(tuple(anos), tuple(valores), ativacao, solver)
 
 
 def _projecao_indicador(ind_id: str, anos: list[int], valores: list[float],
-                       ativacao: str, solver: str,
-                       df_proj_precalc: pd.DataFrame | None) -> list[float]:
+                        ativacao: str, solver: str,
+                        df_proj_precalc: pd.DataFrame | None) -> list[float]:
     if df_proj_precalc is not None and "indicador_id" in df_proj_precalc.columns:
         sub = df_proj_precalc[df_proj_precalc["indicador_id"] == ind_id].sort_values("ano_previsto")
         if len(sub) == len(ANOS_PROJECAO) and list(sub["ano_previsto"]) == ANOS_PROJECAO:
             return sub["valor_previsto"].tolist()
-    return list(_treinar_mlp(tuple(anos), tuple(valores), tuple(ANOS_PROJECAO), ativacao, solver))
+    return _treinar_mlp(anos, valores, ANOS_PROJECAO, ativacao, solver)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -193,7 +183,7 @@ def _projecao_indicador(ind_id: str, anos: list[int], valores: list[float],
 def fig_serie(titulo: str, anos: list[int], valores: list[float],
               ylabel: str, municipio: str, ativacao: str, solver: str,
               vals_proj: list[float]) -> go.Figure:
-    anos_curva, vals_curva = _curva_mlp(tuple(anos), tuple(valores), ativacao, solver)
+    anos_curva, vals_curva = _curva_mlp(anos, valores, ativacao, solver)
 
     fig = go.Figure()
 
@@ -405,15 +395,15 @@ def render_municipio(cfg: dict) -> None:
     st.divider()
 
     st.subheader("Séries históricas e projeções MLP")
-    st.caption(
-        "Selecione um indicador no menu abaixo para visualizar a projeção."
-    )
+    st.caption("Selecione um indicador no menu abaixo.")
 
     indicadores = sorted(df["indicador_nome"].unique())
+
+    # OTIMIZAÇÃO: Define o primeiro indicador como seleção padrão em vez de "(Todos)"
+    # para evitar a geração simultânea massiva de gráficos Plotly.
     escolha = st.selectbox(
         "Indicador",
-        options=["(Todos)"] + indicadores,
-        index=1 if len(indicadores) > 0 else 0,
+        options=indicadores + ["(Exibir Todos)"],
         key=f"sel_{nome}",
     )
 
@@ -462,7 +452,7 @@ def render_municipio(cfg: dict) -> None:
         col_tab.dataframe(df_proj_tabela, hide_index=True, use_container_width=True)
         st.divider()
 
-    if escolha == "(Todos)":
+    if escolha == "(Exibir Todos)":
         for ind in indicadores:
             _render_grafico_indicador(ind)
     else:
@@ -473,7 +463,8 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
     st.header("Comparativo entre municípios")
     st.caption(
         "Selecione um indicador para visualizar a evolução histórica "
-        "e as projeções lado a lado."
+        "e as projeções lado a lado. Cada município usa a ativação/solver "
+        "escolhida individualmente pelo seu próprio notebook."
     )
 
     todos_indicadores: set[str] = set()
@@ -578,6 +569,10 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
     st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════════════════════════
+
 def main() -> None:
     st.set_page_config(
         page_title=TITULO_PAINEL,
@@ -596,10 +591,22 @@ def main() -> None:
         
         st.caption("TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV")
         st.info(
-            "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama do Censo.",
+            "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama "
+            "do Censo. Parte das informações é estimada, podendo haver "
+            "margem de erro para mais ou para menos, dado o alto volume de "
+            "dados pesquisados e o tempo de atualização das bases ao longo "
+            "do tempo.",
             icon="ℹ️",
         )
         st.divider()
+        st.markdown(
+            "**Como adicionar uma cidade:**\n"
+            "1. Rode o notebook coringa para o município.\n"
+            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
+            "(`indicadores_..._tratados.csv` e, se já gerado, "
+            "`projecoes_..._2030_2040.csv`).\n"
+            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+        )
 
     nomes_abas = [cfg["nome"] for cfg in MUNICIPIOS] + ["🔀 Comparativo"]
     abas = st.tabs(nomes_abas)
