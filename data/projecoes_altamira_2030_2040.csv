@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Altamira,dados_altamira__anos_de_estudo_media,Anos de Estudo (Média),dados_altamira,Grupo 1 — 4 censos,identity,adam,True,0.12899308082941663,2030,10.527333953589551
+Altamira,dados_altamira__anos_de_estudo_media,Anos de Estudo (Média),dados_altamira,Grupo 1 — 4 censos,identity,adam,True,0.12899308082941663,2040,12.2358087029626
+Altamira,dados_altamira__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_altamira,Grupo 1 — 4 censos,relu,sgd,True,24.615702372563625,2030,338.91977545479654
+Altamira,dados_altamira__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_altamira,Grupo 1 — 4 censos,relu,sgd,True,24.615702372563625,2040,378.9700203792381
+Altamira,dados_altamira__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,2.4702316010168595,2030,54.416121897897995
+Altamira,dados_altamira__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,2.4702316010168595,2040,65.87222841873174
+Altamira,dados_altamira__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_altamira,Grupo 1 — 4 censos,identity,adam,True,0.12008233985888206,2030,10.0841584276165
+Altamira,dados_altamira__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_altamira,Grupo 1 — 4 censos,identity,adam,True,0.12008233985888206,2040,11.754287950675632
+Altamira,dados_altamira__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_altamira,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325428,2030,10.977464558219928
+Altamira,dados_altamira__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_altamira,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325428,2040,12.731131695510122
+Altamira,dados_altamira__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_altamira,Grupo 1 — 4 censos,relu,adam,True,0.17148781642052446,2030,2.538588122094355
+Altamira,dados_altamira__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_altamira,Grupo 1 — 4 censos,relu,adam,True,0.17148781642052446,2040,2.161660402453877
+Altamira,dados_altamira__populacao_total,População Total,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,6.7403080447253565,2030,144.6937160738968
+Altamira,dados_altamira__populacao_total,População Total,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,6.7403080447253565,2040,167.68590822100902
+Altamira,dados_altamira__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_altamira,Grupo 1 — 4 censos,logistic,lbfgs,True,1.5592333077052487,2030,96.31541845879465
+Altamira,dados_altamira__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_altamira,Grupo 1 — 4 censos,logistic,lbfgs,True,1.5592333077052487,2040,97.44973946012318
+Altamira,dados_altamira__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,2.5463190336268475,2030,54.827671755855526
+Altamira,dados_altamira__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_altamira,Grupo 1 — 4 censos,relu,lbfgs,True,2.5463190336268475,2040,66.4095774614425
+Altamira,dados_altamira__2_trabalhos,2 trabalhos,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,1.1451588603880334,2030,4.8752226493259165
+Altamira,dados_altamira__2_trabalhos,2 trabalhos,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,1.1451588603880334,2040,4.872395337012296
+Altamira,dados_altamira__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2030,0.8266041579919954
+Altamira,dados_altamira__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2040,0.8371422561639152
+Altamira,dados_altamira__apenas_1_trabalho,Apenas 1 trabalho,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,1.2546921449537176,2030,94.46944953565126
+Altamira,dados_altamira__apenas_1_trabalho,Apenas 1 trabalho,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,1.2546921449537176,2040,94.46443901749561
+Altamira,dados_altamira__casais_com_filhos,Casais com filhos,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083741341620817,2030,36.810227379929735
+Altamira,dados_altamira__casais_com_filhos,Casais com filhos,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083741341620817,2040,29.00529110923829
+Altamira,dados_altamira__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.4649077009852487,2030,8.035892342442992
+Altamira,dados_altamira__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.4649077009852487,2040,8.034433617681351
+Altamira,dados_altamira__casais_sem_filhos,Casais sem filhos,dados_altamira,Grupo 2 — 3 censos,identity,sgd,True,0.25577865838680935,2030,19.332257690814554
+Altamira,dados_altamira__casais_sem_filhos,Casais sem filhos,dados_altamira,Grupo 2 — 3 censos,identity,sgd,True,0.25577865838680935,2040,22.95523298724401
+Altamira,dados_altamira__conta_propria,Conta própria,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.0562701057904178,2030,22.886396510616073
+Altamira,dados_altamira__conta_propria,Conta própria,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.0562701057904178,2040,27.619310739655866
+Altamira,dados_altamira__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.0510316633165608,2030,27.29261997992638
+Altamira,dados_altamira__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.0510316633165608,2040,31.521288772649278
+Altamira,dados_altamira__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.4099274832704343,2030,27.821005511112133
+Altamira,dados_altamira__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.4099274832704343,2040,31.255399759534498
+Altamira,dados_altamira__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,4.524119627395433,2030,11.593315786590772
+Altamira,dados_altamira__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,4.524119627395433,2040,4.01026225252917
+Altamira,dados_altamira__empregador,Empregador,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,297.3193396687471,2030,-1.5693482431391033
+Altamira,dados_altamira__empregador,Empregador,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,297.3193396687471,2040,14.103729066875928
+Altamira,dados_altamira__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_altamira,Grupo 2 — 3 censos,logistic,adam,True,2.394396724307304,2030,98.34166910137029
+Altamira,dados_altamira__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_altamira,Grupo 2 — 3 censos,logistic,adam,True,2.394396724307304,2040,98.77870720251323
+Altamira,dados_altamira__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_altamira,Grupo 2 — 3 censos,relu,adam,True,2.985414920485662,2030,86.81943121388575
+Altamira,dados_altamira__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_altamira,Grupo 2 — 3 censos,relu,adam,True,2.985414920485662,2040,89.83386917144455
+Altamira,dados_altamira__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_altamira,Grupo 2 — 3 censos,tanh,lbfgs,True,3.224806982711788,2030,29.547789599682602
+Altamira,dados_altamira__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_altamira,Grupo 2 — 3 censos,tanh,lbfgs,True,3.224806982711788,2040,29.405473518791137
+Altamira,dados_altamira__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.0320784417690416,2030,0.9726327719814408
+Altamira,dados_altamira__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.0320784417690416,2040,1.13691988178843
+Altamira,dados_altamira__idade_mediana,Idade Mediana,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,32.955643986961604
+Altamira,dados_altamira__idade_mediana,Idade Mediana,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,37.06293528986165
+Altamira,dados_altamira__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,374.334396706753,2030,-2.4454963840019275
+Altamira,dados_altamira__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,374.334396706753,2040,17.28918399307264
+Altamira,dados_altamira__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752045,2030,24.419583574092236
+Altamira,dados_altamira__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752045,2040,27.26827596477188
+Altamira,dados_altamira__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.2987612135745235,2030,4.102226132136571
+Altamira,dados_altamira__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.2987612135745235,2040,4.101501447172248
+Altamira,dados_altamira__media_populacao_amarela,Média: População Amarela,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362882,2030,10.929012551465995
+Altamira,dados_altamira__media_populacao_amarela,Média: População Amarela,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362882,2040,11.821030287546096
+Altamira,dados_altamira__media_populacao_branca,Média: População Branca,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231818,2030,10.53098445007176
+Altamira,dados_altamira__media_populacao_branca,Média: População Branca,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231818,2040,11.426336378216412
+Altamira,dados_altamira__media_populacao_indigena,Média: População Indígena,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.1517908456584879,2030,8.348080340546009
+Altamira,dados_altamira__media_populacao_indigena,Média: População Indígena,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.1517908456584879,2040,9.749191815509032
+Altamira,dados_altamira__media_populacao_preta_parda,Média: População Preta / Parda,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2030,10.173013772284236
+Altamira,dados_altamira__media_populacao_preta_parda,Média: População Preta / Parda,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2040,11.845055732181002
+Altamira,dados_altamira__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,414.34353533204376,2030,951.3855034105379
+Altamira,dados_altamira__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,414.34353533204376,2040,995.5029655881247
+Altamira,dados_altamira__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,3.699914609435301
+Altamira,dados_altamira__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.06115886505405
+Altamira,dados_altamira__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556415,2030,0.9681864675090412
+Altamira,dados_altamira__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556415,2040,0.9674912838412335
+Altamira,dados_altamira__populacao_amarela,População Amarela,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,449.7897136624303,2030,536.104848111699
+Altamira,dados_altamira__populacao_amarela,População Amarela,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,449.7897136624303,2040,534.7645465646815
+Altamira,dados_altamira__populacao_branca,População Branca,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.3065806282331434,2030,27.24064761475349
+Altamira,dados_altamira__populacao_branca,População Branca,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.3065806282331434,2040,30.21033630500408
+Altamira,dados_altamira__populacao_indigena,População Indígena,dados_altamira,Grupo 2 — 3 censos,relu,sgd,True,0.7269095316195041,2030,3.81476148968632
+Altamira,dados_altamira__populacao_indigena,População Indígena,dados_altamira,Grupo 2 — 3 censos,relu,sgd,True,0.7269095316195041,2040,4.594536073395383
+Altamira,dados_altamira__populacao_indigena_total,População Indígena Total,dados_altamira,Grupo 2 — 3 censos,relu,sgd,True,0.7269095316195041,2030,3.81476148968632
+Altamira,dados_altamira__populacao_indigena_total,População Indígena Total,dados_altamira,Grupo 2 — 3 censos,relu,sgd,True,0.7269095316195041,2040,4.594536073395383
+Altamira,dados_altamira__populacao_parda,População Parda,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.23306093667325456,2030,101.49939172948585
+Altamira,dados_altamira__populacao_parda,População Parda,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.23306093667325456,2040,117.79926073751156
+Altamira,dados_altamira__populacao_preta,População Preta,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.07556613714170031,2030,10.989829446230672
+Altamira,dados_altamira__populacao_preta,População Preta,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.07556613714170031,2040,12.935445857329931
+Altamira,dados_altamira__populacao_rural,População Rural,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,1.450826403616544,2030,18.25160461689519
+Altamira,dados_altamira__populacao_rural,População Rural,dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,1.450826403616544,2040,18.40013300950877
+Altamira,dados_altamira__populacao_urbana,População Urbana,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.288173616265207,2030,125.2840305859157
+Altamira,dados_altamira__populacao_urbana,População Urbana,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.288173616265207,2040,146.0899224850756
+Altamira,dados_altamira__populacao_com_superior_completo,População com Superior Completo,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.9946901633345224,2030,16.643817339076723
+Altamira,dados_altamira__populacao_com_superior_completo,População com Superior Completo,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.9946901633345224,2040,21.849388610498004
+Altamira,dados_altamira__populacao_de_homens,População de Homens,dados_altamira,Grupo 2 — 3 censos,identity,sgd,True,0.8370529589702352,2030,72.66532778157608
+Altamira,dados_altamira__populacao_de_homens,População de Homens,dados_altamira,Grupo 2 — 3 censos,identity,sgd,True,0.8370529589702352,2040,84.0353649539385
+Altamira,dados_altamira__populacao_de_mulheres,População de Mulheres,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.09913663692744024,2030,71.88014006146327
+Altamira,dados_altamira__populacao_de_mulheres,População de Mulheres,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.09913663692744024,2040,83.24101008275736
+Altamira,dados_altamira__proporcao_na_populacao_de_altamira,Proporção na população de Altamira,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.5488347696146182,2030,2.0307922072603666
+Altamira,dados_altamira__proporcao_na_populacao_de_altamira,Proporção na população de Altamira,dados_altamira,Grupo 2 — 3 censos,logistic,sgd,True,0.5488347696146182,2040,2.0295048071876587
+Altamira,dados_altamira__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,1.317029567990441,2030,100.63284767323758
+Altamira,dados_altamira__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_altamira,Grupo 2 — 3 censos,tanh,adam,True,1.317029567990441,2040,100.6046694231882
+Altamira,dados_altamira__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.21352944915360675,2030,32.94597829381949
+Altamira,dados_altamira__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.21352944915360675,2040,25.67676171873146
+Altamira,dados_altamira__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.3659312865905869,2030,17.584081283844533
+Altamira,dados_altamira__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.3659312865905869,2040,20.397298481298463
+Altamira,dados_altamira__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.2641183900485142,2030,29.538298012855616
+Altamira,dados_altamira__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,1.2641183900485142,2040,33.997148117247185
+Altamira,dados_altamira__responsavel_homem,Responsável Homem,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.24884127057838645,2030,2.896407398771137
+Altamira,dados_altamira__responsavel_homem,Responsável Homem,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.24884127057838645,2040,2.486155517153761
+Altamira,dados_altamira__responsavel_mulher,Responsável Mulher,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2030,2.523611630673311
+Altamira,dados_altamira__responsavel_mulher,Responsável Mulher,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2040,2.0703147713162986
+Altamira,dados_altamira__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.19225304755684944,2030,2.6568410344401263
+Altamira,dados_altamira__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.19225304755684944,2040,2.3257089235806045
+Altamira,dados_altamira__setor_privado,Setor privado,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.4057148137914404,2030,38.247245302948556
+Altamira,dados_altamira__setor_privado,Setor privado,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.4057148137914404,2040,47.08582822613947
+Altamira,dados_altamira__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.11896695039161642,2030,27.07249861464941
+Altamira,dados_altamira__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,lbfgs,True,0.11896695039161642,2040,34.16545300643887
+Altamira,dados_altamira__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.28652324117261063,2030,11.169127183591405
+Altamira,dados_altamira__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.28652324117261063,2040,12.90801793185561
+Altamira,dados_altamira__setor_publico,Setor público,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.48924332869589565,2030,12.075002530413627
+Altamira,dados_altamira__setor_publico,Setor público,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.48924332869589565,2040,14.783826454469251
+Altamira,dados_altamira__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,15.13957028334363,2030,1154.3020569785801
+Altamira,dados_altamira__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_altamira,Grupo 2 — 3 censos,identity,adam,True,15.13957028334363,2040,1443.8197477521321
+Altamira,dados_altamira__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.4741037584125512,2030,10.920716917953355
+Altamira,dados_altamira__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.4741037584125512,2040,13.340040800305488
+Altamira,dados_altamira__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.8793068477640867,2030,75.32500833933048
+Altamira,dados_altamira__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_altamira,Grupo 2 — 3 censos,identity,adam,True,0.8793068477640867,2040,87.5352042452896
+Altamira,dados_altamira__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_altamira,Grupo 2 — 3 censos,relu,adam,True,1.6726090600563357,2030,99.40701688650196
+Altamira,dados_altamira__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_altamira,Grupo 2 — 3 censos,relu,adam,True,1.6726090600563357,2040,100.32687358766418
+Altamira,dados_altamira__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_altamira,Grupo 2 — 3 censos,logistic,adam,True,2.394396724307304,2030,98.34166910137029
+Altamira,dados_altamira__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_altamira,Grupo 2 — 3 censos,logistic,adam,True,2.394396724307304,2040,98.77870720251323
+Altamira,dados_altamira__trabalhador_domestico,Trabalhador doméstico,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.35669764667933185,2030,3.647682640340615
+Altamira,dados_altamira__trabalhador_domestico,Trabalhador doméstico,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.35669764667933185,2040,3.908322348011528
+Altamira,dados_altamira__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,99.34146068555526,2030,870.5545247931675
+Altamira,dados_altamira__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,99.34146068555526,2040,974.9220100840319
+Altamira,dados_altamira__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.2696314785291,2030,2.7787306129287206
+Altamira,dados_altamira__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_altamira,Grupo 2 — 3 censos,relu,adam,True,0.2696314785291,2040,2.9370348061378455
+Altamira,dados_altamira__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_altamira,Grupo 2 — 3 censos,relu,lbfgs,True,5.066428161003768,2030,35.73439375822947
+Altamira,dados_altamira__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_altamira,Grupo 2 — 3 censos,relu,lbfgs,True,5.066428161003768,2040,43.60581823982589
+Altamira,dados_altamira__a_pe,A pé,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.522568583076986
+Altamira,dados_altamira__a_pe,A pé,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.988981929160406
+Altamira,dados_altamira__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.85515915841709
+Altamira,dados_altamira__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.3170580544655
+Altamira,dados_altamira__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.84952683080878
+Altamira,dados_altamira__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.50384445693498
+Altamira,dados_altamira__automovel_carro,Automóvel (Carro),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.333370955539486
+Altamira,dados_altamira__automovel_carro,Automóvel (Carro),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.70362896703219
+Altamira,dados_altamira__bicicleta,Bicicleta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.46143935648924
+Altamira,dados_altamira__bicicleta,Bicicleta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.659385698602607
+Altamira,dados_altamira__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.99426505697828
+Altamira,dados_altamira__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.91034351074883
+Altamira,dados_altamira__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.52763601251779
+Altamira,dados_altamira__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.81397247778105
+Altamira,dados_altamira__com_coleta_de_lixo,Com Coleta de Lixo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.4319936530933
+Altamira,dados_altamira__com_coleta_de_lixo,Com Coleta de Lixo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.3366582952677
+Altamira,dados_altamira__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7840596067625865
+Altamira,dados_altamira__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8871143029144432
+Altamira,dados_altamira__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.2689622175149
+Altamira,dados_altamira__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.28904634165606
+Altamira,dados_altamira__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.70435764057552
+Altamira,dados_altamira__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.32268581748666
+Altamira,dados_altamira__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.049311348776902
+Altamira,dados_altamira__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.316514664117747
+Altamira,dados_altamira__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.73916233187044
+Altamira,dados_altamira__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.748728906831644
+Altamira,dados_altamira__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.003133196370863
+Altamira,dados_altamira__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.103780044439311
+Altamira,dados_altamira__estuda_em_outro_municipio,Estuda em outro município,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.446387443956812
+Altamira,dados_altamira__estuda_em_outro_municipio,Estuda em outro município,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.11624296894388
+Altamira,dados_altamira__estuda_no_proprio_municipio_altamira,Estuda no próprio município (Altamira),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.20752286102565
+Altamira,dados_altamira__estuda_no_proprio_municipio_altamira,Estuda no próprio município (Altamira),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.02966064305345
+Altamira,dados_altamira__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.40298033812933
+Altamira,dados_altamira__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.55571514572216
+Altamira,dados_altamira__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.985264407850167
+Altamira,dados_altamira__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.270468181937867
+Altamira,dados_altamira__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.92322193863303
+Altamira,dados_altamira__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.03584320974609
+Altamira,dados_altamira__idade_mediana_2,Idade Mediana,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.68119213525173
+Altamira,dados_altamira__idade_mediana_2,Idade Mediana,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.742286058288865
+Altamira,dados_altamira__mais_de_1_hora,Mais de 1 hora,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.840596067625865
+Altamira,dados_altamira__mais_de_1_hora,Mais de 1 hora,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.871143029144433
+Altamira,dados_altamira__motocicleta,Motocicleta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.63772859611501
+Altamira,dados_altamira__motocicleta,Motocicleta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.62631478451886
+Altamira,dados_altamira__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.10469979455629
+Altamira,dados_altamira__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.75567006665896
+Altamira,dados_altamira__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.521788202877596
+Altamira,dados_altamira__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.613429087433296
+Altamira,dados_altamira__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.655102725107852
+Altamira,dados_altamira__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.56161460391721
+Altamira,dados_altamira__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.89862269755382
+Altamira,dados_altamira__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.4330293282355
+Altamira,dados_altamira__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.446455163927897
+Altamira,dados_altamira__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.382775109601834
+Altamira,dados_altamira__populacao_amarela_2,População Amarela,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.60894101438798
+Altamira,dados_altamira__populacao_amarela_2,População Amarela,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.06714543716649
+Altamira,dados_altamira__populacao_branca_2,População Branca,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-600.7990596632674
+Altamira,dados_altamira__populacao_branca_2,População Branca,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1396.3272016816861
+Altamira,dados_altamira__populacao_indigena_2,População Indígena,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,520.8715281151038
+Altamira,dados_altamira__populacao_indigena_2,População Indígena,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,644.5371634973319
+Altamira,dados_altamira__populacao_parda_2,População Parda,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.47397266649628
+Altamira,dados_altamira__populacao_parda_2,População Parda,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.230316341231454
+Altamira,dados_altamira__populacao_preta_2,População Preta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-423.04570105389894
+Altamira,dados_altamira__populacao_preta_2,População Preta,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-983.4000605362698
+Altamira,dados_altamira__populacao_residente_em_favelas,População Residente em Favelas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.446455163927897
+Altamira,dados_altamira__populacao_residente_em_favelas,População Residente em Favelas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.382775109601834
+Altamira,dados_altamira__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Altamira,dados_altamira__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Altamira,dados_altamira__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.00313319637085
+Altamira,dados_altamira__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.1037800444393
+Altamira,dados_altamira__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,862.6296145735478
+Altamira,dados_altamira__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1021.6823994130375
+Altamira,dados_altamira__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.019435386706126
+Altamira,dados_altamira__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3852018847210994
+Altamira,dados_altamira__ruas_sem_arvores,Ruas Sem Árvores,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.439162331870435
+Altamira,dados_altamira__ruas_sem_arvores,Ruas Sem Árvores,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.44872890683164
+Altamira,dados_altamira__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.52256858307699
+Altamira,dados_altamira__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.98898192916041
+Altamira,dados_altamira__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.48990741640277
+Altamira,dados_altamira__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.48990741640277
+Altamira,dados_altamira__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.787657693262183
+Altamira,dados_altamira__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.787657693262183
+Altamira,dados_altamira__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.66387443956813
+Altamira,dados_altamira__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.30877171446028
+Altamira,dados_altamira__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.36242968943881
+Altamira,dados_altamira__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.10081508552163
+Altamira,dados_altamira__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3043576405755193
+Altamira,dados_altamira__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9226858174866592
+Altamira,dados_altamira__sem_conjuge,Sem cônjuge,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.18990741640277
+Altamira,dados_altamira__sem_conjuge,Sem cônjuge,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.48765769326218
+Altamira,dados_altamira__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.07540075892078
+Altamira,dados_altamira__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.4971861184894
+Altamira,dados_altamira__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.780894101438797
+Altamira,dados_altamira__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.3267145437166485
+Altamira,dados_altamira__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.23480469129492
+Altamira,dados_altamira__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.626043089344982
+Altamira,dados_altamira__trabalha_em_outro_municipio,Trabalha em outro município,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.892774887913626
+Altamira,dados_altamira__trabalha_em_outro_municipio,Trabalha em outro município,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.232485937887764
+Altamira,dados_altamira__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.41504572205133
+Altamira,dados_altamira__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.05932128610695
+Altamira,dados_altamira__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.058026629927937
+Altamira,dados_altamira__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.561886299091064
+Altamira,dados_altamira__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.67545719223002
+Altamira,dados_altamira__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.6526295690377
+Altamira,dados_altamira__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.5565364608632786
+Altamira,dados_altamira__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.4840287262299885
+Altamira,dados_altamira__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.434861124604154
+Altamira,dados_altamira__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.38148653989327
+Altamira,dados_altamira__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.86530817532356
+Altamira,dados_altamira__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.5848438117516
+Altamira,dados_altamira__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.330503484028632
+Altamira,dados_altamira__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.65880072240661
+Altamira,dados_altamira__onibus,Ônibus,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.276174948639072
+Altamira,dados_altamira__onibus,Ônibus,dados_altamira,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.18891751666474
