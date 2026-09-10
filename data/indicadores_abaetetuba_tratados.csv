@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Abaetetuba,dados_abaetetuba__populacao_total,População Total,dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.9858478190114646,1991,99.68,Valor
+Abaetetuba,dados_abaetetuba__populacao_total,População Total,dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.9858478190114646,2000,119.152,Valor
+Abaetetuba,dados_abaetetuba__populacao_total,População Total,dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.9858478190114646,2010,141.1,Valor
+Abaetetuba,dados_abaetetuba__populacao_total,População Total,dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.9858478190114646,2022,158.188,Valor
+Abaetetuba,dados_abaetetuba__populacao_urbana,População Urbana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,1.137813316397697,2000,70.32,Valor
+Abaetetuba,dados_abaetetuba__populacao_urbana,População Urbana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,1.137813316397697,2010,82.41,Valor
+Abaetetuba,dados_abaetetuba__populacao_urbana,População Urbana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,1.137813316397697,2022,98.42,Valor
+Abaetetuba,dados_abaetetuba__populacao_rural,População Rural,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.843639401013983,2000,48.832,Valor
+Abaetetuba,dados_abaetetuba__populacao_rural,População Rural,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.843639401013983,2010,58.69,Valor
+Abaetetuba,dados_abaetetuba__populacao_rural,População Rural,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.843639401013983,2022,59.768,Valor
+Abaetetuba,dados_abaetetuba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.14,Valor
+Abaetetuba,dados_abaetetuba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.82,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_mulheres,População de Mulheres,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.6085585283316823,2000,58.91,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_mulheres,População de Mulheres,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.6085585283316823,2010,70.12,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_mulheres,População de Mulheres,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.6085585283316823,2022,80.14,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_homens,População de Homens,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,3.118005904661674,2000,60.242,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_homens,População de Homens,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,3.118005904661674,2010,70.98,Valor
+Abaetetuba,dados_abaetetuba__populacao_de_homens,População de Homens,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,3.118005904661674,2022,78.048,Valor
+Abaetetuba,dados_abaetetuba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.1634201026939006,2000,102.3,Valor
+Abaetetuba,dados_abaetetuba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.1634201026939006,2010,101.2,Valor
+Abaetetuba,dados_abaetetuba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.1634201026939006,2022,97.4,Valor
+Abaetetuba,dados_abaetetuba__idade_mediana,Idade Mediana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2000,20.0,Valor
+Abaetetuba,dados_abaetetuba__idade_mediana,Idade Mediana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2010,24.0,Valor
+Abaetetuba,dados_abaetetuba__idade_mediana,Idade Mediana,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2022,29.0,Valor
+Abaetetuba,dados_abaetetuba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.947546102047902,2000,9.8,Valor
+Abaetetuba,dados_abaetetuba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.947546102047902,2010,15.2,Valor
+Abaetetuba,dados_abaetetuba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.947546102047902,2022,31.4,Valor
+Abaetetuba,dados_abaetetuba__populacao_parda,População Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,5.821500392747301,2000,82.14,Valor
+Abaetetuba,dados_abaetetuba__populacao_parda,População Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,5.821500392747301,2010,102.41,Valor
+Abaetetuba,dados_abaetetuba__populacao_parda,População Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,5.821500392747301,2022,118.24,Valor
+Abaetetuba,dados_abaetetuba__populacao_branca,População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.0048580229784416,2000,24.81,Valor
+Abaetetuba,dados_abaetetuba__populacao_branca,População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.0048580229784416,2010,28.12,Valor
+Abaetetuba,dados_abaetetuba__populacao_branca,População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.0048580229784416,2022,29.84,Valor
+Abaetetuba,dados_abaetetuba__populacao_preta,População Preta,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2759742354854489,2000,10.82,Valor
+Abaetetuba,dados_abaetetuba__populacao_preta,População Preta,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2759742354854489,2010,9.82,Valor
+Abaetetuba,dados_abaetetuba__populacao_preta,População Preta,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2759742354854489,2022,9.14,Valor
+Abaetetuba,dados_abaetetuba__populacao_amarela,População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,102.71329079456729,2000,540.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_amarela,População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,102.71329079456729,2010,338.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_amarela,População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,102.71329079456729,2022,444.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena,População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2000,842.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena,População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2010,412.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena,População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2022,524.0,Valor
+Abaetetuba,dados_abaetetuba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,139.96469360803698,2000,254.1,Valor
+Abaetetuba,dados_abaetetuba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,139.96469360803698,2010,482.3,Valor
+Abaetetuba,dados_abaetetuba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,139.96469360803698,2022,940.0,Valor
+Abaetetuba,dados_abaetetuba__apenas_1_trabalho,Apenas 1 trabalho,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235657825651951,2000,95.4,Valor
+Abaetetuba,dados_abaetetuba__apenas_1_trabalho,Apenas 1 trabalho,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235657825651951,2010,96.1,Valor
+Abaetetuba,dados_abaetetuba__apenas_1_trabalho,Apenas 1 trabalho,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235657825651951,2022,94.2,Valor
+Abaetetuba,dados_abaetetuba__2_trabalhos,2 trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9097751187246231,2000,4.1,Valor
+Abaetetuba,dados_abaetetuba__2_trabalhos,2 trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9097751187246231,2010,3.4,Valor
+Abaetetuba,dados_abaetetuba__2_trabalhos,2 trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9097751187246231,2022,5.1,Valor
+Abaetetuba,dados_abaetetuba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958866915,2000,0.5,Valor
+Abaetetuba,dados_abaetetuba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958866915,2010,0.5,Valor
+Abaetetuba,dados_abaetetuba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958866915,2022,0.7,Valor
+Abaetetuba,dados_abaetetuba__setor_privado,Setor privado,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676384212903874,2000,14.82,Valor
+Abaetetuba,dados_abaetetuba__setor_privado,Setor privado,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676384212903874,2010,24.12,Valor
+Abaetetuba,dados_abaetetuba__setor_privado,Setor privado,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676384212903874,2022,35.42,Valor
+Abaetetuba,dados_abaetetuba__conta_propria,Conta própria,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.4397076710604335,2000,13.24,Valor
+Abaetetuba,dados_abaetetuba__conta_propria,Conta própria,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.4397076710604335,2010,18.91,Valor
+Abaetetuba,dados_abaetetuba__conta_propria,Conta própria,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.4397076710604335,2022,23.82,Valor
+Abaetetuba,dados_abaetetuba__setor_publico,Setor público,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.43887179822280703,2000,4.82,Valor
+Abaetetuba,dados_abaetetuba__setor_publico,Setor público,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.43887179822280703,2010,8.41,Valor
+Abaetetuba,dados_abaetetuba__setor_publico,Setor público,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.43887179822280703,2022,12.14,Valor
+Abaetetuba,dados_abaetetuba__trabalhador_domestico,Trabalhador doméstico,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.32783359119046285,2000,2.81,Valor
+Abaetetuba,dados_abaetetuba__trabalhador_domestico,Trabalhador doméstico,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.32783359119046285,2010,3.92,Valor
+Abaetetuba,dados_abaetetuba__trabalhador_domestico,Trabalhador doméstico,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.32783359119046285,2022,4.51,Valor
+Abaetetuba,dados_abaetetuba__empregador,Empregador,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,462.46505166661603,2000,840.0,Valor
+Abaetetuba,dados_abaetetuba__empregador,Empregador,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,462.46505166661603,2010,1.62,Valor
+Abaetetuba,dados_abaetetuba__empregador,Empregador,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,462.46505166661603,2022,2.48,Valor
+Abaetetuba,dados_abaetetuba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.508752463364687,2000,3.82,Valor
+Abaetetuba,dados_abaetetuba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.508752463364687,2010,2.14,Valor
+Abaetetuba,dados_abaetetuba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.508752463364687,2022,1.24,Valor
+Abaetetuba,dados_abaetetuba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,506.404365487294,2000,920.0,Valor
+Abaetetuba,dados_abaetetuba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,506.404365487294,2010,1.82,Valor
+Abaetetuba,dados_abaetetuba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,506.404365487294,2022,2.61,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2000,6.82,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2010,14.82,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2022,22.41,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3557604257422209,2000,8.0,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3557604257422209,2010,9.3,Valor
+Abaetetuba,dados_abaetetuba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3557604257422209,2022,13.01,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,369.21339682701483,2000,340.0,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,369.21339682701483,2010,720.0,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,369.21339682701483,2022,1.12,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.3963598242964303,2000,4.48,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.3963598242964303,2010,7.69,Valor
+Abaetetuba,dados_abaetetuba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.3963598242964303,2022,11.02,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,173.31375103945012,2000,310.0,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,173.31375103945012,2010,780.0,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,173.31375103945012,2022,980.0,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.18664588100181825,2000,2.5,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.18664588100181825,2010,3.14,Valor
+Abaetetuba,dados_abaetetuba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.18664588100181825,2022,3.53,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4721618439415494,1991,71.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4721618439415494,2000,81.4,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4721618439415494,2010,88.6,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_abaetetuba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4721618439415494,2022,93.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.528288782611985,2000,91.2,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.528288782611985,2010,95.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,1.528288782611985,2022,98.0,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.36171642979004304,2000,34.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.36171642979004304,2010,48.2,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.36171642979004304,2022,63.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2000,87.4,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2010,94.2,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2022,96.4,Valor
+Abaetetuba,dados_abaetetuba__populacao_com_superior_completo,População com Superior Completo,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.3676512065392123,2000,1.42,Valor
+Abaetetuba,dados_abaetetuba__populacao_com_superior_completo,População com Superior Completo,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.3676512065392123,2010,5.82,Valor
+Abaetetuba,dados_abaetetuba__populacao_com_superior_completo,População com Superior Completo,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,2.3676512065392123,2022,14.21,Valor
+Abaetetuba,dados_abaetetuba__anos_de_estudo_media,Anos de Estudo (Média),dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1392713234655243,1991,3.8,Valor
+Abaetetuba,dados_abaetetuba__anos_de_estudo_media,Anos de Estudo (Média),dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1392713234655243,2000,5.3,Valor
+Abaetetuba,dados_abaetetuba__anos_de_estudo_media,Anos de Estudo (Média),dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1392713234655243,2010,7.1,Valor
+Abaetetuba,dados_abaetetuba__anos_de_estudo_media,Anos de Estudo (Média),dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1392713234655243,2022,8.9,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1685152527925564,1991,4.1,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1685152527925564,2000,5.6,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1685152527925564,2010,7.5,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1685152527925564,2022,9.3,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11421753519064204,1991,3.5,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11421753519064204,2000,5.0,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11421753519064204,2010,6.7,Valor
+Abaetetuba,dados_abaetetuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11421753519064204,2022,8.5,Valor
+Abaetetuba,dados_abaetetuba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.03997262908880678,1991,0.324,Valor
+Abaetetuba,dados_abaetetuba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.03997262908880678,2000,0.492,Valor
+Abaetetuba,dados_abaetetuba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.03997262908880678,2010,0.628,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2000,87.4,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2010,94.2,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,adam,True,2.824447989070014,2022,96.4,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,2.6521695367595677,2000,68.2,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,2.6521695367595677,2010,77.4,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,2.6521695367595677,2022,84.2,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.924773840833692,2000,24.2,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.924773840833692,2010,29.8,Valor
+Abaetetuba,dados_abaetetuba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.924773840833692,2022,30.1,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_amarela,Média: População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2000,6.2,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_amarela,Média: População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2010,8.4,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_amarela,Média: População Amarela,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2022,10.1,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_branca,Média: População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2000,6.0,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_branca,Média: População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2010,8.1,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_branca,Média: População Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2022,9.7,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_preta_parda,Média: População Preta / Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2000,5.0,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_preta_parda,Média: População Preta / Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2010,6.8,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_preta_parda,Média: População Preta / Parda,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2022,8.6,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_indigena,Média: População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.10550675828430685,2000,4.1,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_indigena,Média: População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.10550675828430685,2010,5.4,Valor
+Abaetetuba,dados_abaetetuba__media_populacao_indigena,Média: População Indígena,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.10550675828430685,2022,7.1,Valor
+Abaetetuba,dados_abaetetuba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.0,Valor
+Abaetetuba,dados_abaetetuba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_residente_em_favelas,População Residente em Favelas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.14,Valor
+Abaetetuba,dados_abaetetuba__populacao_residente_em_favelas,População Residente em Favelas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.82,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.84,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.84,Valor
+Abaetetuba,dados_abaetetuba__idade_mediana_2,Idade Mediana,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Abaetetuba,dados_abaetetuba__idade_mediana_2,Idade Mediana,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Abaetetuba,dados_abaetetuba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.4,Valor
+Abaetetuba,dados_abaetetuba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.1,Valor
+Abaetetuba,dados_abaetetuba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.4,Valor
+Abaetetuba,dados_abaetetuba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,98.2,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.8,Valor
+Abaetetuba,dados_abaetetuba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.1,Valor
+Abaetetuba,dados_abaetetuba__populacao_parda_2,População Parda,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.42,Valor
+Abaetetuba,dados_abaetetuba__populacao_parda_2,População Parda,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.21,Valor
+Abaetetuba,dados_abaetetuba__populacao_branca_2,População Branca,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.54,Valor
+Abaetetuba,dados_abaetetuba__populacao_branca_2,População Branca,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.12,Valor
+Abaetetuba,dados_abaetetuba__populacao_preta_2,População Preta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.08,Valor
+Abaetetuba,dados_abaetetuba__populacao_preta_2,População Preta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.14,Valor
+Abaetetuba,dados_abaetetuba__populacao_amarela_2,População Amarela,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,40.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_amarela_2,População Amarela,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena_2,População Indígena,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,60.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena_2,População Indígena,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,280.0,Valor
+Abaetetuba,dados_abaetetuba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.8,Valor
+Abaetetuba,dados_abaetetuba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.4,Valor
+Abaetetuba,dados_abaetetuba__com_coleta_de_lixo,Com Coleta de Lixo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Abaetetuba,dados_abaetetuba__com_coleta_de_lixo,Com Coleta de Lixo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.8,Valor
+Abaetetuba,dados_abaetetuba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Abaetetuba,dados_abaetetuba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.4,Valor
+Abaetetuba,dados_abaetetuba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.2,Valor
+Abaetetuba,dados_abaetetuba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.1,Valor
+Abaetetuba,dados_abaetetuba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Abaetetuba,dados_abaetetuba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.4,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,56.2,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.8,Valor
+Abaetetuba,dados_abaetetuba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Abaetetuba,dados_abaetetuba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Abaetetuba,dados_abaetetuba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.1,Valor
+Abaetetuba,dados_abaetetuba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.4,Valor
+Abaetetuba,dados_abaetetuba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.9,Valor
+Abaetetuba,dados_abaetetuba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos,Casais com filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201896359703117,2000,62.4,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos,Casais com filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201896359703117,2010,53.4,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos,Casais com filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201896359703117,2022,44.2,Valor
+Abaetetuba,dados_abaetetuba__casais_sem_filhos,Casais sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.6704349778326893,2000,8.1,Valor
+Abaetetuba,dados_abaetetuba__casais_sem_filhos,Casais sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.6704349778326893,2010,11.2,Valor
+Abaetetuba,dados_abaetetuba__casais_sem_filhos,Casais sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.6704349778326893,2022,15.8,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1067668099442578,2000,16.8,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1067668099442578,2010,19.6,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1067668099442578,2022,23.1,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2000,2.9,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2010,3.2,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_abaetetuba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2022,3.6,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5360716115667893,2000,6.8,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5360716115667893,2010,7.8,Valor
+Abaetetuba,dados_abaetetuba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5360716115667893,2022,7.2,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5600015549643391,2000,2.4,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5600015549643391,2010,3.6,Valor
+Abaetetuba,dados_abaetetuba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5600015549643391,2022,3.8,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.2893114352487483,2000,0.6,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.2893114352487483,2010,1.2,Valor
+Abaetetuba,dados_abaetetuba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.2893114352487483,2022,2.3,Valor
+Abaetetuba,dados_abaetetuba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.4,Valor
+Abaetetuba,dados_abaetetuba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.8,Valor
+Abaetetuba,dados_abaetetuba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Abaetetuba,dados_abaetetuba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.1,Valor
+Abaetetuba,dados_abaetetuba__trabalha_em_outro_municipio,Trabalha em outro município,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.6,Valor
+Abaetetuba,dados_abaetetuba__trabalha_em_outro_municipio,Trabalha em outro município,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Abaetetuba,dados_abaetetuba__motocicleta,Motocicleta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Abaetetuba,dados_abaetetuba__motocicleta,Motocicleta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Abaetetuba,dados_abaetetuba__bicicleta,Bicicleta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.1,Valor
+Abaetetuba,dados_abaetetuba__bicicleta,Bicicleta,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Abaetetuba,dados_abaetetuba__automovel_carro,Automóvel (Carro),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Abaetetuba,dados_abaetetuba__automovel_carro,Automóvel (Carro),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.1,Valor
+Abaetetuba,dados_abaetetuba__a_pe,A pé,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.8,Valor
+Abaetetuba,dados_abaetetuba__a_pe,A pé,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Abaetetuba,dados_abaetetuba__barco_transporte_fluvial,Barco / Transporte Fluvial,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Abaetetuba,dados_abaetetuba__barco_transporte_fluvial,Barco / Transporte Fluvial,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Abaetetuba,dados_abaetetuba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Abaetetuba,dados_abaetetuba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.8,Valor
+Abaetetuba,dados_abaetetuba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+Abaetetuba,dados_abaetetuba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.2,Valor
+Abaetetuba,dados_abaetetuba__mais_de_1_hora,Mais de 1 hora,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.8,Valor
+Abaetetuba,dados_abaetetuba__mais_de_1_hora,Mais de 1 hora,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.0,Valor
+Abaetetuba,dados_abaetetuba__estuda_no_proprio_municipio_abaetetuba,Estuda no próprio município (Abaetetuba),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.4,Valor
+Abaetetuba,dados_abaetetuba__estuda_no_proprio_municipio_abaetetuba,Estuda no próprio município (Abaetetuba),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.8,Valor
+Abaetetuba,dados_abaetetuba__estuda_em_outro_municipio,Estuda em outro município,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.6,Valor
+Abaetetuba,dados_abaetetuba__estuda_em_outro_municipio,Estuda em outro município,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.775903744625394,1991,20.14,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.775903744625394,2000,26.82,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.775903744625394,2010,35.42,Valor
+Abaetetuba,dados_abaetetuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.775903744625394,2022,52.14,Valor
+Abaetetuba,dados_abaetetuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.7597330141814647,1991,19.92,Valor
+Abaetetuba,dados_abaetetuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.7597330141814647,2000,26.61,Valor
+Abaetetuba,dados_abaetetuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.7597330141814647,2010,35.18,Valor
+Abaetetuba,dados_abaetetuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_abaetetuba,Grupo 1 — 4 censos,4,relu,adam,True,3.7597330141814647,2022,51.82,Valor
+Abaetetuba,dados_abaetetuba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_abaetetuba,Grupo 1 — 4 censos,4,relu,lbfgs,True,23.630199179332365,1991,220.0,Valor
+Abaetetuba,dados_abaetetuba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_abaetetuba,Grupo 1 — 4 censos,4,relu,lbfgs,True,23.630199179332365,2000,210.0,Valor
+Abaetetuba,dados_abaetetuba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_abaetetuba,Grupo 1 — 4 censos,4,relu,lbfgs,True,23.630199179332365,2010,240.0,Valor
+Abaetetuba,dados_abaetetuba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_abaetetuba,Grupo 1 — 4 censos,4,relu,lbfgs,True,23.630199179332365,2022,320.0,Valor
+Abaetetuba,dados_abaetetuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1347198180803234,1991,4.9,Valor
+Abaetetuba,dados_abaetetuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1347198180803234,2000,4.4,Valor
+Abaetetuba,dados_abaetetuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1347198180803234,2010,3.9,Valor
+Abaetetuba,dados_abaetetuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_abaetetuba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1347198180803234,2022,3.0,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.1,Valor
+Abaetetuba,dados_abaetetuba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.1,Valor
+Abaetetuba,dados_abaetetuba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.8,Valor
+Abaetetuba,dados_abaetetuba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Abaetetuba,dados_abaetetuba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Abaetetuba,dados_abaetetuba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.2,Valor
+Abaetetuba,dados_abaetetuba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Abaetetuba,dados_abaetetuba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Abaetetuba,dados_abaetetuba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Abaetetuba,dados_abaetetuba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.1,Valor
+Abaetetuba,dados_abaetetuba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Abaetetuba,dados_abaetetuba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.1,Valor
+Abaetetuba,dados_abaetetuba__ruas_sem_arvores,Ruas Sem Árvores,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,47.6,Valor
+Abaetetuba,dados_abaetetuba__ruas_sem_arvores,Ruas Sem Árvores,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.9,Valor
+Abaetetuba,dados_abaetetuba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.1,Valor
+Abaetetuba,dados_abaetetuba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Abaetetuba,dados_abaetetuba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Abaetetuba,dados_abaetetuba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Abaetetuba,dados_abaetetuba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.2,Valor
+Abaetetuba,dados_abaetetuba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.1,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena_total,População Indígena Total,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2000,842.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena_total,População Indígena Total,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2010,412.0,Valor
+Abaetetuba,dados_abaetetuba__populacao_indigena_total,População Indígena Total,dados_abaetetuba,Grupo 2 — 3 censos,3,logistic,sgd,True,249.01721135017578,2022,524.0,Valor
+Abaetetuba,dados_abaetetuba__proporcao_na_populacao_de_abaetetuba,Proporção na população de Abaetetuba,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.25246217442198365,2000,0.71,Valor
+Abaetetuba,dados_abaetetuba__proporcao_na_populacao_de_abaetetuba,Proporção na população de Abaetetuba,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.25246217442198365,2010,0.29,Valor
+Abaetetuba,dados_abaetetuba__proporcao_na_populacao_de_abaetetuba,Proporção na população de Abaetetuba,dados_abaetetuba,Grupo 2 — 3 censos,3,tanh,adam,True,0.25246217442198365,2022,0.33,Valor
+Abaetetuba,dados_abaetetuba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Abaetetuba,dados_abaetetuba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.4,Valor
+Abaetetuba,dados_abaetetuba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Abaetetuba,dados_abaetetuba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Abaetetuba,dados_abaetetuba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.1,Valor
+Abaetetuba,dados_abaetetuba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Abaetetuba,dados_abaetetuba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.3,Valor
+Abaetetuba,dados_abaetetuba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Abaetetuba,dados_abaetetuba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2000,16.8,Valor
+Abaetetuba,dados_abaetetuba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2010,20.4,Valor
+Abaetetuba,dados_abaetetuba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2022,26.2,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490830586155985,2000,54.8,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490830586155985,2010,47.2,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490830586155985,2022,38.8,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251259953216708,2000,9.2,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251259953216708,2010,12.1,Valor
+Abaetetuba,dados_abaetetuba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251259953216708,2022,15.6,Valor
+Abaetetuba,dados_abaetetuba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.8,Valor
+Abaetetuba,dados_abaetetuba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.1,Valor
+Abaetetuba,dados_abaetetuba__sem_conjuge,Sem cônjuge,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.7,Valor
+Abaetetuba,dados_abaetetuba__sem_conjuge,Sem cônjuge,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.2,Valor
+Abaetetuba,dados_abaetetuba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Abaetetuba,dados_abaetetuba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Abaetetuba,dados_abaetetuba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Abaetetuba,dados_abaetetuba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_abaetetuba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Abaetetuba,dados_abaetetuba__responsavel_mulher,Responsável Mulher,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2000,3.8,Valor
+Abaetetuba,dados_abaetetuba__responsavel_mulher,Responsável Mulher,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2010,3.3,Valor
+Abaetetuba,dados_abaetetuba__responsavel_mulher,Responsável Mulher,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2022,2.9,Valor
+Abaetetuba,dados_abaetetuba__responsavel_homem,Responsável Homem,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2000,4.6,Valor
+Abaetetuba,dados_abaetetuba__responsavel_homem,Responsável Homem,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2010,3.8,Valor
+Abaetetuba,dados_abaetetuba__responsavel_homem,Responsável Homem,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2022,3.2,Valor
+Abaetetuba,dados_abaetetuba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Abaetetuba,dados_abaetetuba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Abaetetuba,dados_abaetetuba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.0510316633165608,2000,14.8,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.0510316633165608,2010,18.4,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,1.0510316633165608,2022,24.1,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.4099274832704343,2000,17.4,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.4099274832704343,2010,21.1,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,identity,adam,True,0.4099274832704343,2022,25.0,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,4.57370142664081,2000,44.6,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,4.57370142664081,2010,28.1,Valor
+Abaetetuba,dados_abaetetuba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_abaetetuba,Grupo 2 — 3 censos,3,relu,adam,True,4.57370142664081,2022,17.4,Valor
