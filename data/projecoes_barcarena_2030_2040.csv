@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Barcarena,dados_barcarena__anos_de_estudo_media,Anos de Estudo (Média),dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.24854037034285836,2030,10.870654142753922
+Barcarena,dados_barcarena__anos_de_estudo_media,Anos de Estudo (Média),dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.24854037034285836,2040,12.576443616187298
+Barcarena,dados_barcarena__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_barcarena,Grupo 1 — 4 censos,tanh,sgd,True,39.94250904235077,2030,313.8060381315345
+Barcarena,dados_barcarena__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_barcarena,Grupo 1 — 4 censos,tanh,sgd,True,39.94250904235077,2040,317.3142357420785
+Barcarena,dados_barcarena__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_barcarena,Grupo 1 — 4 censos,relu,lbfgs,True,2.88307656531288,2030,53.89132813038073
+Barcarena,dados_barcarena__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_barcarena,Grupo 1 — 4 censos,relu,lbfgs,True,2.88307656531288,2040,66.70059182256648
+Barcarena,dados_barcarena__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.23965600146791832,2030,10.427476776270293
+Barcarena,dados_barcarena__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.23965600146791832,2040,12.094919390333981
+Barcarena,dados_barcarena__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.25741881547192347,2030,11.313848364141883
+Barcarena,dados_barcarena__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_barcarena,Grupo 1 — 4 censos,identity,adam,True,0.25741881547192347,2040,13.057999442681838
+Barcarena,dados_barcarena__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_barcarena,Grupo 1 — 4 censos,identity,lbfgs,True,0.1432649561913678,2030,2.5230926298428464
+Barcarena,dados_barcarena__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_barcarena,Grupo 1 — 4 censos,identity,lbfgs,True,0.1432649561913678,2040,1.9759263611451927
+Barcarena,dados_barcarena__populacao_total,População Total,dados_barcarena,Grupo 1 — 4 censos,logistic,lbfgs,True,4.765192984060059,2030,134.39290403769553
+Barcarena,dados_barcarena__populacao_total,População Total,dados_barcarena,Grupo 1 — 4 censos,logistic,lbfgs,True,4.765192984060059,2040,139.11304923877233
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_barcarena,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3134441705330389,2030,96.44521735005011
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_barcarena,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3134441705330389,2040,97.12958993421645
+Barcarena,dados_barcarena__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_barcarena,Grupo 1 — 4 censos,relu,lbfgs,True,2.859335498164031,2030,54.25577308013482
+Barcarena,dados_barcarena__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_barcarena,Grupo 1 — 4 censos,relu,lbfgs,True,2.859335498164031,2040,67.14049823192806
+Barcarena,dados_barcarena__2_trabalhos,2 trabalhos,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,1.0778572469572831,2030,5.041382741608625
+Barcarena,dados_barcarena__2_trabalhos,2 trabalhos,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,1.0778572469572831,2040,5.038693690203356
+Barcarena,dados_barcarena__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033919,2030,0.7008618545147849
+Barcarena,dados_barcarena__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033919,2040,0.7005656022837713
+Barcarena,dados_barcarena__apenas_1_trabalho,Apenas 1 trabalho,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,1.1556382985294438,2030,94.26949451549571
+Barcarena,dados_barcarena__apenas_1_trabalho,Apenas 1 trabalho,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,1.1556382985294438,2040,94.26484145912197
+Barcarena,dados_barcarena__casais_com_filhos,Casais com filhos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.930393482700687,2030,35.508016831464914
+Barcarena,dados_barcarena__casais_com_filhos,Casais com filhos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.930393482700687,2040,27.477804275644733
+Barcarena,dados_barcarena__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.8064311060916101,2030,8.30357026796581
+Barcarena,dados_barcarena__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.8064311060916101,2040,8.300510845551306
+Barcarena,dados_barcarena__casais_sem_filhos,Casais sem filhos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100869250851796,2030,20.098717238281747
+Barcarena,dados_barcarena__casais_sem_filhos,Casais sem filhos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100869250851796,2040,23.736129746891727
+Barcarena,dados_barcarena__conta_propria,Conta própria,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.07488122291160959,2030,20.481100596392025
+Barcarena,dados_barcarena__conta_propria,Conta própria,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.07488122291160959,2040,25.01647467849901
+Barcarena,dados_barcarena__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.081547889578274,2030,27.640990057709146
+Barcarena,dados_barcarena__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.081547889578274,2040,32.187073222619055
+Barcarena,dados_barcarena__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.7750684842109111,2030,28.127378113803548
+Barcarena,dados_barcarena__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.7750684842109111,2040,31.737299272160378
+Barcarena,dados_barcarena__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,4.468265957955778,2030,12.408222654756546
+Barcarena,dados_barcarena__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,4.468265957955778,2040,5.241902173282224
+Barcarena,dados_barcarena__empregador,Empregador,dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,264.4362976446354,2030,-1.0132488361442995
+Barcarena,dados_barcarena__empregador,Empregador,dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,264.4362976446354,2040,12.924310925872419
+Barcarena,dados_barcarena__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6320072920089594,2030,97.85570856600316
+Barcarena,dados_barcarena__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6320072920089594,2040,97.77097786077401
+Barcarena,dados_barcarena__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,2.867630066752246,2030,88.33037458317901
+Barcarena,dados_barcarena__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,2.867630066752246,2040,91.24296056428483
+Barcarena,dados_barcarena__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,3.2843379690368537,2030,30.124738241517637
+Barcarena,dados_barcarena__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,3.2843379690368537,2040,30.11699809983196
+Barcarena,dados_barcarena__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.03313187817351045,2030,0.9821378686546727
+Barcarena,dados_barcarena__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.03313187817351045,2040,1.1390772380854095
+Barcarena,dados_barcarena__idade_mediana,Idade Mediana,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,33.46879368938008
+Barcarena,dados_barcarena__idade_mediana,Idade Mediana,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,38.011896464596354
+Barcarena,dados_barcarena__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,462.43887241947596,2030,-2.815265909111531
+Barcarena,dados_barcarena__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,462.43887241947596,2040,21.56347968796257
+Barcarena,dados_barcarena__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.1513957028334314,2030,24.143020569785804
+Barcarena,dados_barcarena__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.1513957028334314,2040,27.038197477521322
+Barcarena,dados_barcarena__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.30207216546480886,2030,4.201876975900407
+Barcarena,dados_barcarena__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.30207216546480886,2040,4.200978154606798
+Barcarena,dados_barcarena__media_populacao_amarela,Média: População Amarela,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362885,2030,11.329012551465993
+Barcarena,dados_barcarena__media_populacao_amarela,Média: População Amarela,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362885,2040,12.221030287546094
+Barcarena,dados_barcarena__media_populacao_branca,Média: População Branca,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.670799034068402,2030,10.78158570931881
+Barcarena,dados_barcarena__media_populacao_branca,Média: População Branca,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.670799034068402,2040,11.496703155761951
+Barcarena,dados_barcarena__media_populacao_indigena,Média: População Indígena,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,9.038179016348143e-05,2030,8.999924184602287
+Barcarena,dados_barcarena__media_populacao_indigena,Média: População Indígena,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,9.038179016348143e-05,2040,10.499944745555288
+Barcarena,dados_barcarena__media_populacao_preta_parda,Média: População Preta / Parda,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.27346060788031085,2030,10.449615742458855
+Barcarena,dados_barcarena__media_populacao_preta_parda,Média: População Preta / Parda,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.27346060788031085,2040,12.075214892743226
+Barcarena,dados_barcarena__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,384.7024211257735,2030,883.4607386199707
+Barcarena,dados_barcarena__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_barcarena,Grupo 2 — 3 censos,tanh,adam,True,384.7024211257735,2040,924.439781820356
+Barcarena,dados_barcarena__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,3.599914609435301
+Barcarena,dados_barcarena__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,3.96115886505405
+Barcarena,dados_barcarena__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.1287991758390253,2030,0.9673978121265692
+Barcarena,dados_barcarena__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.1287991758390253,2040,0.9669810336232432
+Barcarena,dados_barcarena__populacao_amarela,População Amarela,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,231.7677066602333,2030,235.4024412903352
+Barcarena,dados_barcarena__populacao_amarela,População Amarela,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,231.7677066602333,2040,234.73087882112844
+Barcarena,dados_barcarena__populacao_branca,População Branca,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,2.5669324932718447,2030,22.464168166820457
+Barcarena,dados_barcarena__populacao_branca,População Branca,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,2.5669324932718447,2040,23.71578034408155
+Barcarena,dados_barcarena__populacao_indigena,População Indígena,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,172.11205617880088,2030,380.9524880735496
+Barcarena,dados_barcarena__populacao_indigena,População Indígena,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,172.11205617880088,2040,380.5269155390702
+Barcarena,dados_barcarena__populacao_indigena_total,População Indígena Total,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,172.11205617880088,2030,380.9524880735496
+Barcarena,dados_barcarena__populacao_indigena_total,População Indígena Total,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,172.11205617880088,2040,380.5269155390702
+Barcarena,dados_barcarena__populacao_parda,População Parda,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,7.877133111506626,2030,101.66072999327682
+Barcarena,dados_barcarena__populacao_parda,População Parda,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,7.877133111506626,2040,112.98172232991362
+Barcarena,dados_barcarena__populacao_preta,População Preta,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2030,14.192613093515128
+Barcarena,dados_barcarena__populacao_preta,População Preta,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2040,17.37881659479393
+Barcarena,dados_barcarena__populacao_rural,População Rural,dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,3.2032439232507692,2030,28.04714366285133
+Barcarena,dados_barcarena__populacao_rural,População Rural,dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,3.2032439232507692,2040,27.900680239062744
+Barcarena,dados_barcarena__populacao_urbana,População Urbana,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,7.672773827989725,2030,120.40152482854847
+Barcarena,dados_barcarena__populacao_urbana,População Urbana,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,7.672773827989725,2040,146.16313017228254
+Barcarena,dados_barcarena__populacao_com_superior_completo,População com Superior Completo,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.5945938021818316,2030,17.551516584437778
+Barcarena,dados_barcarena__populacao_com_superior_completo,População com Superior Completo,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.5945938021818316,2040,23.08913156850697
+Barcarena,dados_barcarena__populacao_de_homens,População de Homens,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,5.289159432138686,2030,69.22602179239459
+Barcarena,dados_barcarena__populacao_de_homens,População de Homens,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,5.289159432138686,2040,75.963661176856
+Barcarena,dados_barcarena__populacao_de_mulheres,População de Mulheres,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,5.260930890304462,2030,69.64315977844527
+Barcarena,dados_barcarena__populacao_de_mulheres,População de Mulheres,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,5.260930890304462,2040,77.52901919650235
+Barcarena,dados_barcarena__proporcao_na_populacao_de_barcarena,Proporção na população de Barcarena,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.1565771523183517,2030,0.40741607665306273
+Barcarena,dados_barcarena__proporcao_na_populacao_de_barcarena,Proporção na população de Barcarena,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,0.1565771523183517,2040,0.4068396037041563
+Barcarena,dados_barcarena__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.3813123487929886,2030,98.68179492293196
+Barcarena,dados_barcarena__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.3813123487929886,2040,96.44827751352517
+Barcarena,dados_barcarena__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.12202416030839913,2030,33.602023425997395
+Barcarena,dados_barcarena__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.12202416030839913,2040,26.32731271132098
+Barcarena,dados_barcarena__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_barcarena,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861608,2030,18.113471365063702
+Barcarena,dados_barcarena__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_barcarena,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861608,2040,20.9738652549576
+Barcarena,dados_barcarena__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.5836826230089536,2030,30.157784607492133
+Barcarena,dados_barcarena__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.5836826230089536,2040,34.7130346335762
+Barcarena,dados_barcarena__responsavel_homem,Responsável Homem,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.24497078189936664,2030,2.8764379443107835
+Barcarena,dados_barcarena__responsavel_homem,Responsável Homem,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.24497078189936664,2040,2.430618651420696
+Barcarena,dados_barcarena__responsavel_mulher,Responsável Mulher,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Barcarena,dados_barcarena__responsavel_mulher,Responsável Mulher,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Barcarena,dados_barcarena__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830288624155938,2030,2.3966723060808346
+Barcarena,dados_barcarena__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_barcarena,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830288624155938,2040,1.8087566606929208
+Barcarena,dados_barcarena__setor_privado,Setor privado,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.4229348437668712,2030,43.597963691400025
+Barcarena,dados_barcarena__setor_privado,Setor privado,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,1.4229348437668712,2040,54.25128314520437
+Barcarena,dados_barcarena__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.7692595218002415,2030,32.59865225530205
+Barcarena,dados_barcarena__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.7692595218002415,2040,40.912462624375024
+Barcarena,dados_barcarena__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.6536753219666299,2030,10.999504972326488
+Barcarena,dados_barcarena__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.6536753219666299,2040,13.339222424857358
+Barcarena,dados_barcarena__setor_publico,Setor público,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.4297651046176636,2030,10.368948903087517
+Barcarena,dados_barcarena__setor_publico,Setor público,dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.4297651046176636,2040,12.902587261394991
+Barcarena,dados_barcarena__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,335.64077002228004,2030,288.53440741653935
+Barcarena,dados_barcarena__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,logistic,sgd,True,335.64077002228004,2040,287.2747189426048
+Barcarena,dados_barcarena__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.3961840843022724,2030,8.935898937233066
+Barcarena,dados_barcarena__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,0.3961840843022724,2040,11.070566763859876
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,2.218332803579211,2030,78.35033356719408
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_barcarena,Grupo 2 — 3 censos,identity,adam,True,2.218332803579211,2040,90.53978798299727
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_barcarena,Grupo 2 — 3 censos,logistic,lbfgs,True,1.546879545824415,2030,99.08141101170358
+Barcarena,dados_barcarena__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_barcarena,Grupo 2 — 3 censos,logistic,lbfgs,True,1.546879545824415,2040,99.16814026369403
+Barcarena,dados_barcarena__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6320072920089594,2030,97.85570856600316
+Barcarena,dados_barcarena__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_barcarena,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6320072920089594,2040,97.77097786077401
+Barcarena,dados_barcarena__trabalhador_domestico,Trabalhador doméstico,dados_barcarena,Grupo 2 — 3 censos,logistic,adam,True,0.5896543333507176,2030,3.5371367997125374
+Barcarena,dados_barcarena__trabalhador_domestico,Trabalhador doméstico,dados_barcarena,Grupo 2 — 3 censos,logistic,adam,True,0.5896543333507176,2040,3.63869805198689
+Barcarena,dados_barcarena__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,153.9920470996,2030,900.5125608935424
+Barcarena,dados_barcarena__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_barcarena,Grupo 2 — 3 censos,relu,adam,True,153.9920470996,2040,992.4367344464579
+Barcarena,dados_barcarena__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_barcarena,Grupo 2 — 3 censos,logistic,adam,True,0.44274925846968655,2030,2.625593700506475
+Barcarena,dados_barcarena__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_barcarena,Grupo 2 — 3 censos,logistic,adam,True,0.44274925846968655,2040,2.689704835122429
+Barcarena,dados_barcarena__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_barcarena,Grupo 2 — 3 censos,relu,lbfgs,True,5.286474208900337,2030,35.6764972207068
+Barcarena,dados_barcarena__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_barcarena,Grupo 2 — 3 censos,relu,lbfgs,True,5.286474208900337,2040,44.13852119928081
+Barcarena,dados_barcarena__a_pe,A pé,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.379308145009935
+Barcarena,dados_barcarena__a_pe,A pé,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.39269756110405
+Barcarena,dados_barcarena__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.25515915841708
+Barcarena,dados_barcarena__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.71705805446548
+Barcarena,dados_barcarena__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.418178918422186
+Barcarena,dados_barcarena__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.16310133054624
+Barcarena,dados_barcarena__automovel_carro,Automóvel (Carro),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.30728154539561
+Barcarena,dados_barcarena__automovel_carro,Automóvel (Carro),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.52295751266053
+Barcarena,dados_barcarena__bicicleta,Bicicleta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.41817891842219
+Barcarena,dados_barcarena__bicicleta,Bicicleta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.1631013305462545
+Barcarena,dados_barcarena__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.63772859611501
+Barcarena,dados_barcarena__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.62631478451885
+Barcarena,dados_barcarena__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.10733797870486
+Barcarena,dados_barcarena__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.87840096320883
+Barcarena,dados_barcarena__com_coleta_de_lixo,Com Coleta de Lixo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.1595167989926
+Barcarena,dados_barcarena__com_coleta_de_lixo,Com Coleta de Lixo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.23974387195214
+Barcarena,dados_barcarena__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7840596067625865
+Barcarena,dados_barcarena__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8871143029144432
+Barcarena,dados_barcarena__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.66896221751491
+Barcarena,dados_barcarena__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.689046341656095
+Barcarena,dados_barcarena__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.5043576405755195
+Barcarena,dados_barcarena__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.1226858174866585
+Barcarena,dados_barcarena__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.217430562302077
+Barcarena,dados_barcarena__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.690743269946635
+Barcarena,dados_barcarena__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.22901331496397
+Barcarena,dados_barcarena__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.98094314954554
+Barcarena,dados_barcarena__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.740437371597684
+Barcarena,dados_barcarena__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.022293791661856
+Barcarena,dados_barcarena__estuda_em_outro_municipio,Estuda em outro município,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.788417247338106
+Barcarena,dados_barcarena__estuda_em_outro_municipio,Estuda em outro município,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.509800120401103
+Barcarena,dados_barcarena__estuda_no_proprio_municipio_barcarena,Estuda no próprio município (Barcarena),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.83887077341224
+Barcarena,dados_barcarena__estuda_no_proprio_municipio_barcarena,Estuda no próprio município (Barcarena),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.57040376944218
+Barcarena,dados_barcarena__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.687039944891914
+Barcarena,dados_barcarena__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.94282944863661
+Barcarena,dados_barcarena__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.222568583076988
+Barcarena,dados_barcarena__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.688981929160407
+Barcarena,dados_barcarena__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.73916233187042
+Barcarena,dados_barcarena__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.74872890683162
+Barcarena,dados_barcarena__idade_mediana_2,Idade Mediana,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.68119213525173
+Barcarena,dados_barcarena__idade_mediana_2,Idade Mediana,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.742286058288865
+Barcarena,dados_barcarena__mais_de_1_hora,Mais de 1 hora,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.80871528115104
+Barcarena,dados_barcarena__mais_de_1_hora,Mais de 1 hora,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.045371634973318
+Barcarena,dados_barcarena__motocicleta,Motocicleta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.63772859611501
+Barcarena,dados_barcarena__motocicleta,Motocicleta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.62631478451886
+Barcarena,dados_barcarena__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.598743531716046
+Barcarena,dados_barcarena__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.97789944582512
+Barcarena,dados_barcarena__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.521788202877596
+Barcarena,dados_barcarena__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.613429087433296
+Barcarena,dados_barcarena__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.31307292172656
+Barcarena,dados_barcarena__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.168057452459976
+Barcarena,dados_barcarena__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.33629486035957
+Barcarena,dados_barcarena__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.30390066220605
+Barcarena,dados_barcarena__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.84547976555371
+Barcarena,dados_barcarena__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.244806949257026
+Barcarena,dados_barcarena__populacao_amarela_2,População Amarela,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,108.40596067625866
+Barcarena,dados_barcarena__populacao_amarela_2,População Amarela,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,118.71143029144432
+Barcarena,dados_barcarena__populacao_branca_2,População Branca,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.16233348052515
+Barcarena,dados_barcarena__populacao_branca_2,População Branca,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.084673011084266
+Barcarena,dados_barcarena__populacao_indigena_2,População Indígena,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,445.0745084532332
+Barcarena,dados_barcarena__populacao_indigena_2,População Indígena,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,573.892878643054
+Barcarena,dados_barcarena__populacao_parda_2,População Parda,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.61718896179838
+Barcarena,dados_barcarena__populacao_parda_2,População Parda,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.130615205922716
+Barcarena,dados_barcarena__populacao_preta_2,População Preta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.512476854100692
+Barcarena,dados_barcarena__populacao_preta_2,População Preta,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.336914423315545
+Barcarena,dados_barcarena__populacao_residente_em_favelas,População Residente em Favelas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.84547976555371
+Barcarena,dados_barcarena__populacao_residente_em_favelas,População Residente em Favelas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.244806949257026
+Barcarena,dados_barcarena__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.934804691294918
+Barcarena,dados_barcarena__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.326043089344983
+Barcarena,dados_barcarena__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.05391649546357
+Barcarena,dados_barcarena__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.42972505554914
+Barcarena,dados_barcarena__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,918.2344059526417
+Barcarena,dados_barcarena__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1084.881714291843
+Barcarena,dados_barcarena__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Barcarena,dados_barcarena__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Barcarena,dados_barcarena__ruas_sem_arvores,Ruas Sem Árvores,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.62322193863302
+Barcarena,dados_barcarena__ruas_sem_arvores,Ruas Sem Árvores,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.735843209746086
+Barcarena,dados_barcarena__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.285264407850164
+Barcarena,dados_barcarena__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.57046818193786
+Barcarena,dados_barcarena__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.889907416402767
+Barcarena,dados_barcarena__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.14787761302148
+Barcarena,dados_barcarena__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.18765769326218
+Barcarena,dados_barcarena__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.39410054180496
+Barcarena,dados_barcarena__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.09575522604294
+Barcarena,dados_barcarena__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.26095053474802
+Barcarena,dados_barcarena__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.58820108360992
+Barcarena,dados_barcarena__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.36215799426492
+Barcarena,dados_barcarena__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6463874439568125
+Barcarena,dados_barcarena__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.3162429689438806
+Barcarena,dados_barcarena__sem_conjuge,Sem cônjuge,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.78990741640277
+Barcarena,dados_barcarena__sem_conjuge,Sem cônjuge,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.08765769326218
+Barcarena,dados_barcarena__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.62901331496397
+Barcarena,dados_barcarena__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.38094314954554
+Barcarena,dados_barcarena__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.344964994863233
+Barcarena,dados_barcarena__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.70491753674075
+Barcarena,dados_barcarena__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.892774887913626
+Barcarena,dados_barcarena__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.232485937887763
+Barcarena,dados_barcarena__trabalha_em_outro_municipio,Trabalha em outro município,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.634804691294917
+Barcarena,dados_barcarena__trabalha_em_outro_municipio,Trabalha em outro município,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.026043089344984
+Barcarena,dados_barcarena__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.64639363443791
+Barcarena,dados_barcarena__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.20006441249566
+Barcarena,dados_barcarena__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.000056433309233
+Barcarena,dados_barcarena__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.55544345054829
+Barcarena,dados_barcarena__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.13778502942424
+Barcarena,dados_barcarena__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.681758235067136
+Barcarena,dados_barcarena__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.040596067625866
+Barcarena,dados_barcarena__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.071143029144432
+Barcarena,dados_barcarena__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.318920731366745
+Barcarena,dados_barcarena__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.36860084280772
+Barcarena,dados_barcarena__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.68703994489192
+Barcarena,dados_barcarena__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.94282944863662
+Barcarena,dados_barcarena__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.730503484028635
+Barcarena,dados_barcarena__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.058800722406612
+Barcarena,dados_barcarena__onibus,Ônibus,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.542029803381293
+Barcarena,dados_barcarena__onibus,Ônibus,dados_barcarena,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.593557151457222
