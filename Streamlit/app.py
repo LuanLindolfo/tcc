@@ -50,10 +50,31 @@ MUNICIPIOS = [
         "arquivo": "indicadores_parauapebas_tratados.csv",
     },
     {
+        "nome":    "Abaetetuba",
+        "pasta":   "data",
+        "arquivo": "indicadores_abaetetuba_tratados.csv",
+    },
+        {
+        "nome":    "Barcarena",
+        "pasta":   "data",
+        "arquivo": "indicadores_barcarena_tratados.csv",
+    },
+        {
+        "nome":    "Cametá",
+        "pasta":   "data",
+        "arquivo": "indicadores_cametá_tratados.csv",
+    },
+        {
         "nome":    "Marabá",
         "pasta":   "data",
         "arquivo": "indicadores_maraba_tratados.csv",
     },
+        {
+        "nome":    "Altamira",
+        "pasta":   "data",
+        "arquivo": "indicadores_altamira_tratados.csv",
+    },
+
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
