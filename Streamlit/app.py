@@ -99,6 +99,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_breves_tratados.csv",
     },
+    {
+        "nome":    "Paragominas",
+        "pasta":   "data",
+        "arquivo": "indicadores_paragominas_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
