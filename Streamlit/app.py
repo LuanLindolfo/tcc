@@ -896,11 +896,11 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
 
     st.sidebar.divider()
     st.sidebar.caption(
-        "TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV."
+        "Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV."
     )
     st.sidebar.info(
-        "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama do "
-        "Censo. Parte das informações é estimada, podendo haver margem de "
+        "Os dados têm como base o Censo do IBGE, o SIDRA, o Panorama do "
+        "Censo e o DATASUS. Pode haver margem de "
         "erro para mais ou para menos.",
         icon="ℹ️",
     )
