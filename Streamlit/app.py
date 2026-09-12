@@ -2,6 +2,7 @@
 """
 app.py — Painel Streamlit TCC (coringa multi-município)
 Versão Otimizada com Caching de ML para Evitar Throttling no Streamlit Cloud.
+Design refinado + navegação lateral por município.
 """
 
 from __future__ import annotations
@@ -75,14 +76,14 @@ MUNICIPIOS = [
         "arquivo": "indicadores_altamira_tratados.csv",
     },
         {
-        "nome":    "Itaituiba",
+        "nome":    "Itaituba",
         "pasta":   "data",
         "arquivo": "indicadores_itaituba_tratados.csv",
     },
         {
-        "nome":    "Bragan;a",
+        "nome":    "Bragança",
         "pasta":   "data",
-        "arquivo": "indicadores_Bragança_tratados.csv",
+        "arquivo": "indicadores_bragança_tratados.csv",
     },
 
 ]
@@ -101,6 +102,25 @@ MAX_ITER          = 500
 # ╔═══════════════════════════════════════════════════════════════════════════╗
 # ║                     FIM DO BLOCO DE CONFIGURAÇÃO                          ║
 # ╚═══════════════════════════════════════════════════════════════════════════╝
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PALETA E CONSTANTES DE DESIGN
+# ═══════════════════════════════════════════════════════════════════════════
+
+COR_PRIMARIA   = "#155E75"   # azul petróleo — âncora da identidade visual
+COR_PRIMARIA_2 = "#0E7490"
+COR_ACENTO     = "#F59E0B"   # âmbar — projeções / destaques
+COR_SUCESSO    = "#15803D"   # auto-seleção de modelo
+COR_NEUTRA     = "#64748B"   # modelo fixo / textos secundários
+COR_FUNDO_CARD = "#F8FAFC"
+COR_BORDA      = "#E2E8F0"
+
+PALETA_COMPARATIVO = [
+    "#155E75", "#F59E0B", "#7C3AED", "#DC2626",
+    "#0891B2", "#65A30D", "#DB2777", "#4338CA",
+    "#EA580C", "#0D9488", "#9333EA",
+]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -160,7 +180,7 @@ def carregar_projecoes(pasta: str, arquivo_historico: str) -> pd.DataFrame | Non
 
 # OTIMIZAÇÃO: Função interna com @st.cache_data usando tuplas (hasháveis)
 @st.cache_data(show_spinner=False)
-def _treinar_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...], 
+def _treinar_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...],
                         anos_alvo: tuple[int, ...], ativacao: str, solver: str) -> list[float]:
     X = np.array(anos).reshape(-1, 1)
     y = np.array(valores).reshape(-1, 1)
@@ -221,31 +241,38 @@ def fig_serie(titulo: str, anos: list[int], valores: list[float],
     fig.add_trace(go.Scatter(
         x=anos_curva, y=vals_curva,
         mode="lines", name=f"Curva MLP ({ativacao}/{solver})",
-        line=dict(color="#7B1FA2", width=2, dash="solid"), opacity=0.8,
+        line=dict(color=COR_PRIMARIA_2, width=2, dash="solid"), opacity=0.75,
     ))
     fig.add_trace(go.Scatter(
         x=anos, y=valores,
         mode="lines+markers", name="Censos IBGE",
-        line=dict(color="#1565C0", width=3),
-        marker=dict(size=11, color="#0D47A1"),
+        line=dict(color=COR_PRIMARIA, width=3),
+        marker=dict(size=11, color=COR_PRIMARIA, line=dict(width=2, color="white")),
     ))
     fig.add_trace(go.Scatter(
         x=ANOS_PROJECAO, y=vals_proj,
         mode="markers+text", name="Projeção",
         text=[f"{v:,.1f}" for v in vals_proj],
         textposition="top center",
-        marker=dict(size=14, color="#E65100", symbol="star"),
+        marker=dict(size=15, color=COR_ACENTO, symbol="star",
+                    line=dict(width=1.5, color="#7C2D12")),
     ))
 
     fig.update_layout(
-        template="plotly_white", height=420,
-        title=dict(text=f"<b>{titulo}</b> — {municipio}", x=0.01),
+        template="plotly_white", height=430,
+        font=dict(family="Inter, -apple-system, sans-serif", color="#1E293B"),
+        title=dict(text=f"<b>{titulo}</b> — {municipio}", x=0.01,
+                   font=dict(size=17, color=COR_PRIMARIA)),
         xaxis_title="Ano",
         yaxis_title=ylabel,
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
+        legend=dict(orientation="h", yanchor="bottom", y=1.03, x=0),
         hovermode="x unified",
-        margin=dict(l=50, r=20, t=60, b=40),
+        margin=dict(l=50, r=20, t=64, b=40),
+        plot_bgcolor="white",
+        paper_bgcolor="white",
     )
+    fig.update_xaxes(gridcolor="#EEF2F6", zeroline=False)
+    fig.update_yaxes(gridcolor="#EEF2F6", zeroline=False)
     if max(valores) > 1000:
         fig.update_yaxes(tickformat=",")
     return fig
@@ -256,70 +283,146 @@ def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
         df, x="indicador_nome", y="valor", color="ano",
         barmode="group", text_auto=True,
         title=f"Visão geral — {municipio}",
-        color_continuous_scale="Blues",
+        color_continuous_scale=[COR_PRIMARIA_2, COR_ACENTO],
         labels={"indicador_nome": "Indicador", "valor": "Valor", "ano": "Ano"},
     )
     fig.update_layout(
         template="plotly_white", height=500,
+        font=dict(family="Inter, -apple-system, sans-serif", color="#1E293B"),
+        title=dict(font=dict(size=17, color=COR_PRIMARIA)),
         xaxis_tickangle=-35,
         margin=dict(l=40, r=20, t=60, b=120),
+        plot_bgcolor="white",
+        paper_bgcolor="white",
     )
+    fig.update_xaxes(gridcolor="#EEF2F6")
+    fig.update_yaxes(gridcolor="#EEF2F6")
     return fig
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# SEÇÕES DO PAINEL
+# ESTILO GLOBAL
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _css() -> None:
     st.markdown(
-        """
+        f"""
         <style>
-          .block-container { padding-top: 1rem; max-width: 1200px; }
-          .municipio-header {
-            background: linear-gradient(135deg, #E3F2FD 0%, #fff 60%, #FFF8E1 100%);
-            padding: 1.2rem 1.5rem;
-            border-radius: 14px;
-            border: 1px solid #BBDEFB;
-            margin-bottom: 1rem;
-          }
-          .badge {
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+          html, body, [class*="css"] {{ font-family: 'Inter', -apple-system, sans-serif; }}
+
+          .block-container {{ padding-top: 1.5rem; max-width: 1220px; }}
+
+          /* Cabeçalho do município */
+          .municipio-header {{
+            background: linear-gradient(120deg, {COR_PRIMARIA} 0%, {COR_PRIMARIA_2} 55%, #0891B2 100%);
+            padding: 1.6rem 1.9rem;
+            border-radius: 16px;
+            margin-bottom: 1.3rem;
+            box-shadow: 0 8px 24px -8px rgba(21, 94, 117, 0.45);
+          }}
+          .municipio-header h2 {{
+            margin: 0.3rem 0 0.15rem;
+            color: #FFFFFF !important;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+          }}
+          .municipio-header p {{
+            margin: 0;
+            color: #E0F2FE;
+            font-size: 0.93rem;
+            max-width: 780px;
+          }}
+
+          .badge {{
             display: inline-block;
-            background: #1565C0;
-            color: white !important;
-            padding: 0.18rem 0.6rem;
+            background: rgba(255,255,255,0.18);
+            color: #FFFFFF !important;
+            padding: 0.2rem 0.7rem;
             border-radius: 999px;
-            font-size: 0.78rem;
-          }
-          .badge-auto {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            border: 1px solid rgba(255,255,255,0.35);
+          }}
+          .badge-auto {{
             display: inline-block;
-            background: #2E7D32;
+            background: {COR_SUCESSO};
             color: white !important;
-            padding: 0.12rem 0.5rem;
+            padding: 0.14rem 0.55rem;
             border-radius: 999px;
             font-size: 0.72rem;
-            margin-left: 0.4rem;
-          }
-          .badge-fixo {
+            font-weight: 500;
+            margin-left: 0.45rem;
+          }}
+          .badge-fixo {{
             display: inline-block;
-            background: #757575;
+            background: {COR_NEUTRA};
             color: white !important;
-            padding: 0.12rem 0.5rem;
+            padding: 0.14rem 0.55rem;
             border-radius: 999px;
             font-size: 0.72rem;
-            margin-left: 0.4rem;
-          }
-          .dado-ausente {
-            background: #FFF3E0;
-            border-left: 4px solid #FB8C00;
-            padding: 0.8rem 1rem;
-            border-radius: 6px;
-          }
+            font-weight: 500;
+            margin-left: 0.45rem;
+          }}
+
+          .dado-ausente {{
+            background: #FFFBEB;
+            border-left: 4px solid {COR_ACENTO};
+            padding: 0.9rem 1.1rem;
+            border-radius: 8px;
+          }}
+
+          /* Métricas — cartões mais elegantes */
+          div[data-testid="stMetric"] {{
+            background: {COR_FUNDO_CARD};
+            border: 1px solid {COR_BORDA};
+            border-radius: 12px;
+            padding: 0.8rem 1rem 0.6rem;
+          }}
+          div[data-testid="stMetricLabel"] {{
+            color: {COR_NEUTRA};
+            font-weight: 500;
+          }}
+          div[data-testid="stMetricValue"] {{
+            color: {COR_PRIMARIA};
+          }}
+
+          /* Sidebar */
+          section[data-testid="stSidebar"] {{
+            background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
+            border-right: 1px solid {COR_BORDA};
+          }}
+          section[data-testid="stSidebar"] h3 {{
+            color: {COR_PRIMARIA};
+            font-weight: 700;
+          }}
+
+          /* Expanders com aparência de cartão */
+          div[data-testid="stExpander"] {{
+            border: 1px solid {COR_BORDA};
+            border-radius: 12px;
+            background: white;
+          }}
+
+          hr {{ margin: 1.1rem 0; opacity: 0.5; }}
+
+          /* Radio de navegação estilo "pills" */
+          div[role="radiogroup"] label {{
+            border-radius: 10px;
+            padding: 0.15rem 0.3rem;
+          }}
         </style>
         """,
         unsafe_allow_html=True,
     )
 
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEÇÕES DO PAINEL
+# ═══════════════════════════════════════════════════════════════════════════
 
 def render_municipio(cfg: dict) -> None:
     nome = cfg["nome"]
@@ -330,8 +433,8 @@ def render_municipio(cfg: dict) -> None:
         f"""
         <div class="municipio-header">
           <span class="badge">Município</span>
-          <h2 style="margin: 0.4rem 0 0.2rem; color:#0D47A1;">{nome}</h2>
-          <p style="margin:0; color:#475569; font-size:0.95rem;">
+          <h2>{nome}</h2>
+          <p>
             Dados do IBGE (Censos 1991–2022) com projeções MLP para
             {" e ".join(str(a) for a in ANOS_PROJECAO)}, usando a
             ativação/solver escolhida automaticamente por indicador
@@ -491,11 +594,19 @@ def render_municipio(cfg: dict) -> None:
 
 
 def render_comparativo(municipios_carregados: list[dict]) -> None:
-    st.header("Comparativo entre municípios")
-    st.caption(
-        "Selecione um indicador para visualizar a evolução histórica "
-        "e as projeções lado a lado. Cada município usa a ativação/solver "
-        "escolhida individualmente pelo seu próprio notebook."
+    st.markdown(
+        f"""
+        <div class="municipio-header">
+          <span class="badge">Análise cruzada</span>
+          <h2>Comparativo entre municípios</h2>
+          <p>
+            Selecione um indicador para visualizar a evolução histórica e as
+            projeções lado a lado. Cada município usa a ativação/solver
+            escolhida individualmente pelo seu próprio notebook.
+          </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
     todos_indicadores: set[str] = set()
@@ -519,7 +630,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
     )
 
     fig = go.Figure()
-    cores = px.colors.qualitative.Bold
+    cores = PALETA_COMPARATIVO
     tem_dados = False
     ylabel = "Valor"
 
@@ -542,7 +653,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
             x=anos, y=vals,
             mode="lines+markers", name=f"{mun} — Censos",
             line=dict(color=cor, width=3),
-            marker=dict(size=10),
+            marker=dict(size=9, line=dict(width=1.5, color="white")),
         ))
 
         vals_proj = _projecao_indicador(
@@ -553,7 +664,8 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
             mode="markers+text", name=f"{mun} — Projeção ({ativacao}/{solver})",
             text=[f"{v:,.1f}" for v in vals_proj],
             textposition="top center",
-            marker=dict(size=13, symbol="star", color=cor),
+            marker=dict(size=13, symbol="star", color=cor,
+                        line=dict(width=1, color="#334155")),
         ))
         tem_dados = True
 
@@ -563,12 +675,18 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
 
     fig.update_layout(
         template="plotly_white", height=460,
-        title=dict(text=f"<b>{ind_escolhido}</b> — comparativo", x=0.01),
+        font=dict(family="Inter, -apple-system, sans-serif", color="#1E293B"),
+        title=dict(text=f"<b>{ind_escolhido}</b> — comparativo", x=0.01,
+                   font=dict(size=17, color=COR_PRIMARIA)),
         xaxis_title="Ano", yaxis_title=ylabel,
         legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
         hovermode="x unified",
         margin=dict(l=50, r=20, t=60, b=40),
+        plot_bgcolor="white",
+        paper_bgcolor="white",
     )
+    fig.update_xaxes(gridcolor="#EEF2F6")
+    fig.update_yaxes(gridcolor="#EEF2F6")
     st.plotly_chart(fig, use_container_width=True)
 
     linhas = []
@@ -597,7 +715,81 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
                 "Tipo": "Projeção", "Modelo": f"{ativacao}/{solver}",
             })
 
-    st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
+    with st.expander("🗂️ Tabela consolidada (censo + projeções)", expanded=False):
+        st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# NAVEGAÇÃO LATERAL
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
+    """Sidebar com busca + seleção de município, substituindo as abas no topo.
+
+    Retorna o nome da página escolhida: um município ou 'Comparativo'.
+    """
+    st.sidebar.markdown(f"### 📊 {TITULO_PAINEL}")
+
+    if st.sidebar.button("🔄 Recarregar dados", help="Limpa o cache após subir novos dados no GitHub",
+                          use_container_width=True):
+        st.cache_data.clear()
+        st.rerun()
+
+    st.sidebar.divider()
+    st.sidebar.markdown("**Navegar por**")
+
+    busca = st.sidebar.text_input(
+        "Buscar município",
+        placeholder="Digite para filtrar…",
+        label_visibility="collapsed",
+    )
+
+    opcoes = [n for n in nomes_municipios if busca.strip().lower() in n.lower()] if busca else list(nomes_municipios)
+
+    if "pagina_atual" not in st.session_state:
+        st.session_state["pagina_atual"] = nomes_municipios[0]
+
+    pagina_atual = st.session_state["pagina_atual"]
+    # Se a página atual não está mais entre as opções filtradas (ou é o comparativo),
+    # mantém a seleção lógica mas não força a exclusão da lista de radio.
+    lista_radio = opcoes + ["🔀 Comparativo entre municípios"]
+    default_idx = 0
+    if pagina_atual in lista_radio:
+        default_idx = lista_radio.index(pagina_atual)
+    elif pagina_atual == "Comparativo":
+        default_idx = len(lista_radio) - 1
+
+    escolha = st.sidebar.radio(
+        "Município",
+        options=lista_radio,
+        index=default_idx if lista_radio else 0,
+        label_visibility="collapsed",
+    )
+
+    pagina = "Comparativo" if escolha == "🔀 Comparativo entre municípios" else escolha
+    st.session_state["pagina_atual"] = pagina
+
+    st.sidebar.divider()
+    st.sidebar.caption(
+        "TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV."
+    )
+    st.sidebar.info(
+        "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama do "
+        "Censo. Parte das informações é estimada, podendo haver margem de "
+        "erro para mais ou para menos, dado o alto volume de dados "
+        "pesquisados e o tempo de atualização das bases.",
+        icon="ℹ️",
+    )
+    with st.sidebar.expander("➕ Como adicionar uma cidade"):
+        st.markdown(
+            "1. Rode o notebook coringa para o município.\n"
+            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
+            "(`indicadores_..._tratados.csv` e, se já gerado, "
+            "`projecoes_..._2030_2040.csv`).\n"
+            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+        )
+
+    return pagina
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -613,41 +805,14 @@ def main() -> None:
     )
     _css()
 
-    with st.sidebar:
-        st.markdown(f"### {TITULO_PAINEL}")
-        
-        if st.button("🔄 Recarregar Dados", help="Use para limpar o cache após subir novos dados no GitHub", use_container_width=True):
-            st.cache_data.clear()
-            st.rerun()
-        
-        st.caption("TCC — Projeções via MLP (sklearn), modelo por indicador escolhido via LOOCV")
-        st.info(
-            "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama "
-            "do Censo. Parte das informações é estimada, podendo haver "
-            "margem de erro para mais ou para menos, dado o alto volume de "
-            "dados pesquisados e o tempo de atualização das bases ao longo "
-            "do tempo.",
-            icon="ℹ️",
-        )
-        st.divider()
-        st.markdown(
-            "**Como adicionar uma cidade:**\n"
-            "1. Rode o notebook coringa para o município.\n"
-            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
-            "(`indicadores_..._tratados.csv` e, se já gerado, "
-            "`projecoes_..._2030_2040.csv`).\n"
-            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
-        )
+    nomes_municipios = [cfg["nome"] for cfg in MUNICIPIOS]
+    pagina = _sidebar_navegacao(nomes_municipios)
 
-    nomes_abas = [cfg["nome"] for cfg in MUNICIPIOS] + ["🔀 Comparativo"]
-    abas = st.tabs(nomes_abas)
-
-    for aba, cfg in zip(abas[:-1], MUNICIPIOS):
-        with aba:
-            render_municipio(cfg)
-
-    with abas[-1]:
+    if pagina == "Comparativo":
         render_comparativo(MUNICIPIOS)
+    else:
+        cfg = next((c for c in MUNICIPIOS if c["nome"] == pagina), MUNICIPIOS[0])
+        render_municipio(cfg)
 
 
 if __name__ == "__main__":
