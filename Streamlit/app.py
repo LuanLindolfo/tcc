@@ -26,7 +26,7 @@ TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
 
 # Caminho do logo (relativo à raiz do repositório). Basta colocar o arquivo
 # enviado dentro de uma pasta "assets/" no repositório com este mesmo nome.
-LOGO_ARQUIVO = "assets/logo_isaci_neon.webp"
+LOGO_ARQUIVO = "Streamlit/assets/logo_isaci_neon.webp"
 
 MUNICIPIOS = [
     {
