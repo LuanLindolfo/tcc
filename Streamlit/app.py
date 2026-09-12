@@ -24,8 +24,8 @@ from sklearn.preprocessing import StandardScaler
 
 TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
 
-# Caminho do logo (relativo à raiz do repositório). Basta colocar o arquivo
-# enviado dentro de uma pasta "assets/" no repositório com este mesmo nome.
+# Caminho do logo (relativo à raiz do repositório). 
+# IMPORTANTE: Verifique se o arquivo e a pasta existem com este nome exato!
 LOGO_ARQUIVO = "assets/logo_isaci_neon.webp"
 
 MUNICIPIOS = [
@@ -152,10 +152,23 @@ def _arquivo_projecoes(arquivo_historico: str) -> str:
 @st.cache_data(show_spinner=False)
 def _logo_base64() -> str | None:
     """Lê o logo em assets/ e devolve como base64 para embutir no HTML do painel."""
-    caminho = os.path.join(_raiz_repo(), LOGO_ARQUIVO)
-    if not os.path.exists(caminho):
+    # RESOLUÇÃO ROBUSTA DE CAMINHO: Tenta várias opções para encontrar o arquivo
+    caminho_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), LOGO_ARQUIVO)
+    caminho_repo = os.path.join(_raiz_repo(), LOGO_ARQUIVO)
+    caminho_cwd = os.path.join(os.getcwd(), LOGO_ARQUIVO)
+    
+    caminho_final = None
+    if os.path.exists(caminho_script):
+        caminho_final = caminho_script
+    elif os.path.exists(caminho_repo):
+        caminho_final = caminho_repo
+    elif os.path.exists(caminho_cwd):
+        caminho_final = caminho_cwd
+        
+    if not caminho_final:
         return None
-    with open(caminho, "rb") as f:
+        
+    with open(caminho_final, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
