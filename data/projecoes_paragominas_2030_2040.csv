@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Paragominas,dados_paragominas__anos_de_estudo_media,Anos de Estudo (Média),dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.1819855500903621,2030,10.620775003560066
+Paragominas,dados_paragominas__anos_de_estudo_media,Anos de Estudo (Média),dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.1819855500903621,2040,12.412922556765293
+Paragominas,dados_paragominas__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_paragominas,Grupo 1 — 4 censos,tanh,lbfgs,True,12.252002744269596,2030,301.52947210324317
+Paragominas,dados_paragominas__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_paragominas,Grupo 1 — 4 censos,tanh,lbfgs,True,12.252002744269596,2040,301.4348100232128
+Paragominas,dados_paragominas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_paragominas,Grupo 1 — 4 censos,relu,adam,True,1.9276232090241954,2030,43.25924786258052
+Paragominas,dados_paragominas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_paragominas,Grupo 1 — 4 censos,relu,adam,True,1.9276232090241954,2040,49.497404895193256
+Paragominas,dados_paragominas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325495,2030,10.177464558219928
+Paragominas,dados_paragominas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325495,2040,11.931131695510125
+Paragominas,dados_paragominas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.2112293271227802,2030,11.064085371548899
+Paragominas,dados_paragominas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.2112293271227802,2040,12.89471338917171
+Paragominas,dados_paragominas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.08082371405835942,2030,2.2966762117935806
+Paragominas,dados_paragominas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_paragominas,Grupo 1 — 4 censos,identity,lbfgs,True,0.08082371405835942,2040,1.6664516673649632
+Paragominas,dados_paragominas__populacao_total,População Total,dados_paragominas,Grupo 1 — 4 censos,tanh,lbfgs,True,3.6165333701261897,2030,106.48144266451382
+Paragominas,dados_paragominas__populacao_total,População Total,dados_paragominas,Grupo 1 — 4 censos,tanh,lbfgs,True,3.6165333701261897,2040,106.72323709842203
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_paragominas,Grupo 1 — 4 censos,logistic,lbfgs,True,3.129442157611983,2030,96.79138615778633
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_paragominas,Grupo 1 — 4 censos,logistic,lbfgs,True,3.129442157611983,2040,98.347734703552
+Paragominas,dados_paragominas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_paragominas,Grupo 1 — 4 censos,relu,adam,True,1.9086755256134946,2030,43.58192124422825
+Paragominas,dados_paragominas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_paragominas,Grupo 1 — 4 censos,relu,adam,True,1.9086755256134946,2040,49.83671106277748
+Paragominas,dados_paragominas__2_trabalhos,2 trabalhos,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.0108994442149628,2030,5.207566031552779
+Paragominas,dados_paragominas__2_trabalhos,2 trabalhos,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.0108994442149628,2040,5.204828839630178
+Paragominas,dados_paragominas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2030,0.7684325707834373
+Paragominas,dados_paragominas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2040,0.7678677444583979
+Paragominas,dados_paragominas__apenas_1_trabalho,Apenas 1 trabalho,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.2216756376093656,2030,94.03663718847777
+Paragominas,dados_paragominas__apenas_1_trabalho,Apenas 1 trabalho,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.2216756376093656,2040,94.0316590816298
+Paragominas,dados_paragominas__casais_com_filhos,Casais com filhos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.96089823963919,2030,36.35746162682287
+Paragominas,dados_paragominas__casais_com_filhos,Casais com filhos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.96089823963919,2040,28.145930367664196
+Paragominas,dados_paragominas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.502886266218959,2030,7.403506791123792
+Paragominas,dados_paragominas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.502886266218959,2040,7.402021470726366
+Paragominas,dados_paragominas__casais_sem_filhos,Casais sem filhos,dados_paragominas,Grupo 2 — 3 censos,identity,sgd,True,0.24221005601749912,2030,19.213094207762186
+Paragominas,dados_paragominas__casais_sem_filhos,Casais sem filhos,dados_paragominas,Grupo 2 — 3 censos,identity,sgd,True,0.24221005601749912,2040,22.931035184440802
+Paragominas,dados_paragominas__conta_propria,Conta própria,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.2237800645423285,2030,22.8164667021852
+Paragominas,dados_paragominas__conta_propria,Conta própria,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.2237800645423285,2040,27.049001781782096
+Paragominas,dados_paragominas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.4011121225387118,2030,28.260404749941742
+Paragominas,dados_paragominas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.4011121225387118,2040,32.90280789701178
+Paragominas,dados_paragominas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5164049894989032,2030,28.047558567141746
+Paragominas,dados_paragominas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5164049894989032,2040,31.616125461549228
+Paragominas,dados_paragominas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,4.547342559469553,2030,11.30041834042116
+Paragominas,dados_paragominas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,4.547342559469553,2040,3.9606241919749188
+Paragominas,dados_paragominas__empregador,Empregador,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,489.887761507759,2030,-3.3991017380634503
+Paragominas,dados_paragominas__empregador,Empregador,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,489.887761507759,2040,22.428324512799065
+Paragominas,dados_paragominas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,3.0124630262630916,2030,98.32365117368873
+Paragominas,dados_paragominas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,3.0124630262630916,2040,98.77679402137991
+Paragominas,dados_paragominas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,2.6625117365975846,2030,87.50311998168195
+Paragominas,dados_paragominas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,2.6625117365975846,2040,90.82046773593412
+Paragominas,dados_paragominas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_paragominas,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6474406140264874,2030,31.11228264990142
+Paragominas,dados_paragominas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_paragominas,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6474406140264874,2040,31.0093328156339
+Paragominas,dados_paragominas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.03909432637083271,2030,0.9782203599198889
+Paragominas,dados_paragominas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.03909432637083271,2040,1.146636686005039
+Paragominas,dados_paragominas__idade_mediana,Idade Mediana,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2030,33.247045767201875
+Paragominas,dados_paragominas__idade_mediana,Idade Mediana,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2040,37.34050854135682
+Paragominas,dados_paragominas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,407.3072445156877,2030,-2.845114582063161
+Paragominas,dados_paragominas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,407.3072445156877,2040,18.628709401654106
+Paragominas,dados_paragominas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251259953216115,2030,24.924578224989695
+Paragominas,dados_paragominas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251259953216115,2040,27.833958764543105
+Paragominas,dados_paragominas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.2680358057833943,2030,3.8353302924952994
+Paragominas,dados_paragominas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.2680358057833943,2040,3.8345345357058327
+Paragominas,dados_paragominas__media_populacao_amarela,Média: População Amarela,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790256,2030,11.779476059653208
+Paragominas,dados_paragominas__media_populacao_amarela,Média: População Amarela,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790256,2040,13.62714218236237
+Paragominas,dados_paragominas__media_populacao_branca,Média: População Branca,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5473163585856723,2030,11.30450235158244
+Paragominas,dados_paragominas__media_populacao_branca,Média: População Branca,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.5473163585856723,2040,13.061862841720135
+Paragominas,dados_paragominas__media_populacao_indigena,Média: População Indígena,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.2590586375370654,2030,8.315580619736721
+Paragominas,dados_paragominas__media_populacao_indigena,Média: População Indígena,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.2590586375370654,2040,9.76878382347714
+Paragominas,dados_paragominas__media_populacao_preta_parda,Média: População Preta / Parda,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.12127461939677087,2030,10.096436621136213
+Paragominas,dados_paragominas__media_populacao_preta_parda,Média: População Preta / Parda,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.12127461939677087,2040,11.814947973210254
+Paragominas,dados_paragominas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,414.6008722607792,2030,951.4901794628768
+Paragominas,dados_paragominas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,414.6008722607792,2040,995.5374046785896
+Paragominas,dados_paragominas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_paragominas,Grupo 2 — 3 censos,identity,sgd,True,0.03037080823305664,2030,3.7689744267520093
+Paragominas,dados_paragominas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_paragominas,Grupo 2 — 3 censos,identity,sgd,True,0.03037080823305664,2040,4.1027820913983355
+Paragominas,dados_paragominas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.0870458653203126,2030,1.3910034977274082
+Paragominas,dados_paragominas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.0870458653203126,2040,1.4967044532036482
+Paragominas,dados_paragominas__populacao_amarela,População Amarela,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,10.6766649284716,2030,187.30562829426356
+Paragominas,dados_paragominas__populacao_amarela,População Amarela,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,10.6766649284716,2040,123.84406798428179
+Paragominas,dados_paragominas__populacao_branca,População Branca,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.7284325488781132,2030,20.169684317071532
+Paragominas,dados_paragominas__populacao_branca,População Branca,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.7284325488781132,2040,20.165610131743087
+Paragominas,dados_paragominas__populacao_indigena,População Indígena,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,56.77106415292991,2030,434.8348944522822
+Paragominas,dados_paragominas__populacao_indigena,População Indígena,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,56.77106415292991,2040,437.21554835372666
+Paragominas,dados_paragominas__populacao_indigena_total,População Indígena Total,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,56.77106415292991,2030,434.8348944522822
+Paragominas,dados_paragominas__populacao_indigena_total,População Indígena Total,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,56.77106415292991,2040,437.21554835372666
+Paragominas,dados_paragominas__populacao_parda,População Parda,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,5.580763603684599,2030,80.57266948542905
+Paragominas,dados_paragominas__populacao_parda,População Parda,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,5.580763603684599,2040,84.87199145633893
+Paragominas,dados_paragominas__populacao_preta,População Preta,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.9919292211222516,2030,6.824139134280852
+Paragominas,dados_paragominas__populacao_preta,População Preta,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,0.9919292211222516,2040,6.821802186736231
+Paragominas,dados_paragominas__populacao_rural,População Rural,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.495819167678923,2030,18.11835421748185
+Paragominas,dados_paragominas__populacao_rural,População Rural,dados_paragominas,Grupo 2 — 3 censos,logistic,sgd,True,1.495819167678923,2040,18.114233843405945
+Paragominas,dados_paragominas__populacao_urbana,População Urbana,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,6.218433625067441,2030,91.17756890111238
+Paragominas,dados_paragominas__populacao_urbana,População Urbana,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,6.218433625067441,2040,95.68599861142732
+Paragominas,dados_paragominas__populacao_com_superior_completo,População com Superior Completo,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,2.567025388594653,2030,19.15181403630238
+Paragominas,dados_paragominas__populacao_com_superior_completo,População com Superior Completo,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,2.567025388594653,2040,25.146547233390596
+Paragominas,dados_paragominas__populacao_de_homens,População de Homens,dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,4.085915568006686,2030,54.24608406474063
+Paragominas,dados_paragominas__populacao_de_homens,População de Homens,dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,4.085915568006686,2040,54.99002828774402
+Paragominas,dados_paragominas__populacao_de_mulheres,População de Mulheres,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,4.506318901129059,2030,55.439250342796285
+Paragominas,dados_paragominas__populacao_de_mulheres,População de Mulheres,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,4.506318901129059,2040,57.7439541305681
+Paragominas,dados_paragominas__proporcao_na_populacao_de_paragominas,Proporção na população de Paragominas,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,0.12828725485341627,2030,0.4008443787578124
+Paragominas,dados_paragominas__proporcao_na_populacao_de_paragominas,Proporção na população de Paragominas,dados_paragominas,Grupo 2 — 3 censos,tanh,adam,True,0.12828725485341627,2040,0.40424380131823795
+Paragominas,dados_paragominas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,1.2341460719096062,2030,96.20162586296715
+Paragominas,dados_paragominas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,1.2341460719096062,2040,94.42675147730861
+Paragominas,dados_paragominas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083744549467392,2030,33.110237578105
+Paragominas,dados_paragominas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083744549467392,2040,25.805299815531
+Paragominas,dados_paragominas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830297302212139,2030,18.09655593811158
+Paragominas,dados_paragominas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830297302212139,2040,21.00868391113574
+Paragominas,dados_paragominas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.0206471513298574,2030,29.44248446150823
+Paragominas,dados_paragominas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.0206471513298574,2040,33.8516757396198
+Paragominas,dados_paragominas__responsavel_homem,Responsável Homem,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.21861191472810804,2030,2.8158674027562713
+Paragominas,dados_paragominas__responsavel_homem,Responsável Homem,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.21861191472810804,2040,2.427131508271337
+Paragominas,dados_paragominas__responsavel_mulher,Responsável Mulher,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Paragominas,dados_paragominas__responsavel_mulher,Responsável Mulher,dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Paragominas,dados_paragominas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Paragominas,dados_paragominas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Paragominas,dados_paragominas__setor_privado,Setor privado,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.47696232106283,2030,41.001355833939186
+Paragominas,dados_paragominas__setor_privado,Setor privado,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.47696232106283,2040,49.87214977670888
+Paragominas,dados_paragominas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.078518461252873,2030,28.84176577848404
+Paragominas,dados_paragominas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,1.078518461252873,2040,35.751838894875206
+Paragominas,dados_paragominas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.6015561401900408,2030,12.160614154824763
+Paragominas,dados_paragominas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.6015561401900408,2040,14.12243147764066
+Paragominas,dados_paragominas__setor_publico,Setor público,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.50134444778057,2030,12.894295527841233
+Paragominas,dados_paragominas__setor_publico,Setor público,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.50134444778057,2040,15.874560636695914
+Paragominas,dados_paragominas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,19.697247081348774,2030,1236.7946075120574
+Paragominas,dados_paragominas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,19.697247081348774,2040,1553.4044993283132
+Paragominas,dados_paragominas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.4816472006992196,2030,11.657513225610423
+Paragominas,dados_paragominas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_paragominas,Grupo 2 — 3 censos,identity,adam,True,0.4816472006992196,2040,14.321181640723982
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830251643516405,2030,75.0960506347223
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_paragominas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830251643516405,2040,88.0083155691996
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,1.6667932158643357,2030,99.29503170077093
+Paragominas,dados_paragominas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,1.6667932158643357,2040,100.31650620850824
+Paragominas,dados_paragominas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,3.0124630262630916,2030,98.32365117368873
+Paragominas,dados_paragominas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_paragominas,Grupo 2 — 3 censos,logistic,adam,True,3.0124630262630916,2040,98.77679402137991
+Paragominas,dados_paragominas__trabalhador_domestico,Trabalhador doméstico,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.3999937299126346,2030,3.9849581976778796
+Paragominas,dados_paragominas__trabalhador_domestico,Trabalhador doméstico,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,0.3999937299126346,2040,4.1841719209128225
+Paragominas,dados_paragominas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,160.62647655261682,2030,1000.6078436100265
+Paragominas,dados_paragominas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_paragominas,Grupo 2 — 3 censos,relu,adam,True,160.62647655261682,2040,1092.5435267105509
+Paragominas,dados_paragominas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_paragominas,Grupo 2 — 3 censos,logistic,lbfgs,True,0.2365617937406023,2030,2.9209258206075135
+Paragominas,dados_paragominas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_paragominas,Grupo 2 — 3 censos,logistic,lbfgs,True,0.2365617937406023,2040,2.935239583521452
+Paragominas,dados_paragominas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_paragominas,Grupo 2 — 3 censos,relu,lbfgs,True,6.908256356209942,2030,42.009387461993114
+Paragominas,dados_paragominas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_paragominas,Grupo 2 — 3 censos,relu,lbfgs,True,6.908256356209942,2040,52.961622896740735
+Paragominas,dados_paragominas__a_pe,A pé,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.285264407850168
+Paragominas,dados_paragominas__a_pe,A pé,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.570468181937866
+Paragominas,dados_paragominas__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.36823208014364
+Paragominas,dados_paragominas__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.68511550692547
+Paragominas,dados_paragominas__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.14952683080879
+Paragominas,dados_paragominas__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.803844456934996
+Paragominas,dados_paragominas__automovel_carro,Automóvel (Carro),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.049311348776904
+Paragominas,dados_paragominas__automovel_carro,Automóvel (Carro),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.316514664117747
+Paragominas,dados_paragominas__bicicleta,Bicicleta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.955483093649011
+Paragominas,dados_paragominas__bicicleta,Bicicleta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.881615077768796
+Paragominas,dados_paragominas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.17689092798544
+Paragominas,dados_paragominas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.17504369135048
+Paragominas,dados_paragominas__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.43199365309329
+Paragominas,dados_paragominas__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.33665829526768
+Paragominas,dados_paragominas__com_coleta_de_lixo,Com Coleta de Lixo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.7653646086328
+Paragominas,dados_paragominas__com_coleta_de_lixo,Com Coleta de Lixo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.0402872622999
+Paragominas,dados_paragominas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7840596067625865
+Paragominas,dados_paragominas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8871143029144432
+Paragominas,dados_paragominas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.80031012990149
+Paragominas,dados_paragominas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.72978946804481
+Paragominas,dados_paragominas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.520298033812932
+Paragominas,dados_paragominas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.035571514572216
+Paragominas,dados_paragominas__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.217430562302077
+Paragominas,dados_paragominas__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.690743269946633
+Paragominas,dados_paragominas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.655102725107852
+Paragominas,dados_paragominas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.56161460391721
+Paragominas,dados_paragominas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.840437371597684
+Paragominas,dados_paragominas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.122293791661857
+Paragominas,dados_paragominas__estuda_em_outro_municipio,Estuda em outro município,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.614506657481986
+Paragominas,dados_paragominas__estuda_em_outro_municipio,Estuda em outro município,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.4904715747727675
+Paragominas,dados_paragominas__estuda_no_proprio_municipio_paragominas,Estuda no próprio município (Paragominas),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.93291451057202
+Paragominas,dados_paragominas__estuda_no_proprio_municipio_paragominas,Estuda no próprio município (Paragominas),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.39263314860838
+Paragominas,dados_paragominas__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.51605325985588
+Paragominas,dados_paragominas__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,67.52377259818213
+Paragominas,dados_paragominas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.179308145009934
+Paragominas,dados_paragominas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.192697561104049
+Paragominas,dados_paragominas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.6493113487769
+Paragominas,dados_paragominas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.91651466411774
+Paragominas,dados_paragominas__idade_mediana_2,Idade Mediana,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.68119213525173
+Paragominas,dados_paragominas__idade_mediana_2,Idade Mediana,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.742286058288865
+Paragominas,dados_paragominas__mais_de_1_hora,Mais de 1 hora,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.624655674388451
+Paragominas,dados_paragominas__mais_de_1_hora,Mais de 1 hora,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.758257332058875
+Paragominas,dados_paragominas__motocicleta,Motocicleta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.14208623669053
+Paragominas,dados_paragominas__motocicleta,Motocicleta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.749000602005516
+Paragominas,dados_paragominas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.36739561932947
+Paragominas,dados_paragominas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.83715631943642
+Paragominas,dados_paragominas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.681192135251731
+Paragominas,dados_paragominas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.742286058288865
+Paragominas,dados_paragominas__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.492774887913622
+Paragominas,dados_paragominas__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.83248593788776
+Paragominas,dados_paragominas__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.84357640575519
+Paragominas,dados_paragominas__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.02685817486659
+Paragominas,dados_paragominas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.316002469877574
+Paragominas,dados_paragominas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.12387349268868
+Paragominas,dados_paragominas__populacao_amarela_2,População Amarela,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.40596067625866
+Paragominas,dados_paragominas__populacao_amarela_2,População Amarela,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.71143029144432
+Paragominas,dados_paragominas__populacao_branca_2,População Branca,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-669.5523385292458
+Paragominas,dados_paragominas__populacao_branca_2,População Branca,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1555.7396294171247
+Paragominas,dados_paragominas__populacao_indigena_2,População Indígena,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,176.2327837194226
+Paragominas,dados_paragominas__populacao_indigena_2,População Indígena,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,232.91286660294378
+Paragominas,dados_paragominas__populacao_parda_2,População Parda,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.206277930366811
+Paragominas,dados_paragominas__populacao_parda_2,População Parda,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.107267627041576
+Paragominas,dados_paragominas__populacao_preta_2,População Preta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-402.8885701976707
+Paragominas,dados_paragominas__populacao_preta_2,População Preta,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-936.2970663242778
+Paragominas,dados_paragominas__populacao_residente_em_favelas,População Residente em Favelas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.316002469877574
+Paragominas,dados_paragominas__populacao_residente_em_favelas,População Residente em Favelas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.12387349268868
+Paragominas,dados_paragominas__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.229013314963971
+Paragominas,dados_paragominas__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.980943149545535
+Paragominas,dados_paragominas__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.97178528398426
+Paragominas,dados_paragominas__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.16303691805055
+Paragominas,dados_paragominas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,935.1056353047964
+Paragominas,dados_paragominas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1110.2736285461133
+Paragominas,dados_paragominas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Paragominas,dados_paragominas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Paragominas,dados_paragominas__ruas_sem_arvores,Ruas Sem Árvores,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.20871528115104
+Paragominas,dados_paragominas__ruas_sem_arvores,Ruas Sem Árvores,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.44537163497333
+Paragominas,dados_paragominas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.15234989727814
+Paragominas,dados_paragominas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.97783503332947
+Paragominas,dados_paragominas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.753668989352423
+Paragominas,dados_paragominas__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.604414073884755
+Paragominas,dados_paragominas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.639200481604412
+Paragominas,dados_paragominas__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.778129268034945
+Paragominas,dados_paragominas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.85808306323716
+Paragominas,dados_paragominas__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.15080151784157
+Paragominas,dados_paragominas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.91732974963935
+Paragominas,dados_paragominas__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.99437223697885
+Paragominas,dados_paragominas__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.062327837194226
+Paragominas,dados_paragominas__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.629128666029438
+Paragominas,dados_paragominas__sem_conjuge,Sem cônjuge,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.631937219784064
+Paragominas,dados_paragominas__sem_conjuge,Sem cônjuge,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.9812148447194
+Paragominas,dados_paragominas__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.4956987927337
+Paragominas,dados_paragominas__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.43275763306161
+Paragominas,dados_paragominas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.162339123856073
+Paragominas,dados_paragominas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.4402173561390965
+Paragominas,dados_paragominas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.234804691294922
+Paragominas,dados_paragominas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.62604308934499
+Paragominas,dados_paragominas__trabalha_em_outro_municipio,Trabalha em outro município,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.144953708201387
+Paragominas,dados_paragominas__trabalha_em_outro_municipio,Trabalha em outro município,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.793828846631095
+Paragominas,dados_paragominas__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.00313319637085
+Paragominas,dados_paragominas__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.1037800444393
+Paragominas,dados_paragominas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.142086236690528
+Paragominas,dados_paragominas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.749000602005516
+Paragominas,dados_paragominas__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.788530113956575
+Paragominas,dados_paragominas__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.62068702149767
+Paragominas,dados_paragominas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Paragominas,dados_paragominas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Paragominas,dados_paragominas__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.095755226042954
+Paragominas,dados_paragominas__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.588201083609924
+Paragominas,dados_paragominas__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.2783810970501
+Paragominas,dados_paragominas__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.85290126421157
+Paragominas,dados_paragominas__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.26674191107898
+Paragominas,dados_paragominas__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.007257934064384
+Paragominas,dados_paragominas__onibus,Ônibus,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.344827036252484
+Paragominas,dados_paragominas__onibus,Ônibus,dados_paragominas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.348174390276014
