@@ -904,12 +904,12 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
         "erro para mais ou para menos.",
         icon="ℹ️",
     )
-    with st.sidebar.expander("➕ Como adicionar uma cidade"):
-        st.markdown(
-            "1. Rode o notebook coringa para o município.\n"
-            "2. Faça push da pasta `data_<cidade>/` com os CSVs.\n"
-            "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
-        )
+    #with st.sidebar.expander("➕ Como adicionar uma cidade"):
+        #st.markdown(
+         #   "1. Rode o notebook coringa para o município.\n"
+          #  "2. Faça push da pasta `data_<cidade>/` com os CSVs.\n"
+         #   "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
+       # )
 
     return pagina
 
