@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Brangança,dados_bragança__populacao_total,População Total,dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.554778199617477,1991,85.087,Valor
+Brangança,dados_bragança__populacao_total,População Total,dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.554778199617477,2000,98.243,Valor
+Brangança,dados_bragança__populacao_total,População Total,dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.554778199617477,2010,113.227,Valor
+Brangança,dados_bragança__populacao_total,População Total,dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.554778199617477,2022,123.744,Valor
+Brangança,dados_bragança__populacao_urbana,População Urbana,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.845214706644858,2000,58.42,Valor
+Brangança,dados_bragança__populacao_urbana,População Urbana,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.845214706644858,2010,71.82,Valor
+Brangança,dados_bragança__populacao_urbana,População Urbana,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.845214706644858,2022,82.41,Valor
+Brangança,dados_bragança__populacao_rural,População Rural,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9188964717530084,2000,39.823,Valor
+Brangança,dados_bragança__populacao_rural,População Rural,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9188964717530084,2010,41.407,Valor
+Brangança,dados_bragança__populacao_rural,População Rural,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9188964717530084,2022,41.334,Valor
+Brangança,dados_bragança__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.42,Valor
+Brangança,dados_bragança__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.82,Valor
+Brangança,dados_bragança__populacao_de_mulheres,População de Mulheres,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.306313070441869,2000,48.91,Valor
+Brangança,dados_bragança__populacao_de_mulheres,População de Mulheres,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.306313070441869,2010,56.91,Valor
+Brangança,dados_bragança__populacao_de_mulheres,População de Mulheres,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.306313070441869,2022,62.82,Valor
+Brangança,dados_bragança__populacao_de_homens,População de Homens,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.0276946641370373,2000,49.333,Valor
+Brangança,dados_bragança__populacao_de_homens,População de Homens,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.0276946641370373,2010,56.317,Valor
+Brangança,dados_bragança__populacao_de_homens,População de Homens,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.0276946641370373,2022,60.924,Valor
+Brangança,dados_bragança__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353297778478483,2000,100.9,Valor
+Brangança,dados_bragança__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353297778478483,2010,99.0,Valor
+Brangança,dados_bragança__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353297778478483,2022,97.0,Valor
+Brangança,dados_bragança__idade_mediana,Idade Mediana,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,21.0,Valor
+Brangança,dados_bragança__idade_mediana,Idade Mediana,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,25.0,Valor
+Brangança,dados_bragança__idade_mediana,Idade Mediana,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,31.0,Valor
+Brangança,dados_bragança__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bragança,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.328410837731539,2000,10.4,Valor
+Brangança,dados_bragança__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bragança,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.328410837731539,2010,16.8,Valor
+Brangança,dados_bragança__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bragança,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.328410837731539,2022,34.2,Valor
+Brangança,dados_bragança__populacao_parda,População Parda,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.677529328682809,2000,68.42,Valor
+Brangança,dados_bragança__populacao_parda,População Parda,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.677529328682809,2010,81.24,Valor
+Brangança,dados_bragança__populacao_parda,População Parda,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,3.677529328682809,2022,91.42,Valor
+Brangança,dados_bragança__populacao_branca,População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.17101783179931473,2000,21.82,Valor
+Brangança,dados_bragança__populacao_branca,População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.17101783179931473,2010,22.41,Valor
+Brangança,dados_bragança__populacao_branca,População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.17101783179931473,2022,22.81,Valor
+Brangança,dados_bragança__populacao_preta,População Preta,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9810976865411881,2000,7.21,Valor
+Brangança,dados_bragança__populacao_preta,População Preta,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9810976865411881,2010,8.91,Valor
+Brangança,dados_bragança__populacao_preta,População Preta,dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.9810976865411881,2022,8.84,Valor
+Brangança,dados_bragança__populacao_amarela,População Amarela,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,59.432848403470096,2000,380.0,Valor
+Brangança,dados_bragança__populacao_amarela,População Amarela,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,59.432848403470096,2010,420.0,Valor
+Brangança,dados_bragança__populacao_amarela,População Amarela,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,59.432848403470096,2022,310.0,Valor
+Brangança,dados_bragança__populacao_indigena,População Indígena,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2000,413.0,Valor
+Brangança,dados_bragança__populacao_indigena,População Indígena,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2010,247.0,Valor
+Brangança,dados_bragança__populacao_indigena,População Indígena,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2022,364.0,Valor
+Brangança,dados_bragança__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,133.57696523425372,2000,268.4,Valor
+Brangança,dados_bragança__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,133.57696523425372,2010,512.1,Valor
+Brangança,dados_bragança__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,133.57696523425372,2022,980.0,Valor
+Brangança,dados_bragança__apenas_1_trabalho,Apenas 1 trabalho,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.320728402935842,2000,94.8,Valor
+Brangança,dados_bragança__apenas_1_trabalho,Apenas 1 trabalho,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.320728402935842,2010,95.4,Valor
+Brangança,dados_bragança__apenas_1_trabalho,Apenas 1 trabalho,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.320728402935842,2022,93.1,Valor
+Brangança,dados_bragança__2_trabalhos,2 trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1786377617591937,2000,4.5,Valor
+Brangança,dados_bragança__2_trabalhos,2 trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1786377617591937,2010,4.0,Valor
+Brangança,dados_bragança__2_trabalhos,2 trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1786377617591937,2022,6.0,Valor
+Brangança,dados_bragança__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2000,0.7,Valor
+Brangança,dados_bragança__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2010,0.6,Valor
+Brangança,dados_bragança__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2022,0.9,Valor
+Brangança,dados_bragança__setor_privado,Setor privado,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338369718778075,2000,13.82,Valor
+Brangança,dados_bragança__setor_privado,Setor privado,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338369718778075,2010,21.42,Valor
+Brangança,dados_bragança__setor_privado,Setor privado,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338369718778075,2022,31.24,Valor
+Brangança,dados_bragança__conta_propria,Conta própria,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4458636020227829,2000,12.41,Valor
+Brangança,dados_bragança__conta_propria,Conta própria,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4458636020227829,2010,17.82,Valor
+Brangança,dados_bragança__conta_propria,Conta própria,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4458636020227829,2022,22.41,Valor
+Brangança,dados_bragança__setor_publico,Setor público,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.556049740784133,2000,4.21,Valor
+Brangança,dados_bragança__setor_publico,Setor público,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.556049740784133,2010,7.82,Valor
+Brangança,dados_bragança__setor_publico,Setor público,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.556049740784133,2022,11.42,Valor
+Brangança,dados_bragança__trabalhador_domestico,Trabalhador doméstico,dados_bragança,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.47626567559778366,2000,2.64,Valor
+Brangança,dados_bragança__trabalhador_domestico,Trabalhador doméstico,dados_bragança,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.47626567559778366,2010,3.81,Valor
+Brangança,dados_bragança__trabalhador_domestico,Trabalhador doméstico,dados_bragança,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.47626567559778366,2022,4.21,Valor
+Brangança,dados_bragança__empregador,Empregador,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,429.38138894994023,2000,780.0,Valor
+Brangança,dados_bragança__empregador,Empregador,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,429.38138894994023,2010,1.54,Valor
+Brangança,dados_bragança__empregador,Empregador,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,429.38138894994023,2022,2.28,Valor
+Brangança,dados_bragança__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.42174052819090035,2000,3.41,Valor
+Brangança,dados_bragança__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.42174052819090035,2010,1.92,Valor
+Brangança,dados_bragança__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.42174052819090035,2022,1.08,Valor
+Brangança,dados_bragança__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,462.3637072954895,2000,840.0,Valor
+Brangança,dados_bragança__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,462.3637072954895,2010,1.68,Valor
+Brangança,dados_bragança__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bragança,Grupo 2 — 3 censos,3,tanh,adam,True,462.3637072954895,2022,2.41,Valor
+Brangança,dados_bragança__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4393125282353783,2000,6.24,Valor
+Brangança,dados_bragança__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4393125282353783,2010,13.41,Valor
+Brangança,dados_bragança__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.4393125282353783,2022,20.12,Valor
+Brangança,dados_bragança__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,sgd,True,1.396525869090769,2000,7.58,Valor
+Brangança,dados_bragança__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,sgd,True,1.396525869090769,2010,8.01,Valor
+Brangança,dados_bragança__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,sgd,True,1.396525869090769,2022,11.12,Valor
+Brangança,dados_bragança__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,352.45301090947464,2000,310.0,Valor
+Brangança,dados_bragança__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,352.45301090947464,2010,680.0,Valor
+Brangança,dados_bragança__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,352.45301090947464,2022,1.02,Valor
+Brangança,dados_bragança__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.47701049533620443,2000,3.9,Valor
+Brangança,dados_bragança__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.47701049533620443,2010,7.14,Valor
+Brangança,dados_bragança__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.47701049533620443,2022,10.4,Valor
+Brangança,dados_bragança__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,140.43239598396622,2000,280.0,Valor
+Brangança,dados_bragança__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,140.43239598396622,2010,690.0,Valor
+Brangança,dados_bragança__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,140.43239598396622,2022,880.0,Valor
+Brangança,dados_bragança__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,0.33807777999277144,2000,2.36,Valor
+Brangança,dados_bragança__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,0.33807777999277144,2010,3.12,Valor
+Brangança,dados_bragança__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,0.33807777999277144,2022,3.33,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3867226222208977,1991,73.2,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3867226222208977,2000,83.1,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3867226222208977,2010,90.4,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bragança,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3867226222208977,2022,95.1,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,1.6726090600563357,2000,92.4,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,1.6726090600563357,2010,96.8,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,1.6726090600563357,2022,98.6,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.7878898832539439,2000,38.2,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.7878898832539439,2010,51.4,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.7878898832539439,2022,66.2,Valor
+Brangança,dados_bragança__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2000,89.2,Valor
+Brangança,dados_bragança__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2010,95.4,Valor
+Brangança,dados_bragança__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2022,97.2,Valor
+Brangança,dados_bragança__populacao_com_superior_completo,População com Superior Completo,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,2.953619947910852,2000,1.82,Valor
+Brangança,dados_bragança__populacao_com_superior_completo,População com Superior Completo,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,2.953619947910852,2010,6.42,Valor
+Brangança,dados_bragança__populacao_com_superior_completo,População com Superior Completo,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,2.953619947910852,2022,15.82,Valor
+Brangança,dados_bragança__anos_de_estudo_media,Anos de Estudo (Média),dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.1289930808294163,1991,3.9,Valor
+Brangança,dados_bragança__anos_de_estudo_media,Anos de Estudo (Média),dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.1289930808294163,2000,5.5,Valor
+Brangança,dados_bragança__anos_de_estudo_media,Anos de Estudo (Média),dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.1289930808294163,2010,7.3,Valor
+Brangança,dados_bragança__anos_de_estudo_media,Anos de Estudo (Média),dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.1289930808294163,2022,9.2,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1527416250432545,1991,4.2,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1527416250432545,2000,5.8,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1527416250432545,2010,7.7,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1527416250432545,2022,9.6,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.12008233985888106,1991,3.6,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.12008233985888106,2000,5.2,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.12008233985888106,2010,6.9,Valor
+Brangança,dados_bragança__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bragança,Grupo 1 — 4 censos,4,identity,adam,True,0.12008233985888106,2022,8.8,Valor
+Brangança,dados_bragança__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.047881065161135015,1991,0.338,Valor
+Brangança,dados_bragança__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.047881065161135015,2000,0.512,Valor
+Brangança,dados_bragança__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.047881065161135015,2010,0.642,Valor
+Brangança,dados_bragança__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2000,89.2,Valor
+Brangança,dados_bragança__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2010,95.4,Valor
+Brangança,dados_bragança__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bragança,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2022,97.2,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.63694384810348,2000,70.1,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.63694384810348,2010,79.2,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,2.63694384810348,2022,85.4,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.8687729682107275,2000,25.4,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.8687729682107275,2010,31.2,Valor
+Brangança,dados_bragança__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bragança,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.8687729682107275,2022,31.8,Valor
+Brangança,dados_bragança__media_populacao_amarela,Média: População Amarela,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172817,2000,6.4,Valor
+Brangança,dados_bragança__media_populacao_amarela,Média: População Amarela,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172817,2010,8.6,Valor
+Brangança,dados_bragança__media_populacao_amarela,Média: População Amarela,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172817,2022,10.4,Valor
+Brangança,dados_bragança__media_populacao_branca,Média: População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636794,2000,6.2,Valor
+Brangança,dados_bragança__media_populacao_branca,Média: População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636794,2010,8.3,Valor
+Brangança,dados_bragança__media_populacao_branca,Média: População Branca,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636794,2022,10.0,Valor
+Brangança,dados_bragança__media_populacao_preta_parda,Média: População Preta / Parda,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2000,5.2,Valor
+Brangança,dados_bragança__media_populacao_preta_parda,Média: População Preta / Parda,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2010,7.0,Valor
+Brangança,dados_bragança__media_populacao_preta_parda,Média: População Preta / Parda,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2022,8.9,Valor
+Brangança,dados_bragança__media_populacao_indigena,Média: População Indígena,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.18296564329529522,2000,4.3,Valor
+Brangança,dados_bragança__media_populacao_indigena,Média: População Indígena,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.18296564329529522,2010,5.6,Valor
+Brangança,dados_bragança__media_populacao_indigena,Média: População Indígena,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.18296564329529522,2022,7.4,Valor
+Brangança,dados_bragança__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Brangança,dados_bragança__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Brangança,dados_bragança__populacao_residente_em_favelas,População Residente em Favelas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.42,Valor
+Brangança,dados_bragança__populacao_residente_em_favelas,População Residente em Favelas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.82,Valor
+Brangança,dados_bragança__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.98,Valor
+Brangança,dados_bragança__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.82,Valor
+Brangança,dados_bragança__idade_mediana_2,Idade Mediana,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Brangança,dados_bragança__idade_mediana_2,Idade Mediana,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.0,Valor
+Brangança,dados_bragança__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Brangança,dados_bragança__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.2,Valor
+Brangança,dados_bragança__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,100.2,Valor
+Brangança,dados_bragança__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,97.4,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.2,Valor
+Brangança,dados_bragança__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.4,Valor
+Brangança,dados_bragança__populacao_parda_2,População Parda,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.42,Valor
+Brangança,dados_bragança__populacao_parda_2,População Parda,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.82,Valor
+Brangança,dados_bragança__populacao_branca_2,População Branca,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.12,Valor
+Brangança,dados_bragança__populacao_branca_2,População Branca,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.21,Valor
+Brangança,dados_bragança__populacao_preta_2,População Preta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,780.0,Valor
+Brangança,dados_bragança__populacao_preta_2,População Preta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.54,Valor
+Brangança,dados_bragança__populacao_amarela_2,População Amarela,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+Brangança,dados_bragança__populacao_amarela_2,População Amarela,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,50.0,Valor
+Brangança,dados_bragança__populacao_indigena_2,População Indígena,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.0,Valor
+Brangança,dados_bragança__populacao_indigena_2,População Indígena,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,200.0,Valor
+Brangança,dados_bragança__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Brangança,dados_bragança__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Brangança,dados_bragança__com_coleta_de_lixo,Com Coleta de Lixo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.4,Valor
+Brangança,dados_bragança__com_coleta_de_lixo,Com Coleta de Lixo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.4,Valor
+Brangança,dados_bragança__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Brangança,dados_bragança__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Brangança,dados_bragança__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Brangança,dados_bragança__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Brangança,dados_bragança__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Brangança,dados_bragança__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.1,Valor
+Brangança,dados_bragança__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Brangança,dados_bragança__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.8,Valor
+Brangança,dados_bragança__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Brangança,dados_bragança__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Brangança,dados_bragança__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Brangança,dados_bragança__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Brangança,dados_bragança__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Brangança,dados_bragança__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Brangança,dados_bragança__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,84.2,Valor
+Brangança,dados_bragança__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Brangança,dados_bragança__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Brangança,dados_bragança__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Brangança,dados_bragança__casais_com_filhos,Casais com filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185776601078231,2000,60.2,Valor
+Brangança,dados_bragança__casais_com_filhos,Casais com filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185776601078231,2010,51.8,Valor
+Brangança,dados_bragança__casais_com_filhos,Casais com filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185776601078231,2022,42.4,Valor
+Brangança,dados_bragança__casais_sem_filhos,Casais sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925244,2000,8.8,Valor
+Brangança,dados_bragança__casais_sem_filhos,Casais sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925244,2010,12.2,Valor
+Brangança,dados_bragança__casais_sem_filhos,Casais sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925244,2022,16.8,Valor
+Brangança,dados_bragança__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0753027085916654,2000,16.4,Valor
+Brangança,dados_bragança__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0753027085916654,2010,19.4,Valor
+Brangança,dados_bragança__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0753027085916654,2022,22.9,Valor
+Brangança,dados_bragança__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2000,2.6,Valor
+Brangança,dados_bragança__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2010,3.0,Valor
+Brangança,dados_bragança__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2022,3.4,Valor
+Brangança,dados_bragança__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5369226259003727,2000,7.2,Valor
+Brangança,dados_bragança__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5369226259003727,2010,8.1,Valor
+Brangança,dados_bragança__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5369226259003727,2022,7.4,Valor
+Brangança,dados_bragança__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3020721654648087,2000,3.8,Valor
+Brangança,dados_bragança__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3020721654648087,2010,4.3,Valor
+Brangança,dados_bragança__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3020721654648087,2022,3.9,Valor
+Brangança,dados_bragança__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031262,2000,0.7,Valor
+Brangança,dados_bragança__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031262,2010,1.0,Valor
+Brangança,dados_bragança__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031262,2022,1.2,Valor
+Brangança,dados_bragança__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Brangança,dados_bragança__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.6,Valor
+Brangança,dados_bragança__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Brangança,dados_bragança__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Brangança,dados_bragança__trabalha_em_outro_municipio,Trabalha em outro município,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Brangança,dados_bragança__trabalha_em_outro_municipio,Trabalha em outro município,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Brangança,dados_bragança__motocicleta,Motocicleta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.8,Valor
+Brangança,dados_bragança__motocicleta,Motocicleta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.4,Valor
+Brangança,dados_bragança__bicicleta,Bicicleta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.1,Valor
+Brangança,dados_bragança__bicicleta,Bicicleta,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Brangança,dados_bragança__automovel_carro,Automóvel (Carro),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Brangança,dados_bragança__automovel_carro,Automóvel (Carro),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Brangança,dados_bragança__a_pe,A pé,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.8,Valor
+Brangança,dados_bragança__a_pe,A pé,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Brangança,dados_bragança__onibus,Ônibus,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.9,Valor
+Brangança,dados_bragança__onibus,Ônibus,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Brangança,dados_bragança__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Brangança,dados_bragança__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Brangança,dados_bragança__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.1,Valor
+Brangança,dados_bragança__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.8,Valor
+Brangança,dados_bragança__mais_de_1_hora,Mais de 1 hora,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.7,Valor
+Brangança,dados_bragança__mais_de_1_hora,Mais de 1 hora,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Brangança,dados_bragança__estuda_no_proprio_municipio_braganca,Estuda no próprio município (Bragança),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.4,Valor
+Brangança,dados_bragança__estuda_no_proprio_municipio_braganca,Estuda no próprio município (Bragança),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.8,Valor
+Brangança,dados_bragança__estuda_em_outro_municipio,Estuda em outro município,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.6,Valor
+Brangança,dados_bragança__estuda_em_outro_municipio,Estuda em outro município,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Brangança,dados_bragança__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bragança,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.8317058095112255,1991,18.24,Valor
+Brangança,dados_bragança__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bragança,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.8317058095112255,2000,23.41,Valor
+Brangança,dados_bragança__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bragança,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.8317058095112255,2010,31.24,Valor
+Brangança,dados_bragança__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bragança,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.8317058095112255,2022,44.82,Valor
+Brangança,dados_bragança__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bragança,Grupo 1 — 4 censos,4,relu,adam,True,2.8470007433469435,1991,18.01,Valor
+Brangança,dados_bragança__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bragança,Grupo 1 — 4 censos,4,relu,adam,True,2.8470007433469435,2000,23.21,Valor
+Brangança,dados_bragança__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bragança,Grupo 1 — 4 censos,4,relu,adam,True,2.8470007433469435,2010,30.98,Valor
+Brangança,dados_bragança__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bragança,Grupo 1 — 4 censos,4,relu,adam,True,2.8470007433469435,2022,44.51,Valor
+Brangança,dados_bragança__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bragança,Grupo 1 — 4 censos,4,relu,sgd,True,24.70302519163014,1991,230.0,Valor
+Brangança,dados_bragança__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bragança,Grupo 1 — 4 censos,4,relu,sgd,True,24.70302519163014,2000,200.0,Valor
+Brangança,dados_bragança__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bragança,Grupo 1 — 4 censos,4,relu,sgd,True,24.70302519163014,2010,260.0,Valor
+Brangança,dados_bragança__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bragança,Grupo 1 — 4 censos,4,relu,sgd,True,24.70302519163014,2022,310.0,Valor
+Brangança,dados_bragança__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447727,1991,4.7,Valor
+Brangança,dados_bragança__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447727,2000,4.2,Valor
+Brangança,dados_bragança__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447727,2010,3.6,Valor
+Brangança,dados_bragança__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bragança,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447727,2022,2.9,Valor
+Brangança,dados_bragança__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Brangança,dados_bragança__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.4,Valor
+Brangança,dados_bragança__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Brangança,dados_bragança__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Brangança,dados_bragança__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Brangança,dados_bragança__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.1,Valor
+Brangança,dados_bragança__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Brangança,dados_bragança__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.8,Valor
+Brangança,dados_bragança__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Brangança,dados_bragança__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Brangança,dados_bragança__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.1,Valor
+Brangança,dados_bragança__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.4,Valor
+Brangança,dados_bragança__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Brangança,dados_bragança__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.1,Valor
+Brangança,dados_bragança__ruas_sem_arvores,Ruas Sem Árvores,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.8,Valor
+Brangança,dados_bragança__ruas_sem_arvores,Ruas Sem Árvores,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.9,Valor
+Brangança,dados_bragança__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Brangança,dados_bragança__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Brangança,dados_bragança__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Brangança,dados_bragança__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.1,Valor
+Brangança,dados_bragança__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Brangança,dados_bragança__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Brangança,dados_bragança__populacao_indigena_total,População Indígena Total,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2000,413.0,Valor
+Brangança,dados_bragança__populacao_indigena_total,População Indígena Total,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2010,247.0,Valor
+Brangança,dados_bragança__populacao_indigena_total,População Indígena Total,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,94.20356191818684,2022,364.0,Valor
+Brangança,dados_bragança__proporcao_na_populacao_de_braganca,Proporção na população de Bragança,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10975227037820069,2000,0.42,Valor
+Brangança,dados_bragança__proporcao_na_populacao_de_braganca,Proporção na população de Bragança,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10975227037820069,2010,0.22,Valor
+Brangança,dados_bragança__proporcao_na_populacao_de_braganca,Proporção na população de Bragança,dados_bragança,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10975227037820069,2022,0.29,Valor
+Brangança,dados_bragança__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Brangança,dados_bragança__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Brangança,dados_bragança__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Brangança,dados_bragança__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Brangança,dados_bragança__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Brangança,dados_bragança__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.9,Valor
+Brangança,dados_bragança__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Brangança,dados_bragança__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.1,Valor
+Brangança,dados_bragança__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2000,16.9,Valor
+Brangança,dados_bragança__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2010,20.8,Valor
+Brangança,dados_bragança__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2022,26.8,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5033256024232173,2000,54.9,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5033256024232173,2010,47.1,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5033256024232173,2022,38.4,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2000,9.8,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2010,12.4,Valor
+Brangança,dados_bragança__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bragança,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2022,15.8,Valor
+Brangança,dados_bragança__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.2,Valor
+Brangança,dados_bragança__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Brangança,dados_bragança__sem_conjuge,Sem cônjuge,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.3,Valor
+Brangança,dados_bragança__sem_conjuge,Sem cônjuge,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.5,Valor
+Brangança,dados_bragança__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Brangança,dados_bragança__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Brangança,dados_bragança__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Brangança,dados_bragança__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bragança,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Brangança,dados_bragança__responsavel_mulher,Responsável Mulher,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Brangança,dados_bragança__responsavel_mulher,Responsável Mulher,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Brangança,dados_bragança__responsavel_mulher,Responsável Mulher,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Brangança,dados_bragança__responsavel_homem,Responsável Homem,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.19828124088483903,2000,4.6,Valor
+Brangança,dados_bragança__responsavel_homem,Responsável Homem,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.19828124088483903,2010,3.8,Valor
+Brangança,dados_bragança__responsavel_homem,Responsável Homem,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.19828124088483903,2022,3.1,Valor
+Brangança,dados_bragança__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Brangança,dados_bragança__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Brangança,dados_bragança__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bragança,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Brangança,dados_bragança__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782753,2000,14.4,Valor
+Brangança,dados_bragança__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782753,2010,18.3,Valor
+Brangança,dados_bragança__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782753,2022,24.4,Valor
+Brangança,dados_bragança__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.516404989498902,2000,17.3,Valor
+Brangança,dados_bragança__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.516404989498902,2010,21.2,Valor
+Brangança,dados_bragança__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bragança,Grupo 2 — 3 censos,3,identity,adam,True,0.516404989498902,2022,25.2,Valor
+Brangança,dados_bragança__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,4.543472070790531,2000,44.2,Valor
+Brangança,dados_bragança__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,4.543472070790531,2010,27.8,Valor
+Brangança,dados_bragança__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bragança,Grupo 2 — 3 censos,3,relu,adam,True,4.543472070790531,2022,17.1,Valor
