@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 app.py — Painel Streamlit TCC (coringa multi-município)
-Versão com identidade visual ISACI + navegação lateral por município.
+Versão com identidade visual estilo "Scholaris" (Dark Mode, Neon Accents).
 """
 
 from __future__ import annotations
@@ -24,8 +24,8 @@ from sklearn.preprocessing import StandardScaler
 
 TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
 
-# Caminho do logo (relativo à raiz do repositório). Basta colocar o arquivo
-# enviado dentro de uma pasta "assets/" no repositório com este mesmo nome.
+# Caminho do logo (relativo à raiz do repositório). 
+# IMPORTANTE: Verifique se o arquivo e a pasta existem com este nome exato!
 LOGO_ARQUIVO = "assets/logo_isaci_neon.webp"
 
 MUNICIPIOS = [
@@ -87,7 +87,7 @@ MUNICIPIOS = [
     {
         "nome":    "Bragança",
         "pasta":   "data",
-        "arquivo": "indicadores_bragança_tratados.csv",
+        "arquivo": "indicadores_braganca_tratados.csv",
     },
 ]
 
@@ -108,24 +108,24 @@ MAX_ITER          = 500
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# IDENTIDADE VISUAL
+# IDENTIDADE VISUAL - REFINADA (SCHOLARIS DARK THEME)
 # ═══════════════════════════════════════════════════════════════════════════
 
-COR_PRIMARIA   = "#134E5E"   # petróleo profundo — âncora da identidade
-COR_PRIMARIA_2 = "#0E7490"
-COR_MARCA      = "#8BC53F"   # verde do logo ISACI — acento institucional
-COR_ACENTO     = "#F59E0B"   # âmbar — projeções / destaques
-COR_SUCESSO    = "#2E9E4D"
-COR_NEUTRA     = "#64748B"
-COR_TEXTO      = "#1E293B"
-COR_FUNDO_APP  = "#F4F7F8"
-COR_FUNDO_CARD = "#FFFFFF"
-COR_BORDA      = "#E2E8F0"
+COR_PRIMARIA   = "#0C1222"   # Fundo escuro sidebar/main
+COR_PRIMARIA_2 = "#152336"   # Fundo secundário
+COR_MARCA      = "#38BDF8"   # Azul neon (destaque principal)
+COR_ACENTO     = "#818CF8"   # Roxo/Azul claro para projeções
+COR_SUCESSO    = "#10B981"
+COR_NEUTRA     = "#94A3B8"
+COR_TEXTO      = "#E2E8F0"
+COR_FUNDO_APP  = "#080D19"   # Fundo principal muito escuro
+COR_FUNDO_CARD = "rgba(15, 23, 42, 0.6)"
+COR_BORDA      = "#1E293B"
 
 PALETA_COMPARATIVO = [
-    "#134E5E", "#F59E0B", "#7C3AED", "#DC2626",
-    "#0891B2", "#8BC53F", "#DB2777", "#4338CA",
-    "#EA580C", "#0D9488", "#9333EA", "#B45309",
+    "#38BDF8", "#818CF8", "#A855F7", "#F472B6",
+    "#34D399", "#FBBF24", "#F87171", "#60A5FA",
+    "#C084FC", "#2DD4BF", "#FB923C", "#9CA3AF",
 ]
 
 
@@ -152,10 +152,23 @@ def _arquivo_projecoes(arquivo_historico: str) -> str:
 @st.cache_data(show_spinner=False)
 def _logo_base64() -> str | None:
     """Lê o logo em assets/ e devolve como base64 para embutir no HTML do painel."""
-    caminho = os.path.join(_raiz_repo(), LOGO_ARQUIVO)
-    if not os.path.exists(caminho):
+    # RESOLUÇÃO ROBUSTA DE CAMINHO: Tenta várias opções para encontrar o arquivo
+    caminho_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), LOGO_ARQUIVO)
+    caminho_repo = os.path.join(_raiz_repo(), LOGO_ARQUIVO)
+    caminho_cwd = os.path.join(os.getcwd(), LOGO_ARQUIVO)
+    
+    caminho_final = None
+    if os.path.exists(caminho_script):
+        caminho_final = caminho_script
+    elif os.path.exists(caminho_repo):
+        caminho_final = caminho_repo
+    elif os.path.exists(caminho_cwd):
+        caminho_final = caminho_cwd
+        
+    if not caminho_final:
         return None
-    with open(caminho, "rb") as f:
+        
+    with open(caminho_final, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
@@ -265,38 +278,38 @@ def fig_serie(titulo: str, anos: list[int], valores: list[float],
     fig.add_trace(go.Scatter(
         x=anos_curva, y=vals_curva,
         mode="lines", name=f"Curva MLP ({ativacao}/{solver})",
-        line=dict(color=COR_PRIMARIA_2, width=2, dash="solid"), opacity=0.7,
+        line=dict(color=COR_ACENTO, width=2, dash="solid"), opacity=0.6,
     ))
     fig.add_trace(go.Scatter(
         x=anos, y=valores,
         mode="lines+markers", name="Censos IBGE",
-        line=dict(color=COR_PRIMARIA, width=3),
-        marker=dict(size=11, color=COR_PRIMARIA, line=dict(width=2, color="white")),
+        line=dict(color=COR_MARCA, width=3),
+        marker=dict(size=11, color=COR_MARCA, line=dict(width=2, color="#080D19")),
     ))
     fig.add_trace(go.Scatter(
         x=ANOS_PROJECAO, y=vals_proj,
         mode="markers+text", name="Projeção",
         text=[f"{v:,.1f}" for v in vals_proj],
         textposition="top center",
-        marker=dict(size=15, color=COR_ACENTO, symbol="star",
-                    line=dict(width=1.5, color="#7C2D12")),
+        marker=dict(size=15, color="#A855F7", symbol="star",
+                    line=dict(width=1.5, color="#E2E8F0")),
     ))
 
     fig.update_layout(
-        template="plotly_white", height=430,
+        template="plotly_dark", height=430,
         font=_FONTE,
         title=dict(text=f"<b>{titulo}</b> — {municipio}", x=0.01,
-                   font=dict(size=17, color=COR_PRIMARIA)),
+                   font=dict(size=17, color=COR_TEXTO)),
         xaxis_title="Ano",
         yaxis_title=ylabel,
         legend=dict(orientation="h", yanchor="bottom", y=1.03, x=0, font=dict(size=12)),
         hovermode="x unified",
         margin=dict(l=50, r=20, t=64, b=40),
-        plot_bgcolor="white",
-        paper_bgcolor="white",
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
-    fig.update_xaxes(gridcolor="#EEF2F6", zeroline=False)
-    fig.update_yaxes(gridcolor="#EEF2F6", zeroline=False)
+    fig.update_xaxes(gridcolor=COR_BORDA, zeroline=False)
+    fig.update_yaxes(gridcolor=COR_BORDA, zeroline=False)
     if max(valores) > 1000:
         fig.update_yaxes(tickformat=",")
     return fig
@@ -307,26 +320,25 @@ def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
         df, x="indicador_nome", y="valor", color="ano",
         barmode="group", text_auto=True,
         title=f"Visão geral — {municipio}",
-        color_continuous_scale=[COR_PRIMARIA_2, COR_ACENTO],
+        color_continuous_scale=[COR_ACENTO, COR_MARCA],
         labels={"indicador_nome": "Indicador", "valor": "Valor", "ano": "Ano"},
     )
     fig.update_layout(
-        template="plotly_white", height=500,
+        template="plotly_dark", height=500,
         font=_FONTE,
-        title=dict(font=dict(size=17, color=COR_PRIMARIA)),
+        title=dict(font=dict(size=17, color=COR_TEXTO)),
         xaxis_tickangle=-35,
         margin=dict(l=40, r=20, t=60, b=120),
-        plot_bgcolor="white",
-        paper_bgcolor="white",
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
-    fig.update_xaxes(gridcolor="#EEF2F6")
-    fig.update_yaxes(gridcolor="#EEF2F6")
+    fig.update_xaxes(gridcolor=COR_BORDA)
+    fig.update_yaxes(gridcolor=COR_BORDA)
     return fig
 
 
 def fig_comparativo(dfs: dict[str, pd.DataFrame], dfs_proj: dict, ind_escolhido: str) -> tuple[go.Figure, str, bool]:
-    """Gráfico comparativo com legenda enxuta (1 entrada por município,
-    a projeção herda a cor e fica agrupada, sem poluir a legenda)."""
+    """Gráfico comparativo com legenda enxuta."""
     fig = go.Figure()
     cores = PALETA_COMPARATIVO
     tem_dados = False
@@ -352,7 +364,7 @@ def fig_comparativo(dfs: dict[str, pd.DataFrame], dfs_proj: dict, ind_escolhido:
             mode="lines+markers", name=mun,
             legendgroup=mun, showlegend=True,
             line=dict(color=cor, width=3),
-            marker=dict(size=8, line=dict(width=1.5, color="white")),
+            marker=dict(size=8, line=dict(width=1.5, color="#080D19")),
             hovertemplate=f"<b>{mun}</b> — %{{x}}: %{{y:,.2f}}<extra></extra>",
         ))
 
@@ -364,34 +376,34 @@ def fig_comparativo(dfs: dict[str, pd.DataFrame], dfs_proj: dict, ind_escolhido:
             mode="markers", name=mun,
             legendgroup=mun, showlegend=False,
             marker=dict(size=12, symbol="star", color=cor,
-                        line=dict(width=1, color="#334155")),
+                        line=dict(width=1, color="#E2E8F0")),
             hovertemplate=(f"<b>{mun}</b> — projeção %{{x}}: %{{y:,.2f}} "
                            f"({ativacao}/{solver})<extra></extra>"),
         ))
         tem_dados = True
 
     fig.update_layout(
-        template="plotly_white", height=500,
+        template="plotly_dark", height=500,
         font=_FONTE,
         title=dict(text=f"<b>{ind_escolhido}</b>", x=0.01,
-                   font=dict(size=17, color=COR_PRIMARIA)),
+                   font=dict(size=17, color=COR_TEXTO)),
         xaxis_title="Ano", yaxis_title=ylabel,
         legend=dict(
             orientation="v",
             yanchor="top", y=1,
             xanchor="left", x=1.015,
             font=dict(size=11.5),
-            bgcolor="rgba(255,255,255,0.7)",
+            bgcolor="rgba(15,23,42,0.7)",
             bordercolor=COR_BORDA, borderwidth=1,
             tracegroupgap=2,
         ),
         hovermode="closest",
         margin=dict(l=50, r=170, t=60, b=40),
-        plot_bgcolor="white",
-        paper_bgcolor="white",
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
-    fig.update_xaxes(gridcolor="#EEF2F6")
-    fig.update_yaxes(gridcolor="#EEF2F6")
+    fig.update_xaxes(gridcolor=COR_BORDA)
+    fig.update_yaxes(gridcolor=COR_BORDA)
     return fig, ylabel, tem_dados
 
 
@@ -403,157 +415,172 @@ def _css() -> None:
     st.markdown(
         f"""
         <style>
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-          html, body, [class*="css"] {{ font-family: 'Inter', -apple-system, sans-serif !important; }}
+          html, body, [class*="css"] {{ font-family: 'Inter', sans-serif !important; }}
 
-          /* Força um fundo claro e consistente, independente do tema do
-             navegador/SO do visitante (evita o choque claro/escuro). */
+          /* Fundo principal escuro com leve gradiente radial */
           .stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"] {{
-            background-color: {COR_FUNDO_APP} !important;
+              background-color: {COR_FUNDO_APP} !important;
+              background-image: radial-gradient(circle at 50% 0%, {COR_PRIMARIA_2} 0%, transparent 60%);
+              color: {COR_TEXTO};
           }}
           [data-testid="stHeader"] {{ background: transparent !important; }}
           .block-container {{ padding-top: 1.4rem; padding-bottom: 3rem; max-width: 1240px; }}
 
           h1, h2, h3, h4, p, span, label, li,
-          [data-testid="stMarkdownContainer"] {{ color: {COR_TEXTO}; }}
+          [data-testid="stMarkdownContainer"] {{ color: {COR_TEXTO} !important; }}
 
-          /* ---------- Cabeçalho de página ---------- */
+          /* ---------- Cabeçalho de página centralizado ---------- */
           .painel-header {{
-            position: relative;
-            background: linear-gradient(125deg, {COR_PRIMARIA} 0%, {COR_PRIMARIA_2} 55%, #0891B2 100%);
-            padding: 1.7rem 2rem;
-            border-radius: 18px;
-            margin-bottom: 1.4rem;
-            box-shadow: 0 10px 28px -10px rgba(19, 78, 94, 0.5);
-            overflow: hidden;
-          }}
-          .painel-header::after {{
-            content: "";
-            position: absolute; inset: 0;
-            background: radial-gradient(circle at 85% -20%, rgba(139,197,63,0.35), transparent 55%);
-            pointer-events: none;
-          }}
-          .painel-header h2 {{
-            margin: 0.3rem 0 0.2rem;
-            color: #FFFFFF !important;
-            font-weight: 800;
-            letter-spacing: -0.01em;
-            font-size: 1.7rem;
-          }}
-          .painel-header p {{
-            margin: 0;
-            color: #E0F2FE !important;
-            font-size: 0.93rem;
-            max-width: 760px;
-            line-height: 1.5;
-            position: relative; z-index: 1;
+              text-align: center;
+              padding: 2.5rem 1rem 1.5rem;
+              margin-bottom: 2rem;
+              position: relative;
           }}
           .painel-header-logo {{
-            position: absolute; top: 1.2rem; right: 1.6rem;
-            height: 30px; opacity: 0.95; z-index: 1;
+              height: 55px;
+              margin-bottom: 1rem;
+              filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.4));
+          }}
+          .painel-header h2 {{
+              font-size: 2.2rem;
+              font-weight: 700;
+              margin-bottom: 0.5rem;
+              background: linear-gradient(90deg, #FFFFFF, {COR_MARCA});
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              letter-spacing: 0.02em;
+          }}
+          .painel-header p {{
+              color: {COR_NEUTRA} !important;
+              font-size: 1.05rem;
+              max-width: 800px;
+              margin: 0 auto;
+              line-height: 1.5;
           }}
 
           .badge {{
-            display: inline-block;
-            background: rgba(255,255,255,0.16);
-            color: #FFFFFF !important;
-            padding: 0.2rem 0.7rem;
-            border-radius: 999px;
-            font-size: 0.73rem;
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            border: 1px solid rgba(255,255,255,0.35);
-            position: relative; z-index: 1;
+              display: inline-block;
+              background: rgba(56, 189, 248, 0.1);
+              color: {COR_MARCA} !important;
+              padding: 0.25rem 0.8rem;
+              border-radius: 999px;
+              font-size: 0.75rem;
+              font-weight: 600;
+              letter-spacing: 0.1em;
+              text-transform: uppercase;
+              border: 1px solid rgba(56, 189, 248, 0.3);
+              margin-bottom: 1rem;
+              box-shadow: 0 0 10px rgba(56, 189, 248, 0.15);
           }}
+          
           .badge-auto {{
-            display: inline-block;
-            background: {COR_SUCESSO};
-            color: white !important;
-            padding: 0.14rem 0.55rem;
-            border-radius: 999px;
-            font-size: 0.72rem;
-            font-weight: 500;
-            margin-left: 0.45rem;
+              display: inline-block;
+              background: rgba(16, 185, 129, 0.15);
+              color: #34D399 !important;
+              padding: 0.14rem 0.55rem;
+              border-radius: 999px;
+              font-size: 0.72rem;
+              font-weight: 600;
+              margin-left: 0.45rem;
+              border: 1px solid rgba(16, 185, 129, 0.3);
           }}
           .badge-fixo {{
-            display: inline-block;
-            background: {COR_NEUTRA};
-            color: white !important;
-            padding: 0.14rem 0.55rem;
-            border-radius: 999px;
-            font-size: 0.72rem;
-            font-weight: 500;
-            margin-left: 0.45rem;
+              display: inline-block;
+              background: rgba(148, 163, 184, 0.15);
+              color: #94A3B8 !important;
+              padding: 0.14rem 0.55rem;
+              border-radius: 999px;
+              font-size: 0.72rem;
+              font-weight: 500;
+              margin-left: 0.45rem;
+              border: 1px solid rgba(148, 163, 184, 0.3);
           }}
 
           .dado-ausente {{
-            background: #FFFBEB;
-            border-left: 4px solid {COR_ACENTO};
-            padding: 0.9rem 1.1rem;
-            border-radius: 8px;
-            color: {COR_TEXTO} !important;
+              background: rgba(15, 23, 42, 0.6);
+              border-left: 4px solid #F59E0B;
+              padding: 0.9rem 1.1rem;
+              border-radius: 8px;
+              color: {COR_TEXTO} !important;
+              border: 1px solid {COR_BORDA};
           }}
-          .dado-ausente code {{ color: #92400E; }}
+          .dado-ausente code {{ color: #FBBF24; background: rgba(0,0,0,0.3); padding: 2px 4px; border-radius: 4px; }}
 
-          /* ---------- Métricas ---------- */
+          /* ---------- Métricas / Cards ---------- */
           div[data-testid="stMetric"] {{
-            background: {COR_FUNDO_CARD};
-            border: 1px solid {COR_BORDA};
-            border-radius: 12px;
-            padding: 0.8rem 1rem 0.6rem;
-            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+              background: {COR_FUNDO_CARD} !important;
+              border: 1px solid {COR_BORDA} !important;
+              border-radius: 12px;
+              padding: 1rem !important;
+              box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(10px);
           }}
           div[data-testid="stMetricLabel"] {{ color: {COR_NEUTRA} !important; font-weight: 500; }}
-          div[data-testid="stMetricValue"] {{ color: {COR_PRIMARIA} !important; }}
+          div[data-testid="stMetricValue"] {{ color: {COR_MARCA} !important; font-weight: 700; }}
 
           /* ---------- Sidebar ---------- */
           section[data-testid="stSidebar"] {{
-            background: linear-gradient(180deg, #FFFFFF 0%, #F4F7F8 100%) !important;
-            border-right: 1px solid {COR_BORDA};
+              background-color: {COR_PRIMARIA} !important;
+              border-right: 1px solid {COR_BORDA} !important;
           }}
-          section[data-testid="stSidebar"] * {{ color: {COR_TEXTO}; }}
-          section[data-testid="stSidebar"] h3 {{ color: {COR_PRIMARIA} !important; font-weight: 800; }}
-          .sidebar-logo {{ display: flex; justify-content: center; padding: 0.4rem 0 1rem; }}
-          .sidebar-logo img {{ max-width: 168px; }}
+          section[data-testid="stSidebar"] h3 {{ color: #FFFFFF !important; font-weight: 600; font-size: 1.1rem; letter-spacing: 0.05em; }}
+          .sidebar-logo {{ display: flex; justify-content: center; padding: 1rem 0 1.5rem; }}
+          .sidebar-logo img {{ max-width: 140px; filter: drop-shadow(0 0 8px rgba(56,189,248,0.3)); }}
 
           /* ---------- Inputs (radio, texto, selectbox) ---------- */
           [data-baseweb="input"], [data-baseweb="select"] > div {{
-            background-color: white !important;
-            border-radius: 10px !important;
-            border-color: {COR_BORDA} !important;
+              background-color: rgba(15, 23, 42, 0.8) !important;
+              border: 1px solid {COR_BORDA} !important;
+              border-radius: 8px !important;
+              color: {COR_TEXTO} !important;
+          }}
+          [data-baseweb="base-input"] input {{
+              color: {COR_TEXTO} !important;
           }}
           div[role="radiogroup"] label {{
-            border-radius: 10px;
-            padding: 0.3rem 0.5rem;
-            margin-bottom: 0.1rem;
-            transition: background-color 0.15s ease;
+              border-radius: 8px;
+              padding: 0.5rem 0.8rem;
+              margin-bottom: 0.2rem;
+              transition: all 0.2s ease;
+              background-color: transparent;
+              border: 1px solid transparent;
           }}
-          div[role="radiogroup"] label:hover {{ background-color: #E6F4EA; }}
+          div[role="radiogroup"] label:hover {{
+              background-color: rgba(56, 189, 248, 0.1);
+              border: 1px solid rgba(56, 189, 248, 0.3);
+          }}
           div[role="radiogroup"] label[data-baseweb="radio"] div:first-child {{
-            border-color: {COR_MARCA} !important;
+              background-color: transparent !important;
+              border-color: {COR_MARCA} !important;
           }}
+          
+          /* ---------- Botões ---------- */
           .stButton > button {{
-            border-radius: 10px !important;
-            border: 1px solid {COR_BORDA} !important;
-            font-weight: 600 !important;
+              background: rgba(56, 189, 248, 0.1) !important;
+              border: 1px solid rgba(56, 189, 248, 0.3) !important;
+              color: {COR_MARCA} !important;
+              border-radius: 8px !important;
+              font-weight: 500 !important;
+              transition: all 0.2s ease !important;
           }}
           .stButton > button:hover {{
-            border-color: {COR_PRIMARIA} !important;
-            color: {COR_PRIMARIA} !important;
+              background: rgba(56, 189, 248, 0.2) !important;
+              border-color: {COR_MARCA} !important;
+              box-shadow: 0 0 15px rgba(56, 189, 248, 0.2) !important;
+              color: #FFF !important;
           }}
 
           /* ---------- Expanders / cartões ---------- */
           div[data-testid="stExpander"] {{
-            border: 1px solid {COR_BORDA} !important;
-            border-radius: 12px !important;
-            background: {COR_FUNDO_CARD} !important;
-            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+              background: {COR_FUNDO_CARD} !important;
+              border: 1px solid {COR_BORDA} !important;
+              border-radius: 12px !important;
           }}
-          div[data-testid="stExpander"] summary {{ font-weight: 600; }}
+          div[data-testid="stExpander"] summary {{ font-weight: 600; color: #FFFFFF !important; }}
 
-          hr {{ margin: 1.1rem 0; opacity: 0.5; }}
+          hr {{ border-color: {COR_BORDA} !important; margin: 1.5rem 0; opacity: 0.7; }}
         </style>
         """,
         unsafe_allow_html=True,
@@ -571,6 +598,7 @@ def _render_header(badge: str, titulo: str, descricao: str) -> None:
         f"""
         <div class="painel-header">
           {logo_html}
+          <br>
           <span class="badge">{badge}</span>
           <h2>{titulo}</h2>
           <p>{descricao}</p>
@@ -590,12 +618,12 @@ def render_municipio(cfg: dict) -> None:
     df_proj_precalc = carregar_projecoes(cfg["pasta"], cfg["arquivo"])
 
     _render_header(
-        "Município",
+        "MUNICÍPIO",
         nome,
         "Dados do IBGE (Censos 1991–2022) com projeções MLP para "
         f"{' e '.join(str(a) for a in ANOS_PROJECAO)}, usando a "
         "ativação/solver escolhida automaticamente por indicador "
-        "(validação leave-one-out) no notebook.",
+        "(validação leave-one-out).",
     )
 
     if df is None:
@@ -686,8 +714,6 @@ def render_municipio(cfg: dict) -> None:
 
     indicadores = sorted(df["indicador_nome"].unique())
 
-    # OTIMIZAÇÃO: Define o primeiro indicador como seleção padrão em vez de "(Todos)"
-    # para evitar a geração simultânea massiva de gráficos Plotly.
     escolha = st.selectbox(
         "Indicador",
         options=indicadores + ["(Exibir Todos)"],
@@ -732,7 +758,7 @@ def render_municipio(cfg: dict) -> None:
 
         df_proj_tabela = pd.DataFrame({
             "Ano": ANOS_PROJECAO,
-            f"Projeção MLP ({ylabel})": [round(v, 2) for v in vals_proj],
+            f"Projeção ({ylabel})": [round(v, 2) for v in vals_proj],
         })
         col_tab, col_esp = st.columns([1, 2])
         col_tab.caption(f"Grupo: **{grupo}** | Censos na série: {anos}")
@@ -748,12 +774,11 @@ def render_municipio(cfg: dict) -> None:
 
 def render_comparativo(municipios_carregados: list[dict]) -> None:
     _render_header(
-        "Análise cruzada",
+        "ANÁLISE CRUZADA",
         "Comparativo entre municípios",
         "Selecione um indicador para visualizar a evolução histórica e as "
         "projeções lado a lado. Cada município usa a ativação/solver "
-        "escolhida individualmente pelo seu próprio notebook. ★ marca as "
-        f"projeções para {' e '.join(str(a) for a in ANOS_PROJECAO)}.",
+        "escolhida individualmente pelo seu próprio modelo."
     )
 
     todos_indicadores: set[str] = set()
@@ -819,7 +844,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
-    """Sidebar com logo, busca e seleção de município, substituindo as abas no topo."""
+    """Sidebar com logo, busca e seleção de município."""
     logo_b64 = _logo_base64()
     if logo_b64:
         st.sidebar.markdown(
@@ -827,15 +852,15 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
             unsafe_allow_html=True,
         )
 
-    st.sidebar.markdown(f"### 📊 {TITULO_PAINEL}")
+    st.sidebar.markdown(f"### ❖ {TITULO_PAINEL}")
 
     if st.sidebar.button("🔄 Recarregar dados", help="Limpa o cache após subir novos dados no GitHub",
-                          use_container_width=True):
+                         use_container_width=True):
         st.cache_data.clear()
         st.rerun()
 
     st.sidebar.divider()
-    st.sidebar.markdown("**Navegar por**")
+    st.sidebar.markdown("**NAVEGAR POR**")
 
     busca = st.sidebar.text_input(
         "Buscar município",
@@ -876,16 +901,13 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
     st.sidebar.info(
         "Os dados têm como base o Censo do IBGE, o SIDRA e o Panorama do "
         "Censo. Parte das informações é estimada, podendo haver margem de "
-        "erro para mais ou para menos, dado o alto volume de dados "
-        "pesquisados e o tempo de atualização das bases.",
+        "erro para mais ou para menos.",
         icon="ℹ️",
     )
     with st.sidebar.expander("➕ Como adicionar uma cidade"):
         st.markdown(
             "1. Rode o notebook coringa para o município.\n"
-            "2. Faça push da pasta `data_<cidade>/` com os CSVs "
-            "(`indicadores_..._tratados.csv` e, se já gerado, "
-            "`projecoes_..._2030_2040.csv`).\n"
+            "2. Faça push da pasta `data_<cidade>/` com os CSVs.\n"
             "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
         )
 
@@ -901,7 +923,7 @@ def main() -> None:
         page_title=TITULO_PAINEL,
         layout="wide",
         initial_sidebar_state="expanded",
-        page_icon="📊",
+        page_icon="❖",
     )
     _css()
 
