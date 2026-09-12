@@ -74,6 +74,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_altamira_tratados.csv",
     },
+        {
+        "nome":    "Bragança",
+        "pasta":   "data",
+        "arquivo": "indicadores_itaituba_tratados.csv",
+    },
 
 ]
 
