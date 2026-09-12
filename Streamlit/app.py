@@ -75,9 +75,14 @@ MUNICIPIOS = [
         "arquivo": "indicadores_altamira_tratados.csv",
     },
         {
-        "nome":    "Bragança",
+        "nome":    "Itaituiba",
         "pasta":   "data",
         "arquivo": "indicadores_itaituba_tratados.csv",
+    },
+        {
+        "nome":    "Bragan;a",
+        "pasta":   "data",
+        "arquivo": "indicadores_Bragança_tratados.csv",
     },
 
 ]
