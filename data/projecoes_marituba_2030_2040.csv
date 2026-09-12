@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Marituba,dados_marituba__2_trabalhos,2 trabalhos,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,1.2459393751899432,2030,4.576008572252722
+Marituba,dados_marituba__2_trabalhos,2 trabalhos,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,1.2459393751899432,2040,4.57304237959542
+Marituba,dados_marituba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2030,0.6345907702241325
+Marituba,dados_marituba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2040,0.6341654432015779
+Marituba,dados_marituba__anos_de_estudo_media,Anos de Estudo (Média),dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803097,2030,10.749615742458856
+Marituba,dados_marituba__anos_de_estudo_media,Anos de Estudo (Média),dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803097,2040,12.375214892743227
+Marituba,dados_marituba__apenas_1_trabalho,Apenas 1 trabalho,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,1.386764660917952,2030,94.80296990553686
+Marituba,dados_marituba__apenas_1_trabalho,Apenas 1 trabalho,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,1.386764660917952,2040,94.79744335343949
+Marituba,dados_marituba__casais_com_filhos,Casais com filhos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,1.586248002370804,2030,34.17113642193192
+Marituba,dados_marituba__casais_com_filhos,Casais com filhos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,1.586248002370804,2040,25.74255708816664
+Marituba,dados_marituba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.9072254379255904,2030,7.903998108871719
+Marituba,dados_marituba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.9072254379255904,2040,7.90052419129993
+Marituba,dados_marituba__casais_sem_filhos,Casais sem filhos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306242662,2030,20.345965097787587
+Marituba,dados_marituba__casais_sem_filhos,Casais sem filhos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306242662,2040,24.07678562040673
+Marituba,dados_marituba__conta_propria,Conta própria,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.6580080260262566,2030,21.075621556086325
+Marituba,dados_marituba__conta_propria,Conta própria,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.6580080260262566,2040,23.71650122628317
+Marituba,dados_marituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,25.66534118326668,2030,253.41876014892375
+Marituba,dados_marituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,25.66534118326668,2040,268.7394557410763
+Marituba,dados_marituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.532337940373543,2030,44.14285067249032
+Marituba,dados_marituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.532337940373543,2040,49.73396703558001
+Marituba,dados_marituba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0511633775915747,2030,28.190858697277147
+Marituba,dados_marituba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0511633775915747,2040,32.91746887187135
+Marituba,dados_marituba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.6076902397340227,2030,28.299146094353013
+Marituba,dados_marituba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.6076902397340227,2040,31.9115886505405
+Marituba,dados_marituba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,4.543472070790533,2030,11.389836894440158
+Marituba,dados_marituba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,4.543472070790533,2040,4.010166404563201
+Marituba,dados_marituba__empregador,Empregador,dados_marituba,Grupo 2 — 3 censos,tanh,adam,True,231.20350301784572,2030,-0.9723462763958821
+Marituba,dados_marituba__empregador,Empregador,dados_marituba,Grupo 2 — 3 censos,tanh,adam,True,231.20350301784572,2040,11.214941835982529
+Marituba,dados_marituba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,2.3361671880826216,2030,98.90482682046878
+Marituba,dados_marituba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,2.3361671880826216,2040,99.25678462628468
+Marituba,dados_marituba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,2.560240182621181,2030,88.13833628958784
+Marituba,dados_marituba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,2.560240182621181,2040,91.0121191348108
+Marituba,dados_marituba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,2.987612135745232,2030,29.82226132136571
+Marituba,dados_marituba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,2.987612135745232,2040,29.81501447172249
+Marituba,dados_marituba__idade_mediana,Idade Mediana,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2030,35.70464018886804
+Marituba,dados_marituba__idade_mediana,Idade Mediana,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2040,40.71417399679638
+Marituba,dados_marituba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_marituba,Grupo 2 — 3 censos,tanh,adam,True,374.3291444260235,2030,-2.4572783590671747
+Marituba,dados_marituba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_marituba,Grupo 2 — 3 censos,tanh,adam,True,374.3291444260235,2040,17.27718785492985
+Marituba,dados_marituba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2030,25.79984836920457
+Marituba,dados_marituba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2040,28.799889491110577
+Marituba,dados_marituba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785416,2030,3.7377315639781026
+Marituba,dados_marituba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785416,2040,3.7362537863411243
+Marituba,dados_marituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.1821753576451902,2030,10.298035864902133
+Marituba,dados_marituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.1821753576451902,2040,11.87976755951999
+Marituba,dados_marituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543153,2030,11.20122202238414
+Marituba,dados_marituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543153,2040,12.870717025602438
+Marituba,dados_marituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050443615383802,2030,2.249433855130206
+Marituba,dados_marituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050443615383802,2040,1.5681164388836464
+Marituba,dados_marituba__media_populacao_amarela,Média: População Amarela,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505543,2030,12.052851827149066
+Marituba,dados_marituba__media_populacao_amarela,Média: População Amarela,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505543,2040,13.766268189492942
+Marituba,dados_marituba__media_populacao_branca,Média: População Branca,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572029,2030,11.477875818825988
+Marituba,dados_marituba__media_populacao_branca,Média: População Branca,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572029,2040,13.100983996543755
+Marituba,dados_marituba__media_populacao_indigena,Média: População Indígena,dados_marituba,Grupo 2 — 3 censos,identity,sgd,True,0.10550675828430774,2030,8.95673568253185
+Marituba,dados_marituba__media_populacao_indigena,Média: População Indígena,dados_marituba,Grupo 2 — 3 censos,identity,sgd,True,0.10550675828430774,2040,10.3869326274788
+Marituba,dados_marituba__media_populacao_preta_parda,Média: População Preta / Parda,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341944,2030,10.521460816733446
+Marituba,dados_marituba__media_populacao_preta_parda,Média: População Preta / Parda,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341944,2040,12.14966415250405
+Marituba,dados_marituba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,530.8520100154141,2030,538.3207993667942
+Marituba,dados_marituba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,530.8520100154141,2040,536.8844885054265
+Marituba,dados_marituba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_marituba,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,3.5689744267520087
+Marituba,dados_marituba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_marituba,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,3.9027820913983344
+Marituba,dados_marituba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.2680358057833946,2030,0.8353302924952998
+Marituba,dados_marituba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.2680358057833946,2040,0.8345345357058327
+Marituba,dados_marituba__populacao_amarela,População Amarela,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,87.30311510465964,2030,293.8531206752935
+Marituba,dados_marituba__populacao_amarela,População Amarela,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,87.30311510465964,2040,293.5910405596744
+Marituba,dados_marituba__populacao_branca,População Branca,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,2.194307866684671,2030,18.036112202496465
+Marituba,dados_marituba__populacao_branca,População Branca,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,2.194307866684671,2040,18.030277543292218
+Marituba,dados_marituba__populacao_indigena,População Indígena,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,47.31045568392699,2030,159.3029803141139
+Marituba,dados_marituba__populacao_indigena,População Indígena,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,47.31045568392699,2040,159.162788825908
+Marituba,dados_marituba__populacao_indigena_total,População Indígena Total,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,47.31045568392699,2030,159.3029803141139
+Marituba,dados_marituba__populacao_indigena_total,População Indígena Total,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,47.31045568392699,2040,159.162788825908
+Marituba,dados_marituba__populacao_parda,População Parda,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,12.288519042530908,2030,81.73358301849711
+Marituba,dados_marituba__populacao_parda,População Parda,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,12.288519042530908,2040,81.25594669657654
+Marituba,dados_marituba__populacao_preta,População Preta,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.4188635703196706,2030,11.447636356370435
+Marituba,dados_marituba__populacao_preta,População Preta,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.4188635703196706,2040,12.16244696268374
+Marituba,dados_marituba__populacao_rural,População Rural,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.15748731112133307,2030,1.753632570402353
+Marituba,dados_marituba__populacao_rural,População Rural,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.15748731112133307,2040,1.462442399715044
+Marituba,dados_marituba__populacao_total,População Total,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,16.705517051974194,2030,111.06327912483681
+Marituba,dados_marituba__populacao_total,População Total,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,16.705517051974194,2040,110.36391139094222
+Marituba,dados_marituba__populacao_urbana,População Urbana,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,16.769973100895893,2030,109.14552834947875
+Marituba,dados_marituba__populacao_urbana,População Urbana,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,16.769973100895893,2040,108.4580688289688
+Marituba,dados_marituba__populacao_com_superior_completo,População com Superior Completo,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.8029911378407686,2030,16.75152765396135
+Marituba,dados_marituba__populacao_com_superior_completo,População com Superior Completo,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.8029911378407686,2040,22.048562868862735
+Marituba,dados_marituba__populacao_de_homens,População de Homens,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,8.04533418376514,2030,53.26482616003764
+Marituba,dados_marituba__populacao_de_homens,População de Homens,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,8.04533418376514,2040,52.913298592776854
+Marituba,dados_marituba__populacao_de_mulheres,População de Mulheres,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,8.660182868209056,2030,57.797881390478885
+Marituba,dados_marituba__populacao_de_mulheres,População de Mulheres,dados_marituba,Grupo 2 — 3 censos,tanh,lbfgs,True,8.660182868209056,2040,57.45059855458252
+Marituba,dados_marituba__proporcao_na_populacao_de_marituba,Proporção na população de Marituba,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.033018237100841084,2030,0.16341412901416313
+Marituba,dados_marituba__proporcao_na_populacao_de_marituba,Proporção na população de Marituba,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,0.033018237100841084,2040,0.16328118454634194
+Marituba,dados_marituba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.8454542634452006,2030,91.38708202550693
+Marituba,dados_marituba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.8454542634452006,2040,90.2273658943633
+Marituba,dados_marituba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,118.25491830799668,2030,1200.047441152927
+Marituba,dados_marituba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,118.25491830799668,2040,1526.8369694694063
+Marituba,dados_marituba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965586323538588,2030,32.44267482501327
+Marituba,dados_marituba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965586323538588,2040,25.08554507249693
+Marituba,dados_marituba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752057,2030,18.419583574092236
+Marituba,dados_marituba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752057,2040,21.26827596477188
+Marituba,dados_marituba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.157640883820049,2030,30.664566161629743
+Marituba,dados_marituba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.157640883820049,2040,35.257282965746825
+Marituba,dados_marituba__responsavel_homem,Responsável Homem,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.2449707818993665,2030,2.776437944310784
+Marituba,dados_marituba__responsavel_homem,Responsável Homem,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.2449707818993665,2040,2.3306186514206964
+Marituba,dados_marituba__responsavel_mulher,Responsável Mulher,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,1.1421539851822852e-05,2030,2.399988058466642
+Marituba,dados_marituba__responsavel_mulher,Responsável Mulher,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,1.1421539851822852e-05,2040,1.899989071005754
+Marituba,dados_marituba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.2966723060808345
+Marituba,dados_marituba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_marituba,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.7087566606929212
+Marituba,dados_marituba__setor_privado,Setor privado,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.49941635253713,2030,35.46054837510849
+Marituba,dados_marituba__setor_privado,Setor privado,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.49941635253713,2040,39.29673843875973
+Marituba,dados_marituba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,2.719077168500736,2030,26.53453630728376
+Marituba,dados_marituba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,2.719077168500736,2040,30.08154728724106
+Marituba,dados_marituba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,1.149352229419473,2030,9.283283636373788
+Marituba,dados_marituba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,1.149352229419473,2040,9.463144871565618
+Marituba,dados_marituba__setor_publico,Setor público,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0126077062347554,2030,12.384336191931277
+Marituba,dados_marituba__setor_publico,Setor público,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0126077062347554,2040,15.361627566220994
+Marituba,dados_marituba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,18.19119290951547,2030,989.465493170432
+Marituba,dados_marituba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_marituba,Grupo 2 — 3 censos,identity,adam,True,18.19119290951547,2040,1247.2421959815383
+Marituba,dados_marituba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.9568723640911658,2030,10.275525015478655
+Marituba,dados_marituba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.9568723640911658,2040,11.789632345838832
+Marituba,dados_marituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.8179085829894934,2030,97.33449641917721
+Marituba,dados_marituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_marituba,Grupo 2 — 3 censos,relu,adam,True,1.8179085829894934,2040,99.09585656561359
+Marituba,dados_marituba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0618773482343258,2030,78.42810040961092
+Marituba,dados_marituba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_marituba,Grupo 2 — 3 censos,identity,adam,True,1.0618773482343258,2040,90.72595876007483
+Marituba,dados_marituba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_marituba,Grupo 2 — 3 censos,logistic,lbfgs,True,1.2241424894742607,2030,99.07513723670199
+Marituba,dados_marituba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_marituba,Grupo 2 — 3 censos,logistic,lbfgs,True,1.2241424894742607,2040,99.15727141804574
+Marituba,dados_marituba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,2.3361671880826216,2030,98.90482682046878
+Marituba,dados_marituba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_marituba,Grupo 2 — 3 censos,logistic,adam,True,2.3361671880826216,2040,99.25678462628468
+Marituba,dados_marituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.5530795672748687,2030,44.39626142760275
+Marituba,dados_marituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,3.5530795672748687,2040,50.00488753991159
+Marituba,dados_marituba__trabalhador_domestico,Trabalhador doméstico,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.48647831364366595,2030,5.092794642846586
+Marituba,dados_marituba__trabalhador_domestico,Trabalhador doméstico,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.48647831364366595,2040,5.404508468806145
+Marituba,dados_marituba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,490.1971755957002,2030,435.86648100030953
+Marituba,dados_marituba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_marituba,Grupo 2 — 3 censos,logistic,sgd,True,490.1971755957002,2040,433.9885896617005
+Marituba,dados_marituba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.26672355643309825,2030,3.865957712569417
+Marituba,dados_marituba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_marituba,Grupo 2 — 3 censos,relu,adam,True,0.26672355643309825,2040,4.0704207313671255
+Marituba,dados_marituba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_marituba,Grupo 2 — 3 censos,relu,lbfgs,True,7.049410403081995,2030,44.74587363021111
+Marituba,dados_marituba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_marituba,Grupo 2 — 3 censos,relu,lbfgs,True,7.049410403081995,2040,55.681461421455836
+Marituba,dados_marituba__a_pe,A pé,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.522568583076987
+Marituba,dados_marituba__a_pe,A pé,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9889819291604063
+Marituba,dados_marituba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.51605325985588
+Marituba,dados_marituba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.52377259818213
+Marituba,dados_marituba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.52256858307699
+Marituba,dados_marituba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.98898192916041
+Marituba,dados_marituba__automovel_carro,Automóvel (Carro),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.733370955539492
+Marituba,dados_marituba__automovel_carro,Automóvel (Carro),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.103628967032197
+Marituba,dados_marituba__bicicleta,Bicicleta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.7749184803551366
+Marituba,dados_marituba__bicicleta,Bicicleta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.066816962489897
+Marituba,dados_marituba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.84644387726605
+Marituba,dados_marituba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.07168641949218
+Marituba,dados_marituba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.25515915841709
+Marituba,dados_marituba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.71705805446548
+Marituba,dados_marituba__com_coleta_de_lixo,Com Coleta de Lixo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.57981483280554
+Marituba,dados_marituba__com_coleta_de_lixo,Com Coleta de Lixo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.17531538652436
+Marituba,dados_marituba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7840596067625865
+Marituba,dados_marituba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8871143029144432
+Marituba,dados_marituba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.00626639274172
+Marituba,dados_marituba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.20756008887862
+Marituba,dados_marituba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.036238427050346
+Marituba,dados_marituba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.4484572116577725
+Marituba,dados_marituba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.005847809640183
+Marituba,dados_marituba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.20054339034774
+Marituba,dados_marituba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.37683449467622
+Marituba,dados_marituba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.81960024080222
+Marituba,dados_marituba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.340437371597684
+Marituba,dados_marituba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.622293791661857
+Marituba,dados_marituba__estuda_em_outro_municipio,Estuda em outro município,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.776834494676212
+Marituba,dados_marituba__estuda_em_outro_municipio,Estuda em outro município,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.219600240802205
+Marituba,dados_marituba__estuda_no_proprio_municipio_marituba,Estuda no próprio município (Marituba),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.4777415468245
+Marituba,dados_marituba__estuda_no_proprio_municipio_marituba,Estuda no próprio município (Marituba),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.9408075388844
+Marituba,dados_marituba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.55808306323717
+Marituba,dados_marituba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.61732974963935
+Marituba,dados_marituba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.222568583076988
+Marituba,dados_marituba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.688981929160407
+Marituba,dados_marituba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.73916233187042
+Marituba,dados_marituba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.74872890683162
+Marituba,dados_marituba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8112693737011417
+Marituba,dados_marituba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8903018133729379
+Marituba,dados_marituba__idade_mediana_2,Idade Mediana,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.68119213525173
+Marituba,dados_marituba__idade_mediana_2,Idade Mediana,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.742286058288865
+Marituba,dados_marituba__mais_de_1_hora,Mais de 1 hora,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.06232783719423
+Marituba,dados_marituba__mais_de_1_hora,Mais de 1 hora,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.62912866602944
+Marituba,dados_marituba__motocicleta,Motocicleta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.173967023165353
+Marituba,dados_marituba__motocicleta,Motocicleta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.57477199617662
+Marituba,dados_marituba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.36739561932947
+Marituba,dados_marituba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.83715631943642
+Marituba,dados_marituba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.782682304316396
+Marituba,dados_marituba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.420143631149944
+Marituba,dados_marituba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.492774887913626
+Marituba,dados_marituba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.83248593788776
+Marituba,dados_marituba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.31892073136675
+Marituba,dados_marituba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.36860084280772
+Marituba,dados_marituba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.148971521345054
+Marituba,dados_marituba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.39849994830118
+Marituba,dados_marituba__populacao_amarela_2,População Amarela,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.40596067625866
+Marituba,dados_marituba__populacao_amarela_2,População Amarela,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.71143029144432
+Marituba,dados_marituba__populacao_branca_2,População Branca,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.534506657481986
+Marituba,dados_marituba__populacao_branca_2,População Branca,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.410471574772767
+Marituba,dados_marituba__populacao_indigena_2,População Indígena,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.40596067625866
+Marituba,dados_marituba__populacao_indigena_2,População Indígena,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.71143029144432
+Marituba,dados_marituba__populacao_parda_2,População Parda,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.295457192230025
+Marituba,dados_marituba__populacao_parda_2,População Parda,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.27262956903771
+Marituba,dados_marituba__populacao_preta_2,População Preta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.202195750280531
+Marituba,dados_marituba__populacao_preta_2,População Preta,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.577975943907817
+Marituba,dados_marituba__populacao_residente_em_favelas,População Residente em Favelas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.148971521345054
+Marituba,dados_marituba__populacao_residente_em_favelas,População Residente em Favelas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.39849994830118
+Marituba,dados_marituba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.360894101438797
+Marituba,dados_marituba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.906714543716649
+Marituba,dados_marituba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.23291451057203
+Marituba,dados_marituba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.69263314860841
+Marituba,dados_marituba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8194353867061257
+Marituba,dados_marituba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.185201884721099
+Marituba,dados_marituba__ruas_sem_arvores,Ruas Sem Árvores,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.492774887913626
+Marituba,dados_marituba__ruas_sem_arvores,Ruas Sem Árvores,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.83248593788777
+Marituba,dados_marituba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.81504572205132
+Marituba,dados_marituba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.459321286106935
+Marituba,dados_marituba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.594265056978287
+Marituba,dados_marituba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.330503484028636
+Marituba,dados_marituba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.51034351074884
+Marituba,dados_marituba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.65880072240662
+Marituba,dados_marituba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.1595167989926
+Marituba,dados_marituba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.26095053474802
+Marituba,dados_marituba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.23974387195214
+Marituba,dados_marituba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.36215799426492
+Marituba,dados_marituba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0724768541006924
+Marituba,dados_marituba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.8969144233155455
+Marituba,dados_marituba__sem_conjuge,Sem cônjuge,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.50584780964018
+Marituba,dados_marituba__sem_conjuge,Sem cônjuge,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.70054339034774
+Marituba,dados_marituba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.79713252848914
+Marituba,dados_marituba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.75517175537442
+Marituba,dados_marituba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.68613455679127
+Marituba,dados_marituba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.6850262148103
+Marituba,dados_marituba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.324655674388453
+Marituba,dados_marituba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.458257332058876
+Marituba,dados_marituba__trabalha_em_outro_municipio,Trabalha em outro município,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.20871528115104
+Marituba,dados_marituba__trabalha_em_outro_municipio,Trabalha em outro município,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.44537163497333
+Marituba,dados_marituba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.15234989727814
+Marituba,dados_marituba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.97783503332947
+Marituba,dados_marituba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.126145843453116
+Marituba,dados_marituba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.836114904919953
+Marituba,dados_marituba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.36823208014364
+Marituba,dados_marituba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.68511550692547
+Marituba,dados_marituba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Marituba,dados_marituba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Marituba,dados_marituba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.59139758546743
+Marituba,dados_marituba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.46551526612326
+Marituba,dados_marituba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.10733797870486
+Marituba,dados_marituba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.87840096320883
+Marituba,dados_marituba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.834861124604156
+Marituba,dados_marituba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.781486539893276
+Marituba,dados_marituba__onibus,Ônibus,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.813479123865896
+Marituba,dados_marituba__onibus,Ônibus,dados_marituba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.907431263887286
