@@ -21,7 +21,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 # ╔═══════════════════════════════════════════════════════════════════════════╗
-# ║              BLOCO DE CONFIGURAÇÃO — EDITE APENAS AQUI                    ║
+# ║             BLOCO DE CONFIGURAÇÃO — EDITE APENAS AQUI                     ║
 # ╚═══════════════════════════════════════════════════════════════════════════╝
 
 TITULO_PAINEL = "Censo IBGE — Projeções Municipais"
@@ -150,7 +150,7 @@ def _treinar_mlp(anos: list[int], valores: list[float], anos_alvo: list[int],
 
 @st.cache_data(show_spinner=False)
 def _curva_mlp_cached(anos: tuple[int, ...], valores: tuple[float, ...],
-                       ativacao: str, solver: str) -> tuple[list[int], list[float]]:
+                        ativacao: str, solver: str) -> tuple[list[int], list[float]]:
     anos_curva = list(range(min(anos) - 2, 2046))
     vals_curva = _treinar_mlp_cached(anos, valores, tuple(anos_curva), ativacao, solver)
     return anos_curva, vals_curva
@@ -381,6 +381,39 @@ def _css() -> None:
           
           /* Estilos para a tela de Login */
           .stTextInput > div > div > input {{ background-color: white !important; }}
+
+          .stLoginForm, div[data-testid="stVerticalBlock"] > div:has(div.stForm) {{
+              background-color: #FFFFFF;
+              padding: 2.5rem;
+              border-radius: 16px;
+              border: 1px solid {COR_BORDA};
+              box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+              max-width: 440px;
+              margin: 3rem auto;
+          }}
+          
+          .stLoginForm h2, div[data-testid="stForm"] h2 {{
+              color: {COR_PRIMARIA} !important;
+              font-weight: 800 !important;
+              font-size: 1.5rem !important;
+              margin-bottom: 1rem !important;
+          }}
+
+          .stFormSubmitButton > button {{
+              width: 100% !important;
+              background: linear-gradient(135deg, {COR_PRIMARIA} 0%, {COR_PRIMARIA_2} 100%) !important;
+              color: white !important;
+              border: none !important;
+              border-radius: 10px !important;
+              font-weight: 600 !important;
+              padding: 0.6rem 1rem !important;
+              box-shadow: 0 4px 12px rgba(19, 78, 94, 0.2);
+              transition: opacity 0.2s ease;
+          }}
+          .stFormSubmitButton > button:hover {{
+              opacity: 0.9;
+              color: white !important;
+          }}
         </style>
         """,
         unsafe_allow_html=True,
@@ -454,9 +487,6 @@ def render_municipio(cfg: dict) -> None:
     with st.expander("🗂️ Tabela de dados brutos", expanded=False):
         st.dataframe(df.sort_values(["indicador_nome", "ano"]), use_container_width=True, hide_index=True)
         
-        # -------------------------------------------------------------
-        # PRINCÍPIO DO MENOR PRIVILÉGIO: Checa o cargo do usuário logado
-        # -------------------------------------------------------------
         if st.session_state.get("user_role") == "admin":
             csv = df.to_csv(index=False).encode("utf-8")
             st.download_button(
@@ -576,10 +606,8 @@ def main() -> None:
         st.warning("⚠️ Configurações de Login não encontradas. Configure as 'Secrets' no painel do Streamlit Cloud.")
         st.stop()
 
-    # Transforma as secrets do Streamlit em um dicionário Python compreensível pela biblioteca
     auth_config = json.loads(json.dumps(st.secrets["auth"].to_dict()))
 
-    # Inicia a tela de login nativa do authenticator
     authenticator = stauth.Authenticate(
         auth_config['credentials'],
         auth_config['cookie']['name'],
@@ -599,23 +627,17 @@ def main() -> None:
         st.info("Insira suas credenciais para acessar os indicadores.")
     
     elif authentication_status is True:
-        # ---- SE LOGOU COM SUCESSO ----
-        
-        # Lê o cargo (role) configurado no painel da nuvem. Se não existir, vira "viewer" por segurança.
         role = auth_config['credentials']['usernames'][username].get('role', 'viewer')
         st.session_state["user_role"] = role
         
-        # Mostra quem está logado e o botão de sair na barra lateral
         st.sidebar.markdown(f"Logado como: **{name}**")
         
-        # Exibe uma etiqueta amarela ou cinza dependendo do perfil
         cor_tag = "#F59E0B" if role == "admin" else "#64748B"
         st.sidebar.markdown(f"<span style='background:{cor_tag}; color:white; padding:2px 8px; border-radius:10px; font-size:12px; font-weight:bold;'>PERFIL: {role.upper()}</span>", unsafe_allow_html=True)
         
         authenticator.logout("Sair", "sidebar")
         st.sidebar.divider()
 
-        # Renderização do Dashboard real
         nomes_municipios = [cfg["nome"] for cfg in MUNICIPIOS]
         pagina = _sidebar_navegacao(nomes_municipios)
 
