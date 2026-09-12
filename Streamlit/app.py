@@ -87,7 +87,7 @@ MUNICIPIOS = [
     {
         "nome":    "Bragança",
         "pasta":   "data",
-        "arquivo": "indicadores_bragança_tratados.csv",
+        "arquivo": "indicadores_braganca_tratados.csv",
     },
 ]
 
