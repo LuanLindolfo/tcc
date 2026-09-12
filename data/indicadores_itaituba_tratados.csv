@@ -1,0 +1,325 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Itaituba,dados_itaituba__populacao_total,População Total,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,7.269996956054825,1991,80.64,Valor
+Itaituba,dados_itaituba__populacao_total,População Total,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,7.269996956054825,2000,94.704,Valor
+Itaituba,dados_itaituba__populacao_total,População Total,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,7.269996956054825,2010,97.493,Valor
+Itaituba,dados_itaituba__populacao_total,População Total,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,7.269996956054825,2022,123.325,Valor
+Itaituba,dados_itaituba__populacao_urbana,População Urbana,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.361583617111416,2000,73.41,Valor
+Itaituba,dados_itaituba__populacao_urbana,População Urbana,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.361583617111416,2010,78.21,Valor
+Itaituba,dados_itaituba__populacao_urbana,População Urbana,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.361583617111416,2022,99.42,Valor
+Itaituba,dados_itaituba__populacao_rural,População Rural,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,2.4374198661952184,2000,21.294,Valor
+Itaituba,dados_itaituba__populacao_rural,População Rural,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,2.4374198661952184,2010,19.283,Valor
+Itaituba,dados_itaituba__populacao_rural,População Rural,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,2.4374198661952184,2022,23.905,Valor
+Itaituba,dados_itaituba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.21,Valor
+Itaituba,dados_itaituba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.84,Valor
+Itaituba,dados_itaituba__populacao_de_mulheres,População de Mulheres,dados_itaituba,Grupo 2 — 3 censos,3,relu,sgd,True,5.743811827281391,2000,46.12,Valor
+Itaituba,dados_itaituba__populacao_de_mulheres,População de Mulheres,dados_itaituba,Grupo 2 — 3 censos,3,relu,sgd,True,5.743811827281391,2010,48.21,Valor
+Itaituba,dados_itaituba__populacao_de_mulheres,População de Mulheres,dados_itaituba,Grupo 2 — 3 censos,3,relu,sgd,True,5.743811827281391,2022,61.42,Valor
+Itaituba,dados_itaituba__populacao_de_homens,População de Homens,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,6.006441978251452,2000,48.584,Valor
+Itaituba,dados_itaituba__populacao_de_homens,População de Homens,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,6.006441978251452,2010,49.283,Valor
+Itaituba,dados_itaituba__populacao_de_homens,População de Homens,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,6.006441978251452,2022,61.905,Valor
+Itaituba,dados_itaituba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.1226698671694209,2000,105.3,Valor
+Itaituba,dados_itaituba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.1226698671694209,2010,102.2,Valor
+Itaituba,dados_itaituba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.1226698671694209,2022,100.8,Valor
+Itaituba,dados_itaituba__idade_mediana,Idade Mediana,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,21.0,Valor
+Itaituba,dados_itaituba__idade_mediana,Idade Mediana,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,25.0,Valor
+Itaituba,dados_itaituba__idade_mediana,Idade Mediana,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,31.0,Valor
+Itaituba,dados_itaituba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.467190974966879,2000,9.4,Valor
+Itaituba,dados_itaituba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.467190974966879,2010,14.8,Valor
+Itaituba,dados_itaituba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.467190974966879,2022,29.8,Valor
+Itaituba,dados_itaituba__populacao_parda,População Parda,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.405989999285052,2000,61.24,Valor
+Itaituba,dados_itaituba__populacao_parda,População Parda,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.405989999285052,2010,66.82,Valor
+Itaituba,dados_itaituba__populacao_parda,População Parda,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.405989999285052,2022,84.21,Valor
+Itaituba,dados_itaituba__populacao_branca,População Branca,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,2.1624859245445442,2000,21.42,Valor
+Itaituba,dados_itaituba__populacao_branca,População Branca,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,2.1624859245445442,2010,21.24,Valor
+Itaituba,dados_itaituba__populacao_branca,População Branca,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,2.1624859245445442,2022,25.41,Valor
+Itaituba,dados_itaituba__populacao_preta,População Preta,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.9534658429338887,2000,8.42,Valor
+Itaituba,dados_itaituba__populacao_preta,População Preta,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.9534658429338887,2010,7.42,Valor
+Itaituba,dados_itaituba__populacao_preta,População Preta,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.9534658429338887,2022,10.82,Valor
+Itaituba,dados_itaituba__populacao_amarela,População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,356.01973235492136,2000,280.0,Valor
+Itaituba,dados_itaituba__populacao_amarela,População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,356.01973235492136,2010,840.0,Valor
+Itaituba,dados_itaituba__populacao_amarela,População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,356.01973235492136,2022,340.0,Valor
+Itaituba,dados_itaituba__populacao_indigena,População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2000,3.344,Valor
+Itaituba,dados_itaituba__populacao_indigena,População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2010,1.173,Valor
+Itaituba,dados_itaituba__populacao_indigena,População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2022,2.545,Valor
+Itaituba,dados_itaituba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,278.2,Valor
+Itaituba,dados_itaituba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,524.8,Valor
+Itaituba,dados_itaituba__apenas_1_trabalho,Apenas 1 trabalho,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2877108144936784,2000,95.1,Valor
+Itaituba,dados_itaituba__apenas_1_trabalho,Apenas 1 trabalho,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2877108144936784,2010,95.8,Valor
+Itaituba,dados_itaituba__apenas_1_trabalho,Apenas 1 trabalho,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2877108144936784,2022,93.5,Valor
+Itaituba,dados_itaituba__2_trabalhos,2 trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2124604738187827,2000,4.3,Valor
+Itaituba,dados_itaituba__2_trabalhos,2 trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2124604738187827,2010,3.7,Valor
+Itaituba,dados_itaituba__2_trabalhos,2 trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2124604738187827,2022,5.8,Valor
+Itaituba,dados_itaituba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033908,2000,0.6,Valor
+Itaituba,dados_itaituba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033908,2010,0.5,Valor
+Itaituba,dados_itaituba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.10112432549033908,2022,0.7,Valor
+Itaituba,dados_itaituba__setor_privado,Setor privado,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.6059923241722778,2000,12.41,Valor
+Itaituba,dados_itaituba__setor_privado,Setor privado,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.6059923241722778,2010,19.82,Valor
+Itaituba,dados_itaituba__setor_privado,Setor privado,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.6059923241722778,2022,30.82,Valor
+Itaituba,dados_itaituba__conta_propria,Conta própria,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.04297748532557281,2000,9.82,Valor
+Itaituba,dados_itaituba__conta_propria,Conta própria,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.04297748532557281,2010,14.21,Valor
+Itaituba,dados_itaituba__conta_propria,Conta própria,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.04297748532557281,2022,19.42,Valor
+Itaituba,dados_itaituba__setor_publico,Setor público,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.2640686543067634,2000,3.42,Valor
+Itaituba,dados_itaituba__setor_publico,Setor público,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.2640686543067634,2010,6.21,Valor
+Itaituba,dados_itaituba__setor_publico,Setor público,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.2640686543067634,2022,9.21,Valor
+Itaituba,dados_itaituba__trabalhador_domestico,Trabalhador doméstico,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.3541343081607173,2000,1.92,Valor
+Itaituba,dados_itaituba__trabalhador_domestico,Trabalhador doméstico,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.3541343081607173,2010,2.84,Valor
+Itaituba,dados_itaituba__trabalhador_domestico,Trabalhador doméstico,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.3541343081607173,2022,3.21,Valor
+Itaituba,dados_itaituba__empregador,Empregador,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,341.37205345927714,2000,620.0,Valor
+Itaituba,dados_itaituba__empregador,Empregador,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,341.37205345927714,2010,1.32,Valor
+Itaituba,dados_itaituba__empregador,Empregador,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,341.37205345927714,2022,2.14,Valor
+Itaituba,dados_itaituba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,434.17901406427796,2000,2.42,Valor
+Itaituba,dados_itaituba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,434.17901406427796,2010,1.34,Valor
+Itaituba,dados_itaituba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,434.17901406427796,2022,880.0,Valor
+Itaituba,dados_itaituba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,407.3495212677346,2000,740.0,Valor
+Itaituba,dados_itaituba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,407.3495212677346,2010,1.51,Valor
+Itaituba,dados_itaituba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_itaituba,Grupo 2 — 3 censos,3,tanh,adam,True,407.3495212677346,2022,2.24,Valor
+Itaituba,dados_itaituba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.6922807072054086,2000,5.42,Valor
+Itaituba,dados_itaituba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.6922807072054086,2010,11.82,Valor
+Itaituba,dados_itaituba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.6922807072054086,2022,20.41,Valor
+Itaituba,dados_itaituba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8642279182430244,2000,6.99,Valor
+Itaituba,dados_itaituba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8642279182430244,2010,8.0,Valor
+Itaituba,dados_itaituba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8642279182430244,2022,10.41,Valor
+Itaituba,dados_itaituba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2000,260.0,Valor
+Itaituba,dados_itaituba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2010,520.0,Valor
+Itaituba,dados_itaituba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2022,880.0,Valor
+Itaituba,dados_itaituba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3006617829658225,2000,3.16,Valor
+Itaituba,dados_itaituba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3006617829658225,2010,5.69,Valor
+Itaituba,dados_itaituba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3006617829658225,2022,8.33,Valor
+Itaituba,dados_itaituba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,93.7107729948346,2000,220.0,Valor
+Itaituba,dados_itaituba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,93.7107729948346,2010,540.0,Valor
+Itaituba,dados_itaituba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,93.7107729948346,2022,720.0,Valor
+Itaituba,dados_itaituba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,0.25178697065035194,2000,1.7,Valor
+Itaituba,dados_itaituba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,0.25178697065035194,2010,2.3,Valor
+Itaituba,dados_itaituba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,0.25178697065035194,2022,2.49,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_itaituba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7290095269577712,1991,72.4,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_itaituba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7290095269577712,2000,82.1,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_itaituba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7290095269577712,2010,89.8,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_itaituba,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7290095269577712,2022,94.2,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.5341046268039946,2000,91.8,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.5341046268039946,2010,96.2,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,1.5341046268039946,2022,98.2,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.5334958554032834,2000,36.2,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.5334958554032834,2010,49.8,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.5334958554032834,2022,64.1,Valor
+Itaituba,dados_itaituba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2000,88.2,Valor
+Itaituba,dados_itaituba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2010,94.8,Valor
+Itaituba,dados_itaituba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2022,96.8,Valor
+Itaituba,dados_itaituba__populacao_com_superior_completo,População com Superior Completo,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.9641739370728046,2000,1.12,Valor
+Itaituba,dados_itaituba__populacao_com_superior_completo,População com Superior Completo,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.9641739370728046,2010,4.82,Valor
+Itaituba,dados_itaituba__populacao_com_superior_completo,População com Superior Completo,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.9641739370728046,2022,11.84,Valor
+Itaituba,dados_itaituba__anos_de_estudo_media,Anos de Estudo (Média),dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08909946723457474,1991,3.6,Valor
+Itaituba,dados_itaituba__anos_de_estudo_media,Anos de Estudo (Média),dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08909946723457474,2000,5.1,Valor
+Itaituba,dados_itaituba__anos_de_estudo_media,Anos de Estudo (Média),dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08909946723457474,2010,6.9,Valor
+Itaituba,dados_itaituba__anos_de_estudo_media,Anos de Estudo (Média),dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08909946723457474,2022,8.8,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135198,1991,3.9,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135198,2000,5.4,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135198,2010,7.3,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135198,2022,9.2,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.059855152456071425,1991,3.3,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.059855152456071425,2000,4.8,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.059855152456071425,2010,6.5,Valor
+Itaituba,dados_itaituba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_itaituba,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.059855152456071425,2022,8.4,Valor
+Itaituba,dados_itaituba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.03269272681452338,1991,0.312,Valor
+Itaituba,dados_itaituba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.03269272681452338,2000,0.478,Valor
+Itaituba,dados_itaituba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.03269272681452338,2010,0.621,Valor
+Itaituba,dados_itaituba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2000,88.2,Valor
+Itaituba,dados_itaituba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2010,94.8,Valor
+Itaituba,dados_itaituba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_itaituba,Grupo 2 — 3 censos,3,logistic,adam,True,2.8258507710193896,2022,96.8,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,3.0339651475143605,2000,66.4,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,3.0339651475143605,2010,76.8,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,3.0339651475143605,2022,83.1,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0475913163535453,2000,23.8,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0475913163535453,2010,29.1,Valor
+Itaituba,dados_itaituba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0475913163535453,2022,28.9,Valor
+Itaituba,dados_itaituba__media_populacao_amarela,Média: População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231818,2000,6.1,Valor
+Itaituba,dados_itaituba__media_populacao_amarela,Média: População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231818,2010,8.2,Valor
+Itaituba,dados_itaituba__media_populacao_amarela,Média: População Amarela,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231818,2022,9.8,Valor
+Itaituba,dados_itaituba__media_populacao_branca,Média: População Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2000,5.8,Valor
+Itaituba,dados_itaituba__media_populacao_branca,Média: População Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2010,7.9,Valor
+Itaituba,dados_itaituba__media_populacao_branca,Média: População Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2022,9.5,Valor
+Itaituba,dados_itaituba__media_populacao_preta_parda,Média: População Preta / Parda,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2000,4.8,Valor
+Itaituba,dados_itaituba__media_populacao_preta_parda,Média: População Preta / Parda,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2010,6.6,Valor
+Itaituba,dados_itaituba__media_populacao_preta_parda,Média: População Preta / Parda,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2022,8.5,Valor
+Itaituba,dados_itaituba__media_populacao_indigena,Média: População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2000,3.8,Valor
+Itaituba,dados_itaituba__media_populacao_indigena,Média: População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2010,5.2,Valor
+Itaituba,dados_itaituba__media_populacao_indigena,Média: População Indígena,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2022,6.8,Valor
+Itaituba,dados_itaituba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Itaituba,dados_itaituba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.0,Valor
+Itaituba,dados_itaituba__populacao_residente_em_favelas,População Residente em Favelas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.21,Valor
+Itaituba,dados_itaituba__populacao_residente_em_favelas,População Residente em Favelas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.84,Valor
+Itaituba,dados_itaituba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,980.0,Valor
+Itaituba,dados_itaituba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.54,Valor
+Itaituba,dados_itaituba__idade_mediana_2,Idade Mediana,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Itaituba,dados_itaituba__idade_mediana_2,Idade Mediana,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Itaituba,dados_itaituba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.1,Valor
+Itaituba,dados_itaituba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Itaituba,dados_itaituba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,104.2,Valor
+Itaituba,dados_itaituba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,101.1,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,87.2,Valor
+Itaituba,dados_itaituba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+Itaituba,dados_itaituba__populacao_parda_2,População Parda,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.12,Valor
+Itaituba,dados_itaituba__populacao_parda_2,População Parda,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.82,Valor
+Itaituba,dados_itaituba__populacao_branca_2,População Branca,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,540.0,Valor
+Itaituba,dados_itaituba__populacao_branca_2,População Branca,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.42,Valor
+Itaituba,dados_itaituba__populacao_preta_2,População Preta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,420.0,Valor
+Itaituba,dados_itaituba__populacao_preta_2,População Preta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.18,Valor
+Itaituba,dados_itaituba__populacao_amarela_2,População Amarela,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+Itaituba,dados_itaituba__populacao_amarela_2,População Amarela,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.0,Valor
+Itaituba,dados_itaituba__populacao_indigena_2,População Indígena,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,100.0,Valor
+Itaituba,dados_itaituba__populacao_indigena_2,População Indígena,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,360.0,Valor
+Itaituba,dados_itaituba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.4,Valor
+Itaituba,dados_itaituba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Itaituba,dados_itaituba__com_coleta_de_lixo,Com Coleta de Lixo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Itaituba,dados_itaituba__com_coleta_de_lixo,Com Coleta de Lixo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Itaituba,dados_itaituba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Itaituba,dados_itaituba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Itaituba,dados_itaituba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.4,Valor
+Itaituba,dados_itaituba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,49.2,Valor
+Itaituba,dados_itaituba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Itaituba,dados_itaituba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.8,Valor
+Itaituba,dados_itaituba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Itaituba,dados_itaituba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Itaituba,dados_itaituba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Itaituba,dados_itaituba__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.8,Valor
+Itaituba,dados_itaituba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.2,Valor
+Itaituba,dados_itaituba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Itaituba,dados_itaituba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Itaituba,dados_itaituba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.5,Valor
+Itaituba,dados_itaituba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,83.4,Valor
+Itaituba,dados_itaituba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,87.8,Valor
+Itaituba,dados_itaituba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.6,Valor
+Itaituba,dados_itaituba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.2,Valor
+Itaituba,dados_itaituba__casais_com_filhos,Casais com filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236265126313285,2000,61.2,Valor
+Itaituba,dados_itaituba__casais_com_filhos,Casais com filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236265126313285,2010,52.8,Valor
+Itaituba,dados_itaituba__casais_com_filhos,Casais com filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236265126313285,2022,43.8,Valor
+Itaituba,dados_itaituba__casais_sem_filhos,Casais sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.167776872213647,2000,8.4,Valor
+Itaituba,dados_itaituba__casais_sem_filhos,Casais sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.167776872213647,2010,11.8,Valor
+Itaituba,dados_itaituba__casais_sem_filhos,Casais sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.167776872213647,2022,16.1,Valor
+Itaituba,dados_itaituba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.13620344684008975,2000,16.2,Valor
+Itaituba,dados_itaituba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.13620344684008975,2010,19.1,Valor
+Itaituba,dados_itaituba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.13620344684008975,2022,22.4,Valor
+Itaituba,dados_itaituba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2000,2.8,Valor
+Itaituba,dados_itaituba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2010,3.1,Valor
+Itaituba,dados_itaituba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_itaituba,Grupo 2 — 3 censos,3,identity,sgd,True,0.03037080823305664,2022,3.5,Valor
+Itaituba,dados_itaituba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.46970092087112797,2000,7.4,Valor
+Itaituba,dados_itaituba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.46970092087112797,2010,8.2,Valor
+Itaituba,dados_itaituba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.46970092087112797,2022,7.6,Valor
+Itaituba,dados_itaituba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2800007774821691,2000,3.2,Valor
+Itaituba,dados_itaituba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2800007774821691,2010,3.8,Valor
+Itaituba,dados_itaituba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2800007774821691,2022,3.9,Valor
+Itaituba,dados_itaituba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23485046043556415,2000,0.8,Valor
+Itaituba,dados_itaituba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23485046043556415,2010,1.2,Valor
+Itaituba,dados_itaituba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23485046043556415,2022,0.9,Valor
+Itaituba,dados_itaituba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.2,Valor
+Itaituba,dados_itaituba__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.4,Valor
+Itaituba,dados_itaituba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.1,Valor
+Itaituba,dados_itaituba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Itaituba,dados_itaituba__trabalha_em_outro_municipio,Trabalha em outro município,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Itaituba,dados_itaituba__trabalha_em_outro_municipio,Trabalha em outro município,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.6,Valor
+Itaituba,dados_itaituba__motocicleta,Motocicleta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.8,Valor
+Itaituba,dados_itaituba__motocicleta,Motocicleta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Itaituba,dados_itaituba__bicicleta,Bicicleta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.2,Valor
+Itaituba,dados_itaituba__bicicleta,Bicicleta,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Itaituba,dados_itaituba__automovel_carro,Automóvel (Carro),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.4,Valor
+Itaituba,dados_itaituba__automovel_carro,Automóvel (Carro),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Itaituba,dados_itaituba__a_pe,A pé,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Itaituba,dados_itaituba__a_pe,A pé,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Itaituba,dados_itaituba__onibus,Ônibus,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.2,Valor
+Itaituba,dados_itaituba__onibus,Ônibus,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.4,Valor
+Itaituba,dados_itaituba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.2,Valor
+Itaituba,dados_itaituba__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.4,Valor
+Itaituba,dados_itaituba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.1,Valor
+Itaituba,dados_itaituba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.8,Valor
+Itaituba,dados_itaituba__mais_de_1_hora,Mais de 1 hora,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.7,Valor
+Itaituba,dados_itaituba__mais_de_1_hora,Mais de 1 hora,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.8,Valor
+Itaituba,dados_itaituba__estuda_no_proprio_municipio_itaituba,Estuda no próprio município (Itaituba),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,98.1,Valor
+Itaituba,dados_itaituba__estuda_no_proprio_municipio_itaituba,Estuda no próprio município (Itaituba),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,97.2,Valor
+Itaituba,dados_itaituba__estuda_em_outro_municipio,Estuda em outro município,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.9,Valor
+Itaituba,dados_itaituba__estuda_em_outro_municipio,Estuda em outro município,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.8,Valor
+Itaituba,dados_itaituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.334473684467639,1991,17.42,Valor
+Itaituba,dados_itaituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.334473684467639,2000,23.82,Valor
+Itaituba,dados_itaituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.334473684467639,2010,28.84,Valor
+Itaituba,dados_itaituba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.334473684467639,2022,42.85,Valor
+Itaituba,dados_itaituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.31478457779815,1991,17.21,Valor
+Itaituba,dados_itaituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.31478457779815,2000,23.64,Valor
+Itaituba,dados_itaituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.31478457779815,2010,28.59,Valor
+Itaituba,dados_itaituba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_itaituba,Grupo 1 — 4 censos,4,identity,adam,True,3.31478457779815,2022,42.54,Valor
+Itaituba,dados_itaituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_itaituba,Grupo 1 — 4 censos,4,relu,sgd,True,26.109962738412683,1991,210.0,Valor
+Itaituba,dados_itaituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_itaituba,Grupo 1 — 4 censos,4,relu,sgd,True,26.109962738412683,2000,180.0,Valor
+Itaituba,dados_itaituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_itaituba,Grupo 1 — 4 censos,4,relu,sgd,True,26.109962738412683,2010,250.0,Valor
+Itaituba,dados_itaituba__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_itaituba,Grupo 1 — 4 censos,4,relu,sgd,True,26.109962738412683,2022,310.0,Valor
+Itaituba,dados_itaituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_itaituba,Grupo 1 — 4 censos,4,relu,adam,True,0.10900556245900672,1991,4.6,Valor
+Itaituba,dados_itaituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_itaituba,Grupo 1 — 4 censos,4,relu,adam,True,0.10900556245900672,2000,4.0,Valor
+Itaituba,dados_itaituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_itaituba,Grupo 1 — 4 censos,4,relu,adam,True,0.10900556245900672,2010,3.4,Valor
+Itaituba,dados_itaituba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_itaituba,Grupo 1 — 4 censos,4,relu,adam,True,0.10900556245900672,2022,2.9,Valor
+Itaituba,dados_itaituba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Itaituba,dados_itaituba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Itaituba,dados_itaituba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Itaituba,dados_itaituba__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.2,Valor
+Itaituba,dados_itaituba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Itaituba,dados_itaituba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.4,Valor
+Itaituba,dados_itaituba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Itaituba,dados_itaituba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Itaituba,dados_itaituba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Itaituba,dados_itaituba__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.1,Valor
+Itaituba,dados_itaituba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.1,Valor
+Itaituba,dados_itaituba__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.8,Valor
+Itaituba,dados_itaituba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.8,Valor
+Itaituba,dados_itaituba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.2,Valor
+Itaituba,dados_itaituba__ruas_sem_arvores,Ruas Sem Árvores,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,50.2,Valor
+Itaituba,dados_itaituba__ruas_sem_arvores,Ruas Sem Árvores,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.8,Valor
+Itaituba,dados_itaituba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Itaituba,dados_itaituba__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Itaituba,dados_itaituba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Itaituba,dados_itaituba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Itaituba,dados_itaituba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Itaituba,dados_itaituba__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Itaituba,dados_itaituba__populacao_indigena_total,População Indígena Total,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2000,3.344,Valor
+Itaituba,dados_itaituba__populacao_indigena_total,População Indígena Total,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2010,1.173,Valor
+Itaituba,dados_itaituba__populacao_indigena_total,População Indígena Total,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.180192203391963,2022,2.545,Valor
+Itaituba,dados_itaituba__proporcao_na_populacao_de_itaituba,Proporção na população de Itaituba,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2635303801229605,2000,3.53,Valor
+Itaituba,dados_itaituba__proporcao_na_populacao_de_itaituba,Proporção na população de Itaituba,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2635303801229605,2010,1.2,Valor
+Itaituba,dados_itaituba__proporcao_na_populacao_de_itaituba,Proporção na população de Itaituba,dados_itaituba,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2635303801229605,2022,2.06,Valor
+Itaituba,dados_itaituba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.4,Valor
+Itaituba,dados_itaituba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Itaituba,dados_itaituba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.1,Valor
+Itaituba,dados_itaituba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Itaituba,dados_itaituba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.2,Valor
+Itaituba,dados_itaituba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.0,Valor
+Itaituba,dados_itaituba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.3,Valor
+Itaituba,dados_itaituba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.4,Valor
+Itaituba,dados_itaituba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.188025395806747,2000,16.1,Valor
+Itaituba,dados_itaituba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.188025395806747,2010,19.8,Valor
+Itaituba,dados_itaituba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,1.188025395806747,2022,25.8,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13726723602274168,2000,55.2,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13726723602274168,2010,47.8,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_itaituba,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13726723602274168,2022,39.1,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.5333095310674795,2000,8.9,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.5333095310674795,2010,11.4,Valor
+Itaituba,dados_itaituba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.5333095310674795,2022,15.1,Valor
+Itaituba,dados_itaituba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Itaituba,dados_itaituba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Itaituba,dados_itaituba__sem_conjuge,Sem cônjuge,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.7,Valor
+Itaituba,dados_itaituba__sem_conjuge,Sem cônjuge,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.1,Valor
+Itaituba,dados_itaituba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Itaituba,dados_itaituba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Itaituba,dados_itaituba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.3,Valor
+Itaituba,dados_itaituba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_itaituba,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.6,Valor
+Itaituba,dados_itaituba__responsavel_mulher,Responsável Mulher,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2000,3.8,Valor
+Itaituba,dados_itaituba__responsavel_mulher,Responsável Mulher,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2010,3.3,Valor
+Itaituba,dados_itaituba__responsavel_mulher,Responsável Mulher,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.13566482453531256,2022,2.9,Valor
+Itaituba,dados_itaituba__responsavel_homem,Responsável Homem,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2000,4.6,Valor
+Itaituba,dados_itaituba__responsavel_homem,Responsável Homem,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2010,3.8,Valor
+Itaituba,dados_itaituba__responsavel_homem,Responsável Homem,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2022,3.2,Valor
+Itaituba,dados_itaituba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Itaituba,dados_itaituba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Itaituba,dados_itaituba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Itaituba,dados_itaituba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.8836534188396641,2000,15.1,Valor
+Itaituba,dados_itaituba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.8836534188396641,2010,18.8,Valor
+Itaituba,dados_itaituba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.8836534188396641,2022,24.4,Valor
+Itaituba,dados_itaituba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3947352272770779,2000,17.8,Valor
+Itaituba,dados_itaituba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3947352272770779,2010,21.4,Valor
+Itaituba,dados_itaituba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_itaituba,Grupo 2 — 3 censos,3,identity,adam,True,0.3947352272770779,2022,25.2,Valor
+Itaituba,dados_itaituba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,4.5047671840003325,2000,45.2,Valor
+Itaituba,dados_itaituba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,4.5047671840003325,2010,28.8,Valor
+Itaituba,dados_itaituba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_itaituba,Grupo 2 — 3 censos,3,relu,adam,True,4.5047671840003325,2022,17.1,Valor
