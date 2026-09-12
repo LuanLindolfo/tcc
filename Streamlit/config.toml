@@ -1,12 +1,11 @@
-# Tema fixo do painel — evita que o app "herde" o modo escuro do
-# navegador/sistema do visitante e fique com contraste ruim.
-# Este arquivo deve ficar na RAIZ do repositório (pasta .streamlit/,
-# no mesmo nível onde o Streamlit Cloud lê o app), não dentro de data/.
+# Tema escuro fixo — sem este arquivo na raiz do repositório, o Streamlit
+# Cloud usa o padrão claro e o app perde a identidade visual (foi o que
+# aconteceu no deploy anterior).
 
 [theme]
-base = "light"
-primaryColor = "#134E5E"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F4F7F8"
-textColor = "#1E293B"
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0B0F19"
+secondaryBackgroundColor = "#0D1220"
+textColor = "#E4E9F2"
 font = "sans serif"
