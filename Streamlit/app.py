@@ -89,6 +89,16 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_braganca_tratados.csv",
     },
+    {
+        "nome":    "Marituba",
+        "pasta":   "data",
+        "arquivo": "indicadores_marituba_tratados.csv",
+    },
+    {
+        "nome":    "Breves",
+        "pasta":   "data",
+        "arquivo": "indicadores_breves_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
