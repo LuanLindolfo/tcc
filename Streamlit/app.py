@@ -884,7 +884,7 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
     
     # Indicador de onde o usuário está, já que a caixa de busca ficará vazia
     if pagina_atual == "Comparativo":
-        st.sidebar.markdown("**📍 Visualizando:** Análise Cruzada")
+        st.sidebar.markdown(f"**📍 Município:** {pagina_atual}")
     else:
         st.sidebar.markdown(f"**📍 Município:** {pagina_atual}")
 
