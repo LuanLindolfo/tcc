@@ -859,7 +859,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
-    """Sidebar com logo, busca e seleção de município."""
+    """Sidebar com logo e seleção de município via dropdown."""
     logo_b64 = _logo_base64()
     if logo_b64:
         st.sidebar.markdown(
@@ -877,32 +877,25 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
     st.sidebar.divider()
     st.sidebar.markdown("**NAVEGAR POR**")
 
-    busca = st.sidebar.text_input(
-        "Buscar município",
-        placeholder="🔎 Digite para filtrar…",
-        label_visibility="collapsed",
-    )
-
-    opcoes = [n for n in nomes_municipios if busca.strip().lower() in n.lower()] if busca else list(nomes_municipios)
-
+    # Define a página atual na sessão, se não existir
     if "pagina_atual" not in st.session_state:
         st.session_state["pagina_atual"] = nomes_municipios[0]
 
     pagina_atual = st.session_state["pagina_atual"]
-    lista_radio = opcoes + ["🔀 Comparativo entre municípios"]
+    lista_opcoes = list(nomes_municipios) + ["🔀 Comparativo entre municípios"]
+    
+    # Encontra o índice padrão para manter a seleção ao recarregar
     default_idx = 0
-    if pagina_atual in lista_radio:
-        default_idx = lista_radio.index(pagina_atual)
+    if pagina_atual in lista_opcoes:
+        default_idx = lista_opcoes.index(pagina_atual)
     elif pagina_atual == "Comparativo":
-        default_idx = len(lista_radio) - 1
+        default_idx = len(lista_opcoes) - 1
 
-    if not opcoes and busca:
-        st.sidebar.caption("Nenhum município encontrado.")
-
-    escolha = st.sidebar.radio(
-        "Município",
-        options=lista_radio,
-        index=default_idx if lista_radio else 0,
+    # Menu suspenso (selectbox) substitui o text_input e o radio
+    escolha = st.sidebar.selectbox(
+        "Selecione um município ou análise",
+        options=lista_opcoes,
+        index=default_idx,
         label_visibility="collapsed",
     )
 
@@ -919,12 +912,6 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
         "erro para mais ou para menos.",
         icon="ℹ️",
     )
-    #with st.sidebar.expander("➕ Como adicionar uma cidade"):
-        #st.markdown(
-         #   "1. Rode o notebook coringa para o município.\n"
-          #  "2. Faça push da pasta `data_<cidade>/` com os CSVs.\n"
-         #   "3. Adicione a entrada em `MUNICIPIOS` no topo de `app.py`.\n"
-       # )
 
     return pagina
 
