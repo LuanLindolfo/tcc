@@ -859,7 +859,7 @@ def render_comparativo(municipios_carregados: list[dict]) -> None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
-    """Sidebar com logo e seleção de município via dropdown."""
+    """Sidebar com logo e barra de busca sempre limpa."""
     logo_b64 = _logo_base64()
     if logo_b64:
         st.sidebar.markdown(
@@ -875,32 +875,39 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
         st.rerun()
 
     st.sidebar.divider()
-    st.sidebar.markdown("**NAVEGAR POR**")
 
-    # Define a página atual na sessão, se não existir
+    # Define a página inicial se for o primeiro acesso
     if "pagina_atual" not in st.session_state:
         st.session_state["pagina_atual"] = nomes_municipios[0]
 
     pagina_atual = st.session_state["pagina_atual"]
-    lista_opcoes = list(nomes_municipios) + ["🔀 Comparativo entre municípios"]
     
-    # Encontra o índice padrão para manter a seleção ao recarregar
-    default_idx = 0
-    if pagina_atual in lista_opcoes:
-        default_idx = lista_opcoes.index(pagina_atual)
-    elif pagina_atual == "Comparativo":
-        default_idx = len(lista_opcoes) - 1
+    # Indicador de onde o usuário está, já que a caixa de busca ficará vazia
+    if pagina_atual == "Comparativo":
+        st.sidebar.markdown("**📍 Visualizando:** Análise Cruzada")
+    else:
+        st.sidebar.markdown(f"**📍 Município:** {pagina_atual}")
 
-    # Menu suspenso (selectbox) substitui o text_input e o radio
-    escolha = st.sidebar.selectbox(
-        "Selecione um município ou análise",
+    lista_opcoes = list(nomes_municipios) + ["🔀 Comparativo entre municípios"]
+
+    # Callback: O que acontece ao escolher algo na barra de busca
+    def ao_buscar():
+        escolha = st.session_state.caixa_busca
+        if escolha: # Se o usuário escolheu algo (não apenas limpou a caixa)
+            st.session_state["pagina_atual"] = "Comparativo" if escolha == "🔀 Comparativo entre municípios" else escolha
+            # O segredo: forçamos a caixa de busca a voltar a ficar vazia após a navegação!
+            st.session_state.caixa_busca = None
+
+    # O selectbox agora funciona puramente como um "Spotlight" / "Jump to"
+    st.sidebar.selectbox(
+        "Navegar",
         options=lista_opcoes,
-        index=default_idx,
+        index=None, # Define o estado padrão como vazio
+        placeholder="🔎 Clique para buscar...",
+        key="caixa_busca",
+        on_change=ao_buscar, # Executa a função acima ao clicar em um município
         label_visibility="collapsed",
     )
-
-    pagina = "Comparativo" if escolha == "🔀 Comparativo entre municípios" else escolha
-    st.session_state["pagina_atual"] = pagina
 
     st.sidebar.divider()
     st.sidebar.caption(
@@ -913,7 +920,7 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
         icon="ℹ️",
     )
 
-    return pagina
+    return st.session_state["pagina_atual"]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
