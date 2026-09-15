@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Oriximiná,dados_oriximina__populacao_total,População Total,dados_oriximina,Grupo 1 — 4 censos,4,tanh,lbfgs,True,2.3092554725267185,1991,40.12,Valor
+Oriximiná,dados_oriximina__populacao_total,População Total,dados_oriximina,Grupo 1 — 4 censos,4,tanh,lbfgs,True,2.3092554725267185,2000,48.901,Valor
+Oriximiná,dados_oriximina__populacao_total,População Total,dados_oriximina,Grupo 1 — 4 censos,4,tanh,lbfgs,True,2.3092554725267185,2010,62.794,Valor
+Oriximiná,dados_oriximina__populacao_total,População Total,dados_oriximina,Grupo 1 — 4 censos,4,tanh,lbfgs,True,2.3092554725267185,2022,68.294,Valor
+Oriximiná,dados_oriximina__populacao_urbana,População Urbana,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.3250085446803674,2000,29.82,Valor
+Oriximiná,dados_oriximina__populacao_urbana,População Urbana,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.3250085446803674,2010,41.24,Valor
+Oriximiná,dados_oriximina__populacao_urbana,População Urbana,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.3250085446803674,2022,48.41,Valor
+Oriximiná,dados_oriximina__populacao_rural,População Rural,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3890807971314618,2000,19.081,Valor
+Oriximiná,dados_oriximina__populacao_rural,População Rural,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3890807971314618,2010,21.554,Valor
+Oriximiná,dados_oriximina__populacao_rural,População Rural,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3890807971314618,2022,19.884,Valor
+Oriximiná,dados_oriximina__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.82,Valor
+Oriximiná,dados_oriximina__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.92,Valor
+Oriximiná,dados_oriximina__populacao_de_mulheres,População de Mulheres,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.566534118326667,2000,23.82,Valor
+Oriximiná,dados_oriximina__populacao_de_mulheres,População de Mulheres,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.566534118326667,2010,30.82,Valor
+Oriximiná,dados_oriximina__populacao_de_mulheres,População de Mulheres,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.566534118326667,2022,33.82,Valor
+Oriximiná,dados_oriximina__populacao_de_homens,População de Homens,dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.8115835791485537,2000,25.081,Valor
+Oriximiná,dados_oriximina__populacao_de_homens,População de Homens,dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.8115835791485537,2010,31.974,Valor
+Oriximiná,dados_oriximina__populacao_de_homens,População de Homens,dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.8115835791485537,2022,34.474,Valor
+Oriximiná,dados_oriximina__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2000,105.3,Valor
+Oriximiná,dados_oriximina__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2010,103.7,Valor
+Oriximiná,dados_oriximina__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2022,101.9,Valor
+Oriximiná,dados_oriximina__idade_mediana,Idade Mediana,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2000,20.0,Valor
+Oriximiná,dados_oriximina__idade_mediana,Idade Mediana,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2010,23.0,Valor
+Oriximiná,dados_oriximina__idade_mediana,Idade Mediana,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2022,28.0,Valor
+Oriximiná,dados_oriximina__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oriximina,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.906309785310093,2000,7.2,Valor
+Oriximiná,dados_oriximina__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oriximina,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.906309785310093,2010,11.8,Valor
+Oriximiná,dados_oriximina__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oriximina,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.906309785310093,2022,25.2,Valor
+Oriximiná,dados_oriximina__populacao_parda,População Parda,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,5.27370616439094,2000,35.42,Valor
+Oriximiná,dados_oriximina__populacao_parda,População Parda,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,5.27370616439094,2010,48.21,Valor
+Oriximiná,dados_oriximina__populacao_parda,População Parda,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,5.27370616439094,2022,52.41,Valor
+Oriximiná,dados_oriximina__populacao_branca,População Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.015060541718333079,2000,7.82,Valor
+Oriximiná,dados_oriximina__populacao_branca,População Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.015060541718333079,2010,8.42,Valor
+Oriximiná,dados_oriximina__populacao_branca,População Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.015060541718333079,2022,9.12,Valor
+Oriximiná,dados_oriximina__populacao_preta,População Preta,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.2918765843740447,2000,3.82,Valor
+Oriximiná,dados_oriximina__populacao_preta,População Preta,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.2918765843740447,2010,4.82,Valor
+Oriximiná,dados_oriximina__populacao_preta,População Preta,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.2918765843740447,2022,5.42,Valor
+Oriximiná,dados_oriximina__populacao_amarela,População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,20.158866366795888,2000,140.0,Valor
+Oriximiná,dados_oriximina__populacao_amarela,População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,20.158866366795888,2010,160.0,Valor
+Oriximiná,dados_oriximina__populacao_amarela,População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,20.158866366795888,2022,120.0,Valor
+Oriximiná,dados_oriximina__populacao_indigena,População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2000,1.701,Valor
+Oriximiná,dados_oriximina__populacao_indigena,População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2010,1.184,Valor
+Oriximiná,dados_oriximina__populacao_indigena,População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2022,1.224,Valor
+Oriximiná,dados_oriximina__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,153.35324088061301,2000,218.4,Valor
+Oriximiná,dados_oriximina__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,153.35324088061301,2010,432.1,Valor
+Oriximiná,dados_oriximina__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,153.35324088061301,2022,890.0,Valor
+Oriximiná,dados_oriximina__apenas_1_trabalho,Apenas 1 trabalho,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4527998378022744,2000,95.8,Valor
+Oriximiná,dados_oriximina__apenas_1_trabalho,Apenas 1 trabalho,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4527998378022744,2010,96.2,Valor
+Oriximiná,dados_oriximina__apenas_1_trabalho,Apenas 1 trabalho,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4527998378022744,2022,93.8,Valor
+Oriximiná,dados_oriximina__2_trabalhos,2 trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303548,2000,3.8,Valor
+Oriximiná,dados_oriximina__2_trabalhos,2 trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303548,2010,3.4,Valor
+Oriximiná,dados_oriximina__2_trabalhos,2 trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303548,2022,5.4,Valor
+Oriximiná,dados_oriximina__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Oriximiná,dados_oriximina__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Oriximiná,dados_oriximina__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Oriximiná,dados_oriximina__setor_privado,Setor privado,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.4780778061189426,2000,7.82,Valor
+Oriximiná,dados_oriximina__setor_privado,Setor privado,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.4780778061189426,2010,16.42,Valor
+Oriximiná,dados_oriximina__setor_privado,Setor privado,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.4780778061189426,2022,22.82,Valor
+Oriximiná,dados_oriximina__conta_propria,Conta própria,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,1.267939245390832,2000,6.41,Valor
+Oriximiná,dados_oriximina__conta_propria,Conta própria,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,1.267939245390832,2010,10.82,Valor
+Oriximiná,dados_oriximina__conta_propria,Conta própria,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,1.267939245390832,2022,14.21,Valor
+Oriximiná,dados_oriximina__setor_publico,Setor público,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.22003745478105063,2000,2.42,Valor
+Oriximiná,dados_oriximina__setor_publico,Setor público,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.22003745478105063,2010,4.82,Valor
+Oriximiná,dados_oriximina__setor_publico,Setor público,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.22003745478105063,2022,7.41,Valor
+Oriximiná,dados_oriximina__trabalhador_domestico,Trabalhador doméstico,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.21892654343426962,2000,1.28,Valor
+Oriximiná,dados_oriximina__trabalhador_domestico,Trabalhador doméstico,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.21892654343426962,2010,2.12,Valor
+Oriximiná,dados_oriximina__trabalhador_domestico,Trabalhador doméstico,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.21892654343426962,2022,2.84,Valor
+Oriximiná,dados_oriximina__empregador,Empregador,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,412.7800292186883,2000,410.0,Valor
+Oriximiná,dados_oriximina__empregador,Empregador,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,412.7800292186883,2010,820.0,Valor
+Oriximiná,dados_oriximina__empregador,Empregador,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,412.7800292186883,2022,1.42,Valor
+Oriximiná,dados_oriximina__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,266.3145098450116,2000,1.84,Valor
+Oriximiná,dados_oriximina__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,266.3145098450116,2010,1.12,Valor
+Oriximiná,dados_oriximina__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,266.3145098450116,2022,540.0,Valor
+Oriximiná,dados_oriximina__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,461.18639691071047,2000,480.0,Valor
+Oriximiná,dados_oriximina__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,461.18639691071047,2010,920.0,Valor
+Oriximiná,dados_oriximina__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,461.18639691071047,2022,1.62,Valor
+Oriximiná,dados_oriximina__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.2159073365681166,2000,3.82,Valor
+Oriximiná,dados_oriximina__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.2159073365681166,2010,9.82,Valor
+Oriximiná,dados_oriximina__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.2159073365681166,2022,15.42,Valor
+Oriximiná,dados_oriximina__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,1.1056457119685132,2000,4.0,Valor
+Oriximiná,dados_oriximina__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,1.1056457119685132,2010,6.6,Valor
+Oriximiná,dados_oriximina__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,1.1056457119685132,2022,7.4,Valor
+Oriximiná,dados_oriximina__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2000,180.0,Valor
+Oriximiná,dados_oriximina__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2010,380.0,Valor
+Oriximiná,dados_oriximina__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2022,720.0,Valor
+Oriximiná,dados_oriximina__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.29618313473282737,2000,2.24,Valor
+Oriximiná,dados_oriximina__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.29618313473282737,2010,4.44,Valor
+Oriximiná,dados_oriximina__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.29618313473282737,2022,6.69,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,22.76204113502236,2000,160.0,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,22.76204113502236,2010,410.0,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,22.76204113502236,2022,680.0,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.1697250568195631,2000,1.12,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.1697250568195631,2010,1.71,Valor
+Oriximiná,dados_oriximina__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.1697250568195631,2022,2.16,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oriximina,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.0856897894722373,1991,67.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oriximina,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.0856897894722373,2000,76.4,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oriximina,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.0856897894722373,2010,85.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oriximina,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.0856897894722373,2022,91.8,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.321512394877994,2000,89.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.321512394877994,2010,95.1,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,2.321512394877994,2022,97.4,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.5551421108724917,2000,30.4,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.5551421108724917,2010,41.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.5551421108724917,2022,56.2,Valor
+Oriximiná,dados_oriximina__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2000,83.4,Valor
+Oriximiná,dados_oriximina__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2010,92.8,Valor
+Oriximiná,dados_oriximina__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2022,95.4,Valor
+Oriximiná,dados_oriximina__populacao_com_superior_completo,População com Superior Completo,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,287.7696728495249,2000,520.0,Valor
+Oriximiná,dados_oriximina__populacao_com_superior_completo,População com Superior Completo,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,287.7696728495249,2010,2.41,Valor
+Oriximiná,dados_oriximina__populacao_com_superior_completo,População com Superior Completo,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,287.7696728495249,2022,7.24,Valor
+Oriximiná,dados_oriximina__anos_de_estudo_media,Anos de Estudo (Média),dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1439463543834636,1991,3.1,Valor
+Oriximiná,dados_oriximina__anos_de_estudo_media,Anos de Estudo (Média),dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1439463543834636,2000,4.5,Valor
+Oriximiná,dados_oriximina__anos_de_estudo_media,Anos de Estudo (Média),dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1439463543834636,2010,6.4,Valor
+Oriximiná,dados_oriximina__anos_de_estudo_media,Anos de Estudo (Média),dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1439463543834636,2022,8.2,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696683,1991,3.3,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696683,2000,4.8,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696683,2010,6.8,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696683,2022,8.6,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,1991,2.9,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2000,4.2,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2010,6.0,Valor
+Oriximiná,dados_oriximina__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oriximina,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2022,7.8,Valor
+Oriximiná,dados_oriximina__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.023133452330307964,1991,0.262,Valor
+Oriximiná,dados_oriximina__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.023133452330307964,2000,0.418,Valor
+Oriximiná,dados_oriximina__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.023133452330307964,2010,0.562,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2000,83.4,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2010,92.8,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,adam,True,4.179845229329719,2022,95.4,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.661862068605643,2000,61.2,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.661862068605643,2010,73.4,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,3.661862068605643,2022,79.8,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4555671525277702,2000,19.8,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4555671525277702,2010,25.8,Valor
+Oriximiná,dados_oriximina__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oriximina,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4555671525277702,2022,27.8,Valor
+Oriximiná,dados_oriximina__media_populacao_amarela,Média: População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2000,5.8,Valor
+Oriximiná,dados_oriximina__media_populacao_amarela,Média: População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2010,7.8,Valor
+Oriximiná,dados_oriximina__media_populacao_amarela,Média: População Amarela,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2022,9.4,Valor
+Oriximiná,dados_oriximina__media_populacao_branca,Média: População Branca,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.632303395776785,2000,4.9,Valor
+Oriximiná,dados_oriximina__media_populacao_branca,Média: População Branca,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.632303395776785,2010,7.1,Valor
+Oriximiná,dados_oriximina__media_populacao_branca,Média: População Branca,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.632303395776785,2022,8.8,Valor
+Oriximiná,dados_oriximina__media_populacao_preta_parda,Média: População Preta / Parda,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.3647458581154301,2000,4.2,Valor
+Oriximiná,dados_oriximina__media_populacao_preta_parda,Média: População Preta / Parda,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.3647458581154301,2010,6.1,Valor
+Oriximiná,dados_oriximina__media_populacao_preta_parda,Média: População Preta / Parda,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.3647458581154301,2022,7.9,Valor
+Oriximiná,dados_oriximina__media_populacao_indigena,Média: População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671777,2000,3.5,Valor
+Oriximiná,dados_oriximina__media_populacao_indigena,Média: População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671777,2010,5.0,Valor
+Oriximiná,dados_oriximina__media_populacao_indigena,Média: População Indígena,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671777,2022,6.7,Valor
+Oriximiná,dados_oriximina__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Oriximiná,dados_oriximina__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.0,Valor
+Oriximiná,dados_oriximina__populacao_residente_em_favelas,População Residente em Favelas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.82,Valor
+Oriximiná,dados_oriximina__populacao_residente_em_favelas,População Residente em Favelas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.92,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,920.0,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.48,Valor
+Oriximiná,dados_oriximina__idade_mediana_2,Idade Mediana,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Oriximiná,dados_oriximina__idade_mediana_2,Idade Mediana,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Oriximiná,dados_oriximina__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.1,Valor
+Oriximiná,dados_oriximina__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Oriximiná,dados_oriximina__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,102.4,Valor
+Oriximiná,dados_oriximina__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,100.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Oriximiná,dados_oriximina__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Oriximiná,dados_oriximina__populacao_parda_2,População Parda,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.12,Valor
+Oriximiná,dados_oriximina__populacao_parda_2,População Parda,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.12,Valor
+Oriximiná,dados_oriximina__populacao_branca_2,População Branca,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Oriximiná,dados_oriximina__populacao_branca_2,População Branca,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,780.0,Valor
+Oriximiná,dados_oriximina__populacao_preta_2,População Preta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,280.0,Valor
+Oriximiná,dados_oriximina__populacao_preta_2,População Preta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,720.0,Valor
+Oriximiná,dados_oriximina__populacao_amarela_2,População Amarela,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Oriximiná,dados_oriximina__populacao_amarela_2,População Amarela,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.0,Valor
+Oriximiná,dados_oriximina__populacao_indigena_2,População Indígena,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+Oriximiná,dados_oriximina__populacao_indigena_2,População Indígena,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,280.0,Valor
+Oriximiná,dados_oriximina__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Oriximiná,dados_oriximina__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.8,Valor
+Oriximiná,dados_oriximina__com_coleta_de_lixo,Com Coleta de Lixo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.8,Valor
+Oriximiná,dados_oriximina__com_coleta_de_lixo,Com Coleta de Lixo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.8,Valor
+Oriximiná,dados_oriximina__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,45.2,Valor
+Oriximiná,dados_oriximina__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Oriximiná,dados_oriximina__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.2,Valor
+Oriximiná,dados_oriximina__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.8,Valor
+Oriximiná,dados_oriximina__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.6,Valor
+Oriximiná,dados_oriximina__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Oriximiná,dados_oriximina__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Oriximiná,dados_oriximina__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Oriximiná,dados_oriximina__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.2,Valor
+Oriximiná,dados_oriximina__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.2,Valor
+Oriximiná,dados_oriximina__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Oriximiná,dados_oriximina__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Oriximiná,dados_oriximina__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Oriximiná,dados_oriximina__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.3,Valor
+Oriximiná,dados_oriximina__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.4,Valor
+Oriximiná,dados_oriximina__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.4,Valor
+Oriximiná,dados_oriximina__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.6,Valor
+Oriximiná,dados_oriximina__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.6,Valor
+Oriximiná,dados_oriximina__casais_com_filhos,Casais com filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8083738133774266,2000,62.4,Valor
+Oriximiná,dados_oriximina__casais_com_filhos,Casais com filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8083738133774266,2010,53.6,Valor
+Oriximiná,dados_oriximina__casais_com_filhos,Casais com filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8083738133774266,2022,44.1,Valor
+Oriximiná,dados_oriximina__casais_sem_filhos,Casais sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0355759787731722,2000,7.9,Valor
+Oriximiná,dados_oriximina__casais_sem_filhos,Casais sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0355759787731722,2010,10.6,Valor
+Oriximiná,dados_oriximina__casais_sem_filhos,Casais sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0355759787731722,2022,15.2,Valor
+Oriximiná,dados_oriximina__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2000,16.4,Valor
+Oriximiná,dados_oriximina__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2010,19.5,Valor
+Oriximiná,dados_oriximina__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2022,23.0,Valor
+Oriximiná,dados_oriximina__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.1,Valor
+Oriximiná,dados_oriximina__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.4,Valor
+Oriximiná,dados_oriximina__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.8,Valor
+Oriximiná,dados_oriximina__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2000,7.3,Valor
+Oriximiná,dados_oriximina__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2010,8.0,Valor
+Oriximiná,dados_oriximina__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2022,7.5,Valor
+Oriximiná,dados_oriximina__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2000,3.6,Valor
+Oriximiná,dados_oriximina__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2010,4.3,Valor
+Oriximiná,dados_oriximina__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2022,4.1,Valor
+Oriximiná,dados_oriximina__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348909,2000,0.9,Valor
+Oriximiná,dados_oriximina__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348909,2010,1.2,Valor
+Oriximiná,dados_oriximina__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348909,2022,1.7,Valor
+Oriximiná,dados_oriximina__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,90.2,Valor
+Oriximiná,dados_oriximina__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,87.2,Valor
+Oriximiná,dados_oriximina__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.4,Valor
+Oriximiná,dados_oriximina__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Oriximiná,dados_oriximina__trabalha_em_outro_municipio,Trabalha em outro município,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Oriximiná,dados_oriximina__trabalha_em_outro_municipio,Trabalha em outro município,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Oriximiná,dados_oriximina__motocicleta,Motocicleta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Oriximiná,dados_oriximina__motocicleta,Motocicleta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Oriximiná,dados_oriximina__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Oriximiná,dados_oriximina__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Oriximiná,dados_oriximina__a_pe,A pé,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.8,Valor
+Oriximiná,dados_oriximina__a_pe,A pé,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.4,Valor
+Oriximiná,dados_oriximina__bicicleta,Bicicleta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Oriximiná,dados_oriximina__bicicleta,Bicicleta,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Oriximiná,dados_oriximina__automovel_carro,Automóvel (Carro),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Oriximiná,dados_oriximina__automovel_carro,Automóvel (Carro),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Oriximiná,dados_oriximina__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,63.4,Valor
+Oriximiná,dados_oriximina__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.2,Valor
+Oriximiná,dados_oriximina__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.4,Valor
+Oriximiná,dados_oriximina__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Oriximiná,dados_oriximina__mais_de_1_hora,Mais de 1 hora,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.2,Valor
+Oriximiná,dados_oriximina__mais_de_1_hora,Mais de 1 hora,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.0,Valor
+Oriximiná,dados_oriximina__estuda_no_proprio_municipio_oriximina,Estuda no próprio município (Oriximiná),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.1,Valor
+Oriximiná,dados_oriximina__estuda_no_proprio_municipio_oriximina,Estuda no próprio município (Oriximiná),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.8,Valor
+Oriximiná,dados_oriximina__estuda_em_outro_municipio,Estuda em outro município,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.9,Valor
+Oriximiná,dados_oriximina__estuda_em_outro_municipio,Estuda em outro município,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.166461506336994,1991,7.82,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.166461506336994,2000,11.42,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.166461506336994,2010,16.82,Valor
+Oriximiná,dados_oriximina__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.166461506336994,2022,24.12,Valor
+Oriximiná,dados_oriximina__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.158473576457384,1991,7.68,Valor
+Oriximiná,dados_oriximina__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.158473576457384,2000,11.21,Valor
+Oriximiná,dados_oriximina__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.158473576457384,2010,16.58,Valor
+Oriximiná,dados_oriximina__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,1.158473576457384,2022,23.84,Valor
+Oriximiná,dados_oriximina__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,24.040131250817815,1991,140.0,Valor
+Oriximiná,dados_oriximina__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,24.040131250817815,2000,210.0,Valor
+Oriximiná,dados_oriximina__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,24.040131250817815,2010,240.0,Valor
+Oriximiná,dados_oriximina__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_oriximina,Grupo 1 — 4 censos,4,relu,adam,True,24.040131250817815,2022,280.0,Valor
+Oriximiná,dados_oriximina__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09040071251029891,1991,5.2,Valor
+Oriximiná,dados_oriximina__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09040071251029891,2000,4.4,Valor
+Oriximiná,dados_oriximina__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09040071251029891,2010,3.8,Valor
+Oriximiná,dados_oriximina__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oriximina,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09040071251029891,2022,2.9,Valor
+Oriximiná,dados_oriximina__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Oriximiná,dados_oriximina__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.8,Valor
+Oriximiná,dados_oriximina__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Oriximiná,dados_oriximina__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.2,Valor
+Oriximiná,dados_oriximina__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Oriximiná,dados_oriximina__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.4,Valor
+Oriximiná,dados_oriximina__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.8,Valor
+Oriximiná,dados_oriximina__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.8,Valor
+Oriximiná,dados_oriximina__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Oriximiná,dados_oriximina__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.2,Valor
+Oriximiná,dados_oriximina__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.8,Valor
+Oriximiná,dados_oriximina__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Oriximiná,dados_oriximina__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Oriximiná,dados_oriximina__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.8,Valor
+Oriximiná,dados_oriximina__ruas_sem_arvores,Ruas Sem Árvores,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.8,Valor
+Oriximiná,dados_oriximina__ruas_sem_arvores,Ruas Sem Árvores,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.2,Valor
+Oriximiná,dados_oriximina__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.6,Valor
+Oriximiná,dados_oriximina__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.9,Valor
+Oriximiná,dados_oriximina__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.9,Valor
+Oriximiná,dados_oriximina__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.4,Valor
+Oriximiná,dados_oriximina__ponto_de_onibus_ou_embarcadouro_proximo,Ponto de Ônibus ou Embarcadouro próximo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Oriximiná,dados_oriximina__ponto_de_onibus_ou_embarcadouro_proximo,Ponto de Ônibus ou Embarcadouro próximo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.8,Valor
+Oriximiná,dados_oriximina__populacao_indigena_total,População Indígena Total,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2000,1.701,Valor
+Oriximiná,dados_oriximina__populacao_indigena_total,População Indígena Total,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2010,1.184,Valor
+Oriximiná,dados_oriximina__populacao_indigena_total,População Indígena Total,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.305916807745556,2022,1.224,Valor
+Oriximiná,dados_oriximina__proporcao_na_populacao_de_oriximina,Proporção na população de Oriximiná,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.8111781748446685,2000,3.48,Valor
+Oriximiná,dados_oriximina__proporcao_na_populacao_de_oriximina,Proporção na população de Oriximiná,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.8111781748446685,2010,1.89,Valor
+Oriximiná,dados_oriximina__proporcao_na_populacao_de_oriximina,Proporção na população de Oriximiná,dados_oriximina,Grupo 2 — 3 censos,3,tanh,adam,True,0.8111781748446685,2022,1.79,Valor
+Oriximiná,dados_oriximina__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Oriximiná,dados_oriximina__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.0,Valor
+Oriximiná,dados_oriximina__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Oriximiná,dados_oriximina__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.6,Valor
+Oriximiná,dados_oriximina__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.4,Valor
+Oriximiná,dados_oriximina__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Oriximiná,dados_oriximina__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.1,Valor
+Oriximiná,dados_oriximina__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Oriximiná,dados_oriximina__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0662239193099055,2000,16.1,Valor
+Oriximiná,dados_oriximina__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0662239193099055,2010,19.6,Valor
+Oriximiná,dados_oriximina__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,1.0662239193099055,2022,25.2,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8912968548943094,2000,56.8,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8912968548943094,2010,47.4,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8912968548943094,2022,38.6,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2000,8.9,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2010,11.9,Valor
+Oriximiná,dados_oriximina__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2022,14.9,Valor
+Oriximiná,dados_oriximina__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.2,Valor
+Oriximiná,dados_oriximina__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.2,Valor
+Oriximiná,dados_oriximina__sem_conjuge,Sem cônjuge,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.2,Valor
+Oriximiná,dados_oriximina__sem_conjuge,Sem cônjuge,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.1,Valor
+Oriximiná,dados_oriximina__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Oriximiná,dados_oriximina__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Oriximiná,dados_oriximina__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Oriximiná,dados_oriximina__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_oriximina,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Oriximiná,dados_oriximina__responsavel_mulher,Responsável Mulher,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Oriximiná,dados_oriximina__responsavel_mulher,Responsável Mulher,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Oriximiná,dados_oriximina__responsavel_mulher,Responsável Mulher,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Oriximiná,dados_oriximina__responsavel_homem,Responsável Homem,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2000,4.7,Valor
+Oriximiná,dados_oriximina__responsavel_homem,Responsável Homem,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2010,4.0,Valor
+Oriximiná,dados_oriximina__responsavel_homem,Responsável Homem,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2022,3.2,Valor
+Oriximiná,dados_oriximina__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2000,4.1,Valor
+Oriximiná,dados_oriximina__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2010,3.5,Valor
+Oriximiná,dados_oriximina__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oriximina,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2022,2.9,Valor
+Oriximiná,dados_oriximina__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.40921484061487945,2000,13.6,Valor
+Oriximiná,dados_oriximina__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.40921484061487945,2010,17.9,Valor
+Oriximiná,dados_oriximina__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,sgd,True,0.40921484061487945,2022,23.6,Valor
+Oriximiná,dados_oriximina__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.5619817574789595,2000,16.4,Valor
+Oriximiná,dados_oriximina__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.5619817574789595,2010,20.6,Valor
+Oriximiná,dados_oriximina__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oriximina,Grupo 2 — 3 censos,3,identity,adam,True,0.5619817574789595,2022,24.9,Valor
+Oriximiná,dados_oriximina__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,4.686143319102004,2000,47.8,Valor
+Oriximiná,dados_oriximina__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,4.686143319102004,2010,30.8,Valor
+Oriximiná,dados_oriximina__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oriximina,Grupo 2 — 3 censos,3,relu,adam,True,4.686143319102004,2022,19.1,Valor
