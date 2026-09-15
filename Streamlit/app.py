@@ -189,6 +189,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_acará_tratados.csv",
     },
+    {
+        "nome":    "Viseu",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
