@@ -157,7 +157,7 @@ MUNICIPIOS = [
     {
         "nome":    "Igarapé-Miri",
         "pasta":   "data",
-        "arquivo": "",
+        "arquivo": "indicadores_igarapé_miri_tratados.csv",
     },
     {
         "nome":    "Benevides",
