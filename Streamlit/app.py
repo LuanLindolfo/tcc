@@ -30,104 +30,14 @@ LOGO_ARQUIVO = "assets/logo_isaci_neon.webp"
 
 MUNICIPIOS = [
     {
-        "nome":    "Castanhal",
-        "pasta":   "data",
-        "arquivo": "indicadores_castanhal_tratados.csv",
-    },
-    {
-        "nome":    "Belém",
-        "pasta":   "data",
-        "arquivo": "indicadores_belem_tratados.csv",
-    },
-    {
-        "nome":    "Ananindeua",
-        "pasta":   "data",
-        "arquivo": "indicadores_ananindeua_tratados.csv",
-    },
-    {
-        "nome":    "Santarém",
-        "pasta":   "data",
-        "arquivo": "indicadores_santarem_tratados.csv",
-    },
-    {
-        "nome":    "Parauapebas",
-        "pasta":   "data",
-        "arquivo": "indicadores_parauapebas_tratados.csv",
-    },
-    {
         "nome":    "Abaetetuba",
         "pasta":   "data",
         "arquivo": "indicadores_abaetetuba_tratados.csv",
     },
     {
-        "nome":    "Barcarena",
+        "nome":    "Acará",
         "pasta":   "data",
-        "arquivo": "indicadores_barcarena_tratados.csv",
-    },
-    {
-        "nome":    "Cametá",
-        "pasta":   "data",
-        "arquivo": "indicadores_cametá_tratados.csv",
-    },
-    {
-        "nome":    "Marabá",
-        "pasta":   "data",
-        "arquivo": "indicadores_maraba_tratados.csv",
-    },
-    {
-        "nome":    "Altamira",
-        "pasta":   "data",
-        "arquivo": "indicadores_altamira_tratados.csv",
-    },
-    {
-        "nome":    "Itaituba",
-        "pasta":   "data",
-        "arquivo": "indicadores_itaituba_tratados.csv",
-    },
-    {
-        "nome":    "Bragança",
-        "pasta":   "data",
-        "arquivo": "indicadores_braganca_tratados.csv",
-    },
-    {
-        "nome":    "Marituba",
-        "pasta":   "data",
-        "arquivo": "indicadores_marituba_tratados.csv",
-    },
-    {
-        "nome":    "Breves",
-        "pasta":   "data",
-        "arquivo": "indicadores_breves_tratados.csv",
-    },
-    {
-        "nome":    "Paragominas",
-        "pasta":   "data",
-        "arquivo": "indicadores_paragominas_tratados.csv",
-    },
-    {
-        "nome":    "Tucuruí",
-        "pasta":   "data",
-        "arquivo": "indicadores_tucuruí_tratados.csv",
-    },
-    {
-        "nome":    "Canãa dos Carajás",
-        "pasta":   "data",
-        "arquivo": "indicadores_canãa_dos_carajá_tratados.csv",
-    },
-    {
-        "nome":    "Redenção",
-        "pasta":   "data",
-        "arquivo": "indicadores_redenção_tratados.csv",
-    },
-    {
-        "nome":    "Santa Izabel do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_izabel_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Moju",
-        "pasta":   "data",
-        "arquivo": "indicadores_moju_tratados.csv",
+        "arquivo": "indicadores_acará_tratados.csv",
     },
     {
         "nome":    "Alenquer",
@@ -135,9 +45,204 @@ MUNICIPIOS = [
         "arquivo": "indicadores_alenquer_tratados.csv",
     },
     {
+        "nome":    "Altamira",
+        "pasta":   "data",
+        "arquivo": "indicadores_altamira_tratados.csv",
+    },
+    {
+        "nome":    "Ananindeua",
+        "pasta":   "data",
+        "arquivo": "indicadores_ananindeua_tratados.csv",
+    },
+    {
+        "nome":    "Augusto Corrêa",
+        "pasta":   "data",
+        "arquivo": "indicadores_augusto_corrêa_tratados.csv",
+    },
+    {
+        "nome":    "Baião",
+        "pasta":   "data",
+        "arquivo": "indicadores_baião_tratados.csv",
+    },
+    {
+        "nome":    "Barcarena",
+        "pasta":   "data",
+        "arquivo": "indicadores_barcarena_tratados.csv",
+    },
+    {
+        "nome":    "Belém",
+        "pasta":   "data",
+        "arquivo": "indicadores_belem_tratados.csv",
+    },
+    {
+        "nome":    "Benevides",
+        "pasta":   "data",
+        "arquivo": "indicadores_benevides_tratados.csv",
+    },
+    {
+        "nome":    "Bragança",
+        "pasta":   "data",
+        "arquivo": "indicadores_braganca_tratados.csv",
+    },
+    {
+        "nome":    "Breu Branco",
+        "pasta":   "data",
+        "arquivo": "indicadores_breu_branco_tratados.csv",
+    },
+    {
+        "nome":    "Breves",
+        "pasta":   "data",
+        "arquivo": "indicadores_breves_tratados.csv",
+    },
+    {
+        "nome":    "Cametá",
+        "pasta":   "data",
+        "arquivo": "indicadores_cametá_tratados.csv",
+    },
+    {
+        "nome":    "Canãa dos Carajás",
+        "pasta":   "data",
+        "arquivo": "indicadores_canãa_dos_carajá_tratados.csv",
+    },
+    {
         "nome":    "Capanema",
         "pasta":   "data",
         "arquivo": "indicadores_capanema_tratados.csv",
+    },
+    {
+        "nome":    "Capitão Poço",
+        "pasta":   "data",
+        "arquivo": "indicadores_capitão_poço_tratados.csv",
+    },
+    {
+        "nome":    "Castanhal",
+        "pasta":   "data",
+        "arquivo": "indicadores_castanhal_tratados.csv",
+    },
+    {
+        "nome":    "Conceição do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_conceição_do_araguaia_tratados.csv",
+    },
+    {
+        "nome":    "Curuçá",
+        "pasta":   "data",
+        "arquivo": "indicadores_curuçá_tratados.csv",
+    },
+    {
+        "nome":    "Dom Eliseu",
+        "pasta":   "data",
+        "arquivo": "indicadores_dom_eliseu_tratados.csv",
+    },
+    {
+        "nome":    "Igarapé-Miri",
+        "pasta":   "data",
+        "arquivo": "indicadores_igarapé_miri_tratados.csv",
+    },
+    {
+        "nome":    "Itaituba",
+        "pasta":   "data",
+        "arquivo": "indicadores_itaituba_tratados.csv",
+    },
+    {
+        "nome":    "Itupiranga",
+        "pasta":   "data",
+        "arquivo": "indicadores_itupiranga_tratados.csv",
+    },
+    {
+        "nome":    "Juruti",
+        "pasta":   "data",
+        "arquivo": "indicadores_juruti_tratados.csv",
+    },
+    {
+        "nome":    "Marabá",
+        "pasta":   "data",
+        "arquivo": "indicadores_maraba_tratados.csv",
+    },
+    {
+        "nome":    "Marituba",
+        "pasta":   "data",
+        "arquivo": "indicadores_marituba_tratados.csv",
+    },
+    {
+        "nome":    "Moju",
+        "pasta":   "data",
+        "arquivo": "indicadores_moju_tratados.csv",
+    },
+    {
+        "nome":    "Monte Alegre",
+        "pasta":   "data",
+        "arquivo": "indicadores_monte_alegre_tratados.csv",
+    },
+    {
+        "nome":    "Muaná",
+        "pasta":   "data",
+        "arquivo": "indicadores_muaná_tratados.csv",
+    },
+    {
+        "nome":    "Novo Repartimento",
+        "pasta":   "data",
+        "arquivo": "indicadores_novo_repartimento_tratados.csv",
+    },
+    {
+        "nome":    "Óbidos",
+        "pasta":   "data",
+        "arquivo": "indicadores_óbidos_tratados.csv",
+    },
+    {
+        "nome":    "Oriximiná",
+        "pasta":   "data",
+        "arquivo": "indicadores_oriximiná_tratados.csv",
+    },
+    {
+        "nome":    "Paragominas",
+        "pasta":   "data",
+        "arquivo": "indicadores_paragominas_tratados.csv",
+    },
+    {
+        "nome":    "Parauapebas",
+        "pasta":   "data",
+        "arquivo": "indicadores_parauapebas_tratados.csv",
+    },
+    {
+        "nome":    "Portel",
+        "pasta":   "data",
+        "arquivo": "indicadores_portel_tratados.csv",
+    },
+    {
+        "nome":    "Redenção",
+        "pasta":   "data",
+        "arquivo": "indicadores_redenção_tratados.csv",
+    },
+    {
+        "nome":    "Rondon do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_rondon_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Salinópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_salinópolis_tratados.csv",
+    },
+    {
+        "nome":    "Santa Izabel do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_izabel_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santarém",
+        "pasta":   "data",
+        "arquivo": "indicadores_santarem_tratados.csv",
+    },
+    {
+        "nome":    "São Félix do Xingu",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_félix_do_xingu_tratados.csv",
+    },
+    {
+        "nome":    "São Miguel do Guamá",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
     },
     {
         "nome":    "Tailândia",
@@ -150,124 +255,9 @@ MUNICIPIOS = [
         "arquivo": "indicadores_tomé_açú_tratados.csv",
     },
     {
-        "nome":    "Oriximiná",
+        "nome":    "Tucuruí",
         "pasta":   "data",
-        "arquivo": "indicadores_oriximiná_tratados.csv",
-    },
-    {
-        "nome":    "Igarapé-Miri",
-        "pasta":   "data",
-        "arquivo": "indicadores_igarapé_miri_tratados.csv",
-    },
-    {
-        "nome":    "Benevides",
-        "pasta":   "data",
-        "arquivo": "indicadores_benevides_tratados.csv",
-    },
-    {
-        "nome":    "Portel",
-        "pasta":   "data",
-        "arquivo": "indicadores_portel_tratados.csv",
-    },
-    {
-        "nome":    "São Félix do Xingu",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_félix_do_xingu_tratados.csv",
-    },
-    {
-        "nome":    "Monte Alegre",
-        "pasta":   "data",
-        "arquivo": "indicadores_monte_alegre_tratados.csv",
-    },
-    {
-        "nome":    "Novo Repartimento",
-        "pasta":   "data",
-        "arquivo": "indicadores_novo_repartimento_tratados.csv",
-    },
-    {
-        "nome":    "Acará",
-        "pasta":   "data",
-        "arquivo": "indicadores_acará_tratados.csv",
-    },
-    {
-        "nome":    "Viseu",
-        "pasta":   "data",
-        "arquivo": "indicadores_viseu_tratados.csv",
-    },
-    {
-        "nome":    "Dom Eliseu",
-        "pasta":   "data",
-        "arquivo": "indicadores_dom_eliseu_tratados.csv",
-    },
-    {
-        "nome":    "Capitão Poço",
-        "pasta":   "data",
-        "arquivo": "indicadores_capitão_poço_tratados.csv",
-    },
-    {
-        "nome":    "Xinguara",
-        "pasta":   "data",
-        "arquivo": "indicadores_xinguara_tratados.csv",
-    },
-    {
-        "nome":    "Rondon do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_rondon_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Baião",
-        "pasta":   "data",
-        "arquivo": "indicadores_baião_tratados.csv",
-    },
-    {
-        "nome":    "São Miguel do Guamá",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
-    },
-    {
-        "nome":    "Óbidos",
-        "pasta":   "data",
-        "arquivo": "indicadores_óbidos_tratados.csv",
-    },
-    {
-        "nome":    "Juruti",
-        "pasta":   "data",
-        "arquivo": "indicadores_juruti_tratados.csv",
-    },
-    {
-        "nome":    "Vigia",
-        "pasta":   "data",
-        "arquivo": "indicadores_vigia_tratados.csv",
-    },
-    {
-        "nome":    "Itupiranga",
-        "pasta":   "data",
-        "arquivo": "indicadores_itupiranga_tratados.csv",
-    },
-    {
-        "nome":    "Muaná",
-        "pasta":   "data",
-        "arquivo": "indicadores_muaná_tratados.csv",
-    },
-    {
-        "nome":    "Salinópolis",
-        "pasta":   "data",
-        "arquivo": "indicadores_salinópolis_tratados.csv",
-    },
-    {
-        "nome":    "Augusto Corrêa",
-        "pasta":   "data",
-        "arquivo": "indicadores_augusto_corrêa_tratados.csv",
-    },
-    {
-        "nome":    "Conceição do Araguaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_conceição_do_araguaia_tratados.csv",
-    },
-    {
-        "nome":    "Breu Branco",
-        "pasta":   "data",
-        "arquivo": "indicadores_breu_branco_tratados.csv",
+        "arquivo": "indicadores_tucuruí_tratados.csv",
     },
     {
         "nome":    "Uruará",
@@ -275,9 +265,19 @@ MUNICIPIOS = [
         "arquivo": "indicadores_uruará_tratados.csv",
     },
     {
-        "nome":    "Curuçá",
+        "nome":    "Vigia",
         "pasta":   "data",
-        "arquivo": "indicadores_curuçá_tratados.csv",
+        "arquivo": "indicadores_vigia_tratados.csv",
+    },
+    {
+        "nome":    "Viseu",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
+    },
+    {
+        "nome":    "Xinguara",
+        "pasta":   "data",
+        "arquivo": "indicadores_xinguara_tratados.csv",
     },
 ]
 
@@ -525,76 +525,6 @@ def fig_barras_todos(df: pd.DataFrame, municipio: str) -> go.Figure:
     fig.update_xaxes(gridcolor=COR_BORDA)
     fig.update_yaxes(gridcolor=COR_BORDA)
     return fig
-
-
-def fig_comparativo(dfs: dict[str, pd.DataFrame], dfs_proj: dict, ind_escolhido: str) -> tuple[go.Figure, str, bool]:
-    """Gráfico comparativo com legenda enxuta."""
-    fig = go.Figure()
-    cores = PALETA_COMPARATIVO
-    tem_dados = False
-    ylabel = "Valor"
-
-    for i, (mun, df) in enumerate(dfs.items()):
-        sub = df[df["indicador_nome"] == ind_escolhido].sort_values("ano")
-        if sub.empty:
-            continue
-        anos = sub["ano"].astype(int).tolist()
-        vals = sub["valor"].tolist()
-        if len(anos) < 2 or any(np.isnan(v) for v in vals):
-            continue
-
-        ind_id   = sub["indicador_id"].iloc[0]
-        ativacao = sub["ativacao"].iloc[0]
-        solver   = sub["solver"].iloc[0]
-        ylabel   = sub["unidade_medida"].iloc[0] if "unidade_medida" in sub.columns else "Valor"
-        cor      = cores[i % len(cores)]
-
-        fig.add_trace(go.Scatter(
-            x=anos, y=vals,
-            mode="lines+markers", name=mun,
-            legendgroup=mun, showlegend=True,
-            line=dict(color=cor, width=3),
-            marker=dict(size=8, line=dict(width=1.5, color="#080D19")),
-            hovertemplate=f"<b>{mun}</b> — %{{x}}: %{{y:,.2f}}<extra></extra>",
-        ))
-
-        vals_proj = _projecao_indicador(
-            ind_id, anos, vals, ativacao, solver, dfs_proj.get(mun)
-        )
-        fig.add_trace(go.Scatter(
-            x=ANOS_PROJECAO, y=vals_proj,
-            mode="markers", name=mun,
-            legendgroup=mun, showlegend=False,
-            marker=dict(size=12, symbol="star", color=cor,
-                        line=dict(width=1, color="#E2E8F0")),
-            hovertemplate=(f"<b>{mun}</b> — projeção %{{x}}: %{{y:,.2f}} "
-                           f"({ativacao}/{solver})<extra></extra>"),
-        ))
-        tem_dados = True
-
-    fig.update_layout(
-        template="plotly_dark", height=500,
-        font=_FONTE,
-        title=dict(text=f"<b>{ind_escolhido}</b>", x=0.01,
-                   font=dict(size=17, color=COR_TEXTO)),
-        xaxis_title="Ano", yaxis_title=ylabel,
-        legend=dict(
-            orientation="v",
-            yanchor="top", y=1,
-            xanchor="left", x=1.015,
-            font=dict(size=11.5),
-            bgcolor="rgba(15,23,42,0.7)",
-            bordercolor=COR_BORDA, borderwidth=1,
-            tracegroupgap=2,
-        ),
-        hovermode="closest",
-        margin=dict(l=50, r=170, t=60, b=40),
-        plot_bgcolor="rgba(0,0,0,0)",
-        paper_bgcolor="rgba(0,0,0,0)",
-    )
-    fig.update_xaxes(gridcolor=COR_BORDA)
-    fig.update_yaxes(gridcolor=COR_BORDA)
-    return fig, ylabel, tem_dados
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -962,73 +892,6 @@ def render_municipio(cfg: dict) -> None:
         _render_grafico_indicador(escolha)
 
 
-def render_comparativo(municipios_carregados: list[dict]) -> None:
-    _render_header(
-        "ANÁLISE CRUZADA",
-        "Comparativo entre municípios",
-        "Selecione um indicador para visualizar a evolução histórica e as "
-        "projeções lado a lado. Cada município usa a ativação/solver "
-        "escolhida individualmente pelo seu próprio modelo."
-    )
-
-    todos_indicadores: set[str] = set()
-    dfs: dict[str, pd.DataFrame] = {}
-    dfs_proj: dict[str, pd.DataFrame | None] = {}
-    for cfg in municipios_carregados:
-        df = carregar_dados(cfg["pasta"], cfg["arquivo"])
-        if df is not None:
-            dfs[cfg["nome"]] = df
-            dfs_proj[cfg["nome"]] = carregar_projecoes(cfg["pasta"], cfg["arquivo"])
-            todos_indicadores.update(df["indicador_nome"].unique())
-
-    if not dfs:
-        st.warning("Nenhum dado carregado ainda. Execute o notebook e faça push.")
-        return
-
-    ind_escolhido = st.selectbox(
-        "Indicador para comparar",
-        sorted(todos_indicadores),
-        key="sel_comparativo",
-    )
-
-    fig, ylabel, tem_dados = fig_comparativo(dfs, dfs_proj, ind_escolhido)
-
-    if not tem_dados:
-        st.info(f"Nenhum município tem dados para **{ind_escolhido}**.")
-        return
-
-    st.plotly_chart(fig, use_container_width=True)
-
-    linhas = []
-    for mun, df in dfs.items():
-        sub = df[df["indicador_nome"] == ind_escolhido].sort_values("ano")
-        if sub.empty:
-            continue
-        anos = sub["ano"].astype(int).tolist()
-        vals = sub["valor"].tolist()
-        if len(anos) < 2 or any(np.isnan(v) for v in vals):
-            continue
-        ind_id   = sub["indicador_id"].iloc[0]
-        ativacao = sub["ativacao"].iloc[0]
-        solver   = sub["solver"].iloc[0]
-        vals_proj = _projecao_indicador(
-            ind_id, anos, vals, ativacao, solver, dfs_proj.get(mun)
-        )
-        for ano, val in zip(anos, vals):
-            linhas.append({
-                "Município": mun, "Ano": ano, "Valor": val,
-                "Tipo": "Censo", "Modelo": "—",
-            })
-        for ano, val in zip(ANOS_PROJECAO, vals_proj):
-            linhas.append({
-                "Município": mun, "Ano": ano, "Valor": round(val, 2),
-                "Tipo": "Projeção", "Modelo": f"{ativacao}/{solver}",
-            })
-
-    with st.expander("🗂️ Tabela consolidada (censo + projeções)", expanded=False):
-        st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
-
-
 # ═══════════════════════════════════════════════════════════════════════════
 # NAVEGAÇÃO LATERAL
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1055,21 +918,13 @@ def _sidebar_navegacao(nomes_municipios: list[str]) -> str:
     if "pagina_atual" not in st.session_state:
         st.session_state["pagina_atual"] = nomes_municipios[0]
 
-    pagina_atual = st.session_state["pagina_atual"]
-    
-    # Indicador de onde o usuário está, já que a caixa de busca ficará vazia
-    #if pagina_atual == "Comparativo":
-       # st.sidebar.markdown(f"**📍 Município:** {pagina_atual}")
-   # else:
-      #  st.sidebar.markdown(f"**📍 Município:** {pagina_atual}")
-
-    lista_opcoes = list(nomes_municipios) + ["🔀 Comparativo entre municípios"]
+    lista_opcoes = list(nomes_municipios)
 
     # Callback: O que acontece ao escolher algo na barra de busca
     def ao_buscar():
         escolha = st.session_state.caixa_busca
         if escolha: # Se o usuário escolheu algo (não apenas limpou a caixa)
-            st.session_state["pagina_atual"] = "Comparativo" if escolha == "🔀 Comparativo entre municípios" else escolha
+            st.session_state["pagina_atual"] = escolha
             # O segredo: forçamos a caixa de busca a voltar a ficar vazia após a navegação!
             st.session_state.caixa_busca = None
 
@@ -1114,11 +969,8 @@ def main() -> None:
     nomes_municipios = [cfg["nome"] for cfg in MUNICIPIOS]
     pagina = _sidebar_navegacao(nomes_municipios)
 
-    if pagina == "Comparativo":
-        render_comparativo(MUNICIPIOS)
-    else:
-        cfg = next((c for c in MUNICIPIOS if c["nome"] == pagina), MUNICIPIOS[0])
-        render_municipio(cfg)
+    cfg = next((c for c in MUNICIPIOS if c["nome"] == pagina), MUNICIPIOS[0])
+    render_municipio(cfg)
 
 
 if __name__ == "__main__":
