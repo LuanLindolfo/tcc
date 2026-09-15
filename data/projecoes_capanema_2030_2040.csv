@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Capanema,dados_capanema__anos_de_estudo_media,Anos de Estudo (Média),dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.23215697393951829,2030,10.72180874611825
+Capanema,dados_capanema__anos_de_estudo_media,Anos de Estudo (Média),dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.23215697393951829,2040,12.483453948800388
+Capanema,dados_capanema__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capanema,Grupo 1 — 4 censos,identity,adam,True,17.56677577277369,2030,242.27839117395968
+Capanema,dados_capanema__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capanema,Grupo 1 — 4 censos,identity,adam,True,17.56677577277369,2040,255.57252565766717
+Capanema,dados_capanema__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capanema,Grupo 1 — 4 censos,relu,adam,True,1.681892232109015,2030,28.223281180504934
+Capanema,dados_capanema__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capanema,Grupo 1 — 4 censos,relu,adam,True,1.681892232109015,2040,32.1725558113077
+Capanema,dados_capanema__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.1977590260669666,2030,10.279670682386346
+Capanema,dados_capanema__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.1977590260669666,2040,12.013628795262854
+Capanema,dados_capanema__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.2694616503511036,2030,11.163946667429542
+Capanema,dados_capanema__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.2694616503511036,2040,12.953279049533247
+Capanema,dados_capanema__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.0645822183189182,2030,2.253369266617566
+Capanema,dados_capanema__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.0645822183189182,2040,1.5846667407061426
+Capanema,dados_capanema__populacao_total,População Total,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.5398666742834148,2030,74.91396369002672
+Capanema,dados_capanema__populacao_total,População Total,dados_capanema,Grupo 1 — 4 censos,identity,lbfgs,True,0.5398666742834148,2040,80.48119353212864
+Capanema,dados_capanema__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capanema,Grupo 1 — 4 censos,logistic,lbfgs,True,2.4182977583631065,2030,96.45171098091035
+Capanema,dados_capanema__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capanema,Grupo 1 — 4 censos,logistic,lbfgs,True,2.4182977583631065,2040,97.87319223650124
+Capanema,dados_capanema__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capanema,Grupo 1 — 4 censos,relu,adam,True,1.6936247773337785,2030,28.45982952825277
+Capanema,dados_capanema__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capanema,Grupo 1 — 4 censos,relu,adam,True,1.6936247773337785,2040,32.41952615850702
+Capanema,dados_capanema__2_trabalhos,2 trabalhos,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,1.1617081205829944,2030,6.5633810358794
+Capanema,dados_capanema__2_trabalhos,2 trabalhos,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,1.1617081205829944,2040,6.655924136901175
+Capanema,dados_capanema__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2030,0.6684325707834373
+Capanema,dados_capanema__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2040,0.6678677444583979
+Capanema,dados_capanema__apenas_1_trabalho,Apenas 1 trabalho,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,1.4527998378022744,2030,94.26942830592598
+Capanema,dados_capanema__apenas_1_trabalho,Apenas 1 trabalho,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,1.4527998378022744,2040,94.26365787877145
+Capanema,dados_capanema__casais_com_filhos,Casais com filhos,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,1.708267671694055,2030,35.56892750750784
+Capanema,dados_capanema__casais_com_filhos,Casais com filhos,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,1.708267671694055,2040,27.415067948100344
+Capanema,dados_capanema__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.46970092087112825,2030,7.136372935018082
+Capanema,dados_capanema__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.46970092087112825,2040,7.134982567682467
+Capanema,dados_capanema__casais_sem_filhos,Casais sem filhos,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317285,2030,20.7165088795522
+Capanema,dados_capanema__casais_sem_filhos,Casais sem filhos,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317285,2040,24.63081215662124
+Capanema,dados_capanema__conta_propria,Conta própria,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.37347924031389174,2030,18.02122837275279
+Capanema,dados_capanema__conta_propria,Conta própria,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.37347924031389174,2040,21.189077065907334
+Capanema,dados_capanema__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.0663556335849265,2030,28.91592356509237
+Capanema,dados_capanema__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.0663556335849265,2040,33.55226935202454
+Capanema,dados_capanema__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.1098249731646976,2030,28.883978294791664
+Capanema,dados_capanema__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.1098249731646976,2040,32.48900477724666
+Capanema,dados_capanema__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,4.434166113426477,2030,10.025509192145869
+Capanema,dados_capanema__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,4.434166113426477,2040,2.840115968344925
+Capanema,dados_capanema__empregador,Empregador,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,352.4513202719429,2030,-2.480811018800267
+Capanema,dados_capanema__empregador,Empregador,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,352.4513202719429,2040,16.10000098550384
+Capanema,dados_capanema__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_capanema,Grupo 2 — 3 censos,logistic,adam,True,3.6291265462695415,2030,98.74847501298119
+Capanema,dados_capanema__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_capanema,Grupo 2 — 3 censos,logistic,adam,True,3.6291265462695415,2040,99.2490533712443
+Capanema,dados_capanema__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_capanema,Grupo 2 — 3 censos,relu,adam,True,2.985414920485662,2030,86.81943121388575
+Capanema,dados_capanema__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_capanema,Grupo 2 — 3 censos,relu,adam,True,2.985414920485662,2040,89.83386917144455
+Capanema,dados_capanema__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_capanema,Grupo 2 — 3 censos,logistic,lbfgs,True,2.4876360155638686,2030,32.707154782060705
+Capanema,dados_capanema__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_capanema,Grupo 2 — 3 censos,logistic,lbfgs,True,2.4876360155638686,2040,32.84623921788304
+Capanema,dados_capanema__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.036464686787911205,2030,0.9487093048892443
+Capanema,dados_capanema__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.036464686787911205,2040,1.1056185549664537
+Capanema,dados_capanema__idade_mediana,Idade Mediana,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,35.46879368938008
+Capanema,dados_capanema__idade_mediana,Idade Mediana,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,40.011896464596354
+Capanema,dados_capanema__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,514.0812233348278,2030,521.9410085042275
+Capanema,dados_capanema__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,514.0812233348278,2040,519.836860148076
+Capanema,dados_capanema__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2030,26.543020569785803
+Capanema,dados_capanema__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2040,29.438197477521317
+Capanema,dados_capanema__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.4975961259103883,2030,3.603752635234958
+Capanema,dados_capanema__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.4975961259103883,2040,3.6025829893066335
+Capanema,dados_capanema__media_populacao_amarela,Média: População Amarela,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2030,10.876083142587683
+Capanema,dados_capanema__media_populacao_amarela,Média: População Amarela,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2040,11.827407408733675
+Capanema,dados_capanema__media_populacao_branca,Média: População Branca,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767853,2030,10.576083142587684
+Capanema,dados_capanema__media_populacao_branca,Média: População Branca,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767853,2040,11.527407408733676
+Capanema,dados_capanema__media_populacao_indigena,Média: População Indígena,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2030,8.846485350103077
+Capanema,dados_capanema__media_populacao_indigena,Média: População Indígena,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2040,10.384381030489195
+Capanema,dados_capanema__media_populacao_preta_parda,Média: População Preta / Parda,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087812,2030,10.476200029443444
+Capanema,dados_capanema__media_populacao_preta_parda,Média: População Preta / Parda,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087812,2040,12.236005399351054
+Capanema,dados_capanema__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,305.8222593590337,2030,702.122615214509
+Capanema,dados_capanema__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,305.8222593590337,2040,734.6488309494085
+Capanema,dados_capanema__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.045576767980051315,2030,3.4249359570764764
+Capanema,dados_capanema__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.045576767980051315,2040,3.6958691487905377
+Capanema,dados_capanema__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.18270221474525938,2030,1.8955643986961606
+Capanema,dados_capanema__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.18270221474525938,2040,2.3062935289861652
+Capanema,dados_capanema__populacao_amarela,População Amarela,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,4.5757135407735445,2030,157.41669784039868
+Capanema,dados_capanema__populacao_amarela,População Amarela,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,4.5757135407735445,2040,130.21888627897792
+Capanema,dados_capanema__populacao_branca,População Branca,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.528155186338133,2030,12.354153342830882
+Capanema,dados_capanema__populacao_branca,População Branca,dados_capanema,Grupo 2 — 3 censos,logistic,sgd,True,0.528155186338133,2040,12.35261385400061
+Capanema,dados_capanema__populacao_indigena,População Indígena,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,294.99042069812566,2030,164.83101031361397
+Capanema,dados_capanema__populacao_indigena,População Indígena,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,294.99042069812566,2040,180.2860043131869
+Capanema,dados_capanema__populacao_indigena_total,População Indígena Total,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,294.99042069812566,2030,164.83101031361397
+Capanema,dados_capanema__populacao_indigena_total,População Indígena Total,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,294.99042069812566,2040,180.2860043131869
+Capanema,dados_capanema__populacao_parda,População Parda,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.8675041600753252,2030,56.6116255494287
+Capanema,dados_capanema__populacao_parda,População Parda,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.8675041600753252,2040,61.66879063389719
+Capanema,dados_capanema__populacao_preta,População Preta,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.16062647655261605,2030,4.900607843610027
+Capanema,dados_capanema__populacao_preta,População Preta,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.16062647655261605,2040,4.992543526710552
+Capanema,dados_capanema__populacao_rural,População Rural,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,1.4051332368661733,2030,11.24865383593415
+Capanema,dados_capanema__populacao_rural,População Rural,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,1.4051332368661733,2040,11.248030992105422
+Capanema,dados_capanema__populacao_urbana,População Urbana,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.8636374704124254,2030,64.78652369493814
+Capanema,dados_capanema__populacao_urbana,População Urbana,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,1.8636374704124254,2040,71.82519916976833
+Capanema,dados_capanema__populacao_com_superior_completo,População com Superior Completo,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,2.2090326871157844,2030,13.965963570874127
+Capanema,dados_capanema__populacao_com_superior_completo,População com Superior Completo,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,2.2090326871157844,2040,18.397317364478067
+Capanema,dados_capanema__populacao_de_homens,População de Homens,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.3461172649481365,2030,35.20157297565354
+Capanema,dados_capanema__populacao_de_homens,População de Homens,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.3461172649481365,2040,37.31453917967057
+Capanema,dados_capanema__populacao_de_mulheres,População de Mulheres,dados_capanema,Grupo 2 — 3 censos,identity,sgd,True,0.3209657762307205,2030,39.50695174194652
+Capanema,dados_capanema__populacao_de_mulheres,População de Mulheres,dados_capanema,Grupo 2 — 3 censos,identity,sgd,True,0.3209657762307205,2040,42.845313176920115
+Capanema,dados_capanema__proporcao_na_populacao_de_capanema,Proporção na população de Capanema,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,0.3517159387170889,2030,0.2236625860229115
+Capanema,dados_capanema__proporcao_na_populacao_de_capanema,Proporção na população de Capanema,dados_capanema,Grupo 2 — 3 censos,tanh,adam,True,0.3517159387170889,2040,0.2501061510073965
+Capanema,dados_capanema__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.610095780339113,2030,88.98890546286596
+Capanema,dados_capanema__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.610095780339113,2040,86.36252531709705
+Capanema,dados_capanema__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,1.5862486439401071,2030,30.571148517425527
+Capanema,dados_capanema__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,1.5862486439401071,2040,23.142563821214104
+Capanema,dados_capanema__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2030,18.543020569785803
+Capanema,dados_capanema__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2040,21.43819747752132
+Capanema,dados_capanema__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2030,31.268793689380082
+Capanema,dados_capanema__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2040,35.81189646459636
+Capanema,dados_capanema__responsavel_homem,Responsável Homem,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471613,2030,2.4730562829426352
+Capanema,dados_capanema__responsavel_homem,Responsável Homem,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471613,2040,1.838440679842817
+Capanema,dados_capanema__responsavel_mulher,Responsável Mulher,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Capanema,dados_capanema__responsavel_mulher,Responsável Mulher,dados_capanema,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Capanema,dados_capanema__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Capanema,dados_capanema__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Capanema,dados_capanema__setor_privado,Setor privado,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.7471865434495454,2030,28.811506034796146
+Capanema,dados_capanema__setor_privado,Setor privado,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.7471865434495454,2040,34.84566046871861
+Capanema,dados_capanema__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.827991123065107,2030,20.256508762653056
+Capanema,dados_capanema__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.827991123065107,2040,25.128663369360154
+Capanema,dados_capanema__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_capanema,Grupo 2 — 3 censos,tanh,sgd,True,1.1046742259222844,2030,8.118577208888173
+Capanema,dados_capanema__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_capanema,Grupo 2 — 3 censos,tanh,sgd,True,1.1046742259222844,2040,8.220176668346864
+Capanema,dados_capanema__setor_publico,Setor público,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.4938932054864127,2030,10.408710804988093
+Capanema,dados_capanema__setor_publico,Setor público,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.4938932054864127,2040,12.796049343766068
+Capanema,dados_capanema__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,48.773276308742844,2030,1158.1054455152303
+Capanema,dados_capanema__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_capanema,Grupo 2 — 3 censos,identity,adam,True,48.773276308742844,2040,1466.8014423693467
+Capanema,dados_capanema__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.5426664817951559,2030,9.250751124899283
+Capanema,dados_capanema__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_capanema,Grupo 2 — 3 censos,identity,adam,True,0.5426664817951559,2040,11.329550107774663
+Capanema,dados_capanema__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_capanema,Grupo 2 — 3 censos,identity,sgd,True,1.0901848142644752,2030,74.34438216524549
+Capanema,dados_capanema__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_capanema,Grupo 2 — 3 censos,identity,sgd,True,1.0901848142644752,2040,87.40893941750878
+Capanema,dados_capanema__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_capanema,Grupo 2 — 3 censos,relu,adam,True,1.6726090600563357,2030,99.40701688650196
+Capanema,dados_capanema__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_capanema,Grupo 2 — 3 censos,relu,adam,True,1.6726090600563357,2040,100.32687358766418
+Capanema,dados_capanema__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_capanema,Grupo 2 — 3 censos,logistic,adam,True,3.6291265462695415,2030,98.74847501298119
+Capanema,dados_capanema__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_capanema,Grupo 2 — 3 censos,logistic,adam,True,3.6291265462695415,2040,99.2490533712443
+Capanema,dados_capanema__trabalhador_domestico,Trabalhador doméstico,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.22144571910038113,2030,3.3604390358755074
+Capanema,dados_capanema__trabalhador_domestico,Trabalhador doméstico,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.22144571910038113,2040,3.545717820768657
+Capanema,dados_capanema__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,99.34146068555526,2030,910.5545247931675
+Capanema,dados_capanema__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,99.34146068555526,2040,1014.9220100840319
+Capanema,dados_capanema__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.1343795509501499,2030,2.4659609684786274
+Capanema,dados_capanema__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_capanema,Grupo 2 — 3 censos,relu,adam,True,0.1343795509501499,2040,2.552780956623885
+Capanema,dados_capanema__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_capanema,Grupo 2 — 3 censos,relu,lbfgs,True,7.890265312838246,2030,48.480193102436736
+Capanema,dados_capanema__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_capanema,Grupo 2 — 3 censos,relu,lbfgs,True,7.890265312838246,2040,60.71638061288086
+Capanema,dados_capanema__a_pe,A pé,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.6420039697831132
+Capanema,dados_capanema__a_pe,A pé,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.5258161861184956
+Capanema,dados_capanema__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.04942421539538
+Capanema,dados_capanema__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.42740156521432
+Capanema,dados_capanema__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.95548309364901
+Capanema,dados_capanema__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.881615077768785
+Capanema,dados_capanema__automovel_carro,Automóvel (Carro),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.301490169064664
+Capanema,dados_capanema__automovel_carro,Automóvel (Carro),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.877857572861082
+Capanema,dados_capanema__bicicleta,Bicicleta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.692787268875831
+Capanema,dados_capanema__bicicleta,Bicicleta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8001288249913383
+Capanema,dados_capanema__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.57981483280554
+Capanema,dados_capanema__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.17531538652436
+Capanema,dados_capanema__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.28417247338106
+Capanema,dados_capanema__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.49800120401103
+Capanema,dados_capanema__com_coleta_de_lixo,Com Coleta de Lixo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.10160303568314
+Capanema,dados_capanema__com_coleta_de_lixo,Com Coleta de Lixo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.78874447395768
+Capanema,dados_capanema__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8420298033812934
+Capanema,dados_capanema__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8935571514572217
+Capanema,dados_capanema__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.39435386706126
+Capanema,dados_capanema__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.052018847210995
+Capanema,dados_capanema__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.104357640575518
+Capanema,dados_capanema__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.722685817486658
+Capanema,dados_capanema__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.153668989352422
+Capanema,dados_capanema__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.039200481604414
+Capanema,dados_capanema__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.16525174201432
+Capanema,dados_capanema__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.329400361203305
+Capanema,dados_capanema__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.003133196370863
+Capanema,dados_capanema__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.103780044439311
+Capanema,dados_capanema__estuda_em_outro_municipio,Estuda em outro município,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.208715281151038
+Capanema,dados_capanema__estuda_em_outro_municipio,Estuda em outro município,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.445371634973316
+Capanema,dados_capanema__estuda_no_proprio_municipio_capanema,Estuda no próprio município (Capanema),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.15234989727814
+Capanema,dados_capanema__estuda_no_proprio_municipio_capanema,Estuda no próprio município (Capanema),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.97783503332947
+Capanema,dados_capanema__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.34506657481987
+Capanema,dados_capanema__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.10471574772768
+Capanema,dados_capanema__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.053916495463579
+Capanema,dados_capanema__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.42972505554914
+Capanema,dados_capanema__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.88119213525174
+Capanema,dados_capanema__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.94228605828887
+Capanema,dados_capanema__idade_mediana_2,Idade Mediana,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.68119213525173
+Capanema,dados_capanema__idade_mediana_2,Idade Mediana,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.742286058288865
+Capanema,dados_capanema__mais_de_1_hora,Mais de 1 hora,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.388417247338108
+Capanema,dados_capanema__mais_de_1_hora,Mais de 1 hora,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.109800120401104
+Capanema,dados_capanema__motocicleta,Motocicleta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.41456309079122
+Capanema,dados_capanema__motocicleta,Motocicleta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.84591502532105
+Capanema,dados_capanema__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.967395619329466
+Capanema,dados_capanema__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.437156319436404
+Capanema,dados_capanema__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.260894101438798
+Capanema,dados_capanema__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.806714543716648
+Capanema,dados_capanema__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.22901331496397
+Capanema,dados_capanema__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.98094314954554
+Capanema,dados_capanema__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.84070893424435
+Capanema,dados_capanema__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.98202993024103
+Capanema,dados_capanema__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.504368927237366
+Capanema,dados_capanema__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.833774507596317
+Capanema,dados_capanema__populacao_amarela_2,População Amarela,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.20298033812933
+Capanema,dados_capanema__populacao_amarela_2,População Amarela,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.35571514572216
+Capanema,dados_capanema__populacao_branca_2,População Branca,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,806.0894101438798
+Capanema,dados_capanema__populacao_branca_2,População Branca,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,960.6714543716648
+Capanema,dados_capanema__populacao_indigena_2,População Indígena,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.20298033812933
+Capanema,dados_capanema__populacao_indigena_2,População Indígena,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.35571514572216
+Capanema,dados_capanema__populacao_parda_2,População Parda,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.050596067625865
+Capanema,dados_capanema__populacao_parda_2,População Parda,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.081143029144432
+Capanema,dados_capanema__populacao_preta_2,População Preta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,589.2774887913625
+Capanema,dados_capanema__populacao_preta_2,População Preta,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,723.2485937887761
+Capanema,dados_capanema__populacao_residente_em_favelas,População Residente em Favelas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.504368927237366
+Capanema,dados_capanema__populacao_residente_em_favelas,População Residente em Favelas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.833774507596317
+Capanema,dados_capanema__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.744953708201384
+Capanema,dados_capanema__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.393828846631092
+Capanema,dados_capanema__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.00313319637085
+Capanema,dados_capanema__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.1037800444393
+Capanema,dados_capanema__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,829.3478802310192
+Capanema,dados_capanema__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,986.4248540787139
+Capanema,dados_capanema__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7194353867061265
+Capanema,dados_capanema__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.0852018847210996
+Capanema,dados_capanema__ruas_sem_arvores,Ruas Sem Árvores,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.35653646086328
+Capanema,dados_capanema__ruas_sem_arvores,Ruas Sem Árvores,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.28402872622999
+Capanema,dados_capanema__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.16426242295861
+Capanema,dados_capanema__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.5333762749971
+Capanema,dados_capanema__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.01456309079122
+Capanema,dados_capanema__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.687039944891914
+Capanema,dados_capanema__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.445915025321057
+Capanema,dados_capanema__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.9428294486366
+Capanema,dados_capanema__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.34506657481987
+Capanema,dados_capanema__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.52763601251779
+Capanema,dados_capanema__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.10471574772768
+Capanema,dados_capanema__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.81397247778105
+Capanema,dados_capanema__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.640596067625865
+Capanema,dados_capanema__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.6711430291444325
+Capanema,dados_capanema__sem_conjuge,Sem cônjuge,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.90005643330924
+Capanema,dados_capanema__sem_conjuge,Sem cônjuge,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.455443450548294
+Capanema,dados_capanema__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,96.57396702316535
+Capanema,dados_capanema__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.97477199617661
+Capanema,dados_capanema__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-464.27068403946794
+Capanema,dados_capanema__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1079.006036077755
+Capanema,dados_capanema__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.640596067625866
+Capanema,dados_capanema__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.67114302914443
+Capanema,dados_capanema__trabalha_em_outro_municipio,Trabalha em outro município,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.449311348776906
+Capanema,dados_capanema__trabalha_em_outro_municipio,Trabalha em outro município,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.716514664117753
+Capanema,dados_capanema__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.37930814500994
+Capanema,dados_capanema__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.39269756110407
+Capanema,dados_capanema__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.74208623669053
+Capanema,dados_capanema__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.34900060200551
+Capanema,dados_capanema__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.84070893424435
+Capanema,dados_capanema__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.98202993024103
+Capanema,dados_capanema__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Capanema,dados_capanema__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Capanema,dados_capanema__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.27258972071916
+Capanema,dados_capanema__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.207801324412124
+Capanema,dados_capanema__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.92476854100693
+Capanema,dados_capanema__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.16914423315546
+Capanema,dados_capanema__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.107337978704845
+Capanema,dados_capanema__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.87840096320882
+Capanema,dados_capanema__onibus,Ônibus,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.15234989727815
+Capanema,dados_capanema__onibus,Ônibus,dados_capanema,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.977835033329487
