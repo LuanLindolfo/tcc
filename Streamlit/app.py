@@ -129,6 +129,61 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_moju_tratados.csv",
     },
+    {
+        "nome":    "Alenquer",
+        "pasta":   "data",
+        "arquivo": "indicadores_alenquer_tratados.csv",
+    },
+    {
+        "nome":    "Capanema",
+        "pasta":   "data",
+        "arquivo": "indicadores_capanema_tratados.csv",
+    },
+    {
+        "nome":    "Tailândia",
+        "pasta":   "data",
+        "arquivo": "indicadores_tailândia_tratados.csv",
+    },
+    {
+        "nome":    "Tomé-Açu",
+        "pasta":   "data",
+        "arquivo": "indicadores_tomé_açú_tratados.csv",
+    },
+    {
+        "nome":    "Oriximiná",
+        "pasta":   "data",
+        "arquivo": "indicadores_oriximiná_tratados.csv",
+    },
+    {
+        "nome":    "Igarapé-Miri",
+        "pasta":   "data",
+        "arquivo": "",
+    },
+    {
+        "nome":    "Benevides",
+        "pasta":   "data",
+        "arquivo": "indicadores_benevides_tratados.csv",
+    },
+    {
+        "nome":    "Portel",
+        "pasta":   "data",
+        "arquivo": "indicadores_portel_tratados.csv",
+    },
+    {
+        "nome":    "São Félix do Xingu",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_félix_do_xingu_tratados.csv",
+    },
+    {
+        "nome":    "Monte Alegre",
+        "pasta":   "data",
+        "arquivo": "indicadores_monte_alegre_tratados.csv",
+    },
+    {
+        "nome":    "Novo Repartimento",
+        "pasta":   "data",
+        "arquivo": "indicadores_novo_repartimento_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
