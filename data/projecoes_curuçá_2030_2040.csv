@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Curuçá,dados_curuca__anos_de_estudo_media,Anos de Estudo (Média),dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,0.35688214972502086,2030,8.751215465923044
+Curuçá,dados_curuca__anos_de_estudo_media,Anos de Estudo (Média),dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,0.35688214972502086,2040,9.0191078314343
+Curuçá,dados_curuca__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curuca,Grupo 1 — 4 censos,relu,adam,True,21.34937367111074,2030,350.6683640215855
+Curuçá,dados_curuca__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curuca,Grupo 1 — 4 censos,relu,adam,True,21.34937367111074,2040,391.86695579680907
+Curuçá,dados_curuca__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curuca,Grupo 1 — 4 censos,identity,sgd,True,0.37993422308228775,2030,14.930156343707697
+Curuçá,dados_curuca__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curuca,Grupo 1 — 4 censos,identity,sgd,True,0.37993422308228775,2040,17.5238090170296
+Curuçá,dados_curuca__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curuca,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2030,9.461942361809427
+Curuçá,dados_curuca__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curuca,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2040,11.246636996362927
+Curuçá,dados_curuca__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,0.245915987897795,2030,9.097607456228568
+Curuçá,dados_curuca__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,0.245915987897795,2040,9.318847256641186
+Curuçá,dados_curuca__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curuca,Grupo 1 — 4 censos,relu,adam,True,0.20606556017701272,2030,2.515820394661869
+Curuçá,dados_curuca__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curuca,Grupo 1 — 4 censos,relu,adam,True,0.20606556017701272,2040,2.038327363378686
+Curuçá,dados_curuca__populacao_total,População Total,dados_curuca,Grupo 1 — 4 censos,identity,lbfgs,True,0.07054493484482727,2030,40.87836018507443
+Curuçá,dados_curuca__populacao_total,População Total,dados_curuca,Grupo 1 — 4 censos,identity,lbfgs,True,0.07054493484482727,2040,44.14431477051036
+Curuçá,dados_curuca__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,2.656721165435716,2030,91.65147597884696
+Curuçá,dados_curuca__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curuca,Grupo 1 — 4 censos,logistic,lbfgs,True,2.656721165435716,2040,92.67770820078928
+Curuçá,dados_curuca__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curuca,Grupo 1 — 4 censos,identity,sgd,True,0.4026112906089294,2030,15.278305072144772
+Curuçá,dados_curuca__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curuca,Grupo 1 — 4 censos,identity,sgd,True,0.4026112906089294,2040,17.918302256217217
+Curuçá,dados_curuca__2_trabalhos,2 trabalhos,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,2.0094706418261796,2030,9.877433379754791
+Curuçá,dados_curuca__2_trabalhos,2 trabalhos,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,2.0094706418261796,2040,10.049533625769925
+Curuçá,dados_curuca__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.3321594838388128,2030,0.9357616886556972
+Curuçá,dados_curuca__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.3321594838388128,2040,0.934799251699734
+Curuçá,dados_curuca__apenas_1_trabalho,Apenas 1 trabalho,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,2.509382127711812,2030,91.93826116470399
+Curuçá,dados_curuca__apenas_1_trabalho,Apenas 1 trabalho,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,2.509382127711812,2040,91.92829083580884
+Curuçá,dados_curuca__casais_com_filhos,Casais com filhos,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,2.0590733388406597,2030,34.7375569454464
+Curuçá,dados_curuca__casais_com_filhos,Casais com filhos,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,2.0590733388406597,2040,25.998523133454828
+Curuçá,dados_curuca__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.2015886636679589,2030,7.200863121027754
+Curuçá,dados_curuca__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.2015886636679589,2040,7.200029959658082
+Curuçá,dados_curuca__casais_sem_filhos,Casais sem filhos,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.7617202280678068,2030,19.025158345185304
+Curuçá,dados_curuca__casais_sem_filhos,Casais sem filhos,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.7617202280678068,2040,22.479104917282648
+Curuçá,dados_curuca__conta_propria,Conta própria,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.8822933698863231,2030,12.140852374250178
+Curuçá,dados_curuca__conta_propria,Conta própria,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.8822933698863231,2040,12.967348331092058
+Curuçá,dados_curuca__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996534,2030,27.836408460189137
+Curuçá,dados_curuca__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996534,2040,32.36248057925196
+Curuçá,dados_curuca__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.0489242349162744,2030,28.282274805303583
+Curuçá,dados_curuca__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.0489242349162744,2040,32.02396802118211
+Curuçá,dados_curuca__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,3.9722502447323813,2030,14.511548289162398
+Curuçá,dados_curuca__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,3.9722502447323813,2040,7.251520479244448
+Curuçá,dados_curuca__empregador,Empregador,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,21.24281553568731,2030,864.6296261919751
+Curuçá,dados_curuca__empregador,Empregador,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,21.24281553568731,2040,1090.6660857827603
+Curuçá,dados_curuca__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,4.672334376165253,2030,97.80965364093757
+Curuçá,dados_curuca__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,4.672334376165253,2040,98.51356925256935
+Curuçá,dados_curuca__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curuca,Grupo 2 — 3 censos,relu,adam,True,3.4967726903676635,2030,82.67833437973077
+Curuçá,dados_curuca__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curuca,Grupo 2 — 3 censos,relu,adam,True,3.4967726903676635,2040,88.16901086910191
+Curuçá,dados_curuca__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.5506638255218945,2030,32.26185013504535
+Curuçá,dados_curuca__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.5506638255218945,2040,37.48998037637765
+Curuçá,dados_curuca__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.010324984646688759,2030,0.930682841095783
+Curuçá,dados_curuca__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.010324984646688759,2040,1.114056663137182
+Curuçá,dados_curuca__idade_mediana,Idade Mediana,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,2.4360295299367913,2030,35.940858649282134
+Curuçá,dados_curuca__idade_mediana,Idade Mediana,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,2.4360295299367913,2040,41.41724705314886
+Curuçá,dados_curuca__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,33.501991750381755,2030,354.0928037773607
+Curuçá,dados_curuca__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,33.501991750381755,2040,454.2834799359276
+Curuçá,dados_curuca__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.061008692508525066,2030,27.698717238281745
+Curuçá,dados_curuca__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.061008692508525066,2040,31.33612974689173
+Curuçá,dados_curuca__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.29876121357452307,2030,3.7022261321365706
+Curuçá,dados_curuca__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.29876121357452307,2040,3.7015014471722485
+Curuçá,dados_curuca__media_populacao_amarela,Média: População Amarela,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2030,9.876083142587683
+Curuçá,dados_curuca__media_populacao_amarela,Média: População Amarela,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2040,10.827407408733675
+Curuçá,dados_curuca__media_populacao_branca,Média: População Branca,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898917,2030,9.57638839313131
+Curuçá,dados_curuca__media_populacao_branca,Média: População Branca,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898917,2040,10.526231846697543
+Curuçá,dados_curuca__media_populacao_indigena,Média: População Indígena,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.25826835188695973,2030,7.774637090100031
+Curuçá,dados_curuca__media_populacao_indigena,Média: População Indígena,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.25826835188695973,2040,9.309925176479712
+Curuçá,dados_curuca__media_populacao_preta_parda,Média: População Preta / Parda,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6937813726029985,2030,8.773929282059912
+Curuçá,dados_curuca__media_populacao_preta_parda,Média: População Preta / Parda,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.6937813726029985,2040,9.676482622323475
+Curuçá,dados_curuca__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,305.628524140973,2030,702.1362336602431
+Curuçá,dados_curuca__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,305.628524140973,2040,734.6684473305309
+Curuçá,dados_curuca__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2030,4.824704576720187
+Curuçá,dados_curuca__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2040,5.234050854135681
+Curuçá,dados_curuca__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005165,2030,1.724935957076476
+Curuçá,dados_curuca__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005165,2040,1.9958691487905376
+Curuçá,dados_curuca__populacao_amarela,População Amarela,dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,7.231263153378111,2030,16.45681448571206
+Curuçá,dados_curuca__populacao_amarela,População Amarela,dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,7.231263153378111,2040,-2.1359762972122454
+Curuçá,dados_curuca__populacao_branca,População Branca,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.38413491258791704,2030,6.46287419976304
+Curuçá,dados_curuca__populacao_branca,População Branca,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,0.38413491258791704,2040,6.4618380769555275
+Curuçá,dados_curuca__populacao_indigena,População Indígena,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,29.568938489731835,2030,87.9812473975986
+Curuçá,dados_curuca__populacao_indigena,População Indígena,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,29.568938489731835,2040,91.14267684917452
+Curuçá,dados_curuca__populacao_indigena_total,População Indígena Total,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,29.568938489731835,2030,87.9812473975986
+Curuçá,dados_curuca__populacao_indigena_total,População Indígena Total,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,29.568938489731835,2040,91.14267684917452
+Curuçá,dados_curuca__populacao_parda,População Parda,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.3189056615853462,2030,30.09283906431706
+Curuçá,dados_curuca__populacao_parda,População Parda,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.3189056615853462,2040,32.48736532396499
+Curuçá,dados_curuca__populacao_preta,População Preta,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.2506518855673479,2030,3.430533771268921
+Curuçá,dados_curuca__populacao_preta,População Preta,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.2506518855673479,2040,3.7016504935712726
+Curuçá,dados_curuca__populacao_rural,População Rural,dados_curuca,Grupo 2 — 3 censos,logistic,lbfgs,True,0.6339948654343045,2030,21.52259937654351
+Curuçá,dados_curuca__populacao_rural,População Rural,dados_curuca,Grupo 2 — 3 censos,logistic,lbfgs,True,0.6339948654343045,2040,21.559847847302855
+Curuçá,dados_curuca__populacao_urbana,População Urbana,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.141816399306612,2030,18.468350453373805
+Curuçá,dados_curuca__populacao_urbana,População Urbana,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,1.141816399306612,2040,20.761662919876045
+Curuçá,dados_curuca__populacao_com_superior_completo,População com Superior Completo,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,610.7776824246386,2030,377.28644433625914
+Curuçá,dados_curuca__populacao_com_superior_completo,População com Superior Completo,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,610.7776824246386,2040,375.29987691738603
+Curuçá,dados_curuca__populacao_de_homens,População de Homens,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.06268745659021964,2030,20.483545409177985
+Curuçá,dados_curuca__populacao_de_homens,População de Homens,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.06268745659021964,2040,21.97595600869231
+Curuçá,dados_curuca__populacao_de_mulheres,População de Mulheres,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151472813451751,2030,20.368262820607995
+Curuçá,dados_curuca__populacao_de_mulheres,População de Mulheres,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151472813451751,2040,22.124330907009984
+Curuçá,dados_curuca__proporcao_na_populacao_de_curuca,Proporção na população de Curuçá,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,0.08477625212431845,2030,0.23126976357145193
+Curuçá,dados_curuca__proporcao_na_populacao_de_curuca,Proporção na população de Curuçá,dados_curuca,Grupo 2 — 3 censos,tanh,adam,True,0.08477625212431845,2040,0.2392070616448903
+Curuçá,dados_curuca__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403773472325932,2030,100.09554843409933
+Curuçá,dados_curuca__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403773472325932,2040,98.1450003744379
+Curuçá,dados_curuca__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,135.82929263017274,2030,817.4652412774208
+Curuçá,dados_curuca__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,135.82929263017274,2040,1030.839796085258
+Curuçá,dados_curuca__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,1.4642283330475436,2030,29.973343308927575
+Curuçá,dados_curuca__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,1.4642283330475436,2040,21.27004360927292
+Curuçá,dados_curuca__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2030,18.543020569785803
+Curuçá,dados_curuca__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2040,21.43819747752132
+Curuçá,dados_curuca__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curuca,Grupo 2 — 3 censos,identity,sgd,True,0.42677345632557956,2030,29.13498852239846
+Curuçá,dados_curuca__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curuca,Grupo 2 — 3 censos,identity,sgd,True,0.42677345632557956,2040,33.28455431314556
+Curuçá,dados_curuca__responsavel_homem,Responsável Homem,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559424,2030,2.696672306080835
+Curuçá,dados_curuca__responsavel_homem,Responsável Homem,dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559424,2040,2.1087566606929213
+Curuçá,dados_curuca__responsavel_mulher,Responsável Mulher,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Curuçá,dados_curuca__responsavel_mulher,Responsável Mulher,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Curuçá,dados_curuca__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Curuçá,dados_curuca__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Curuçá,dados_curuca__setor_privado,Setor privado,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.5471846443106557,2030,9.722712214748553
+Curuçá,dados_curuca__setor_privado,Setor privado,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.5471846443106557,2040,11.977982440304332
+Curuçá,dados_curuca__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287302,2030,5.6712662396846305
+Curuçá,dados_curuca__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287302,2040,7.160140760435251
+Curuçá,dados_curuca__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.21282329818192589,2030,4.0514500550686705
+Curuçá,dados_curuca__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.21282329818192589,2040,4.817850216550493
+Curuçá,dados_curuca__setor_publico,Setor público,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.07585590854673918,2030,3.8135323039811926
+Curuçá,dados_curuca__setor_publico,Setor público,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.07585590854673918,2040,4.663492564879515
+Curuçá,dados_curuca__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2030,309.37587378760156
+Curuçá,dados_curuca__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2040,400.237929291927
+Curuçá,dados_curuca__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.09413930144876674,2030,3.504183541130579
+Curuçá,dados_curuca__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curuca,Grupo 2 — 3 censos,identity,adam,True,0.09413930144876674,2040,4.263310724053073
+Curuçá,dados_curuca__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.33555237466641924,2030,58.343450162841236
+Curuçá,dados_curuca__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curuca,Grupo 2 — 3 censos,identity,lbfgs,True,0.33555237466641924,2040,68.34908195763413
+Curuçá,dados_curuca__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,2.7023777888231706,2030,99.16856473986701
+Curuçá,dados_curuca__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,2.7023777888231706,2040,99.63879957268536
+Curuçá,dados_curuca__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,4.672334376165253,2030,97.80965364093757
+Curuçá,dados_curuca__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curuca,Grupo 2 — 3 censos,logistic,adam,True,4.672334376165253,2040,98.51356925256935
+Curuçá,dados_curuca__trabalhador_domestico,Trabalhador doméstico,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,409.5292683273735,2030,415.4416044573894
+Curuçá,dados_curuca__trabalhador_domestico,Trabalhador doméstico,dados_curuca,Grupo 2 — 3 censos,logistic,sgd,True,409.5292683273735,2040,413.7305240381716
+Curuçá,dados_curuca__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2030,269.52636137880756
+Curuçá,dados_curuca__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curuca,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2040,346.70036059233666
+Curuçá,dados_curuca__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,108.13262534768278,2030,941.4902074842811
+Curuçá,dados_curuca__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curuca,Grupo 2 — 3 censos,relu,adam,True,108.13262534768278,2040,1023.3760944976052
+Curuçá,dados_curuca__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,7.600953106599352,2030,41.46315512266381
+Curuçá,dados_curuca__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curuca,Grupo 2 — 3 censos,relu,lbfgs,True,7.600953106599352,2040,53.25477939951898
+Curuçá,dados_curuca__a_pe,A pé,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.943570567968546
+Curuçá,dados_curuca__a_pe,A pé,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.326073836101168
+Curuçá,dados_curuca__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.765364608632794
+Curuçá,dados_curuca__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.0402872622999
+Curuçá,dados_curuca__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.316612320236764
+Curuçá,dados_curuca__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.51121130832661
+Curuçá,dados_curuca__automovel_onibus,Automóvel / Ônibus,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.005847809640183
+Curuçá,dados_curuca__automovel_onibus,Automóvel / Ônibus,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.20054339034774
+Curuçá,dados_curuca__bicicleta,Bicicleta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.994353867061262
+Curuçá,dados_curuca__bicicleta,Bicicleta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6520188472109947
+Curuçá,dados_curuca__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.04942421539539
+Curuçá,dados_curuca__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.42740156521434
+Curuçá,dados_curuca__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.80596067625866
+Curuçá,dados_curuca__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.11143029144432
+Curuçá,dados_curuca__com_coleta_de_lixo,Com Coleta de Lixo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.89002028302124
+Curuçá,dados_curuca__com_coleta_de_lixo,Com Coleta de Lixo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.29854459435876
+Curuçá,dados_curuca__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7238611281483571
+Curuçá,dados_curuca__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6256369587330752
+Curuçá,dados_curuca__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.31974551660762
+Curuçá,dados_curuca__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.6149913527659
+Curuçá,dados_curuca__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.40435764057552
+Curuçá,dados_curuca__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.022685817486659
+Curuçá,dados_curuca__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.913072921726558
+Curuçá,dados_curuca__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.76805745245998
+Curuçá,dados_curuca__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.90435764057552
+Curuçá,dados_curuca__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.522685817486657
+Curuçá,dados_curuca__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3285248459172188
+Curuçá,dados_curuca__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.933247450005779
+Curuçá,dados_curuca__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.921001984891557
+Curuçá,dados_curuca__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.837091906940753
+Curuçá,dados_curuca__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.13337095553949
+Curuçá,dados_curuca__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.503628967032192
+Curuçá,dados_curuca__estuda_no_proprio_municipio_curuca,Estuda no próprio município (Curuçá),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.6420039697831
+Curuçá,dados_curuca__estuda_no_proprio_municipio_curuca,Estuda no próprio município (Curuçá),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.4741838138815
+Curuçá,dados_curuca__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.61754342892054
+Curuçá,dados_curuca__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.201630171043206
+Curuçá,dados_curuca__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.191220670690399
+Curuçá,dados_curuca__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.748238802771682
+Curuçá,dados_curuca__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.79713252848914
+Curuçá,dados_curuca__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.75517175537442
+Curuçá,dados_curuca__idade_mediana_2,Idade Mediana,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.101490169064665
+Curuçá,dados_curuca__idade_mediana_2,Idade Mediana,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.67785757286108
+Curuçá,dados_curuca__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.660894101438796
+Curuçá,dados_curuca__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.206714543716647
+Curuçá,dados_curuca__motocicleta,Motocicleta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.25515915841708
+Curuçá,dados_curuca__motocicleta,Motocicleta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.71705805446548
+Curuçá,dados_curuca__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.967395619329466
+Curuçá,dados_curuca__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.437156319436404
+Curuçá,dados_curuca__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Curuçá,dados_curuca__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Curuçá,dados_curuca__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.649311348776905
+Curuçá,dados_curuca__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.916514664117752
+Curuçá,dados_curuca__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.36823208014366
+Curuçá,dados_curuca__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,101.68511550692548
+Curuçá,dados_curuca__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-279.58465583371304
+Curuçá,dados_curuca__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-650.049504821767
+Curuçá,dados_curuca__populacao_amarela_2,População Amarela,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.260894101438798
+Curuçá,dados_curuca__populacao_amarela_2,População Amarela,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.806714543716648
+Curuçá,dados_curuca__populacao_branca_2,População Branca,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,163.62384270503463
+Curuçá,dados_curuca__populacao_branca_2,População Branca,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,204.8457211657773
+Curuçá,dados_curuca__populacao_indigena_2,População Indígena,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.101490169064665
+Curuçá,dados_curuca__populacao_indigena_2,População Indígena,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.67785757286108
+Curuçá,dados_curuca__populacao_parda_2,População Parda,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1062.7579579208543
+Curuçá,dados_curuca__populacao_parda_2,População Parda,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1335.8529027232744
+Curuçá,dados_curuca__populacao_preta_2,População Preta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,178.6674191107898
+Curuçá,dados_curuca__populacao_preta_2,População Preta,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,226.07257934064387
+Curuçá,dados_curuca__populacao_residente_em_favelas,População Residente em Favelas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-279.58465583371304
+Curuçá,dados_curuca__populacao_residente_em_favelas,População Residente em Favelas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-650.049504821767
+Curuçá,dados_curuca__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.082625871007158
+Curuçá,dados_curuca__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.164700180601653
+Curuçá,dados_curuca__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.01504572205131
+Curuçá,dados_curuca__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.65932128610693
+Curuçá,dados_curuca__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8880874743195366
+Curuçá,dados_curuca__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3444587583323706
+Curuçá,dados_curuca__ruas_sem_arvores,Ruas Sem Árvores,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.030091444102652
+Curuçá,dados_curuca__ruas_sem_arvores,Ruas Sem Árvores,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.31864257221388
+Curuçá,dados_curuca__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.58554977582726
+Curuçá,dados_curuca__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.26497187577553
+Curuçá,dados_curuca__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.426145843453115
+Curuçá,dados_curuca__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.318920731366738
+Curuçá,dados_curuca__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.136114904919957
+Curuçá,dados_curuca__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.36860084280771
+Curuçá,dados_curuca__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.45813949654641
+Curuçá,dados_curuca__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.34506657481987
+Curuçá,dados_curuca__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.07277320018764
+Curuçá,dados_curuca__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.10471574772768
+Curuçá,dados_curuca__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.388417247338106
+Curuçá,dados_curuca__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.109800120401102
+Curuçá,dados_curuca__sem_conjuge,Sem cônjuge,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.0102054502157
+Curuçá,dados_curuca__sem_conjuge,Sem cônjuge,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.823229207834395
+Curuçá,dados_curuca__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.01456309079123
+Curuçá,dados_curuca__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.44591502532107
+Curuçá,dados_curuca__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,436.6685477769745
+Curuçá,dados_curuca__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,555.1814483516098
+Curuçá,dados_curuca__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.37683449467621
+Curuçá,dados_curuca__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.81960024080221
+Curuçá,dados_curuca__trabalha_em_outro_municipio_ex_castanhal_bele,Trabalha em outro município (ex: Castanhal / Belém / Vigia / Marapanim),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.713072921726557
+Curuçá,dados_curuca__trabalha_em_outro_municipio_ex_castanhal_bele,Trabalha em outro município (ex: Castanhal / Belém / Vigia / Marapanim),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.568057452459975
+Curuçá,dados_curuca__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Curuçá),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.32852484591722
+Curuçá,dados_curuca__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Curuçá),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.0667525499942
+Curuçá,dados_curuca__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.763818006258887
+Curuçá,dados_curuca__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.906986238890518
+Curuçá,dados_curuca__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Curuçá,dados_curuca__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Curuçá,dados_curuca__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.388417247338106
+Curuçá,dados_curuca__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.109800120401102
+Curuçá,dados_curuca__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.84070893424434
+Curuçá,dados_curuca__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.982029930241026
+Curuçá,dados_curuca__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.45813949654641
+Curuçá,dados_curuca__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.07277320018764
+Curuçá,dados_curuca__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.898622697553805
+Curuçá,dados_curuca__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_curuca,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.433029328235495
