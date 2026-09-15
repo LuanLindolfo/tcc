@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Óbidos,dados_obidos__anos_de_estudo_media,Anos de Estudo (Média),dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.21985219584017024,2030,8.39012745913558
+Óbidos,dados_obidos__anos_de_estudo_media,Anos de Estudo (Média),dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.21985219584017024,2040,10.031978855776483
+Óbidos,dados_obidos__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_obidos,Grupo 1 — 4 censos,tanh,adam,True,13.54244862314441,2030,245.86788100361494
+Óbidos,dados_obidos__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_obidos,Grupo 1 — 4 censos,tanh,adam,True,13.54244862314441,2040,247.79724496621745
+Óbidos,dados_obidos__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.14190537895701372,2030,17.668589695607196
+Óbidos,dados_obidos__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.14190537895701372,2040,20.74665942675334
+Óbidos,dados_obidos__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.19643143432436289,2030,7.904892493193691
+Óbidos,dados_obidos__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.19643143432436289,2040,9.480792514473627
+Óbidos,dados_obidos__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.24738384325931417,2030,8.875393814583486
+Óbidos,dados_obidos__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.24738384325931417,2040,10.583224141829806
+Óbidos,dados_obidos__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_obidos,Grupo 1 — 4 censos,identity,lbfgs,True,0.15661632076097842,2030,2.3856745933913373
+Óbidos,dados_obidos__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_obidos,Grupo 1 — 4 censos,identity,lbfgs,True,0.15661632076097842,2040,1.534424049025163
+Óbidos,dados_obidos__populacao_total,População Total,dados_obidos,Grupo 1 — 4 censos,relu,adam,True,1.0786444139850957,2030,53.430841398215996
+Óbidos,dados_obidos__populacao_total,População Total,dados_obidos,Grupo 1 — 4 censos,relu,adam,True,1.0786444139850957,2040,54.852351237215
+Óbidos,dados_obidos__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_obidos,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2447079312153058,2030,87.54359596801851
+Óbidos,dados_obidos__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_obidos,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2447079312153058,2040,89.01255461463691
+Óbidos,dados_obidos__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.16292880444247926,2030,17.93847561065091
+Óbidos,dados_obidos__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_obidos,Grupo 1 — 4 censos,identity,adam,True,0.16292880444247926,2040,21.05251043913108
+Óbidos,dados_obidos__2_trabalhos,2 trabalhos,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,1.8031557191867542,2030,7.538103214581493
+Óbidos,dados_obidos__2_trabalhos,2 trabalhos,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,1.8031557191867542,2040,7.69839753100222
+Óbidos,dados_obidos__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2030,0.5684325707834375
+Óbidos,dados_obidos__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2040,0.5678677444583979
+Óbidos,dados_obidos__apenas_1_trabalho,Apenas 1 trabalho,dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,2.309068170594623,2030,89.130617311195
+Óbidos,dados_obidos__apenas_1_trabalho,Apenas 1 trabalho,dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,2.309068170594623,2040,85.42464314694814
+Óbidos,dados_obidos__casais_com_filhos,Casais com filhos,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,1.2506940721241406,2030,39.027205487412616
+Óbidos,dados_obidos__casais_com_filhos,Casais com filhos,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,1.2506940721241406,2040,30.093142976255148
+Óbidos,dados_obidos__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,8.234795624253138
+Óbidos,dados_obidos__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,8.233962067246486
+Óbidos,dados_obidos__casais_sem_filhos,Casais sem filhos,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.9441590142630325,2030,14.924266701370499
+Óbidos,dados_obidos__casais_sem_filhos,Casais sem filhos,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.9441590142630325,2040,17.793082042338824
+Óbidos,dados_obidos__conta_propria,Conta própria,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.4141571035982796,2030,15.009635578101253
+Óbidos,dados_obidos__conta_propria,Conta própria,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.4141571035982796,2040,15.923628915150813
+Óbidos,dados_obidos__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.015250575072783453,2030,25.624502409996623
+Óbidos,dados_obidos__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.015250575072783453,2040,30.03390351016227
+Óbidos,dados_obidos__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669439,2030,26.992778098789643
+Óbidos,dados_obidos__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669439,2040,30.791034619695832
+Óbidos,dados_obidos__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,3.965625459266074,2030,12.627899379440187
+Óbidos,dados_obidos__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,3.965625459266074,2040,0.05639203849860053
+Óbidos,dados_obidos__empregador,Empregador,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,51.7985560799112,2030,923.2897686753867
+Óbidos,dados_obidos__empregador,Empregador,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,51.7985560799112,2040,1164.1335805355593
+Óbidos,dados_obidos__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,4.927990940462204,2030,92.98547211489381
+Óbidos,dados_obidos__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,4.927990940462204,2040,93.24207653906217
+Óbidos,dados_obidos__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_obidos,Grupo 2 — 3 censos,relu,adam,True,3.6711520321092173,2030,75.60168504120212
+Óbidos,dados_obidos__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_obidos,Grupo 2 — 3 censos,relu,adam,True,3.6711520321092173,2040,80.26905655013196
+Óbidos,dados_obidos__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.5823388755226493,2030,22.832183869931
+Óbidos,dados_obidos__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.5823388755226493,2040,24.347925279386832
+Óbidos,dados_obidos__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.009977351559199646,2030,0.8023973895419285
+Óbidos,dados_obidos__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.009977351559199646,2040,0.9616600747972859
+Óbidos,dados_obidos__idade_mediana,Idade Mediana,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2030,30.24704576720187
+Óbidos,dados_obidos__idade_mediana,Idade Mediana,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2040,34.34050854135682
+Óbidos,dados_obidos__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,54.810664423577826,2030,448.6693196088481
+Óbidos,dados_obidos__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,54.810664423577826,2040,571.8880586958494
+Óbidos,dados_obidos__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_obidos,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2030,25.18974426752009
+Óbidos,dados_obidos__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_obidos,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2040,28.52782091398335
+Óbidos,dados_obidos__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2030,4.4029405653044895
+Óbidos,dados_obidos__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2040,4.4019264563370815
+Óbidos,dados_obidos__media_populacao_amarela,Média: População Amarela,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.41045434037050094,2030,9.027924754517073
+Óbidos,dados_obidos__media_populacao_amarela,Média: População Amarela,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.41045434037050094,2040,10.470417612378263
+Óbidos,dados_obidos__media_populacao_branca,Média: População Branca,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100757,2030,8.331184539481221
+Óbidos,dados_obidos__media_populacao_branca,Média: População Branca,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100757,2040,9.22771365360336
+Óbidos,dados_obidos__media_populacao_indigena,Média: População Indígena,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336753,2030,6.696535701749048
+Óbidos,dados_obidos__media_populacao_indigena,Média: População Indígena,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336753,2040,8.0538174440509
+Óbidos,dados_obidos__media_populacao_preta_parda,Média: População Preta / Parda,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923222,2030,8.229529143915222
+Óbidos,dados_obidos__media_populacao_preta_parda,Média: População Preta / Parda,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923222,2040,9.896584563055377
+Óbidos,dados_obidos__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.12184998294720566,2030,-0.018859830594627702
+Óbidos,dados_obidos__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.12184998294720566,2040,-1.3127600405208364
+Óbidos,dados_obidos__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,4.199914609435301
+Óbidos,dados_obidos__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.56115886505405
+Óbidos,dados_obidos__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,2.199914609435301
+Óbidos,dados_obidos__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,2.56115886505405
+Óbidos,dados_obidos__populacao_amarela,População Amarela,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,26.41461130262901,2030,86.73921429378419
+Óbidos,dados_obidos__populacao_amarela,População Amarela,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,26.41461130262901,2040,86.63134623513278
+Óbidos,dados_obidos__populacao_branca,População Branca,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.27606843523491964,2030,5.237480636255952
+Óbidos,dados_obidos__populacao_branca,População Branca,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.27606843523491964,2040,4.196542569239554
+Óbidos,dados_obidos__populacao_indigena,População Indígena,dados_obidos,Grupo 2 — 3 censos,tanh,lbfgs,True,222.79146668622113,2030,553.1015766327932
+Óbidos,dados_obidos__populacao_indigena,População Indígena,dados_obidos,Grupo 2 — 3 censos,tanh,lbfgs,True,222.79146668622113,2040,544.9739395366756
+Óbidos,dados_obidos__populacao_indigena_total,População Indígena Total,dados_obidos,Grupo 2 — 3 censos,tanh,lbfgs,True,222.79146668622113,2030,553.1015766327932
+Óbidos,dados_obidos__populacao_indigena_total,População Indígena Total,dados_obidos,Grupo 2 — 3 censos,tanh,lbfgs,True,222.79146668622113,2040,544.9739395366756
+Óbidos,dados_obidos__populacao_parda,População Parda,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.5722552306805848,2030,42.62309185508799
+Óbidos,dados_obidos__populacao_parda,População Parda,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,1.5722552306805848,2040,44.36012388872291
+Óbidos,dados_obidos__populacao_preta,População Preta,dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,0.3503128536524652,2030,4.321310470468389
+Óbidos,dados_obidos__populacao_preta,População Preta,dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,0.3503128536524652,2040,4.339273135720669
+Óbidos,dados_obidos__populacao_rural,População Rural,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.2495648128280905,2030,24.58534426998228
+Óbidos,dados_obidos__populacao_rural,População Rural,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.2495648128280905,2040,25.237176345954595
+Óbidos,dados_obidos__populacao_urbana,População Urbana,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.755259349429212,2030,28.928205416906692
+Óbidos,dados_obidos__populacao_urbana,População Urbana,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.755259349429212,2040,29.83854142317868
+Óbidos,dados_obidos__populacao_com_superior_completo,População com Superior Completo,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,499.8580465553962,2030,326.6744669798945
+Óbidos,dados_obidos__populacao_com_superior_completo,População com Superior Completo,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,499.8580465553962,2040,325.0196932424963
+Óbidos,dados_obidos__populacao_de_homens,População de Homens,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.42739940737362997,2030,27.48327426005377
+Óbidos,dados_obidos__populacao_de_homens,População de Homens,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.42739940737362997,2040,28.7173232515016
+Óbidos,dados_obidos__populacao_de_mulheres,População de Mulheres,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.40287138380133075,2030,26.960617710765625
+Óbidos,dados_obidos__populacao_de_mulheres,População de Mulheres,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.40287138380133075,2040,28.308167649169317
+Óbidos,dados_obidos__proporcao_na_populacao_de_obidos,Proporção na população de Óbidos,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,2.4221611917416603,2030,1.0703723808567602
+Óbidos,dados_obidos__proporcao_na_populacao_de_obidos,Proporção na população de Óbidos,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,2.4221611917416603,2040,1.197681661562269
+Óbidos,dados_obidos__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928472235,2030,101.87305628294264
+Óbidos,dados_obidos__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928472235,2040,101.23844067984282
+Óbidos,dados_obidos__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,151.37927252655172,2030,881.7622773579635
+Óbidos,dados_obidos__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,151.37927252655172,2040,1116.0704292544476
+Óbidos,dados_obidos__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.7931211141235343,2030,32.885483912472296
+Óbidos,dados_obidos__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.7931211141235343,2040,24.171209790037476
+Óbidos,dados_obidos__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343554,2030,16.9430205697858
+Óbidos,dados_obidos__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343554,2040,19.83819747752132
+Óbidos,dados_obidos__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944065,2030,26.92491887883439
+Óbidos,dados_obidos__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944065,2040,30.739944657139358
+Óbidos,dados_obidos__responsavel_homem,Responsável Homem,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281079,2030,3.315867402756271
+Óbidos,dados_obidos__responsavel_homem,Responsável Homem,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281079,2040,2.9271315082713363
+Óbidos,dados_obidos__responsavel_mulher,Responsável Mulher,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Óbidos,dados_obidos__responsavel_mulher,Responsável Mulher,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Óbidos,dados_obidos__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Óbidos,dados_obidos__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_obidos,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Óbidos,dados_obidos__setor_privado,Setor privado,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.059978738323297996,2030,13.509820195685133
+Óbidos,dados_obidos__setor_privado,Setor privado,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.059978738323297996,2040,16.859222148887053
+Óbidos,dados_obidos__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.07556613714170046,2030,6.9898294462306705
+Óbidos,dados_obidos__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.07556613714170046,2040,8.935445857329931
+Óbidos,dados_obidos__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.01525194483365174,2030,6.524654039121401
+Óbidos,dados_obidos__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,lbfgs,True,0.01525194483365174,2040,7.9340140187879395
+Óbidos,dados_obidos__setor_publico,Setor público,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.2537765322264633,2030,5.2630085503828035
+Óbidos,dados_obidos__setor_publico,Setor público,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.2537765322264633,2040,6.522215756222787
+Óbidos,dados_obidos__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,15.24494170335756,2030,364.3651527945974
+Óbidos,dados_obidos__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,15.24494170335756,2040,473.28251798853944
+Óbidos,dados_obidos__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.26902147392982095,2030,4.898686524576023
+Óbidos,dados_obidos__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,0.26902147392982095,2040,6.049022608539075
+Óbidos,dados_obidos__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,2.4981156966603657,2030,51.02288485925456
+Óbidos,dados_obidos__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_obidos,Grupo 2 — 3 censos,identity,adam,True,2.4981156966603657,2040,61.11693227630512
+Óbidos,dados_obidos__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,3.790478872131023,2030,95.8665877134314
+Óbidos,dados_obidos__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,3.790478872131023,2040,96.08130421717028
+Óbidos,dados_obidos__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,4.927990940462204,2030,92.98547211489381
+Óbidos,dados_obidos__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_obidos,Grupo 2 — 3 censos,logistic,lbfgs,True,4.927990940462204,2040,93.24207653906217
+Óbidos,dados_obidos__trabalhador_domestico,Trabalhador doméstico,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,319.23109825630104,2030,-2.5912783413773752
+Óbidos,dados_obidos__trabalhador_domestico,Trabalhador doméstico,dados_obidos,Grupo 2 — 3 censos,tanh,adam,True,319.23109825630104,2040,14.240115472263085
+Óbidos,dados_obidos__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,31.982766151046707,2030,371.58440843414655
+Óbidos,dados_obidos__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_obidos,Grupo 2 — 3 censos,identity,adam,True,31.982766151046707,2040,480.7994199968463
+Óbidos,dados_obidos__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,471.4414493911013,2030,478.3520449195915
+Óbidos,dados_obidos__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_obidos,Grupo 2 — 3 censos,logistic,sgd,True,471.4414493911013,2040,476.4209645982999
+Óbidos,dados_obidos__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,4.825783722734328,2030,28.83091883773063
+Óbidos,dados_obidos__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_obidos,Grupo 2 — 3 censos,relu,lbfgs,True,4.825783722734328,2040,36.48508981017005
+Óbidos,dados_obidos__a_pe,A pé,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.692787268875826
+Óbidos,dados_obidos__a_pe,A pé,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.80012882499133
+Óbidos,dados_obidos__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.53348382215796
+Óbidos,dados_obidos__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.01451586812877
+Óbidos,dados_obidos__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.79122067069039
+Óbidos,dados_obidos__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.348238802771675
+Óbidos,dados_obidos__automovel_onibus,Automóvel / Ônibus,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.775400758920785
+Óbidos,dados_obidos__automovel_onibus,Automóvel / Ônibus,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.19718611848942
+Óbidos,dados_obidos__bicicleta,Bicicleta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.500310129901491
+Óbidos,dados_obidos__bicicleta,Bicicleta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.429789468044799
+Óbidos,dados_obidos__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.19724539510761
+Óbidos,dados_obidos__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.26605865647099
+Óbidos,dados_obidos__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.60596067625866
+Óbidos,dados_obidos__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.91143029144433
+Óbidos,dados_obidos__com_coleta_de_lixo,Com Coleta de Lixo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.89002028302124
+Óbidos,dados_obidos__com_coleta_de_lixo,Com Coleta de Lixo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.29854459435876
+Óbidos,dados_obidos__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6420298033812932
+Óbidos,dados_obidos__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6935571514572215
+Óbidos,dados_obidos__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.582441341380786
+Óbidos,dados_obidos__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.69647760554335
+Óbidos,dados_obidos__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.8405960676258655
+Óbidos,dados_obidos__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.871143029144433
+Óbidos,dados_obidos__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.730447050719399
+Óbidos,dados_obidos__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.503357271858324
+Óbidos,dados_obidos__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.80871528115104
+Óbidos,dados_obidos__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.04537163497332
+Óbidos,dados_obidos__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.715045722051325
+Óbidos,dados_obidos__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.3593212861069395
+Óbidos,dados_obidos__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.283697809664737
+Óbidos,dados_obidos__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.018578159718212
+Óbidos,dados_obidos__estuda_em_outro_municipio,Estuda em outro município,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.334804691294918
+Óbidos,dados_obidos__estuda_em_outro_municipio,Estuda em outro município,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.726043089344984
+Óbidos,dados_obidos__estuda_no_proprio_municipio_obidos,Estuda no próprio município (Óbidos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.94639363443791
+Óbidos,dados_obidos__estuda_no_proprio_municipio_obidos,Estuda no próprio município (Óbidos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.50006441249566
+Óbidos,dados_obidos__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.94793404633071
+Óbidos,dados_obidos__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.74954399235325
+Óbidos,dados_obidos__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.042003969783114
+Óbidos,dados_obidos__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.874183813881507
+Óbidos,dados_obidos__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.73337095553948
+Óbidos,dados_obidos__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.10362896703218
+Óbidos,dados_obidos__idade_mediana_2,Idade Mediana,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Óbidos,dados_obidos__idade_mediana_2,Idade Mediana,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Óbidos,dados_obidos__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.388417247338108
+Óbidos,dados_obidos__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.109800120401104
+Óbidos,dados_obidos__motocicleta,Motocicleta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.40298033812933
+Óbidos,dados_obidos__motocicleta,Motocicleta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.55571514572216
+Óbidos,dados_obidos__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.630091444102646
+Óbidos,dados_obidos__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.91864257221388
+Óbidos,dados_obidos__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Óbidos,dados_obidos__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Óbidos,dados_obidos__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.649311348776905
+Óbidos,dados_obidos__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.916514664117752
+Óbidos,dados_obidos__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.84070893424433
+Óbidos,dados_obidos__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.98202993024101
+Óbidos,dados_obidos__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-504.78732825706055
+Óbidos,dados_obidos__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1173.523132750073
+Óbidos,dados_obidos__populacao_amarela_2,População Amarela,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.101490169064665
+Óbidos,dados_obidos__populacao_amarela_2,População Amarela,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.67785757286108
+Óbidos,dados_obidos__populacao_branca_2,População Branca,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,202.02980338129328
+Óbidos,dados_obidos__populacao_branca_2,População Branca,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,253.5571514572216
+Óbidos,dados_obidos__populacao_indigena_2,População Indígena,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.30447050719399
+Óbidos,dados_obidos__populacao_indigena_2,População Indígena,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.033572718583244
+Óbidos,dados_obidos__populacao_parda_2,População Parda,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-416.1130314575128
+Óbidos,dados_obidos__populacao_parda_2,População Parda,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-967.370670425699
+Óbidos,dados_obidos__populacao_preta_2,População Preta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,177.82682304316393
+Óbidos,dados_obidos__populacao_preta_2,População Preta,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,224.20143631149944
+Óbidos,dados_obidos__populacao_residente_em_favelas,População Residente em Favelas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-504.78732825706055
+Óbidos,dados_obidos__populacao_residente_em_favelas,População Residente em Favelas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1173.523132750073
+Óbidos,dados_obidos__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.730447050719399
+Óbidos,dados_obidos__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.503357271858324
+Óbidos,dados_obidos__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.54639363443793
+Óbidos,dados_obidos__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.1000644124957
+Óbidos,dados_obidos__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.3194353867061253
+Óbidos,dados_obidos__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.6852018847210983
+Óbidos,dados_obidos__ruas_sem_arvores,Ruas Sem Árvores,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.415045722051325
+Óbidos,dados_obidos__ruas_sem_arvores,Ruas Sem Árvores,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.059321286106936
+Óbidos,dados_obidos__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.89277488791362
+Óbidos,dados_obidos__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.23248593788776
+Óbidos,dados_obidos__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.907281545395609
+Óbidos,dados_obidos__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.594265056978287
+Óbidos,dados_obidos__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.122957512660529
+Óbidos,dados_obidos__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.510343510748847
+Óbidos,dados_obidos__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.52190106949607
+Óbidos,dados_obidos__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.62912618158245
+Óbidos,dados_obidos__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.7243159885299
+Óbidos,dados_obidos__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.49183005064212
+Óbidos,dados_obidos__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.194208623669053
+Óbidos,dados_obidos__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.554900060200551
+Óbidos,dados_obidos__sem_conjuge,Sem cônjuge,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.75223525359699
+Óbidos,dados_obidos__sem_conjuge,Sem cônjuge,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.61678635929162
+Óbidos,dados_obidos__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.15080151784157
+Óbidos,dados_obidos__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.99437223697885
+Óbidos,dados_obidos__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,687.1043118345265
+Óbidos,dados_obidos__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,867.4500301002756
+Óbidos,dados_obidos__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.481192135251725
+Óbidos,dados_obidos__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.54228605828886
+Óbidos,dados_obidos__trabalha_em_outro_municipio_ex_santarem_orixi,Trabalha em outro município (ex: Santarém / Oriximiná / Juruti),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.03480469129492
+Óbidos,dados_obidos__trabalha_em_outro_municipio_ex_santarem_orixi,Trabalha em outro município (ex: Santarém / Oriximiná / Juruti),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.426043089344985
+Óbidos,dados_obidos__trabalha_no_proprio_municipio_de_residencia_o,Trabalha no próprio município de residência (Óbidos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.24639363443791
+Óbidos,dados_obidos__trabalha_no_proprio_municipio_de_residencia_o,Trabalha no próprio município de residência (Óbidos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.80006441249566
+Óbidos,dados_obidos__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.195698792733719
+Óbidos,dados_obidos__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.132757633061633
+Óbidos,dados_obidos__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.93635129366882
+Óbidos,dados_obidos__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.45934411275436
+Óbidos,dados_obidos__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.9101490169064662
+Óbidos,dados_obidos__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.1677857572861081
+Óbidos,dados_obidos__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.687039944891914
+Óbidos,dados_obidos__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.9428294486366
+Óbidos,dados_obidos__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.60596067625865
+Óbidos,dados_obidos__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.91143029144432
+Óbidos,dados_obidos__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.700056433309236
+Óbidos,dados_obidos__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_obidos,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.255443450548288
