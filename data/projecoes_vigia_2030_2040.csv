@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Vigia,dados_vigia__anos_de_estudo_media,Anos de Estudo (Média),dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,0.22304346133786346,2030,7.817290572059571
+Vigia,dados_vigia__anos_de_estudo_media,Anos de Estudo (Média),dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,0.22304346133786346,2040,8.056008755297249
+Vigia,dados_vigia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_vigia,Grupo 1 — 4 censos,relu,sgd,True,21.530853678990724,2030,317.3924219124912
+Vigia,dados_vigia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_vigia,Grupo 1 — 4 censos,relu,sgd,True,21.530853678990724,2040,354.469245907985
+Vigia,dados_vigia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_vigia,Grupo 1 — 4 censos,identity,sgd,True,0.3752805631813907,2030,18.398278466100763
+Vigia,dados_vigia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_vigia,Grupo 1 — 4 censos,identity,sgd,True,0.3752805631813907,2040,21.861245850999175
+Vigia,dados_vigia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_vigia,Grupo 1 — 4 censos,identity,adam,True,0.2958664050813584,2030,8.392656780532263
+Vigia,dados_vigia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_vigia,Grupo 1 — 4 censos,identity,adam,True,0.2958664050813584,2040,10.015090497369393
+Vigia,dados_vigia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2999148134083466,2030,8.198916035833399
+Vigia,dados_vigia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2999148134083466,2040,8.424523775047204
+Vigia,dados_vigia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_vigia,Grupo 1 — 4 censos,identity,lbfgs,True,0.14924152488891362,2030,2.381273407324962
+Vigia,dados_vigia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_vigia,Grupo 1 — 4 censos,identity,lbfgs,True,0.14924152488891362,2040,1.5694428886406917
+Vigia,dados_vigia__populacao_total,População Total,dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3137539386495511,2030,52.005728795435196
+Vigia,dados_vigia__populacao_total,População Total,dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3137539386495511,2040,52.92756049458713
+Vigia,dados_vigia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2568304197866205,2030,89.08489071828619
+Vigia,dados_vigia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_vigia,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2568304197866205,2040,90.4023130472909
+Vigia,dados_vigia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_vigia,Grupo 1 — 4 censos,identity,sgd,True,0.39533926861408397,2030,18.717088409853094
+Vigia,dados_vigia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_vigia,Grupo 1 — 4 censos,identity,sgd,True,0.39533926861408397,2040,22.227724965862265
+Vigia,dados_vigia__2_trabalhos,2 trabalhos,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,1.7538135962172345,2030,7.625053274329423
+Vigia,dados_vigia__2_trabalhos,2 trabalhos,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,1.7538135962172345,2040,7.780134661529221
+Vigia,dados_vigia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2030,0.5684325707834375
+Vigia,dados_vigia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2040,0.5678677444583979
+Vigia,dados_vigia__apenas_1_trabalho,Apenas 1 trabalho,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,2.245234933587715,2030,94.26867239452822
+Vigia,dados_vigia__apenas_1_trabalho,Apenas 1 trabalho,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,2.245234933587715,2040,94.25970831208703
+Vigia,dados_vigia__casais_com_filhos,Casais com filhos,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,1.1591794805240194,2030,37.87886216972669
+Vigia,dados_vigia__casais_com_filhos,Casais com filhos,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,1.1591794805240194,2040,28.988757615977278
+Vigia,dados_vigia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,7.9347956242531374
+Vigia,dados_vigia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,7.933962067246486
+Vigia,dados_vigia__casais_sem_filhos,Casais sem filhos,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,1.0963450027465729,2030,15.77148865171742
+Vigia,dados_vigia__casais_sem_filhos,Casais sem filhos,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,1.0963450027465729,2040,18.733649054796334
+Vigia,dados_vigia__conta_propria,Conta própria,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.7914472057914381,2030,13.96978029598897
+Vigia,dados_vigia__conta_propria,Conta própria,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.7914472057914381,2040,14.870401389082144
+Vigia,dados_vigia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151349534974014,2030,26.148126395896412
+Vigia,dados_vigia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151349534974014,2040,30.604231455824355
+Vigia,dados_vigia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.37941125700871225,2030,27.36935339938933
+Vigia,dados_vigia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.37941125700871225,2040,31.12113854728841
+Vigia,dados_vigia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,4.046721803985254,2030,16.5927307992496
+Vigia,dados_vigia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,4.046721803985254,2040,8.814081794633008
+Vigia,dados_vigia__empregador,Empregador,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,18.30297302212121,2030,1109.6555938111583
+Vigia,dados_vigia__empregador,Empregador,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,18.30297302212121,2040,1400.868391113574
+Vigia,dados_vigia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_vigia,Grupo 2 — 3 censos,logistic,lbfgs,True,4.5225867391193475,2030,94.6548411661595
+Vigia,dados_vigia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_vigia,Grupo 2 — 3 censos,logistic,lbfgs,True,4.5225867391193475,2040,94.90491930119612
+Vigia,dados_vigia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,3.5918628166674176,2030,77.97205011424917
+Vigia,dados_vigia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,3.5918628166674176,2040,82.47795235276881
+Vigia,dados_vigia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.6438168523488603,2030,24.75152823227978
+Vigia,dados_vigia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.6438168523488603,2040,26.30194012908498
+Vigia,dados_vigia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.00445142043536396,2030,0.8388071477398109
+Vigia,dados_vigia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.00445142043536396,2040,1.0017981479038307
+Vigia,dados_vigia__idade_mediana,Idade Mediana,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,32.46879368938008
+Vigia,dados_vigia__idade_mediana,Idade Mediana,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,37.011896464596354
+Vigia,dados_vigia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,53.29143882424275,2030,486.1584588081446
+Vigia,dados_vigia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,53.29143882424275,2040,618.3986290612092
+Vigia,dados_vigia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_vigia,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2030,25.789744267520092
+Vigia,dados_vigia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_vigia,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2040,29.127820913983353
+Vigia,dados_vigia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2030,4.202940565304489
+Vigia,dados_vigia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2040,4.201926456337081
+Vigia,dados_vigia__media_populacao_amarela,Média: População Amarela,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.5478430804159755,2030,8.839245960054646
+Vigia,dados_vigia__media_populacao_amarela,Média: População Amarela,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.5478430804159755,2040,9.621383640299142
+Vigia,dados_vigia__media_populacao_branca,Média: População Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2030,8.730984450071759
+Vigia,dados_vigia__media_populacao_branca,Média: População Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2040,9.626336378216408
+Vigia,dados_vigia__media_populacao_indigena,Média: População Indígena,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.1517908456584888,2030,7.148080340546007
+Vigia,dados_vigia__media_populacao_indigena,Média: População Indígena,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.1517908456584888,2040,8.549191815509031
+Vigia,dados_vigia__media_populacao_preta_parda,Média: População Preta / Parda,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362884,2030,7.929012551465995
+Vigia,dados_vigia__media_populacao_preta_parda,Média: População Preta / Parda,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362884,2040,8.821030287546098
+Vigia,dados_vigia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,404.27589825859656,2030,928.5981806456614
+Vigia,dados_vigia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,404.27589825859656,2040,971.6108892748887
+Vigia,dados_vigia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340304,2030,4.399914609435301
+Vigia,dados_vigia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340304,2040,4.76115886505405
+Vigia,dados_vigia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340215,2030,2.0999146094353014
+Vigia,dados_vigia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340215,2040,2.46115886505405
+Vigia,dados_vigia__populacao_amarela,População Amarela,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,29.716370146844685,2030,90.05914090341255
+Vigia,dados_vigia__populacao_amarela,População Amarela,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,29.716370146844685,2040,89.94103998444916
+Vigia,dados_vigia__populacao_branca,População Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.30201950914699377,2030,6.043755818839744
+Vigia,dados_vigia__populacao_branca,População Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.30201950914699377,2040,5.55362639212111
+Vigia,dados_vigia__populacao_indigena,População Indígena,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,32.30159777642609,2030,18.56505131449498
+Vigia,dados_vigia__populacao_indigena,População Indígena,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,32.30159777642609,2040,-35.931757292417316
+Vigia,dados_vigia__populacao_indigena_total,População Indígena Total,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,32.30159777642609,2030,18.56505131449498
+Vigia,dados_vigia__populacao_indigena_total,População Indígena Total,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,32.30159777642609,2040,-35.931757292417316
+Vigia,dados_vigia__populacao_parda,População Parda,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.3260847683797838,2030,41.37277678626262
+Vigia,dados_vigia__populacao_parda,População Parda,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.3260847683797838,2040,43.27246369339508
+Vigia,dados_vigia__populacao_preta,População Preta,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.14438696221132016,2030,4.643585289640648
+Vigia,dados_vigia__populacao_preta,População Preta,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.14438696221132016,2040,4.843821158186724
+Vigia,dados_vigia__populacao_rural,População Rural,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.5019320674119818,2030,17.185518838894396
+Vigia,dados_vigia__populacao_rural,População Rural,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,0.5019320674119818,2040,17.183972124986166
+Vigia,dados_vigia__populacao_urbana,População Urbana,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.6543429422193132,2030,34.3924100776016
+Vigia,dados_vigia__populacao_urbana,População Urbana,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,1.6543429422193132,2040,35.51590006495159
+Vigia,dados_vigia__populacao_com_superior_completo,População com Superior Completo,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,105.30885792491729,2030,2.5413220811672304
+Vigia,dados_vigia__populacao_com_superior_completo,População com Superior Completo,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,105.30885792491729,2040,8.090970769167185
+Vigia,dados_vigia__populacao_de_homens,População de Homens,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.5302529778537265,2030,25.702993945445957
+Vigia,dados_vigia__populacao_de_homens,População de Homens,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.5302529778537265,2040,26.29416045863727
+Vigia,dados_vigia__populacao_de_mulheres,População de Mulheres,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.629976400813233,2030,26.42923329888553
+Vigia,dados_vigia__populacao_de_mulheres,População de Mulheres,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.629976400813233,2040,27.43289009358549
+Vigia,dados_vigia__proporcao_na_populacao_de_vigia,Proporção na população de Vigia,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,0.050991628038581586,2030,0.0364903275603905
+Vigia,dados_vigia__proporcao_na_populacao_de_vigia,Proporção na população de Vigia,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,0.050991628038581586,2040,-0.07015013580632731
+Vigia,dados_vigia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.1672929573823628,2030,96.86349445644449
+Vigia,dados_vigia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.1672929573823628,2040,94.83061507667715
+Vigia,dados_vigia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,154.34379685052934,2030,905.165108144425
+Vigia,dados_vigia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,154.34379685052934,2040,1143.9780789139513
+Vigia,dados_vigia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2030,32.18879164288471
+Vigia,dados_vigia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2040,23.562431864737924
+Vigia,dados_vigia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343495,2030,17.343020569785804
+Vigia,dados_vigia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343495,2040,20.238197477521318
+Vigia,dados_vigia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944047,2030,27.52491887883439
+Vigia,dados_vigia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944047,2040,31.339944657139355
+Vigia,dados_vigia__responsavel_homem,Responsável Homem,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2030,2.996672306080835
+Vigia,dados_vigia__responsavel_homem,Responsável Homem,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2040,2.408756660692921
+Vigia,dados_vigia__responsavel_mulher,Responsável Mulher,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Vigia,dados_vigia__responsavel_mulher,Responsável Mulher,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Vigia,dados_vigia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Vigia,dados_vigia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_vigia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Vigia,dados_vigia__setor_privado,Setor privado,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.5709785682274475,2030,17.395944146192925
+Vigia,dados_vigia__setor_privado,Setor privado,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.5709785682274475,2040,21.73782947702764
+Vigia,dados_vigia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.09518435565803873,2030,9.305615523476222
+Vigia,dados_vigia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.09518435565803873,2040,11.866658571782919
+Vigia,dados_vigia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.4757942125694097,2030,8.09049919482491
+Vigia,dados_vigia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.4757942125694097,2040,9.871524714154342
+Vigia,dados_vigia__setor_publico,Setor público,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.0909691359750792,2030,5.12749604870202
+Vigia,dados_vigia__setor_publico,Setor público,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.0909691359750792,2040,6.366577300147626
+Vigia,dados_vigia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,3.05046886944775,2030,364.9396521497391
+Vigia,dados_vigia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,lbfgs,True,3.05046886944775,2040,471.8092499823698
+Vigia,dados_vigia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.09404051574250327,2030,4.7629131409371155
+Vigia,dados_vigia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,0.09404051574250327,2040,5.8955508459897334
+Vigia,dados_vigia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,1.9352119392562959,2030,54.10605517205583
+Vigia,dados_vigia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_vigia,Grupo 2 — 3 censos,identity,adam,True,1.9352119392562959,2040,64.55223935015826
+Vigia,dados_vigia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,3.1578169249061765,2030,97.68291631051649
+Vigia,dados_vigia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_vigia,Grupo 2 — 3 censos,relu,adam,True,3.1578169249061765,2040,99.26639330167599
+Vigia,dados_vigia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_vigia,Grupo 2 — 3 censos,logistic,lbfgs,True,4.5225867391193475,2030,94.6548411661595
+Vigia,dados_vigia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_vigia,Grupo 2 — 3 censos,logistic,lbfgs,True,4.5225867391193475,2040,94.90491930119612
+Vigia,dados_vigia__trabalhador_domestico,Trabalhador doméstico,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,341.2091506001564,2030,-2.83642402110749
+Vigia,dados_vigia__trabalhador_domestico,Trabalhador doméstico,dados_vigia,Grupo 2 — 3 censos,tanh,adam,True,341.2091506001564,2040,15.154131616173572
+Vigia,dados_vigia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,27.418503639290645,2030,384.15145652092497
+Vigia,dados_vigia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_vigia,Grupo 2 — 3 censos,identity,adam,True,27.418503639290645,2040,495.54701665527284
+Vigia,dados_vigia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,506.09086314643645,2030,513.4757051889452
+Vigia,dados_vigia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_vigia,Grupo 2 — 3 censos,logistic,sgd,True,506.09086314643645,2040,511.39904851435426
+Vigia,dados_vigia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,4.896360746170354,2030,30.46226309152896
+Vigia,dados_vigia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_vigia,Grupo 2 — 3 censos,relu,lbfgs,True,4.896360746170354,2040,38.05746558841354
+Vigia,dados_vigia__a_pe,A pé,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.149526830808774
+Vigia,dados_vigia__a_pe,A pé,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.803844456934977
+Vigia,dados_vigia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.93348382215797
+Vigia,dados_vigia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.41451586812878
+Vigia,dados_vigia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.37930814500994
+Vigia,dados_vigia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.39269756110406
+Vigia,dados_vigia__automovel_onibus,Automóvel / Ônibus,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.649311348776905
+Vigia,dados_vigia__automovel_onibus,Automóvel / Ônibus,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.91651466411775
+Vigia,dados_vigia__bicicleta,Bicicleta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.680874743195368
+Vigia,dados_vigia__bicicleta,Bicicleta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.2445875833237103
+Vigia,dados_vigia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.04942421539539
+Vigia,dados_vigia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.42740156521434
+Vigia,dados_vigia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.20596067625866
+Vigia,dados_vigia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.51143029144433
+Vigia,dados_vigia__com_coleta_de_lixo,Com Coleta de Lixo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.20596067625866
+Vigia,dados_vigia__com_coleta_de_lixo,Com Coleta de Lixo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.51143029144433
+Vigia,dados_vigia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7238611281483571
+Vigia,dados_vigia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6256369587330752
+Vigia,dados_vigia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.71974551660762
+Vigia,dados_vigia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.0149913527659
+Vigia,dados_vigia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.788417247338106
+Vigia,dados_vigia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.509800120401103
+Vigia,dados_vigia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.314506657481986
+Vigia,dados_vigia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.190471574772768
+Vigia,dados_vigia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.788417247338103
+Vigia,dados_vigia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.5098001204011
+Vigia,dados_vigia__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.958306160118378
+Vigia,dados_vigia__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.055605654163299
+Vigia,dados_vigia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.52100198489156
+Vigia,dados_vigia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.437091906940761
+Vigia,dados_vigia__estuda_em_outro_municipio,Estuda em outro município,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.460894101438798
+Vigia,dados_vigia__estuda_em_outro_municipio,Estuda em outro município,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.006714543716647
+Vigia,dados_vigia__estuda_no_proprio_municipio_vigia,Estuda no próprio município (Vigia),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.74043737159768
+Vigia,dados_vigia__estuda_no_proprio_municipio_vigia,Estuda no próprio município (Vigia),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.02229379166185
+Vigia,dados_vigia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.116053259855875
+Vigia,dados_vigia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.12377259818213
+Vigia,dados_vigia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.71661232023676
+Vigia,dados_vigia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.911211308326596
+Vigia,dados_vigia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.16525174201432
+Vigia,dados_vigia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.32940036120331
+Vigia,dados_vigia__idade_mediana_2,Idade Mediana,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.68119213525173
+Vigia,dados_vigia__idade_mediana_2,Idade Mediana,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.742286058288865
+Vigia,dados_vigia__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.660894101438796
+Vigia,dados_vigia__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.206714543716647
+Vigia,dados_vigia__motocicleta,Motocicleta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.834861124604146
+Vigia,dados_vigia__motocicleta,Motocicleta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.781486539893265
+Vigia,dados_vigia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.76739561932948
+Vigia,dados_vigia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.23715631943642
+Vigia,dados_vigia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Vigia,dados_vigia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Vigia,dados_vigia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.20728154539561
+Vigia,dados_vigia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.422957512660524
+Vigia,dados_vigia__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.20882814776951
+Vigia,dados_vigia__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.5562585360699
+Vigia,dados_vigia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-559.3379637550395
+Vigia,dados_vigia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1300.3582665171455
+Vigia,dados_vigia__populacao_amarela_2,População Amarela,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.101490169064665
+Vigia,dados_vigia__populacao_amarela_2,População Amarela,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.67785757286108
+Vigia,dados_vigia__populacao_branca_2,População Branca,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,236.2327837194226
+Vigia,dados_vigia__populacao_branca_2,População Branca,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,292.9128666029438
+Vigia,dados_vigia__populacao_indigena_2,População Indígena,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.405960676258655
+Vigia,dados_vigia__populacao_indigena_2,População Indígena,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.71143029144432
+Vigia,dados_vigia__populacao_parda_2,População Parda,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-463.8996494467184
+Vigia,dados_vigia__populacao_parda_2,População Parda,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1078.43567095581
+Vigia,dados_vigia__populacao_preta_2,População Preta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,232.5372542266166
+Vigia,dados_vigia__populacao_preta_2,População Preta,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,296.946439321527
+Vigia,dados_vigia__populacao_residente_em_favelas,População Residente em Favelas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-559.3379637550395
+Vigia,dados_vigia__populacao_residente_em_favelas,População Residente em Favelas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1300.3582665171455
+Vigia,dados_vigia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.598566264244572
+Vigia,dados_vigia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.57758587768721
+Vigia,dados_vigia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.28965407250496
+Vigia,dados_vigia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.29634878055202
+Vigia,dados_vigia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.288087474319537
+Vigia,dados_vigia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.744458758332372
+Vigia,dados_vigia__ruas_sem_arvores,Ruas Sem Árvores,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.140437371597685
+Vigia,dados_vigia__ruas_sem_arvores,Ruas Sem Árvores,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.422293791661854
+Vigia,dados_vigia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.06089410143879
+Vigia,dados_vigia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.60671454371665
+Vigia,dados_vigia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.901490169064662
+Vigia,dados_vigia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.898622697553805
+Vigia,dados_vigia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.47785757286108
+Vigia,dados_vigia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.433029328235495
+Vigia,dados_vigia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.20596067625866
+Vigia,dados_vigia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.26100696805727
+Vigia,dados_vigia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.51143029144433
+Vigia,dados_vigia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.91760144481324
+Vigia,dados_vigia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5782682304316396
+Vigia,dados_vigia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.042014363114994
+Vigia,dados_vigia__sem_conjuge,Sem cônjuge,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.6102054502157
+Vigia,dados_vigia__sem_conjuge,Sem cônjuge,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.423229207834396
+Vigia,dados_vigia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.75080151784157
+Vigia,dados_vigia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.59437223697883
+Vigia,dados_vigia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,778.1192135251731
+Vigia,dados_vigia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,984.2286058288864
+Vigia,dados_vigia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.22901331496397
+Vigia,dados_vigia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.98094314954554
+Vigia,dados_vigia__trabalha_em_outro_municipio_ex_belem_castanha,Trabalha em outro município (ex: Belém / Castanhal / Santo Antônio do Tauá),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.313072921726558
+Vigia,dados_vigia__trabalha_em_outro_municipio_ex_belem_castanha,Trabalha em outro município (ex: Belém / Castanhal / Santo Antônio do Tauá),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.16805745245998
+Vigia,dados_vigia__trabalha_no_proprio_municipio_de_residencia_v,Trabalha no próprio município de residência (Vigia),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.72852484591722
+Vigia,dados_vigia__trabalha_no_proprio_municipio_de_residencia_v,Trabalha no próprio município de residência (Vigia),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.46675254999424
+Vigia,dados_vigia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.979758399496305
+Vigia,dados_vigia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.019871935976077
+Vigia,dados_vigia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.776947361294674
+Vigia,dados_vigia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.33048714189877
+Vigia,dados_vigia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4362384270503463
+Vigia,dados_vigia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.8484572116577724
+Vigia,dados_vigia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.591397585467433
+Vigia,dados_vigia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.46551526612326
+Vigia,dados_vigia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.20596067625866
+Vigia,dados_vigia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.51143029144433
+Vigia,dados_vigia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.526145843453115
+Vigia,dados_vigia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_vigia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.236114904919955
