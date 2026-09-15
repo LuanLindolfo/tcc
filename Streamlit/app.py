@@ -104,6 +104,31 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_paragominas_tratados.csv",
     },
+    {
+        "nome":    "Tucuruí",
+        "pasta":   "data",
+        "arquivo": "indicadores_tucuruí_tratados.csv",
+    },
+    {
+        "nome":    "Canãa dos Carajás",
+        "pasta":   "data",
+        "arquivo": "indicadores_canãa_dos_carajá_tratados.csv",
+    },
+    {
+        "nome":    "Redenção",
+        "pasta":   "data",
+        "arquivo": "indicadores_redenção_tratados.csv",
+    },
+    {
+        "nome":    "Santa Izabel do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_izabel_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Moju",
+        "pasta":   "data",
+        "arquivo": "indicadores_moju_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
