@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Viseu,dados_viseu__anos_de_estudo_media,Anos de Estudo (Média),dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.1549709554401018,2030,7.377635257321609
+Viseu,dados_viseu__anos_de_estudo_media,Anos de Estudo (Média),dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.1549709554401018,2040,8.818853454962895
+Viseu,dados_viseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_viseu,Grupo 1 — 4 censos,tanh,lbfgs,True,8.401848696645345,2030,244.89095945106533
+Viseu,dados_viseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_viseu,Grupo 1 — 4 censos,tanh,lbfgs,True,8.401848696645345,2040,246.83110946971883
+Viseu,dados_viseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.48084138661398534,2030,19.370736548507477
+Viseu,dados_viseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.48084138661398534,2040,22.407252107244222
+Viseu,dados_viseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.1474925009189041,2030,6.892456270186537
+Viseu,dados_viseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.1474925009189041,2040,8.267772102450998
+Viseu,dados_viseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.17838677851088802,2030,7.862855337617123
+Viseu,dados_viseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_viseu,Grupo 1 — 4 censos,identity,adam,True,0.17838677851088802,2040,9.37001184852025
+Viseu,dados_viseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.10170909166650566,2030,2.7278282299188827
+Viseu,dados_viseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.10170909166650566,2040,1.9042670771936234
+Viseu,dados_viseu__populacao_total,População Total,dados_viseu,Grupo 1 — 4 censos,tanh,lbfgs,True,1.0849358949546897,2030,58.1974589305961
+Viseu,dados_viseu__populacao_total,População Total,dados_viseu,Grupo 1 — 4 censos,tanh,lbfgs,True,1.0849358949546897,2040,58.19484942697433
+Viseu,dados_viseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_viseu,Grupo 1 — 4 censos,relu,adam,True,2.797885069651132,2030,87.28433446044843
+Viseu,dados_viseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_viseu,Grupo 1 — 4 censos,relu,adam,True,2.797885069651132,2040,91.81289389829354
+Viseu,dados_viseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.48019736909540756,2030,19.64050940218805
+Viseu,dados_viseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_viseu,Grupo 1 — 4 censos,identity,lbfgs,True,0.48019736909540756,2040,22.710953203113828
+Viseu,dados_viseu__2_trabalhos,2 trabalhos,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,1.6147336580700193,2030,6.768828486298892
+Viseu,dados_viseu__2_trabalhos,2 trabalhos,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,1.6147336580700193,2040,6.899222794650051
+Viseu,dados_viseu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.8532083159839907
+Viseu,dados_viseu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.8742845123278303
+Viseu,dados_viseu__apenas_1_trabalho,Apenas 1 trabalho,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,1.9810899016592411,2030,94.8018283600343
+Viseu,dados_viseu__apenas_1_trabalho,Apenas 1 trabalho,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,1.9810899016592411,2040,94.79392269472697
+Viseu,dados_viseu__casais_com_filhos,Casais com filhos,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2030,41.18879164288471
+Viseu,dados_viseu__casais_com_filhos,Casais com filhos,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2040,32.562431864737924
+Viseu,dados_viseu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263994,2030,8.469004527415862
+Viseu,dados_viseu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263994,2040,8.468014313817578
+Viseu,dados_viseu__casais_sem_filhos,Casais sem filhos,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.7919730257794914,2030,14.27707094439901
+Viseu,dados_viseu__casais_sem_filhos,Casais sem filhos,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.7919730257794914,2040,17.052570938976288
+Viseu,dados_viseu__conta_propria,Conta própria,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.5694417376425214,2030,17.99252902877441
+Viseu,dados_viseu__conta_propria,Conta própria,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.5694417376425214,2040,19.33481007683367
+Viseu,dados_viseu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,24.047045767201872
+Viseu,dados_viseu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,28.14050854135681
+Viseu,dados_viseu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2030,26.292778098789643
+Viseu,dados_viseu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2040,30.091034619695833
+Viseu,dados_viseu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,4.372238294562158,2030,20.51734805512541
+Viseu,dados_viseu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,4.372238294562158,2040,12.742630165426732
+Viseu,dados_viseu__empregador,Empregador,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,94.40272999880155,2030,852.6127329604959
+Viseu,dados_viseu__empregador,Empregador,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,94.40272999880155,2040,1089.711266286069
+Viseu,dados_viseu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,5.402246847015145,2030,91.38084696672382
+Viseu,dados_viseu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,5.402246847015145,2040,91.61966010872678
+Viseu,dados_viseu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,3.5996194665459242,2030,73.13376998422687
+Viseu,dados_viseu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,3.5996194665459242,2040,77.46633836450246
+Viseu,dados_viseu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.6609773716723293,2030,20.383334953336103
+Viseu,dados_viseu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.6609773716723293,2040,21.5072725402252
+Viseu,dados_viseu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.006329817688568319,2030,0.7193615906992386
+Viseu,dados_viseu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.006329817688568319,2040,0.8636440159211356
+Viseu,dados_viseu__idade_mediana,Idade Mediana,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2030,28.719480281138217
+Viseu,dados_viseu__idade_mediana,Idade Mediana,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2040,32.35998066656154
+Viseu,dados_viseu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,70.0292632719319,2030,473.29956940723196
+Viseu,dados_viseu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,70.0292632719319,2040,605.7425848923542
+Viseu,dados_viseu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626155051608367,2030,24.223472353880567
+Viseu,dados_viseu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626155051608367,2040,27.270217436578605
+Viseu,dados_viseu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.464965818925136,2030,4.670108848076883
+Viseu,dados_viseu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.464965818925136,2040,4.668951151759525
+Viseu,dados_viseu__media_populacao_amarela,Média: População Amarela,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.3952620843771495,2030,8.352949818708481
+Viseu,dados_viseu__media_populacao_amarela,Média: População Amarela,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.3952620843771495,2040,9.705135676151428
+Viseu,dados_viseu__media_populacao_branca,Média: População Branca,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.4863651035897633,2030,7.241501882535961
+Viseu,dados_viseu__media_populacao_branca,Média: População Branca,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.4863651035897633,2040,8.026856636023002
+Viseu,dados_viseu__media_populacao_indigena,Média: População Indígena,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.1974993279135576,2030,5.774722480664728
+Viseu,dados_viseu__media_populacao_indigena,Média: População Indígena,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.1974993279135576,2040,6.948766311425663
+Viseu,dados_viseu__media_populacao_preta_parda,Média: População Preta / Parda,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.33436134612873064,2030,7.25126623968463
+Viseu,dados_viseu__media_populacao_preta_parda,Média: População Preta / Parda,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.33436134612873064,2040,8.74014076043525
+Viseu,dados_viseu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.06710982369537517,2030,-0.09124319667124636
+Viseu,dados_viseu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.06710982369537517,2040,-1.4901417329429472
+Viseu,dados_viseu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2030,4.324704576720187
+Viseu,dados_viseu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2040,4.734050854135681
+Viseu,dados_viseu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608205,2030,2.4247045767201874
+Viseu,dados_viseu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608205,2040,2.834050854135681
+Viseu,dados_viseu__populacao_amarela,População Amarela,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2030,73.40988180054752
+Viseu,dados_viseu__populacao_amarela,População Amarela,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2040,73.34916867409625
+Viseu,dados_viseu__populacao_branca,População Branca,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.2786835775607628,2030,4.8783882889550725
+Viseu,dados_viseu__populacao_branca,População Branca,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.2786835775607628,2040,4.444982815491064
+Viseu,dados_viseu__populacao_indigena,População Indígena,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,109.12038373748867,2030,658.3213039365025
+Viseu,dados_viseu__populacao_indigena,População Indígena,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,109.12038373748867,2040,657.9943322812342
+Viseu,dados_viseu__populacao_indigena_total,População Indígena Total,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,109.12038373748867,2030,658.3213039365025
+Viseu,dados_viseu__populacao_indigena_total,População Indígena Total,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,109.12038373748867,2040,657.9943322812342
+Viseu,dados_viseu__populacao_parda,População Parda,dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,2.1211559907024644,2030,48.51606626696306
+Viseu,dados_viseu__populacao_parda,População Parda,dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,2.1211559907024644,2040,48.660964325749106
+Viseu,dados_viseu__populacao_preta,População Preta,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.1443869622113203,2030,4.143585289640647
+Viseu,dados_viseu__populacao_preta,População Preta,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.1443869622113203,2040,4.343821158186724
+Viseu,dados_viseu__populacao_rural,População Rural,dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,0.6655107148968279,2030,33.25816872292481
+Viseu,dados_viseu__populacao_rural,População Rural,dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,0.6655107148968279,2040,31.45585612203439
+Viseu,dados_viseu__populacao_urbana,População Urbana,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.6316360064291022,2030,24.90985436217716
+Viseu,dados_viseu__populacao_urbana,População Urbana,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.6316360064291022,2040,26.752905408523013
+Viseu,dados_viseu__populacao_com_superior_completo,População com Superior Completo,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,419.28115058322805,2030,266.2286604038258
+Viseu,dados_viseu__populacao_com_superior_completo,População com Superior Completo,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,419.28115058322805,2040,264.8541790530648
+Viseu,dados_viseu__populacao_de_homens,População de Homens,dados_viseu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0701629726794917,2030,29.637349808510557
+Viseu,dados_viseu__populacao_de_homens,População de Homens,dados_viseu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0701629726794917,2040,29.59773918956162
+Viseu,dados_viseu__populacao_de_mulheres,População de Mulheres,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.0459891426383088,2030,28.806562403791183
+Viseu,dados_viseu__populacao_de_mulheres,População de Mulheres,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,1.0459891426383088,2040,29.296580066011106
+Viseu,dados_viseu__proporcao_na_populacao_de_viseu,Proporção na população de Viseu,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.1680236820052016,2030,1.1841203168462315
+Viseu,dados_viseu__proporcao_na_populacao_de_viseu,Proporção na população de Viseu,dados_viseu,Grupo 2 — 3 censos,logistic,sgd,True,0.1680236820052016,2040,1.1835350445269601
+Viseu,dados_viseu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,4.568615940551505e-05,2030,102.79995223386658
+Viseu,dados_viseu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,4.568615940551505e-05,2040,100.79995628402303
+Viseu,dados_viseu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,134.9212734899152,2030,814.4808361374767
+Viseu,dados_viseu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,134.9212734899152,2040,1025.3242994139002
+Viseu,dados_viseu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2030,34.18879164288471
+Viseu,dados_viseu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2040,25.562431864737924
+Viseu,dados_viseu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.45576767980051763,2030,16.04935957076476
+Viseu,dados_viseu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.45576767980051763,2040,18.758691487905374
+Viseu,dados_viseu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241633,2030,26.827732573625
+Viseu,dados_viseu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241633,2040,30.730123167719924
+Viseu,dados_viseu__responsavel_homem,Responsável Homem,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592776,2030,3.3247110460912745
+Viseu,dados_viseu__responsavel_homem,Responsável Homem,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592776,2040,2.734052868495815
+Viseu,dados_viseu__responsavel_mulher,Responsável Mulher,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.976471460335164
+Viseu,dados_viseu__responsavel_mulher,Responsável Mulher,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.666764603881893
+Viseu,dados_viseu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2030,2.6483339568079733
+Viseu,dados_viseu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2040,2.1043777255795577
+Viseu,dados_viseu__setor_privado,Setor privado,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.238972320535679,2030,17.09144166724152
+Viseu,dados_viseu__setor_privado,Setor privado,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.238972320535679,2040,21.414283779745794
+Viseu,dados_viseu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.021352425985591506,2030,9.074482802282823
+Viseu,dados_viseu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,lbfgs,True,0.021352425985591506,2040,11.697595682844907
+Viseu,dados_viseu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.7310129970249561,2030,7.029255248513515
+Viseu,dados_viseu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_viseu,Grupo 2 — 3 censos,relu,adam,True,0.7310129970249561,2040,7.716378922815522
+Viseu,dados_viseu__setor_publico,Setor público,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.1381046438369716,2030,5.330431087644823
+Viseu,dados_viseu__setor_publico,Setor público,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.1381046438369716,2040,6.700064995011569
+Viseu,dados_viseu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,15.24494170335756,2030,364.3651527945974
+Viseu,dados_viseu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,15.24494170335756,2040,473.28251798853944
+Viseu,dados_viseu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.15334958554032885,2030,4.966087639281358
+Viseu,dados_viseu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_viseu,Grupo 2 — 3 censos,identity,adam,True,0.15334958554032885,2040,6.22682737425632
+Viseu,dados_viseu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.8893717427262107,2030,48.63434854795044
+Viseu,dados_viseu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_viseu,Grupo 2 — 3 censos,identity,adam,True,1.8893717427262107,2040,58.35540563918296
+Viseu,dados_viseu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,3.327770587536662,2030,95.27602686821643
+Viseu,dados_viseu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_viseu,Grupo 2 — 3 censos,relu,adam,True,3.327770587536662,2040,97.42046648050024
+Viseu,dados_viseu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,5.402246847015145,2030,91.38084696672382
+Viseu,dados_viseu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_viseu,Grupo 2 — 3 censos,logistic,lbfgs,True,5.402246847015145,2040,91.61966010872678
+Viseu,dados_viseu__trabalhador_domestico,Trabalhador doméstico,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,396.2718996855321,2030,-3.3648632270692076
+Viseu,dados_viseu__trabalhador_domestico,Trabalhador doméstico,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,396.2718996855321,2040,17.528973986064585
+Viseu,dados_viseu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,33.501991750381755,2030,334.0928037773607
+Viseu,dados_viseu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_viseu,Grupo 2 — 3 censos,identity,adam,True,33.501991750381755,2040,434.2834799359276
+Viseu,dados_viseu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,374.2213494363086,2030,-3.372124843097737
+Viseu,dados_viseu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_viseu,Grupo 2 — 3 censos,tanh,adam,True,374.2213494363086,2040,16.359774466115937
+Viseu,dados_viseu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,4.064988000824915,2030,25.3380985710928
+Viseu,dados_viseu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_viseu,Grupo 2 — 3 censos,relu,lbfgs,True,4.064988000824915,2040,31.85594227239269
+Viseu,dados_viseu__a_pe,A pé,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.104699794556293
+Viseu,dados_viseu__a_pe,A pé,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.755670066658965
+Viseu,dados_viseu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.99139758546743
+Viseu,dados_viseu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.86551526612326
+Viseu,dados_viseu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.46582902114403
+Viseu,dados_viseu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.38526629721676
+Viseu,dados_viseu__automovel_onibus,Automóvel / Ônibus,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.0608941014388
+Viseu,dados_viseu__automovel_onibus,Automóvel / Ônibus,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.60671454371665
+Viseu,dados_viseu__bicicleta,Bicicleta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.689654072504966
+Viseu,dados_viseu__bicicleta,Bicicleta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.696348780552023
+Viseu,dados_viseu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.36823208014364
+Viseu,dados_viseu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.68511550692547
+Viseu,dados_viseu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.92476854100693
+Viseu,dados_viseu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.16914423315546
+Viseu,dados_viseu__com_coleta_de_lixo,Com Coleta de Lixo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.84070893424435
+Viseu,dados_viseu__com_coleta_de_lixo,Com Coleta de Lixo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.982029930241026
+Viseu,dados_viseu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Viseu,dados_viseu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Viseu,dados_viseu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.39435386706126
+Viseu,dados_viseu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.052018847210995
+Viseu,dados_viseu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.5043576405755195
+Viseu,dados_viseu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.1226858174866585
+Viseu,dados_viseu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8202980338129324
+Viseu,dados_viseu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3355715145722162
+Viseu,dados_viseu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.240596067625866
+Viseu,dados_viseu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.27114302914443
+Viseu,dados_viseu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.418178918422186
+Viseu,dados_viseu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.163101330546244
+Viseu,dados_viseu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.42695824773179
+Viseu,dados_viseu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.61486252777457
+Viseu,dados_viseu__estuda_em_outro_municipio,Estuda em outro município,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.460894101438797
+Viseu,dados_viseu__estuda_em_outro_municipio,Estuda em outro município,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.006714543716647
+Viseu,dados_viseu__estuda_no_proprio_municipio_viseu,Estuda no próprio município (Viseu),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.74043737159768
+Viseu,dados_viseu__estuda_no_proprio_municipio_viseu,Estuda no próprio município (Viseu),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.02229379166185
+Viseu,dados_viseu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.402980338129325
+Viseu,dados_viseu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.55571514572216
+Viseu,dados_viseu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.453916495463577
+Viseu,dados_viseu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.829725055549138
+Viseu,dados_viseu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.48119213525173
+Viseu,dados_viseu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.54228605828887
+Viseu,dados_viseu__idade_mediana_2,Idade Mediana,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Viseu,dados_viseu__idade_mediana_2,Idade Mediana,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Viseu,dados_viseu__mais_de_1_hora_deslocamento_maritimo_estuarin,Mais de 1 hora (Deslocamento marítimo/estuarino/intermunicipal),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.388417247338108
+Viseu,dados_viseu__mais_de_1_hora_deslocamento_maritimo_estuarin,Mais de 1 hora (Deslocamento marítimo/estuarino/intermunicipal),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.109800120401104
+Viseu,dados_viseu__motocicleta,Motocicleta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.318920731366745
+Viseu,dados_viseu__motocicleta,Motocicleta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.36860084280772
+Viseu,dados_viseu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.77930814500993
+Viseu,dados_viseu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.79269756110404
+Viseu,dados_viseu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Viseu,dados_viseu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Viseu,dados_viseu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.775400758920785
+Viseu,dados_viseu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.197186118489412
+Viseu,dados_viseu__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.36823208014366
+Viseu,dados_viseu__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.68511550692548
+Viseu,dados_viseu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.562912618158244
+Viseu,dados_viseu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.449183005064212
+Viseu,dados_viseu__populacao_amarela_2,População Amarela,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.101490169064665
+Viseu,dados_viseu__populacao_amarela_2,População Amarela,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.67785757286108
+Viseu,dados_viseu__populacao_branca_2,População Branca,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,260.4357640575519
+Viseu,dados_viseu__populacao_branca_2,População Branca,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,322.26858174866595
+Viseu,dados_viseu__populacao_indigena_2,População Indígena,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.1163918597113
+Viseu,dados_viseu__populacao_indigena_2,População Indígena,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,111.45643330147189
+Viseu,dados_viseu__populacao_parda_2,População Parda,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-655.046121403542
+Viseu,dados_viseu__populacao_parda_2,População Parda,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1522.6956730762583
+Viseu,dados_viseu__populacao_preta_2,População Preta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,230.43576405755192
+Viseu,dados_viseu__populacao_preta_2,População Preta,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,292.26858174866595
+Viseu,dados_viseu__populacao_residente_em_favelas,População Residente em Favelas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.562912618158244
+Viseu,dados_viseu__populacao_residente_em_favelas,População Residente em Favelas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.449183005064212
+Viseu,dados_viseu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5362384270503462
+Viseu,dados_viseu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9484572116577727
+Viseu,dados_viseu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,99.42695824773179
+Viseu,dados_viseu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.61486252777456
+Viseu,dados_viseu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.519435386706126
+Viseu,dados_viseu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.885201884721099
+Viseu,dados_viseu__ruas_sem_arvores,Ruas Sem Árvores,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.08965407250497
+Viseu,dados_viseu__ruas_sem_arvores,Ruas Sem Árvores,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.096348780552027
+Viseu,dados_viseu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.32465567438845
+Viseu,dados_viseu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.45825733205888
+Viseu,dados_viseu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.7391623318704355
+Viseu,dados_viseu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.901490169064662
+Viseu,dados_viseu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.74872890683164
+Viseu,dados_viseu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.47785757286108
+Viseu,dados_viseu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.24070893424434
+Viseu,dados_viseu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.34506657481987
+Viseu,dados_viseu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.38202993024102
+Viseu,dados_viseu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.10471574772768
+Viseu,dados_viseu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Viseu,dados_viseu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Viseu,dados_viseu__sem_conjuge,Sem cônjuge,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.14208623669053
+Viseu,dados_viseu__sem_conjuge,Sem cônjuge,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.749000602005516
+Viseu,dados_viseu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.4290697482732
+Viseu,dados_viseu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.73638660009382
+Viseu,dados_viseu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,985.946036568337
+Viseu,dados_viseu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1238.430042140386
+Viseu,dados_viseu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.16525174201432
+Viseu,dados_viseu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.329400361203305
+Viseu,dados_viseu__trabalha_em_outro_municipio_ex_braganca_capan,Trabalha em outro município (ex: Bragança / Capanema / Maranhão),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.197132528489146
+Viseu,dados_viseu__trabalha_em_outro_municipio_ex_braganca_capan,Trabalha em outro município (ex: Bragança / Capanema / Maranhão),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.155171755374425
+Viseu,dados_viseu__trabalha_no_proprio_municipio_de_residencia_v,Trabalha no próprio município de residência (Viseu),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.79122067069041
+Viseu,dados_viseu__trabalha_no_proprio_municipio_de_residencia_v,Trabalha no próprio município de residência (Viseu),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.34823880277169
+Viseu,dados_viseu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.58554977582725
+Viseu,dados_viseu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.264971875775522
+Viseu,dados_viseu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.107337978704845
+Viseu,dados_viseu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.87840096320882
+Viseu,dados_viseu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Viseu,dados_viseu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Viseu,dados_viseu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.426145843453114
+Viseu,dados_viseu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.136114904919957
+Viseu,dados_viseu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.93635129366881
+Viseu,dados_viseu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.45934411275434
+Viseu,dados_viseu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.405847809640184
+Viseu,dados_viseu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_viseu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.600543390347738
