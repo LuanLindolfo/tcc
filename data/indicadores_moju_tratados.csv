@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Moju,dados_moju__populacao_total,População Total,dados_moju,Grupo 1 — 4 censos,4,identity,sgd,True,1.7018942676244304,1991,52.88,Valor
+Moju,dados_moju__populacao_total,População Total,dados_moju,Grupo 1 — 4 censos,4,identity,sgd,True,1.7018942676244304,2000,60.119,Valor
+Moju,dados_moju__populacao_total,População Total,dados_moju,Grupo 1 — 4 censos,4,identity,sgd,True,1.7018942676244304,2010,70.018,Valor
+Moju,dados_moju__populacao_total,População Total,dados_moju,Grupo 1 — 4 censos,4,identity,sgd,True,1.7018942676244304,2022,83.182,Valor
+Moju,dados_moju__populacao_urbana,População Urbana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5181394693749036,2000,32.41,Valor
+Moju,dados_moju__populacao_urbana,População Urbana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5181394693749036,2010,41.28,Valor
+Moju,dados_moju__populacao_urbana,População Urbana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5181394693749036,2022,51.24,Valor
+Moju,dados_moju__populacao_rural,População Rural,dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.180172576558416,2000,27.709,Valor
+Moju,dados_moju__populacao_rural,População Rural,dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.180172576558416,2010,28.738,Valor
+Moju,dados_moju__populacao_rural,População Rural,dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.180172576558416,2022,31.942,Valor
+Moju,dados_moju__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.42,Valor
+Moju,dados_moju__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.82,Valor
+Moju,dados_moju__populacao_de_mulheres,População de Mulheres,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.42074581388499394,2000,29.41,Valor
+Moju,dados_moju__populacao_de_mulheres,População de Mulheres,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.42074581388499394,2010,34.52,Valor
+Moju,dados_moju__populacao_de_mulheres,População de Mulheres,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.42074581388499394,2022,41.21,Valor
+Moju,dados_moju__populacao_de_homens,População de Homens,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.5542455412904795,2000,30.709,Valor
+Moju,dados_moju__populacao_de_homens,População de Homens,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.5542455412904795,2010,35.498,Valor
+Moju,dados_moju__populacao_de_homens,População de Homens,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.5542455412904795,2022,41.972,Valor
+Moju,dados_moju__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.4449648068142598,2000,104.4,Valor
+Moju,dados_moju__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.4449648068142598,2010,102.8,Valor
+Moju,dados_moju__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.4449648068142598,2022,101.8,Valor
+Moju,dados_moju__idade_mediana,Idade Mediana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340239,2000,19.0,Valor
+Moju,dados_moju__idade_mediana,Idade Mediana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340239,2010,23.0,Valor
+Moju,dados_moju__idade_mediana,Idade Mediana,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340239,2022,27.0,Valor
+Moju,dados_moju__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.8366665113319245,2000,8.1,Valor
+Moju,dados_moju__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.8366665113319245,2010,13.4,Valor
+Moju,dados_moju__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_moju,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.8366665113319245,2022,26.8,Valor
+Moju,dados_moju__populacao_parda,População Parda,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,1.0210765066538083,2000,44.82,Valor
+Moju,dados_moju__populacao_parda,População Parda,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,1.0210765066538083,2010,54.21,Valor
+Moju,dados_moju__populacao_parda,População Parda,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,1.0210765066538083,2022,66.82,Valor
+Moju,dados_moju__populacao_branca,População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07473723191167399,2000,10.82,Valor
+Moju,dados_moju__populacao_branca,População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07473723191167399,2010,10.41,Valor
+Moju,dados_moju__populacao_branca,População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07473723191167399,2022,9.82,Valor
+Moju,dados_moju__populacao_preta,População Preta,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2000,4.12,Valor
+Moju,dados_moju__populacao_preta,População Preta,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2010,5.12,Valor
+Moju,dados_moju__populacao_preta,População Preta,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2022,6.12,Valor
+Moju,dados_moju__populacao_amarela,População Amarela,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,10.9305957364054,2000,180.0,Valor
+Moju,dados_moju__populacao_amarela,População Amarela,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,10.9305957364054,2010,140.0,Valor
+Moju,dados_moju__populacao_amarela,População Amarela,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,10.9305957364054,2022,110.0,Valor
+Moju,dados_moju__populacao_indigena,População Indígena,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2000,179.0,Valor
+Moju,dados_moju__populacao_indigena,População Indígena,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2010,138.0,Valor
+Moju,dados_moju__populacao_indigena,População Indígena,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2022,312.0,Valor
+Moju,dados_moju__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,119.86705484323336,2000,198.4,Valor
+Moju,dados_moju__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,119.86705484323336,2010,392.1,Valor
+Moju,dados_moju__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,119.86705484323336,2022,782.0,Valor
+Moju,dados_moju__apenas_1_trabalho,Apenas 1 trabalho,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546910638559154,2000,95.8,Valor
+Moju,dados_moju__apenas_1_trabalho,Apenas 1 trabalho,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546910638559154,2010,96.2,Valor
+Moju,dados_moju__apenas_1_trabalho,Apenas 1 trabalho,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546910638559154,2022,94.1,Valor
+Moju,dados_moju__2_trabalhos,2 trabalhos,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,1.0136817516744343,2000,3.7,Valor
+Moju,dados_moju__2_trabalhos,2 trabalhos,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,1.0136817516744343,2010,3.4,Valor
+Moju,dados_moju__2_trabalhos,2 trabalhos,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,1.0136817516744343,2022,5.1,Valor
+Moju,dados_moju__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2000,0.5,Valor
+Moju,dados_moju__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2010,0.4,Valor
+Moju,dados_moju__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2022,0.8,Valor
+Moju,dados_moju__setor_privado,Setor privado,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.14919156300400913,2000,6.82,Valor
+Moju,dados_moju__setor_privado,Setor privado,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.14919156300400913,2010,12.41,Valor
+Moju,dados_moju__setor_privado,Setor privado,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.14919156300400913,2022,18.92,Valor
+Moju,dados_moju__conta_propria,Conta própria,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.2627681454718254,2000,7.41,Valor
+Moju,dados_moju__conta_propria,Conta própria,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.2627681454718254,2010,11.82,Valor
+Moju,dados_moju__conta_propria,Conta própria,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.2627681454718254,2022,15.41,Valor
+Moju,dados_moju__setor_publico,Setor público,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026792860832958176,2000,2.84,Valor
+Moju,dados_moju__setor_publico,Setor público,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026792860832958176,2010,5.12,Valor
+Moju,dados_moju__setor_publico,Setor público,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026792860832958176,2022,7.82,Valor
+Moju,dados_moju__trabalhador_domestico,Trabalhador doméstico,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.2017280591023279,2000,1.42,Valor
+Moju,dados_moju__trabalhador_domestico,Trabalhador doméstico,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.2017280591023279,2010,2.12,Valor
+Moju,dados_moju__trabalhador_domestico,Trabalhador doméstico,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.2017280591023279,2022,2.64,Valor
+Moju,dados_moju__empregador,Empregador,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,352.41943828266994,2000,310.0,Valor
+Moju,dados_moju__empregador,Empregador,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,352.41943828266994,2010,680.0,Valor
+Moju,dados_moju__empregador,Empregador,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,352.41943828266994,2022,1.12,Valor
+Moju,dados_moju__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,483.3910035264121,2000,3.12,Valor
+Moju,dados_moju__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,483.3910035264121,2010,1.84,Valor
+Moju,dados_moju__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,483.3910035264121,2022,980.0,Valor
+Moju,dados_moju__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,12.101119084673465,2000,340.0,Valor
+Moju,dados_moju__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,12.101119084673465,2010,620.0,Valor
+Moju,dados_moju__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,12.101119084673465,2022,940.0,Valor
+Moju,dados_moju__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.26984261387156333,2000,2.84,Valor
+Moju,dados_moju__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.26984261387156333,2010,6.82,Valor
+Moju,dados_moju__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.26984261387156333,2022,11.24,Valor
+Moju,dados_moju__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.11861987261720985,2000,3.98,Valor
+Moju,dados_moju__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.11861987261720985,2010,5.59,Valor
+Moju,dados_moju__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.11861987261720985,2022,7.68,Valor
+Moju,dados_moju__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538526,2000,140.0,Valor
+Moju,dados_moju__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538526,2010,320.0,Valor
+Moju,dados_moju__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538526,2022,580.0,Valor
+Moju,dados_moju__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.06032119543834217,2000,2.7,Valor
+Moju,dados_moju__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.06032119543834217,2010,4.8,Valor
+Moju,dados_moju__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.06032119543834217,2022,7.24,Valor
+Moju,dados_moju__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218761,2000,110.0,Valor
+Moju,dados_moju__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218761,2010,290.0,Valor
+Moju,dados_moju__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218761,2022,410.0,Valor
+Moju,dados_moju__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.14950053991014026,2000,1.31,Valor
+Moju,dados_moju__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.14950053991014026,2010,1.83,Valor
+Moju,dados_moju__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.14950053991014026,2022,2.23,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_moju,Grupo 1 — 4 censos,4,relu,adam,True,2.1243098024616494,1991,66.8,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_moju,Grupo 1 — 4 censos,4,relu,adam,True,2.1243098024616494,2000,76.2,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_moju,Grupo 1 — 4 censos,4,relu,adam,True,2.1243098024616494,2010,84.1,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_moju,Grupo 1 — 4 censos,4,relu,adam,True,2.1243098024616494,2022,90.8,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.502762048979913,2000,88.2,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.502762048979913,2010,93.4,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,1.502762048979913,2022,97.1,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.2811546458921192,2000,31.2,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.2811546458921192,2010,41.8,Valor
+Moju,dados_moju__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.2811546458921192,2022,56.2,Valor
+Moju,dados_moju__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2000,83.4,Valor
+Moju,dados_moju__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2010,91.2,Valor
+Moju,dados_moju__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2022,94.8,Valor
+Moju,dados_moju__populacao_com_superior_completo,População com Superior Completo,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,265.30333474753314,2000,480.0,Valor
+Moju,dados_moju__populacao_com_superior_completo,População com Superior Completo,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,265.30333474753314,2010,2.12,Valor
+Moju,dados_moju__populacao_com_superior_completo,População com Superior Completo,dados_moju,Grupo 2 — 3 censos,3,tanh,adam,True,265.30333474753314,2022,5.84,Valor
+Moju,dados_moju__anos_de_estudo_media,Anos de Estudo (Média),dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.04476895466000852,1991,3.1,Valor
+Moju,dados_moju__anos_de_estudo_media,Anos de Estudo (Média),dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.04476895466000852,2000,4.5,Valor
+Moju,dados_moju__anos_de_estudo_media,Anos de Estudo (Média),dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.04476895466000852,2010,6.2,Valor
+Moju,dados_moju__anos_de_estudo_media,Anos de Estudo (Média),dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.04476895466000852,2022,8.1,Valor
+Moju,dados_moju__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.0838098768580835,1991,3.4,Valor
+Moju,dados_moju__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.0838098768580835,2000,4.8,Valor
+Moju,dados_moju__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.0838098768580835,2010,6.6,Valor
+Moju,dados_moju__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_moju,Grupo 1 — 4 censos,4,identity,adam,True,0.0838098768580835,2022,8.5,Valor
+Moju,dados_moju__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016192168983447996,1991,2.8,Valor
+Moju,dados_moju__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016192168983447996,2000,4.2,Valor
+Moju,dados_moju__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016192168983447996,2010,5.8,Valor
+Moju,dados_moju__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016192168983447996,2022,7.7,Valor
+Moju,dados_moju__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026028426728471905,1991,0.268,Valor
+Moju,dados_moju__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026028426728471905,2000,0.421,Valor
+Moju,dados_moju__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.026028426728471905,2010,0.558,Valor
+Moju,dados_moju__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2000,83.4,Valor
+Moju,dados_moju__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2010,91.2,Valor
+Moju,dados_moju__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.681775174810994,2022,94.8,Valor
+Moju,dados_moju__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.954388320971622,2000,61.2,Valor
+Moju,dados_moju__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.954388320971622,2010,71.4,Valor
+Moju,dados_moju__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,2.954388320971622,2022,78.4,Valor
+Moju,dados_moju__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_moju,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.3296064719163376,2000,19.8,Valor
+Moju,dados_moju__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_moju,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.3296064719163376,2010,24.8,Valor
+Moju,dados_moju__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_moju,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.3296064719163376,2022,25.6,Valor
+Moju,dados_moju__media_populacao_amarela,Média: População Amarela,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505531,2000,5.4,Valor
+Moju,dados_moju__media_populacao_amarela,Média: População Amarela,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505531,2010,7.4,Valor
+Moju,dados_moju__media_populacao_amarela,Média: População Amarela,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505531,2022,9.2,Valor
+Moju,dados_moju__media_populacao_branca,Média: População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923218,2000,5.1,Valor
+Moju,dados_moju__media_populacao_branca,Média: População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923218,2010,7.1,Valor
+Moju,dados_moju__media_populacao_branca,Média: População Branca,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923218,2022,8.8,Valor
+Moju,dados_moju__media_populacao_preta_parda,Média: População Preta / Parda,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341885,2000,4.3,Valor
+Moju,dados_moju__media_populacao_preta_parda,Média: População Preta / Parda,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341885,2010,6.0,Valor
+Moju,dados_moju__media_populacao_preta_parda,Média: População Preta / Parda,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341885,2022,7.9,Valor
+Moju,dados_moju__media_populacao_indigena,Média: População Indígena,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2590586375370639,2000,3.6,Valor
+Moju,dados_moju__media_populacao_indigena,Média: População Indígena,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2590586375370639,2010,4.9,Valor
+Moju,dados_moju__media_populacao_indigena,Média: População Indígena,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2590586375370639,2022,6.8,Valor
+Moju,dados_moju__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Moju,dados_moju__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Moju,dados_moju__populacao_residente_em_favelas,População Residente em Favelas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.42,Valor
+Moju,dados_moju__populacao_residente_em_favelas,População Residente em Favelas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.82,Valor
+Moju,dados_moju__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.98,Valor
+Moju,dados_moju__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.42,Valor
+Moju,dados_moju__idade_mediana_2,Idade Mediana,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Moju,dados_moju__idade_mediana_2,Idade Mediana,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+Moju,dados_moju__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Moju,dados_moju__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Moju,dados_moju__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.8,Valor
+Moju,dados_moju__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,98.8,Valor
+Moju,dados_moju__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Moju,dados_moju__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Moju,dados_moju__populacao_parda_2,População Parda,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.82,Valor
+Moju,dados_moju__populacao_parda_2,População Parda,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.82,Valor
+Moju,dados_moju__populacao_branca_2,População Branca,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,890.0,Valor
+Moju,dados_moju__populacao_branca_2,População Branca,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.64,Valor
+Moju,dados_moju__populacao_preta_2,População Preta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,670.0,Valor
+Moju,dados_moju__populacao_preta_2,População Preta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.24,Valor
+Moju,dados_moju__populacao_amarela_2,População Amarela,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Moju,dados_moju__populacao_amarela_2,População Amarela,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.0,Valor
+Moju,dados_moju__populacao_indigena_2,População Indígena,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Moju,dados_moju__populacao_indigena_2,População Indígena,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,90.0,Valor
+Moju,dados_moju__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,56.2,Valor
+Moju,dados_moju__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Moju,dados_moju__com_coleta_de_lixo,Com Coleta de Lixo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.4,Valor
+Moju,dados_moju__com_coleta_de_lixo,Com Coleta de Lixo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Moju,dados_moju__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Moju,dados_moju__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Moju,dados_moju__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Moju,dados_moju__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.2,Valor
+Moju,dados_moju__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Moju,dados_moju__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Moju,dados_moju__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.4,Valor
+Moju,dados_moju__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Moju,dados_moju__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Moju,dados_moju__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Moju,dados_moju__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.1,Valor
+Moju,dados_moju__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Moju,dados_moju__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Moju,dados_moju__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.1,Valor
+Moju,dados_moju__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Moju,dados_moju__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.4,Valor
+Moju,dados_moju__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Moju,dados_moju__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.6,Valor
+Moju,dados_moju__casais_com_filhos,Casais com filhos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0895784165637985,2000,63.8,Valor
+Moju,dados_moju__casais_com_filhos,Casais com filhos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0895784165637985,2010,54.1,Valor
+Moju,dados_moju__casais_com_filhos,Casais com filhos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0895784165637985,2022,45.2,Valor
+Moju,dados_moju__casais_sem_filhos,Casais sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2000,7.8,Valor
+Moju,dados_moju__casais_sem_filhos,Casais sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2010,10.2,Valor
+Moju,dados_moju__casais_sem_filhos,Casais sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2022,14.8,Valor
+Moju,dados_moju__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2000,16.8,Valor
+Moju,dados_moju__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2010,19.8,Valor
+Moju,dados_moju__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2022,23.2,Valor
+Moju,dados_moju__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2000,3.0,Valor
+Moju,dados_moju__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2010,3.3,Valor
+Moju,dados_moju__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_moju,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2022,3.7,Valor
+Moju,dados_moju__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4688499065375442,2000,7.2,Valor
+Moju,dados_moju__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4688499065375442,2010,8.1,Valor
+Moju,dados_moju__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4688499065375442,2022,7.6,Valor
+Moju,dados_moju__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,adam,True,0.36901616463929593,2000,3.0,Valor
+Moju,dados_moju__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,adam,True,0.36901616463929593,2010,3.8,Valor
+Moju,dados_moju__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,logistic,adam,True,0.36901616463929593,2022,4.0,Valor
+Moju,dados_moju__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.3196959472354497,2000,0.8,Valor
+Moju,dados_moju__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.3196959472354497,2010,1.2,Valor
+Moju,dados_moju__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.3196959472354497,2022,2.1,Valor
+Moju,dados_moju__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.2,Valor
+Moju,dados_moju__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.1,Valor
+Moju,dados_moju__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.4,Valor
+Moju,dados_moju__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.1,Valor
+Moju,dados_moju__trabalha_em_outro_municipio,Trabalha em outro município,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.8,Valor
+Moju,dados_moju__trabalha_em_outro_municipio,Trabalha em outro município,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Moju,dados_moju__motocicleta,Motocicleta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Moju,dados_moju__motocicleta,Motocicleta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.2,Valor
+Moju,dados_moju__bicicleta,Bicicleta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.1,Valor
+Moju,dados_moju__bicicleta,Bicicleta,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.4,Valor
+Moju,dados_moju__automovel_carro,Automóvel (Carro),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Moju,dados_moju__automovel_carro,Automóvel (Carro),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Moju,dados_moju__barco_transporte_fluvial,Barco / Transporte Fluvial,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Moju,dados_moju__barco_transporte_fluvial,Barco / Transporte Fluvial,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Moju,dados_moju__a_pe,A pé,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.9,Valor
+Moju,dados_moju__a_pe,A pé,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Moju,dados_moju__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Moju,dados_moju__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.4,Valor
+Moju,dados_moju__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Moju,dados_moju__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.8,Valor
+Moju,dados_moju__mais_de_1_hora,Mais de 1 hora,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Moju,dados_moju__mais_de_1_hora,Mais de 1 hora,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Moju,dados_moju__estuda_no_proprio_municipio_moju,Estuda no próprio município (Moju),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.1,Valor
+Moju,dados_moju__estuda_no_proprio_municipio_moju,Estuda no próprio município (Moju),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.4,Valor
+Moju,dados_moju__estuda_em_outro_municipio,Estuda em outro município,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.9,Valor
+Moju,dados_moju__estuda_em_outro_municipio,Estuda em outro município,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.6,Valor
+Moju,dados_moju__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.7980509772734097,1991,10.82,Valor
+Moju,dados_moju__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.7980509772734097,2000,13.82,Valor
+Moju,dados_moju__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.7980509772734097,2010,18.42,Valor
+Moju,dados_moju__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.7980509772734097,2022,26.81,Valor
+Moju,dados_moju__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.799998005320243,1991,10.68,Valor
+Moju,dados_moju__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.799998005320243,2000,13.65,Valor
+Moju,dados_moju__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.799998005320243,2010,18.21,Valor
+Moju,dados_moju__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_moju,Grupo 1 — 4 censos,4,relu,lbfgs,True,1.799998005320243,2022,26.58,Valor
+Moju,dados_moju__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_moju,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.0162161524930795,1991,140.0,Valor
+Moju,dados_moju__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_moju,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.0162161524930795,2000,170.0,Valor
+Moju,dados_moju__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_moju,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.0162161524930795,2010,210.0,Valor
+Moju,dados_moju__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_moju,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.0162161524930795,2022,230.0,Valor
+Moju,dados_moju__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447616,1991,4.9,Valor
+Moju,dados_moju__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447616,2000,4.4,Valor
+Moju,dados_moju__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447616,2010,3.8,Valor
+Moju,dados_moju__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_moju,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.016135004127447616,2022,3.1,Valor
+Moju,dados_moju__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Moju,dados_moju__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Moju,dados_moju__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Moju,dados_moju__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Moju,dados_moju__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Moju,dados_moju__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Moju,dados_moju__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Moju,dados_moju__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Moju,dados_moju__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Moju,dados_moju__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Moju,dados_moju__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.2,Valor
+Moju,dados_moju__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.8,Valor
+Moju,dados_moju__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,56.2,Valor
+Moju,dados_moju__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.8,Valor
+Moju,dados_moju__ruas_sem_arvores,Ruas Sem Árvores,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,43.8,Valor
+Moju,dados_moju__ruas_sem_arvores,Ruas Sem Árvores,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.2,Valor
+Moju,dados_moju__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Moju,dados_moju__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.1,Valor
+Moju,dados_moju__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Moju,dados_moju__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Moju,dados_moju__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Moju,dados_moju__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Moju,dados_moju__populacao_indigena_total,População Indígena Total,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2000,179.0,Valor
+Moju,dados_moju__populacao_indigena_total,População Indígena Total,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2010,138.0,Valor
+Moju,dados_moju__populacao_indigena_total,População Indígena Total,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,103.37845780732887,2022,312.0,Valor
+Moju,dados_moju__proporcao_na_populacao_de_moju,Proporção na população de Moju,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09301029209254259,2000,0.3,Valor
+Moju,dados_moju__proporcao_na_populacao_de_moju,Proporção na população de Moju,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09301029209254259,2010,0.2,Valor
+Moju,dados_moju__proporcao_na_populacao_de_moju,Proporção na população de Moju,dados_moju,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09301029209254259,2022,0.38,Valor
+Moju,dados_moju__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.1,Valor
+Moju,dados_moju__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.4,Valor
+Moju,dados_moju__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Moju,dados_moju__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Moju,dados_moju__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.1,Valor
+Moju,dados_moju__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Moju,dados_moju__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Moju,dados_moju__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Moju,dados_moju__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2000,16.9,Valor
+Moju,dados_moju__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2010,20.8,Valor
+Moju,dados_moju__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,1.0054548953365021,2022,26.8,Valor
+Moju,dados_moju__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.9218022534020964,2000,54.8,Valor
+Moju,dados_moju__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.9218022534020964,2010,46.2,Valor
+Moju,dados_moju__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.9218022534020964,2022,38.4,Valor
+Moju,dados_moju__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2000,9.1,Valor
+Moju,dados_moju__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2010,12.1,Valor
+Moju,dados_moju__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2022,15.4,Valor
+Moju,dados_moju__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.8,Valor
+Moju,dados_moju__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.8,Valor
+Moju,dados_moju__sem_conjuge,Sem cônjuge,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.7,Valor
+Moju,dados_moju__sem_conjuge,Sem cônjuge,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.5,Valor
+Moju,dados_moju__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Moju,dados_moju__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Moju,dados_moju__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Moju,dados_moju__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_moju,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Moju,dados_moju__responsavel_mulher,Responsável Mulher,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Moju,dados_moju__responsavel_mulher,Responsável Mulher,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Moju,dados_moju__responsavel_mulher,Responsável Mulher,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Moju,dados_moju__responsavel_homem,Responsável Homem,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1982812408848383,2000,4.8,Valor
+Moju,dados_moju__responsavel_homem,Responsável Homem,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1982812408848383,2010,4.0,Valor
+Moju,dados_moju__responsavel_homem,Responsável Homem,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1982812408848383,2022,3.3,Valor
+Moju,dados_moju__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2000,4.1,Valor
+Moju,dados_moju__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2010,3.5,Valor
+Moju,dados_moju__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_moju,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2022,2.9,Valor
+Moju,dados_moju__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2000,14.2,Valor
+Moju,dados_moju__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2010,18.2,Valor
+Moju,dados_moju__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2022,24.2,Valor
+Moju,dados_moju__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6989754899691422,2000,17.1,Valor
+Moju,dados_moju__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6989754899691422,2010,21.2,Valor
+Moju,dados_moju__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_moju,Grupo 2 — 3 censos,3,identity,adam,True,0.6989754899691422,2022,25.2,Valor
+Moju,dados_moju__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,4.524119627395433,2000,45.8,Valor
+Moju,dados_moju__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,4.524119627395433,2010,29.4,Valor
+Moju,dados_moju__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_moju,Grupo 2 — 3 censos,3,relu,adam,True,4.524119627395433,2022,18.2,Valor
