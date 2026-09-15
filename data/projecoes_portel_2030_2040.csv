@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Portel,dados_portel__anos_de_estudo_media,Anos de Estudo (Média),dados_portel,Grupo 1 — 4 censos,identity,lbfgs,True,0.1708184278092566,2030,8.110841283368558
+Portel,dados_portel__anos_de_estudo_media,Anos de Estudo (Média),dados_portel,Grupo 1 — 4 censos,identity,lbfgs,True,0.1708184278092566,2040,9.651459599792627
+Portel,dados_portel__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_portel,Grupo 1 — 4 censos,tanh,adam,True,13.54244862314441,2030,245.86788100361494
+Portel,dados_portel__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_portel,Grupo 1 — 4 censos,tanh,adam,True,13.54244862314441,2040,247.79724496621745
+Portel,dados_portel__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_portel,Grupo 1 — 4 censos,identity,sgd,True,0.5435972300302709,2030,18.928453715212093
+Portel,dados_portel__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_portel,Grupo 1 — 4 censos,identity,sgd,True,0.5435972300302709,2040,22.484700366432264
+Portel,dados_portel__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_portel,Grupo 1 — 4 censos,identity,adam,True,0.1392686392178366,2030,7.61961675880894
+Portel,dados_portel__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_portel,Grupo 1 — 4 censos,identity,adam,True,0.1392686392178366,2040,9.088372878968038
+Portel,dados_portel__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_portel,Grupo 1 — 4 censos,identity,lbfgs,True,0.2344599015071035,2030,8.59628968717344
+Portel,dados_portel__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_portel,Grupo 1 — 4 censos,identity,lbfgs,True,0.2344599015071035,2040,10.203075574089311
+Portel,dados_portel__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_portel,Grupo 1 — 4 censos,identity,adam,True,0.0451920457632804,2030,3.313264530061856
+Portel,dados_portel__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_portel,Grupo 1 — 4 censos,identity,adam,True,0.0451920457632804,2040,2.7526350340837915
+Portel,dados_portel__populacao_total,População Total,dados_portel,Grupo 1 — 4 censos,identity,adam,True,2.1374975519175834,2030,70.96090646386095
+Portel,dados_portel__populacao_total,População Total,dados_portel,Grupo 1 — 4 censos,identity,adam,True,2.1374975519175834,2040,80.83586536772889
+Portel,dados_portel__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_portel,Grupo 1 — 4 censos,logistic,lbfgs,True,2.269263885741676,2030,87.90686487275191
+Portel,dados_portel__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_portel,Grupo 1 — 4 censos,logistic,lbfgs,True,2.269263885741676,2040,89.78123705934061
+Portel,dados_portel__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_portel,Grupo 1 — 4 censos,identity,sgd,True,0.5538644856999975,2030,19.201197166130946
+Portel,dados_portel__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_portel,Grupo 1 — 4 censos,identity,sgd,True,0.5538644856999975,2040,22.795240694492087
+Portel,dados_portel__2_trabalhos,2 trabalhos,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,1.7134179040090591,2030,7.7958627885723075
+Portel,dados_portel__2_trabalhos,2 trabalhos,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,1.7134179040090591,2040,7.936715939439113
+Portel,dados_portel__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.8532083159839907
+Portel,dados_portel__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.8742845123278303
+Portel,dados_portel__apenas_1_trabalho,Apenas 1 trabalho,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,2.1131624176234802,2030,93.93525018805562
+Portel,dados_portel__apenas_1_trabalho,Apenas 1 trabalho,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,2.1131624176234802,2040,93.92681546281396
+Portel,dados_portel__casais_com_filhos,Casais com filhos,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2030,39.78879164288472
+Portel,dados_portel__casais_com_filhos,Casais com filhos,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2040,31.16243186473791
+Portel,dados_portel__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.3352575108126394,2030,8.069004527415862
+Portel,dados_portel__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.3352575108126394,2040,8.068014313817578
+Portel,dados_portel__casais_sem_filhos,Casais sem filhos,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279127,2030,15.375584224910574
+Portel,dados_portel__casais_sem_filhos,Casais sem filhos,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279127,2040,18.28798453324923
+Portel,dados_portel__conta_propria,Conta própria,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.8510297641776665,2030,19.22226878280198
+Portel,dados_portel__conta_propria,Conta própria,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.8510297641776665,2040,23.28374246094909
+Portel,dados_portel__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,24.047045767201872
+Portel,dados_portel__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,28.14050854135681
+Portel,dados_portel__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2030,26.292778098789643
+Portel,dados_portel__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2040,30.091034619695833
+Portel,dados_portel__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_portel,Grupo 2 — 3 censos,relu,adam,True,4.327261537577685,2030,21.264151111216723
+Portel,dados_portel__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_portel,Grupo 2 — 3 censos,relu,adam,True,4.327261537577685,2040,13.685149825399282
+Portel,dados_portel__empregador,Empregador,dados_portel,Grupo 2 — 3 censos,identity,adam,True,127.89155032168156,2030,1046.8950790873123
+Portel,dados_portel__empregador,Empregador,dados_portel,Grupo 2 — 3 censos,identity,adam,True,127.89155032168156,2040,1334.4054702903154
+Portel,dados_portel__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_portel,Grupo 2 — 3 censos,logistic,adam,True,5.03433663105767,2030,95.01302110855411
+Portel,dados_portel__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_portel,Grupo 2 — 3 censos,logistic,adam,True,5.03433663105767,2040,95.93408407480922
+Portel,dados_portel__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_portel,Grupo 2 — 3 censos,relu,adam,True,3.6151327663029442,2030,75.55930468894131
+Portel,dados_portel__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_portel,Grupo 2 — 3 censos,relu,adam,True,3.6151327663029442,2040,79.44362692094333
+Portel,dados_portel__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_portel,Grupo 2 — 3 censos,logistic,lbfgs,True,2.2829511668294367,2030,22.12557646784239
+Portel,dados_portel__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_portel,Grupo 2 — 3 censos,logistic,lbfgs,True,2.2829511668294367,2040,22.288063014157153
+Portel,dados_portel__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.010895168559678906,2030,0.7639390003480284
+Portel,dados_portel__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.010895168559678906,2040,0.9129477801340997
+Portel,dados_portel__idade_mediana,Idade Mediana,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.4570848225506919,2030,24.73439684469004
+Portel,dados_portel__idade_mediana,Idade Mediana,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.4570848225506919,2040,27.005948232298177
+Portel,dados_portel__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_portel,Grupo 2 — 3 censos,identity,adam,True,73.08088589810376,2030,598.2257594784642
+Portel,dados_portel__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_portel,Grupo 2 — 3 censos,identity,adam,True,73.08088589810376,2040,762.517411594466
+Portel,dados_portel__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2030,24.79984836920457
+Portel,dados_portel__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2040,27.799889491110577
+Portel,dados_portel__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.43131782179843325,2030,4.336576091755371
+Portel,dados_portel__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.43131782179843325,2040,4.33555544739277
+Portel,dados_portel__media_populacao_amarela,Média: População Amarela,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.3191690901353799,2030,9.076288493408843
+Portel,dados_portel__media_populacao_amarela,Média: População Amarela,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.3191690901353799,2040,10.474852930360576
+Portel,dados_portel__media_populacao_branca,Média: População Branca,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.547843080415976,2030,7.839245960054647
+Portel,dados_portel__media_populacao_branca,Média: População Branca,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.547843080415976,2040,8.621383640299145
+Portel,dados_portel__media_populacao_indigena,Média: População Indígena,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.0453133394300167,2030,6.621561704371662
+Portel,dados_portel__media_populacao_indigena,Média: População Indígena,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.0453133394300167,2040,7.888537360748215
+Portel,dados_portel__media_populacao_preta_parda,Média: População Preta / Parda,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.425646596363851,2030,7.902900110137342
+Portel,dados_portel__media_populacao_preta_parda,Média: População Preta / Parda,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.425646596363851,2040,9.435700433100987
+Portel,dados_portel__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.2516658165873395,2030,0.4019902504544395
+Portel,dados_portel__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.2516658165873395,2040,-0.5521342354119807
+Portel,dados_portel__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2030,4.499914609435301
+Portel,dados_portel__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2040,4.861158865054051
+Portel,dados_portel__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608427,2030,2.224704576720187
+Portel,dados_portel__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608427,2040,2.6340508541356815
+Portel,dados_portel__populacao_amarela,População Amarela,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2030,93.40988180054752
+Portel,dados_portel__populacao_amarela,População Amarela,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2040,93.34916867409625
+Portel,dados_portel__populacao_branca,População Branca,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.27133424383934734,2030,5.688202731199115
+Portel,dados_portel__populacao_branca,População Branca,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.27133424383934734,2040,5.687391560981304
+Portel,dados_portel__populacao_indigena,População Indígena,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,496.36224444000464,2030,-4.992466245945479
+Portel,dados_portel__populacao_indigena,População Indígena,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,496.36224444000464,2040,21.181198377341275
+Portel,dados_portel__populacao_indigena_total,População Indígena Total,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,496.36224444000464,2030,-4.992466245945479
+Portel,dados_portel__populacao_indigena_total,População Indígena Total,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,496.36224444000464,2040,21.181198377341275
+Portel,dados_portel__populacao_parda,População Parda,dados_portel,Grupo 2 — 3 censos,identity,adam,True,2.858251555150195,2030,60.13411943950274
+Portel,dados_portel__populacao_parda,População Parda,dados_portel,Grupo 2 — 3 censos,identity,adam,True,2.858251555150195,2040,69.14548813067057
+Portel,dados_portel__populacao_preta,População Preta,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.3994155083692254,2030,2.5419919690284556
+Portel,dados_portel__populacao_preta,População Preta,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.3994155083692254,2040,2.540612736226638
+Portel,dados_portel__populacao_rural,População Rural,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1772337925691024,2030,32.03816542077631
+Portel,dados_portel__populacao_rural,População Rural,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1772337925691024,2040,34.84974256084043
+Portel,dados_portel__populacao_urbana,População Urbana,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.7405801968662853,2030,37.76921859409925
+Portel,dados_portel__populacao_urbana,População Urbana,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.7405801968662853,2040,44.07639839735998
+Portel,dados_portel__populacao_com_superior_completo,População com Superior Completo,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,597.1266871620477,2030,390.67560219937764
+Portel,dados_portel__populacao_com_superior_completo,População com Superior Completo,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,597.1266871620477,2040,388.6981689981718
+Portel,dados_portel__populacao_de_homens,População de Homens,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.53868800552828,2030,35.488917825152775
+Portel,dados_portel__populacao_de_homens,População de Homens,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.53868800552828,2040,39.953087786164296
+Portel,dados_portel__populacao_de_mulheres,População de Mulheres,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.0243400253493793,2030,34.30859238831699
+Portel,dados_portel__populacao_de_mulheres,População de Mulheres,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.0243400253493793,2040,38.951445241526564
+Portel,dados_portel__proporcao_na_populacao_de_portel,Proporção na população de Portel,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.24196755753737045,2030,2.2211788129640193
+Portel,dados_portel__proporcao_na_populacao_de_portel,Proporção na população de Portel,dados_portel,Grupo 2 — 3 censos,logistic,sgd,True,0.24196755753737045,2040,2.220370137458467
+Portel,dados_portel__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_portel,Grupo 2 — 3 censos,tanh,adam,True,1.638840396471598,2030,104.24975188779487
+Portel,dados_portel__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_portel,Grupo 2 — 3 censos,tanh,adam,True,1.638840396471598,2040,104.25921884100846
+Portel,dados_portel__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_portel,Grupo 2 — 3 censos,identity,adam,True,102.64483560369861,2030,775.9074245693106
+Portel,dados_portel__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_portel,Grupo 2 — 3 censos,identity,adam,True,102.64483560369861,2040,993.9766017831447
+Portel,dados_portel__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,1.250694392908791,2030,34.827214311501784
+Portel,dados_portel__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,1.250694392908791,2040,26.39314992194207
+Portel,dados_portel__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.45576767980051763,2030,16.04935957076476
+Portel,dados_portel__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.45576767980051763,2040,18.758691487905374
+Portel,dados_portel__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2030,26.716508879552197
+Portel,dados_portel__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2040,30.63081215662124
+Portel,dados_portel__responsavel_homem,Responsável Homem,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830288624155938,2030,3.3966723060808346
+Portel,dados_portel__responsavel_homem,Responsável Homem,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830288624155938,2040,2.8087566606929206
+Portel,dados_portel__responsavel_mulher,Responsável Mulher,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559126,2030,3.197604932514091
+Portel,dados_portel__responsavel_mulher,Responsável Mulher,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559126,2040,2.9241036781025067
+Portel,dados_portel__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547177,2030,2.748333956807973
+Portel,dados_portel__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_portel,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547177,2040,2.2043777255795574
+Portel,dados_portel__setor_privado,Setor privado,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.15113227428340137,2030,15.55965889246134
+Portel,dados_portel__setor_privado,Setor privado,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.15113227428340137,2040,19.45089171465986
+Portel,dados_portel__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.5971433490945561,2030,8.741128356575802
+Portel,dados_portel__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.5971433490945561,2040,11.27772882003105
+Portel,dados_portel__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.5284229896044973,2030,6.103776049321251
+Portel,dados_portel__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_portel,Grupo 2 — 3 censos,relu,adam,True,0.5284229896044973,2040,6.722510648105196
+Portel,dados_portel__setor_publico,Setor público,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.21039073264833622,2030,6.016102523545538
+Portel,dados_portel__setor_publico,Setor público,dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.21039073264833622,2040,7.5590021336008615
+Portel,dados_portel__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2030,488.7792112455287
+Portel,dados_portel__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2040,634.3992266624617
+Portel,dados_portel__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.16774704444694044,2030,5.527335163721652
+Portel,dados_portel__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_portel,Grupo 2 — 3 censos,identity,adam,True,0.16774704444694044,2040,6.9246275418976335
+Portel,dados_portel__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.615647706295859,2030,53.18681391903036
+Portel,dados_portel__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_portel,Grupo 2 — 3 censos,identity,adam,True,1.615647706295859,2040,63.53686643065718
+Portel,dados_portel__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_portel,Grupo 2 — 3 censos,relu,adam,True,3.3452181201126763,2030,96.41403377300395
+Portel,dados_portel__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_portel,Grupo 2 — 3 censos,relu,adam,True,3.3452181201126763,2040,98.25374717532836
+Portel,dados_portel__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_portel,Grupo 2 — 3 censos,logistic,adam,True,5.03433663105767,2030,95.01302110855411
+Portel,dados_portel__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_portel,Grupo 2 — 3 censos,logistic,adam,True,5.03433663105767,2040,95.93408407480922
+Portel,dados_portel__trabalhador_domestico,Trabalhador doméstico,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,462.3441670533311,2030,-3.9250285510943854
+Portel,dados_portel__trabalhador_domestico,Trabalhador doméstico,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,462.3441670533311,2040,20.45239938866206
+Portel,dados_portel__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2030,447.5897707008036
+Portel,dados_portel__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_portel,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2040,581.1128365593339
+Portel,dados_portel__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,429.2946030831433,2030,-3.8769930554321945
+Portel,dados_portel__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_portel,Grupo 2 — 3 censos,tanh,adam,True,429.2946030831433,2040,18.758627238969126
+Portel,dados_portel__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_portel,Grupo 2 — 3 censos,relu,lbfgs,True,3.0038536058076297,2030,20.254533166535296
+Portel,dados_portel__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_portel,Grupo 2 — 3 censos,relu,lbfgs,True,3.0038536058076297,2040,24.92360597767719
+Portel,dados_portel__a_pe,A pé,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.653916495463577
+Portel,dados_portel__a_pe,A pé,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.029725055549138
+Portel,dados_portel__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.095755226042954
+Portel,dados_portel__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.58820108360992
+Portel,dados_portel__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.316612320236764
+Portel,dados_portel__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.51121130832661
+Portel,dados_portel__automovel_carro,Automóvel (Carro),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.744953708201384
+Portel,dados_portel__automovel_carro,Automóvel (Carro),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.393828846631092
+Portel,dados_portel__bicicleta,Bicicleta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.689654072504966
+Portel,dados_portel__bicicleta,Bicicleta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.696348780552023
+Portel,dados_portel__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.67258972071917
+Portel,dados_portel__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.60780132441214
+Portel,dados_portel__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.67258972071917
+Portel,dados_portel__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.60780132441214
+Portel,dados_portel__com_coleta_de_lixo,Com Coleta de Lixo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.36823208014364
+Portel,dados_portel__com_coleta_de_lixo,Com Coleta de Lixo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.68511550692547
+Portel,dados_portel__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.4313479123865894
+Portel,dados_portel__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.3407431263887284
+Portel,dados_portel__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.731658042288075
+Portel,dados_portel__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.57053259443353
+Portel,dados_portel__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.872476854100692
+Portel,dados_portel__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.696914423315546
+Portel,dados_portel__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6463874439568125
+Portel,dados_portel__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.3162429689438806
+Portel,dados_portel__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.32465567438845
+Portel,dados_portel__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.45825733205888
+Portel,dados_portel__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.35548309364901
+Portel,dados_portel__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.281615077768805
+Portel,dados_portel__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.42695824773179
+Portel,dados_portel__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.61486252777457
+Portel,dados_portel__estuda_em_outro_municipio,Estuda em outro município,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.872476854100692
+Portel,dados_portel__estuda_em_outro_municipio,Estuda em outro município,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.696914423315546
+Portel,dados_portel__estuda_no_proprio_municipio_portel,Estuda no próprio município (Portel),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.70156659818542
+Portel,dados_portel__estuda_no_proprio_municipio_portel,Estuda no próprio município (Portel),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.25189002221964
+Portel,dados_portel__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.60298033812933
+Portel,dados_portel__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.755715145722164
+Portel,dados_portel__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.85391649546358
+Portel,dados_portel__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.22972505554914
+Portel,dados_portel__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.08119213525174
+Portel,dados_portel__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.14228605828887
+Portel,dados_portel__idade_mediana_2,Idade Mediana,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.260894101438797
+Portel,dados_portel__idade_mediana_2,Idade Mediana,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.806714543716648
+Portel,dados_portel__mais_de_1_hora,Mais de 1 hora,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.240596067625866
+Portel,dados_portel__mais_de_1_hora,Mais de 1 hora,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.27114302914443
+Portel,dados_portel__motocicleta,Motocicleta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.414563090791223
+Portel,dados_portel__motocicleta,Motocicleta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.84591502532106
+Portel,dados_portel__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.76739561932948
+Portel,dados_portel__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.23715631943642
+Portel,dados_portel__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Portel,dados_portel__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Portel,dados_portel__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.649311348776905
+Portel,dados_portel__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.916514664117752
+Portel,dados_portel__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.84070893424435
+Portel,dados_portel__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.98202993024103
+Portel,dados_portel__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.924666961050299
+Portel,dados_portel__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.769346022168534
+Portel,dados_portel__populacao_amarela_2,População Amarela,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.20298033812933
+Portel,dados_portel__populacao_amarela_2,População Amarela,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.35571514572216
+Portel,dados_portel__populacao_branca_2,População Branca,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,589.2774887913625
+Portel,dados_portel__populacao_branca_2,População Branca,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,723.2485937887761
+Portel,dados_portel__populacao_indigena_2,População Indígena,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,157.82682304316393
+Portel,dados_portel__populacao_indigena_2,População Indígena,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,204.20143631149944
+Portel,dados_portel__populacao_parda_2,População Parda,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.680894101438798
+Portel,dados_portel__populacao_parda_2,População Parda,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.226714543716648
+Portel,dados_portel__populacao_preta_2,População Preta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,472.4655674388452
+Portel,dados_portel__populacao_preta_2,População Preta,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,585.8257332058876
+Portel,dados_portel__populacao_residente_em_favelas,População Residente em Favelas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.924666961050299
+Portel,dados_portel__populacao_residente_em_favelas,População Residente em Favelas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.769346022168534
+Portel,dados_portel__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3043576405755193
+Portel,dados_portel__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9226858174866592
+Portel,dados_portel__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,99.70156659818542
+Portel,dados_portel__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.25189002221964
+Portel,dados_portel__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.6194353867061255
+Portel,dados_portel__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9852018847210986
+Portel,dados_portel__ruas_sem_arvores,Ruas Sem Árvores,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.56426242295861
+Portel,dados_portel__ruas_sem_arvores,Ruas Sem Árvores,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.93337627499711
+Portel,dados_portel__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.95653646086328
+Portel,dados_portel__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.88402872622999
+Portel,dados_portel__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.73337095553949
+Portel,dados_portel__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.63772859611501
+Portel,dados_portel__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.103628967032193
+Portel,dados_portel__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.626314784518854
+Portel,dados_portel__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.92476854100693
+Portel,dados_portel__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.95664932748176
+Portel,dados_portel__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.16914423315546
+Portel,dados_portel__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.99491562732658
+Portel,dados_portel__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Portel,dados_portel__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Portel,dados_portel__sem_conjuge,Sem cônjuge,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.00005643330924
+Portel,dados_portel__sem_conjuge,Sem cônjuge,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.555443450548296
+Portel,dados_portel__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.40298033812932
+Portel,dados_portel__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.55571514572216
+Portel,dados_portel__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-436.54000565392215
+Portel,dados_portel__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1014.8884756354687
+Portel,dados_portel__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.049311348776904
+Portel,dados_portel__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.31651466411775
+Portel,dados_portel__trabalha_em_outro_municipio,Trabalha em outro município,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.208715281151038
+Portel,dados_portel__trabalha_em_outro_municipio,Trabalha em outro município,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.445371634973316
+Portel,dados_portel__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.15234989727814
+Portel,dados_portel__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.97783503332947
+Portel,dados_portel__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.069609382589839
+Portel,dados_portel__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.85208617868997
+Portel,dados_portel__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.095755226042954
+Portel,dados_portel__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.588201083609924
+Portel,dados_portel__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Portel,dados_portel__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Portel,dados_portel__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.846443877266047
+Portel,dados_portel__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.07168641949217
+Portel,dados_portel__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.84070893424435
+Portel,dados_portel__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.982029930241026
+Portel,dados_portel__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.005847809640183
+Portel,dados_portel__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_portel,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.20054339034774
