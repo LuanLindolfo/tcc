@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,4,tanh,lbfgs,True,6.236648893916945,1991,25.82,Valor
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,4,tanh,lbfgs,True,6.236648893916945,2000,42.923,Valor
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,4,tanh,lbfgs,True,6.236648893916945,2010,79.297,Valor
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,4,tanh,lbfgs,True,6.236648893916945,2022,101.81,Valor
+Tailândia,dados_tailandia__populacao_urbana,População Urbana,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.598090634809823,2000,28.42,Valor
+Tailândia,dados_tailandia__populacao_urbana,População Urbana,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.598090634809823,2010,58.41,Valor
+Tailândia,dados_tailandia__populacao_urbana,População Urbana,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.598090634809823,2022,82.41,Valor
+Tailândia,dados_tailandia__populacao_rural,População Rural,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7459942696365105,2000,14.503,Valor
+Tailândia,dados_tailandia__populacao_rural,População Rural,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7459942696365105,2010,20.887,Valor
+Tailândia,dados_tailandia__populacao_rural,População Rural,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7459942696365105,2022,19.4,Valor
+Tailândia,dados_tailandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.82,Valor
+Tailândia,dados_tailandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.21,Valor
+Tailândia,dados_tailandia__populacao_de_mulheres,População de Mulheres,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.233352674052727,2000,20.82,Valor
+Tailândia,dados_tailandia__populacao_de_mulheres,População de Mulheres,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.233352674052727,2010,38.82,Valor
+Tailândia,dados_tailandia__populacao_de_mulheres,População de Mulheres,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.233352674052727,2022,50.41,Valor
+Tailândia,dados_tailandia__populacao_de_homens,População de Homens,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.365562108947626,2000,22.103,Valor
+Tailândia,dados_tailandia__populacao_de_homens,População de Homens,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.365562108947626,2010,40.477,Valor
+Tailândia,dados_tailandia__populacao_de_homens,População de Homens,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,5.365562108947626,2022,51.4,Valor
+Tailândia,dados_tailandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253661607843583,2000,106.2,Valor
+Tailândia,dados_tailandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253661607843583,2010,104.3,Valor
+Tailândia,dados_tailandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253661607843583,2022,102.0,Valor
+Tailândia,dados_tailandia__idade_mediana,Idade Mediana,dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2000,20.0,Valor
+Tailândia,dados_tailandia__idade_mediana,Idade Mediana,dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2010,22.0,Valor
+Tailândia,dados_tailandia__idade_mediana,Idade Mediana,dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2022,27.0,Valor
+Tailândia,dados_tailandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2000,5.8,Valor
+Tailândia,dados_tailandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2010,9.8,Valor
+Tailândia,dados_tailandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tailandia,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2022,21.4,Valor
+Tailândia,dados_tailandia__populacao_parda,População Parda,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.325951693437844,2000,29.82,Valor
+Tailândia,dados_tailandia__populacao_parda,População Parda,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.325951693437844,2010,58.42,Valor
+Tailândia,dados_tailandia__populacao_parda,População Parda,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,8.325951693437844,2022,76.42,Valor
+Tailândia,dados_tailandia__populacao_branca,População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,1.2920133261294164,2000,8.92,Valor
+Tailândia,dados_tailandia__populacao_branca,População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,1.2920133261294164,2010,13.41,Valor
+Tailândia,dados_tailandia__populacao_branca,População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,1.2920133261294164,2022,16.82,Valor
+Tailândia,dados_tailandia__populacao_preta,População Preta,dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,1.4183976436448216,2000,3.41,Valor
+Tailândia,dados_tailandia__populacao_preta,População Preta,dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,1.4183976436448216,2010,6.82,Valor
+Tailândia,dados_tailandia__populacao_preta,População Preta,dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,1.4183976436448216,2022,7.92,Valor
+Tailândia,dados_tailandia__populacao_amarela,População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,16.762875540631967,2000,180.0,Valor
+Tailândia,dados_tailandia__populacao_amarela,População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,16.762875540631967,2010,210.0,Valor
+Tailândia,dados_tailandia__populacao_amarela,População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,16.762875540631967,2022,190.0,Valor
+Tailândia,dados_tailandia__populacao_indigena,População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2000,593.0,Valor
+Tailândia,dados_tailandia__populacao_indigena,População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2010,437.0,Valor
+Tailândia,dados_tailandia__populacao_indigena,População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2022,460.0,Valor
+Tailândia,dados_tailandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,152.79455198000952,2000,212.4,Valor
+Tailândia,dados_tailandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,152.79455198000952,2010,442.8,Valor
+Tailândia,dados_tailandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,152.79455198000952,2022,920.0,Valor
+Tailândia,dados_tailandia__apenas_1_trabalho,Apenas 1 trabalho,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6839262001907827,2000,95.8,Valor
+Tailândia,dados_tailandia__apenas_1_trabalho,Apenas 1 trabalho,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6839262001907827,2010,96.1,Valor
+Tailândia,dados_tailandia__apenas_1_trabalho,Apenas 1 trabalho,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6839262001907827,2022,93.4,Valor
+Tailândia,dados_tailandia__2_trabalhos,2 trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915541,2000,3.8,Valor
+Tailândia,dados_tailandia__2_trabalhos,2 trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915541,2010,3.5,Valor
+Tailândia,dados_tailandia__2_trabalhos,2 trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915541,2022,5.8,Valor
+Tailândia,dados_tailandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Tailândia,dados_tailandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Tailândia,dados_tailandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Tailândia,dados_tailandia__setor_privado,Setor privado,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.6706213021684995,2000,8.42,Valor
+Tailândia,dados_tailandia__setor_privado,Setor privado,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.6706213021684995,2010,21.42,Valor
+Tailândia,dados_tailandia__setor_privado,Setor privado,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.6706213021684995,2022,34.82,Valor
+Tailândia,dados_tailandia__conta_propria,Conta própria,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.18112164344504902,2000,6.12,Valor
+Tailândia,dados_tailandia__conta_propria,Conta própria,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.18112164344504902,2010,11.82,Valor
+Tailândia,dados_tailandia__conta_propria,Conta própria,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.18112164344504902,2022,18.42,Valor
+Tailândia,dados_tailandia__setor_publico,Setor público,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.34915845929702805,2000,2.12,Valor
+Tailândia,dados_tailandia__setor_publico,Setor público,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.34915845929702805,2010,5.42,Valor
+Tailândia,dados_tailandia__setor_publico,Setor público,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.34915845929702805,2022,8.92,Valor
+Tailândia,dados_tailandia__trabalhador_domestico,Trabalhador doméstico,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.4163263457819853,2000,1.42,Valor
+Tailândia,dados_tailandia__trabalhador_domestico,Trabalhador doméstico,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.4163263457819853,2010,2.84,Valor
+Tailândia,dados_tailandia__trabalhador_domestico,Trabalhador doméstico,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.4163263457819853,2022,3.62,Valor
+Tailândia,dados_tailandia__empregador,Empregador,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,530.2951902256137,2000,380.0,Valor
+Tailândia,dados_tailandia__empregador,Empregador,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,530.2951902256137,2010,980.0,Valor
+Tailândia,dados_tailandia__empregador,Empregador,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,530.2951902256137,2022,1.82,Valor
+Tailândia,dados_tailandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,236.6975783525535,2000,1.82,Valor
+Tailândia,dados_tailandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,236.6975783525535,2010,1.12,Valor
+Tailândia,dados_tailandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,236.6975783525535,2022,480.0,Valor
+Tailândia,dados_tailandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,416.17551760904945,2000,320.0,Valor
+Tailândia,dados_tailandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,416.17551760904945,2010,780.0,Valor
+Tailândia,dados_tailandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,416.17551760904945,2022,1.42,Valor
+Tailândia,dados_tailandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6444986226697447,2000,4.12,Valor
+Tailândia,dados_tailandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6444986226697447,2010,12.82,Valor
+Tailândia,dados_tailandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6444986226697447,2022,22.41,Valor
+Tailândia,dados_tailandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0261226794987495,2000,4.3,Valor
+Tailândia,dados_tailandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0261226794987495,2010,8.6,Valor
+Tailândia,dados_tailandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0261226794987495,2022,12.41,Valor
+Tailândia,dados_tailandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,102.03837227798209,2000,140.0,Valor
+Tailândia,dados_tailandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,102.03837227798209,2010,420.0,Valor
+Tailândia,dados_tailandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,102.03837227798209,2022,890.0,Valor
+Tailândia,dados_tailandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.45119683157501117,2000,1.98,Valor
+Tailândia,dados_tailandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.45119683157501117,2010,5.0,Valor
+Tailândia,dados_tailandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.45119683157501117,2022,8.03,Valor
+Tailândia,dados_tailandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,114.9407487779655,2000,180.0,Valor
+Tailândia,dados_tailandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,114.9407487779655,2010,580.0,Valor
+Tailândia,dados_tailandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,114.9407487779655,2022,890.0,Valor
+Tailândia,dados_tailandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.3512263860647151,2000,1.24,Valor
+Tailândia,dados_tailandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.3512263860647151,2010,2.26,Valor
+Tailândia,dados_tailandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.3512263860647151,2022,2.73,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,2.2789700009282043,1991,68.4,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,2.2789700009282043,2000,78.2,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,2.2789700009282043,2010,86.4,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,2.2789700009282043,2022,92.8,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,2.047411450469331,2000,89.4,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,2.047411450469331,2010,95.2,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,2.047411450469331,2022,97.8,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,1.278738227913955,2000,31.2,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,1.278738227913955,2010,42.8,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,1.278738227913955,2022,58.4,Valor
+Tailândia,dados_tailandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2000,84.2,Valor
+Tailândia,dados_tailandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2010,93.2,Valor
+Tailândia,dados_tailandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2022,95.8,Valor
+Tailândia,dados_tailandia__populacao_com_superior_completo,População com Superior Completo,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,298.9482039469389,2000,540.0,Valor
+Tailândia,dados_tailandia__populacao_com_superior_completo,População com Superior Completo,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,298.9482039469389,2010,2.84,Valor
+Tailândia,dados_tailandia__populacao_com_superior_completo,População com Superior Completo,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,298.9482039469389,2022,8.42,Valor
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696594,1991,3.1,Valor
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696594,2000,4.6,Valor
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696594,2010,6.6,Valor
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696594,2022,8.4,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.22700265517584295,1991,3.4,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.22700265517584295,2000,4.9,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.22700265517584295,2010,7.0,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.22700265517584295,2022,8.8,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.16851525279255664,1991,2.8,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.16851525279255664,2000,4.3,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.16851525279255664,2010,6.2,Valor
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.16851525279255664,2022,8.0,Valor
+Tailândia,dados_tailandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.02330858601680282,1991,0.274,Valor
+Tailândia,dados_tailandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.02330858601680282,2000,0.432,Valor
+Tailândia,dados_tailandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.02330858601680282,2010,0.578,Valor
+Tailândia,dados_tailandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2000,84.2,Valor
+Tailândia,dados_tailandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2010,93.2,Valor
+Tailândia,dados_tailandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,3.9328992649372907,2022,95.8,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,3.5349893237372947,2000,62.4,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,3.5349893237372947,2010,74.2,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,3.5349893237372947,2022,80.4,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2000,20.2,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2010,26.4,Valor
+Tailândia,dados_tailandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tailandia,Grupo 2 — 3 censos,3,logistic,adam,True,2.703780570772546,2022,28.2,Valor
+Tailândia,dados_tailandia__media_populacao_amarela,Média: População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625013,2000,5.2,Valor
+Tailândia,dados_tailandia__media_populacao_amarela,Média: População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625013,2010,7.6,Valor
+Tailândia,dados_tailandia__media_populacao_amarela,Média: População Amarela,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625013,2022,9.2,Valor
+Tailândia,dados_tailandia__media_populacao_branca,Média: População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2000,5.0,Valor
+Tailândia,dados_tailandia__media_populacao_branca,Média: População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2010,7.2,Valor
+Tailândia,dados_tailandia__media_populacao_branca,Média: População Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2022,8.9,Valor
+Tailândia,dados_tailandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.3799381141087821,2000,4.3,Valor
+Tailândia,dados_tailandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.3799381141087821,2010,6.3,Valor
+Tailândia,dados_tailandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.3799381141087821,2022,8.2,Valor
+Tailândia,dados_tailandia__media_populacao_indigena,Média: População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671763,2000,3.6,Valor
+Tailândia,dados_tailandia__media_populacao_indigena,Média: População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671763,2010,5.1,Valor
+Tailândia,dados_tailandia__media_populacao_indigena,Média: População Indígena,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671763,2022,6.8,Valor
+Tailândia,dados_tailandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Tailândia,dados_tailandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.0,Valor
+Tailândia,dados_tailandia__populacao_residente_em_favelas,População Residente em Favelas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.82,Valor
+Tailândia,dados_tailandia__populacao_residente_em_favelas,População Residente em Favelas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.21,Valor
+Tailândia,dados_tailandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.18,Valor
+Tailândia,dados_tailandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.84,Valor
+Tailândia,dados_tailandia__idade_mediana_2,Idade Mediana,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Tailândia,dados_tailandia__idade_mediana_2,Idade Mediana,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+Tailândia,dados_tailandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Tailândia,dados_tailandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Tailândia,dados_tailandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,102.8,Valor
+Tailândia,dados_tailandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,100.4,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Tailândia,dados_tailandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,90.8,Valor
+Tailândia,dados_tailandia__populacao_parda_2,População Parda,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.84,Valor
+Tailândia,dados_tailandia__populacao_parda_2,População Parda,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.21,Valor
+Tailândia,dados_tailandia__populacao_branca_2,População Branca,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,520.0,Valor
+Tailândia,dados_tailandia__populacao_branca_2,População Branca,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.42,Valor
+Tailândia,dados_tailandia__populacao_preta_2,População Preta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,420.0,Valor
+Tailândia,dados_tailandia__populacao_preta_2,População Preta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.28,Valor
+Tailândia,dados_tailandia__populacao_amarela_2,População Amarela,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Tailândia,dados_tailandia__populacao_amarela_2,População Amarela,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.0,Valor
+Tailândia,dados_tailandia__populacao_indigena_2,População Indígena,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Tailândia,dados_tailandia__populacao_indigena_2,População Indígena,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,260.0,Valor
+Tailândia,dados_tailandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Tailândia,dados_tailandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.4,Valor
+Tailândia,dados_tailandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Tailândia,dados_tailandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.2,Valor
+Tailândia,dados_tailandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Tailândia,dados_tailandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.4,Valor
+Tailândia,dados_tailandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Tailândia,dados_tailandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Tailândia,dados_tailandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Tailândia,dados_tailandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Tailândia,dados_tailandia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Tailândia,dados_tailandia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Tailândia,dados_tailandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Tailândia,dados_tailandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Tailândia,dados_tailandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.8,Valor
+Tailândia,dados_tailandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.8,Valor
+Tailândia,dados_tailandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Tailândia,dados_tailandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Tailândia,dados_tailandia__casais_com_filhos,Casais com filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.586248002370804,2000,62.8,Valor
+Tailândia,dados_tailandia__casais_com_filhos,Casais com filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.586248002370804,2010,53.4,Valor
+Tailândia,dados_tailandia__casais_com_filhos,Casais com filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.586248002370804,2022,44.2,Valor
+Tailândia,dados_tailandia__casais_sem_filhos,Casais sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925211,2000,7.4,Valor
+Tailândia,dados_tailandia__casais_sem_filhos,Casais sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925211,2010,10.8,Valor
+Tailândia,dados_tailandia__casais_sem_filhos,Casais sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.3964026480925211,2022,15.4,Valor
+Tailândia,dados_tailandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.33396620330367455,2000,16.2,Valor
+Tailândia,dados_tailandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.33396620330367455,2010,19.4,Valor
+Tailândia,dados_tailandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.33396620330367455,2022,22.8,Valor
+Tailândia,dados_tailandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.2,Valor
+Tailândia,dados_tailandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.5,Valor
+Tailândia,dados_tailandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.9,Valor
+Tailândia,dados_tailandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2000,7.2,Valor
+Tailândia,dados_tailandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2010,7.9,Valor
+Tailândia,dados_tailandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2022,7.4,Valor
+Tailândia,dados_tailandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2000,3.5,Valor
+Tailândia,dados_tailandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2010,4.2,Valor
+Tailândia,dados_tailandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2022,4.0,Valor
+Tailândia,dados_tailandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608167,2000,0.9,Valor
+Tailândia,dados_tailandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608167,2010,1.3,Valor
+Tailândia,dados_tailandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608167,2022,1.8,Valor
+Tailândia,dados_tailandia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.2,Valor
+Tailândia,dados_tailandia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.1,Valor
+Tailândia,dados_tailandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+Tailândia,dados_tailandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Tailândia,dados_tailandia__trabalha_em_outro_municipio,Trabalha em outro município,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.8,Valor
+Tailândia,dados_tailandia__trabalha_em_outro_municipio,Trabalha em outro município,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Tailândia,dados_tailandia__motocicleta,Motocicleta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Tailândia,dados_tailandia__motocicleta,Motocicleta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Tailândia,dados_tailandia__automovel_carro,Automóvel (Carro),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Tailândia,dados_tailandia__automovel_carro,Automóvel (Carro),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Tailândia,dados_tailandia__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Tailândia,dados_tailandia__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Tailândia,dados_tailandia__bicicleta,Bicicleta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.8,Valor
+Tailândia,dados_tailandia__bicicleta,Bicicleta,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.4,Valor
+Tailândia,dados_tailandia__a_pe,A pé,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Tailândia,dados_tailandia__a_pe,A pé,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+Tailândia,dados_tailandia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Tailândia,dados_tailandia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.4,Valor
+Tailândia,dados_tailandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+Tailândia,dados_tailandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.8,Valor
+Tailândia,dados_tailandia__mais_de_1_hora,Mais de 1 hora,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.0,Valor
+Tailândia,dados_tailandia__mais_de_1_hora,Mais de 1 hora,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Tailândia,dados_tailandia__estuda_no_proprio_municipio_tailandia,Estuda no próprio município (Tailândia),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.2,Valor
+Tailândia,dados_tailandia__estuda_no_proprio_municipio_tailandia,Estuda no próprio município (Tailândia),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.8,Valor
+Tailândia,dados_tailandia__estuda_em_outro_municipio,Estuda em outro município,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Tailândia,dados_tailandia__estuda_em_outro_municipio,Estuda em outro município,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.041064387416271,1991,5.12,Valor
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.041064387416271,2000,9.82,Valor
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.041064387416271,2010,20.42,Valor
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.041064387416271,2022,34.82,Valor
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.025813924990608,1991,4.98,Valor
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.025813924990608,2000,9.64,Valor
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.025813924990608,2010,20.18,Valor
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.025813924990608,2022,34.49,Valor
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,16.204744980238594,1991,140.0,Valor
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,16.204744980238594,2000,180.0,Valor
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,16.204744980238594,2010,240.0,Valor
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,4,relu,adam,True,16.204744980238594,2022,330.0,Valor
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,4,identity,sgd,True,0.09932634511523275,1991,5.1,Valor
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,4,identity,sgd,True,0.09932634511523275,2000,4.4,Valor
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,4,identity,sgd,True,0.09932634511523275,2010,3.9,Valor
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,4,identity,sgd,True,0.09932634511523275,2022,2.9,Valor
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.4,Valor
+Tailândia,dados_tailandia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Tailândia,dados_tailandia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Tailândia,dados_tailandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Tailândia,dados_tailandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Tailândia,dados_tailandia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Tailândia,dados_tailandia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Tailândia,dados_tailandia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.8,Valor
+Tailândia,dados_tailandia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Tailândia,dados_tailandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Tailândia,dados_tailandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Tailândia,dados_tailandia__ruas_sem_arvores,Ruas Sem Árvores,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,47.6,Valor
+Tailândia,dados_tailandia__ruas_sem_arvores,Ruas Sem Árvores,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.8,Valor
+Tailândia,dados_tailandia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Tailândia,dados_tailandia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Tailândia,dados_tailandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.1,Valor
+Tailândia,dados_tailandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.8,Valor
+Tailândia,dados_tailandia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Tailândia,dados_tailandia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Tailândia,dados_tailandia__populacao_indigena_total,População Indígena Total,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2000,593.0,Valor
+Tailândia,dados_tailandia__populacao_indigena_total,População Indígena Total,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2010,437.0,Valor
+Tailândia,dados_tailandia__populacao_indigena_total,População Indígena Total,dados_tailandia,Grupo 2 — 3 censos,3,logistic,sgd,True,96.3178002241031,2022,460.0,Valor
+Tailândia,dados_tailandia__proporcao_na_populacao_de_tailandia,Proporção na população de Tailândia,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.3923583673610087,2000,1.38,Valor
+Tailândia,dados_tailandia__proporcao_na_populacao_de_tailandia,Proporção na população de Tailândia,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.3923583673610087,2010,0.55,Valor
+Tailândia,dados_tailandia__proporcao_na_populacao_de_tailandia,Proporção na população de Tailândia,dados_tailandia,Grupo 2 — 3 censos,3,tanh,adam,True,0.3923583673610087,2022,0.45,Valor
+Tailândia,dados_tailandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Tailândia,dados_tailandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.2,Valor
+Tailândia,dados_tailandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Tailândia,dados_tailandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Tailândia,dados_tailandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Tailândia,dados_tailandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.4,Valor
+Tailândia,dados_tailandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Tailândia,dados_tailandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Tailândia,dados_tailandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2000,16.8,Valor
+Tailândia,dados_tailandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2010,20.4,Valor
+Tailândia,dados_tailandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.1271246575583287,2022,26.2,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8302873410173224,2000,55.2,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8302873410173224,2010,46.2,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8302873410173224,2022,37.8,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343554,2000,9.2,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343554,2010,12.2,Valor
+Tailândia,dados_tailandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343554,2022,15.6,Valor
+Tailândia,dados_tailandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.2,Valor
+Tailândia,dados_tailandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Tailândia,dados_tailandia__sem_conjuge,Sem cônjuge,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.1,Valor
+Tailândia,dados_tailandia__sem_conjuge,Sem cônjuge,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.0,Valor
+Tailândia,dados_tailandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.7,Valor
+Tailândia,dados_tailandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tailandia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.3,Valor
+Tailândia,dados_tailandia__responsavel_mulher,Responsável Mulher,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Tailândia,dados_tailandia__responsavel_mulher,Responsável Mulher,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Tailândia,dados_tailandia__responsavel_mulher,Responsável Mulher,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Tailândia,dados_tailandia__responsavel_homem,Responsável Homem,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2000,4.5,Valor
+Tailândia,dados_tailandia__responsavel_homem,Responsável Homem,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2010,3.8,Valor
+Tailândia,dados_tailandia__responsavel_homem,Responsável Homem,dados_tailandia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2022,3.1,Valor
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Tailândia,dados_tailandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0359711215982272,2000,14.2,Valor
+Tailândia,dados_tailandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0359711215982272,2010,18.4,Valor
+Tailândia,dados_tailandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,1.0359711215982272,2022,24.8,Valor
+Tailândia,dados_tailandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2000,17.2,Valor
+Tailândia,dados_tailandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2010,21.2,Valor
+Tailândia,dados_tailandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tailandia,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2022,25.2,Valor
+Tailândia,dados_tailandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,4.342743492293764,2000,44.2,Valor
+Tailândia,dados_tailandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,4.342743492293764,2010,28.4,Valor
+Tailândia,dados_tailandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tailandia,Grupo 2 — 3 censos,3,relu,adam,True,4.342743492293764,2022,17.2,Valor

@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696594,2030,9.879670682386346
+Tailândia,dados_tailandia__anos_de_estudo_media,Anos de Estudo (Média),dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696594,2040,11.613628795262851
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,relu,adam,True,16.204744980238594,2030,368.78836579414315
+Tailândia,dados_tailandia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tailandia,Grupo 1 — 4 censos,relu,adam,True,16.204744980238594,2040,416.78246278331505
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,relu,lbfgs,True,2.025813924990608,2030,43.47837396649109
+Tailândia,dados_tailandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tailandia,Grupo 1 — 4 censos,relu,lbfgs,True,2.025813924990608,2040,54.54592444489353
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.16851525279255664,2030,9.436360326572581
+Tailândia,dados_tailandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.16851525279255664,2040,11.131837967358834
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.22700265517584295,2030,10.322980961715945
+Tailândia,dados_tailandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tailandia,Grupo 1 — 4 censos,identity,lbfgs,True,0.22700265517584295,2040,12.095419594098962
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,identity,sgd,True,0.09932634511523275,2030,2.137394664992583
+Tailândia,dados_tailandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tailandia,Grupo 1 — 4 censos,identity,sgd,True,0.09932634511523275,2040,1.3826849452013508
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,tanh,lbfgs,True,6.236648893916945,2030,106.06111648107675
+Tailândia,dados_tailandia__populacao_total,População Total,dados_tailandia,Grupo 1 — 4 censos,tanh,lbfgs,True,6.236648893916945,2040,107.9618191701368
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,relu,adam,True,2.2789700009282043,2030,96.02574761064811
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tailandia,Grupo 1 — 4 censos,relu,adam,True,2.2789700009282043,2040,99.62693768040279
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,relu,lbfgs,True,2.041064387416271,2030,43.86303890564314
+Tailândia,dados_tailandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tailandia,Grupo 1 — 4 censos,relu,lbfgs,True,2.041064387416271,2040,54.99798604600812
+Tailândia,dados_tailandia__2_trabalhos,2 trabalhos,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,1.3097344894915541,2030,6.1040688004379975
+Tailândia,dados_tailandia__2_trabalhos,2 trabalhos,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,1.3097344894915541,2040,6.212299152516194
+Tailândia,dados_tailandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.8532083159839907
+Tailândia,dados_tailandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.8742845123278303
+Tailândia,dados_tailandia__apenas_1_trabalho,Apenas 1 trabalho,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,1.6839262001907827,2030,95.10150429589616
+Tailândia,dados_tailandia__apenas_1_trabalho,Apenas 1 trabalho,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,1.6839262001907827,2040,95.09478123406528
+Tailândia,dados_tailandia__casais_com_filhos,Casais com filhos,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.586248002370804,2030,37.17113642193192
+Tailândia,dados_tailandia__casais_com_filhos,Casais com filhos,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.586248002370804,2040,28.74255708816664
+Tailândia,dados_tailandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,0.4024792158418841,2030,7.50268642233628
+Tailândia,dados_tailandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,0.4024792158418841,2040,7.501497435007504
+Tailândia,dados_tailandia__casais_sem_filhos,Casais sem filhos,dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,0.3964026480925211,2030,18.466013985959727
+Tailândia,dados_tailandia__casais_sem_filhos,Casais sem filhos,dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,0.3964026480925211,2040,22.281772066519917
+Tailândia,dados_tailandia__conta_propria,Conta própria,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.18112164344504902,2030,22.904567359691157
+Tailândia,dados_tailandia__conta_propria,Conta própria,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.18112164344504902,2040,28.470499417212935
+Tailândia,dados_tailandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.0359711215982272,2030,28.465795373507735
+Tailândia,dados_tailandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.0359711215982272,2040,33.28267161071119
+Tailândia,dados_tailandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.6076902397340227,2030,28.19914609435301
+Tailândia,dados_tailandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.6076902397340227,2040,31.8115886505405
+Tailândia,dados_tailandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,4.342743492293764,2030,11.726177597205712
+Tailândia,dados_tailandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,4.342743492293764,2040,4.281435916176466
+Tailândia,dados_tailandia__empregador,Empregador,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,530.2951902256137,2030,456.30047670033576
+Tailândia,dados_tailandia__empregador,Empregador,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,530.2951902256137,2040,454.30928344357886
+Tailândia,dados_tailandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,3.9328992649372907,2030,97.71760825535348
+Tailândia,dados_tailandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,3.9328992649372907,2040,98.34993238145765
+Tailândia,dados_tailandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,3.5349893237372947,2030,82.92831385011587
+Tailândia,dados_tailandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,3.5349893237372947,2040,86.0409097322803
+Tailândia,dados_tailandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,2.703780570772546,2030,29.52175735248671
+Tailândia,dados_tailandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,2.703780570772546,2040,29.958887355816362
+Tailândia,dados_tailandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.02330858601680282,2030,0.9006542907435475
+Tailândia,dados_tailandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.02330858601680282,2040,1.0597827481102946
+Tailândia,dados_tailandia__idade_mediana,Idade Mediana,dados_tailandia,Grupo 2 — 3 censos,relu,lbfgs,True,1.802498913376149,2030,29.355875295257352
+Tailândia,dados_tailandia__idade_mediana,Idade Mediana,dados_tailandia,Grupo 2 — 3 censos,relu,lbfgs,True,1.802498913376149,2040,32.20129143360128
+Tailândia,dados_tailandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,416.17551760904945,2030,368.97589609793033
+Tailândia,dados_tailandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,416.17551760904945,2040,367.38556545312474
+Tailândia,dados_tailandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.33396620330367455,2030,25.246116096846148
+Tailândia,dados_tailandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.33396620330367455,2040,28.228959150173658
+Tailândia,dados_tailandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318104,2030,3.90294056530449
+Tailândia,dados_tailandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318104,2040,3.901926456337081
+Tailândia,dados_tailandia__media_populacao_amarela,Média: População Amarela,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.6963669225625013,2030,9.928027981819262
+Tailândia,dados_tailandia__media_populacao_amarela,Média: População Amarela,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.6963669225625013,2040,10.773635625629185
+Tailândia,dados_tailandia__media_populacao_branca,Média: População Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2030,9.676083142587682
+Tailândia,dados_tailandia__media_populacao_branca,Média: População Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2040,10.627407408733676
+Tailândia,dados_tailandia__media_populacao_indigena,Média: População Indígena,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.07569785141671763,2030,7.971510284892902
+Tailândia,dados_tailandia__media_populacao_indigena,Média: População Indígena,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.07569785141671763,2040,9.41909873876066
+Tailândia,dados_tailandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087821,2030,9.676200029443443
+Tailândia,dados_tailandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087821,2040,11.436005399351055
+Tailândia,dados_tailandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,236.6975783525535,2030,543.5536232744671
+Tailândia,dados_tailandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,236.6975783525535,2040,568.7251760464487
+Tailândia,dados_tailandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.168974426752009
+Tailândia,dados_tailandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.502782091398335
+Tailândia,dados_tailandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608167,2030,2.124704576720187
+Tailândia,dados_tailandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608167,2040,2.5340508541356814
+Tailândia,dados_tailandia__populacao_amarela,População Amarela,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,16.762875540631967,2030,193.45022637079308
+Tailândia,dados_tailandia__populacao_amarela,População Amarela,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,16.762875540631967,2040,193.40071569087885
+Tailândia,dados_tailandia__populacao_branca,População Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,1.2920133261294164,2030,18.378403369286705
+Tailândia,dados_tailandia__populacao_branca,População Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,1.2920133261294164,2040,20.286803494325113
+Tailândia,dados_tailandia__populacao_indigena,População Indígena,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,96.3178002241031,2030,496.8610546022645
+Tailândia,dados_tailandia__populacao_indigena,População Indígena,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,96.3178002241031,2040,496.48721818927186
+Tailândia,dados_tailandia__populacao_indigena_total,População Indígena Total,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,96.3178002241031,2030,496.8610546022645
+Tailândia,dados_tailandia__populacao_indigena_total,População Indígena Total,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,96.3178002241031,2040,496.48721818927186
+Tailândia,dados_tailandia__populacao_parda,População Parda,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,8.325951693437844,2030,83.927064391284
+Tailândia,dados_tailandia__populacao_parda,População Parda,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,8.325951693437844,2040,93.15465856137752
+Tailândia,dados_tailandia__populacao_preta,População Preta,dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,1.4183976436448216,2030,8.649864464050987
+Tailândia,dados_tailandia__populacao_preta,População Preta,dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,1.4183976436448216,2040,8.904813427885522
+Tailândia,dados_tailandia__populacao_rural,População Rural,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,3.7459942696365105,2030,18.29112228635328
+Tailândia,dados_tailandia__populacao_rural,População Rural,dados_tailandia,Grupo 2 — 3 censos,logistic,sgd,True,3.7459942696365105,2040,18.281882670077923
+Tailândia,dados_tailandia__populacao_urbana,População Urbana,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,8.598090634809823,2030,93.37753968813868
+Tailândia,dados_tailandia__populacao_urbana,População Urbana,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,8.598090634809823,2040,106.82502422098057
+Tailândia,dados_tailandia__populacao_com_superior_completo,População com Superior Completo,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,298.9482039469389,2030,6.30704400798831
+Tailândia,dados_tailandia__populacao_com_superior_completo,População com Superior Completo,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,298.9482039469389,2040,22.071317498240433
+Tailândia,dados_tailandia__populacao_de_homens,População de Homens,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,5.365562108947626,2030,56.34547701093905
+Tailândia,dados_tailandia__populacao_de_homens,População de Homens,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,5.365562108947626,2040,62.05074729795648
+Tailândia,dados_tailandia__populacao_de_mulheres,População de Mulheres,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,5.233352674052727,2030,55.67530978915626
+Tailândia,dados_tailandia__populacao_de_mulheres,População de Mulheres,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,5.233352674052727,2040,61.78032187913807
+Tailândia,dados_tailandia__proporcao_na_populacao_de_tailandia,Proporção na população de Tailândia,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,0.3923583673610087,2030,0.40246387780814635
+Tailândia,dados_tailandia__proporcao_na_populacao_de_tailandia,Proporção na população de Tailândia,dados_tailandia,Grupo 2 — 3 censos,tanh,adam,True,0.3923583673610087,2040,0.41600909965336
+Tailândia,dados_tailandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.015253661607843583,2030,100.47522908664914
+Tailândia,dados_tailandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.015253661607843583,2040,98.56589228364243
+Tailândia,dados_tailandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,152.79455198000952,2030,1150.8699702212703
+Tailândia,dados_tailandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,152.79455198000952,2040,1473.969509719535
+Tailândia,dados_tailandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.8302873410173224,2030,31.166716388597855
+Tailândia,dados_tailandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.8302873410173224,2040,23.287575951291135
+Tailândia,dados_tailandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343554,2030,17.9430205697858
+Tailândia,dados_tailandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343554,2040,20.83819747752132
+Tailândia,dados_tailandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.1271246575583287,2030,29.41620016768057
+Tailândia,dados_tailandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.1271246575583287,2040,33.69150706232324
+Tailândia,dados_tailandia__responsavel_homem,Responsável Homem,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2030,2.5730562829426358
+Tailândia,dados_tailandia__responsavel_homem,Responsável Homem,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2040,1.938440679842818
+Tailândia,dados_tailandia__responsavel_mulher,Responsável Mulher,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Tailândia,dados_tailandia__responsavel_mulher,Responsável Mulher,dados_tailandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Tailândia,dados_tailandia__setor_privado,Setor privado,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.6706213021684995,2030,44.6607940851084
+Tailândia,dados_tailandia__setor_privado,Setor privado,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.6706213021684995,2040,56.58697913014852
+Tailândia,dados_tailandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.6444986226697447,2030,29.141478470836745
+Tailândia,dados_tailandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.6444986226697447,2040,37.41198192523443
+Tailândia,dados_tailandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.0261226794987495,2030,15.519632262742064
+Tailândia,dados_tailandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,1.0261226794987495,2040,19.175654714306837
+Tailândia,dados_tailandia__setor_publico,Setor público,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.34915845929702805,2030,11.441093888583165
+Tailândia,dados_tailandia__setor_publico,Setor público,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.34915845929702805,2040,14.514247083377057
+Tailândia,dados_tailandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,102.03837227798209,2030,1144.6046299101881
+Tailândia,dados_tailandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,102.03837227798209,2040,1485.9397809876236
+Tailândia,dados_tailandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.45119683157501117,2030,10.296693888553424
+Tailândia,dados_tailandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tailandia,Grupo 2 — 3 censos,identity,adam,True,0.45119683157501117,2040,13.02873099444572
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,1.278738227913955,2030,68.83561992279353
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tailandia,Grupo 2 — 3 censos,identity,sgd,True,1.278738227913955,2040,81.80805918447342
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,2.047411450469331,2030,98.96127612835181
+Tailândia,dados_tailandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,2.047411450469331,2040,100.28873055442769
+Tailândia,dados_tailandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,3.9328992649372907,2030,97.71760825535348
+Tailândia,dados_tailandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tailandia,Grupo 2 — 3 censos,logistic,adam,True,3.9328992649372907,2040,98.34993238145765
+Tailândia,dados_tailandia__trabalhador_domestico,Trabalhador doméstico,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.4163263457819853,2030,3.971847582503223
+Tailândia,dados_tailandia__trabalhador_domestico,Trabalhador doméstico,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.4163263457819853,2040,4.375922927512178
+Tailândia,dados_tailandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,114.9407487779655,2030,1031.4917141277015
+Tailândia,dados_tailandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,114.9407487779655,2040,1204.961554397204
+Tailândia,dados_tailandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.3512263860647151,2030,2.9188323605545974
+Tailândia,dados_tailandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tailandia,Grupo 2 — 3 censos,relu,adam,True,0.3512263860647151,2040,3.151752930272594
+Tailândia,dados_tailandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tailandia,Grupo 2 — 3 censos,relu,lbfgs,True,4.2454713295269935,2030,26.845482369580566
+Tailândia,dados_tailandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tailandia,Grupo 2 — 3 censos,relu,lbfgs,True,4.2454713295269935,2040,33.44738336124018
+Tailândia,dados_tailandia__a_pe,A pé,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.779308145009937
+Tailândia,dados_tailandia__a_pe,A pé,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.20730243889594746
+Tailândia,dados_tailandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.420410900431406
+Tailândia,dados_tailandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.04645841566881
+Tailândia,dados_tailandia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.418178918422186
+Tailândia,dados_tailandia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.16310133054624
+Tailândia,dados_tailandia__automovel_carro,Automóvel (Carro),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.08119213525173
+Tailândia,dados_tailandia__automovel_carro,Automóvel (Carro),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.142286058288864
+Tailândia,dados_tailandia__bicicleta,Bicicleta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.692787268875831
+Tailândia,dados_tailandia__bicicleta,Bicicleta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.1998711750086617
+Tailândia,dados_tailandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.08417247338106
+Tailândia,dados_tailandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.29800120401103
+Tailândia,dados_tailandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.78853011395658
+Tailândia,dados_tailandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.62068702149769
+Tailândia,dados_tailandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.60596067625866
+Tailândia,dados_tailandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.91143029144433
+Tailândia,dados_tailandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8420298033812934
+Tailândia,dados_tailandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8935571514572217
+Tailândia,dados_tailandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.39435386706126
+Tailândia,dados_tailandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.052018847210995
+Tailândia,dados_tailandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.104357640575518
+Tailândia,dados_tailandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.722685817486658
+Tailândia,dados_tailandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Tailândia,dados_tailandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Tailândia,dados_tailandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.48119213525173
+Tailândia,dados_tailandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.542286058288866
+Tailândia,dados_tailandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.740437371597684
+Tailândia,dados_tailandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.022293791661856
+Tailândia,dados_tailandia__estuda_em_outro_municipio,Estuda em outro município,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.20871528115104
+Tailândia,dados_tailandia__estuda_em_outro_municipio,Estuda em outro município,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.44537163497332
+Tailândia,dados_tailandia__estuda_no_proprio_municipio_tailandia,Estuda no próprio município (Tailândia),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.15234989727814
+Tailândia,dados_tailandia__estuda_no_proprio_municipio_tailandia,Estuda no próprio município (Tailândia),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.97783503332947
+Tailândia,dados_tailandia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.08417247338106
+Tailândia,dados_tailandia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.29800120401103
+Tailândia,dados_tailandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.453916495463577
+Tailândia,dados_tailandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.8297250555491384
+Tailândia,dados_tailandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.48119213525173
+Tailândia,dados_tailandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.54228605828887
+Tailândia,dados_tailandia__idade_mediana_2,Idade Mediana,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.68119213525173
+Tailândia,dados_tailandia__idade_mediana_2,Idade Mediana,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.742286058288865
+Tailândia,dados_tailandia__mais_de_1_hora,Mais de 1 hora,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.55653646086328
+Tailândia,dados_tailandia__mais_de_1_hora,Mais de 1 hora,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.48402872622999
+Tailândia,dados_tailandia__motocicleta,Motocicleta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.41456309079122
+Tailândia,dados_tailandia__motocicleta,Motocicleta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.84591502532105
+Tailândia,dados_tailandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.76739561932948
+Tailândia,dados_tailandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.23715631943642
+Tailândia,dados_tailandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.681192135251731
+Tailândia,dados_tailandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.742286058288865
+Tailândia,dados_tailandia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.913072921726556
+Tailândia,dados_tailandia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.768057452459974
+Tailândia,dados_tailandia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.34506657481987
+Tailândia,dados_tailandia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.10471574772768
+Tailândia,dados_tailandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.15659853750344
+Tailândia,dados_tailandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.995016521833108
+Tailândia,dados_tailandia__populacao_amarela_2,População Amarela,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.40596067625866
+Tailândia,dados_tailandia__populacao_amarela_2,População Amarela,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.71143029144432
+Tailândia,dados_tailandia__populacao_branca_2,População Branca,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-354.59599594562434
+Tailândia,dados_tailandia__populacao_branca_2,População Branca,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-824.454295173332
+Tailândia,dados_tailandia__populacao_indigena_2,População Indígena,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,360.87152811510384
+Tailândia,dados_tailandia__populacao_indigena_2,População Indígena,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,484.53716349733185
+Tailândia,dados_tailandia__populacao_parda_2,População Parda,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.307596509201316
+Tailândia,dados_tailandia__populacao_parda_2,População Parda,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.105162062397234
+Tailândia,dados_tailandia__populacao_preta_2,População Preta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-286.18002125487266
+Tailândia,dados_tailandia__populacao_preta_2,População Preta,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-665.5603811851163
+Tailândia,dados_tailandia__populacao_residente_em_favelas,População Residente em Favelas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.15659853750344
+Tailândia,dados_tailandia__populacao_residente_em_favelas,População Residente em Favelas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.995016521833108
+Tailândia,dados_tailandia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Tailândia,dados_tailandia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Tailândia,dados_tailandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.75234989727817
+Tailândia,dados_tailandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.5778350333295
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8194353867061257
+Tailândia,dados_tailandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.185201884721099
+Tailândia,dados_tailandia__ruas_sem_arvores,Ruas Sem Árvores,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.564262422958606
+Tailândia,dados_tailandia__ruas_sem_arvores,Ruas Sem Árvores,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.9333762749971
+Tailândia,dados_tailandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.95653646086328
+Tailândia,dados_tailandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.88402872623
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.573967023165356
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.898622697553805
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.974771996176628
+Tailândia,dados_tailandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.433029328235495
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.34506657481987
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.36823208014366
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.10471574772768
+Tailândia,dados_tailandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.68511550692548
+Tailândia,dados_tailandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8202980338129324
+Tailândia,dados_tailandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3355715145722162
+Tailândia,dados_tailandia__sem_conjuge,Sem cônjuge,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.90005643330924
+Tailândia,dados_tailandia__sem_conjuge,Sem cônjuge,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.455443450548294
+Tailândia,dados_tailandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.33050348402863
+Tailândia,dados_tailandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.65880072240661
+Tailândia,dados_tailandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.957992769942401
+Tailândia,dados_tailandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.3286202287620945
+Tailândia,dados_tailandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.640596067625864
+Tailândia,dados_tailandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.67114302914443
+Tailândia,dados_tailandia__trabalha_em_outro_municipio,Trabalha em outro município,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.623221938633023
+Tailândia,dados_tailandia__trabalha_em_outro_municipio,Trabalha em outro município,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.735843209746086
+Tailândia,dados_tailandia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.28526440785015
+Tailândia,dados_tailandia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.57046818193784
+Tailândia,dados_tailandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.258026629927944
+Tailândia,dados_tailandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.76188629909107
+Tailândia,dados_tailandia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.85229168690623
+Tailândia,dados_tailandia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.27222980983991
+Tailândia,dados_tailandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.514506657481985
+Tailândia,dados_tailandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.390471574772767
+Tailândia,dados_tailandia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.527636012517775
+Tailândia,dados_tailandia__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.813972477781036
+Tailândia,dados_tailandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.04942421539539
+Tailândia,dados_tailandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.42740156521434
+Tailândia,dados_tailandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.594265056978287
+Tailândia,dados_tailandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.510343510748847
+Tailândia,dados_tailandia__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.140437371597685
+Tailândia,dados_tailandia__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tailandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.422293791661854
