@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Benevides,dados_benevides__anos_de_estudo_media,Anos de Estudo (Média),dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.1819855500903621,2030,10.620775003560066
+Benevides,dados_benevides__anos_de_estudo_media,Anos de Estudo (Média),dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.1819855500903621,2040,12.412922556765293
+Benevides,dados_benevides__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_benevides,Grupo 1 — 4 censos,tanh,lbfgs,True,7.400275555638416,2030,231.91496108163355
+Benevides,dados_benevides__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_benevides,Grupo 1 — 4 censos,tanh,lbfgs,True,7.400275555638416,2040,232.2471352570321
+Benevides,dados_benevides__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.1772435180196774,2030,25.614415680274853
+Benevides,dados_benevides__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.1772435180196774,2040,29.722204418089444
+Benevides,dados_benevides__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.11834360616135198,2030,10.135326447588294
+Benevides,dados_benevides__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.11834360616135198,2040,11.861306524361707
+Benevides,dados_benevides__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.24562728566363834,2030,11.106223412092454
+Benevides,dados_benevides__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_benevides,Grupo 1 — 4 censos,identity,lbfgs,True,0.24562728566363834,2040,12.964538534179631
+Benevides,dados_benevides__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,0.21526373027285983,2030,2.572273645088991
+Benevides,dados_benevides__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,0.21526373027285983,2040,2.1435551887234983
+Benevides,dados_benevides__populacao_total,População Total,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.928283413290245,2030,70.89431961751089
+Benevides,dados_benevides__populacao_total,População Total,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.928283413290245,2040,78.39326314321627
+Benevides,dados_benevides__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_benevides,Grupo 1 — 4 censos,logistic,lbfgs,True,1.612631018941876,2030,96.6495718942113
+Benevides,dados_benevides__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_benevides,Grupo 1 — 4 censos,logistic,lbfgs,True,1.612631018941876,2040,97.96645059468662
+Benevides,dados_benevides__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.170194092609818,2030,25.861185240782472
+Benevides,dados_benevides__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_benevides,Grupo 1 — 4 censos,relu,adam,True,1.170194092609818,2040,29.983024436847593
+Benevides,dados_benevides__2_trabalhos,2 trabalhos,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,1.161708120582994,2030,5.363381035879399
+Benevides,dados_benevides__2_trabalhos,2 trabalhos,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,1.161708120582994,2040,5.455924136901174
+Benevides,dados_benevides__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,0.11169107692838691,2030,0.739906236987993
+Benevides,dados_benevides__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,0.11169107692838691,2040,0.7557133842458725
+Benevides,dados_benevides__apenas_1_trabalho,Apenas 1 trabalho,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,1.419781168262304,2030,95.63466054258242
+Benevides,dados_benevides__apenas_1_trabalho,Apenas 1 trabalho,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,1.419781168262304,2040,95.6289956769617
+Benevides,dados_benevides__casais_com_filhos,Casais com filhos,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,1.7387724286325532,2030,35.41837224477098
+Benevides,dados_benevides__casais_com_filhos,Casais com filhos,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,1.7387724286325532,2040,27.083193966528476
+Benevides,dados_benevides__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263966,2030,7.069004527415862
+Benevides,dados_benevides__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263966,2040,7.068014313817577
+Benevides,dados_benevides__casais_sem_filhos,Casais sem filhos,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2030,19.72491887883439
+Benevides,dados_benevides__casais_sem_filhos,Casais sem filhos,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2040,23.539944657139355
+Benevides,dados_benevides__conta_propria,Conta própria,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.2501585382177165,2030,15.20052982910139
+Benevides,dados_benevides__conta_propria,Conta própria,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.2501585382177165,2040,18.632904387556152
+Benevides,dados_benevides__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.3707276105520083,2030,29.410245960973125
+Benevides,dados_benevides__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.3707276105520083,2040,34.23314601530234
+Benevides,dados_benevides__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.33383448902866064,2030,28.64442153455527
+Benevides,dados_benevides__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.33383448902866064,2040,32.12527787431256
+Benevides,dados_benevides__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,4.313248690025362,2030,10.537728245366374
+Benevides,dados_benevides__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,4.313248690025362,2040,3.4266956306651863
+Benevides,dados_benevides__empregador,Empregador,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,436.26537748900256,2030,409.08875464667113
+Benevides,dados_benevides__empregador,Empregador,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,436.26537748900256,2040,407.3625468383821
+Benevides,dados_benevides__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_benevides,Grupo 2 — 3 censos,logistic,adam,True,3.9371076107854086,2030,98.57216722651987
+Benevides,dados_benevides__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_benevides,Grupo 2 — 3 censos,logistic,adam,True,3.9371076107854086,2040,99.1044145462173
+Benevides,dados_benevides__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_benevides,Grupo 2 — 3 censos,relu,adam,True,4.077375368362652,2030,86.5390545372892
+Benevides,dados_benevides__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_benevides,Grupo 2 — 3 censos,relu,adam,True,4.077375368362652,2040,89.42179145428825
+Benevides,dados_benevides__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.2953410960139897,2030,33.68895107895276
+Benevides,dados_benevides__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.2953410960139897,2040,35.27790587547319
+Benevides,dados_benevides__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.036990087847395436,2030,0.9573775476009521
+Benevides,dados_benevides__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.036990087847395436,2040,1.1205715400425496
+Benevides,dados_benevides__idade_mediana,Idade Mediana,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,33.955643986961604
+Benevides,dados_benevides__idade_mediana,Idade Mediana,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,38.06293528986165
+Benevides,dados_benevides__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,352.3657220797823,2030,331.95578997349537
+Benevides,dados_benevides__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,352.3657220797823,2040,330.5573380810546
+Benevides,dados_benevides__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.5165367037739218,2030,26.74927418020006
+Benevides,dados_benevides__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.5165367037739218,2040,29.819850352959428
+Benevides,dados_benevides__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,tanh,lbfgs,True,0.470401302905358,2030,3.9926200031047547
+Benevides,dados_benevides__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,tanh,lbfgs,True,0.470401302905358,2040,3.977709226269957
+Benevides,dados_benevides__media_populacao_amarela,Média: População Amarela,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2030,10.876083142587683
+Benevides,dados_benevides__media_populacao_amarela,Média: População Amarela,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2040,11.827407408733675
+Benevides,dados_benevides__media_populacao_branca,Média: População Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2030,10.424118479013327
+Benevides,dados_benevides__media_populacao_branca,Média: População Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2040,11.433400664408676
+Benevides,dados_benevides__media_populacao_indigena,Média: População Indígena,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287302,2030,8.651266239684631
+Benevides,dados_benevides__media_populacao_indigena,Média: População Indígena,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287302,2040,10.140140760435251
+Benevides,dados_benevides__media_populacao_preta_parda,Média: População Preta / Parda,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087821,2030,10.376200029443442
+Benevides,dados_benevides__media_populacao_preta_parda,Média: População Preta / Parda,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087821,2040,12.136005399351056
+Benevides,dados_benevides__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,367.8611550114397,2030,356.70697409340113
+Benevides,dados_benevides__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,367.8611550114397,2040,355.6000377529039
+Benevides,dados_benevides__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_benevides,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.068974426752009
+Benevides,dados_benevides__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_benevides,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.402782091398334
+Benevides,dados_benevides__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.20483071905373182,2030,1.9807410416556437
+Benevides,dados_benevides__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.20483071905373182,2040,2.1887828974489167
+Benevides,dados_benevides__populacao_amarela,População Amarela,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504756938490325,2030,124.94446522693244
+Benevides,dados_benevides__populacao_amarela,População Amarela,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504756938490325,2040,106.81259085265194
+Benevides,dados_benevides__populacao_branca,População Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.7611773532259752,2030,13.130964738990656
+Benevides,dados_benevides__populacao_branca,População Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.7611773532259752,2040,13.963981932713558
+Benevides,dados_benevides__populacao_indigena,População Indígena,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,92.99479139393627,2030,224.90098435885037
+Benevides,dados_benevides__populacao_indigena,População Indígena,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,92.99479139393627,2040,224.6238167409572
+Benevides,dados_benevides__populacao_indigena_total,População Indígena Total,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,92.99479139393627,2030,224.90098435885037
+Benevides,dados_benevides__populacao_indigena_total,População Indígena Total,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,92.99479139393627,2040,224.6238167409572
+Benevides,dados_benevides__populacao_parda,População Parda,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,3.3485364593220672,2030,48.642203425411715
+Benevides,dados_benevides__populacao_parda,População Parda,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,3.3485364593220672,2040,53.31959117116449
+Benevides,dados_benevides__populacao_preta,População Preta,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3534086818258591,2030,7.2488670284015715
+Benevides,dados_benevides__populacao_preta,População Preta,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.3534086818258591,2040,8.739958311851748
+Benevides,dados_benevides__populacao_rural,População Rural,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.4720237686356186,2030,7.36483156064948
+Benevides,dados_benevides__populacao_rural,População Rural,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.4720237686356186,2040,7.363408375563708
+Benevides,dados_benevides__populacao_urbana,População Urbana,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,3.566487284417859,2030,66.80171358331438
+Benevides,dados_benevides__populacao_urbana,População Urbana,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,3.566487284417859,2040,78.97578089154811
+Benevides,dados_benevides__populacao_com_superior_completo,População com Superior Completo,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,409.5010285567618,2030,6.739545478070767
+Benevides,dados_benevides__populacao_com_superior_completo,População com Superior Completo,dados_benevides,Grupo 2 — 3 censos,tanh,adam,True,409.5010285567618,2040,28.347064773304595
+Benevides,dados_benevides__populacao_de_homens,População de Homens,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.172055564352339,2030,33.771523443779536
+Benevides,dados_benevides__populacao_de_homens,População de Homens,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.172055564352339,2040,36.970608783652395
+Benevides,dados_benevides__populacao_de_mulheres,População de Mulheres,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.229091999972779,2030,35.54071995019798
+Benevides,dados_benevides__populacao_de_mulheres,População de Mulheres,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,2.229091999972779,2040,39.129636014179724
+Benevides,dados_benevides__proporcao_na_populacao_de_benevides,Proporção na população de Benevides,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.2559484031722277,2030,0.4740913496555217
+Benevides,dados_benevides__proporcao_na_populacao_de_benevides,Proporção na população de Benevides,dados_benevides,Grupo 2 — 3 censos,logistic,sgd,True,0.2559484031722277,2040,0.4730735900485817
+Benevides,dados_benevides__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_benevides,Grupo 2 — 3 censos,relu,lbfgs,True,0.8512595938737775,2030,94.38926517393085
+Benevides,dados_benevides__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_benevides,Grupo 2 — 3 censos,relu,lbfgs,True,0.8512595938737775,2040,92.98724004788777
+Benevides,dados_benevides__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,2.3183653767410823,2030,29.557849908071223
+Benevides,dados_benevides__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,2.3183653767410823,2040,21.777588298159902
+Benevides,dados_benevides__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2030,18.543020569785803
+Benevides,dados_benevides__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2040,21.43819747752132
+Benevides,dados_benevides__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2030,31.268793689380082
+Benevides,dados_benevides__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2040,35.81189646459636
+Benevides,dados_benevides__responsavel_homem,Responsável Homem,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Benevides,dados_benevides__responsavel_homem,Responsável Homem,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Benevides,dados_benevides__responsavel_mulher,Responsável Mulher,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.13566482453531256,2030,2.517354860739732
+Benevides,dados_benevides__responsavel_mulher,Responsável Mulher,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.13566482453531256,2040,2.265428441245962
+Benevides,dados_benevides__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Benevides,dados_benevides__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Benevides,dados_benevides__setor_privado,Setor privado,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,2.5025025077832517,2030,31.546284270286314
+Benevides,dados_benevides__setor_privado,Setor privado,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,2.5025025077832517,2040,39.390475217088664
+Benevides,dados_benevides__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.5505321112468817,2030,21.68005330971909
+Benevides,dados_benevides__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,1.5505321112468817,2040,27.406085957681114
+Benevides,dados_benevides__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.7813155868051185,2030,8.913063727874253
+Benevides,dados_benevides__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.7813155868051185,2040,10.030343986949333
+Benevides,dados_benevides__setor_publico,Setor público,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.39318514738610766,2030,8.980369924061979
+Benevides,dados_benevides__setor_publico,Setor público,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.39318514738610766,2040,11.282486397727734
+Benevides,dados_benevides__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,140.0585265438638,2030,926.5991388144639
+Benevides,dados_benevides__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,adam,True,140.0585265438638,2040,1191.4851697847084
+Benevides,dados_benevides__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.2531266208422435,2030,8.05367737350786
+Benevides,dados_benevides__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_benevides,Grupo 2 — 3 censos,identity,adam,True,0.2531266208422435,2040,10.090786752715676
+Benevides,dados_benevides__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,0.3660562643337357,2030,72.59275825796868
+Benevides,dados_benevides__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,0.3660562643337357,2040,85.41710999788438
+Benevides,dados_benevides__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_benevides,Grupo 2 — 3 censos,logistic,lbfgs,True,1.7948802028401947,2030,98.63409321504052
+Benevides,dados_benevides__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_benevides,Grupo 2 — 3 censos,logistic,lbfgs,True,1.7948802028401947,2040,98.74076132312892
+Benevides,dados_benevides__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_benevides,Grupo 2 — 3 censos,logistic,adam,True,3.9371076107854086,2030,98.57216722651987
+Benevides,dados_benevides__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_benevides,Grupo 2 — 3 censos,logistic,adam,True,3.9371076107854086,2040,99.1044145462173
+Benevides,dados_benevides__trabalhador_domestico,Trabalhador doméstico,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.23298415750733495,2030,2.706957437212336
+Benevides,dados_benevides__trabalhador_domestico,Trabalhador doméstico,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.23298415750733495,2040,2.9696049544495517
+Benevides,dados_benevides__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,1.525148824669562,2030,902.4603496542082
+Benevides,dados_benevides__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_benevides,Grupo 2 — 3 censos,identity,lbfgs,True,1.525148824669562,2040,1143.3977182652368
+Benevides,dados_benevides__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.2260983944539844,2030,1.854227066703751
+Benevides,dados_benevides__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_benevides,Grupo 2 — 3 censos,relu,adam,True,0.2260983944539844,2040,1.958251086534296
+Benevides,dados_benevides__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_benevides,Grupo 2 — 3 censos,relu,lbfgs,True,6.568121526543119,2030,40.20779076556417
+Benevides,dados_benevides__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_benevides,Grupo 2 — 3 censos,relu,lbfgs,True,6.568121526543119,2040,50.77271082797199
+Benevides,dados_benevides__a_pe,A pé,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.101566598185432
+Benevides,dados_benevides__a_pe,A pé,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.651890022219656
+Benevides,dados_benevides__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.9363512936688
+Benevides,dados_benevides__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.45934411275435
+Benevides,dados_benevides__ate_30_minutos_trajeto_rapido_local,Até 30 minutos (Trajeto rápido local),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.316612320236764
+Benevides,dados_benevides__ate_30_minutos_trajeto_rapido_local,Até 30 minutos (Trajeto rápido local),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.511211308326608
+Benevides,dados_benevides__automovel_carro,Automóvel (Carro),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.744953708201383
+Benevides,dados_benevides__automovel_carro,Automóvel (Carro),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.393828846631088
+Benevides,dados_benevides__bicicleta,Bicicleta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.728524845917219
+Benevides,dados_benevides__bicicleta,Bicicleta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.46675254999422133
+Benevides,dados_benevides__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.25515915841709
+Benevides,dados_benevides__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.71705805446548
+Benevides,dados_benevides__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.36823208014366
+Benevides,dados_benevides__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.68511550692548
+Benevides,dados_benevides__com_coleta_de_lixo,Com Coleta de Lixo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.34506657481987
+Benevides,dados_benevides__com_coleta_de_lixo,Com Coleta de Lixo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.10471574772768
+Benevides,dados_benevides__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.9420298033812933
+Benevides,dados_benevides__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9935571514572216
+Benevides,dados_benevides__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.99435386706126
+Benevides,dados_benevides__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.65201884721099
+Benevides,dados_benevides__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.936238427050346
+Benevides,dados_benevides__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.348457211657772
+Benevides,dados_benevides__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.913072921726558
+Benevides,dados_benevides__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.768057452459978
+Benevides,dados_benevides__de_31_minutos_a_1_hora_pendular_metropolitano,De 31 minutos a 1 hora (Pendular metropolitano),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.492774887913626
+Benevides,dados_benevides__de_31_minutos_a_1_hora_pendular_metropolitano,De 31 minutos a 1 hora (Pendular metropolitano),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.83248593788777
+Benevides,dados_benevides__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.203133196370862
+Benevides,dados_benevides__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.303780044439307
+Benevides,dados_benevides__estuda_em_outro_municipio_rmb_belem_ananindeu,Estuda em outro município (RMB - Belém/Ananindeua),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.56525174201432
+Benevides,dados_benevides__estuda_em_outro_municipio_rmb_belem_ananindeu,Estuda em outro município (RMB - Belém/Ananindeua),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.729400361203307
+Benevides,dados_benevides__estuda_no_proprio_municipio_benevides,Estuda no próprio município (Benevides),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.31661232023676
+Benevides,dados_benevides__estuda_no_proprio_municipio_benevides,Estuda no próprio município (Benevides),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.51121130832658
+Benevides,dados_benevides__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.831993653093306
+Benevides,dados_benevides__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.7366582952677
+Benevides,dados_benevides__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.191220670690399
+Benevides,dados_benevides__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.748238802771682
+Benevides,dados_benevides__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.79713252848914
+Benevides,dados_benevides__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.75517175537442
+Benevides,dados_benevides__idade_mediana_2,Idade Mediana,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.101490169064665
+Benevides,dados_benevides__idade_mediana_2,Idade Mediana,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.67785757286108
+Benevides,dados_benevides__mais_de_1_hora_belem_ananindeua,Mais de 1 hora (Belém/Ananindeua),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.07247685410069
+Benevides,dados_benevides__mais_de_1_hora_belem_ananindeua,Mais de 1 hora (Belém/Ananindeua),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.896914423315543
+Benevides,dados_benevides__motocicleta,Motocicleta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.48990741640277
+Benevides,dados_benevides__motocicleta,Motocicleta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.78765769326218
+Benevides,dados_benevides__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.642003969783104
+Benevides,dados_benevides__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.474183813881496
+Benevides,dados_benevides__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.101490169064665
+Benevides,dados_benevides__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.67785757286108
+Benevides,dados_benevides__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.22901331496397
+Benevides,dados_benevides__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.98094314954554
+Benevides,dados_benevides__ponto_de_onibus_proximo,Ponto de Ônibus próximo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.36823208014366
+Benevides,dados_benevides__ponto_de_onibus_proximo,Ponto de Ônibus próximo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.68511550692548
+Benevides,dados_benevides__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.43876607112935
+Benevides,dados_benevides__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.87527074046678
+Benevides,dados_benevides__populacao_amarela_2,População Amarela,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.20298033812933
+Benevides,dados_benevides__populacao_amarela_2,População Amarela,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.35571514572216
+Benevides,dados_benevides__populacao_branca_2,População Branca,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-368.3264134683066
+Benevides,dados_benevides__populacao_branca_2,População Branca,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-856.3056698955861
+Benevides,dados_benevides__populacao_indigena_2,População Indígena,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.21788202877596
+Benevides,dados_benevides__populacao_indigena_2,População Indígena,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,126.13429087433296
+Benevides,dados_benevides__populacao_parda_2,População Parda,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.610778944517874
+Benevides,dados_benevides__populacao_parda_2,População Parda,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.032194856759517
+Benevides,dados_benevides__populacao_preta_2,População Preta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-313.30355212501024
+Benevides,dados_benevides__populacao_preta_2,População Preta,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-728.7446168824023
+Benevides,dados_benevides__populacao_residente_em_favelas,População Residente em Favelas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.43876607112935
+Benevides,dados_benevides__populacao_residente_em_favelas,População Residente em Favelas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.87527074046678
+Benevides,dados_benevides__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.229013314963971
+Benevides,dados_benevides__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.980943149545535
+Benevides,dados_benevides__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.68965407250496
+Benevides,dados_benevides__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.69634878055203
+Benevides,dados_benevides__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,802.2563269789356
+Benevides,dados_benevides__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,961.1238795379446
+Benevides,dados_benevides__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6194353867061264
+Benevides,dados_benevides__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9852018847210995
+Benevides,dados_benevides__ruas_sem_arvores,Ruas Sem Árvores,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.101566598185435
+Benevides,dados_benevides__ruas_sem_arvores,Ruas Sem Árvores,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.65189002221967
+Benevides,dados_benevides__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.472476854100684
+Benevides,dados_benevides__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.296914423315535
+Benevides,dados_benevides__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.26674191107898
+Benevides,dados_benevides__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.60298033812933
+Benevides,dados_benevides__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.007257934064384
+Benevides,dados_benevides__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.755715145722164
+Benevides,dados_benevides__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.12476854100693
+Benevides,dados_benevides__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.1595167989926
+Benevides,dados_benevides__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.36914423315547
+Benevides,dados_benevides__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.23974387195214
+Benevides,dados_benevides__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0724768541006924
+Benevides,dados_benevides__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.8969144233155455
+Benevides,dados_benevides__sem_conjuge,Sem cônjuge,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.200056433309236
+Benevides,dados_benevides__sem_conjuge,Sem cônjuge,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.75544345054829
+Benevides,dados_benevides__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.9102054502157
+Benevides,dados_benevides__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.7232292078344
+Benevides,dados_benevides__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.59915104520859
+Benevides,dados_benevides__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.8976402167219835
+Benevides,dados_benevides__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.956536460863278
+Benevides,dados_benevides__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.884028726229987
+Benevides,dados_benevides__trabalha_em_outro_municipio_ex_belem_ananinde,"Trabalha em outro município (ex. Belém, Ananindeua, Marituba)",dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.121788202877596
+Benevides,dados_benevides__trabalha_em_outro_municipio_ex_belem_ananinde,"Trabalha em outro município (ex. Belém, Ananindeua, Marituba)",dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.2134290874333
+Benevides,dados_benevides__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Benevides),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.28087474319536
+Benevides,dados_benevides__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Benevides),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.844587583323694
+Benevides,dados_benevides__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.142086236690528
+Benevides,dados_benevides__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.749000602005513
+Benevides,dados_benevides__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.36823208014364
+Benevides,dados_benevides__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.68511550692547
+Benevides,dados_benevides__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.208715281151039
+Benevides,dados_benevides__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.445371634973319
+Benevides,dados_benevides__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.420410900431406
+Benevides,dados_benevides__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.04645841566881
+Benevides,dados_benevides__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.92476854100693
+Benevides,dados_benevides__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.16914423315546
+Benevides,dados_benevides__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.26674191107898
+Benevides,dados_benevides__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.007257934064384
+Benevides,dados_benevides__onibus_transporte_metropolitano,Ônibus / Transporte Metropolitano,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.37930814500994
+Benevides,dados_benevides__onibus_transporte_metropolitano,Ônibus / Transporte Metropolitano,dados_benevides,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.392697561104054
