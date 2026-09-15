@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Igarapé_Miri,dados_igarape_miri__anos_de_estudo_media,Anos de Estudo (Média),dados_igarape_miri,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106263,2030,9.19525598673518
+Igarapé_Miri,dados_igarape_miri__anos_de_estudo_media,Anos de Estudo (Média),dados_igarape_miri,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106263,2040,10.832544198956306
+Igarapé_Miri,dados_igarape_miri__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_igarape_miri,Grupo 1 — 4 censos,relu,adam,True,9.741108180647807,2030,252.89875250780412
+Igarapé_Miri,dados_igarape_miri__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_igarape_miri,Grupo 1 — 4 censos,relu,adam,True,9.741108180647807,2040,268.87144046158863
+Igarapé_Miri,dados_igarape_miri__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.45849773897474755,2030,22.216936176338848
+Igarapé_Miri,dados_igarape_miri__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.45849773897474755,2040,25.792399947680472
+Igarapé_Miri,dados_igarape_miri__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.14160668438998647,2030,8.703641939560601
+Igarapé_Miri,dados_igarape_miri__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.14160668438998647,2040,10.268685172282392
+Igarapé_Miri,dados_igarape_miri__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_igarape_miri,Grupo 1 — 4 censos,identity,lbfgs,True,0.24793022910763907,2030,9.680704378438445
+Igarapé_Miri,dados_igarape_miri__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_igarape_miri,Grupo 1 — 4 censos,identity,lbfgs,True,0.24793022910763907,2040,11.384160168952473
+Igarapé_Miri,dados_igarape_miri__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_igarape_miri,Grupo 1 — 4 censos,relu,adam,True,0.2863458928188123,2030,2.841208108811667
+Igarapé_Miri,dados_igarape_miri__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_igarape_miri,Grupo 1 — 4 censos,relu,adam,True,0.2863458928188123,2040,2.336009890399855
+Igarapé_Miri,dados_igarape_miri__populacao_total,População Total,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,1.1770782742143524,2030,66.15962855722347
+Igarapé_Miri,dados_igarape_miri__populacao_total,População Total,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,1.1770782742143524,2040,70.39648754540005
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_igarape_miri,Grupo 1 — 4 censos,logistic,lbfgs,True,1.362141765250204,2030,91.62063066886687
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_igarape_miri,Grupo 1 — 4 censos,logistic,lbfgs,True,1.362141765250204,2040,92.80979929428018
+Igarapé_Miri,dados_igarape_miri__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.45090912741130307,2030,22.486334286323334
+Igarapé_Miri,dados_igarape_miri__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_igarape_miri,Grupo 1 — 4 censos,identity,adam,True,0.45090912741130307,2040,26.09343132600486
+Igarapé_Miri,dados_igarape_miri__2_trabalhos,2 trabalhos,dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,1.4173651661919395,2030,6.714526035889408
+Igarapé_Miri,dados_igarape_miri__2_trabalhos,2 trabalhos,dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,1.4173651661919395,2040,6.823927557466342
+Igarapé_Miri,dados_igarape_miri__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2030,0.5684325707834375
+Igarapé_Miri,dados_igarape_miri__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.23572755235183881,2040,0.5678677444583979
+Igarapé_Miri,dados_igarape_miri__apenas_1_trabalho,Apenas 1 trabalho,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,1.6839272812885941,2030,94.50325297023429
+Igarapé_Miri,dados_igarape_miri__apenas_1_trabalho,Apenas 1 trabalho,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,1.6839272812885941,2040,94.4965638332102
+Igarapé_Miri,dados_igarape_miri__casais_com_filhos,Casais com filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,1.0676652097085484,2030,37.93052797015337
+Igarapé_Miri,dados_igarape_miri__casais_com_filhos,Casais com filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,1.0676652097085484,2040,29.584379578766086
+Igarapé_Miri,dados_igarape_miri__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.4024792158418835,2030,7.70268642233628
+Igarapé_Miri,dados_igarape_miri__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.4024792158418835,2040,7.7014974350075045
+Igarapé_Miri,dados_igarape_miri__casais_sem_filhos,Casais sem filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.126861229008294,2030,17.219820037464366
+Igarapé_Miri,dados_igarape_miri__casais_sem_filhos,Casais sem filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.126861229008294,2040,20.49935146388247
+Igarapé_Miri,dados_igarape_miri__conta_propria,Conta própria,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,1.5595572747689257,2030,18.646920693347855
+Igarapé_Miri,dados_igarape_miri__conta_propria,Conta própria,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,1.5595572747689257,2040,20.88202060693891
+Igarapé_Miri,dados_igarape_miri__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.5033201619058355,2030,26.600986322183715
+Igarapé_Miri,dados_igarape_miri__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.5033201619058355,2040,31.0916688260111
+Igarapé_Miri,dados_igarape_miri__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.39460351300205926,2030,27.74433081692982
+Igarapé_Miri,dados_igarape_miri__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.39460351300205926,2040,31.586425705830813
+Igarapé_Miri,dados_igarape_miri__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,4.716372674952283,2030,14.546475287127311
+Igarapé_Miri,dados_igarape_miri__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,4.716372674952283,2040,6.630636385231156
+Igarapé_Miri,dados_igarape_miri__empregador,Empregador,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,349.01424330805327,2030,335.2541098544557
+Igarapé_Miri,dados_igarape_miri__empregador,Empregador,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,349.01424330805327,2040,333.8509478132101
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,adam,True,4.6709315942158725,2030,97.05677107512622
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,adam,True,4.6709315942158725,2040,97.79342650516458
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,3.753602019712396,2030,81.35864106409115
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,3.753602019712396,2040,84.98338421649368
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,lbfgs,True,2.4482853158337825,2030,26.752003722441927
+Igarapé_Miri,dados_igarape_miri__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,lbfgs,True,2.4482853158337825,2040,26.916549054808346
+Igarapé_Miri,dados_igarape_miri__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.023133452330308075,2030,0.860431217165044
+Igarapé_Miri,dados_igarape_miri__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.023133452330308075,2040,1.0174646046207103
+Igarapé_Miri,dados_igarape_miri__idade_mediana,Idade Mediana,dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,1.802498913376149,2030,29.355875295257352
+Igarapé_Miri,dados_igarape_miri__idade_mediana,Idade Mediana,dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,1.802498913376149,2040,32.20129143360128
+Igarapé_Miri,dados_igarape_miri__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,76.14567995177735,2030,902.8717466100911
+Igarapé_Miri,dados_igarape_miri__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,76.14567995177735,2040,1148.6821369008017
+Igarapé_Miri,dados_igarape_miri__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2030,25.79984836920457
+Igarapé_Miri,dados_igarape_miri__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032577863,2040,28.799889491110577
+Igarapé_Miri,dados_igarape_miri__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2030,4.10294056530449
+Igarapé_Miri,dados_igarape_miri__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2040,4.101926456337082
+Igarapé_Miri,dados_igarape_miri__media_populacao_amarela,Média: População Amarela,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2030,10.226244088120604
+Igarapé_Miri,dados_igarape_miri__media_populacao_amarela,Média: População Amarela,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2040,11.805428803558552
+Igarapé_Miri,dados_igarape_miri__media_populacao_branca,Média: População Branca,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.6374744956957921,2030,8.982980002978882
+Igarapé_Miri,dados_igarape_miri__media_populacao_branca,Média: População Branca,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.6374744956957921,2040,9.777260976990302
+Igarapé_Miri,dados_igarape_miri__media_populacao_indigena,Média: População Indígena,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.0605055954233665,2030,7.296535701749049
+Igarapé_Miri,dados_igarape_miri__media_populacao_indigena,Média: População Indígena,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.0605055954233665,2040,8.653817444050901
+Igarapé_Miri,dados_igarape_miri__media_populacao_preta_parda,Média: População Preta / Parda,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.44083885235720155,2030,8.877875818825988
+Igarapé_Miri,dados_igarape_miri__media_populacao_preta_parda,Média: População Preta / Parda,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.44083885235720155,2040,10.500983996543756
+Igarapé_Miri,dados_igarape_miri__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,413.98648276051085,2030,951.2965824537055
+Igarapé_Miri,dados_igarape_miri__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,413.98648276051085,2040,995.3788917389311
+Igarapé_Miri,dados_igarape_miri__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_igarape_miri,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.168974426752009
+Igarapé_Miri,dados_igarape_miri__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_igarape_miri,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.502782091398335
+Igarapé_Miri,dados_igarape_miri__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608167,2030,2.124704576720187
+Igarapé_Miri,dados_igarape_miri__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608167,2040,2.5340508541356814
+Igarapé_Miri,dados_igarape_miri__populacao_amarela,População Amarela,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2030,123.40988180054752
+Igarapé_Miri,dados_igarape_miri__populacao_amarela,População Amarela,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,16.80160368632241,2040,123.34916867409625
+Igarapé_Miri,dados_igarape_miri__populacao_branca,População Branca,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.32635075572375766,2030,7.148255266455425
+Igarapé_Miri,dados_igarape_miri__populacao_branca,População Branca,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.32635075572375766,2040,7.147088325350738
+Igarapé_Miri,dados_igarape_miri__populacao_indigena,População Indígena,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.06197280941666,2030,448.7256502212764
+Igarapé_Miri,dados_igarape_miri__populacao_indigena,População Indígena,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.06197280941666,2040,534.787569704861
+Igarapé_Miri,dados_igarape_miri__populacao_indigena_total,População Indígena Total,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.06197280941666,2030,448.7256502212764
+Igarapé_Miri,dados_igarape_miri__populacao_indigena_total,População Indígena Total,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.06197280941666,2040,534.787569704861
+Igarapé_Miri,dados_igarape_miri__populacao_parda,População Parda,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,2.024148073701317,2030,53.20289123268547
+Igarapé_Miri,dados_igarape_miri__populacao_parda,População Parda,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,2.024148073701317,2040,54.90590096654438
+Igarapé_Miri,dados_igarape_miri__populacao_preta,População Preta,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.7952772518118293,2030,3.0253550610134448
+Igarapé_Miri,dados_igarape_miri__populacao_preta,População Preta,dados_igarape_miri,Grupo 2 — 3 censos,logistic,sgd,True,0.7952772518118293,2040,3.0222448561508846
+Igarapé_Miri,dados_igarape_miri__populacao_rural,População Rural,dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,0.6815908974594022,2030,25.186901144565727
+Igarapé_Miri,dados_igarape_miri__populacao_rural,População Rural,dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,0.6815908974594022,2040,23.463479686318802
+Igarapé_Miri,dados_igarape_miri__populacao_urbana,População Urbana,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.6875679451054317,2030,39.688595173545124
+Igarapé_Miri,dados_igarape_miri__populacao_urbana,População Urbana,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.6875679451054317,2040,44.68044823367072
+Igarapé_Miri,dados_igarape_miri__populacao_com_superior_completo,População com Superior Completo,dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,210.2977615812522,2030,3.8750848262405384
+Igarapé_Miri,dados_igarape_miri__populacao_com_superior_completo,População com Superior Completo,dados_igarape_miri,Grupo 2 — 3 censos,tanh,adam,True,210.2977615812522,2040,14.968914810161934
+Igarapé_Miri,dados_igarape_miri__populacao_de_homens,População de Homens,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.4541882804900972,2030,33.038587686357296
+Igarapé_Miri,dados_igarape_miri__populacao_de_homens,População de Homens,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.4541882804900972,2040,34.81585518637779
+Igarapé_Miri,dados_igarape_miri__populacao_de_mulheres,População de Mulheres,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.009152468173020623,2030,32.42506352517669
+Igarapé_Miri,dados_igarape_miri__populacao_de_mulheres,População de Mulheres,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.009152468173020623,2040,34.42948660495159
+Igarapé_Miri,dados_igarape_miri__proporcao_na_populacao_de_igarape_miri,Proporção na população de Igarapé-Miri,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.04326437766420599,2030,0.6501530789069672
+Igarapé_Miri,dados_igarape_miri__proporcao_na_populacao_de_igarape_miri,Proporção na população de Igarapé-Miri,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.04326437766420599,2040,0.7115321004321513
+Igarapé_Miri,dados_igarape_miri__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,1.0366872970502403,2030,100.9355708580599
+Igarapé_Miri,dados_igarape_miri__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,1.0366872970502403,2040,99.1952504129823
+Igarapé_Miri,dados_igarape_miri__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,129.22767856344632,2030,987.9168598876872
+Igarapé_Miri,dados_igarape_miri__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,129.22767856344632,2040,1264.5027487833795
+Igarapé_Miri,dados_igarape_miri__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,1.464228653832187,2030,32.27335079357323
+Igarapé_Miri,dados_igarape_miri__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,1.464228653832187,2040,24.0700488317908
+Igarapé_Miri,dados_igarape_miri__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.4557676798005173,2030,17.04935957076476
+Igarapé_Miri,dados_igarape_miri__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.4557676798005173,2040,19.758691487905377
+Igarapé_Miri,dados_igarape_miri__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450255,2030,28.46635007903043
+Igarapé_Miri,dados_igarape_miri__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450255,2040,32.56115024929078
+Igarapé_Miri,dados_igarape_miri__responsavel_homem,Responsável Homem,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504436153838615,2030,2.7494338551302064
+Igarapé_Miri,dados_igarape_miri__responsavel_homem,Responsável Homem,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504436153838615,2040,2.0681164388836466
+Igarapé_Miri,dados_igarape_miri__responsavel_mulher,Responsável Mulher,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Igarapé_Miri,dados_igarape_miri__responsavel_mulher,Responsável Mulher,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Igarapé_Miri,dados_igarape_miri__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2030,2.448333956807974
+Igarapé_Miri,dados_igarape_miri__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2040,1.9043777255795584
+Igarapé_Miri,dados_igarape_miri__setor_privado,Setor privado,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361988851915,2030,22.965864074082624
+Igarapé_Miri,dados_igarape_miri__setor_privado,Setor privado,dados_igarape_miri,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361988851915,2040,28.696711957899545
+Igarapé_Miri,dados_igarape_miri__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,sgd,True,0.3869749774100484,2030,13.491452589518353
+Igarapé_Miri,dados_igarape_miri__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,sgd,True,0.3869749774100484,2040,17.311816773672923
+Igarapé_Miri,dados_igarape_miri__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.17291511834665943,2030,9.691187383504058
+Igarapé_Miri,dados_igarape_miri__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.17291511834665943,2040,11.766549974587019
+Igarapé_Miri,dados_igarape_miri__setor_publico,Setor público,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.36566785804055413,2030,7.207517475752032
+Igarapé_Miri,dados_igarape_miri__setor_publico,Setor público,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.36566785804055413,2040,9.024758585838542
+Igarapé_Miri,dados_igarape_miri__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,101.99885799547685,2030,645.028567075736
+Igarapé_Miri,dados_igarape_miri__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,101.99885799547685,2040,836.853929508688
+Igarapé_Miri,dados_igarape_miri__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.2636690000450761,2030,6.562407831117253
+Igarapé_Miri,dados_igarape_miri__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,0.2636690000450761,2040,8.187721537160433
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.9506676237996814,2030,61.927657092052584
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,1.9506676237996814,2040,73.27952416556232
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,2.7108543957710083,2030,97.84273047003133
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,2.7108543957710083,2040,99.12985191795174
+Igarapé_Miri,dados_igarape_miri__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,adam,True,4.6709315942158725,2030,97.05677107512622
+Igarapé_Miri,dados_igarape_miri__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_igarape_miri,Grupo 2 — 3 censos,logistic,adam,True,4.6709315942158725,2040,97.79342650516458
+Igarapé_Miri,dados_igarape_miri__trabalhador_domestico,Trabalhador doméstico,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.2063245268092472,2030,2.685443650657393
+Igarapé_Miri,dados_igarape_miri__trabalhador_domestico,Trabalhador doméstico,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.2063245268092472,2040,3.010723321253833
+Igarapé_Miri,dados_igarape_miri__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.438260780543278,2030,663.8914689490734
+Igarapé_Miri,dados_igarape_miri__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,identity,adam,True,27.438260780543278,2040,849.9827848233422
+Igarapé_Miri,dados_igarape_miri__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.16027356640977417,2030,2.0414687134652256
+Igarapé_Miri,dados_igarape_miri__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_igarape_miri,Grupo 2 — 3 censos,relu,adam,True,0.16027356640977417,2040,2.2153679697400896
+Igarapé_Miri,dados_igarape_miri__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,4.6656653470406555,2030,29.04529961335514
+Igarapé_Miri,dados_igarape_miri__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_igarape_miri,Grupo 2 — 3 censos,relu,lbfgs,True,4.6656653470406555,2040,36.45969684615778
+Igarapé_Miri,dados_igarape_miri__a_pe,A pé,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.316612320236755
+Igarapé_Miri,dados_igarape_miri__a_pe,A pé,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.5112113083265974
+Igarapé_Miri,dados_igarape_miri__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.663874439568126
+Igarapé_Miri,dados_igarape_miri__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.36242968943881
+Igarapé_Miri,dados_igarape_miri__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.28087474319537
+Igarapé_Miri,dados_igarape_miri__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.84458758332371
+Igarapé_Miri,dados_igarape_miri__automovel_carro,Automóvel (Carro),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.355102725107852
+Igarapé_Miri,dados_igarape_miri__automovel_carro,Automóvel (Carro),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.261614603917202
+Igarapé_Miri,dados_igarape_miri__bicicleta,Bicicleta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.152349897278148
+Igarapé_Miri,dados_igarape_miri__bicicleta,Bicicleta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.9778350333294865
+Igarapé_Miri,dados_igarape_miri__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.36823208014366
+Igarapé_Miri,dados_igarape_miri__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.68511550692548
+Igarapé_Miri,dados_igarape_miri__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.36823208014366
+Igarapé_Miri,dados_igarape_miri__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.68511550692548
+Igarapé_Miri,dados_igarape_miri__com_coleta_de_lixo,Com Coleta de Lixo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.92476854100693
+Igarapé_Miri,dados_igarape_miri__com_coleta_de_lixo,Com Coleta de Lixo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.16914423315546
+Igarapé_Miri,dados_igarape_miri__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7420298033812932
+Igarapé_Miri,dados_igarape_miri__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.7935571514572215
+Igarapé_Miri,dados_igarape_miri__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.99435386706126
+Igarapé_Miri,dados_igarape_miri__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.65201884721099
+Igarapé_Miri,dados_igarape_miri__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.356536460863278
+Igarapé_Miri,dados_igarape_miri__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.284028726229987
+Igarapé_Miri,dados_igarape_miri__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.892774887913625
+Igarapé_Miri,dados_igarape_miri__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.232485937887761
+Igarapé_Miri,dados_igarape_miri__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.744953708201383
+Igarapé_Miri,dados_igarape_miri__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.39382884663109
+Igarapé_Miri,dados_igarape_miri__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.418178918422186
+Igarapé_Miri,dados_igarape_miri__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.163101330546244
+Igarapé_Miri,dados_igarape_miri__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.140437371597683
+Igarapé_Miri,dados_igarape_miri__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.422293791661854
+Igarapé_Miri,dados_igarape_miri__estuda_em_outro_municipio,Estuda em outro município,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.892774887913625
+Igarapé_Miri,dados_igarape_miri__estuda_em_outro_municipio,Estuda em outro município,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.23248593788776
+Igarapé_Miri,dados_igarape_miri__estuda_no_proprio_municipio_igarape_miri,Estuda no próprio município (Igarapé-Miri),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.41504572205133
+Igarapé_Miri,dados_igarape_miri__estuda_no_proprio_municipio_igarape_miri,Estuda no próprio município (Igarapé-Miri),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.05932128610695
+Igarapé_Miri,dados_igarape_miri__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.15951679899261
+Igarapé_Miri,dados_igarape_miri__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.239743871952165
+Igarapé_Miri,dados_igarape_miri__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.453916495463577
+Igarapé_Miri,dados_igarape_miri__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.829725055549138
+Igarapé_Miri,dados_igarape_miri__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.48119213525173
+Igarapé_Miri,dados_igarape_miri__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.54228605828887
+Igarapé_Miri,dados_igarape_miri__idade_mediana_2,Idade Mediana,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.68119213525173
+Igarapé_Miri,dados_igarape_miri__idade_mediana_2,Idade Mediana,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.742286058288865
+Igarapé_Miri,dados_igarape_miri__mais_de_1_hora,Mais de 1 hora,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.37683449467621
+Igarapé_Miri,dados_igarape_miri__mais_de_1_hora,Mais de 1 hora,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.819600240802203
+Igarapé_Miri,dados_igarape_miri__motocicleta,Motocicleta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.45659289417251
+Igarapé_Miri,dados_igarape_miri__motocicleta,Motocicleta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.939472176778274
+Igarapé_Miri,dados_igarape_miri__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.36739561932947
+Igarapé_Miri,dados_igarape_miri__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.83715631943642
+Igarapé_Miri,dados_igarape_miri__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.260894101438798
+Igarapé_Miri,dados_igarape_miri__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.806714543716648
+Igarapé_Miri,dados_igarape_miri__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.165251742014316
+Igarapé_Miri,dados_igarape_miri__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.329400361203305
+Igarapé_Miri,dados_igarape_miri__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.84070893424435
+Igarapé_Miri,dados_igarape_miri__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.98202993024103
+Igarapé_Miri,dados_igarape_miri__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.673514329115033
+Igarapé_Miri,dados_igarape_miri__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.945870379263473
+Igarapé_Miri,dados_igarape_miri__populacao_amarela_2,População Amarela,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.20298033812933
+Igarapé_Miri,dados_igarape_miri__populacao_amarela_2,População Amarela,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.35571514572216
+Igarapé_Miri,dados_igarape_miri__populacao_branca_2,População Branca,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,835.5102725107852
+Igarapé_Miri,dados_igarape_miri__populacao_branca_2,População Branca,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1026.16146039172
+Igarapé_Miri,dados_igarape_miri__populacao_indigena_2,População Indígena,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,157.82682304316393
+Igarapé_Miri,dados_igarape_miri__populacao_indigena_2,População Indígena,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,204.20143631149944
+Igarapé_Miri,dados_igarape_miri__populacao_parda_2,População Parda,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.924666961050299
+Igarapé_Miri,dados_igarape_miri__populacao_parda_2,População Parda,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.769346022168534
+Igarapé_Miri,dados_igarape_miri__populacao_preta_2,População Preta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,731.3072921726557
+Igarapé_Miri,dados_igarape_miri__populacao_preta_2,População Preta,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,916.8057452459977
+Igarapé_Miri,dados_igarape_miri__populacao_residente_em_favelas,População Residente em Favelas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.673514329115033
+Igarapé_Miri,dados_igarape_miri__populacao_residente_em_favelas,População Residente em Favelas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.945870379263473
+Igarapé_Miri,dados_igarape_miri__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.040596067625866
+Igarapé_Miri,dados_igarape_miri__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.071143029144432
+Igarapé_Miri,dados_igarape_miri__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.16426242295861
+Igarapé_Miri,dados_igarape_miri__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.53337627499712
+Igarapé_Miri,dados_igarape_miri__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.1194353867061264
+Igarapé_Miri,dados_igarape_miri__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4852018847210995
+Igarapé_Miri,dados_igarape_miri__ruas_sem_arvores,Ruas Sem Árvores,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.776174948639074
+Igarapé_Miri,dados_igarape_miri__ruas_sem_arvores,Ruas Sem Árvores,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.68891751666474
+Igarapé_Miri,dados_igarape_miri__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.90435764057553
+Igarapé_Miri,dados_igarape_miri__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.52268581748666
+Igarapé_Miri,dados_igarape_miri__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.469609382589836
+Igarapé_Miri,dados_igarape_miri__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.57396702316536
+Igarapé_Miri,dados_igarape_miri__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.252086178689964
+Igarapé_Miri,dados_igarape_miri__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.974771996176628
+Igarapé_Miri,dados_igarape_miri__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.92476854100693
+Igarapé_Miri,dados_igarape_miri__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.36823208014366
+Igarapé_Miri,dados_igarape_miri__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.16914423315546
+Igarapé_Miri,dados_igarape_miri__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.68511550692548
+Igarapé_Miri,dados_igarape_miri__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Igarapé_Miri,dados_igarape_miri__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Igarapé_Miri,dados_igarape_miri__sem_conjuge,Sem cônjuge,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.40005643330924
+Igarapé_Miri,dados_igarape_miri__sem_conjuge,Sem cônjuge,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.955443450548294
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.26674191107898
+Igarapé_Miri,dados_igarape_miri__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.0072579340644
+Igarapé_Miri,dados_igarape_miri__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-552.4727549936986
+Igarapé_Miri,dados_igarape_miri__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1284.4325791560182
+Igarapé_Miri,dados_igarape_miri__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.313072921726558
+Igarapé_Miri,dados_igarape_miri__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.16805745245998
+Igarapé_Miri,dados_igarape_miri__trabalha_em_outro_municipio,Trabalha em outro município,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.860894101438799
+Igarapé_Miri,dados_igarape_miri__trabalha_em_outro_municipio,Trabalha em outro município,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.406714543716648
+Igarapé_Miri,dados_igarape_miri__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.34043737159769
+Igarapé_Miri,dados_igarape_miri__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.62229379166186
+Igarapé_Miri,dados_igarape_miri__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.005847809640183
+Igarapé_Miri,dados_igarape_miri__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.20054339034774
+Igarapé_Miri,dados_igarape_miri__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.579814832805546
+Igarapé_Miri,dados_igarape_miri__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.175315386524375
+Igarapé_Miri,dados_igarape_miri__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3043576405755193
+Igarapé_Miri,dados_igarape_miri__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9226858174866592
+Igarapé_Miri,dados_igarape_miri__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.687039944891914
+Igarapé_Miri,dados_igarape_miri__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.942829448636605
+Igarapé_Miri,dados_igarape_miri__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.62912618158245
+Igarapé_Miri,dados_igarape_miri__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.49183005064211
+Igarapé_Miri,dados_igarape_miri__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.24644387726605
+Igarapé_Miri,dados_igarape_miri__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_igarape_miri,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.471686419492173
