@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Breu_Branco,dados_breu_branco__anos_de_estudo_media,Anos de Estudo (Média),dados_breu_branco,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2030,9.36194236180943
+Breu_Branco,dados_breu_branco__anos_de_estudo_media,Anos de Estudo (Média),dados_breu_branco,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2040,11.146636996362925
+Breu_Branco,dados_breu_branco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_breu_branco,Grupo 1 — 4 censos,tanh,adam,True,31.674730891452427,2030,343.9492373125681
+Breu_Branco,dados_breu_branco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_breu_branco,Grupo 1 — 4 censos,tanh,adam,True,31.674730891452427,2040,347.7227843084812
+Breu_Branco,dados_breu_branco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.7296353281223242,2030,17.574697254530616
+Breu_Branco,dados_breu_branco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.7296353281223242,2040,18.30341985118417
+Breu_Branco,dados_breu_branco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2950134462435783,2030,7.880515422419992
+Breu_Branco,dados_breu_branco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2950134462435783,2040,8.170365045632746
+Breu_Branco,dados_breu_branco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3427495701240689,2030,8.660038138625254
+Breu_Branco,dados_breu_branco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3427495701240689,2040,8.937615395424086
+Breu_Branco,dados_breu_branco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_breu_branco,Grupo 1 — 4 censos,identity,adam,True,0.10521888106060662,2030,1.9059420076154687
+Breu_Branco,dados_breu_branco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_breu_branco,Grupo 1 — 4 censos,identity,adam,True,0.10521888106060662,2040,0.9099857075676168
+Breu_Branco,dados_breu_branco__populacao_total,População Total,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,7.52682908068043,2030,39.785687408000776
+Breu_Branco,dados_breu_branco__populacao_total,População Total,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,7.52682908068043,2040,37.221227837786586
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,2.3833493284365606,2030,89.83612073926426
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,2.3833493284365606,2040,90.87311496724982
+Breu_Branco,dados_breu_branco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.6906874963714074,2030,17.930172199214212
+Breu_Branco,dados_breu_branco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_breu_branco,Grupo 1 — 4 censos,logistic,lbfgs,True,0.6906874963714074,2040,18.663720741344196
+Breu_Branco,dados_breu_branco__2_trabalhos,2 trabalhos,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,2.2336784259882925,2030,8.581113106278071
+Breu_Branco,dados_breu_branco__2_trabalhos,2 trabalhos,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,2.2336784259882925,2040,8.746159905660885
+Breu_Branco,dados_breu_branco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.20224865098067826,2030,0.7017237090295698
+Breu_Branco,dados_breu_branco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.20224865098067826,2040,0.7011312045675425
+Breu_Branco,dados_breu_branco__apenas_1_trabalho,Apenas 1 trabalho,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,2.4103282812875384,2030,93.43826647951954
+Breu_Branco,dados_breu_branco__apenas_1_trabalho,Apenas 1 trabalho,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,2.4103282812875384,2040,93.428679570569
+Breu_Branco,dados_breu_branco__casais_com_filhos,Casais com filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.9761502973237839,2030,37.58217405948451
+Breu_Branco,dados_breu_branco__casais_com_filhos,Casais com filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.9761502973237839,2040,28.779985005596515
+Breu_Branco,dados_breu_branco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,7.9347956242531374
+Breu_Branco,dados_breu_branco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,7.933962067246486
+Breu_Branco,dados_breu_branco__casais_sem_filhos,Casais sem filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,1.1572457409949937,2030,16.470008542531417
+Breu_Branco,dados_breu_branco__casais_sem_filhos,Casais sem filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,1.1572457409949937,2040,19.569076748783573
+Breu_Branco,dados_breu_branco__conta_propria,Conta própria,dados_breu_branco,Grupo 2 — 3 censos,tanh,lbfgs,True,2.3384300817869934,2030,12.108404431185566
+Breu_Branco,dados_breu_branco__conta_propria,Conta própria,dados_breu_branco,Grupo 2 — 3 censos,tanh,lbfgs,True,2.3384300817869934,2040,12.01924635537104
+Breu_Branco,dados_breu_branco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302904534078066,2030,26.29648018093951
+Breu_Branco,dados_breu_branco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302904534078066,2040,30.70862866595295
+Breu_Branco,dados_breu_branco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.531597245492255,2030,27.222537069881632
+Breu_Branco,dados_breu_branco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.531597245492255,2040,30.881414867556174
+Breu_Branco,dados_breu_branco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,3.9451568239792416,2030,16.668304960566616
+Breu_Branco,dados_breu_branco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,3.9451568239792416,2040,9.153924831314459
+Breu_Branco,dados_breu_branco__empregador,Empregador,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,409.54641984456157,2030,375.4960217616703
+Breu_Branco,dados_breu_branco__empregador,Empregador,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,409.54641984456157,2040,373.8976770180395
+Breu_Branco,dados_breu_branco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,5.16061517715265,2030,97.36090242749493
+Breu_Branco,dados_breu_branco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,5.16061517715265,2040,98.2217397149865
+Breu_Branco,dados_breu_branco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,3.768540097267549,2030,78.20551158179265
+Breu_Branco,dados_breu_branco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,3.768540097267549,2040,82.86281764933207
+Breu_Branco,dados_breu_branco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,2.024148073701317,2030,25.582891232685466
+Breu_Branco,dados_breu_branco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,2.024148073701317,2040,27.28590096654438
+Breu_Branco,dados_breu_branco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.0005274478999351129,2030,0.8752759594303876
+Breu_Branco,dados_breu_branco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.0005274478999351129,2040,1.0489683771797909
+Breu_Branco,dados_breu_branco__idade_mediana,Idade Mediana,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,32.46879368938008
+Breu_Branco,dados_breu_branco__idade_mediana,Idade Mediana,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,37.011896464596354
+Breu_Branco,dados_breu_branco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,6.1009605682433135,2030,609.881830688075
+Breu_Branco,dados_breu_branco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,6.1009605682433135,2040,773.6203416542727
+Breu_Branco,dados_breu_branco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.05997873832329681,2030,25.889820195685132
+Breu_Branco,dados_breu_branco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.05997873832329681,2040,29.239222148887052
+Breu_Branco,dados_breu_branco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.33240921070122614,2030,4.135776229253882
+Breu_Branco,dados_breu_branco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.33240921070122614,2040,4.134903109109162
+Breu_Branco,dados_breu_branco__media_populacao_amarela,Média: População Amarela,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.573410968910076,2030,9.131184539481223
+Breu_Branco,dados_breu_branco__media_populacao_amarela,Média: População Amarela,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.573410968910076,2040,10.02771365360336
+Breu_Branco,dados_breu_branco__media_populacao_branca,Média: População Branca,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362885,2030,8.929012551465995
+Breu_Branco,dados_breu_branco__media_populacao_branca,Média: População Branca,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362885,2040,9.821030287546096
+Breu_Branco,dados_breu_branco__media_populacao_indigena,Média: População Indígena,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.1669831016518398,2030,7.323058048423071
+Breu_Branco,dados_breu_branco__media_populacao_indigena,Média: População Indígena,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.1669831016518398,2040,8.814479575086828
+Breu_Branco,dados_breu_branco__media_populacao_preta_parda,Média: População Preta / Parda,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898914,2030,8.27638839313131
+Breu_Branco,dados_breu_branco__media_populacao_preta_parda,Média: População Preta / Parda,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898914,2040,9.226231846697543
+Breu_Branco,dados_breu_branco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,354.9302514182848,2030,815.3905749331932
+Breu_Branco,dados_breu_branco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,354.9302514182848,2040,853.1725630345934
+Breu_Branco,dados_breu_branco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,4.299914609435302
+Breu_Branco,dados_breu_branco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.66115886505405
+Breu_Branco,dados_breu_branco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348898,2030,2.071948028113822
+Breu_Branco,dados_breu_branco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348898,2040,2.435998066656154
+Breu_Branco,dados_breu_branco__populacao_amarela,População Amarela,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,41.602896583626425,2030,94.0404511552538
+Breu_Branco,dados_breu_branco__populacao_amarela,População Amarela,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,41.602896583626425,2040,93.87451237003043
+Breu_Branco,dados_breu_branco__populacao_branca,População Branca,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.8914932666009546,2030,8.322500678419862
+Breu_Branco,dados_breu_branco__populacao_branca,População Branca,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.8914932666009546,2040,8.318848862615212
+Breu_Branco,dados_breu_branco__populacao_indigena,População Indígena,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,214.14789416987185,2030,201.65637936440652
+Breu_Branco,dados_breu_branco__populacao_indigena,População Indígena,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,214.14789416987185,2040,201.01855553468258
+Breu_Branco,dados_breu_branco__populacao_indigena_total,População Indígena Total,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,214.14789416987185,2030,201.65637936440652
+Breu_Branco,dados_breu_branco__populacao_indigena_total,População Indígena Total,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,214.14789416987185,2040,201.01855553468258
+Breu_Branco,dados_breu_branco__populacao_parda,População Parda,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,4.759975842072609,2030,33.7203570709867
+Breu_Branco,dados_breu_branco__populacao_parda,População Parda,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,4.759975842072609,2040,33.70628952291214
+Breu_Branco,dados_breu_branco__populacao_preta,População Preta,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.8514153630573769,2030,3.700362124581408
+Breu_Branco,dados_breu_branco__populacao_preta,População Preta,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.8514153630573769,2040,3.6980371064456614
+Breu_Branco,dados_breu_branco__populacao_rural,População Rural,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,2.0811415515250204,2030,14.206856422807187
+Breu_Branco,dados_breu_branco__populacao_rural,População Rural,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,2.0811415515250204,2040,14.198327343026813
+Breu_Branco,dados_breu_branco__populacao_urbana,População Urbana,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,4.96614005577889,2030,31.834523062410682
+Breu_Branco,dados_breu_branco__populacao_urbana,População Urbana,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,4.96614005577889,2040,31.820166642895423
+Breu_Branco,dados_breu_branco__populacao_com_superior_completo,População com Superior Completo,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,99.53287188575848,2030,2.2297042224411996
+Breu_Branco,dados_breu_branco__populacao_com_superior_completo,População com Superior Completo,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,99.53287188575848,2040,7.478826262682155
+Breu_Branco,dados_breu_branco__populacao_de_homens,População de Homens,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,3.3891391489250267,2030,23.328382009644287
+Breu_Branco,dados_breu_branco__populacao_de_homens,População de Homens,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,3.3891391489250267,2040,23.31826749445202
+Breu_Branco,dados_breu_branco__populacao_de_mulheres,População de Mulheres,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,3.1509099930386575,2030,22.70901255572429
+Breu_Branco,dados_breu_branco__populacao_de_mulheres,População de Mulheres,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,3.1509099930386575,2040,22.699699429641317
+Breu_Branco,dados_breu_branco__proporcao_na_populacao_de_breu_branco,Proporção na população de Breu Branco,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.3825680086331856,2030,0.412412777076564
+Breu_Branco,dados_breu_branco__proporcao_na_populacao_de_breu_branco,Proporção na população de Breu Branco,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,0.3825680086331856,2040,0.4112769965768535
+Breu_Branco,dados_breu_branco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,0.795813303172873,2030,97.84017174895835
+Breu_Branco,dados_breu_branco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,0.795813303172873,2040,95.14200984226979
+Breu_Branco,dados_breu_branco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,156.54659170313974,2030,922.0131347739189
+Breu_Branco,dados_breu_branco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,156.54659170313974,2040,1164.2489690811358
+Breu_Branco,dados_breu_branco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,1.9828111257097756,2030,31.413940579630964
+Breu_Branco,dados_breu_branco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,1.9828111257097756,2040,22.628206698461227
+Breu_Branco,dados_breu_branco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2030,17.543020569785803
+Breu_Branco,dados_breu_branco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343673,2040,20.43819747752132
+Breu_Branco,dados_breu_branco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241633,2030,27.827732573625
+Breu_Branco,dados_breu_branco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241633,2040,31.730123167719924
+Breu_Branco,dados_breu_branco__responsavel_homem,Responsável Homem,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2030,2.996672306080835
+Breu_Branco,dados_breu_branco__responsavel_homem,Responsável Homem,dados_breu_branco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2040,2.408756660692921
+Breu_Branco,dados_breu_branco__responsavel_mulher,Responsável Mulher,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Breu_Branco,dados_breu_branco__responsavel_mulher,Responsável Mulher,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Breu_Branco,dados_breu_branco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Breu_Branco,dados_breu_branco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Breu_Branco,dados_breu_branco__setor_privado,Setor privado,dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,2.705183352721923,2030,13.69424042697201
+Breu_Branco,dados_breu_branco__setor_privado,Setor privado,dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,2.705183352721923,2040,14.098289252475935
+Breu_Branco,dados_breu_branco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,1.7805387681996185,2030,8.740655176257764
+Breu_Branco,dados_breu_branco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,1.7805387681996185,2040,9.06386024582444
+Breu_Branco,dados_breu_branco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8274587486986595,2030,4.567014880229969
+Breu_Branco,dados_breu_branco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8274587486986595,2040,4.533180965844134
+Breu_Branco,dados_breu_branco__setor_publico,Setor público,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.404490338188457,2030,4.275009353002659
+Breu_Branco,dados_breu_branco__setor_publico,Setor público,dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.404490338188457,2040,4.805982978494324
+Breu_Branco,dados_breu_branco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,identity,sgd,True,10.550675828430817,2030,495.67356825318507
+Breu_Branco,dados_breu_branco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,identity,sgd,True,10.550675828430817,2040,638.6932627478801
+Breu_Branco,dados_breu_branco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.36892508818257413,2030,3.817589672907861
+Breu_Branco,dados_breu_branco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_breu_branco,Grupo 2 — 3 censos,relu,adam,True,0.36892508818257413,2040,4.255592588555098
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,1.0016351813609898,2030,54.33495747846874
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,1.0016351813609898,2040,64.27951140574545
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,lbfgs,True,3.1922379328702086,2030,97.16938875395871
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,lbfgs,True,3.1922379328702086,2040,97.32588470874653
+Breu_Branco,dados_breu_branco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,5.16061517715265,2030,97.36090242749493
+Breu_Branco,dados_breu_branco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_breu_branco,Grupo 2 — 3 censos,logistic,adam,True,5.16061517715265,2040,98.2217397149865
+Breu_Branco,dados_breu_branco__trabalhador_domestico,Trabalhador doméstico,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,319.14499371494077,2030,-2.604997500914777
+Breu_Branco,dados_breu_branco__trabalhador_domestico,Trabalhador doméstico,dados_breu_branco,Grupo 2 — 3 censos,tanh,adam,True,319.14499371494077,2040,14.222326172579983
+Breu_Branco,dados_breu_branco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,34.968531639709816,2030,412.80285010035675
+Breu_Branco,dados_breu_branco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,identity,adam,True,34.968531639709816,2040,520.9297248883622
+Breu_Branco,dados_breu_branco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,464.8578506898453,2030,471.75446477430216
+Breu_Branco,dados_breu_branco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_breu_branco,Grupo 2 — 3 censos,logistic,sgd,True,464.8578506898453,2040,469.82784491136186
+Breu_Branco,dados_breu_branco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,5.306605724544276,2030,31.489365763395462
+Breu_Branco,dados_breu_branco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_breu_branco,Grupo 2 — 3 censos,relu,lbfgs,True,5.306605724544276,2040,40.03332256135319
+Breu_Branco,dados_breu_branco__a_pe,A pé,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.668962217514903
+Breu_Branco,dados_breu_branco__a_pe,A pé,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.689046341656077
+Breu_Branco,dados_breu_branco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.89002028302124
+Breu_Branco,dados_breu_branco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,67.29854459435876
+Breu_Branco,dados_breu_branco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.10469979455629
+Breu_Branco,dados_breu_branco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.75567006665896
+Breu_Branco,dados_breu_branco__automovel_onibus,Automóvel / Ônibus,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.426145843453114
+Breu_Branco,dados_breu_branco__automovel_onibus,Automóvel / Ônibus,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.136114904919953
+Breu_Branco,dados_breu_branco__bicicleta,Bicicleta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.731658042288085
+Breu_Branco,dados_breu_branco__bicicleta,Bicicleta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5705325944335371
+Breu_Branco,dados_breu_branco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.89002028302124
+Breu_Branco,dados_breu_branco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.29854459435877
+Breu_Branco,dados_breu_branco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.2871528115104
+Breu_Branco,dados_breu_branco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.65371634973319
+Breu_Branco,dados_breu_branco__com_coleta_de_lixo,Com Coleta de Lixo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.15091438446005
+Breu_Branco,dados_breu_branco__com_coleta_de_lixo,Com Coleta de Lixo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.10525913807543
+Breu_Branco,dados_breu_branco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7238611281483571
+Breu_Branco,dados_breu_branco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6256369587330752
+Breu_Branco,dados_breu_branco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.31974551660762
+Breu_Branco,dados_breu_branco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.6149913527659
+Breu_Branco,dados_breu_branco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.70435764057552
+Breu_Branco,dados_breu_branco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.32268581748666
+Breu_Branco,dados_breu_branco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.502923904820092
+Breu_Branco,dados_breu_branco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.10027169517387
+Breu_Branco,dados_breu_branco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.388417247338108
+Breu_Branco,dados_breu_branco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.109800120401104
+Breu_Branco,dados_breu_branco__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.3285248459172188
+Breu_Branco,dados_breu_branco__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1.933247450005779
+Breu_Branco,dados_breu_branco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.689654072504968
+Breu_Branco,dados_breu_branco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.696348780552027
+Breu_Branco,dados_breu_branco__estuda_em_outro_municipio_ex_tucurui,Estuda em outro município (ex: Tucuruí),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.61743056230208
+Breu_Branco,dados_breu_branco__estuda_em_outro_municipio_ex_tucurui,Estuda em outro município (ex: Tucuruí),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.09074326994664
+Breu_Branco,dados_breu_branco__estuda_no_proprio_municipio_breu_branco,Estuda no próprio município (Breu Branco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.1046997945563
+Breu_Branco,dados_breu_branco__estuda_no_proprio_municipio_breu_branco,Estuda no próprio município (Breu Branco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.75567006665896
+Breu_Branco,dados_breu_branco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.692887754532094
+Breu_Branco,dados_breu_branco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.14337283898434
+Breu_Branco,dados_breu_branco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.71661232023676
+Breu_Branco,dados_breu_branco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.911211308326596
+Breu_Branco,dados_breu_branco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.16525174201432
+Breu_Branco,dados_breu_branco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.32940036120331
+Breu_Branco,dados_breu_branco__idade_mediana_2,Idade Mediana,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.68119213525173
+Breu_Branco,dados_breu_branco__idade_mediana_2,Idade Mediana,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.742286058288865
+Breu_Branco,dados_breu_branco__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.22901331496397
+Breu_Branco,dados_breu_branco__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.980943149545535
+Breu_Branco,dados_breu_branco__motocicleta,Motocicleta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.318920731366745
+Breu_Branco,dados_breu_branco__motocicleta,Motocicleta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.36860084280773
+Breu_Branco,dados_breu_branco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.59874353171606
+Breu_Branco,dados_breu_branco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.977899445825145
+Breu_Branco,dados_breu_branco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.420298033812933
+Breu_Branco,dados_breu_branco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.935571514572216
+Breu_Branco,dados_breu_branco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.88119213525173
+Breu_Branco,dados_breu_branco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.942286058288865
+Breu_Branco,dados_breu_branco__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.36823208014366
+Breu_Branco,dados_breu_branco__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.68511550692548
+Breu_Branco,dados_breu_branco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-641.1470517932466
+Breu_Branco,dados_breu_branco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1490.5850414803926
+Breu_Branco,dados_breu_branco__populacao_amarela_2,População Amarela,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.681192135251731
+Breu_Branco,dados_breu_branco__populacao_amarela_2,População Amarela,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.742286058288865
+Breu_Branco,dados_breu_branco__populacao_branca_2,População Branca,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,351.45066574819856
+Breu_Branco,dados_breu_branco__populacao_branca_2,População Branca,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,439.04715747727676
+Breu_Branco,dados_breu_branco__populacao_indigena_2,População Indígena,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.087152811510386
+Breu_Branco,dados_breu_branco__populacao_indigena_2,População Indígena,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.453716349733185
+Breu_Branco,dados_breu_branco__populacao_parda_2,População Parda,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-491.0569107343784
+Breu_Branco,dados_breu_branco__populacao_parda_2,População Parda,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1141.6717580278187
+Breu_Branco,dados_breu_branco__populacao_preta_2,População Preta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,299.68232080143645
+Breu_Branco,dados_breu_branco__populacao_preta_2,População Preta,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,372.8511550692547
+Breu_Branco,dados_breu_branco__populacao_residente_em_favelas,População Residente em Favelas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-641.1470517932466
+Breu_Branco,dados_breu_branco__populacao_residente_em_favelas,População Residente em Favelas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1490.5850414803926
+Breu_Branco,dados_breu_branco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0724768541006924
+Breu_Branco,dados_breu_branco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.8969144233155455
+Breu_Branco,dados_breu_branco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,96.4777415468245
+Breu_Branco,dados_breu_branco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.9408075388844
+Breu_Branco,dados_breu_branco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8507832990927153
+Breu_Branco,dados_breu_branco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.1259450111098266
+Breu_Branco,dados_breu_branco__ruas_sem_arvores,Ruas Sem Árvores,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.728524845917217
+Breu_Branco,dados_breu_branco__ruas_sem_arvores,Ruas Sem Árvores,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.466752549994222
+Breu_Branco,dados_breu_branco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.31307292172656
+Breu_Branco,dados_breu_branco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.16805745245998
+Breu_Branco,dados_breu_branco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.573967023165356
+Breu_Branco,dados_breu_branco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.730503484028635
+Breu_Branco,dados_breu_branco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.974771996176628
+Breu_Branco,dados_breu_branco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.05880072240661
+Breu_Branco,dados_breu_branco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.89002028302124
+Breu_Branco,dados_breu_branco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.61754342892054
+Breu_Branco,dados_breu_branco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.29854459435877
+Breu_Branco,dados_breu_branco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.2016301710432
+Breu_Branco,dados_breu_branco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8623278371942256
+Breu_Branco,dados_breu_branco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4291286660294373
+Breu_Branco,dados_breu_branco__sem_conjuge,Sem cônjuge,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.0102054502157
+Breu_Branco,dados_breu_branco__sem_conjuge,Sem cônjuge,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.823229207834395
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.68703994489192
+Breu_Branco,dados_breu_branco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.94282944863662
+Breu_Branco,dados_breu_branco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,907.5400758920784
+Breu_Branco,dados_breu_branco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1149.7186118489417
+Breu_Branco,dados_breu_branco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.744953708201383
+Breu_Branco,dados_breu_branco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.39382884663109
+Breu_Branco,dados_breu_branco__trabalha_em_outro_municipio_ex_tucurui_goiane,Trabalha em outro município (ex: Tucuruí / Goianésia / Novo Repartimento),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.713072921726557
+Breu_Branco,dados_breu_branco__trabalha_em_outro_municipio_ex_tucurui_goiane,Trabalha em outro município (ex: Tucuruí / Goianésia / Novo Repartimento),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.568057452459975
+Breu_Branco,dados_breu_branco__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Breu Branco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.32852484591722
+Breu_Branco,dados_breu_branco__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Breu Branco),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.0667525499942
+Breu_Branco,dados_breu_branco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.063818006258888
+Breu_Branco,dados_breu_branco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.206986238890515
+Breu_Branco,dados_breu_branco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.84070893424434
+Breu_Branco,dados_breu_branco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.982029930241026
+Breu_Branco,dados_breu_branco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Breu_Branco,dados_breu_branco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Breu_Branco,dados_breu_branco__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.36823208014364
+Breu_Branco,dados_breu_branco__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.68511550692546
+Breu_Branco,dados_breu_branco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.36249713712193
+Breu_Branco,dados_breu_branco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.59545901767432
+Breu_Branco,dados_breu_branco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.604414073884755
+Breu_Branco,dados_breu_branco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_breu_branco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.77812926803495
