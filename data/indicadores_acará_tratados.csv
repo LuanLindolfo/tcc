@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Acará,dados_acara__populacao_total,População Total,dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.778891986310466,1991,43.193,Valor
+Acará,dados_acara__populacao_total,População Total,dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.778891986310466,2000,47.925,Valor
+Acará,dados_acara__populacao_total,População Total,dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.778891986310466,2010,53.569,Valor
+Acará,dados_acara__populacao_total,População Total,dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.778891986310466,2022,57.128,Valor
+Acará,dados_acara__populacao_urbana,População Urbana,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.0336910740138385,2000,11.82,Valor
+Acará,dados_acara__populacao_urbana,População Urbana,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.0336910740138385,2010,15.42,Valor
+Acará,dados_acara__populacao_urbana,População Urbana,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.0336910740138385,2022,18.24,Valor
+Acará,dados_acara__populacao_rural,População Rural,dados_acara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.8336338650132807,2000,36.105,Valor
+Acará,dados_acara__populacao_rural,População Rural,dados_acara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.8336338650132807,2010,38.149,Valor
+Acará,dados_acara__populacao_rural,População Rural,dados_acara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.8336338650132807,2022,38.888,Valor
+Acará,dados_acara__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.42,Valor
+Acará,dados_acara__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.21,Valor
+Acará,dados_acara__populacao_de_mulheres,População de Mulheres,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8176565017988521,2000,22.84,Valor
+Acará,dados_acara__populacao_de_mulheres,População de Mulheres,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8176565017988521,2010,25.68,Valor
+Acará,dados_acara__populacao_de_mulheres,População de Mulheres,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8176565017988521,2022,27.82,Valor
+Acará,dados_acara__populacao_de_homens,População de Homens,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8776050647005592,2000,25.085,Valor
+Acará,dados_acara__populacao_de_homens,População de Homens,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8776050647005592,2010,27.889,Valor
+Acará,dados_acara__populacao_de_homens,População de Homens,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.8776050647005592,2022,29.308,Valor
+Acará,dados_acara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9398408273483057,2000,109.8,Valor
+Acará,dados_acara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9398408273483057,2010,108.6,Valor
+Acará,dados_acara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9398408273483057,2022,105.3,Valor
+Acará,dados_acara__idade_mediana,Idade Mediana,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2000,19.0,Valor
+Acará,dados_acara__idade_mediana,Idade Mediana,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2010,22.0,Valor
+Acará,dados_acara__idade_mediana,Idade Mediana,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2022,27.0,Valor
+Acará,dados_acara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.365326673932785,2000,5.8,Valor
+Acará,dados_acara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.365326673932785,2010,9.4,Valor
+Acará,dados_acara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.365326673932785,2022,21.2,Valor
+Acará,dados_acara__populacao_parda,População Parda,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.5634931219283672,2000,37.82,Valor
+Acará,dados_acara__populacao_parda,População Parda,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.5634931219283672,2010,43.21,Valor
+Acará,dados_acara__populacao_parda,População Parda,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.5634931219283672,2022,46.82,Valor
+Acará,dados_acara__populacao_branca,População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16287124480056323,2000,6.41,Valor
+Acará,dados_acara__populacao_branca,População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16287124480056323,2010,5.82,Valor
+Acará,dados_acara__populacao_branca,População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16287124480056323,2022,5.42,Valor
+Acará,dados_acara__populacao_preta,População Preta,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.20508927404968214,2000,3.12,Valor
+Acará,dados_acara__populacao_preta,População Preta,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.20508927404968214,2010,3.82,Valor
+Acará,dados_acara__populacao_preta,População Preta,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.20508927404968214,2022,4.21,Valor
+Acará,dados_acara__populacao_amarela,População Amarela,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,23.52377418924687,2000,80.0,Valor
+Acará,dados_acara__populacao_amarela,População Amarela,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,23.52377418924687,2010,110.0,Valor
+Acará,dados_acara__populacao_amarela,População Amarela,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,23.52377418924687,2022,70.0,Valor
+Acará,dados_acara__populacao_indigena,População Indígena,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2000,495.0,Valor
+Acará,dados_acara__populacao_indigena,População Indígena,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2010,609.0,Valor
+Acará,dados_acara__populacao_indigena,População Indígena,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2022,608.0,Valor
+Acará,dados_acara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,143.81157833874548,2000,138.2,Valor
+Acará,dados_acara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,143.81157833874548,2010,284.4,Valor
+Acará,dados_acara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_acara,Grupo 2 — 3 censos,3,relu,lbfgs,True,143.81157833874548,2022,680.0,Valor
+Acará,dados_acara__apenas_1_trabalho,Apenas 1 trabalho,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791986756056,2000,95.2,Valor
+Acará,dados_acara__apenas_1_trabalho,Apenas 1 trabalho,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791986756056,2010,95.6,Valor
+Acará,dados_acara__apenas_1_trabalho,Apenas 1 trabalho,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791986756056,2022,92.1,Valor
+Acará,dados_acara__2_trabalhos,2 trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785793,2000,4.4,Valor
+Acará,dados_acara__2_trabalhos,2 trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785793,2010,4.0,Valor
+Acará,dados_acara__2_trabalhos,2 trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785793,2022,7.1,Valor
+Acará,dados_acara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Acará,dados_acara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Acará,dados_acara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Acará,dados_acara__setor_privado,Setor privado,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.6109516067530756,2000,4.21,Valor
+Acará,dados_acara__setor_privado,Setor privado,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.6109516067530756,2010,9.82,Valor
+Acará,dados_acara__setor_privado,Setor privado,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.6109516067530756,2022,14.21,Valor
+Acará,dados_acara__conta_propria,Conta própria,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.4049146910447614,2000,8.42,Valor
+Acará,dados_acara__conta_propria,Conta própria,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.4049146910447614,2010,13.21,Valor
+Acará,dados_acara__conta_propria,Conta própria,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.4049146910447614,2022,15.82,Valor
+Acará,dados_acara__setor_publico,Setor público,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.10610870625842221,2000,1.24,Valor
+Acará,dados_acara__setor_publico,Setor público,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.10610870625842221,2010,2.84,Valor
+Acará,dados_acara__setor_publico,Setor público,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.10610870625842221,2022,4.62,Valor
+Acará,dados_acara__trabalhador_domestico,Trabalhador doméstico,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,429.3345532792901,2000,780.0,Valor
+Acará,dados_acara__trabalhador_domestico,Trabalhador doméstico,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,429.3345532792901,2010,1.32,Valor
+Acará,dados_acara__trabalhador_domestico,Trabalhador doméstico,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,429.3345532792901,2022,1.74,Valor
+Acará,dados_acara__empregador,Empregador,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2000,180.0,Valor
+Acará,dados_acara__empregador,Empregador,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2010,380.0,Valor
+Acará,dados_acara__empregador,Empregador,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,76.14567995177735,2022,720.0,Valor
+Acará,dados_acara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,483.18552854533596,2000,3.82,Valor
+Acará,dados_acara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,483.18552854533596,2010,2.41,Valor
+Acará,dados_acara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,483.18552854533596,2022,980.0,Valor
+Acará,dados_acara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,51.772213224907695,2000,110.0,Valor
+Acará,dados_acara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,51.772213224907695,2010,220.0,Valor
+Acará,dados_acara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,51.772213224907695,2022,420.0,Valor
+Acará,dados_acara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,sgd,True,0.1984648914186291,2000,1.42,Valor
+Acará,dados_acara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,sgd,True,0.1984648914186291,2010,4.21,Valor
+Acará,dados_acara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,sgd,True,0.1984648914186291,2022,7.82,Valor
+Acará,dados_acara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,1.25395356879892,2000,2.79,Valor
+Acará,dados_acara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,1.25395356879892,2010,5.61,Valor
+Acará,dados_acara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,1.25395356879892,2022,6.39,Valor
+Acará,dados_acara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,21.335015528199552,2000,50.0,Valor
+Acará,dados_acara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,21.335015528199552,2010,160.0,Valor
+Acará,dados_acara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,21.335015528199552,2022,320.0,Valor
+Acará,dados_acara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12744372178662258,2000,1.19,Valor
+Acará,dados_acara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12744372178662258,2010,2.68,Valor
+Acará,dados_acara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12744372178662258,2022,4.3,Valor
+Acará,dados_acara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2000,50.0,Valor
+Acará,dados_acara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2010,150.0,Valor
+Acará,dados_acara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2022,310.0,Valor
+Acará,dados_acara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,401.77924388885486,2000,730.0,Valor
+Acará,dados_acara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,401.77924388885486,2010,1.17,Valor
+Acará,dados_acara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_acara,Grupo 2 — 3 censos,3,tanh,adam,True,401.77924388885486,2022,1.43,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4273471745865915,1991,56.4,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4273471745865915,2000,67.2,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4273471745865915,2010,77.4,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_acara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.4273471745865915,2022,84.8,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.472090864981008,2000,81.2,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.472090864981008,2010,90.4,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.472090864981008,2022,94.2,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,2.3459297081768278,2000,21.8,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,2.3459297081768278,2010,30.4,Valor
+Acará,dados_acara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,2.3459297081768278,2022,43.8,Valor
+Acará,dados_acara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2000,75.4,Valor
+Acará,dados_acara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2010,87.8,Valor
+Acará,dados_acara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2022,91.8,Valor
+Acará,dados_acara__populacao_com_superior_completo,População com Superior Completo,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,503.1558091242377,2000,140.0,Valor
+Acará,dados_acara__populacao_com_superior_completo,População com Superior Completo,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,503.1558091242377,2010,820.0,Valor
+Acará,dados_acara__populacao_com_superior_completo,População com Superior Completo,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,503.1558091242377,2022,2.84,Valor
+Acará,dados_acara__anos_de_estudo_media,Anos de Estudo (Média),dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.17838677851088802,1991,2.0,Valor
+Acará,dados_acara__anos_de_estudo_media,Anos de Estudo (Média),dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.17838677851088802,2000,3.2,Valor
+Acará,dados_acara__anos_de_estudo_media,Anos de Estudo (Média),dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.17838677851088802,2010,5.0,Valor
+Acará,dados_acara__anos_de_estudo_media,Anos de Estudo (Média),dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.17838677851088802,2022,6.6,Valor
+Acará,dados_acara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,1991,2.2,Valor
+Acará,dados_acara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2000,3.5,Valor
+Acará,dados_acara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2010,5.4,Valor
+Acará,dados_acara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2022,7.0,Valor
+Acará,dados_acara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.1549709554401018,1991,1.8,Valor
+Acará,dados_acara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.1549709554401018,2000,2.9,Valor
+Acará,dados_acara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.1549709554401018,2010,4.6,Valor
+Acará,dados_acara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_acara,Grupo 1 — 4 censos,4,identity,adam,True,0.1549709554401018,2022,6.2,Valor
+Acará,dados_acara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.009491464782220618,1991,0.178,Valor
+Acará,dados_acara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.009491464782220618,2000,0.304,Valor
+Acará,dados_acara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.009491464782220618,2010,0.456,Valor
+Acará,dados_acara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2000,75.4,Valor
+Acará,dados_acara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2010,87.8,Valor
+Acará,dados_acara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_acara,Grupo 2 — 3 censos,3,logistic,adam,True,5.157809613253893,2022,91.8,Valor
+Acará,dados_acara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.548483689557725,2000,51.2,Valor
+Acará,dados_acara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.548483689557725,2010,63.4,Valor
+Acará,dados_acara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,3.548483689557725,2022,71.2,Valor
+Acará,dados_acara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.932170393985005,2000,13.8,Valor
+Acará,dados_acara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.932170393985005,2010,18.8,Valor
+Acará,dados_acara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,1.932170393985005,2022,20.8,Valor
+Acará,dados_acara__media_populacao_amarela,Média: População Amarela,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.39526208437715066,2000,4.6,Valor
+Acará,dados_acara__media_populacao_amarela,Média: População Amarela,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.39526208437715066,2010,6.2,Valor
+Acará,dados_acara__media_populacao_amarela,Média: População Amarela,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.39526208437715066,2022,7.6,Valor
+Acará,dados_acara__media_populacao_branca,Média: População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028697,2000,3.8,Valor
+Acará,dados_acara__media_populacao_branca,Média: População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028697,2010,5.6,Valor
+Acará,dados_acara__media_populacao_branca,Média: População Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028697,2022,7.0,Valor
+Acará,dados_acara__media_populacao_preta_parda,Média: População Preta / Parda,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2000,3.0,Valor
+Acará,dados_acara__media_populacao_preta_parda,Média: População Preta / Parda,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2010,4.8,Valor
+Acará,dados_acara__media_populacao_preta_parda,Média: População Preta / Parda,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2022,6.4,Valor
+Acará,dados_acara__media_populacao_indigena,Média: População Indígena,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001625,2000,2.6,Valor
+Acará,dados_acara__media_populacao_indigena,Média: População Indígena,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001625,2010,3.9,Valor
+Acará,dados_acara__media_populacao_indigena,Média: População Indígena,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001625,2022,5.4,Valor
+Acará,dados_acara__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Acará,dados_acara__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Acará,dados_acara__populacao_residente_em_favelas,População Residente em Favelas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.42,Valor
+Acará,dados_acara__populacao_residente_em_favelas,População Residente em Favelas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.21,Valor
+Acará,dados_acara__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Acará,dados_acara__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,890.0,Valor
+Acará,dados_acara__idade_mediana_2,Idade Mediana,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.0,Valor
+Acará,dados_acara__idade_mediana_2,Idade Mediana,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+Acará,dados_acara__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.0,Valor
+Acará,dados_acara__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.1,Valor
+Acará,dados_acara__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,103.2,Valor
+Acará,dados_acara__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,101.2,Valor
+Acará,dados_acara__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Acará,dados_acara__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,83.6,Valor
+Acará,dados_acara__populacao_parda_2,População Parda,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.21,Valor
+Acará,dados_acara__populacao_parda_2,População Parda,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.68,Valor
+Acará,dados_acara__populacao_branca_2,População Branca,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,110.0,Valor
+Acará,dados_acara__populacao_branca_2,População Branca,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,240.0,Valor
+Acará,dados_acara__populacao_preta_2,População Preta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,80.0,Valor
+Acará,dados_acara__populacao_preta_2,População Preta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,210.0,Valor
+Acará,dados_acara__populacao_amarela_2,População Amarela,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Acará,dados_acara__populacao_amarela_2,População Amarela,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Acará,dados_acara__populacao_indigena_2,População Indígena,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Acará,dados_acara__populacao_indigena_2,População Indígena,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.0,Valor
+Acará,dados_acara__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Acará,dados_acara__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.8,Valor
+Acará,dados_acara__com_coleta_de_lixo,Com Coleta de Lixo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.8,Valor
+Acará,dados_acara__com_coleta_de_lixo,Com Coleta de Lixo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Acará,dados_acara__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.8,Valor
+Acará,dados_acara__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.4,Valor
+Acará,dados_acara__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Acará,dados_acara__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Acará,dados_acara__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Acará,dados_acara__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Acará,dados_acara__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Acará,dados_acara__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.8,Valor
+Acará,dados_acara__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Acará,dados_acara__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Acará,dados_acara__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Acará,dados_acara__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Acará,dados_acara__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Acará,dados_acara__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Acará,dados_acara__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,77.8,Valor
+Acará,dados_acara__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.8,Valor
+Acará,dados_acara__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.2,Valor
+Acará,dados_acara__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Acará,dados_acara__casais_com_filhos,Casais com filhos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2000,66.2,Valor
+Acará,dados_acara__casais_com_filhos,Casais com filhos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2010,57.2,Valor
+Acará,dados_acara__casais_com_filhos,Casais com filhos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2022,47.2,Valor
+Acará,dados_acara__casais_sem_filhos,Casais sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.8528737640279118,2000,6.4,Valor
+Acará,dados_acara__casais_sem_filhos,Casais sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.8528737640279118,2010,8.8,Valor
+Acará,dados_acara__casais_sem_filhos,Casais sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.8528737640279118,2022,12.8,Valor
+Acará,dados_acara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0762615505160884,2000,15.4,Valor
+Acará,dados_acara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0762615505160884,2010,18.4,Valor
+Acará,dados_acara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0762615505160884,2022,22.1,Valor
+Acará,dados_acara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2000,3.2,Valor
+Acará,dados_acara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2010,3.6,Valor
+Acará,dados_acara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2022,4.1,Valor
+Acará,dados_acara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2000,8.0,Valor
+Acará,dados_acara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2010,8.6,Valor
+Acará,dados_acara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2022,8.2,Valor
+Acará,dados_acara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.464965818925136,2000,4.0,Valor
+Acará,dados_acara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.464965818925136,2010,4.8,Valor
+Acará,dados_acara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.464965818925136,2022,4.6,Valor
+Acará,dados_acara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608427,2000,1.1,Valor
+Acará,dados_acara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608427,2010,1.5,Valor
+Acará,dados_acara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608427,2022,2.0,Valor
+Acará,dados_acara__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Acará),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.4,Valor
+Acará,dados_acara__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Acará),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Acará,dados_acara__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Acará,dados_acara__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.8,Valor
+Acará,dados_acara__trabalha_em_outro_municipio_ex_belem_ananinde,Trabalha em outro município (ex: Belém / Ananindeua / Barcarena),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.6,Valor
+Acará,dados_acara__trabalha_em_outro_municipio_ex_belem_ananinde,Trabalha em outro município (ex: Belém / Ananindeua / Barcarena),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Acará,dados_acara__motocicleta,Motocicleta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Acará,dados_acara__motocicleta,Motocicleta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.2,Valor
+Acará,dados_acara__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Acará,dados_acara__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Acará,dados_acara__a_pe,A pé,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.8,Valor
+Acará,dados_acara__a_pe,A pé,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Acará,dados_acara__bicicleta,Bicicleta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.2,Valor
+Acará,dados_acara__bicicleta,Bicicleta,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Acará,dados_acara__automovel_onibus,Automóvel / Ônibus,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.4,Valor
+Acará,dados_acara__automovel_onibus,Automóvel / Ônibus,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Acará,dados_acara__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,50.2,Valor
+Acará,dados_acara__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Acará,dados_acara__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.4,Valor
+Acará,dados_acara__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.8,Valor
+Acará,dados_acara__mais_de_1_hora_deslocamento_intermunicipal_ou,Mais de 1 hora (Deslocamento intermunicipal ou hidroviário),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.4,Valor
+Acará,dados_acara__mais_de_1_hora_deslocamento_intermunicipal_ou,Mais de 1 hora (Deslocamento intermunicipal ou hidroviário),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+Acará,dados_acara__estuda_no_proprio_municipio_acara,Estuda no próprio município (Acará),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.2,Valor
+Acará,dados_acara__estuda_no_proprio_municipio_acara,Estuda no próprio município (Acará),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+Acará,dados_acara__estuda_em_outro_municipio,Estuda em outro município,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Acará,dados_acara__estuda_em_outro_municipio,Estuda em outro município,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.6,Valor
+Acará,dados_acara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.6666457096160601,1991,7.41,Valor
+Acará,dados_acara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.6666457096160601,2000,9.82,Valor
+Acará,dados_acara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.6666457096160601,2010,12.42,Valor
+Acará,dados_acara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.6666457096160601,2022,16.82,Valor
+Acará,dados_acara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.662673341813588,1991,7.28,Valor
+Acará,dados_acara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.662673341813588,2000,9.68,Valor
+Acará,dados_acara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.662673341813588,2010,12.21,Valor
+Acará,dados_acara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.662673341813588,2022,16.58,Valor
+Acará,dados_acara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_acara,Grupo 1 — 4 censos,4,tanh,adam,True,12.61198037508143,1991,130.0,Valor
+Acará,dados_acara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_acara,Grupo 1 — 4 censos,4,tanh,adam,True,12.61198037508143,2000,140.0,Valor
+Acará,dados_acara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_acara,Grupo 1 — 4 censos,4,tanh,adam,True,12.61198037508143,2010,210.0,Valor
+Acará,dados_acara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_acara,Grupo 1 — 4 censos,4,tanh,adam,True,12.61198037508143,2022,240.0,Valor
+Acará,dados_acara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14530850863496958,1991,5.8,Valor
+Acará,dados_acara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14530850863496958,2000,4.9,Valor
+Acará,dados_acara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14530850863496958,2010,4.3,Valor
+Acará,dados_acara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_acara,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14530850863496958,2022,3.4,Valor
+Acará,dados_acara__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.2,Valor
+Acará,dados_acara__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.4,Valor
+Acará,dados_acara__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Acará,dados_acara__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.2,Valor
+Acará,dados_acara__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Acará,dados_acara__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+Acará,dados_acara__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,40.2,Valor
+Acará,dados_acara__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.4,Valor
+Acará,dados_acara__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Acará,dados_acara__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Acará,dados_acara__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Acará,dados_acara__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.4,Valor
+Acará,dados_acara__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Acará,dados_acara__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.8,Valor
+Acará,dados_acara__ruas_sem_arvores,Ruas Sem Árvores,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Acará,dados_acara__ruas_sem_arvores,Ruas Sem Árvores,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.2,Valor
+Acará,dados_acara__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Acará,dados_acara__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.6,Valor
+Acará,dados_acara__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Acará,dados_acara__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Acará,dados_acara__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Acará,dados_acara__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.4,Valor
+Acará,dados_acara__populacao_indigena_total,População Indígena Total,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2000,495.0,Valor
+Acará,dados_acara__populacao_indigena_total,População Indígena Total,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2010,609.0,Valor
+Acará,dados_acara__populacao_indigena_total,População Indígena Total,dados_acara,Grupo 2 — 3 censos,3,tanh,lbfgs,True,63.53754684611162,2022,608.0,Valor
+Acará,dados_acara__proporcao_na_populacao_de_acara,Proporção na população de Acará,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774472,2000,1.03,Valor
+Acará,dados_acara__proporcao_na_populacao_de_acara,Proporção na população de Acará,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774472,2010,1.14,Valor
+Acará,dados_acara__proporcao_na_populacao_de_acara,Proporção na população de Acará,dados_acara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774472,2022,1.06,Valor
+Acará,dados_acara__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.4,Valor
+Acará,dados_acara__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.4,Valor
+Acará,dados_acara__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Acará,dados_acara__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Acará,dados_acara__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Acará,dados_acara__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.2,Valor
+Acará,dados_acara__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Acará,dados_acara__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Acará,dados_acara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2000,15.8,Valor
+Acará,dados_acara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2010,19.2,Valor
+Acará,dados_acara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2022,24.2,Valor
+Acará,dados_acara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0676652097085484,2000,59.2,Valor
+Acará,dados_acara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0676652097085484,2010,50.2,Valor
+Acará,dados_acara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.0676652097085484,2022,40.8,Valor
+Acará,dados_acara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2000,8.2,Valor
+Acará,dados_acara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2010,11.2,Valor
+Acará,dados_acara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2022,14.2,Valor
+Acará,dados_acara__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.2,Valor
+Acará,dados_acara__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.2,Valor
+Acará,dados_acara__sem_conjuge,Sem cônjuge,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Acará,dados_acara__sem_conjuge,Sem cônjuge,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.2,Valor
+Acará,dados_acara__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Acará,dados_acara__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Acará,dados_acara__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Acará,dados_acara__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_acara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.9,Valor
+Acará,dados_acara__responsavel_mulher,Responsável Mulher,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2000,4.2,Valor
+Acará,dados_acara__responsavel_mulher,Responsável Mulher,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2010,3.6,Valor
+Acará,dados_acara__responsavel_mulher,Responsável Mulher,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2022,3.2,Valor
+Acará,dados_acara__responsavel_homem,Responsável Homem,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0915142708154703,2000,5.0,Valor
+Acará,dados_acara__responsavel_homem,Responsável Homem,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0915142708154703,2010,4.4,Valor
+Acará,dados_acara__responsavel_homem,Responsável Homem,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0915142708154703,2022,3.8,Valor
+Acará,dados_acara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.2,Valor
+Acará,dados_acara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.6,Valor
+Acará,dados_acara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,3.1,Valor
+Acará,dados_acara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2000,12.4,Valor
+Acará,dados_acara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2010,16.4,Valor
+Acará,dados_acara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2022,21.4,Valor
+Acará,dados_acara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12074776229669777,2000,15.4,Valor
+Acará,dados_acara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12074776229669777,2010,19.2,Valor
+Acará,dados_acara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_acara,Grupo 2 — 3 censos,3,identity,adam,True,0.12074776229669777,2022,23.6,Valor
+Acará,dados_acara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,4.266802825877129,2000,52.4,Valor
+Acará,dados_acara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,4.266802825877129,2010,36.8,Valor
+Acará,dados_acara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_acara,Grupo 2 — 3 censos,3,relu,adam,True,4.266802825877129,2022,25.2,Valor
