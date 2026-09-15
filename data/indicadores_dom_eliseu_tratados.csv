@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Dom_Eliseu,dados_dom_eliseu__populacao_total,População Total,dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.06883754569979,1991,28.42,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_total,População Total,dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.06883754569979,2000,45.92,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_total,População Total,dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.06883754569979,2010,51.319,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_total,População Total,dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.06883754569979,2022,58.729,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_urbana,População Urbana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.955303130576714,2000,26.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_urbana,População Urbana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.955303130576714,2010,34.21,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_urbana,População Urbana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.955303130576714,2022,41.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_rural,População Rural,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.9671237824550308,2000,19.1,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_rural,População Rural,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.9671237824550308,2010,17.109,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_rural,População Rural,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.9671237824550308,2022,16.909,Valor
+Dom_Eliseu,dados_dom_eliseu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.82,Valor
+Dom_Eliseu,dados_dom_eliseu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.12,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_mulheres,População de Mulheres,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13574662376623792,2000,22.41,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_mulheres,População de Mulheres,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13574662376623792,2010,25.42,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_mulheres,População de Mulheres,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13574662376623792,2022,29.21,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_homens,População de Homens,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.5737617634350478,2000,23.51,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_homens,População de Homens,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.5737617634350478,2010,25.899,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_de_homens,População de Homens,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.5737617634350478,2022,29.519,Valor
+Dom_Eliseu,dados_dom_eliseu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,1.3056948093367993,2000,104.9,Valor
+Dom_Eliseu,dados_dom_eliseu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,1.3056948093367993,2010,101.8,Valor
+Dom_Eliseu,dados_dom_eliseu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,1.3056948093367993,2022,101.0,Valor
+Dom_Eliseu,dados_dom_eliseu__idade_mediana,Idade Mediana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2000,20.0,Valor
+Dom_Eliseu,dados_dom_eliseu__idade_mediana,Idade Mediana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2010,24.0,Valor
+Dom_Eliseu,dados_dom_eliseu__idade_mediana,Idade Mediana,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2022,29.0,Valor
+Dom_Eliseu,dados_dom_eliseu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.066428161003768,2000,6.2,Valor
+Dom_Eliseu,dados_dom_eliseu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.066428161003768,2010,10.8,Valor
+Dom_Eliseu,dados_dom_eliseu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.066428161003768,2022,24.6,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_parda,População Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.101846873770474,2000,32.12,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_parda,População Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.101846873770474,2010,37.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_parda,População Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.101846873770474,2022,43.21,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_branca,População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5745796383031792,2000,10.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_branca,População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5745796383031792,2010,9.42,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_branca,População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5745796383031792,2022,8.92,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_preta,População Preta,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7886052888932777,2000,2.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_preta,População Preta,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7886052888932777,2010,3.89,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_preta,População Preta,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7886052888932777,2022,6.21,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_amarela,População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,26.881036869720347,2000,110.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_amarela,População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,26.881036869720347,2010,140.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_amarela,População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,26.881036869720347,2022,90.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena,População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2000,50.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena,População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2010,49.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena,População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2022,299.0,Valor
+Dom_Eliseu,dados_dom_eliseu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,173.65019986456912,2000,168.2,Valor
+Dom_Eliseu,dados_dom_eliseu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,173.65019986456912,2010,342.8,Valor
+Dom_Eliseu,dados_dom_eliseu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,173.65019986456912,2022,820.0,Valor
+Dom_Eliseu,dados_dom_eliseu__apenas_1_trabalho,Apenas 1 trabalho,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.3629805262399564,2000,94.8,Valor
+Dom_Eliseu,dados_dom_eliseu__apenas_1_trabalho,Apenas 1 trabalho,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.3629805262399564,2010,95.2,Valor
+Dom_Eliseu,dados_dom_eliseu__apenas_1_trabalho,Apenas 1 trabalho,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.3629805262399564,2022,91.4,Valor
+Dom_Eliseu,dados_dom_eliseu__2_trabalhos,2 trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871387,2000,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__2_trabalhos,2 trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871387,2010,4.4,Valor
+Dom_Eliseu,dados_dom_eliseu__2_trabalhos,2 trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871387,2022,7.8,Valor
+Dom_Eliseu,dados_dom_eliseu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Dom_Eliseu,dados_dom_eliseu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Dom_Eliseu,dados_dom_eliseu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado,Setor privado,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.0029523241111729,2000,5.82,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado,Setor privado,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.0029523241111729,2010,11.42,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado,Setor privado,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,1.0029523241111729,2022,16.82,Valor
+Dom_Eliseu,dados_dom_eliseu__conta_propria,Conta própria,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.2907208461445532,2000,7.42,Valor
+Dom_Eliseu,dados_dom_eliseu__conta_propria,Conta própria,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.2907208461445532,2010,11.82,Valor
+Dom_Eliseu,dados_dom_eliseu__conta_propria,Conta própria,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.2907208461445532,2022,14.21,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico,Setor público,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.02393880961931183,2000,1.42,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico,Setor público,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.02393880961931183,2010,2.98,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico,Setor público,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.02393880961931183,2022,4.82,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalhador_domestico,Trabalhador doméstico,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,451.3488545758294,2000,820.0,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalhador_domestico,Trabalhador doméstico,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,451.3488545758294,2010,1.42,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalhador_domestico,Trabalhador doméstico,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,451.3488545758294,2022,1.89,Valor
+Dom_Eliseu,dados_dom_eliseu__empregador,Empregador,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,362.3824071689578,2000,380.0,Valor
+Dom_Eliseu,dados_dom_eliseu__empregador,Empregador,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,362.3824071689578,2010,720.0,Valor
+Dom_Eliseu,dados_dom_eliseu__empregador,Empregador,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,362.3824071689578,2022,1.24,Valor
+Dom_Eliseu,dados_dom_eliseu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,364.8165688737115,2000,2.82,Valor
+Dom_Eliseu,dados_dom_eliseu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,364.8165688737115,2010,1.82,Valor
+Dom_Eliseu,dados_dom_eliseu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,364.8165688737115,2022,740.0,Valor
+Dom_Eliseu,dados_dom_eliseu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,54.82383585107956,2000,140.0,Valor
+Dom_Eliseu,dados_dom_eliseu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,54.82383585107956,2010,280.0,Valor
+Dom_Eliseu,dados_dom_eliseu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,54.82383585107956,2022,520.0,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.059978738323297996,2000,2.42,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.059978738323297996,2010,5.82,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.059978738323297996,2022,9.82,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6400600456552952,2000,3.4,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6400600456552952,2010,5.6,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6400600456552952,2022,7.0,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,sgd,True,12.148323293222765,2000,60.0,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,sgd,True,12.148323293222765,2010,180.0,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,sgd,True,12.148323293222765,2022,340.0,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.036145300123998934,2000,1.36,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.036145300123998934,2010,2.8,Valor
+Dom_Eliseu,dados_dom_eliseu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.036145300123998934,2022,4.48,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,41.12446260206056,2000,80.0,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,41.12446260206056,2010,210.0,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,41.12446260206056,2022,420.0,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,407.2679876816671,2000,740.0,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,407.2679876816671,2010,1.21,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,407.2679876816671,2022,1.47,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,adam,True,3.0470941425119467,1991,62.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,adam,True,3.0470941425119467,2000,73.8,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,adam,True,3.0470941425119467,2010,82.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_dom_eliseu,Grupo 1 — 4 censos,4,relu,adam,True,3.0470941425119467,2022,88.6,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,2.8319112964473354,2000,86.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,2.8319112964473354,2010,93.8,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,2.8319112964473354,2022,96.8,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,2.620180601707234,2000,26.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,2.620180601707234,2010,36.2,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,2.620180601707234,2022,51.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2000,81.2,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2010,91.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2022,94.6,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_com_superior_completo,População com Superior Completo,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,154.98488891404392,2000,280.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_com_superior_completo,População com Superior Completo,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,154.98488891404392,2010,1.42,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_com_superior_completo,População com Superior Completo,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,154.98488891404392,2022,4.21,Valor
+Dom_Eliseu,dados_dom_eliseu__anos_de_estudo_media,Anos de Estudo (Média),dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3126489141856371,1991,2.6,Valor
+Dom_Eliseu,dados_dom_eliseu__anos_de_estudo_media,Anos de Estudo (Média),dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3126489141856371,2000,4.0,Valor
+Dom_Eliseu,dados_dom_eliseu__anos_de_estudo_media,Anos de Estudo (Média),dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3126489141856371,2010,6.2,Valor
+Dom_Eliseu,dados_dom_eliseu__anos_de_estudo_media,Anos de Estudo (Média),dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3126489141856371,2022,7.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3235927579676542,1991,2.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3235927579676542,2000,4.3,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3235927579676542,2010,6.6,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3235927579676542,2022,8.2,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2220680603410229,1991,2.4,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2220680603410229,2000,3.7,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2220680603410229,2010,5.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2220680603410229,2022,7.4,Valor
+Dom_Eliseu,dados_dom_eliseu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.012256723769131589,1991,0.224,Valor
+Dom_Eliseu,dados_dom_eliseu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.012256723769131589,2000,0.382,Valor
+Dom_Eliseu,dados_dom_eliseu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.012256723769131589,2010,0.542,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2000,81.2,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2010,91.4,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,adam,True,4.299109865677835,2022,94.6,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,3.4151855360672863,2000,56.4,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,3.4151855360672863,2010,68.2,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,3.4151855360672863,2022,76.4,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.8179085829894852,2000,16.2,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.8179085829894852,2010,22.4,Valor
+Dom_Eliseu,dados_dom_eliseu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,1.8179085829894852,2022,25.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_amarela,Média: População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2000,5.4,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_amarela,Média: População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2010,7.2,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_amarela,Média: População Amarela,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.4256465963638509,2022,8.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_branca,Média: População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2000,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_branca,Média: População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2010,6.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_branca,Média: População Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2022,8.4,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_preta_parda,Média: População Preta / Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2000,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_preta_parda,Média: População Preta / Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2010,6.0,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_preta_parda,Média: População Preta / Parda,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2022,7.6,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_indigena,Média: População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.2430760958936086,2000,3.2,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_indigena,Média: População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.2430760958936086,2010,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_populacao_indigena,Média: População Indígena,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.2430760958936086,2022,6.4,Valor
+Dom_Eliseu,dados_dom_eliseu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Dom_Eliseu,dados_dom_eliseu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_residente_em_favelas,População Residente em Favelas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.82,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_residente_em_favelas,População Residente em Favelas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.12,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,480.0,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.18,Valor
+Dom_Eliseu,dados_dom_eliseu__idade_mediana_2,Idade Mediana,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Dom_Eliseu,dados_dom_eliseu__idade_mediana_2,Idade Mediana,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+Dom_Eliseu,dados_dom_eliseu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Dom_Eliseu,dados_dom_eliseu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Dom_Eliseu,dados_dom_eliseu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.2,Valor
+Dom_Eliseu,dados_dom_eliseu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,99.8,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Dom_Eliseu,dados_dom_eliseu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,87.2,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_parda_2,População Parda,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.48,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_parda_2,População Parda,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.32,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_branca_2,População Branca,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,180.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_branca_2,População Branca,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,380.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_preta_2,População Preta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,140.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_preta_2,População Preta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,380.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_amarela_2,População Amarela,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_amarela_2,População Amarela,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena_2,População Indígena,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena_2,População Indígena,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.0,Valor
+Dom_Eliseu,dados_dom_eliseu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Dom_Eliseu,dados_dom_eliseu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Dom_Eliseu,dados_dom_eliseu__com_coleta_de_lixo,Com Coleta de Lixo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Dom_Eliseu,dados_dom_eliseu__com_coleta_de_lixo,Com Coleta de Lixo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Dom_Eliseu,dados_dom_eliseu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Dom_Eliseu,dados_dom_eliseu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Dom_Eliseu,dados_dom_eliseu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.4,Valor
+Dom_Eliseu,dados_dom_eliseu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Dom_Eliseu,dados_dom_eliseu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Dom_Eliseu,dados_dom_eliseu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Dom_Eliseu,dados_dom_eliseu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Dom_Eliseu,dados_dom_eliseu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.6,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Dom_Eliseu,dados_dom_eliseu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,79.2,Valor
+Dom_Eliseu,dados_dom_eliseu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,83.2,Valor
+Dom_Eliseu,dados_dom_eliseu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.8,Valor
+Dom_Eliseu,dados_dom_eliseu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos,Casais com filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2000,64.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos,Casais com filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2010,54.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos,Casais com filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2022,44.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_sem_filhos,Casais sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2000,7.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_sem_filhos,Casais sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2010,9.8,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_sem_filhos,Casais sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2022,14.2,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201921136486622,2000,16.2,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201921136486622,2010,19.4,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201921136486622,2022,23.4,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2000,3.4,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2010,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2022,4.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2000,7.8,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2010,8.2,Valor
+Dom_Eliseu,dados_dom_eliseu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2022,7.8,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33240921070122614,2000,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33240921070122614,2010,4.4,Valor
+Dom_Eliseu,dados_dom_eliseu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33240921070122614,2022,4.2,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2000,1.0,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2010,1.4,Valor
+Dom_Eliseu,dados_dom_eliseu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2022,1.8,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_no_proprio_municipio_de_residencia_d,Trabalha no próprio município de residência (Dom Eliseu),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_no_proprio_municipio_de_residencia_d,Trabalha no próprio município de residência (Dom Eliseu),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_em_outro_municipio_ex_paragominas_ac,Trabalha em outro município (ex: Paragominas / Açailândia / Ulianópolis),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Dom_Eliseu,dados_dom_eliseu__trabalha_em_outro_municipio_ex_paragominas_ac,Trabalha em outro município (ex: Paragominas / Açailândia / Ulianópolis),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Dom_Eliseu,dados_dom_eliseu__motocicleta,Motocicleta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Dom_Eliseu,dados_dom_eliseu__motocicleta,Motocicleta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.4,Valor
+Dom_Eliseu,dados_dom_eliseu__automovel_onibus,Automóvel / Ônibus,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Dom_Eliseu,dados_dom_eliseu__automovel_onibus,Automóvel / Ônibus,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.2,Valor
+Dom_Eliseu,dados_dom_eliseu__a_pe,A pé,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Dom_Eliseu,dados_dom_eliseu__a_pe,A pé,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Dom_Eliseu,dados_dom_eliseu__bicicleta,Bicicleta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Dom_Eliseu,dados_dom_eliseu__bicicleta,Bicicleta,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Dom_Eliseu,dados_dom_eliseu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Dom_Eliseu,dados_dom_eliseu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Dom_Eliseu,dados_dom_eliseu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Dom_Eliseu,dados_dom_eliseu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Dom_Eliseu,dados_dom_eliseu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Dom_Eliseu,dados_dom_eliseu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Dom_Eliseu,dados_dom_eliseu__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Dom_Eliseu,dados_dom_eliseu__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Dom_Eliseu,dados_dom_eliseu__estuda_no_proprio_municipio_dom_eliseu,Estuda no próprio município (Dom Eliseu),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.4,Valor
+Dom_Eliseu,dados_dom_eliseu__estuda_no_proprio_municipio_dom_eliseu,Estuda no próprio município (Dom Eliseu),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.8,Valor
+Dom_Eliseu,dados_dom_eliseu__estuda_em_outro_municipio,Estuda em outro município,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.6,Valor
+Dom_Eliseu,dados_dom_eliseu__estuda_em_outro_municipio,Estuda em outro município,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11990749128583489,1991,5.12,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11990749128583489,2000,9.42,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11990749128583489,2010,13.82,Valor
+Dom_Eliseu,dados_dom_eliseu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11990749128583489,2022,19.42,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1446748652134846,1991,4.98,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1446748652134846,2000,9.28,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1446748652134846,2010,13.59,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_dom_eliseu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1446748652134846,2022,19.14,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_dom_eliseu,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,1991,140.0,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_dom_eliseu,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2000,140.0,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_dom_eliseu,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2010,230.0,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_dom_eliseu,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2022,280.0,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.09983612081621152,1991,5.6,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.09983612081621152,2000,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.09983612081621152,2010,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_dom_eliseu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.09983612081621152,2022,3.1,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.2,Valor
+Dom_Eliseu,dados_dom_eliseu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Dom_Eliseu,dados_dom_eliseu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Dom_Eliseu,dados_dom_eliseu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Dom_Eliseu,dados_dom_eliseu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Dom_Eliseu,dados_dom_eliseu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Dom_Eliseu,dados_dom_eliseu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Dom_Eliseu,dados_dom_eliseu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.8,Valor
+Dom_Eliseu,dados_dom_eliseu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.4,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_sem_arvores,Ruas Sem Árvores,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.8,Valor
+Dom_Eliseu,dados_dom_eliseu__ruas_sem_arvores,Ruas Sem Árvores,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.6,Valor
+Dom_Eliseu,dados_dom_eliseu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Dom_Eliseu,dados_dom_eliseu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Dom_Eliseu,dados_dom_eliseu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Dom_Eliseu,dados_dom_eliseu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Dom_Eliseu,dados_dom_eliseu__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.8,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena_total,População Indígena Total,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2000,50.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena_total,População Indígena Total,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2010,49.0,Valor
+Dom_Eliseu,dados_dom_eliseu__populacao_indigena_total,População Indígena Total,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,123.9381929611087,2022,299.0,Valor
+Dom_Eliseu,dados_dom_eliseu__proporcao_na_populacao_de_dom_eliseu,Proporção na população de Dom Eliseu,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.20813155954811857,2000,0.11,Valor
+Dom_Eliseu,dados_dom_eliseu__proporcao_na_populacao_de_dom_eliseu,Proporção na população de Dom Eliseu,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.20813155954811857,2010,0.1,Valor
+Dom_Eliseu,dados_dom_eliseu__proporcao_na_populacao_de_dom_eliseu,Proporção na população de Dom Eliseu,dados_dom_eliseu,Grupo 2 — 3 censos,3,tanh,adam,True,0.20813155954811857,2022,0.51,Valor
+Dom_Eliseu,dados_dom_eliseu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Dom_Eliseu,dados_dom_eliseu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.2,Valor
+Dom_Eliseu,dados_dom_eliseu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.8,Valor
+Dom_Eliseu,dados_dom_eliseu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Dom_Eliseu,dados_dom_eliseu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Dom_Eliseu,dados_dom_eliseu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Dom_Eliseu,dados_dom_eliseu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Dom_Eliseu,dados_dom_eliseu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944047,2000,16.4,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944047,2010,19.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944047,2022,24.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2000,58.2,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2010,48.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2022,38.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2000,8.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2010,11.8,Valor
+Dom_Eliseu,dados_dom_eliseu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2022,15.2,Valor
+Dom_Eliseu,dados_dom_eliseu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.8,Valor
+Dom_Eliseu,dados_dom_eliseu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Dom_Eliseu,dados_dom_eliseu__sem_conjuge,Sem cônjuge,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.6,Valor
+Dom_Eliseu,dados_dom_eliseu__sem_conjuge,Sem cônjuge,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.0,Valor
+Dom_Eliseu,dados_dom_eliseu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Dom_Eliseu,dados_dom_eliseu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_dom_eliseu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.6,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_mulher,Responsável Mulher,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2000,4.0,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_mulher,Responsável Mulher,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2010,3.4,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_mulher,Responsável Mulher,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2022,3.0,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_homem,Responsável Homem,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2000,4.8,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_homem,Responsável Homem,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2010,4.1,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_homem,Responsável Homem,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2022,3.5,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.1,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.5,Valor
+Dom_Eliseu,dados_dom_eliseu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.0,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100823592156127,2000,13.2,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100823592156127,2010,17.8,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100823592156127,2022,23.4,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669409,2000,16.4,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669409,2010,20.4,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669409,2022,24.8,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,4.327261537577685,2000,48.2,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,4.327261537577685,2010,32.4,Valor
+Dom_Eliseu,dados_dom_eliseu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_dom_eliseu,Grupo 2 — 3 censos,3,relu,adam,True,4.327261537577685,2022,20.8,Valor
