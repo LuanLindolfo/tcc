@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Rondon_do_Pará,dados_rondon_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.2929465844571537,2030,8.982910022360372
+Rondon_do_Pará,dados_rondon_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.2929465844571537,2040,10.666657083088346
+Rondon_do_Pará,dados_rondon_do_para__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_rondon_do_para,Grupo 1 — 4 censos,relu,sgd,True,18.738638744280912,2030,307.91605231743085
+Rondon_do_Pará,dados_rondon_do_para__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_rondon_do_para,Grupo 1 — 4 censos,relu,sgd,True,18.738638744280912,2040,345.5404519256006
+Rondon_do_Pará,dados_rondon_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.213186343220227,2030,19.219639657377385
+Rondon_do_Pará,dados_rondon_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.213186343220227,2040,22.674274319948402
+Rondon_do_Pará,dados_rondon_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rondon_do_para,Grupo 1 — 4 censos,identity,adam,True,0.24095511330658337,2030,8.491371664579393
+Rondon_do_Pará,dados_rondon_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rondon_do_para,Grupo 1 — 4 censos,identity,adam,True,0.24095511330658337,2040,10.102917606783404
+Rondon_do_Pará,dados_rondon_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2957343202026146,2030,8.366385742559709
+Rondon_do_Pará,dados_rondon_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2957343202026146,2040,8.646285136259273
+Rondon_do_Pará,dados_rondon_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,0.09983612081621152,2030,2.898816147962237
+Rondon_do_Pará,dados_rondon_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,0.09983612081621152,2040,2.782464066673339
+Rondon_do_Pará,dados_rondon_do_para__populacao_total,População Total,dados_rondon_do_para,Grupo 1 — 4 censos,tanh,adam,True,0.5952677186513018,2030,48.319498494512416
+Rondon_do_Pará,dados_rondon_do_para__populacao_total,População Total,dados_rondon_do_para,Grupo 1 — 4 censos,tanh,adam,True,0.5952677186513018,2040,48.37760979314537
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,2.4225763277775556,2030,90.28226191552643
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rondon_do_para,Grupo 1 — 4 censos,logistic,lbfgs,True,2.4225763277775556,2040,92.29366274414149
+Rondon_do_Pará,dados_rondon_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.2458105019315988,2030,19.529233115060773
+Rondon_do_Pará,dados_rondon_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rondon_do_para,Grupo 1 — 4 censos,identity,lbfgs,True,0.2458105019315988,2040,23.03215586237004
+Rondon_do_Pará,dados_rondon_do_para__2_trabalhos,2 trabalhos,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,1.9107863958871398,2030,8.350095179110882
+Rondon_do_Pará,dados_rondon_do_para__2_trabalhos,2 trabalhos,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,1.9107863958871398,2040,8.51180161011461
+Rondon_do_Pará,dados_rondon_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.9532083159839907
+Rondon_do_Pará,dados_rondon_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.9742845123278303
+Rondon_do_Pará,dados_rondon_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2030,88.16256063522202
+Rondon_do_Pará,dados_rondon_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2040,84.3759747691946
+Rondon_do_Pará,dados_rondon_do_para__casais_com_filhos,Casais com filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2030,37.272232613466215
+Rondon_do_Pará,dados_rondon_do_para__casais_com_filhos,Casais com filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2040,28.206295426325948
+Rondon_do_Pará,dados_rondon_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975145,2030,8.034795624253139
+Rondon_do_Pará,dados_rondon_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975145,2040,8.033962067246486
+Rondon_do_Pará,dados_rondon_do_para__casais_sem_filhos,Casais sem filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.9898674965181028,2030,16.097696981556844
+Rondon_do_Pará,dados_rondon_do_para__casais_sem_filhos,Casais sem filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.9898674965181028,2040,19.19365704567428
+Rondon_do_Pará,dados_rondon_do_para__conta_propria,Conta própria,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.3820405424360243,2030,14.409217984576669
+Rondon_do_Pará,dados_rondon_do_para__conta_propria,Conta própria,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.3820405424360243,2040,15.542857260708832
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.07490756576661184,2030,26.361436204744766
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.07490756576661184,2040,30.79720409803167
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669433,2030,27.592778098789644
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669433,2040,31.391034619695834
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,4.259061848519085,2030,16.24008894162912
+Rondon_do_Pará,dados_rondon_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,4.259061848519085,2040,8.624423858463722
+Rondon_do_Pará,dados_rondon_do_para__empregador,Empregador,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,322.16584844852105,2030,321.7530377693325
+Rondon_do_Pará,dados_rondon_do_para__empregador,Empregador,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,322.16584844852105,2040,320.422620788539
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_rondon_do_para,Grupo 2 — 3 censos,logistic,lbfgs,True,4.235235251352525,2030,94.38208675268633
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_rondon_do_para,Grupo 2 — 3 censos,logistic,lbfgs,True,4.235235251352525,2040,94.65569430726191
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,3.6662685432911437,2030,78.60491701055449
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,3.6662685432911437,2040,82.87778406224591
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.7704025839646504,2030,25.420880889860292
+Rondon_do_Pará,dados_rondon_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.7704025839646504,2040,26.924330667594063
+Rondon_do_Pará,dados_rondon_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.009363066513717802,2030,0.8465359681655114
+Rondon_do_Pará,dados_rondon_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.009363066513717802,2040,1.008426256864546
+Rondon_do_Pará,dados_rondon_do_para__idade_mediana,Idade Mediana,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2030,32.247045767201875
+Rondon_do_Pará,dados_rondon_do_para__idade_mediana,Idade Mediana,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060819,2040,36.34050854135682
+Rondon_do_Pará,dados_rondon_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,73.08088589810376,2030,598.2257594784642
+Rondon_do_Pará,dados_rondon_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,73.08088589810376,2040,762.517411594466
+Rondon_do_Pará,dados_rondon_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353476135590496,2030,25.64599034141797
+Rondon_do_Pará,dados_rondon_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353476135590496,2040,28.876804034061077
+Rondon_do_Pará,dados_rondon_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2030,4.202940565304489
+Rondon_do_Pará,dados_rondon_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,0.39868751481318093,2040,4.201926456337081
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_amarela,Média: População Amarela,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.5171040920028697,2030,9.039422296473614
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_amarela,Média: População Amarela,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.5171040920028697,2040,9.823284460891628
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_branca,Média: População Branca,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100757,2030,8.831184539481221
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_branca,Média: População Branca,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100757,2040,9.72771365360336
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_indigena,Média: População Indígena,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.15179084565848835,2030,7.248080340546006
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_indigena,Média: População Indígena,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.15179084565848835,2040,8.649191815509031
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231826,2030,8.03098445007176
+Rondon_do_Pará,dados_rondon_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231826,2040,8.926336378216408
+Rondon_do_Pará,dados_rondon_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,335.1934022304768,2030,770.0698312956018
+Rondon_do_Pará,dados_rondon_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,335.1934022304768,2040,805.7442445547891
+Rondon_do_Pará,dados_rondon_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340304,2030,4.399914609435301
+Rondon_do_Pará,dados_rondon_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340304,2040,4.76115886505405
+Rondon_do_Pará,dados_rondon_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340215,2030,2.0999146094353014
+Rondon_do_Pará,dados_rondon_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340215,2040,2.46115886505405
+Rondon_do_Pará,dados_rondon_do_para__populacao_amarela,População Amarela,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,29.716370146844685,2030,110.05914090341255
+Rondon_do_Pará,dados_rondon_do_para__populacao_amarela,População Amarela,dados_rondon_do_para,Grupo 2 — 3 censos,logistic,sgd,True,29.716370146844685,2040,109.94103998444916
+Rondon_do_Pará,dados_rondon_do_para__populacao_branca,População Branca,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.2531914393758452,2030,5.6295108642521505
+Rondon_do_Pará,dados_rondon_do_para__populacao_branca,População Branca,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.2531914393758452,2040,4.084455574386696
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena,População Indígena,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,215.78309040477674,2030,98.5755193841697
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena,População Indígena,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,215.78309040477674,2040,63.94592452775822
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena_total,População Indígena Total,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,215.78309040477674,2030,98.5755193841697
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena_total,População Indígena Total,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,215.78309040477674,2040,63.94592452775822
+Rondon_do_Pará,dados_rondon_do_para__populacao_parda,População Parda,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.274202087513828,2030,38.47573349707047
+Rondon_do_Pará,dados_rondon_do_para__populacao_parda,População Parda,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.274202087513828,2040,40.03111259567669
+Rondon_do_Pará,dados_rondon_do_para__populacao_preta,População Preta,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,lbfgs,True,0.37632104232428637,2030,3.574096002483804
+Rondon_do_Pará,dados_rondon_do_para__populacao_preta,População Preta,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,lbfgs,True,0.37632104232428637,2040,3.5621673810159655
+Rondon_do_Pará,dados_rondon_do_para__populacao_rural,População Rural,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6257451028968392,2030,8.742602140490309
+Rondon_do_Pará,dados_rondon_do_para__populacao_rural,População Rural,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6257451028968392,2040,7.544265955927193
+Rondon_do_Pará,dados_rondon_do_para__populacao_urbana,População Urbana,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.783143649819273,2030,39.459202094955025
+Rondon_do_Pará,dados_rondon_do_para__populacao_urbana,População Urbana,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,1.783143649819273,2040,40.88975835969698
+Rondon_do_Pará,dados_rondon_do_para__populacao_com_superior_completo,População com Superior Completo,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,132.8875851506775,2030,2.8914633217623305
+Rondon_do_Pará,dados_rondon_do_para__populacao_com_superior_completo,População com Superior Completo,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,132.8875851506775,2040,9.898141616171728
+Rondon_do_Pará,dados_rondon_do_para__populacao_de_homens,População de Homens,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6727140102095946,2030,23.568761064292783
+Rondon_do_Pará,dados_rondon_do_para__populacao_de_homens,População de Homens,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6727140102095946,2040,23.538321634121655
+Rondon_do_Pará,dados_rondon_do_para__populacao_de_mulheres,População de Mulheres,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.7797933792566182,2030,24.52652016598911
+Rondon_do_Pará,dados_rondon_do_para__populacao_de_mulheres,População de Mulheres,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.7797933792566182,2040,24.917317091042825
+Rondon_do_Pará,dados_rondon_do_para__proporcao_na_populacao_de_rondon_do_para,Proporção na população de Rondon do Pará,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,0.5176789479651224,2030,0.18067030846403176
+Rondon_do_Pará,dados_rondon_do_para__proporcao_na_populacao_de_rondon_do_para,Proporção na população de Rondon do Pará,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,sgd,True,0.5176789479651224,2040,0.10406341423822063
+Rondon_do_Pará,dados_rondon_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.823629720477849,2030,95.03502562374834
+Rondon_do_Pará,dados_rondon_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.823629720477849,2040,92.13940755615603
+Rondon_do_Pará,dados_rondon_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,163.76125610393356,2030,992.2889464652897
+Rondon_do_Pará,dados_rondon_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,163.76125610393356,2040,1248.5856150129687
+Rondon_do_Pará,dados_rondon_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.8846357057236531,2030,31.933829245906733
+Rondon_do_Pará,dados_rondon_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.8846357057236531,2040,23.175597729953225
+Rondon_do_Pará,dados_rondon_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343495,2030,17.343020569785804
+Rondon_do_Pará,dados_rondon_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.15139570283343495,2040,20.238197477521318
+Rondon_do_Pará,dados_rondon_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944047,2030,27.52491887883439
+Rondon_do_Pará,dados_rondon_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.7009512040944047,2040,31.339944657139355
+Rondon_do_Pará,dados_rondon_do_para__responsavel_homem,Responsável Homem,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2030,2.996672306080835
+Rondon_do_Pará,dados_rondon_do_para__responsavel_homem,Responsável Homem,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559393,2040,2.408756660692921
+Rondon_do_Pará,dados_rondon_do_para__responsavel_mulher,Responsável Mulher,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.7976049325140915
+Rondon_do_Pará,dados_rondon_do_para__responsavel_mulher,Responsável Mulher,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.524103678102507
+Rondon_do_Pará,dados_rondon_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Rondon_do_Pará,dados_rondon_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Rondon_do_Pará,dados_rondon_do_para__setor_privado,Setor privado,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.6819742369714209,2030,19.26448217645858
+Rondon_do_Pará,dados_rondon_do_para__setor_privado,Setor privado,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.6819742369714209,2040,23.917037190324898
+Rondon_do_Pará,dados_rondon_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626155051608663,2030,11.243472353880566
+Rondon_do_Pará,dados_rondon_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626155051608663,2040,14.290217436578601
+Rondon_do_Pará,dados_rondon_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6034030534454246,2030,7.286819999517569
+Rondon_do_Pará,dados_rondon_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,0.6034030534454246,2040,8.127335747391099
+Rondon_do_Pará,dados_rondon_do_para__setor_publico,Setor público,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.24616723280228672,2030,5.175345530089695
+Rondon_do_Pará,dados_rondon_do_para__setor_publico,Setor público,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.24616723280228672,2040,6.439193979935532
+Rondon_do_Pará,dados_rondon_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,4.57572042618249,2030,417.41137301605613
+Rondon_do_Pará,dados_rondon_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,lbfgs,True,4.57572042618249,2040,540.2152562407044
+Rondon_do_Pará,dados_rondon_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.25076442388279646,2030,4.75836202866382
+Rondon_do_Pará,dados_rondon_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,0.25076442388279646,2040,5.899915437289728
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,2.3765776487135617,2030,56.82235392480929
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,2.3765776487135617,2040,67.63850339920764
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,2.961691963411662,2030,97.58904750781458
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_rondon_do_para,Grupo 2 — 3 censos,relu,adam,True,2.961691963411662,2040,99.1727605843294
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_rondon_do_para,Grupo 2 — 3 censos,logistic,lbfgs,True,4.235235251352525,2030,94.38208675268633
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_rondon_do_para,Grupo 2 — 3 censos,logistic,lbfgs,True,4.235235251352525,2040,94.65569430726191
+Rondon_do_Pará,dados_rondon_do_para__trabalhador_domestico,Trabalhador doméstico,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,418.2809487013422,2030,-3.4955935274651893
+Rondon_do_Pará,dados_rondon_do_para__trabalhador_domestico,Trabalhador doméstico,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,418.2809487013422,2040,18.55856944713969
+Rondon_do_Pará,dados_rondon_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2030,498.7792112455287
+Rondon_do_Pará,dados_rondon_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2040,644.3992266624617
+Rondon_do_Pará,dados_rondon_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,379.7050994546025,2030,-3.435128960106084
+Rondon_do_Pará,dados_rondon_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_rondon_do_para,Grupo 2 — 3 censos,tanh,adam,True,379.7050994546025,2040,16.586047583159626
+Rondon_do_Pará,dados_rondon_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,5.206648458417965,2030,32.11061994438309
+Rondon_do_Pará,dados_rondon_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_rondon_do_para,Grupo 2 — 3 censos,relu,lbfgs,True,5.206648458417965,2040,40.20821275208559
+Rondon_do_Pará,dados_rondon_do_para__a_pe,A pé,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.468962217514903
+Rondon_do_Pará,dados_rondon_do_para__a_pe,A pé,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.489046341656078
+Rondon_do_Pará,dados_rondon_do_para__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.681305001870214
+Rondon_do_Pará,dados_rondon_do_para__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.853172959385454
+Rondon_do_Pará,dados_rondon_do_para__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.45391649546358
+Rondon_do_Pará,dados_rondon_do_para__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.82972505554914
+Rondon_do_Pará,dados_rondon_do_para__automovel_onibus,Automóvel / Ônibus,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.217430562302077
+Rondon_do_Pará,dados_rondon_do_para__automovel_onibus,Automóvel / Ônibus,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.690743269946633
+Rondon_do_Pará,dados_rondon_do_para__bicicleta,Bicicleta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.092787268875831
+Rondon_do_Pará,dados_rondon_do_para__bicicleta,Bicicleta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.2001288249913404
+Rondon_do_Pará,dados_rondon_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.9653646086328
+Rondon_do_Pará,dados_rondon_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.2402872622999
+Rondon_do_Pará,dados_rondon_do_para__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.9537818559709
+Rondon_do_Pará,dados_rondon_do_para__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.95008738270099
+Rondon_do_Pará,dados_rondon_do_para__com_coleta_de_lixo,Com Coleta de Lixo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.60596067625866
+Rondon_do_Pará,dados_rondon_do_para__com_coleta_de_lixo,Com Coleta de Lixo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.91143029144433
+Rondon_do_Pará,dados_rondon_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Rondon_do_Pará,dados_rondon_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Rondon_do_Pará,dados_rondon_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.78839760422103
+Rondon_do_Pará,dados_rondon_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.17424822637718
+Rondon_do_Pará,dados_rondon_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.90435764057552
+Rondon_do_Pará,dados_rondon_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.522685817486659
+Rondon_do_Pará,dados_rondon_do_para__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.9826258710071585
+Rondon_do_Pará,dados_rondon_do_para__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.064700180601654
+Rondon_do_Pará,dados_rondon_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.472476854100695
+Rondon_do_Pará,dados_rondon_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.29691442331555
+Rondon_do_Pará,dados_rondon_do_para__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.06269582477317892
+Rondon_do_Pará,dados_rondon_do_para__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.1185137472225431
+Rondon_do_Pará,dados_rondon_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.952349897278147
+Rondon_do_Pará,dados_rondon_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.777835033329481
+Rondon_do_Pará,dados_rondon_do_para__estuda_em_outro_municipio,Estuda em outro município,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.592774887913624
+Rondon_do_Pará,dados_rondon_do_para__estuda_em_outro_municipio,Estuda em outro município,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.93248593788776
+Rondon_do_Pará,dados_rondon_do_para__estuda_no_proprio_municipio_rondon_do_para,Estuda no próprio município (Rondon do Pará),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.71504572205133
+Rondon_do_Pará,dados_rondon_do_para__estuda_no_proprio_municipio_rondon_do_para,Estuda no próprio município (Rondon do Pará),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.35932128610695
+Rondon_do_Pará,dados_rondon_do_para__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.116053259855875
+Rondon_do_Pará,dados_rondon_do_para__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.12377259818213
+Rondon_do_Pará,dados_rondon_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.453916495463577
+Rondon_do_Pará,dados_rondon_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.829725055549138
+Rondon_do_Pará,dados_rondon_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.48119213525173
+Rondon_do_Pará,dados_rondon_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.54228605828887
+Rondon_do_Pará,dados_rondon_do_para__idade_mediana_2,Idade Mediana,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.101490169064665
+Rondon_do_Pará,dados_rondon_do_para__idade_mediana_2,Idade Mediana,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.67785757286108
+Rondon_do_Pará,dados_rondon_do_para__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.008715281151037
+Rondon_do_Pará,dados_rondon_do_para__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.245371634973317
+Rondon_do_Pará,dados_rondon_do_para__motocicleta,Motocicleta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.318920731366745
+Rondon_do_Pará,dados_rondon_do_para__motocicleta,Motocicleta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.36860084280773
+Rondon_do_Pará,dados_rondon_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.36739561932947
+Rondon_do_Pará,dados_rondon_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.83715631943642
+Rondon_do_Pará,dados_rondon_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Rondon_do_Pará,dados_rondon_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Rondon_do_Pará,dados_rondon_do_para__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.217430562302077
+Rondon_do_Pará,dados_rondon_do_para__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.690743269946637
+Rondon_do_Pará,dados_rondon_do_para__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.3769473612947
+Rondon_do_Pará,dados_rondon_do_para__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.93048714189881
+Rondon_do_Pará,dados_rondon_do_para__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.562912618158244
+Rondon_do_Pará,dados_rondon_do_para__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.449183005064212
+Rondon_do_Pará,dados_rondon_do_para__populacao_amarela_2,População Amarela,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.023861128148358
+Rondon_do_Pará,dados_rondon_do_para__populacao_amarela_2,População Amarela,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.925636958733076
+Rondon_do_Pará,dados_rondon_do_para__populacao_branca_2,População Branca,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,298.84172473381057
+Rondon_do_Pará,dados_rondon_do_para__populacao_branca_2,População Branca,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,370.9800120401103
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena_2,População Indígena,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.81192135251732
+Rondon_do_Pará,dados_rondon_do_para__populacao_indigena_2,População Indígena,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.42286058288865
+Rondon_do_Pará,dados_rondon_do_para__populacao_parda_2,População Parda,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-627.7033428195077
+Rondon_do_Pará,dados_rondon_do_para__populacao_parda_2,População Parda,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1459.1744034432786
+Rondon_do_Pará,dados_rondon_do_para__populacao_preta_2,População Preta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,293.0447050719399
+Rondon_do_Pará,dados_rondon_do_para__populacao_preta_2,População Preta,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,370.3357271858324
+Rondon_do_Pará,dados_rondon_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.562912618158244
+Rondon_do_Pará,dados_rondon_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.449183005064212
+Rondon_do_Pará,dados_rondon_do_para__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.9826258710071585
+Rondon_do_Pará,dados_rondon_do_para__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.064700180601654
+Rondon_do_Pará,dados_rondon_do_para__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.0269582477318
+Rondon_do_Pará,dados_rondon_do_para__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.21486252777457
+Rondon_do_Pará,dados_rondon_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.288087474319537
+Rondon_do_Pará,dados_rondon_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.744458758332372
+Rondon_do_Pará,dados_rondon_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.140437371597685
+Rondon_do_Pará,dados_rondon_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.422293791661854
+Rondon_do_Pará,dados_rondon_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.06089410143879
+Rondon_do_Pará,dados_rondon_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.60671454371665
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.195698792733719
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.982682304316395
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.132757633061633
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.620143631149944
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.03784146273347
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.0928877545321
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.13720168561542
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.54337283898435
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8623278371942256
+Rondon_do_Pará,dados_rondon_do_para__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4291286660294373
+Rondon_do_Pará,dados_rondon_do_para__sem_conjuge,Sem cônjuge,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.66817564683441
+Rondon_do_Pará,dados_rondon_do_para__sem_conjuge,Sem cônjuge,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.429672056377186
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.9826823043164
+Rondon_do_Pará,dados_rondon_do_para__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.62014363114994
+Rondon_do_Pará,dados_rondon_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,977.5400758920784
+Rondon_do_Pará,dados_rondon_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1219.7186118489417
+Rondon_do_Pará,dados_rondon_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.88119213525173
+Rondon_do_Pará,dados_rondon_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.942286058288865
+Rondon_do_Pará,dados_rondon_do_para__trabalha_em_outro_municipio_ex_dom_eliseu_mar,Trabalha em outro município (ex: Dom Eliseu / Marabá / Açailândia),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.144953708201387
+Rondon_do_Pará,dados_rondon_do_para__trabalha_em_outro_municipio_ex_dom_eliseu_mar,Trabalha em outro município (ex: Dom Eliseu / Marabá / Açailândia),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.793828846631095
+Rondon_do_Pará,dados_rondon_do_para__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rondon do Pará),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.00313319637085
+Rondon_do_Pará,dados_rondon_do_para__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rondon do Pará),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.1037800444393
+Rondon_do_Pará,dados_rondon_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.80584780964018
+Rondon_do_Pará,dados_rondon_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.000543390347737
+Rondon_do_Pará,dados_rondon_do_para__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.11318578834502
+Rondon_do_Pará,dados_rondon_do_para__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.07894435355655
+Rondon_do_Pará,dados_rondon_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.2942086236690529
+Rondon_do_Pará,dados_rondon_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.6549000602005508
+Rondon_do_Pará,dados_rondon_do_para__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.011695619280367
+Rondon_do_Pará,dados_rondon_do_para__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.40108678069548
+Rondon_do_Pará,dados_rondon_do_para__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.89002028302124
+Rondon_do_Pará,dados_rondon_do_para__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.29854459435876
+Rondon_do_Pará,dados_rondon_do_para__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.9102054502157
+Rondon_do_Pará,dados_rondon_do_para__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_rondon_do_para,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.723229207834397
