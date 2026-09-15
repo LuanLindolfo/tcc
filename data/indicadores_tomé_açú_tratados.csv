@@ -1,1 +1,326 @@
-
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Tomé_Açú,dados_tome_acu__populacao_total,População Total,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,1.1841003624520745,1991,38.41,Valor
+Tomé_Açú,dados_tome_acu__populacao_total,População Total,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,1.1841003624520745,2000,48.064,Valor
+Tomé_Açú,dados_tome_acu__populacao_total,População Total,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,1.1841003624520745,2010,56.518,Valor
+Tomé_Açú,dados_tome_acu__populacao_total,População Total,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,1.1841003624520745,2022,66.866,Valor
+Tomé_Açú,dados_tome_acu__populacao_urbana,População Urbana,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.1446527676561284,2000,26.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_urbana,População Urbana,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.1446527676561284,2010,33.41,Valor
+Tomé_Açú,dados_tome_acu__populacao_urbana,População Urbana,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.1446527676561284,2022,42.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_rural,População Rural,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.5870718580888609,2000,21.244,Valor
+Tomé_Açú,dados_tome_acu__populacao_rural,População Rural,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.5870718580888609,2010,23.108,Valor
+Tomé_Açú,dados_tome_acu__populacao_rural,População Rural,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.5870718580888609,2022,24.046,Valor
+Tomé_Açú,dados_tome_acu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.41,Valor
+Tomé_Açú,dados_tome_acu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_mulheres,População de Mulheres,dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.43988657065848,2000,23.41,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_mulheres,População de Mulheres,dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.43988657065848,2010,27.42,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_mulheres,População de Mulheres,dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.43988657065848,2022,32.81,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_homens,População de Homens,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2840258659417998,2000,24.654,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_homens,População de Homens,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2840258659417998,2010,29.098,Valor
+Tomé_Açú,dados_tome_acu__populacao_de_homens,População de Homens,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2840258659417998,2022,34.056,Valor
+Tomé_Açú,dados_tome_acu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546932260515196,2000,105.3,Valor
+Tomé_Açú,dados_tome_acu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546932260515196,2010,106.1,Valor
+Tomé_Açú,dados_tome_acu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2546932260515196,2022,103.8,Valor
+Tomé_Açú,dados_tome_acu__idade_mediana,Idade Mediana,dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2000,21.0,Valor
+Tomé_Açú,dados_tome_acu__idade_mediana,Idade Mediana,dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2010,23.0,Valor
+Tomé_Açú,dados_tome_acu__idade_mediana,Idade Mediana,dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2022,28.0,Valor
+Tomé_Açú,dados_tome_acu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.926207863589574,2000,6.8,Valor
+Tomé_Açú,dados_tome_acu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.926207863589574,2010,11.2,Valor
+Tomé_Açú,dados_tome_acu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tome_acu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.926207863589574,2022,24.6,Valor
+Tomé_Açú,dados_tome_acu__populacao_parda,População Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7420846895697366,2000,34.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_parda,População Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7420846895697366,2010,42.81,Valor
+Tomé_Açú,dados_tome_acu__populacao_parda,População Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7420846895697366,2022,51.42,Valor
+Tomé_Açú,dados_tome_acu__populacao_branca,População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.21928217197681713,2000,8.41,Valor
+Tomé_Açú,dados_tome_acu__populacao_branca,População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.21928217197681713,2010,8.92,Valor
+Tomé_Açú,dados_tome_acu__populacao_branca,População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.21928217197681713,2022,9.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_preta,População Preta,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.10815478895782782,2000,3.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_preta,População Preta,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.10815478895782782,2010,4.21,Valor
+Tomé_Açú,dados_tome_acu__populacao_preta,População Preta,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.10815478895782782,2022,4.82,Valor
+Tomé_Açú,dados_tome_acu__populacao_amarela,População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,117.26568097226739,2000,680.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_amarela,População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,117.26568097226739,2010,420.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_amarela,População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,117.26568097226739,2022,380.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena,População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2000,334.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena,População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2010,158.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena,População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2022,424.0,Valor
+Tomé_Açú,dados_tome_acu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,155.95572665510167,2000,204.1,Valor
+Tomé_Açú,dados_tome_acu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,155.95572665510167,2010,418.2,Valor
+Tomé_Açú,dados_tome_acu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,155.95572665510167,2022,880.0,Valor
+Tomé_Açú,dados_tome_acu__apenas_1_trabalho,Apenas 1 trabalho,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6509086117486333,2000,95.4,Valor
+Tomé_Açú,dados_tome_acu__apenas_1_trabalho,Apenas 1 trabalho,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6509086117486333,2010,95.8,Valor
+Tomé_Açú,dados_tome_acu__apenas_1_trabalho,Apenas 1 trabalho,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6509086117486333,2022,93.1,Valor
+Tomé_Açú,dados_tome_acu__2_trabalhos,2 trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915544,2000,4.1,Valor
+Tomé_Açú,dados_tome_acu__2_trabalhos,2 trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915544,2010,3.8,Valor
+Tomé_Açú,dados_tome_acu__2_trabalhos,2 trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,1.3097344894915544,2022,6.1,Valor
+Tomé_Açú,dados_tome_acu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2000,0.5,Valor
+Tomé_Açú,dados_tome_acu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2010,0.4,Valor
+Tomé_Açú,dados_tome_acu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.23572755235183881,2022,0.8,Valor
+Tomé_Açú,dados_tome_acu__setor_privado,Setor privado,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2000,6.82,Valor
+Tomé_Açú,dados_tome_acu__setor_privado,Setor privado,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2010,14.82,Valor
+Tomé_Açú,dados_tome_acu__setor_privado,Setor privado,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.5273617558593042,2022,22.41,Valor
+Tomé_Açú,dados_tome_acu__conta_propria,Conta própria,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.5244444345940034,2000,5.41,Valor
+Tomé_Açú,dados_tome_acu__conta_propria,Conta própria,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.5244444345940034,2010,8.92,Valor
+Tomé_Açú,dados_tome_acu__conta_propria,Conta própria,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.5244444345940034,2022,13.82,Valor
+Tomé_Açú,dados_tome_acu__setor_publico,Setor público,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10524198073045765,2000,1.98,Valor
+Tomé_Açú,dados_tome_acu__setor_publico,Setor público,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10524198073045765,2010,3.84,Valor
+Tomé_Açú,dados_tome_acu__setor_publico,Setor público,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10524198073045765,2022,6.21,Valor
+Tomé_Açú,dados_tome_acu__trabalhador_domestico,Trabalhador doméstico,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.1885156885925646,2000,1.24,Valor
+Tomé_Açú,dados_tome_acu__trabalhador_domestico,Trabalhador doméstico,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.1885156885925646,2010,1.98,Valor
+Tomé_Açú,dados_tome_acu__trabalhador_domestico,Trabalhador doméstico,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.1885156885925646,2022,2.62,Valor
+Tomé_Açú,dados_tome_acu__empregador,Empregador,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,395.28177900543113,2000,420.0,Valor
+Tomé_Açú,dados_tome_acu__empregador,Empregador,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,395.28177900543113,2010,780.0,Valor
+Tomé_Açú,dados_tome_acu__empregador,Empregador,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,395.28177900543113,2022,1.42,Valor
+Tomé_Açú,dados_tome_acu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,286.0038061960025,2000,1.98,Valor
+Tomé_Açú,dados_tome_acu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,286.0038061960025,2010,1.24,Valor
+Tomé_Açú,dados_tome_acu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,286.0038061960025,2022,580.0,Valor
+Tomé_Açú,dados_tome_acu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,115.7245740994994,2000,240.0,Valor
+Tomé_Açú,dados_tome_acu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,115.7245740994994,2010,480.0,Valor
+Tomé_Açú,dados_tome_acu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,115.7245740994994,2022,920.0,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.11286674319184946,2000,3.21,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.11286674319184946,2010,8.42,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.11286674319184946,2022,14.82,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,1.0269044395402676,2000,3.61,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,1.0269044395402676,2010,6.4,Valor
+Tomé_Açú,dados_tome_acu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,1.0269044395402676,2022,7.59,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,103.53125502231364,2000,110.0,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,103.53125502231364,2010,280.0,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,103.53125502231364,2022,620.0,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.001524486773582634,2000,1.87,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.001524486773582634,2010,3.56,Valor
+Tomé_Açú,dados_tome_acu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.001524486773582634,2022,5.59,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2000,140.0,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2010,380.0,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2022,640.0,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.1438698522194196,2000,1.1,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.1438698522194196,2010,1.6,Valor
+Tomé_Açú,dados_tome_acu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.1438698522194196,2022,1.98,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tome_acu,Grupo 1 — 4 censos,4,relu,adam,True,2.5754458009497228,1991,66.2,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tome_acu,Grupo 1 — 4 censos,4,relu,adam,True,2.5754458009497228,2000,76.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tome_acu,Grupo 1 — 4 censos,4,relu,adam,True,2.5754458009497228,2010,84.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tome_acu,Grupo 1 — 4 censos,4,relu,adam,True,2.5754458009497228,2022,91.2,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.318604472781999,2000,88.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.318604472781999,2010,94.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.318604472781999,2022,97.2,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,2.376841077263593,2000,29.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,2.376841077263593,2010,40.2,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,2.376841077263593,2022,55.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2000,82.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2010,92.4,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2022,95.2,Valor
+Tomé_Açú,dados_tome_acu__populacao_com_superior_completo,População com Superior Completo,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,265.8285628204796,2000,480.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_com_superior_completo,População com Superior Completo,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,265.8285628204796,2010,2.12,Valor
+Tomé_Açú,dados_tome_acu__populacao_com_superior_completo,População com Superior Completo,dados_tome_acu,Grupo 2 — 3 censos,3,tanh,adam,True,265.8285628204796,2022,6.84,Valor
+Tomé_Açú,dados_tome_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346315,1991,3.0,Valor
+Tomé_Açú,dados_tome_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346315,2000,4.4,Valor
+Tomé_Açú,dados_tome_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346315,2010,6.3,Valor
+Tomé_Açú,dados_tome_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346315,2022,8.1,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696705,1991,3.2,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696705,2000,4.7,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696705,2010,6.7,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.19775902606696705,2022,8.5,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,1991,2.8,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2000,4.1,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2010,5.9,Valor
+Tomé_Açú,dados_tome_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tome_acu,Grupo 1 — 4 censos,4,identity,adam,True,0.1205374038574607,2022,7.7,Valor
+Tomé_Açú,dados_tome_acu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.02295831864381324,1991,0.258,Valor
+Tomé_Açú,dados_tome_acu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.02295831864381324,2000,0.412,Valor
+Tomé_Açú,dados_tome_acu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.02295831864381324,2010,0.554,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2000,82.8,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2010,92.4,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tome_acu,Grupo 2 — 3 censos,3,logistic,adam,True,4.178442447380372,2022,95.2,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,3.9272392467262924,2000,60.2,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,3.9272392467262924,2010,72.8,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,3.9272392467262924,2022,79.2,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.324420316974011,2000,19.4,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.324420316974011,2010,25.2,Valor
+Tomé_Açú,dados_tome_acu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,2.324420316974011,2022,27.4,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_amarela,Média: População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2000,6.8,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_amarela,Média: População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2010,8.9,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_amarela,Média: População Amarela,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6119066072016919,2022,10.2,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_branca,Média: População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2000,4.8,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_branca,Média: População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2010,7.0,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_branca,Média: População Branca,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2022,8.6,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_preta_parda,Média: População Preta / Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543214,2000,4.1,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_preta_parda,Média: População Preta / Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543214,2010,6.0,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_preta_parda,Média: População Preta / Parda,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543214,2022,7.8,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_indigena,Média: População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671866,2000,3.4,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_indigena,Média: População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671866,2010,4.9,Valor
+Tomé_Açú,dados_tome_acu__media_populacao_indigena,Média: População Indígena,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671866,2022,6.6,Valor
+Tomé_Açú,dados_tome_acu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Tomé_Açú,dados_tome_acu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_residente_em_favelas,População Residente em Favelas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.41,Valor
+Tomé_Açú,dados_tome_acu__populacao_residente_em_favelas,População Residente em Favelas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.82,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,580.0,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.84,Valor
+Tomé_Açú,dados_tome_acu__idade_mediana_2,Idade Mediana,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Tomé_Açú,dados_tome_acu__idade_mediana_2,Idade Mediana,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Tomé_Açú,dados_tome_acu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Tomé_Açú,dados_tome_acu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Tomé_Açú,dados_tome_acu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.8,Valor
+Tomé_Açú,dados_tome_acu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,99.8,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,80.4,Valor
+Tomé_Açú,dados_tome_acu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.2,Valor
+Tomé_Açú,dados_tome_acu__populacao_parda_2,População Parda,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.98,Valor
+Tomé_Açú,dados_tome_acu__populacao_parda_2,População Parda,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.42,Valor
+Tomé_Açú,dados_tome_acu__populacao_branca_2,População Branca,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,240.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_branca_2,População Branca,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,610.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_preta_2,População Preta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,180.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_preta_2,População Preta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,520.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_amarela_2,População Amarela,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_amarela_2,População Amarela,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena_2,População Indígena,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena_2,População Indígena,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,240.0,Valor
+Tomé_Açú,dados_tome_acu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Tomé_Açú,dados_tome_acu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Tomé_Açú,dados_tome_acu__com_coleta_de_lixo,Com Coleta de Lixo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Tomé_Açú,dados_tome_acu__com_coleta_de_lixo,Com Coleta de Lixo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Tomé_Açú,dados_tome_acu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.2,Valor
+Tomé_Açú,dados_tome_acu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Tomé_Açú,dados_tome_acu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Tomé_Açú,dados_tome_acu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Tomé_Açú,dados_tome_acu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Tomé_Açú,dados_tome_acu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.4,Valor
+Tomé_Açú,dados_tome_acu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Tomé_Açú,dados_tome_acu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Tomé_Açú,dados_tome_acu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Tomé_Açú,dados_tome_acu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.1,Valor
+Tomé_Açú,dados_tome_acu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Tomé_Açú,dados_tome_acu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.9,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos,Casais com filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1439274228394278,2000,62.1,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos,Casais com filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1439274228394278,2010,53.1,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos,Casais com filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1439274228394278,2022,43.8,Valor
+Tomé_Açú,dados_tome_acu__casais_sem_filhos,Casais sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.6399187515709676,2000,8.1,Valor
+Tomé_Açú,dados_tome_acu__casais_sem_filhos,Casais sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.6399187515709676,2010,10.9,Valor
+Tomé_Açú,dados_tome_acu__casais_sem_filhos,Casais sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.6399187515709676,2022,15.1,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2000,16.5,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2010,19.6,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.16658795882678726,2022,23.1,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2000,3.0,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2010,3.3,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tome_acu,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2022,3.7,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2000,7.3,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2010,8.0,Valor
+Tomé_Açú,dados_tome_acu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418841,2022,7.5,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2000,3.6,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2010,4.3,Valor
+Tomé_Açú,dados_tome_acu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3986875148131806,2022,4.1,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608352,2000,0.8,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608352,2010,1.2,Valor
+Tomé_Açú,dados_tome_acu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608352,2022,1.7,Valor
+Tomé_Açú,dados_tome_acu__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.4,Valor
+Tomé_Açú,dados_tome_acu__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+Tomé_Açú,dados_tome_acu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Tomé_Açú,dados_tome_acu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Tomé_Açú,dados_tome_acu__trabalha_em_outro_municipio,Trabalha em outro município,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.6,Valor
+Tomé_Açú,dados_tome_acu__trabalha_em_outro_municipio,Trabalha em outro município,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Tomé_Açú,dados_tome_acu__motocicleta,Motocicleta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Tomé_Açú,dados_tome_acu__motocicleta,Motocicleta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.2,Valor
+Tomé_Açú,dados_tome_acu__automovel_carro,Automóvel (Carro),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Tomé_Açú,dados_tome_acu__automovel_carro,Automóvel (Carro),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Tomé_Açú,dados_tome_acu__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.1,Valor
+Tomé_Açú,dados_tome_acu__onibus_transporte_da_empresa,Ônibus / Transporte da Empresa,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Tomé_Açú,dados_tome_acu__bicicleta,Bicicleta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Tomé_Açú,dados_tome_acu__bicicleta,Bicicleta,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Tomé_Açú,dados_tome_acu__a_pe,A pé,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.1,Valor
+Tomé_Açú,dados_tome_acu__a_pe,A pé,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+Tomé_Açú,dados_tome_acu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.8,Valor
+Tomé_Açú,dados_tome_acu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.8,Valor
+Tomé_Açú,dados_tome_acu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Tomé_Açú,dados_tome_acu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.8,Valor
+Tomé_Açú,dados_tome_acu__mais_de_1_hora,Mais de 1 hora,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.0,Valor
+Tomé_Açú,dados_tome_acu__mais_de_1_hora,Mais de 1 hora,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Tomé_Açú,dados_tome_acu__estuda_no_proprio_municipio_tome_acu,Estuda no próprio município (Tomé-Açu),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.8,Valor
+Tomé_Açú,dados_tome_acu__estuda_no_proprio_municipio_tome_acu,Estuda no próprio município (Tomé-Açu),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.4,Valor
+Tomé_Açú,dados_tome_acu__estuda_em_outro_municipio,Estuda em outro município,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Tomé_Açú,dados_tome_acu__estuda_em_outro_municipio,Estuda em outro município,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7093036743889847,1991,7.21,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7093036743889847,2000,11.24,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7093036743889847,2010,15.42,Valor
+Tomé_Açú,dados_tome_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7093036743889847,2022,23.82,Valor
+Tomé_Açú,dados_tome_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7272152919233927,1991,7.08,Valor
+Tomé_Açú,dados_tome_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7272152919233927,2000,11.02,Valor
+Tomé_Açú,dados_tome_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7272152919233927,2010,15.21,Valor
+Tomé_Açú,dados_tome_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,1.7272152919233927,2022,23.54,Valor
+Tomé_Açú,dados_tome_acu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tome_acu,Grupo 1 — 4 censos,4,identity,sgd,True,31.737629317917595,1991,130.0,Valor
+Tomé_Açú,dados_tome_acu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tome_acu,Grupo 1 — 4 censos,4,identity,sgd,True,31.737629317917595,2000,220.0,Valor
+Tomé_Açú,dados_tome_acu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tome_acu,Grupo 1 — 4 censos,4,identity,sgd,True,31.737629317917595,2010,210.0,Valor
+Tomé_Açú,dados_tome_acu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tome_acu,Grupo 1 — 4 censos,4,identity,sgd,True,31.737629317917595,2022,280.0,Valor
+Tomé_Açú,dados_tome_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2002178158554777,1991,5.3,Valor
+Tomé_Açú,dados_tome_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2002178158554777,2000,4.3,Valor
+Tomé_Açú,dados_tome_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2002178158554777,2010,3.7,Valor
+Tomé_Açú,dados_tome_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tome_acu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2002178158554777,2022,2.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.2,Valor
+Tomé_Açú,dados_tome_acu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Tomé_Açú,dados_tome_acu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Tomé_Açú,dados_tome_acu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Tomé_Açú,dados_tome_acu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Tomé_Açú,dados_tome_acu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Tomé_Açú,dados_tome_acu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Tomé_Açú,dados_tome_acu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.4,Valor
+Tomé_Açú,dados_tome_acu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.2,Valor
+Tomé_Açú,dados_tome_acu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Tomé_Açú,dados_tome_acu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_sem_arvores,Ruas Sem Árvores,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.8,Valor
+Tomé_Açú,dados_tome_acu__ruas_sem_arvores,Ruas Sem Árvores,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,37.2,Valor
+Tomé_Açú,dados_tome_acu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Tomé_Açú,dados_tome_acu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Tomé_Açú,dados_tome_acu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Tomé_Açú,dados_tome_acu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Tomé_Açú,dados_tome_acu__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Tomé_Açú,dados_tome_acu__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena_total,População Indígena Total,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2000,334.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena_total,População Indígena Total,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2010,158.0,Valor
+Tomé_Açú,dados_tome_acu__populacao_indigena_total,População Indígena Total,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,146.8148676312669,2022,424.0,Valor
+Tomé_Açú,dados_tome_acu__proporcao_na_populacao_de_tome_acu,Proporção na população de Tomé-Açu,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2526696573207093,2000,0.69,Valor
+Tomé_Açú,dados_tome_acu__proporcao_na_populacao_de_tome_acu,Proporção na população de Tomé-Açu,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2526696573207093,2010,0.28,Valor
+Tomé_Açú,dados_tome_acu__proporcao_na_populacao_de_tome_acu,Proporção na população de Tomé-Açu,dados_tome_acu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2526696573207093,2022,0.63,Valor
+Tomé_Açú,dados_tome_acu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.8,Valor
+Tomé_Açú,dados_tome_acu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.8,Valor
+Tomé_Açú,dados_tome_acu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Tomé_Açú,dados_tome_acu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Tomé_Açú,dados_tome_acu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.4,Valor
+Tomé_Açú,dados_tome_acu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Tomé_Açú,dados_tome_acu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Tomé_Açú,dados_tome_acu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Tomé_Açú,dados_tome_acu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418666,2000,16.2,Valor
+Tomé_Açú,dados_tome_acu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418666,2010,19.8,Valor
+Tomé_Açú,dados_tome_acu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418666,2022,25.8,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777629147555781,2000,55.8,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777629147555781,2010,46.8,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777629147555781,2022,38.2,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2000,9.1,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2010,12.1,Valor
+Tomé_Açú,dados_tome_acu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2022,15.4,Valor
+Tomé_Açú,dados_tome_acu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.8,Valor
+Tomé_Açú,dados_tome_acu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.8,Valor
+Tomé_Açú,dados_tome_acu__sem_conjuge,Sem cônjuge,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.5,Valor
+Tomé_Açú,dados_tome_acu__sem_conjuge,Sem cônjuge,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.4,Valor
+Tomé_Açú,dados_tome_acu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.7,Valor
+Tomé_Açú,dados_tome_acu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Tomé_Açú,dados_tome_acu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Tomé_Açú,dados_tome_acu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tome_acu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Tomé_Açú,dados_tome_acu__responsavel_mulher,Responsável Mulher,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Tomé_Açú,dados_tome_acu__responsavel_mulher,Responsável Mulher,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Tomé_Açú,dados_tome_acu__responsavel_mulher,Responsável Mulher,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Tomé_Açú,dados_tome_acu__responsavel_homem,Responsável Homem,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838316,2000,4.6,Valor
+Tomé_Açú,dados_tome_acu__responsavel_homem,Responsável Homem,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838316,2010,3.9,Valor
+Tomé_Açú,dados_tome_acu__responsavel_homem,Responsável Homem,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838316,2022,3.1,Valor
+Tomé_Açú,dados_tome_acu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Tomé_Açú,dados_tome_acu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Tomé_Açú,dados_tome_acu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tome_acu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7164068886377901,2000,13.8,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7164068886377901,2010,18.1,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.7164068886377901,2022,24.2,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.3794112570087111,2000,16.8,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.3794112570087111,2010,20.8,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tome_acu,Grupo 2 — 3 censos,3,identity,adam,True,0.3794112570087111,2022,25.1,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,4.20634411417657,2000,45.2,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,4.20634411417657,2010,29.8,Valor
+Tomé_Açú,dados_tome_acu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tome_acu,Grupo 2 — 3 censos,3,relu,adam,True,4.20634411417657,2022,18.2,Valor
