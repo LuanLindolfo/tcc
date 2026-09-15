@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Augusto_Corrêa,dados_augusto_correa__populacao_total,População Total,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.048198180438412,1991,31.42,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_total,População Total,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.048198180438412,2000,36.425,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_total,População Total,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.048198180438412,2010,40.497,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_total,População Total,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.048198180438412,2022,43.199,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_urbana,População Urbana,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.2111069204411642,2000,14.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_urbana,População Urbana,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.2111069204411642,2010,18.42,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_urbana,População Urbana,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.2111069204411642,2022,20.12,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_rural,População Rural,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.33158542119276646,2000,21.605,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_rural,População Rural,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.33158542119276646,2010,22.077,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_rural,População Rural,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.33158542119276646,2022,23.079,Valor
+Augusto_Corrêa,dados_augusto_correa__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,720.0,Valor
+Augusto_Corrêa,dados_augusto_correa__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.94,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_mulheres,População de Mulheres,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5788406238250339,2000,17.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_mulheres,População de Mulheres,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5788406238250339,2010,19.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_mulheres,População de Mulheres,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5788406238250339,2022,21.21,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_homens,População de Homens,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6029894244508824,2000,18.605,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_homens,População de Homens,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6029894244508824,2010,20.677,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_de_homens,População de Homens,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6029894244508824,2022,21.989,Valor
+Augusto_Corrêa,dados_augusto_correa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.22800196237023349,2000,104.4,Valor
+Augusto_Corrêa,dados_augusto_correa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.22800196237023349,2010,104.3,Valor
+Augusto_Corrêa,dados_augusto_correa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.22800196237023349,2022,103.7,Valor
+Augusto_Corrêa,dados_augusto_correa__idade_mediana,Idade Mediana,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2000,18.0,Valor
+Augusto_Corrêa,dados_augusto_correa__idade_mediana,Idade Mediana,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2010,21.0,Valor
+Augusto_Corrêa,dados_augusto_correa__idade_mediana,Idade Mediana,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2022,27.0,Valor
+Augusto_Corrêa,dados_augusto_correa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2000,5.8,Valor
+Augusto_Corrêa,dados_augusto_correa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2010,9.8,Valor
+Augusto_Corrêa,dados_augusto_correa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.2454713295269935,2022,21.4,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_parda,População Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.6991072042441656,2000,27.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_parda,População Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.6991072042441656,2010,31.42,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_parda,População Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.6991072042441656,2022,34.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_branca,População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.19225304755684972,2000,5.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_branca,População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.19225304755684972,2010,5.12,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_branca,População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.19225304755684972,2022,4.62,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_preta,População Preta,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7168233745505656,2000,2.64,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_preta,População Preta,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7168233745505656,2010,3.82,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_preta,População Preta,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7168233745505656,2022,3.62,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_amarela,População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,21.131710664059348,2000,70.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_amarela,População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,21.131710664059348,2010,90.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_amarela,População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,21.131710664059348,2022,48.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena,População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2000,75.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena,População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2010,47.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena,População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2022,91.0,Valor
+Augusto_Corrêa,dados_augusto_correa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,144.12574571865682,2000,112.4,Valor
+Augusto_Corrêa,dados_augusto_correa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,144.12574571865682,2010,248.2,Valor
+Augusto_Corrêa,dados_augusto_correa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,144.12574571865682,2022,642.0,Valor
+Augusto_Corrêa,dados_augusto_correa__apenas_1_trabalho,Apenas 1 trabalho,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062925,2000,95.8,Valor
+Augusto_Corrêa,dados_augusto_correa__apenas_1_trabalho,Apenas 1 trabalho,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062925,2010,95.4,Valor
+Augusto_Corrêa,dados_augusto_correa__apenas_1_trabalho,Apenas 1 trabalho,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062925,2022,91.4,Valor
+Augusto_Corrêa,dados_augusto_correa__2_trabalhos,2 trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727925,2000,3.7,Valor
+Augusto_Corrêa,dados_augusto_correa__2_trabalhos,2 trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727925,2010,4.1,Valor
+Augusto_Corrêa,dados_augusto_correa__2_trabalhos,2 trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727925,2022,7.7,Valor
+Augusto_Corrêa,dados_augusto_correa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.5,Valor
+Augusto_Corrêa,dados_augusto_correa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.5,Valor
+Augusto_Corrêa,dados_augusto_correa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.9,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado,Setor privado,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032651876,2000,2.82,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado,Setor privado,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032651876,2010,5.82,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado,Setor privado,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032651876,2022,9.42,Valor
+Augusto_Corrêa,dados_augusto_correa__conta_propria,Conta própria,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.170091887455681,2000,6.82,Valor
+Augusto_Corrêa,dados_augusto_correa__conta_propria,Conta própria,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.170091887455681,2010,10.82,Valor
+Augusto_Corrêa,dados_augusto_correa__conta_propria,Conta própria,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.170091887455681,2022,13.12,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico,Setor público,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2000,1.12,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico,Setor público,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2010,2.18,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico,Setor público,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2022,3.42,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalhador_domestico,Trabalhador doméstico,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,448.2694886298462,2000,480.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalhador_domestico,Trabalhador doméstico,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,448.2694886298462,2010,880.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalhador_domestico,Trabalhador doméstico,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,448.2694886298462,2022,1.18,Valor
+Augusto_Corrêa,dados_augusto_correa__empregador,Empregador,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,45.70848225506919,2000,180.0,Valor
+Augusto_Corrêa,dados_augusto_correa__empregador,Empregador,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,45.70848225506919,2010,380.0,Valor
+Augusto_Corrêa,dados_augusto_correa__empregador,Empregador,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,45.70848225506919,2022,680.0,Valor
+Augusto_Corrêa,dados_augusto_correa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,453.484363849939,2000,3.12,Valor
+Augusto_Corrêa,dados_augusto_correa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,453.484363849939,2010,2.12,Valor
+Augusto_Corrêa,dados_augusto_correa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,453.484363849939,2022,920.0,Valor
+Augusto_Corrêa,dados_augusto_correa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,58.07792679362634,2000,60.0,Valor
+Augusto_Corrêa,dados_augusto_correa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,58.07792679362634,2010,120.0,Valor
+Augusto_Corrêa,dados_augusto_correa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,lbfgs,True,58.07792679362634,2022,280.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,506.4939828857239,2000,920.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,506.4939828857239,2010,2.62,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,tanh,adam,True,506.4939828857239,2022,4.42,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.1829656432952936,2000,1.9,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.1829656432952936,2010,3.2,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.1829656432952936,2022,5.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,10.674093477850647,2000,30.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,10.674093477850647,2010,110.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,10.674093477850647,2022,220.0,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.034744617372179785,2000,1.09,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.034744617372179785,2010,2.07,Valor
+Augusto_Corrêa,dados_augusto_correa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.034744617372179785,2022,3.2,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,19.802618501362748,2000,40.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,19.802618501362748,2010,110.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,19.802618501362748,2022,220.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,96.52611684019489,2000,440.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,96.52611684019489,2010,770.0,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,96.52611684019489,2022,960.0,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.967869955017365,1991,51.4,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.967869955017365,2000,64.8,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.967869955017365,2010,76.2,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.967869955017365,2022,84.1,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.13553381028269,2000,81.2,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.13553381028269,2010,91.4,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.13553381028269,2022,95.2,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8893717427262107,2000,19.8,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8893717427262107,2010,28.4,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.8893717427262107,2022,41.2,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2000,74.2,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2010,87.4,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2022,92.4,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_com_superior_completo,População com Superior Completo,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,419.3751539382813,2000,110.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_com_superior_completo,População com Superior Completo,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,419.3751539382813,2010,680.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_com_superior_completo,População com Superior Completo,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,419.3751539382813,2022,2.14,Valor
+Augusto_Corrêa,dados_augusto_correa__anos_de_estudo_media,Anos de Estudo (Média),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146504,1991,1.8,Valor
+Augusto_Corrêa,dados_augusto_correa__anos_de_estudo_media,Anos de Estudo (Média),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146504,2000,3.0,Valor
+Augusto_Corrêa,dados_augusto_correa__anos_de_estudo_media,Anos de Estudo (Média),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146504,2010,5.1,Valor
+Augusto_Corrêa,dados_augusto_correa__anos_de_estudo_media,Anos de Estudo (Média),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146504,2022,6.8,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.29498935321235786,1991,2.0,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.29498935321235786,2000,3.3,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.29498935321235786,2010,5.5,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.29498935321235786,2022,7.2,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2466551412880762,1991,1.6,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2466551412880762,2000,2.7,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2466551412880762,2010,4.7,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.2466551412880762,2022,6.4,Valor
+Augusto_Corrêa,dados_augusto_correa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.007912275535112534,1991,0.158,Valor
+Augusto_Corrêa,dados_augusto_correa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.007912275535112534,2000,0.302,Valor
+Augusto_Corrêa,dados_augusto_correa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.007912275535112534,2010,0.472,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2000,74.2,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2010,87.4,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,5.29483604667369,2022,92.4,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.055245581722583,2000,47.2,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.055245581722583,2010,61.2,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,4.055245581722583,2022,70.8,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.756430606163273,2000,11.8,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.756430606163273,2010,17.8,Valor
+Augusto_Corrêa,dados_augusto_correa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,1.756430606163273,2022,21.2,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_amarela,Média: População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695793,2000,4.1,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_amarela,Média: População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695793,2010,6.1,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_amarela,Média: População Amarela,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695793,2022,7.6,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_branca,Média: População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2000,3.7,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_branca,Média: População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2010,5.8,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_branca,Média: População Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231821,2022,7.4,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_preta_parda,Média: População Preta / Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2000,2.8,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_preta_parda,Média: População Preta / Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2010,4.9,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_preta_parda,Média: População Preta / Parda,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2022,6.6,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_indigena,Média: População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2000,2.4,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_indigena,Média: População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2010,3.8,Valor
+Augusto_Corrêa,dados_augusto_correa__media_populacao_indigena,Média: População Indígena,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2022,5.4,Valor
+Augusto_Corrêa,dados_augusto_correa__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Augusto_Corrêa,dados_augusto_correa__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_residente_em_favelas,População Residente em Favelas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,720.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_residente_em_favelas,População Residente em Favelas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.94,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,180.0,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,540.0,Valor
+Augusto_Corrêa,dados_augusto_correa__idade_mediana_2,Idade Mediana,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.0,Valor
+Augusto_Corrêa,dados_augusto_correa__idade_mediana_2,Idade Mediana,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.0,Valor
+Augusto_Corrêa,dados_augusto_correa__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Augusto_Corrêa,dados_augusto_correa__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.1,Valor
+Augusto_Corrêa,dados_augusto_correa__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,102.1,Valor
+Augusto_Corrêa,dados_augusto_correa__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,99.8,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.4,Valor
+Augusto_Corrêa,dados_augusto_correa__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.8,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_parda_2,População Parda,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,590.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_parda_2,População Parda,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.58,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_branca_2,População Branca,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,60.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_branca_2,População Branca,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,150.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_preta_2,População Preta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,45.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_preta_2,População Preta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,160.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_amarela_2,População Amarela,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_amarela_2,População Amarela,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena_2,População Indígena,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena_2,População Indígena,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.0,Valor
+Augusto_Corrêa,dados_augusto_correa__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.2,Valor
+Augusto_Corrêa,dados_augusto_correa__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Augusto_Corrêa,dados_augusto_correa__com_coleta_de_lixo,Com Coleta de Lixo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Augusto_Corrêa,dados_augusto_correa__com_coleta_de_lixo,Com Coleta de Lixo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.8,Valor
+Augusto_Corrêa,dados_augusto_correa__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+Augusto_Corrêa,dados_augusto_correa__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Augusto_Corrêa,dados_augusto_correa__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Augusto_Corrêa,dados_augusto_correa__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Augusto_Corrêa,dados_augusto_correa__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Augusto_Corrêa,dados_augusto_correa__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.6,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.8,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.4,Valor
+Augusto_Corrêa,dados_augusto_correa__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Augusto_Corrêa,dados_augusto_correa__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.4,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Augusto_Corrêa,dados_augusto_correa__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.8,Valor
+Augusto_Corrêa,dados_augusto_correa__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Augusto_Corrêa,dados_augusto_correa__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.2,Valor
+Augusto_Corrêa,dados_augusto_correa__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos,Casais com filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6167524385246423,2000,67.2,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos,Casais com filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6167524385246423,2010,57.1,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos,Casais com filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6167524385246423,2022,47.1,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_sem_filhos,Casais sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.1267295147332756,2000,6.1,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_sem_filhos,Casais sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.1267295147332756,2010,8.2,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_sem_filhos,Casais sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,1.1267295147332756,2022,12.2,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.2254078501537554,2000,15.2,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.2254078501537554,2010,18.2,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.2254078501537554,2022,22.1,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2000,3.0,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2010,3.4,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2022,3.8,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2000,8.2,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2010,8.6,Valor
+Augusto_Corrêa,dados_augusto_correa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2022,8.2,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2000,4.0,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2010,4.7,Valor
+Augusto_Corrêa,dados_augusto_correa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2022,4.5,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2000,1.1,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2010,1.5,Valor
+Augusto_Corrêa,dados_augusto_correa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2022,1.9,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Augusto Corrêa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.4,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Augusto Corrêa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.8,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.4,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_em_outro_municipio_ex_braganca_viseu,Trabalha em outro município (ex: Bragança / Viseu / Capanema),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.6,Valor
+Augusto_Corrêa,dados_augusto_correa__trabalha_em_outro_municipio_ex_braganca_viseu,Trabalha em outro município (ex: Bragança / Viseu / Capanema),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Augusto_Corrêa,dados_augusto_correa__motocicleta,Motocicleta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Augusto_Corrêa,dados_augusto_correa__motocicleta,Motocicleta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.4,Valor
+Augusto_Corrêa,dados_augusto_correa__automovel_onibus,Automóvel / Ônibus,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Augusto_Corrêa,dados_augusto_correa__automovel_onibus,Automóvel / Ônibus,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Augusto_Corrêa,dados_augusto_correa__a_pe,A pé,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Augusto_Corrêa,dados_augusto_correa__a_pe,A pé,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.2,Valor
+Augusto_Corrêa,dados_augusto_correa__bicicleta,Bicicleta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Augusto_Corrêa,dados_augusto_correa__bicicleta,Bicicleta,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Augusto_Corrêa,dados_augusto_correa__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Augusto_Corrêa,dados_augusto_correa__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Augusto_Corrêa,dados_augusto_correa__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.4,Valor
+Augusto_Corrêa,dados_augusto_correa__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.8,Valor
+Augusto_Corrêa,dados_augusto_correa__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Augusto_Corrêa,dados_augusto_correa__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.8,Valor
+Augusto_Corrêa,dados_augusto_correa__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Augusto_Corrêa,dados_augusto_correa__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Augusto_Corrêa,dados_augusto_correa__estuda_no_proprio_municipio_augusto_correa,Estuda no próprio município (Augusto Corrêa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,92.4,Valor
+Augusto_Corrêa,dados_augusto_correa__estuda_no_proprio_municipio_augusto_correa,Estuda no próprio município (Augusto Corrêa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.2,Valor
+Augusto_Corrêa,dados_augusto_correa__estuda_em_outro_municipio_ex_braganca,Estuda em outro município (ex: Bragança),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Augusto_Corrêa,dados_augusto_correa__estuda_em_outro_municipio_ex_braganca,Estuda em outro município (ex: Bragança),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5069124541175181,1991,4.12,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5069124541175181,2000,6.12,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5069124541175181,2010,9.42,Valor
+Augusto_Corrêa,dados_augusto_correa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5069124541175181,2022,13.28,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5003590099703877,1991,3.98,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5003590099703877,2000,5.96,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5003590099703877,2010,9.22,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_augusto_correa,Grupo 1 — 4 censos,4,relu,adam,True,0.5003590099703877,2022,13.02,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.068799780485193,1991,140.0,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.068799780485193,2000,160.0,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.068799780485193,2010,200.0,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_augusto_correa,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.068799780485193,2022,260.0,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.16759653850130474,1991,6.2,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.16759653850130474,2000,5.2,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.16759653850130474,2010,4.1,Valor
+Augusto_Corrêa,dados_augusto_correa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_augusto_correa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.16759653850130474,2022,3.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.4,Valor
+Augusto_Corrêa,dados_augusto_correa__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Augusto_Corrêa,dados_augusto_correa__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.4,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.2,Valor
+Augusto_Corrêa,dados_augusto_correa__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.4,Valor
+Augusto_Corrêa,dados_augusto_correa__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.2,Valor
+Augusto_Corrêa,dados_augusto_correa__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Augusto_Corrêa,dados_augusto_correa__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Augusto_Corrêa,dados_augusto_correa__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.8,Valor
+Augusto_Corrêa,dados_augusto_correa__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.1,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,77.8,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_sem_arvores,Ruas Sem Árvores,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Augusto_Corrêa,dados_augusto_correa__ruas_sem_arvores,Ruas Sem Árvores,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.2,Valor
+Augusto_Corrêa,dados_augusto_correa__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Augusto_Corrêa,dados_augusto_correa__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Augusto_Corrêa,dados_augusto_correa__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Augusto_Corrêa,dados_augusto_correa__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Augusto_Corrêa,dados_augusto_correa__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Augusto_Corrêa,dados_augusto_correa__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.4,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena_total,População Indígena Total,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2000,75.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena_total,População Indígena Total,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2010,47.0,Valor
+Augusto_Corrêa,dados_augusto_correa__populacao_indigena_total,População Indígena Total,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,23.915858610906188,2022,91.0,Valor
+Augusto_Corrêa,dados_augusto_correa__proporcao_na_populacao_de_augusto_correa,Proporção na população de Augusto Corrêa,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06542448638393772,2000,0.21,Valor
+Augusto_Corrêa,dados_augusto_correa__proporcao_na_populacao_de_augusto_correa,Proporção na população de Augusto Corrêa,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06542448638393772,2010,0.12,Valor
+Augusto_Corrêa,dados_augusto_correa__proporcao_na_populacao_de_augusto_correa,Proporção na população de Augusto Corrêa,dados_augusto_correa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06542448638393772,2022,0.21,Valor
+Augusto_Corrêa,dados_augusto_correa__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.8,Valor
+Augusto_Corrêa,dados_augusto_correa__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.2,Valor
+Augusto_Corrêa,dados_augusto_correa__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.1,Valor
+Augusto_Corrêa,dados_augusto_correa__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Augusto_Corrêa,dados_augusto_correa__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Augusto_Corrêa,dados_augusto_correa__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Augusto_Corrêa,dados_augusto_correa__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Augusto_Corrêa,dados_augusto_correa__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.4267734563255778,2000,15.1,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.4267734563255778,2010,18.8,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,sgd,True,0.4267734563255778,2022,23.8,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236258710620253,2000,59.8,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236258710620253,2010,50.4,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.8236258710620253,2022,40.2,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2000,8.1,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2010,11.1,Valor
+Augusto_Corrêa,dados_augusto_correa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.2274886970752057,2022,14.4,Valor
+Augusto_Corrêa,dados_augusto_correa__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.2,Valor
+Augusto_Corrêa,dados_augusto_correa__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Augusto_Corrêa,dados_augusto_correa__sem_conjuge,Sem cônjuge,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Augusto_Corrêa,dados_augusto_correa__sem_conjuge,Sem cônjuge,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.6,Valor
+Augusto_Corrêa,dados_augusto_correa__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Augusto_Corrêa,dados_augusto_correa__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_augusto_correa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_mulher,Responsável Mulher,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.2,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_mulher,Responsável Mulher,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.6,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_mulher,Responsável Mulher,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,3.1,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_homem,Responsável Homem,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2000,5.0,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_homem,Responsável Homem,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2010,4.2,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_homem,Responsável Homem,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2022,3.6,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.2,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.6,Valor
+Augusto_Corrêa,dados_augusto_correa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_augusto_correa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,3.1,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326426,2000,12.2,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326426,2010,16.6,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326426,2022,21.8,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428339945,2000,15.2,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428339945,2010,19.2,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428339945,2022,23.8,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004324,2000,51.8,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004324,2010,36.8,Valor
+Augusto_Corrêa,dados_augusto_correa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_augusto_correa,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004324,2022,23.8,Valor
