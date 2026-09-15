@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Novo_Repartimento,dados_novo_repartimento__anos_de_estudo_media,Anos de Estudo (Média),dados_novo_repartimento,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409505,2030,8.451945644427798
+Novo_Repartimento,dados_novo_repartimento__anos_de_estudo_media,Anos de Estudo (Média),dados_novo_repartimento,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409505,2040,10.05075337606418
+Novo_Repartimento,dados_novo_repartimento__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_novo_repartimento,Grupo 1 — 4 censos,tanh,sgd,True,16.302238534232906,2030,255.29624304526573
+Novo_Repartimento,dados_novo_repartimento__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_novo_repartimento,Grupo 1 — 4 censos,tanh,sgd,True,16.302238534232906,2040,256.80003923912557
+Novo_Repartimento,dados_novo_repartimento__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_novo_repartimento,Grupo 1 — 4 censos,logistic,lbfgs,True,0.7057815724993344,2030,18.166127899731883
+Novo_Repartimento,dados_novo_repartimento__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_novo_repartimento,Grupo 1 — 4 censos,logistic,lbfgs,True,0.7057815724993344,2040,18.488370846088817
+Novo_Repartimento,dados_novo_repartimento__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_novo_repartimento,Grupo 1 — 4 censos,identity,adam,True,0.1025203991477357,2030,7.960422564960245
+Novo_Repartimento,dados_novo_repartimento__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_novo_repartimento,Grupo 1 — 4 censos,identity,adam,True,0.1025203991477357,2040,9.487082262548789
+Novo_Repartimento,dados_novo_repartimento__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_novo_repartimento,Grupo 1 — 4 censos,identity,lbfgs,True,0.21868666219627042,2030,8.93739407646007
+Novo_Repartimento,dados_novo_repartimento__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_novo_repartimento,Grupo 1 — 4 censos,identity,lbfgs,True,0.21868666219627042,2040,10.60236936205989
+Novo_Repartimento,dados_novo_repartimento__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_novo_repartimento,Grupo 1 — 4 censos,identity,adam,True,0.021391171185426106,2030,2.869560057275829
+Novo_Repartimento,dados_novo_repartimento__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_novo_repartimento,Grupo 1 — 4 censos,identity,adam,True,0.021391171185426106,2040,2.2188969321951353
+Novo_Repartimento,dados_novo_repartimento__populacao_total,População Total,dados_novo_repartimento,Grupo 1 — 4 censos,logistic,adam,True,6.419893140808392,2030,67.6186695515845
+Novo_Repartimento,dados_novo_repartimento__populacao_total,População Total,dados_novo_repartimento,Grupo 1 — 4 censos,logistic,adam,True,6.419893140808392,2040,69.30355924117727
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_novo_repartimento,Grupo 1 — 4 censos,logistic,lbfgs,True,1.570488516980543,2030,88.53759549178349
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_novo_repartimento,Grupo 1 — 4 censos,logistic,lbfgs,True,1.570488516980543,2040,89.67419357144425
+Novo_Repartimento,dados_novo_repartimento__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_novo_repartimento,Grupo 1 — 4 censos,tanh,lbfgs,True,1.0813073161425015,2030,18.279378741855137
+Novo_Repartimento,dados_novo_repartimento__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_novo_repartimento,Grupo 1 — 4 censos,tanh,lbfgs,True,1.0813073161425015,2040,18.45326674762237
+Novo_Repartimento,dados_novo_repartimento__2_trabalhos,2 trabalhos,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,1.7134179040090591,2030,7.7958627885723075
+Novo_Repartimento,dados_novo_repartimento__2_trabalhos,2 trabalhos,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,1.7134179040090591,2040,7.936715939439113
+Novo_Repartimento,dados_novo_repartimento__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.8532083159839907
+Novo_Repartimento,dados_novo_repartimento__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.8742845123278303
+Novo_Repartimento,dados_novo_repartimento__apenas_1_trabalho,Apenas 1 trabalho,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,2.1131624176234802,2030,93.93525018805562
+Novo_Repartimento,dados_novo_repartimento__apenas_1_trabalho,Apenas 1 trabalho,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,2.1131624176234802,2040,93.92681546281396
+Novo_Repartimento,dados_novo_repartimento__casais_com_filhos,Casais com filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2030,39.18879164288471
+Novo_Repartimento,dados_novo_repartimento__casais_com_filhos,Casais com filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.610091930923287,2040,30.562431864737924
+Novo_Repartimento,dados_novo_repartimento__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263905,2030,7.669004527415861
+Novo_Repartimento,dados_novo_repartimento__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263905,2040,7.668014313817578
+Novo_Repartimento,dados_novo_repartimento__casais_sem_filhos,Casais sem filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247516,2030,16.172613093515125
+Novo_Repartimento,dados_novo_repartimento__casais_sem_filhos,Casais sem filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247516,2040,19.35881659479393
+Novo_Repartimento,dados_novo_repartimento__conta_propria,Conta própria,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,adam,True,2.8363029050748008,2030,15.473844840480911
+Novo_Repartimento,dados_novo_repartimento__conta_propria,Conta própria,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,adam,True,2.8363029050748008,2040,15.84868249057363
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.4879961916374622,2030,24.377640476291873
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.4879961916374622,2040,28.460600393390482
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.00024101810710419613,2030,26.9997978256061
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.00024101810710419613,2040,30.999852654814106
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,4.35675633984608,2030,19.05636195355626
+Novo_Repartimento,dados_novo_repartimento__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,4.35675633984608,2040,11.146467439069365
+Novo_Repartimento,dados_novo_repartimento__empregador,Empregador,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,456.60925850701034,2030,389.077956186024
+Novo_Repartimento,dados_novo_repartimento__empregador,Empregador,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,456.60925850701034,2040,387.37182653660085
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_novo_repartimento,Grupo 2 — 3 censos,logistic,lbfgs,True,4.723306272483289,2030,93.36572321565568
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_novo_repartimento,Grupo 2 — 3 censos,logistic,lbfgs,True,4.723306272483289,2040,93.61551384168372
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.7995666967815844,2030,77.23588344261572
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.7995666967815844,2040,81.19680098122548
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,2.059043138853338,2030,23.281600928886718
+Novo_Repartimento,dados_novo_repartimento__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,2.059043138853338,2040,24.370049219415026
+Novo_Repartimento,dados_novo_repartimento__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.008966063722736348,2030,0.7845496666111236
+Novo_Repartimento,dados_novo_repartimento__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.008966063722736348,2040,0.9366813969046783
+Novo_Repartimento,dados_novo_repartimento__idade_mediana,Idade Mediana,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2030,29.719480281138217
+Novo_Repartimento,dados_novo_repartimento__idade_mediana,Idade Mediana,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2040,33.35998066656154
+Novo_Repartimento,dados_novo_repartimento__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,6.1009605682433135,2030,609.881830688075
+Novo_Repartimento,dados_novo_repartimento__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,6.1009605682433135,2040,773.6203416542727
+Novo_Repartimento,dados_novo_repartimento__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.0001807635803287392,2030,24.999848369204578
+Novo_Repartimento,dados_novo_repartimento__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.0001807635803287392,2040,27.99988949111058
+Novo_Repartimento,dados_novo_repartimento__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.33240921070122614,2030,4.135776229253882
+Novo_Repartimento,dados_novo_repartimento__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.33240921070122614,2040,4.134903109109162
+Novo_Repartimento,dados_novo_repartimento__media_populacao_amarela,Média: População Amarela,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.4104543403705003,2030,9.32792475451707
+Novo_Repartimento,dados_novo_repartimento__media_populacao_amarela,Média: População Amarela,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.4104543403705003,2040,10.770417612378262
+Novo_Repartimento,dados_novo_repartimento__media_populacao_branca,Média: População Branca,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,0.5759965188695793,2030,8.184669561772152
+Novo_Repartimento,dados_novo_repartimento__media_populacao_branca,Média: População Branca,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,0.5759965188695793,2040,9.023056923893796
+Novo_Repartimento,dados_novo_repartimento__media_populacao_indigena,Média: População Indígena,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.21269158390690812,2030,6.049701133023554
+Novo_Repartimento,dados_novo_repartimento__media_populacao_indigena,Média: População Indígena,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.21269158390690812,2040,7.314056027689176
+Novo_Repartimento,dados_novo_repartimento__media_populacao_preta_parda,Média: População Preta / Parda,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220807,2030,8.226244088120605
+Novo_Repartimento,dados_novo_repartimento__media_populacao_preta_parda,Média: População Preta / Parda,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220807,2040,9.805428803558554
+Novo_Repartimento,dados_novo_repartimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,463.33126230850286,2030,1064.547863597606
+Novo_Repartimento,dados_novo_repartimento__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,463.33126230850286,2040,1113.8785972057212
+Novo_Repartimento,dados_novo_repartimento__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005161,2030,4.324935957076475
+Novo_Repartimento,dados_novo_repartimento__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005161,2040,4.595869148790537
+Novo_Repartimento,dados_novo_repartimento__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340245,2030,1.999914609435301
+Novo_Repartimento,dados_novo_repartimento__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340245,2040,2.3611588650540503
+Novo_Repartimento,dados_novo_repartimento__populacao_amarela,População Amarela,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,36.9681151950958,2030,103.51670080252929
+Novo_Repartimento,dados_novo_repartimento__populacao_amarela,População Amarela,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,36.9681151950958,2040,103.39508380529954
+Novo_Repartimento,dados_novo_repartimento__populacao_branca,População Branca,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8747327583475695,2030,7.556313534603403
+Novo_Repartimento,dados_novo_repartimento__populacao_branca,População Branca,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.8747327583475695,2040,7.553725020424585
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena,População Indígena,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.03906957475882759,2030,3.259820423655879
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena,População Indígena,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.03906957475882759,2040,3.970918155759435
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena_total,População Indígena Total,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.03906957475882759,2030,3.259820423655879
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena_total,População Indígena Total,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.03906957475882759,2040,3.970918155759435
+Novo_Repartimento,dados_novo_repartimento__populacao_parda,População Parda,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,9.762163034084384,2030,46.0688629385654
+Novo_Repartimento,dados_novo_repartimento__populacao_parda,População Parda,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,9.762163034084384,2040,45.63343602604568
+Novo_Repartimento,dados_novo_repartimento__populacao_preta,População Preta,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.5157431216576255,2030,3.36093362006506
+Novo_Repartimento,dados_novo_repartimento__populacao_preta,População Preta,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,0.5157431216576255,2040,3.3594790348415295
+Novo_Repartimento,dados_novo_repartimento__populacao_rural,População Rural,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,5.222971444181006,2030,30.07299639178476
+Novo_Repartimento,dados_novo_repartimento__populacao_rural,População Rural,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,5.222971444181006,2040,30.05754167519103
+Novo_Repartimento,dados_novo_repartimento__populacao_urbana,População Urbana,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.859634321248617,2030,32.96546638397253
+Novo_Repartimento,dados_novo_repartimento__populacao_urbana,População Urbana,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.859634321248617,2040,35.134473488681174
+Novo_Repartimento,dados_novo_repartimento__populacao_com_superior_completo,População com Superior Completo,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,105.29576830134722,2030,2.7357814900946806
+Novo_Repartimento,dados_novo_repartimento__populacao_com_superior_completo,População com Superior Completo,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,105.29576830134722,2040,8.28357763577128
+Novo_Repartimento,dados_novo_repartimento__populacao_de_homens,População de Homens,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,6.422639777196289,2030,28.7837196313836
+Novo_Repartimento,dados_novo_repartimento__populacao_de_homens,População de Homens,dados_novo_repartimento,Grupo 2 — 3 censos,logistic,sgd,True,6.422639777196289,2040,28.76859001866919
+Novo_Repartimento,dados_novo_repartimento__populacao_de_mulheres,População de Mulheres,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,5.470558488182069,2030,28.721419765368637
+Novo_Repartimento,dados_novo_repartimento__populacao_de_mulheres,População de Mulheres,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,5.470558488182069,2040,28.47200836873677
+Novo_Repartimento,dados_novo_repartimento__proporcao_na_populacao_de_novo_repartimento,Proporção na população de Novo Repartimento,dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,0.5682261072782854,2030,5.190081038995594
+Novo_Repartimento,dados_novo_repartimento__proporcao_na_populacao_de_novo_repartimento,Proporção na população de Novo Repartimento,dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,0.5682261072782854,2040,6.068931847100709
+Novo_Repartimento,dados_novo_repartimento__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,0.999094079984431,2030,105.1218020211446
+Novo_Repartimento,dados_novo_repartimento__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,0.999094079984431,2040,102.20503754787451
+Novo_Repartimento,dados_novo_repartimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,145.29599003322787,2030,955.0629018532804
+Novo_Repartimento,dados_novo_repartimento__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,145.29599003322787,2040,1231.712302917162
+Novo_Repartimento,dados_novo_repartimento__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,1.0676652097085533,2030,35.53052797015338
+Novo_Repartimento,dados_novo_repartimento__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,1.0676652097085533,2040,27.184379578766094
+Novo_Repartimento,dados_novo_repartimento__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.30358169131697643,2030,16.496160681092014
+Novo_Repartimento,dados_novo_repartimento__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.30358169131697643,2040,19.298383631018062
+Novo_Repartimento,dados_novo_repartimento__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.248662705505133,2030,25.816857127854444
+Novo_Repartimento,dados_novo_repartimento__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.248662705505133,2040,29.370201032873933
+Novo_Repartimento,dados_novo_repartimento__responsavel_homem,Responsável Homem,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684593959,2030,3.1247110460912744
+Novo_Repartimento,dados_novo_repartimento__responsavel_homem,Responsável Homem,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684593959,2040,2.534052868495815
+Novo_Repartimento,dados_novo_repartimento__responsavel_mulher,Responsável Mulher,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622549,2030,2.8236116306733114
+Novo_Repartimento,dados_novo_repartimento__responsavel_mulher,Responsável Mulher,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622549,2040,2.3703147713162984
+Novo_Repartimento,dados_novo_repartimento__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,1.142153985226694e-05,2030,2.6999880584666425
+Novo_Repartimento,dados_novo_repartimento__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_novo_repartimento,Grupo 2 — 3 censos,identity,lbfgs,True,1.142153985226694e-05,2040,2.1999890710057546
+Novo_Repartimento,dados_novo_repartimento__setor_privado,Setor privado,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,2.024148073701314,2030,16.202891232685467
+Novo_Repartimento,dados_novo_repartimento__setor_privado,Setor privado,dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,2.024148073701314,2040,17.905900966544383
+Novo_Repartimento,dados_novo_repartimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.6383381802707597,2030,10.172576986817685
+Novo_Repartimento,dados_novo_repartimento__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.6383381802707597,2040,12.969705860721154
+Novo_Repartimento,dados_novo_repartimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,1.6549174973973175,2030,6.934029760459939
+Novo_Repartimento,dados_novo_repartimento__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,lbfgs,True,1.6549174973973175,2040,6.866361931688269
+Novo_Repartimento,dados_novo_repartimento__setor_publico,Setor público,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.3328157776743918,2030,6.243418424217078
+Novo_Repartimento,dados_novo_repartimento__setor_publico,Setor público,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.3328157776743918,2040,7.8228526196786765
+Novo_Repartimento,dados_novo_repartimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2030,488.7792112455287
+Novo_Repartimento,dados_novo_repartimento__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,42.643688201395605,2040,634.3992266624617
+Novo_Repartimento,dados_novo_repartimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.37545946587578666,2030,5.7547648368157915
+Novo_Repartimento,dados_novo_repartimento__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,0.37545946587578666,2040,7.1887138419118255
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.8896351712762431,2030,55.030887786739
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_novo_repartimento,Grupo 2 — 3 censos,identity,adam,True,1.8896351712762431,2040,65.74789454998695
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.2183453752443305,2030,96.7236252750922
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_novo_repartimento,Grupo 2 — 3 censos,relu,adam,True,3.2183453752443305,2040,98.4607259306706
+Novo_Repartimento,dados_novo_repartimento__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_novo_repartimento,Grupo 2 — 3 censos,logistic,lbfgs,True,4.723306272483289,2030,93.36572321565568
+Novo_Repartimento,dados_novo_repartimento__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_novo_repartimento,Grupo 2 — 3 censos,logistic,lbfgs,True,4.723306272483289,2040,93.61551384168372
+Novo_Repartimento,dados_novo_repartimento__trabalhador_domestico,Trabalhador doméstico,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,374.08753951246825,2030,-2.9993233668475057
+Novo_Repartimento,dados_novo_repartimento__trabalhador_domestico,Trabalhador doméstico,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,374.08753951246825,2040,16.725175294029924
+Novo_Repartimento,dados_novo_repartimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2030,447.5897707008036
+Novo_Repartimento,dados_novo_repartimento__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2040,581.1128365593339
+Novo_Repartimento,dados_novo_repartimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,341.0379755422803,2030,-2.9512972055066484
+Novo_Repartimento,dados_novo_repartimento__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_novo_repartimento,Grupo 2 — 3 censos,tanh,adam,True,341.0379755422803,2040,15.031378931857915
+Novo_Repartimento,dados_novo_repartimento__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,3.911199096299665,2030,22.516088756481004
+Novo_Repartimento,dados_novo_repartimento__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_novo_repartimento,Grupo 2 — 3 censos,relu,lbfgs,True,3.911199096299665,2040,28.753466506453158
+Novo_Repartimento,dados_novo_repartimento__a_pe,A pé,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.642003969783119
+Novo_Repartimento,dados_novo_repartimento__a_pe,A pé,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.47418381388151
+Novo_Repartimento,dados_novo_repartimento__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.527636012517775
+Novo_Repartimento,dados_novo_repartimento__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.813972477781036
+Novo_Repartimento,dados_novo_repartimento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.77930814500993
+Novo_Repartimento,dados_novo_repartimento__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.79269756110404
+Novo_Repartimento,dados_novo_repartimento__automovel_carro_caminhonete,Automóvel (Carro / Caminhonete),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.165251742014316
+Novo_Repartimento,dados_novo_repartimento__automovel_carro_caminhonete,Automóvel (Carro / Caminhonete),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.329400361203305
+Novo_Repartimento,dados_novo_repartimento__bicicleta,Bicicleta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.465829021144043
+Novo_Repartimento,dados_novo_repartimento__bicicleta,Bicicleta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.385266297216771
+Novo_Repartimento,dados_novo_repartimento__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.08417247338106
+Novo_Repartimento,dados_novo_repartimento__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.29800120401103
+Novo_Repartimento,dados_novo_repartimento__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.0928877545321
+Novo_Repartimento,dados_novo_repartimento__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.54337283898435
+Novo_Repartimento,dados_novo_repartimento__com_coleta_de_lixo,Com Coleta de Lixo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.788530113956575
+Novo_Repartimento,dados_novo_repartimento__com_coleta_de_lixo,Com Coleta de Lixo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.62068702149767
+Novo_Repartimento,dados_novo_repartimento__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Novo_Repartimento,dados_novo_repartimento__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Novo_Repartimento,dados_novo_repartimento__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.66896221751491
+Novo_Repartimento,dados_novo_repartimento__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.689046341656095
+Novo_Repartimento,dados_novo_repartimento__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.956536460863279
+Novo_Repartimento,dados_novo_repartimento__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.884028726229989
+Novo_Repartimento,dados_novo_repartimento__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7884172473381055
+Novo_Repartimento,dados_novo_repartimento__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.5098001204011036
+Novo_Repartimento,dados_novo_repartimento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.240596067625866
+Novo_Repartimento,dados_novo_repartimento__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.27114302914443
+Novo_Repartimento,dados_novo_repartimento__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.689654072504965
+Novo_Repartimento,dados_novo_repartimento__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.696348780552023
+Novo_Repartimento,dados_novo_repartimento__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.152349897278148
+Novo_Repartimento,dados_novo_repartimento__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.977835033329487
+Novo_Repartimento,dados_novo_repartimento__estuda_em_outro_municipio,Estuda em outro município,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.640596067625865
+Novo_Repartimento,dados_novo_repartimento__estuda_em_outro_municipio,Estuda em outro município,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.671143029144432
+Novo_Repartimento,dados_novo_repartimento__estuda_no_proprio_municipio_novo_repartimento,Estuda no próprio município (Novo Repartimento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.8269582477318
+Novo_Repartimento,dados_novo_repartimento__estuda_no_proprio_municipio_novo_repartimento,Estuda no próprio município (Novo Repartimento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.01486252777457
+Novo_Repartimento,dados_novo_repartimento__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.10733797870485
+Novo_Repartimento,dados_novo_repartimento__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.87840096320882
+Novo_Repartimento,dados_novo_repartimento__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.403133196370863
+Novo_Repartimento,dados_novo_repartimento__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.50378004443931
+Novo_Repartimento,dados_novo_repartimento__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.7449537082014
+Novo_Repartimento,dados_novo_repartimento__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.3938288466311
+Novo_Repartimento,dados_novo_repartimento__idade_mediana_2,Idade Mediana,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.68119213525173
+Novo_Repartimento,dados_novo_repartimento__idade_mediana_2,Idade Mediana,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.742286058288865
+Novo_Repartimento,dados_novo_repartimento__mais_de_1_hora_distancias_rurais_e_vicinais,Mais de 1 hora (Distâncias rurais e vicinais),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.80871528115104
+Novo_Repartimento,dados_novo_repartimento__mais_de_1_hora_distancias_rurais_e_vicinais,Mais de 1 hora (Distâncias rurais e vicinais),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.04537163497332
+Novo_Repartimento,dados_novo_repartimento__motocicleta,Motocicleta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.73050348402864
+Novo_Repartimento,dados_novo_repartimento__motocicleta,Motocicleta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.05880072240662
+Novo_Repartimento,dados_novo_repartimento__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.37930814500994
+Novo_Repartimento,dados_novo_repartimento__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.39269756110407
+Novo_Repartimento,dados_novo_repartimento__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Novo_Repartimento,dados_novo_repartimento__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Novo_Repartimento,dados_novo_repartimento__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.62901331496397
+Novo_Repartimento,dados_novo_repartimento__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.380943149545534
+Novo_Repartimento,dados_novo_repartimento__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.6928877545321
+Novo_Repartimento,dados_novo_repartimento__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.14337283898433
+Novo_Repartimento,dados_novo_repartimento__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.736249713712192
+Novo_Repartimento,dados_novo_repartimento__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.85954590176743
+Novo_Repartimento,dados_novo_repartimento__populacao_amarela_2,População Amarela,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.023861128148358
+Novo_Repartimento,dados_novo_repartimento__populacao_amarela_2,População Amarela,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.925636958733076
+Novo_Repartimento,dados_novo_repartimento__populacao_branca_2,População Branca,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,415.65364608632785
+Novo_Repartimento,dados_novo_repartimento__populacao_branca_2,População Branca,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,508.40287262299887
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena_2,População Indígena,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,143.62384270503463
+Novo_Repartimento,dados_novo_repartimento__populacao_indigena_2,População Indígena,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,184.8457211657773
+Novo_Repartimento,dados_novo_repartimento__populacao_parda_2,População Parda,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.876536460863279
+Novo_Repartimento,dados_novo_repartimento__populacao_parda_2,População Parda,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.804028726229989
+Novo_Repartimento,dados_novo_repartimento__populacao_preta_2,População Preta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,290.4357640575519
+Novo_Repartimento,dados_novo_repartimento__populacao_preta_2,População Preta,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,352.26858174866595
+Novo_Repartimento,dados_novo_repartimento__populacao_residente_em_favelas,População Residente em Favelas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.736249713712192
+Novo_Repartimento,dados_novo_repartimento__populacao_residente_em_favelas,População Residente em Favelas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.85954590176743
+Novo_Repartimento,dados_novo_repartimento__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.404357640575519
+Novo_Repartimento,dados_novo_repartimento__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.022685817486659
+Novo_Repartimento,dados_novo_repartimento__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.24639363443791
+Novo_Repartimento,dados_novo_repartimento__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.80006441249566
+Novo_Repartimento,dados_novo_repartimento__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.788087474319537
+Novo_Repartimento,dados_novo_repartimento__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.244458758332372
+Novo_Repartimento,dados_novo_repartimento__ruas_sem_arvores,Ruas Sem Árvores,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.08965407250497
+Novo_Repartimento,dados_novo_repartimento__ruas_sem_arvores,Ruas Sem Árvores,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.096348780552027
+Novo_Repartimento,dados_novo_repartimento__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.32465567438845
+Novo_Repartimento,dados_novo_repartimento__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.45825733205888
+Novo_Repartimento,dados_novo_repartimento__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.049311348776902
+Novo_Repartimento,dados_novo_repartimento__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.321788202877597
+Novo_Repartimento,dados_novo_repartimento__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.316514664117747
+Novo_Repartimento,dados_novo_repartimento__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.413429087433297
+Novo_Repartimento,dados_novo_repartimento__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.672589720719174
+Novo_Repartimento,dados_novo_repartimento__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.67258972071917
+Novo_Repartimento,dados_novo_repartimento__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.60780132441214
+Novo_Repartimento,dados_novo_repartimento__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.60780132441214
+Novo_Repartimento,dados_novo_repartimento__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Novo_Repartimento,dados_novo_repartimento__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Novo_Repartimento,dados_novo_repartimento__sem_conjuge,Sem cônjuge,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.97396702316536
+Novo_Repartimento,dados_novo_repartimento__sem_conjuge,Sem cônjuge,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.374771996176634
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.15080151784157
+Novo_Repartimento,dados_novo_repartimento__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.99437223697885
+Novo_Repartimento,dados_novo_repartimento__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-286.5173254300994
+Novo_Repartimento,dados_novo_repartimento__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-666.0788949323388
+Novo_Repartimento,dados_novo_repartimento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.56525174201432
+Novo_Repartimento,dados_novo_repartimento__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.729400361203304
+Novo_Repartimento,dados_novo_repartimento__trabalha_em_outro_municipio,Trabalha em outro município,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.324655674388453
+Novo_Repartimento,dados_novo_repartimento__trabalha_em_outro_municipio,Trabalha em outro município,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.458257332058874
+Novo_Repartimento,dados_novo_repartimento__trabalha_no_proprio_municipio_de_residencia_n,Trabalha no próprio município de residência (Novo Repartimento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.08965407250496
+Novo_Repartimento,dados_novo_repartimento__trabalha_no_proprio_municipio_de_residencia_n,Trabalha no próprio município de residência (Novo Repartimento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.09634878055202
+Novo_Repartimento,dados_novo_repartimento__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.701490169064662
+Novo_Repartimento,dados_novo_repartimento__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.27785757286108
+Novo_Repartimento,dados_novo_repartimento__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.69575522604295
+Novo_Repartimento,dados_novo_repartimento__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.188201083609925
+Novo_Repartimento,dados_novo_repartimento__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.2942086236690529
+Novo_Repartimento,dados_novo_repartimento__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.6549000602005508
+Novo_Repartimento,dados_novo_repartimento__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.107337978704845
+Novo_Repartimento,dados_novo_repartimento__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.87840096320882
+Novo_Repartimento,dados_novo_repartimento__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.10447050719399
+Novo_Repartimento,dados_novo_repartimento__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.83357271858324
+Novo_Repartimento,dados_novo_repartimento__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.71163918597113
+Novo_Repartimento,dados_novo_repartimento__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_novo_repartimento,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.54564333014719
