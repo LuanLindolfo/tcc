@@ -224,6 +224,10 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
     },
+        "nome":    "Óbidos",
+        "pasta":   "data",
+        "arquivo": "indicadores_óbidos_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
