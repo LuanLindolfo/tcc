@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Alenquer,dados_alenquer__populacao_total,População Total,dados_alenquer,Grupo 1 — 4 censos,4,relu,sgd,True,5.207865689953142,1991,46.128,Valor
+Alenquer,dados_alenquer__populacao_total,População Total,dados_alenquer,Grupo 1 — 4 censos,4,relu,sgd,True,5.207865689953142,2000,49.333,Valor
+Alenquer,dados_alenquer__populacao_total,População Total,dados_alenquer,Grupo 1 — 4 censos,4,relu,sgd,True,5.207865689953142,2010,52.626,Valor
+Alenquer,dados_alenquer__populacao_total,População Total,dados_alenquer,Grupo 1 — 4 censos,4,relu,sgd,True,5.207865689953142,2022,69.377,Valor
+Alenquer,dados_alenquer__populacao_urbana,População Urbana,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.795383507121226,2000,26.82,Valor
+Alenquer,dados_alenquer__populacao_urbana,População Urbana,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.795383507121226,2010,31.24,Valor
+Alenquer,dados_alenquer__populacao_urbana,População Urbana,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.795383507121226,2022,41.82,Valor
+Alenquer,dados_alenquer__populacao_rural,População Rural,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,3.7018144089959257,2000,22.513,Valor
+Alenquer,dados_alenquer__populacao_rural,População Rural,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,3.7018144089959257,2010,21.386,Valor
+Alenquer,dados_alenquer__populacao_rural,População Rural,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,3.7018144089959257,2022,27.557,Valor
+Alenquer,dados_alenquer__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.12,Valor
+Alenquer,dados_alenquer__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.84,Valor
+Alenquer,dados_alenquer__populacao_de_mulheres,População de Mulheres,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.528786221378745,2000,24.21,Valor
+Alenquer,dados_alenquer__populacao_de_mulheres,População de Mulheres,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.528786221378745,2010,25.82,Valor
+Alenquer,dados_alenquer__populacao_de_mulheres,População de Mulheres,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.528786221378745,2022,34.21,Valor
+Alenquer,dados_alenquer__populacao_de_homens,População de Homens,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.456395889219806,2000,25.123,Valor
+Alenquer,dados_alenquer__populacao_de_homens,População de Homens,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.456395889219806,2010,26.806,Valor
+Alenquer,dados_alenquer__populacao_de_homens,População de Homens,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.456395889219806,2022,35.167,Valor
+Alenquer,dados_alenquer__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5277854600017852,2000,103.8,Valor
+Alenquer,dados_alenquer__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5277854600017852,2010,103.8,Valor
+Alenquer,dados_alenquer__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5277854600017852,2022,102.8,Valor
+Alenquer,dados_alenquer__idade_mediana,Idade Mediana,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2000,20.0,Valor
+Alenquer,dados_alenquer__idade_mediana,Idade Mediana,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2010,23.0,Valor
+Alenquer,dados_alenquer__idade_mediana,Idade Mediana,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.066092205034889,2022,28.0,Valor
+Alenquer,dados_alenquer__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.30660572454428,2000,7.8,Valor
+Alenquer,dados_alenquer__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.30660572454428,2010,12.4,Valor
+Alenquer,dados_alenquer__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.30660572454428,2022,26.8,Valor
+Alenquer,dados_alenquer__populacao_parda,População Parda,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.901311922003778,2000,36.21,Valor
+Alenquer,dados_alenquer__populacao_parda,População Parda,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.901311922003778,2010,40.82,Valor
+Alenquer,dados_alenquer__populacao_parda,População Parda,dados_alenquer,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.901311922003778,2022,54.21,Valor
+Alenquer,dados_alenquer__populacao_branca,População Branca,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5613899234475982,2000,8.41,Valor
+Alenquer,dados_alenquer__populacao_branca,População Branca,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5613899234475982,2010,7.82,Valor
+Alenquer,dados_alenquer__populacao_branca,População Branca,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5613899234475982,2022,8.92,Valor
+Alenquer,dados_alenquer__populacao_preta,População Preta,dados_alenquer,Grupo 2 — 3 censos,3,relu,sgd,True,0.7312974887024213,2000,2.84,Valor
+Alenquer,dados_alenquer__populacao_preta,População Preta,dados_alenquer,Grupo 2 — 3 censos,3,relu,sgd,True,0.7312974887024213,2010,3.12,Valor
+Alenquer,dados_alenquer__populacao_preta,População Preta,dados_alenquer,Grupo 2 — 3 censos,3,relu,sgd,True,0.7312974887024213,2022,4.82,Valor
+Alenquer,dados_alenquer__populacao_amarela,População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.0504756938490325,2000,180.0,Valor
+Alenquer,dados_alenquer__populacao_amarela,População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.0504756938490325,2010,160.0,Valor
+Alenquer,dados_alenquer__populacao_amarela,População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.0504756938490325,2022,140.0,Valor
+Alenquer,dados_alenquer__populacao_indigena,População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2000,1.693,Valor
+Alenquer,dados_alenquer__populacao_indigena,População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2010,706.0,Valor
+Alenquer,dados_alenquer__populacao_indigena,População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2022,1.287,Valor
+Alenquer,dados_alenquer__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,122.12051387269985,2000,184.2,Valor
+Alenquer,dados_alenquer__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,122.12051387269985,2010,382.1,Valor
+Alenquer,dados_alenquer__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,122.12051387269985,2022,780.0,Valor
+Alenquer,dados_alenquer__apenas_1_trabalho,Apenas 1 trabalho,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4197811682623087,2000,96.1,Valor
+Alenquer,dados_alenquer__apenas_1_trabalho,Apenas 1 trabalho,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4197811682623087,2010,96.4,Valor
+Alenquer,dados_alenquer__apenas_1_trabalho,Apenas 1 trabalho,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4197811682623087,2022,94.1,Valor
+Alenquer,dados_alenquer__2_trabalhos,2 trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,1.1123659976134737,2000,3.5,Valor
+Alenquer,dados_alenquer__2_trabalhos,2 trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,1.1123659976134737,2010,3.2,Valor
+Alenquer,dados_alenquer__2_trabalhos,2 trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,1.1123659976134737,2022,5.1,Valor
+Alenquer,dados_alenquer__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Alenquer,dados_alenquer__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Alenquer,dados_alenquer__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Alenquer,dados_alenquer__setor_privado,Setor privado,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912456,2000,5.82,Valor
+Alenquer,dados_alenquer__setor_privado,Setor privado,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912456,2010,9.42,Valor
+Alenquer,dados_alenquer__setor_privado,Setor privado,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912456,2022,14.82,Valor
+Alenquer,dados_alenquer__conta_propria,Conta própria,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.37957797412960126,2000,7.41,Valor
+Alenquer,dados_alenquer__conta_propria,Conta própria,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.37957797412960126,2010,9.82,Valor
+Alenquer,dados_alenquer__conta_propria,Conta própria,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.37957797412960126,2022,13.21,Valor
+Alenquer,dados_alenquer__setor_publico,Setor público,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.015038358190410476,2000,2.12,Valor
+Alenquer,dados_alenquer__setor_publico,Setor público,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.015038358190410476,2010,3.82,Valor
+Alenquer,dados_alenquer__setor_publico,Setor público,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.015038358190410476,2022,5.84,Valor
+Alenquer,dados_alenquer__trabalhador_domestico,Trabalhador doméstico,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16102047028753175,2000,1.42,Valor
+Alenquer,dados_alenquer__trabalhador_domestico,Trabalhador doméstico,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16102047028753175,2010,1.98,Valor
+Alenquer,dados_alenquer__trabalhador_domestico,Trabalhador doméstico,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16102047028753175,2022,2.41,Valor
+Alenquer,dados_alenquer__empregador,Empregador,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,325.53075627097206,2000,310.0,Valor
+Alenquer,dados_alenquer__empregador,Empregador,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,325.53075627097206,2010,640.0,Valor
+Alenquer,dados_alenquer__empregador,Empregador,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,325.53075627097206,2022,1.12,Valor
+Alenquer,dados_alenquer__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,384.74495769802456,2000,2.41,Valor
+Alenquer,dados_alenquer__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,384.74495769802456,2010,1.42,Valor
+Alenquer,dados_alenquer__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,384.74495769802456,2022,780.0,Valor
+Alenquer,dados_alenquer__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,62.459478130260116,2000,280.0,Valor
+Alenquer,dados_alenquer__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,62.459478130260116,2010,520.0,Valor
+Alenquer,dados_alenquer__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,62.459478130260116,2022,890.0,Valor
+Alenquer,dados_alenquer__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.2655072508798308,2000,2.12,Valor
+Alenquer,dados_alenquer__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.2655072508798308,2010,4.82,Valor
+Alenquer,dados_alenquer__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.2655072508798308,2022,8.41,Valor
+Alenquer,dados_alenquer__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.5557159436599558,2000,3.7,Valor
+Alenquer,dados_alenquer__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.5557159436599558,2010,4.6,Valor
+Alenquer,dados_alenquer__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.5557159436599558,2022,6.41,Valor
+Alenquer,dados_alenquer__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2000,120.0,Valor
+Alenquer,dados_alenquer__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2010,280.0,Valor
+Alenquer,dados_alenquer__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2022,520.0,Valor
+Alenquer,dados_alenquer__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.051337556117350136,2000,2.0,Valor
+Alenquer,dados_alenquer__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.051337556117350136,2010,3.54,Valor
+Alenquer,dados_alenquer__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.051337556117350136,2022,5.32,Valor
+Alenquer,dados_alenquer__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,42.5646596363851,2000,140.0,Valor
+Alenquer,dados_alenquer__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,42.5646596363851,2010,320.0,Valor
+Alenquer,dados_alenquer__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,42.5646596363851,2022,480.0,Valor
+Alenquer,dados_alenquer__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.10982717107914541,2000,1.28,Valor
+Alenquer,dados_alenquer__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.10982717107914541,2010,1.66,Valor
+Alenquer,dados_alenquer__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.10982717107914541,2022,1.93,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.5862104799833645,1991,64.8,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.5862104799833645,2000,74.2,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.5862104799833645,2010,83.4,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.5862104799833645,2022,89.6,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,2.0445035283733213,2000,88.2,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,2.0445035283733213,2010,94.1,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,2.0445035283733213,2022,96.8,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.8592506592895326,2000,28.4,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.8592506592895326,2010,38.2,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.8592506592895326,2022,52.4,Valor
+Alenquer,dados_alenquer__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2000,81.2,Valor
+Alenquer,dados_alenquer__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2010,91.4,Valor
+Alenquer,dados_alenquer__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2022,94.8,Valor
+Alenquer,dados_alenquer__populacao_com_superior_completo,População com Superior Completo,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,226.8301224029756,2000,410.0,Valor
+Alenquer,dados_alenquer__populacao_com_superior_completo,População com Superior Completo,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,226.8301224029756,2010,1.82,Valor
+Alenquer,dados_alenquer__populacao_com_superior_completo,População com Superior Completo,dados_alenquer,Grupo 2 — 3 censos,3,tanh,adam,True,226.8301224029756,2022,5.42,Valor
+Alenquer,dados_alenquer__anos_de_estudo_media,Anos de Estudo (Média),dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.18071829937343598,1991,2.9,Valor
+Alenquer,dados_alenquer__anos_de_estudo_media,Anos de Estudo (Média),dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.18071829937343598,2000,4.2,Valor
+Alenquer,dados_alenquer__anos_de_estudo_media,Anos de Estudo (Média),dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.18071829937343598,2010,6.1,Valor
+Alenquer,dados_alenquer__anos_de_estudo_media,Anos de Estudo (Média),dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.18071829937343598,2022,7.8,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_alenquer,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.21353234351747152,1991,3.1,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_alenquer,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.21353234351747152,2000,4.5,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_alenquer,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.21353234351747152,2010,6.5,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_alenquer,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.21353234351747152,2022,8.2,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.15730254800368781,1991,2.7,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.15730254800368781,2000,3.9,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.15730254800368781,2010,5.7,Valor
+Alenquer,dados_alenquer__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_alenquer,Grupo 1 — 4 censos,4,identity,adam,True,0.15730254800368781,2022,7.4,Valor
+Alenquer,dados_alenquer__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.03444933225047155,1991,0.248,Valor
+Alenquer,dados_alenquer__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.03444933225047155,2000,0.398,Valor
+Alenquer,dados_alenquer__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.03444933225047155,2010,0.521,Valor
+Alenquer,dados_alenquer__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2000,81.2,Valor
+Alenquer,dados_alenquer__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2010,91.4,Valor
+Alenquer,dados_alenquer__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.174463774704421,2022,94.8,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,3.7484309197933854,2000,58.4,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,3.7484309197933854,2010,71.2,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,3.7484309197933854,2022,78.4,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4049690445996,2000,18.2,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4049690445996,2010,24.1,Valor
+Alenquer,dados_alenquer__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_alenquer,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.4049690445996,2022,26.2,Valor
+Alenquer,dados_alenquer__media_populacao_amarela,Média: População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898917,2000,4.8,Valor
+Alenquer,dados_alenquer__media_populacao_amarela,Média: População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898917,2010,7.1,Valor
+Alenquer,dados_alenquer__media_populacao_amarela,Média: População Amarela,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898917,2022,8.8,Valor
+Alenquer,dados_alenquer__media_populacao_branca,Média: População Branca,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2000,4.6,Valor
+Alenquer,dados_alenquer__media_populacao_branca,Média: População Branca,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2010,6.8,Valor
+Alenquer,dados_alenquer__media_populacao_branca,Média: População Branca,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2022,8.4,Valor
+Alenquer,dados_alenquer__media_populacao_preta_parda,Média: População Preta / Parda,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2000,4.0,Valor
+Alenquer,dados_alenquer__media_populacao_preta_parda,Média: População Preta / Parda,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2010,5.9,Valor
+Alenquer,dados_alenquer__media_populacao_preta_parda,Média: População Preta / Parda,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2022,7.6,Valor
+Alenquer,dados_alenquer__media_populacao_indigena,Média: População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518383,2000,3.2,Valor
+Alenquer,dados_alenquer__media_populacao_indigena,Média: População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518383,2010,4.8,Valor
+Alenquer,dados_alenquer__media_populacao_indigena,Média: População Indígena,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518383,2022,6.5,Valor
+Alenquer,dados_alenquer__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Alenquer,dados_alenquer__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.0,Valor
+Alenquer,dados_alenquer__populacao_residente_em_favelas,População Residente em Favelas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.12,Valor
+Alenquer,dados_alenquer__populacao_residente_em_favelas,População Residente em Favelas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.84,Valor
+Alenquer,dados_alenquer__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,780.0,Valor
+Alenquer,dados_alenquer__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.14,Valor
+Alenquer,dados_alenquer__idade_mediana_2,Idade Mediana,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Alenquer,dados_alenquer__idade_mediana_2,Idade Mediana,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+Alenquer,dados_alenquer__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Alenquer,dados_alenquer__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+Alenquer,dados_alenquer__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,102.1,Valor
+Alenquer,dados_alenquer__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,100.2,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,79.8,Valor
+Alenquer,dados_alenquer__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.2,Valor
+Alenquer,dados_alenquer__populacao_parda_2,População Parda,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.54,Valor
+Alenquer,dados_alenquer__populacao_parda_2,População Parda,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.28,Valor
+Alenquer,dados_alenquer__populacao_branca_2,População Branca,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,310.0,Valor
+Alenquer,dados_alenquer__populacao_branca_2,População Branca,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,680.0,Valor
+Alenquer,dados_alenquer__populacao_preta_2,População Preta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,240.0,Valor
+Alenquer,dados_alenquer__populacao_preta_2,População Preta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,620.0,Valor
+Alenquer,dados_alenquer__populacao_amarela_2,População Amarela,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+Alenquer,dados_alenquer__populacao_amarela_2,População Amarela,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.0,Valor
+Alenquer,dados_alenquer__populacao_indigena_2,População Indígena,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Alenquer,dados_alenquer__populacao_indigena_2,População Indígena,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,240.0,Valor
+Alenquer,dados_alenquer__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Alenquer,dados_alenquer__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Alenquer,dados_alenquer__com_coleta_de_lixo,Com Coleta de Lixo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Alenquer,dados_alenquer__com_coleta_de_lixo,Com Coleta de Lixo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Alenquer,dados_alenquer__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Alenquer,dados_alenquer__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Alenquer,dados_alenquer__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Alenquer,dados_alenquer__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Alenquer,dados_alenquer__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Alenquer,dados_alenquer__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Alenquer,dados_alenquer__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Alenquer,dados_alenquer__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Alenquer,dados_alenquer__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Alenquer,dados_alenquer__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Alenquer,dados_alenquer__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Alenquer,dados_alenquer__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Alenquer,dados_alenquer__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Alenquer,dados_alenquer__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.1,Valor
+Alenquer,dados_alenquer__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,80.4,Valor
+Alenquer,dados_alenquer__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Alenquer,dados_alenquer__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.6,Valor
+Alenquer,dados_alenquer__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Alenquer,dados_alenquer__casais_com_filhos,Casais com filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.250694392908791,2000,63.4,Valor
+Alenquer,dados_alenquer__casais_com_filhos,Casais com filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.250694392908791,2010,54.2,Valor
+Alenquer,dados_alenquer__casais_com_filhos,Casais com filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.250694392908791,2022,44.8,Valor
+Alenquer,dados_alenquer__casais_sem_filhos,Casais sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2000,7.8,Valor
+Alenquer,dados_alenquer__casais_sem_filhos,Casais sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2010,10.2,Valor
+Alenquer,dados_alenquer__casais_sem_filhos,Casais sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.3094317294785363,2022,14.8,Valor
+Alenquer,dados_alenquer__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2000,16.8,Valor
+Alenquer,dados_alenquer__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2010,19.8,Valor
+Alenquer,dados_alenquer__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343673,2022,23.2,Valor
+Alenquer,dados_alenquer__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.1,Valor
+Alenquer,dados_alenquer__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.4,Valor
+Alenquer,dados_alenquer__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_alenquer,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.8,Valor
+Alenquer,dados_alenquer__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418835,2000,7.4,Valor
+Alenquer,dados_alenquer__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418835,2010,8.1,Valor
+Alenquer,dados_alenquer__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4024792158418835,2022,7.6,Valor
+Alenquer,dados_alenquer__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3660572078279287,2000,3.8,Valor
+Alenquer,dados_alenquer__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3660572078279287,2010,4.5,Valor
+Alenquer,dados_alenquer__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3660572078279287,2022,4.2,Valor
+Alenquer,dados_alenquer__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.14335274222751895,2000,0.9,Valor
+Alenquer,dados_alenquer__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.14335274222751895,2010,1.4,Valor
+Alenquer,dados_alenquer__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.14335274222751895,2022,1.8,Valor
+Alenquer,dados_alenquer__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Alenquer,dados_alenquer__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Alenquer,dados_alenquer__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Alenquer,dados_alenquer__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Alenquer,dados_alenquer__trabalha_em_outro_municipio,Trabalha em outro município,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Alenquer,dados_alenquer__trabalha_em_outro_municipio,Trabalha em outro município,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Alenquer,dados_alenquer__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Alenquer,dados_alenquer__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Alenquer,dados_alenquer__motocicleta,Motocicleta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.1,Valor
+Alenquer,dados_alenquer__motocicleta,Motocicleta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.2,Valor
+Alenquer,dados_alenquer__a_pe,A pé,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Alenquer,dados_alenquer__a_pe,A pé,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Alenquer,dados_alenquer__bicicleta,Bicicleta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Alenquer,dados_alenquer__bicicleta,Bicicleta,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Alenquer,dados_alenquer__automovel_carro,Automóvel (Carro),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.2,Valor
+Alenquer,dados_alenquer__automovel_carro,Automóvel (Carro),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Alenquer,dados_alenquer__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Alenquer,dados_alenquer__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Alenquer,dados_alenquer__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Alenquer,dados_alenquer__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.8,Valor
+Alenquer,dados_alenquer__mais_de_1_hora,Mais de 1 hora,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.4,Valor
+Alenquer,dados_alenquer__mais_de_1_hora,Mais de 1 hora,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Alenquer,dados_alenquer__estuda_no_proprio_municipio_alenquer,Estuda no próprio município (Alenquer),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.2,Valor
+Alenquer,dados_alenquer__estuda_no_proprio_municipio_alenquer,Estuda no próprio município (Alenquer),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.1,Valor
+Alenquer,dados_alenquer__estuda_em_outro_municipio,Estuda em outro município,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Alenquer,dados_alenquer__estuda_em_outro_municipio,Estuda em outro município,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.9,Valor
+Alenquer,dados_alenquer__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.4621562324430104,1991,8.41,Valor
+Alenquer,dados_alenquer__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.4621562324430104,2000,10.82,Valor
+Alenquer,dados_alenquer__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.4621562324430104,2010,13.82,Valor
+Alenquer,dados_alenquer__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.4621562324430104,2022,22.41,Valor
+Alenquer,dados_alenquer__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.436006198046886,1991,8.28,Valor
+Alenquer,dados_alenquer__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.436006198046886,2000,10.64,Valor
+Alenquer,dados_alenquer__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.436006198046886,2010,13.61,Valor
+Alenquer,dados_alenquer__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_alenquer,Grupo 1 — 4 censos,4,relu,lbfgs,True,2.436006198046886,2022,22.18,Valor
+Alenquer,dados_alenquer__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,13.27120648215761,1991,130.0,Valor
+Alenquer,dados_alenquer__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,13.27120648215761,2000,180.0,Valor
+Alenquer,dados_alenquer__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,13.27120648215761,2010,210.0,Valor
+Alenquer,dados_alenquer__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_alenquer,Grupo 1 — 4 censos,4,logistic,lbfgs,True,13.27120648215761,2022,230.0,Valor
+Alenquer,dados_alenquer__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_alenquer,Grupo 1 — 4 censos,4,relu,adam,True,0.15687287529587346,1991,5.5,Valor
+Alenquer,dados_alenquer__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_alenquer,Grupo 1 — 4 censos,4,relu,adam,True,0.15687287529587346,2000,4.6,Valor
+Alenquer,dados_alenquer__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_alenquer,Grupo 1 — 4 censos,4,relu,adam,True,0.15687287529587346,2010,3.8,Valor
+Alenquer,dados_alenquer__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_alenquer,Grupo 1 — 4 censos,4,relu,adam,True,0.15687287529587346,2022,3.1,Valor
+Alenquer,dados_alenquer__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Alenquer,dados_alenquer__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.4,Valor
+Alenquer,dados_alenquer__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Alenquer,dados_alenquer__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Alenquer,dados_alenquer__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Alenquer,dados_alenquer__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Alenquer,dados_alenquer__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Alenquer,dados_alenquer__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Alenquer,dados_alenquer__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Alenquer,dados_alenquer__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Alenquer,dados_alenquer__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Alenquer,dados_alenquer__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Alenquer,dados_alenquer__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Alenquer,dados_alenquer__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.2,Valor
+Alenquer,dados_alenquer__ruas_sem_arvores,Ruas Sem Árvores,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.6,Valor
+Alenquer,dados_alenquer__ruas_sem_arvores,Ruas Sem Árvores,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Alenquer,dados_alenquer__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.1,Valor
+Alenquer,dados_alenquer__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Alenquer,dados_alenquer__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Alenquer,dados_alenquer__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Alenquer,dados_alenquer__ponto_de_onibus_ou_embarcadouro_proximo,Ponto de Ônibus ou Embarcadouro próximo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Alenquer,dados_alenquer__ponto_de_onibus_ou_embarcadouro_proximo,Ponto de Ônibus ou Embarcadouro próximo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Alenquer,dados_alenquer__populacao_indigena_total,População Indígena Total,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2000,1.693,Valor
+Alenquer,dados_alenquer__populacao_indigena_total,População Indígena Total,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2010,706.0,Valor
+Alenquer,dados_alenquer__populacao_indigena_total,População Indígena Total,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,473.58347890514915,2022,1.287,Valor
+Alenquer,dados_alenquer__proporcao_na_populacao_de_alenquer,Proporção na população de Alenquer,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2219901177432446,2000,3.43,Valor
+Alenquer,dados_alenquer__proporcao_na_populacao_de_alenquer,Proporção na população de Alenquer,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2219901177432446,2010,1.34,Valor
+Alenquer,dados_alenquer__proporcao_na_populacao_de_alenquer,Proporção na população de Alenquer,dados_alenquer,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2219901177432446,2022,1.85,Valor
+Alenquer,dados_alenquer__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.4,Valor
+Alenquer,dados_alenquer__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Alenquer,dados_alenquer__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Alenquer,dados_alenquer__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Alenquer,dados_alenquer__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.4,Valor
+Alenquer,dados_alenquer__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Alenquer,dados_alenquer__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Alenquer,dados_alenquer__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Alenquer,dados_alenquer__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.1575091695450255,2000,16.4,Valor
+Alenquer,dados_alenquer__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.1575091695450255,2010,19.8,Valor
+Alenquer,dados_alenquer__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,1.1575091695450255,2022,25.4,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.708267671694055,2000,56.4,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.708267671694055,2010,47.2,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.708267671694055,2022,38.4,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2000,8.8,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2010,11.8,Valor
+Alenquer,dados_alenquer__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4557676798005173,2022,14.8,Valor
+Alenquer,dados_alenquer__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.4,Valor
+Alenquer,dados_alenquer__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.4,Valor
+Alenquer,dados_alenquer__sem_conjuge,Sem cônjuge,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.0,Valor
+Alenquer,dados_alenquer__sem_conjuge,Sem cônjuge,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.9,Valor
+Alenquer,dados_alenquer__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Alenquer,dados_alenquer__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Alenquer,dados_alenquer__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Alenquer,dados_alenquer__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_alenquer,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Alenquer,dados_alenquer__responsavel_mulher,Responsável Mulher,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Alenquer,dados_alenquer__responsavel_mulher,Responsável Mulher,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Alenquer,dados_alenquer__responsavel_mulher,Responsável Mulher,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Alenquer,dados_alenquer__responsavel_homem,Responsável Homem,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2000,4.7,Valor
+Alenquer,dados_alenquer__responsavel_homem,Responsável Homem,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2010,4.0,Valor
+Alenquer,dados_alenquer__responsavel_homem,Responsável Homem,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.030504436153838615,2022,3.2,Valor
+Alenquer,dados_alenquer__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2000,4.1,Valor
+Alenquer,dados_alenquer__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2010,3.5,Valor
+Alenquer,dados_alenquer__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547044,2022,2.9,Valor
+Alenquer,dados_alenquer__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24403933590364288,2000,13.4,Valor
+Alenquer,dados_alenquer__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24403933590364288,2010,17.8,Valor
+Alenquer,dados_alenquer__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24403933590364288,2022,23.4,Valor
+Alenquer,dados_alenquer__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4858887632371811,2000,16.2,Valor
+Alenquer,dados_alenquer__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4858887632371811,2010,20.4,Valor
+Alenquer,dados_alenquer__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_alenquer,Grupo 2 — 3 censos,3,identity,adam,True,0.4858887632371811,2022,24.8,Valor
+Alenquer,dados_alenquer__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,4.682272830422984,2000,48.2,Valor
+Alenquer,dados_alenquer__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,4.682272830422984,2010,31.2,Valor
+Alenquer,dados_alenquer__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_alenquer,Grupo 2 — 3 censos,3,relu,adam,True,4.682272830422984,2022,19.4,Valor
