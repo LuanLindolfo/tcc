@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Xinguara,dados_xinguara__populacao_total,População Total,dados_xinguara,Grupo 1 — 4 censos,4,identity,adam,True,2.1743446320165463,1991,28.34,Valor
+Xinguara,dados_xinguara__populacao_total,População Total,dados_xinguara,Grupo 1 — 4 censos,4,identity,adam,True,2.1743446320165463,2000,36.201,Valor
+Xinguara,dados_xinguara__populacao_total,População Total,dados_xinguara,Grupo 1 — 4 censos,4,identity,adam,True,2.1743446320165463,2010,40.578,Valor
+Xinguara,dados_xinguara__populacao_total,População Total,dados_xinguara,Grupo 1 — 4 censos,4,identity,adam,True,2.1743446320165463,2022,52.893,Valor
+Xinguara,dados_xinguara__populacao_urbana,População Urbana,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,2.2157286466057093,2000,28.42,Valor
+Xinguara,dados_xinguara__populacao_urbana,População Urbana,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,2.2157286466057093,2010,33.82,Valor
+Xinguara,dados_xinguara__populacao_urbana,População Urbana,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,2.2157286466057093,2022,43.21,Valor
+Xinguara,dados_xinguara__populacao_rural,População Rural,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6260830318224604,2000,7.781,Valor
+Xinguara,dados_xinguara__populacao_rural,População Rural,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6260830318224604,2010,6.758,Valor
+Xinguara,dados_xinguara__populacao_rural,População Rural,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6260830318224604,2022,9.683,Valor
+Xinguara,dados_xinguara__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,840.0,Valor
+Xinguara,dados_xinguara__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.12,Valor
+Xinguara,dados_xinguara__populacao_de_mulheres,População de Mulheres,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.2890335575690295,2000,17.82,Valor
+Xinguara,dados_xinguara__populacao_de_mulheres,População de Mulheres,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.2890335575690295,2010,20.12,Valor
+Xinguara,dados_xinguara__populacao_de_mulheres,População de Mulheres,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.2890335575690295,2022,26.41,Valor
+Xinguara,dados_xinguara__populacao_de_homens,População de Homens,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.20514149095359,2000,18.381,Valor
+Xinguara,dados_xinguara__populacao_de_homens,População de Homens,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.20514149095359,2010,20.458,Valor
+Xinguara,dados_xinguara__populacao_de_homens,População de Homens,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.20514149095359,2022,26.483,Valor
+Xinguara,dados_xinguara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353329856942102,2000,103.1,Valor
+Xinguara,dados_xinguara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353329856942102,2010,101.7,Valor
+Xinguara,dados_xinguara__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353329856942102,2022,100.3,Valor
+Xinguara,dados_xinguara__idade_mediana,Idade Mediana,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2000,21.0,Valor
+Xinguara,dados_xinguara__idade_mediana,Idade Mediana,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2010,25.0,Valor
+Xinguara,dados_xinguara__idade_mediana,Idade Mediana,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2022,30.0,Valor
+Xinguara,dados_xinguara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.7069016637784635,2000,6.8,Valor
+Xinguara,dados_xinguara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.7069016637784635,2010,11.4,Valor
+Xinguara,dados_xinguara__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.7069016637784635,2022,26.8,Valor
+Xinguara,dados_xinguara__populacao_parda,População Parda,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,3.30963242382782,2000,24.21,Valor
+Xinguara,dados_xinguara__populacao_parda,População Parda,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,3.30963242382782,2010,28.42,Valor
+Xinguara,dados_xinguara__populacao_parda,População Parda,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,3.30963242382782,2022,37.82,Valor
+Xinguara,dados_xinguara__populacao_branca,População Branca,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3706745899017676,2000,9.42,Valor
+Xinguara,dados_xinguara__populacao_branca,População Branca,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3706745899017676,2010,9.12,Valor
+Xinguara,dados_xinguara__populacao_branca,População Branca,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3706745899017676,2022,9.82,Valor
+Xinguara,dados_xinguara__populacao_preta,População Preta,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7579277288497245,2000,2.21,Valor
+Xinguara,dados_xinguara__populacao_preta,População Preta,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7579277288497245,2010,2.84,Valor
+Xinguara,dados_xinguara__populacao_preta,População Preta,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7579277288497245,2022,4.89,Valor
+Xinguara,dados_xinguara__populacao_amarela,População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,46.416198146861454,2000,280.0,Valor
+Xinguara,dados_xinguara__populacao_amarela,População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,46.416198146861454,2010,160.0,Valor
+Xinguara,dados_xinguara__populacao_amarela,População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,46.416198146861454,2022,110.0,Valor
+Xinguara,dados_xinguara__populacao_indigena,População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2000,81.0,Valor
+Xinguara,dados_xinguara__populacao_indigena,População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2010,38.0,Valor
+Xinguara,dados_xinguara__populacao_indigena,População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2022,253.0,Valor
+Xinguara,dados_xinguara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,188.39247295694588,2000,184.2,Valor
+Xinguara,dados_xinguara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,188.39247295694588,2010,412.6,Valor
+Xinguara,dados_xinguara__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_xinguara,Grupo 2 — 3 censos,3,relu,lbfgs,True,188.39247295694588,2022,940.0,Valor
+Xinguara,dados_xinguara__apenas_1_trabalho,Apenas 1 trabalho,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.44334478863189,2000,94.2,Valor
+Xinguara,dados_xinguara__apenas_1_trabalho,Apenas 1 trabalho,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.44334478863189,2010,94.8,Valor
+Xinguara,dados_xinguara__apenas_1_trabalho,Apenas 1 trabalho,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,2.44334478863189,2022,90.8,Valor
+Xinguara,dados_xinguara__2_trabalhos,2 trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871396,2000,5.2,Valor
+Xinguara,dados_xinguara__2_trabalhos,2 trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871396,2010,4.8,Valor
+Xinguara,dados_xinguara__2_trabalhos,2 trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,1.9107863958871396,2022,8.2,Valor
+Xinguara,dados_xinguara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33685187784217785,2000,0.6,Valor
+Xinguara,dados_xinguara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33685187784217785,2010,0.4,Valor
+Xinguara,dados_xinguara__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33685187784217785,2022,1.0,Valor
+Xinguara,dados_xinguara__setor_privado,Setor privado,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0989649182334403,2000,5.21,Valor
+Xinguara,dados_xinguara__setor_privado,Setor privado,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0989649182334403,2010,10.82,Valor
+Xinguara,dados_xinguara__setor_privado,Setor privado,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0989649182334403,2022,17.42,Valor
+Xinguara,dados_xinguara__conta_propria,Conta própria,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.1519930377391585,2000,5.82,Valor
+Xinguara,dados_xinguara__conta_propria,Conta própria,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.1519930377391585,2010,9.82,Valor
+Xinguara,dados_xinguara__conta_propria,Conta própria,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.1519930377391585,2022,12.82,Valor
+Xinguara,dados_xinguara__setor_publico,Setor público,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.15028479148665533,2000,1.24,Valor
+Xinguara,dados_xinguara__setor_publico,Setor público,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.15028479148665533,2010,2.68,Valor
+Xinguara,dados_xinguara__setor_publico,Setor público,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.15028479148665533,2022,4.21,Valor
+Xinguara,dados_xinguara__trabalhador_domestico,Trabalhador doméstico,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,407.2714304189188,2000,740.0,Valor
+Xinguara,dados_xinguara__trabalhador_domestico,Trabalhador doméstico,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,407.2714304189188,2010,1.28,Valor
+Xinguara,dados_xinguara__trabalhador_domestico,Trabalhador doméstico,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,407.2714304189188,2022,1.62,Valor
+Xinguara,dados_xinguara__empregador,Empregador,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,451.3732468098962,2000,480.0,Valor
+Xinguara,dados_xinguara__empregador,Empregador,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,451.3732468098962,2010,890.0,Valor
+Xinguara,dados_xinguara__empregador,Empregador,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,451.3732468098962,2022,1.48,Valor
+Xinguara,dados_xinguara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,286.03970132207354,2000,1.82,Valor
+Xinguara,dados_xinguara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,286.03970132207354,2010,1.12,Valor
+Xinguara,dados_xinguara__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,286.03970132207354,2022,580.0,Valor
+Xinguara,dados_xinguara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,82.2225823491176,2000,160.0,Valor
+Xinguara,dados_xinguara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,82.2225823491176,2010,320.0,Valor
+Xinguara,dados_xinguara__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,82.2225823491176,2022,620.0,Valor
+Xinguara,dados_xinguara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7100797291179194,2000,2.82,Valor
+Xinguara,dados_xinguara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7100797291179194,2010,6.21,Valor
+Xinguara,dados_xinguara__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7100797291179194,2022,11.21,Valor
+Xinguara,dados_xinguara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6410367434189103,2000,2.39,Valor
+Xinguara,dados_xinguara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6410367434189103,2010,4.61,Valor
+Xinguara,dados_xinguara__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6410367434189103,2022,6.21,Valor
+Xinguara,dados_xinguara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,24.38663815437141,2000,80.0,Valor
+Xinguara,dados_xinguara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,24.38663815437141,2010,220.0,Valor
+Xinguara,dados_xinguara__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,24.38663815437141,2022,420.0,Valor
+Xinguara,dados_xinguara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.17467142964102642,2000,1.16,Valor
+Xinguara,dados_xinguara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.17467142964102642,2010,2.46,Valor
+Xinguara,dados_xinguara__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.17467142964102642,2022,3.79,Valor
+Xinguara,dados_xinguara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,45.69531082756745,2000,90.0,Valor
+Xinguara,dados_xinguara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,45.69531082756745,2010,240.0,Valor
+Xinguara,dados_xinguara__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,45.69531082756745,2022,480.0,Valor
+Xinguara,dados_xinguara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,357.6805521028152,2000,650.0,Valor
+Xinguara,dados_xinguara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,357.6805521028152,2010,1.04,Valor
+Xinguara,dados_xinguara__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,357.6805521028152,2022,1.14,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.0881457969114123,1991,66.2,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.0881457969114123,2000,78.4,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.0881457969114123,2010,86.2,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.0881457969114123,2022,91.4,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.6923202185479957,2000,89.2,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.6923202185479957,2010,95.8,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,lbfgs,True,2.6923202185479957,2022,98.2,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_xinguara,Grupo 2 — 3 censos,3,identity,sgd,True,1.4002214608461696,2000,28.4,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_xinguara,Grupo 2 — 3 censos,3,identity,sgd,True,1.4002214608461696,2010,41.2,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_xinguara,Grupo 2 — 3 censos,3,identity,sgd,True,1.4002214608461696,2022,58.4,Valor
+Xinguara,dados_xinguara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2000,84.2,Valor
+Xinguara,dados_xinguara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2010,93.4,Valor
+Xinguara,dados_xinguara__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2022,96.2,Valor
+Xinguara,dados_xinguara__populacao_com_superior_completo,População com Superior Completo,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,232.10799944797589,2000,420.0,Valor
+Xinguara,dados_xinguara__populacao_com_superior_completo,População com Superior Completo,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,232.10799944797589,2010,1.89,Valor
+Xinguara,dados_xinguara__populacao_com_superior_completo,População com Superior Completo,dados_xinguara,Grupo 2 — 3 censos,3,tanh,adam,True,232.10799944797589,2022,5.12,Valor
+Xinguara,dados_xinguara__anos_de_estudo_media,Anos de Estudo (Média),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.33651925635683066,1991,3.1,Valor
+Xinguara,dados_xinguara__anos_de_estudo_media,Anos de Estudo (Média),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.33651925635683066,2000,4.8,Valor
+Xinguara,dados_xinguara__anos_de_estudo_media,Anos de Estudo (Média),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.33651925635683066,2010,6.8,Valor
+Xinguara,dados_xinguara__anos_de_estudo_media,Anos de Estudo (Média),dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.33651925635683066,2022,8.4,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3305683480813765,1991,3.4,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3305683480813765,2000,5.1,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3305683480813765,2010,7.2,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3305683480813765,2022,8.8,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_xinguara,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778137,1991,2.8,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_xinguara,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778137,2000,4.5,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_xinguara,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778137,2010,6.4,Valor
+Xinguara,dados_xinguara__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_xinguara,Grupo 1 — 4 censos,4,relu,adam,True,0.32264985294778137,2022,8.0,Valor
+Xinguara,dados_xinguara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.029446167900619862,1991,0.268,Valor
+Xinguara,dados_xinguara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.029446167900619862,2000,0.442,Valor
+Xinguara,dados_xinguara__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.029446167900619862,2010,0.598,Valor
+Xinguara,dados_xinguara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2000,84.2,Valor
+Xinguara,dados_xinguara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2010,93.4,Valor
+Xinguara,dados_xinguara__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_xinguara,Grupo 2 — 3 censos,3,logistic,adam,True,3.93149648298791,2022,96.2,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,3.2359227055076567,2000,61.2,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,3.2359227055076567,2010,72.4,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,3.2359227055076567,2022,80.4,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.8914594846409816,2000,18.4,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.8914594846409816,2010,24.8,Valor
+Xinguara,dados_xinguara__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,1.8914594846409816,2022,28.2,Valor
+Xinguara,dados_xinguara__media_populacao_amarela,Média: População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5504286303754791,2000,6.2,Valor
+Xinguara,dados_xinguara__media_populacao_amarela,Média: População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5504286303754791,2010,8.1,Valor
+Xinguara,dados_xinguara__media_populacao_amarela,Média: População Amarela,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5504286303754791,2022,9.4,Valor
+Xinguara,dados_xinguara__media_populacao_branca,Média: População Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100757,2000,5.4,Valor
+Xinguara,dados_xinguara__media_populacao_branca,Média: População Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100757,2010,7.4,Valor
+Xinguara,dados_xinguara__media_populacao_branca,Média: População Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100757,2022,9.0,Valor
+Xinguara,dados_xinguara__media_populacao_preta_parda,Média: População Preta / Parda,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362885,2000,4.4,Valor
+Xinguara,dados_xinguara__media_populacao_preta_parda,Média: População Preta / Parda,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362885,2010,6.6,Valor
+Xinguara,dados_xinguara__media_populacao_preta_parda,Média: População Preta / Parda,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362885,2022,8.2,Valor
+Xinguara,dados_xinguara__media_populacao_indigena,Média: População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518395,2000,3.8,Valor
+Xinguara,dados_xinguara__media_populacao_indigena,Média: População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518395,2010,5.4,Valor
+Xinguara,dados_xinguara__media_populacao_indigena,Média: População Indígena,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.1669831016518395,2022,7.1,Valor
+Xinguara,dados_xinguara__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Xinguara,dados_xinguara__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Xinguara,dados_xinguara__populacao_residente_em_favelas,População Residente em Favelas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,840.0,Valor
+Xinguara,dados_xinguara__populacao_residente_em_favelas,População Residente em Favelas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.12,Valor
+Xinguara,dados_xinguara__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,220.0,Valor
+Xinguara,dados_xinguara__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,610.0,Valor
+Xinguara,dados_xinguara__idade_mediana_2,Idade Mediana,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+Xinguara,dados_xinguara__idade_mediana_2,Idade Mediana,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.0,Valor
+Xinguara,dados_xinguara__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.2,Valor
+Xinguara,dados_xinguara__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Xinguara,dados_xinguara__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,100.8,Valor
+Xinguara,dados_xinguara__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,98.6,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.1,Valor
+Xinguara,dados_xinguara__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Xinguara,dados_xinguara__populacao_parda_2,População Parda,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,680.0,Valor
+Xinguara,dados_xinguara__populacao_parda_2,População Parda,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.68,Valor
+Xinguara,dados_xinguara__populacao_branca_2,População Branca,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,90.0,Valor
+Xinguara,dados_xinguara__populacao_branca_2,População Branca,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,210.0,Valor
+Xinguara,dados_xinguara__populacao_preta_2,População Preta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,60.0,Valor
+Xinguara,dados_xinguara__populacao_preta_2,População Preta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,190.0,Valor
+Xinguara,dados_xinguara__populacao_amarela_2,População Amarela,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Xinguara,dados_xinguara__populacao_amarela_2,População Amarela,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Xinguara,dados_xinguara__populacao_indigena_2,População Indígena,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Xinguara,dados_xinguara__populacao_indigena_2,População Indígena,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.0,Valor
+Xinguara,dados_xinguara__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Xinguara,dados_xinguara__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Xinguara,dados_xinguara__com_coleta_de_lixo,Com Coleta de Lixo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Xinguara,dados_xinguara__com_coleta_de_lixo,Com Coleta de Lixo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.8,Valor
+Xinguara,dados_xinguara__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Xinguara,dados_xinguara__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Xinguara,dados_xinguara__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Xinguara,dados_xinguara__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Xinguara,dados_xinguara__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Xinguara,dados_xinguara__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Xinguara,dados_xinguara__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Xinguara,dados_xinguara__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.2,Valor
+Xinguara,dados_xinguara__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Xinguara,dados_xinguara__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Xinguara,dados_xinguara__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Xinguara,dados_xinguara__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Xinguara,dados_xinguara__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Xinguara,dados_xinguara__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Xinguara,dados_xinguara__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Xinguara,dados_xinguara__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.8,Valor
+Xinguara,dados_xinguara__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Xinguara,dados_xinguara__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Xinguara,dados_xinguara__casais_com_filhos,Casais com filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1963450658485164,2000,62.8,Valor
+Xinguara,dados_xinguara__casais_com_filhos,Casais com filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1963450658485164,2010,52.4,Valor
+Xinguara,dados_xinguara__casais_com_filhos,Casais com filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1963450658485164,2022,42.8,Valor
+Xinguara,dados_xinguara__casais_sem_filhos,Casais sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678095,2000,8.2,Valor
+Xinguara,dados_xinguara__casais_sem_filhos,Casais sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678095,2010,11.2,Valor
+Xinguara,dados_xinguara__casais_sem_filhos,Casais sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678095,2022,15.8,Valor
+Xinguara,dados_xinguara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0599787383232974,2000,16.8,Valor
+Xinguara,dados_xinguara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0599787383232974,2010,20.2,Valor
+Xinguara,dados_xinguara__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.0599787383232974,2022,24.2,Valor
+Xinguara,dados_xinguara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2000,3.6,Valor
+Xinguara,dados_xinguara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2010,4.0,Valor
+Xinguara,dados_xinguara__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2022,4.4,Valor
+Xinguara,dados_xinguara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2000,7.2,Valor
+Xinguara,dados_xinguara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2010,7.6,Valor
+Xinguara,dados_xinguara__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2022,7.2,Valor
+Xinguara,dados_xinguara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3324092107012258,2000,3.6,Valor
+Xinguara,dados_xinguara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3324092107012258,2010,4.2,Valor
+Xinguara,dados_xinguara__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3324092107012258,2022,4.0,Valor
+Xinguara,dados_xinguara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005176,2000,1.0,Valor
+Xinguara,dados_xinguara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005176,2010,1.3,Valor
+Xinguara,dados_xinguara__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005176,2022,1.6,Valor
+Xinguara,dados_xinguara__trabalha_no_proprio_municipio_de_residencia_x,Trabalha no próprio município de residência (Xinguara),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,92.4,Valor
+Xinguara,dados_xinguara__trabalha_no_proprio_municipio_de_residencia_x,Trabalha no próprio município de residência (Xinguara),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.6,Valor
+Xinguara,dados_xinguara__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Xinguara,dados_xinguara__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.4,Valor
+Xinguara,dados_xinguara__trabalha_em_outro_municipio_ex_redencao_rio_m,Trabalha em outro município (ex: Redenção / Rio Maria / Sapucaia),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Xinguara,dados_xinguara__trabalha_em_outro_municipio_ex_redencao_rio_m,Trabalha em outro município (ex: Redenção / Rio Maria / Sapucaia),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Xinguara,dados_xinguara__motocicleta,Motocicleta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.4,Valor
+Xinguara,dados_xinguara__motocicleta,Motocicleta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.1,Valor
+Xinguara,dados_xinguara__automovel_onibus,Automóvel / Ônibus,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Xinguara,dados_xinguara__automovel_onibus,Automóvel / Ônibus,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Xinguara,dados_xinguara__a_pe,A pé,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Xinguara,dados_xinguara__a_pe,A pé,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Xinguara,dados_xinguara__bicicleta,Bicicleta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Xinguara,dados_xinguara__bicicleta,Bicicleta,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.2,Valor
+Xinguara,dados_xinguara__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Xinguara,dados_xinguara__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Xinguara,dados_xinguara__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Xinguara,dados_xinguara__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.8,Valor
+Xinguara,dados_xinguara__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Xinguara,dados_xinguara__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.2,Valor
+Xinguara,dados_xinguara__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.4,Valor
+Xinguara,dados_xinguara__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.0,Valor
+Xinguara,dados_xinguara__estuda_no_proprio_municipio_xinguara,Estuda no próprio município (Xinguara),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.2,Valor
+Xinguara,dados_xinguara__estuda_no_proprio_municipio_xinguara,Estuda no próprio município (Xinguara),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.8,Valor
+Xinguara,dados_xinguara__estuda_em_outro_municipio,Estuda em outro município,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Xinguara,dados_xinguara__estuda_em_outro_municipio,Estuda em outro município,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Xinguara,dados_xinguara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8456671277883314,1991,5.21,Valor
+Xinguara,dados_xinguara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8456671277883314,2000,8.21,Valor
+Xinguara,dados_xinguara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8456671277883314,2010,11.82,Valor
+Xinguara,dados_xinguara__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8456671277883314,2022,17.42,Valor
+Xinguara,dados_xinguara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8527436991101647,1991,5.08,Valor
+Xinguara,dados_xinguara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8527436991101647,2000,8.08,Valor
+Xinguara,dados_xinguara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8527436991101647,2010,11.61,Valor
+Xinguara,dados_xinguara__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_xinguara,Grupo 1 — 4 censos,4,identity,sgd,True,0.8527436991101647,2022,17.18,Valor
+Xinguara,dados_xinguara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_xinguara,Grupo 1 — 4 censos,4,tanh,adam,True,15.077610494801348,1991,130.0,Valor
+Xinguara,dados_xinguara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_xinguara,Grupo 1 — 4 censos,4,tanh,adam,True,15.077610494801348,2000,130.0,Valor
+Xinguara,dados_xinguara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_xinguara,Grupo 1 — 4 censos,4,tanh,adam,True,15.077610494801348,2010,210.0,Valor
+Xinguara,dados_xinguara__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_xinguara,Grupo 1 — 4 censos,4,tanh,adam,True,15.077610494801348,2022,240.0,Valor
+Xinguara,dados_xinguara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.12379384098793877,1991,5.4,Valor
+Xinguara,dados_xinguara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.12379384098793877,2000,4.5,Valor
+Xinguara,dados_xinguara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.12379384098793877,2010,3.5,Valor
+Xinguara,dados_xinguara__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_xinguara,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.12379384098793877,2022,3.0,Valor
+Xinguara,dados_xinguara__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Xinguara,dados_xinguara__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,79.8,Valor
+Xinguara,dados_xinguara__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Xinguara,dados_xinguara__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Xinguara,dados_xinguara__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Xinguara,dados_xinguara__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Xinguara,dados_xinguara__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Xinguara,dados_xinguara__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Xinguara,dados_xinguara__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Xinguara,dados_xinguara__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Xinguara,dados_xinguara__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Xinguara,dados_xinguara__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.8,Valor
+Xinguara,dados_xinguara__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Xinguara,dados_xinguara__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Xinguara,dados_xinguara__ruas_sem_arvores,Ruas Sem Árvores,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.8,Valor
+Xinguara,dados_xinguara__ruas_sem_arvores,Ruas Sem Árvores,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.8,Valor
+Xinguara,dados_xinguara__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Xinguara,dados_xinguara__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Xinguara,dados_xinguara__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Xinguara,dados_xinguara__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Xinguara,dados_xinguara__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Xinguara,dados_xinguara__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Xinguara,dados_xinguara__populacao_indigena_total,População Indígena Total,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2000,81.0,Valor
+Xinguara,dados_xinguara__populacao_indigena_total,População Indígena Total,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2010,38.0,Valor
+Xinguara,dados_xinguara__populacao_indigena_total,População Indígena Total,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,130.3025412865131,2022,253.0,Valor
+Xinguara,dados_xinguara__proporcao_na_populacao_de_xinguara,Proporção na população de Xinguara,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2189537205974156,2000,0.22,Valor
+Xinguara,dados_xinguara__proporcao_na_populacao_de_xinguara,Proporção na população de Xinguara,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2189537205974156,2010,0.09,Valor
+Xinguara,dados_xinguara__proporcao_na_populacao_de_xinguara,Proporção na população de Xinguara,dados_xinguara,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2189537205974156,2022,0.48,Valor
+Xinguara,dados_xinguara__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.2,Valor
+Xinguara,dados_xinguara__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Xinguara,dados_xinguara__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.2,Valor
+Xinguara,dados_xinguara__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Xinguara,dados_xinguara__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.2,Valor
+Xinguara,dados_xinguara__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Xinguara,dados_xinguara__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.4,Valor
+Xinguara,dados_xinguara__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.0,Valor
+Xinguara,dados_xinguara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944076,2000,16.8,Valor
+Xinguara,dados_xinguara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944076,2010,20.2,Valor
+Xinguara,dados_xinguara__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.7009512040944076,2022,25.2,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1591794805240265,2000,57.4,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1591794805240265,2010,47.8,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1591794805240265,2022,37.8,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2000,9.2,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2010,12.2,Valor
+Xinguara,dados_xinguara__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2022,15.8,Valor
+Xinguara,dados_xinguara__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Xinguara,dados_xinguara__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.2,Valor
+Xinguara,dados_xinguara__sem_conjuge,Sem cônjuge,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.4,Valor
+Xinguara,dados_xinguara__sem_conjuge,Sem cônjuge,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Xinguara,dados_xinguara__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Xinguara,dados_xinguara__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Xinguara,dados_xinguara__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Xinguara,dados_xinguara__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_xinguara,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Xinguara,dados_xinguara__responsavel_mulher,Responsável Mulher,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2000,3.9,Valor
+Xinguara,dados_xinguara__responsavel_mulher,Responsável Mulher,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2010,3.3,Valor
+Xinguara,dados_xinguara__responsavel_mulher,Responsável Mulher,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2022,2.9,Valor
+Xinguara,dados_xinguara__responsavel_homem,Responsável Homem,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1830288624155938,2000,4.7,Valor
+Xinguara,dados_xinguara__responsavel_homem,Responsável Homem,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1830288624155938,2010,4.0,Valor
+Xinguara,dados_xinguara__responsavel_homem,Responsável Homem,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1830288624155938,2022,3.4,Valor
+Xinguara,dados_xinguara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Xinguara,dados_xinguara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Xinguara,dados_xinguara__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Xinguara,dados_xinguara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647547407,2000,13.8,Valor
+Xinguara,dados_xinguara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647547407,2010,18.4,Valor
+Xinguara,dados_xinguara__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647547407,2022,24.2,Valor
+Xinguara,dados_xinguara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.4555042512504836,2000,17.2,Valor
+Xinguara,dados_xinguara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.4555042512504836,2010,21.2,Valor
+Xinguara,dados_xinguara__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_xinguara,Grupo 2 — 3 censos,3,identity,adam,True,0.4555042512504836,2022,25.4,Valor
+Xinguara,dados_xinguara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,4.290025757951244,2000,45.8,Valor
+Xinguara,dados_xinguara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,4.290025757951244,2010,30.2,Valor
+Xinguara,dados_xinguara__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_xinguara,Grupo 2 — 3 censos,3,relu,adam,True,4.290025757951244,2022,19.2,Valor
