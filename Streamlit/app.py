@@ -184,6 +184,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_novo_repartimento_tratados.csv",
     },
+    {
+        "nome":    "Acará",
+        "pasta":   "data",
+        "arquivo": "indicadores_acará_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
