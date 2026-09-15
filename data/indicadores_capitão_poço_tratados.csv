@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Capitão_Poço,dados_capitao_poco__populacao_total,População Total,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.6883574341867735,1991,44.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_total,População Total,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.6883574341867735,2000,50.169,Valor
+Capitão_Poço,dados_capitao_poco__populacao_total,População Total,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.6883574341867735,2010,51.893,Valor
+Capitão_Poço,dados_capitao_poco__populacao_total,População Total,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.6883574341867735,2022,52.839,Valor
+Capitão_Poço,dados_capitao_poco__populacao_urbana,População Urbana,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.379059191449728,2000,26.42,Valor
+Capitão_Poço,dados_capitao_poco__populacao_urbana,População Urbana,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.379059191449728,2010,31.21,Valor
+Capitão_Poço,dados_capitao_poco__populacao_urbana,População Urbana,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.379059191449728,2022,34.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_rural,População Rural,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7742120206531808,2000,23.749,Valor
+Capitão_Poço,dados_capitao_poco__populacao_rural,População Rural,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7742120206531808,2010,20.683,Valor
+Capitão_Poço,dados_capitao_poco__populacao_rural,População Rural,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7742120206531808,2022,18.019,Valor
+Capitão_Poço,dados_capitao_poco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.24,Valor
+Capitão_Poço,dados_capitao_poco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.98,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_mulheres,População de Mulheres,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.2690873310673301,2000,24.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_mulheres,População de Mulheres,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.2690873310673301,2010,25.89,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_mulheres,População de Mulheres,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.2690873310673301,2022,26.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_homens,População de Homens,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.35213027426080973,2000,25.349,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_homens,População de Homens,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.35213027426080973,2010,26.003,Valor
+Capitão_Poço,dados_capitao_poco__populacao_de_homens,População de Homens,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.35213027426080973,2022,26.019,Valor
+Capitão_Poço,dados_capitao_poco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8347680572749804,2000,102.1,Valor
+Capitão_Poço,dados_capitao_poco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8347680572749804,2010,100.4,Valor
+Capitão_Poço,dados_capitao_poco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8347680572749804,2022,97.0,Valor
+Capitão_Poço,dados_capitao_poco__idade_mediana,Idade Mediana,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2000,19.0,Valor
+Capitão_Poço,dados_capitao_poco__idade_mediana,Idade Mediana,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2010,23.0,Valor
+Capitão_Poço,dados_capitao_poco__idade_mediana,Idade Mediana,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2022,28.0,Valor
+Capitão_Poço,dados_capitao_poco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.766089487895898,2000,5.8,Valor
+Capitão_Poço,dados_capitao_poco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.766089487895898,2010,10.2,Valor
+Capitão_Poço,dados_capitao_poco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.766089487895898,2022,23.2,Valor
+Capitão_Poço,dados_capitao_poco__populacao_parda,População Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.027723024801278,2000,36.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_parda,População Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.027723024801278,2010,39.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_parda,População Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.027723024801278,2022,41.21,Valor
+Capitão_Poço,dados_capitao_poco__populacao_branca,População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5386938816834471,2000,9.82,Valor
+Capitão_Poço,dados_capitao_poco__populacao_branca,População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5386938816834471,2010,8.21,Valor
+Capitão_Poço,dados_capitao_poco__populacao_branca,População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5386938816834471,2022,7.42,Valor
+Capitão_Poço,dados_capitao_poco__populacao_preta,População Preta,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22531956009165185,2000,2.89,Valor
+Capitão_Poço,dados_capitao_poco__populacao_preta,População Preta,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22531956009165185,2010,3.21,Valor
+Capitão_Poço,dados_capitao_poco__populacao_preta,População Preta,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22531956009165185,2022,3.89,Valor
+Capitão_Poço,dados_capitao_poco__populacao_amarela,População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,20.15886636679588,2000,90.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_amarela,População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,20.15886636679588,2010,110.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_amarela,População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,20.15886636679588,2022,70.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena,População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2000,549.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena,População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2010,543.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena,População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2022,249.0,Valor
+Capitão_Poço,dados_capitao_poco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29297323554056,2000,142.8,Valor
+Capitão_Poço,dados_capitao_poco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29297323554056,2010,312.4,Valor
+Capitão_Poço,dados_capitao_poco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29297323554056,2022,740.0,Valor
+Capitão_Poço,dados_capitao_poco__apenas_1_trabalho,Apenas 1 trabalho,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.1765780620199755,2000,95.1,Valor
+Capitão_Poço,dados_capitao_poco__apenas_1_trabalho,Apenas 1 trabalho,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.1765780620199755,2010,95.4,Valor
+Capitão_Poço,dados_capitao_poco__apenas_1_trabalho,Apenas 1 trabalho,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.1765780620199755,2022,91.8,Valor
+Capitão_Poço,dados_capitao_poco__2_trabalhos,2 trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,1.7538135962172348,2000,4.5,Valor
+Capitão_Poço,dados_capitao_poco__2_trabalhos,2 trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,1.7538135962172348,2010,4.2,Valor
+Capitão_Poço,dados_capitao_poco__2_trabalhos,2 trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,1.7538135962172348,2022,7.4,Valor
+Capitão_Poço,dados_capitao_poco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Capitão_Poço,dados_capitao_poco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Capitão_Poço,dados_capitao_poco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado,Setor privado,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2000,4.82,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado,Setor privado,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2010,9.82,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado,Setor privado,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2022,14.82,Valor
+Capitão_Poço,dados_capitao_poco__conta_propria,Conta própria,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.5626240987154774,2000,8.21,Valor
+Capitão_Poço,dados_capitao_poco__conta_propria,Conta própria,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.5626240987154774,2010,12.82,Valor
+Capitão_Poço,dados_capitao_poco__conta_propria,Conta própria,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.5626240987154774,2022,14.98,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico,Setor público,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.21418446665124025,2000,1.38,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico,Setor público,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.21418446665124025,2010,2.89,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico,Setor público,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.21418446665124025,2022,4.42,Valor
+Capitão_Poço,dados_capitao_poco__trabalhador_domestico,Trabalhador doméstico,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,429.3030395949133,2000,780.0,Valor
+Capitão_Poço,dados_capitao_poco__trabalhador_domestico,Trabalhador doméstico,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,429.3030395949133,2010,1.32,Valor
+Capitão_Poço,dados_capitao_poco__trabalhador_domestico,Trabalhador doméstico,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,429.3030395949133,2022,1.68,Valor
+Capitão_Poço,dados_capitao_poco__empregador,Empregador,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,30.37080823305693,2000,280.0,Valor
+Capitão_Poço,dados_capitao_poco__empregador,Empregador,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,30.37080823305693,2010,580.0,Valor
+Capitão_Poço,dados_capitao_poco__empregador,Empregador,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,30.37080823305693,2022,980.0,Valor
+Capitão_Poço,dados_capitao_poco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,404.2162267141168,2000,3.21,Valor
+Capitão_Poço,dados_capitao_poco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,404.2162267141168,2010,2.1,Valor
+Capitão_Poço,dados_capitao_poco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,404.2162267141168,2022,820.0,Valor
+Capitão_Poço,dados_capitao_poco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,66.99081207326178,2000,110.0,Valor
+Capitão_Poço,dados_capitao_poco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,66.99081207326178,2010,220.0,Valor
+Capitão_Poço,dados_capitao_poco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,66.99081207326178,2022,440.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15900500225761247,2000,1.82,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15900500225761247,2010,4.82,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15900500225761247,2022,8.21,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5731524139141255,2000,3.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5731524139141255,2010,5.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5731524139141255,2022,6.61,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,13.725716104022505,2000,50.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,13.725716104022505,2010,160.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,13.725716104022505,2022,310.0,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22791018275526195,2000,1.33,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22791018275526195,2010,2.73,Valor
+Capitão_Poço,dados_capitao_poco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.22791018275526195,2022,4.11,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304154,2000,60.0,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304154,2010,180.0,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304154,2022,360.0,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,396.24297106326645,2000,720.0,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,396.24297106326645,2010,1.14,Valor
+Capitão_Poço,dados_capitao_poco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,396.24297106326645,2022,1.32,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.6879004471960997,1991,58.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.6879004471960997,2000,70.4,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.6879004471960997,2010,80.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.6879004471960997,2022,86.8,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.224161219436354,2000,84.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.224161219436354,2010,92.4,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.224161219436354,2022,95.6,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.615647706295866,2000,23.4,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.615647706295866,2010,32.8,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.615647706295866,2022,46.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2000,78.4,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2010,89.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2022,93.2,Valor
+Capitão_Poço,dados_capitao_poco__populacao_com_superior_completo,População com Superior Completo,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,116.31734218249618,2000,210.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_com_superior_completo,População com Superior Completo,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,116.31734218249618,2010,1.12,Valor
+Capitão_Poço,dados_capitao_poco__populacao_com_superior_completo,População com Superior Completo,dados_capitao_poco,Grupo 2 — 3 censos,3,tanh,adam,True,116.31734218249618,2022,3.42,Valor
+Capitão_Poço,dados_capitao_poco__anos_de_estudo_media,Anos de Estudo (Média),dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322824,1991,2.2,Valor
+Capitão_Poço,dados_capitao_poco__anos_de_estudo_media,Anos de Estudo (Média),dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322824,2000,3.6,Valor
+Capitão_Poço,dados_capitao_poco__anos_de_estudo_media,Anos de Estudo (Média),dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322824,2010,5.6,Valor
+Capitão_Poço,dados_capitao_poco__anos_de_estudo_media,Anos de Estudo (Média),dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322824,2022,7.2,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.30494337532878857,1991,2.4,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.30494337532878857,2000,3.9,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.30494337532878857,2010,6.0,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_capitao_poco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.30494337532878857,2022,7.6,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,adam,True,0.20442370653660413,1991,2.0,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,adam,True,0.20442370653660413,2000,3.3,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,adam,True,0.20442370653660413,2010,5.2,Valor
+Capitão_Poço,dados_capitao_poco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,adam,True,0.20442370653660413,2022,6.8,Valor
+Capitão_Poço,dados_capitao_poco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,8.326080063532823e-06,1991,0.198,Valor
+Capitão_Poço,dados_capitao_poco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,8.326080063532823e-06,2000,0.342,Valor
+Capitão_Poço,dados_capitao_poco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,8.326080063532823e-06,2010,0.502,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2000,78.4,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2010,89.2,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2022,93.2,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.6559263434531366,2000,52.8,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.6559263434531366,2010,65.4,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,3.6559263434531366,2022,73.8,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.9147228614089915,2000,14.6,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.9147228614089915,2010,20.2,Valor
+Capitão_Poço,dados_capitao_poco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,1.9147228614089915,2022,22.8,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_amarela,Média: População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028694,2000,5.0,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_amarela,Média: População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028694,2010,6.8,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_amarela,Média: População Amarela,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5171040920028694,2022,8.2,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_branca,Média: População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2000,4.2,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_branca,Média: População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2010,6.2,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_branca,Média: População Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.573410968910076,2022,7.8,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_preta_parda,Média: População Preta / Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2000,3.4,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_preta_parda,Média: População Preta / Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2010,5.4,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_preta_parda,Média: População Preta / Parda,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2022,7.0,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_indigena,Média: População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2000,2.8,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_indigena,Média: População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2010,4.2,Valor
+Capitão_Poço,dados_capitao_poco__media_populacao_indigena,Média: População Indígena,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.060505595423367975,2022,5.8,Valor
+Capitão_Poço,dados_capitao_poco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Capitão_Poço,dados_capitao_poco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_residente_em_favelas,População Residente em Favelas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.24,Valor
+Capitão_Poço,dados_capitao_poco__populacao_residente_em_favelas,População Residente em Favelas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.98,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,340.0,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,820.0,Valor
+Capitão_Poço,dados_capitao_poco__idade_mediana_2,Idade Mediana,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Capitão_Poço,dados_capitao_poco__idade_mediana_2,Idade Mediana,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.0,Valor
+Capitão_Poço,dados_capitao_poco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Capitão_Poço,dados_capitao_poco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.1,Valor
+Capitão_Poço,dados_capitao_poco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.8,Valor
+Capitão_Poço,dados_capitao_poco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,99.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.2,Valor
+Capitão_Poço,dados_capitao_poco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.4,Valor
+Capitão_Poço,dados_capitao_poco__populacao_parda_2,População Parda,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.04,Valor
+Capitão_Poço,dados_capitao_poco__populacao_parda_2,População Parda,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.42,Valor
+Capitão_Poço,dados_capitao_poco__populacao_branca_2,População Branca,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,110.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_branca_2,População Branca,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,260.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_preta_2,População Preta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,80.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_preta_2,População Preta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,240.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_amarela_2,População Amarela,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_amarela_2,População Amarela,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena_2,População Indígena,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena_2,População Indígena,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,50.0,Valor
+Capitão_Poço,dados_capitao_poco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.2,Valor
+Capitão_Poço,dados_capitao_poco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.8,Valor
+Capitão_Poço,dados_capitao_poco__com_coleta_de_lixo,Com Coleta de Lixo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Capitão_Poço,dados_capitao_poco__com_coleta_de_lixo,Com Coleta de Lixo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Capitão_Poço,dados_capitao_poco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Capitão_Poço,dados_capitao_poco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Capitão_Poço,dados_capitao_poco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+Capitão_Poço,dados_capitao_poco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Capitão_Poço,dados_capitao_poco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Capitão_Poço,dados_capitao_poco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.4,Valor
+Capitão_Poço,dados_capitao_poco__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.8,Valor
+Capitão_Poço,dados_capitao_poco__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.8,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.1,Valor
+Capitão_Poço,dados_capitao_poco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Capitão_Poço,dados_capitao_poco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.4,Valor
+Capitão_Poço,dados_capitao_poco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.6,Valor
+Capitão_Poço,dados_capitao_poco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.6,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos,Casais com filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2000,65.2,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos,Casais com filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2010,55.8,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos,Casais com filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237839,2022,45.8,Valor
+Capitão_Poço,dados_capitao_poco__casais_sem_filhos,Casais sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.005059752511455,2000,6.8,Valor
+Capitão_Poço,dados_capitao_poco__casais_sem_filhos,Casais sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.005059752511455,2010,9.2,Valor
+Capitão_Poço,dados_capitao_poco__casais_sem_filhos,Casais sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,1.005059752511455,2022,13.4,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2000,15.8,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2010,18.8,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2022,22.8,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2000,3.2,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2010,3.6,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2022,4.1,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2000,8.0,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2010,8.4,Valor
+Capitão_Poço,dados_capitao_poco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2022,8.0,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2000,3.9,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2010,4.6,Valor
+Capitão_Poço,dados_capitao_poco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318104,2022,4.4,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2000,1.1,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2010,1.5,Valor
+Capitão_Poço,dados_capitao_poco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.0607690239734023,2022,1.9,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Capitão Poço),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.8,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Capitão Poço),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.4,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_em_outro_municipio_ex_ourem_garrafao,Trabalha em outro município (ex: Ourém / Garrafão do Norte / Capanema),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Capitão_Poço,dados_capitao_poco__trabalha_em_outro_municipio_ex_ourem_garrafao,Trabalha em outro município (ex: Ourém / Garrafão do Norte / Capanema),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Capitão_Poço,dados_capitao_poco__motocicleta,Motocicleta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Capitão_Poço,dados_capitao_poco__motocicleta,Motocicleta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Capitão_Poço,dados_capitao_poco__automovel_onibus,Automóvel / Ônibus,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Capitão_Poço,dados_capitao_poco__automovel_onibus,Automóvel / Ônibus,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Capitão_Poço,dados_capitao_poco__a_pe,A pé,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Capitão_Poço,dados_capitao_poco__a_pe,A pé,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Capitão_Poço,dados_capitao_poco__bicicleta,Bicicleta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Capitão_Poço,dados_capitao_poco__bicicleta,Bicicleta,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Capitão_Poço,dados_capitao_poco__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Capitão_Poço,dados_capitao_poco__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Capitão_Poço,dados_capitao_poco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,56.2,Valor
+Capitão_Poço,dados_capitao_poco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.4,Valor
+Capitão_Poço,dados_capitao_poco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.4,Valor
+Capitão_Poço,dados_capitao_poco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.2,Valor
+Capitão_Poço,dados_capitao_poco__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Capitão_Poço,dados_capitao_poco__mais_de_1_hora_deslocamento_rodoviario_interm,Mais de 1 hora (Deslocamento rodoviário intermunicipal),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Capitão_Poço,dados_capitao_poco__estuda_no_proprio_municipio_capitao_poco,Estuda no próprio município (Capitão Poço),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.8,Valor
+Capitão_Poço,dados_capitao_poco__estuda_no_proprio_municipio_capitao_poco,Estuda no próprio município (Capitão Poço),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.2,Valor
+Capitão_Poço,dados_capitao_poco__estuda_em_outro_municipio,Estuda em outro município,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Capitão_Poço,dados_capitao_poco__estuda_em_outro_municipio,Estuda em outro município,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33395891341031136,1991,6.82,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33395891341031136,2000,9.82,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33395891341031136,2010,13.21,Valor
+Capitão_Poço,dados_capitao_poco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33395891341031136,2022,17.82,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.31425108916941924,1991,6.68,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.31425108916941924,2000,9.68,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.31425108916941924,2010,12.98,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.31425108916941924,2022,17.54,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capitao_poco,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,1991,140.0,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capitao_poco,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2000,140.0,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capitao_poco,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2010,230.0,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_capitao_poco,Grupo 1 — 4 censos,4,tanh,adam,True,18.353422256444418,2022,280.0,Valor
+Capitão_Poço,dados_capitao_poco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14924152488891318,1991,5.7,Valor
+Capitão_Poço,dados_capitao_poco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14924152488891318,2000,4.9,Valor
+Capitão_Poço,dados_capitao_poco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14924152488891318,2010,4.0,Valor
+Capitão_Poço,dados_capitao_poco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_capitao_poco,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.14924152488891318,2022,3.2,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Capitão_Poço,dados_capitao_poco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Capitão_Poço,dados_capitao_poco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Capitão_Poço,dados_capitao_poco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Capitão_Poço,dados_capitao_poco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.8,Valor
+Capitão_Poço,dados_capitao_poco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Capitão_Poço,dados_capitao_poco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.8,Valor
+Capitão_Poço,dados_capitao_poco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Capitão_Poço,dados_capitao_poco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.8,Valor
+Capitão_Poço,dados_capitao_poco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.4,Valor
+Capitão_Poço,dados_capitao_poco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.2,Valor
+Capitão_Poço,dados_capitao_poco__ruas_sem_arvores,Ruas Sem Árvores,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.6,Valor
+Capitão_Poço,dados_capitao_poco__ruas_sem_arvores,Ruas Sem Árvores,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.8,Valor
+Capitão_Poço,dados_capitao_poco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Capitão_Poço,dados_capitao_poco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.6,Valor
+Capitão_Poço,dados_capitao_poco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Capitão_Poço,dados_capitao_poco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.9,Valor
+Capitão_Poço,dados_capitao_poco__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Capitão_Poço,dados_capitao_poco__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena_total,População Indígena Total,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2000,549.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena_total,População Indígena Total,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2010,543.0,Valor
+Capitão_Poço,dados_capitao_poco__populacao_indigena_total,População Indígena Total,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,152.7739953071721,2022,249.0,Valor
+Capitão_Poço,dados_capitao_poco__proporcao_na_populacao_de_capitao_poco,Proporção na população de Capitão Poço,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2745027941422269,2000,1.09,Valor
+Capitão_Poço,dados_capitao_poco__proporcao_na_populacao_de_capitao_poco,Proporção na população de Capitão Poço,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2745027941422269,2010,1.05,Valor
+Capitão_Poço,dados_capitao_poco__proporcao_na_populacao_de_capitao_poco,Proporção na população de Capitão Poço,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2745027941422269,2022,0.47,Valor
+Capitão_Poço,dados_capitao_poco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.8,Valor
+Capitão_Poço,dados_capitao_poco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Capitão_Poço,dados_capitao_poco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Capitão_Poço,dados_capitao_poco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Capitão_Poço,dados_capitao_poco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Capitão_Poço,dados_capitao_poco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Capitão_Poço,dados_capitao_poco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Capitão_Poço,dados_capitao_poco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.79223645432953,2000,16.1,Valor
+Capitão_Poço,dados_capitao_poco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.79223645432953,2010,19.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.79223645432953,2022,24.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237791,2000,58.8,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237791,2010,49.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9761502973237791,2022,39.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343495,2000,8.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343495,2010,11.4,Valor
+Capitão_Poço,dados_capitao_poco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.15139570283343495,2022,14.8,Valor
+Capitão_Poço,dados_capitao_poco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.4,Valor
+Capitão_Poço,dados_capitao_poco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.2,Valor
+Capitão_Poço,dados_capitao_poco__sem_conjuge,Sem cônjuge,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.0,Valor
+Capitão_Poço,dados_capitao_poco__sem_conjuge,Sem cônjuge,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.2,Valor
+Capitão_Poço,dados_capitao_poco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Capitão_Poço,dados_capitao_poco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_capitao_poco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_mulher,Responsável Mulher,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2000,4.1,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_mulher,Responsável Mulher,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2010,3.5,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_mulher,Responsável Mulher,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2022,3.1,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_homem,Responsável Homem,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2000,4.9,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_homem,Responsável Homem,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2010,4.2,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_homem,Responsável Homem,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559393,2022,3.6,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.1,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.5,Valor
+Capitão_Poço,dados_capitao_poco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.0,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326248,2000,12.8,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326248,2010,17.2,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.05971530977326248,2022,22.4,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669433,2000,15.8,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669433,2010,19.8,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669433,2022,24.2,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.190862159460489,2000,50.2,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.190862159460489,2010,34.8,Valor
+Capitão_Poço,dados_capitao_poco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_capitao_poco,Grupo 2 — 3 censos,3,relu,adam,True,4.190862159460489,2022,22.8,Valor
