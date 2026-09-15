@@ -194,6 +194,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_viseu_tratados.csv",
     },
+    {
+        "nome":    "Dom Eliseu",
+        "pasta":   "data",
+        "arquivo": "indicadores_dom_eliseu_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
