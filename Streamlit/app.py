@@ -199,6 +199,31 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_dom_eliseu_tratados.csv",
     },
+    {
+        "nome":    "Capitão Poço",
+        "pasta":   "data",
+        "arquivo": "indicadores_capitão_poço_tratados.csv",
+    },
+    {
+        "nome":    "Xinguara",
+        "pasta":   "data",
+        "arquivo": "indicadores_xinguara_tratados.csv",
+    },
+    {
+        "nome":    "Rondon do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_rondon_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Baião",
+        "pasta":   "data",
+        "arquivo": "indicadores_baião_tratados.csv",
+    },
+    {
+        "nome":    "São Miguel do Guamá",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
