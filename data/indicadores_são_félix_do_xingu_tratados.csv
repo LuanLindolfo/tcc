@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_total,População Total,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,26.15935463781613,1991,23.824,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_total,População Total,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,26.15935463781613,2000,34.622,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_total,População Total,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,26.15935463781613,2010,91.34,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_total,População Total,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,26.15935463781613,2022,65.418,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_urbana,População Urbana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,17.11882684428366,2000,14.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_urbana,População Urbana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,17.11882684428366,2010,42.81,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_urbana,População Urbana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,17.11882684428366,2022,38.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_rural,População Rural,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,16.862194978126826,2000,19.802,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_rural,População Rural,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,16.862194978126826,2010,48.53,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_rural,População Rural,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,16.862194978126826,2022,26.998,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.84,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_mulheres,População de Mulheres,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,14.017745719252593,2000,16.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_mulheres,População de Mulheres,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,14.017745719252593,2010,43.12,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_mulheres,População de Mulheres,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,14.017745719252593,2022,31.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_homens,População de Homens,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,15.115554630248987,2000,18.412,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_homens,População de Homens,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,15.115554630248987,2010,48.22,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_de_homens,População de Homens,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,15.115554630248987,2022,33.998,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8838720606440944,2000,113.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8838720606440944,2010,111.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8838720606440944,2022,108.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idade_mediana,Idade Mediana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2000,21.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idade_mediana,Idade Mediana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2010,23.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idade_mediana,Idade Mediana,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2022,28.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.518523388471412,2000,4.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.518523388471412,2010,7.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.518523388471412,2022,18.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_parda,População Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,22.292578649678422,2000,25.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_parda,População Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,22.292578649678422,2010,68.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_parda,População Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,22.292578649678422,2022,50.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_branca,População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,4.964108055995348,2000,5.41,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_branca,População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,4.964108055995348,2010,14.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_branca,População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,4.964108055995348,2022,9.41,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_preta,População Preta,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5811826691420139,2000,2.14,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_preta,População Preta,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5811826691420139,2010,5.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_preta,População Preta,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5811826691420139,2022,3.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_amarela,População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,63.81806906110321,2000,80.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_amarela,População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,63.81806906110321,2010,180.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_amarela,População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,63.81806906110321,2022,90.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena,População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2000,1.172,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena,População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2010,2.71,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena,População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2022,1.888,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,136.61541643292387,2000,168.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,136.61541643292387,2010,392.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,136.61541643292387,2022,840.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791997567034023,2000,94.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791997567034023,2010,94.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1791997567034023,2022,91.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__2_trabalhos,2 trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785795,2000,5.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__2_trabalhos,2 trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785795,2010,4.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__2_trabalhos,2 trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,1.7627600269785795,2022,7.9,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26955026441142804,2000,0.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26955026441142804,2010,0.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26955026441142804,2022,0.9,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado,Setor privado,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,7.372157108548774,2000,5.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado,Setor privado,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,7.372157108548774,2010,18.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado,Setor privado,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,7.372157108548774,2022,15.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__conta_propria,Conta própria,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,5.920662248496956,2000,6.41,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__conta_propria,Conta própria,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,5.920662248496956,2010,16.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__conta_propria,Conta própria,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,5.920662248496956,2022,13.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico,Setor público,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,1.019160632616636,2000,1.24,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico,Setor público,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,1.019160632616636,2010,3.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico,Setor público,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,1.019160632616636,2022,4.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalhador_domestico,Trabalhador doméstico,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,395.59357885765854,2000,720.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalhador_domestico,Trabalhador doméstico,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,395.59357885765854,2010,1.84,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalhador_domestico,Trabalhador doméstico,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,395.59357885765854,2022,1.58,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__empregador,Empregador,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,263.25466212956314,2000,480.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__empregador,Empregador,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,263.25466212956314,2010,1.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__empregador,Empregador,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,263.25466212956314,2022,1.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3273319206242675,2000,2.84,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3273319206242675,2010,3.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,1.3273319206242675,2022,1.12,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,80.38095764579072,2000,140.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,80.38095764579072,2010,420.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,80.38095764579072,2022,640.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.255703917587003,2000,2.12,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.255703917587003,2010,8.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.255703917587003,2022,8.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2479129860813973,2000,3.7,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2479129860813973,2010,10.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2479129860813973,2022,6.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,57.85820688290824,2000,80.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,57.85820688290824,2010,280.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,57.85820688290824,2022,420.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.9706507197812259,2000,1.16,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.9706507197812259,2010,3.54,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.9706507197812259,2022,4.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,39.52620843771501,2000,80.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,39.52620843771501,2010,240.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,39.52620843771501,2022,380.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,351.5484904914472,2000,640.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,351.5484904914472,2010,1.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,351.5484904914472,2022,1.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7597952555186378,1991,62.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7597952555186378,2000,72.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7597952555186378,2010,82.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.7597952555186378,2022,88.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,adam,True,3.6859533005448193,2000,84.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,adam,True,3.6859533005448193,2010,92.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,adam,True,3.6859533005448193,2022,95.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,2.0722056717464796,2000,24.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,2.0722056717464796,2010,34.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,2.0722056717464796,2022,48.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2000,78.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2010,89.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2022,93.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_com_superior_completo,População com Superior Completo,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,132.73690220329698,2000,240.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_com_superior_completo,População com Superior Completo,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,132.73690220329698,2010,1.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_com_superior_completo,População com Superior Completo,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,132.73690220329698,2022,3.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322846,1991,2.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322846,2000,3.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322846,2010,5.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.26370330892322846,2022,7.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3057726084727457,1991,2.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3057726084727457,2000,4.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3057726084727457,2010,6.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3057726084727457,2022,7.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,1991,2.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2000,3.5,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2010,5.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,adam,True,0.2044237065366037,2022,7.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008439764527873669,1991,0.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008439764527873669,2000,0.348,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008439764527873669,2010,0.512,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2000,78.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2010,89.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.3950951442113535,2022,93.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.302041637139292,2000,54.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.302041637139292,2010,68.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.302041637139292,2022,75.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,2.0532272946613297,2000,15.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,2.0532272946613297,2010,21.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,2.0532272946613297,2022,23.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_amarela,Média: População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.3343613461287302,2000,5.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_amarela,Média: População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.3343613461287302,2010,6.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_amarela,Média: População Amarela,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.3343613461287302,2022,8.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_branca,Média: População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2000,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_branca,Média: População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2010,6.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_branca,Média: População Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362888,2022,8.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720155,2000,3.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720155,2010,5.5,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720155,2022,7.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_indigena,Média: População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.21269158390690812,2000,2.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_indigena,Média: População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.21269158390690812,2010,3.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_populacao_indigena,Média: População Indígena,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.21269158390690812,2022,5.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_residente_em_favelas,População Residente em Favelas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.84,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_residente_em_favelas,População Residente em Favelas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.21,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,480.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.18,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idade_mediana_2,Idade Mediana,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__idade_mediana_2,Idade Mediana,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,106.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,103.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_parda_2,População Parda,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.48,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_parda_2,População Parda,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_branca_2,População Branca,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,180.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_branca_2,População Branca,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,380.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_preta_2,População Preta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,140.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_preta_2,População Preta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,280.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_amarela_2,População Amarela,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_amarela_2,População Amarela,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena_2,População Indígena,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena_2,População Indígena,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,120.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_coleta_de_lixo,Com Coleta de Lixo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_coleta_de_lixo,Com Coleta de Lixo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.9,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos,Casais com filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2000,64.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos,Casais com filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2010,55.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos,Casais com filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.610091930923287,2022,45.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_sem_filhos,Casais sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2000,7.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_sem_filhos,Casais sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2010,9.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_sem_filhos,Casais sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.9746752405247502,2022,14.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2000,16.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2010,19.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2022,22.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031271,2000,3.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031271,2010,3.9,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,0.08704586532031271,2022,4.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2000,7.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2010,7.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.33525751081263877,2022,7.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365039517686478,2000,3.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365039517686478,2010,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365039517686478,2022,4.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2000,0.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2010,1.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340215,2022,1.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (São Félix do Xingu),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (São Félix do Xingu),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_em_outro_municipio,Trabalha em outro município,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__trabalha_em_outro_municipio,Trabalha em outro município,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__motocicleta,Motocicleta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__motocicleta,Motocicleta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__automovel_carro_caminhonete_tracao,Automóvel (Carro / Caminhonete / Tração),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__automovel_carro_caminhonete_tracao,Automóvel (Carro / Caminhonete / Tração),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__a_pe,A pé,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__a_pe,A pé,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__bicicleta,Bicicleta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__bicicleta,Bicicleta,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,49.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__mais_de_1_hora_distancias_rurais_extensas,Mais de 1 hora (Distâncias rurais extensas),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__mais_de_1_hora_distancias_rurais_extensas,Mais de 1 hora (Distâncias rurais extensas),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estuda_no_proprio_municipio_sao_felix_do_xing,Estuda no próprio município (São Félix do Xingu),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estuda_no_proprio_municipio_sao_felix_do_xing,Estuda no próprio município (São Félix do Xingu),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estuda_em_outro_municipio,Estuda em outro município,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estuda_em_outro_municipio,Estuda em outro município,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5330485372626406,1991,4.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5330485372626406,2000,7.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5330485372626406,2010,21.42,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5330485372626406,2022,19.82,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5211369127306593,1991,4.68,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5211369127306593,2000,7.64,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5211369127306593,2010,21.18,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,tanh,sgd,True,3.5211369127306593,2022,19.58,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,adam,True,14.782136451690981,1991,140.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,adam,True,14.782136451690981,2000,180.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,adam,True,14.782136451690981,2010,240.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,logistic,adam,True,14.782136451690981,2022,240.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,sgd,True,0.2315620072233866,1991,5.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,sgd,True,0.2315620072233866,2000,4.5,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,sgd,True,0.2315620072233866,2010,4.3,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_felix_do_xingu,Grupo 1 — 4 censos,4,identity,sgd,True,0.2315620072233866,2022,3.3,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_sem_arvores,Ruas Sem Árvores,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ruas_sem_arvores,Ruas Sem Árvores,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ponto_de_onibus_proximo,Ponto de Ônibus próximo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__ponto_de_onibus_proximo,Ponto de Ônibus próximo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena_total,População Indígena Total,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2000,1.172,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena_total,População Indígena Total,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2010,2.71,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__populacao_indigena_total,População Indígena Total,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7901694880308562,2022,1.888,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__proporcao_na_populacao_de_sao_felix_do_xingu,Proporção na população de São Félix do Xingu,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,0.17942349253879009,2000,3.39,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__proporcao_na_populacao_de_sao_felix_do_xingu,Proporção na população de São Félix do Xingu,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,0.17942349253879009,2010,2.97,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__proporcao_na_populacao_de_sao_felix_do_xingu,Proporção na população de São Félix do Xingu,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,tanh,adam,True,0.17942349253879009,2022,2.89,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678063,2000,14.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678063,2010,17.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.7617202280678063,2022,22.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.043821281156063,2000,61.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.043821281156063,2010,52.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.043821281156063,2022,43.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2000,8.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2010,11.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0001807635803281471,2022,14.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.0,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__sem_conjuge,Sem cônjuge,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__sem_conjuge,Sem cônjuge,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.9,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sao_felix_do_xingu,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_mulher,Responsável Mulher,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622549,2000,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_mulher,Responsável Mulher,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622549,2010,3.7,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_mulher,Responsável Mulher,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622549,2022,3.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_homem,Responsável Homem,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.23537076757856687,2000,4.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_homem,Responsável Homem,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.23537076757856687,2010,4.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_homem,Responsável Homem,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.23537076757856687,2022,3.5,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.15746125937436398,2000,4.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.15746125937436398,2010,3.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.15746125937436398,2022,3.1,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.4879961916374634,2000,12.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.4879961916374634,2010,16.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,adam,True,0.4879961916374634,2022,21.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2000,15.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2010,19.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2022,24.2,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.469932785889154,2000,52.8,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.469932785889154,2010,36.4,Valor
+São_Félix_do_Xingu,dados_sao_felix_do_xingu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_felix_do_xingu,Grupo 2 — 3 censos,3,relu,adam,True,4.469932785889154,2022,23.8,Valor
