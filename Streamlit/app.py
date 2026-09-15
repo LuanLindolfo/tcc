@@ -224,9 +224,60 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
     },
+    {
         "nome":    "Óbidos",
         "pasta":   "data",
         "arquivo": "indicadores_óbidos_tratados.csv",
+    },
+    {
+        "nome":    "Juruti",
+        "pasta":   "data",
+        "arquivo": "indicadores_juruti_tratados.csv",
+    },
+    {
+        "nome":    "Vigia",
+        "pasta":   "data",
+        "arquivo": "indicadores_vigia_tratados.csv",
+    },
+    {
+        "nome":    "Itupiranga",
+        "pasta":   "data",
+        "arquivo": "indicadores_itupiranga_tratados.csv",
+    },
+    {
+        "nome":    "Muaná",
+        "pasta":   "data",
+        "arquivo": "indicadores_muaná_tratados.csv",
+    },
+    {
+        "nome":    "Salinópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_salinópolis_tratados.csv",
+    },
+    {
+        "nome":    "Augusto Corrêa",
+        "pasta":   "data",
+        "arquivo": "indicadores_augusto_corrêa_tratados.csv",
+    },
+    {
+        "nome":    "Conceição do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_conceição_do_araguaia_tratados.csv",
+    },
+    {
+        "nome":    "Breu Branco",
+        "pasta":   "data",
+        "arquivo": "indicadores_breu_branco_tratados.csv",
+    },
+    {
+        "nome":    "Uruará",
+        "pasta":   "data",
+        "arquivo": "indicadores_uruará_tratados.csv",
+    },
+    {
+        "nome":    "Curuçá",
+        "pasta":   "data",
+        "arquivo": "indicadores_curuçá_tratados.csv",
     },
 ]
 
