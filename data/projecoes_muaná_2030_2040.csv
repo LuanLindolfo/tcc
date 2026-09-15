@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.20041577852294334,2030,7.015227878456926
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.20041577852294334,2040,7.331062360751755
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,relu,lbfgs,True,10.355738393680067,2030,282.43613401747757
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,relu,lbfgs,True,10.355738393680067,2040,333.80864211825923
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3514112021721999,2030,11.600014194349722
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3514112021721999,2040,12.238555500627307
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.1902696032792106,2030,6.615890782154018
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.1902696032792106,2040,6.925713774201494
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.22598977670105952,2030,7.417447960923955
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.22598977670105952,2040,7.739568877068574
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.15258151827807376,2030,3.066099970833177
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,0.15258151827807376,2040,2.8427050128003972
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,tanh,lbfgs,True,1.1465608425359513,2030,35.976248233676834
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,tanh,lbfgs,True,1.1465608425359513,2040,35.97533680921768
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,2.26020085273926,2030,84.60512816094514
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,logistic,lbfgs,True,2.26020085273926,2040,86.04280691064719
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,relu,adam,True,0.39779029920631426,2030,12.31769274619857
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,relu,adam,True,0.39779029920631426,2040,14.006367563790587
+Muaná,dados_muana__2_trabalhos,2 trabalhos,dados_muana,Grupo 2 — 3 censos,relu,sgd,True,1.6863093597727923,2030,8.676845732845829
+Muaná,dados_muana__2_trabalhos,2 trabalhos,dados_muana,Grupo 2 — 3 censos,relu,sgd,True,1.6863093597727923,2040,10.431499379853694
+Muaná,dados_muana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2030,0.8532083159839907
+Muaná,dados_muana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,0.161033199897907,2040,0.8742845123278303
+Muaná,dados_muana__apenas_1_trabalho,Apenas 1 trabalho,dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,1.7746055398062783,2030,89.19896620357883
+Muaná,dados_muana__apenas_1_trabalho,Apenas 1 trabalho,dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,1.7746055398062783,2040,85.8797274389613
+Muaná,dados_muana__casais_com_filhos,Casais com filhos,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,1.7082670301247613,2030,40.56891510668284
+Muaná,dados_muana__casais_com_filhos,Casais com filhos,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,1.7082670301247613,2040,31.41506081991757
+Muaná,dados_muana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,8.534795624253139
+Muaná,dados_muana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,8.533962067246486
+Muaná,dados_muana__casais_sem_filhos,Casais sem filhos,dados_muana,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683966,2030,13.770429324641071
+Muaná,dados_muana__casais_sem_filhos,Casais sem filhos,dados_muana,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683966,2040,16.508623526574432
+Muaná,dados_muana__conta_propria,Conta própria,dados_muana,Grupo 2 — 3 censos,relu,adam,True,1.0158798353982483,2030,12.342622617671395
+Muaná,dados_muana__conta_propria,Conta própria,dados_muana,Grupo 2 — 3 censos,relu,adam,True,1.0158798353982483,2040,13.58648335836342
+Muaná,dados_muana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.106766125063821,2030,24.872856241983783
+Muaná,dados_muana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.106766125063821,2040,29.238300727724408
+Muaná,dados_muana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2030,26.292778098789643
+Muaná,dados_muana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669427,2040,30.091034619695833
+Muaná,dados_muana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,3.813101033004319,2030,14.380674020686929
+Muaná,dados_muana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,3.813101033004319,2040,1.7157688145784462
+Muaná,dados_muana__empregador,Empregador,dados_muana,Grupo 2 — 3 censos,identity,adam,True,36.56678580405537,2030,658.7517475752031
+Muaná,dados_muana__empregador,Empregador,dados_muana,Grupo 2 — 3 censos,identity,adam,True,36.56678580405537,2040,840.475858583854
+Muaná,dados_muana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,5.404261258966012,2030,93.80048319656666
+Muaná,dados_muana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,5.404261258966012,2040,96.76450219303909
+Muaná,dados_muana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,4.039732281965563,2030,73.0482364734973
+Muaná,dados_muana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,4.039732281965563,2040,78.73627661633172
+Muaná,dados_muana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,1.5668255757656275,2030,21.438062959093344
+Muaná,dados_muana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,1.5668255757656275,2040,23.340680157665673
+Muaná,dados_muana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.008088105199366266,2030,0.7769625777039761
+Muaná,dados_muana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.008088105199366266,2040,0.9402120546688004
+Muaná,dados_muana__idade_mediana,Idade Mediana,dados_muana,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348898,2030,27.719480281138217
+Muaná,dados_muana__idade_mediana,Idade Mediana,dados_muana,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348898,2040,31.35998066656154
+Muaná,dados_muana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_muana,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2030,226.89825197485774
+Muaná,dados_muana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_muana,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2040,290.6842090145694
+Muaná,dados_muana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.15252447079303919,2030,24.047096283455712
+Muaná,dados_muana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.15252447079303919,2040,27.140545373314172
+Muaná,dados_muana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,0.36605720782792844,2030,4.569697732396869
+Muaná,dados_muana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,0.36605720782792844,2040,4.568655978350451
+Muaná,dados_muana__media_populacao_amarela,Média: População Amarela,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385055,2030,8.502900110137343
+Muaná,dados_muana__media_populacao_amarela,Média: População Amarela,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385055,2040,10.035700433100988
+Muaná,dados_muana__media_populacao_branca,Média: População Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2030,7.731184539481223
+Muaná,dados_muana__media_populacao_branca,Média: População Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2040,8.627713653603358
+Muaná,dados_muana__media_populacao_indigena,Média: População Indígena,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.22788383990025896,2030,6.22467978538238
+Muaná,dados_muana__media_populacao_indigena,Média: População Indígena,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.22788383990025896,2040,7.579345743952687
+Muaná,dados_muana__media_populacao_preta_parda,Média: População Preta / Parda,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923222,2030,7.729529143915222
+Muaná,dados_muana__media_populacao_preta_parda,Média: População Preta / Parda,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923222,2040,9.396584563055377
+Muaná,dados_muana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,433.79956806508534,2030,996.6085594025387
+Muaná,dados_muana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,433.79956806508534,2040,1042.7946966314216
+Muaná,dados_muana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340259,2030,3.8999146094353017
+Muaná,dados_muana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340259,2040,4.261158865054051
+Muaná,dados_muana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340237,2030,2.2999146094353016
+Muaná,dados_muana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340237,2040,2.66115886505405
+Muaná,dados_muana__populacao_amarela,População Amarela,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,19.48741383070119,2030,60.75073080733084
+Muaná,dados_muana__populacao_amarela,População Amarela,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,19.48741383070119,2040,60.67210080977407
+Muaná,dados_muana__populacao_branca,População Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.3985578437814599,2030,3.1243671147348273
+Muaná,dados_muana__populacao_branca,População Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.3985578437814599,2040,2.783409978206786
+Muaná,dados_muana__populacao_indigena,População Indígena,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,121.21322508665786,2030,123.75104495560669
+Muaná,dados_muana__populacao_indigena,População Indígena,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,121.21322508665786,2040,123.42233365239417
+Muaná,dados_muana__populacao_indigena_total,População Indígena Total,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,121.21322508665786,2030,123.75104495560669
+Muaná,dados_muana__populacao_indigena_total,População Indígena Total,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,121.21322508665786,2040,123.42233365239417
+Muaná,dados_muana__populacao_parda,População Parda,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,3.3197426998042894,2030,31.392007137830944
+Muaná,dados_muana__populacao_parda,População Parda,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,3.3197426998042894,2040,31.893553280707145
+Muaná,dados_muana__populacao_preta,População Preta,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.10761995764395953,2030,2.4710147393990876
+Muaná,dados_muana__populacao_preta,População Preta,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.10761995764395953,2040,2.538431999068431
+Muaná,dados_muana__populacao_rural,População Rural,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.6461841132143569,2030,22.20527253609449
+Muaná,dados_muana__populacao_rural,População Rural,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.6461841132143569,2040,22.45792964776774
+Muaná,dados_muana__populacao_urbana,População Urbana,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,0.8626000448083525,2030,14.842904168077412
+Muaná,dados_muana__populacao_urbana,População Urbana,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,0.8626000448083525,2040,14.986012197753498
+Muaná,dados_muana__populacao_com_superior_completo,População com Superior Completo,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,322.01586723925703,2030,202.22442794789993
+Muaná,dados_muana__populacao_com_superior_completo,População com Superior Completo,dados_muana,Grupo 2 — 3 censos,logistic,sgd,True,322.01586723925703,2040,201.17245543421504
+Muaná,dados_muana__populacao_de_homens,População de Homens,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.2734216756506953,2030,19.042333531506223
+Muaná,dados_muana__populacao_de_homens,População de Homens,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.2734216756506953,2040,19.24392237233867
+Muaná,dados_muana__populacao_de_mulheres,População de Mulheres,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.2353624823720175,2030,18.00619565516749
+Muaná,dados_muana__populacao_de_mulheres,População de Mulheres,dados_muana,Grupo 2 — 3 censos,logistic,adam,True,1.2353624823720175,2040,18.200563476899617
+Muaná,dados_muana__proporcao_na_populacao_de_muana,Proporção na população de Muaná,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,1.8864274621969288,2030,0.27479058924226374
+Muaná,dados_muana__proporcao_na_populacao_de_muana,Proporção na população de Muaná,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,1.8864274621969288,2040,0.36327035299326305
+Muaná,dados_muana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,0.26561026772778956,2030,105.75086248113811
+Muaná,dados_muana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,0.26561026772778956,2040,105.754947429168
+Muaná,dados_muana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,129.60953214335265,2030,744.9672557426131
+Muaná,dados_muana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,129.60953214335265,2040,945.7993559883619
+Muaná,dados_muana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.45756750466152835,2030,33.941542564694025
+Muaná,dados_muana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_muana,Grupo 2 — 3 censos,identity,lbfgs,True,0.45756750466152835,2040,25.221777987714482
+Muaná,dados_muana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.22748869707520777,2030,16.419583574092233
+Muaná,dados_muana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.22748869707520777,2040,19.268275964771878
+Muaná,dados_muana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2030,26.124918878834386
+Muaná,dados_muana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2040,29.939944657139357
+Muaná,dados_muana__responsavel_homem,Responsável Homem,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281076,2030,3.5158674027562706
+Muaná,dados_muana__responsavel_homem,Responsável Homem,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281076,2040,3.127131508271336
+Muaná,dados_muana__responsavel_mulher,Responsável Mulher,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.976471460335164
+Muaná,dados_muana__responsavel_mulher,Responsável Mulher,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.666764603881893
+Muaná,dados_muana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.976471460335164
+Muaná,dados_muana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_muana,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.666764603881893
+Muaná,dados_muana__setor_privado,Setor privado,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.1519225599335053,2030,4.569786523588252
+Muaná,dados_muana__setor_privado,Setor privado,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.1519225599335053,2040,5.472897162635125
+Muaná,dados_muana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,231.2140075793046,2030,-0.9487881618226766
+Muaná,dados_muana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,231.2140075793046,2040,11.238919300711956
+Muaná,dados_muana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.060795366828405806,2030,2.2002621740078783
+Muaná,dados_muana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,adam,True,0.060795366828405806,2040,2.461913071342592
+Muaná,dados_muana__setor_publico,Setor público,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,539.641895382391,2030,-3.628690338639103
+Muaná,dados_muana__setor_publico,Setor público,dados_muana,Grupo 2 — 3 censos,tanh,adam,True,539.641895382391,2040,24.820346629933965
+Muaná,dados_muana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,sgd,True,6.074161646611382,2030,213.7948853504018
+Muaná,dados_muana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,sgd,True,6.074161646611382,2040,280.55641827966696
+Muaná,dados_muana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,528.6223895509308,2030,-3.6642229177077184
+Muaná,dados_muana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_muana,Grupo 2 — 3 censos,tanh,adam,True,528.6223895509308,2040,24.204242713171027
+Muaná,dados_muana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_muana,Grupo 2 — 3 censos,identity,adam,True,2.1630957791565493,2030,45.281980115418285
+Muaná,dados_muana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_muana,Grupo 2 — 3 censos,identity,adam,True,2.1630957791565493,2040,54.3741464452381
+Muaná,dados_muana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,4.1064545893226665,2030,96.3470016238278
+Muaná,dados_muana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,4.1064545893226665,2040,98.79831291857221
+Muaná,dados_muana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,5.404261258966012,2030,93.80048319656666
+Muaná,dados_muana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,relu,adam,True,5.404261258966012,2040,96.76450219303909
+Muaná,dados_muana__trabalhador_domestico,Trabalhador doméstico,dados_muana,Grupo 2 — 3 censos,identity,adam,True,100.34791812112432,2030,1235.9169116250814
+Muaná,dados_muana__trabalhador_domestico,Trabalhador doméstico,dados_muana,Grupo 2 — 3 censos,identity,adam,True,100.34791812112432,2040,1533.2063805376015
+Muaná,dados_muana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,adam,True,12.186733363434834,2030,179.6130677554185
+Muaná,dados_muana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_muana,Grupo 2 — 3 censos,identity,adam,True,12.186733363434834,2040,231.88852822093747
+Muaná,dados_muana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_muana,Grupo 2 — 3 censos,relu,adam,True,90.88104859442768,2030,944.860186060519
+Muaná,dados_muana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_muana,Grupo 2 — 3 censos,relu,adam,True,90.88104859442768,2040,1073.150217153195
+Muaná,dados_muana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,4.195025821734909,2030,24.99019868699746
+Muaná,dados_muana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_muana,Grupo 2 — 3 censos,relu,lbfgs,True,4.195025821734909,2040,31.64346638855216
+Muaná,dados_muana__a_pe,A pé,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.731658042288082
+Muaná,dados_muana__a_pe,A pé,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.57053259443353
+Muaná,dados_muana__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.376947361294675
+Muaná,dados_muana__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.93048714189877
+Muaná,dados_muana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.46582902114403
+Muaná,dados_muana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.38526629721676
+Muaná,dados_muana__automovel_onibus,Automóvel / Ônibus,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.313072921726558
+Muaná,dados_muana__automovel_onibus,Automóvel / Ônibus,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.168057452459976
+Muaná,dados_muana__bicicleta,Bicicleta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.316612320236755
+Muaná,dados_muana__bicicleta,Bicicleta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.5112113083265903
+Muaná,dados_muana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.84070893424435
+Muaná,dados_muana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.982029930241026
+Muaná,dados_muana__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.362497137121935
+Muaná,dados_muana__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.59545901767432
+Muaná,dados_muana__com_coleta_de_lixo,Com Coleta de Lixo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Muaná,dados_muana__com_coleta_de_lixo,Com Coleta de Lixo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Muaná,dados_muana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6420298033812932
+Muaná,dados_muana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6935571514572215
+Muaná,dados_muana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.582441341380786
+Muaná,dados_muana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.69647760554335
+Muaná,dados_muana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.392774887913625
+Muaná,dados_muana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.73248593788776
+Muaná,dados_muana__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5362384270503462
+Muaná,dados_muana__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9484572116577727
+Muaná,dados_muana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.32465567438845
+Muaná,dados_muana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.45825733205888
+Muaná,dados_muana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.752349897278144
+Muaná,dados_muana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.577835033329485
+Muaná,dados_muana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.415045722051325
+Muaná,dados_muana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.059321286106938
+Muaná,dados_muana__estuda_em_outro_municipio,Estuda em outro município,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.724655674388451
+Muaná,dados_muana__estuda_em_outro_municipio,Estuda em outro município,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.858257332058874
+Muaná,dados_muana__estuda_no_proprio_municipio_muana,Estuda no próprio município (Muaná),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.68965407250496
+Muaná,dados_muana__estuda_no_proprio_municipio_muana,Estuda no próprio município (Muaná),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.69634878055203
+Muaná,dados_muana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.107337978704845
+Muaná,dados_muana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.87840096320882
+Muaná,dados_muana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.504699794556295
+Muaná,dados_muana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.155670066658962
+Muaná,dados_muana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.21743056230207
+Muaná,dados_muana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.69074326994664
+Muaná,dados_muana__idade_mediana_2,Idade Mediana,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.68119213525173
+Muaná,dados_muana__idade_mediana_2,Idade Mediana,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.742286058288865
+Muaná,dados_muana__mais_de_1_hora_deslocamento_fluvial_rodoviari,Mais de 1 hora (Deslocamento fluvial/rodoviário intermunicipal),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.304357640575518
+Muaná,dados_muana__mais_de_1_hora_deslocamento_fluvial_rodoviari,Mais de 1 hora (Deslocamento fluvial/rodoviário intermunicipal),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.92268581748666
+Muaná,dados_muana__motocicleta,Motocicleta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.318920731366745
+Muaná,dados_muana__motocicleta,Motocicleta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.36860084280772
+Muaná,dados_muana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.486831006035615
+Muaná,dados_muana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.322358204157545
+Muaná,dados_muana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Muaná,dados_muana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Muaná,dados_muana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.733370955539492
+Muaná,dados_muana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.103628967032197
+Muaná,dados_muana__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.36823208014366
+Muaná,dados_muana__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,101.68511550692548
+Muaná,dados_muana__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-395.4162139209213
+Muaná,dados_muana__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-919.43805421815
+Muaná,dados_muana__populacao_amarela_2,População Amarela,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.101490169064665
+Muaná,dados_muana__populacao_amarela_2,População Amarela,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.67785757286108
+Muaná,dados_muana__populacao_branca_2,População Branca,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,153.62384270503463
+Muaná,dados_muana__populacao_branca_2,População Branca,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,194.8457211657773
+Muaná,dados_muana__populacao_indigena_2,População Indígena,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.023861128148358
+Muaná,dados_muana__populacao_indigena_2,População Indígena,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.925636958733076
+Muaná,dados_muana__populacao_parda_2,População Parda,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-327.2026217353056
+Muaná,dados_muana__populacao_parda_2,População Parda,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-760.8552484782679
+Muaná,dados_muana__populacao_preta_2,População Preta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,141.52235253596996
+Muaná,dados_muana__populacao_preta_2,População Preta,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,180.1678635929162
+Muaná,dados_muana__populacao_residente_em_favelas,População Residente em Favelas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-395.4162139209213
+Muaná,dados_muana__populacao_residente_em_favelas,População Residente em Favelas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-919.43805421815
+Muaná,dados_muana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5782682304316396
+Muaná,dados_muana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.042014363114994
+Muaná,dados_muana__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.00313319637085
+Muaná,dados_muana__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.1037800444393
+Muaná,dados_muana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4507832990927154
+Muaná,dados_muana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.725945011109827
+Muaná,dados_muana__ruas_sem_arvores,Ruas Sem Árvores,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.877741546824502
+Muaná,dados_muana__ruas_sem_arvores,Ruas Sem Árvores,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.340807538884395
+Muaná,dados_muana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.37683449467622
+Muaná,dados_muana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.8196002408022
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.629013314963972
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.217430562302077
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.380943149545535
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.690743269946637
+Muaná,dados_muana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.60596067625865
+Muaná,dados_muana__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.776947361294674
+Muaná,dados_muana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.91143029144432
+Muaná,dados_muana__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.33048714189877
+Muaná,dados_muana__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8101490169064665
+Muaná,dados_muana__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.067785757286108
+Muaná,dados_muana__sem_conjuge,Sem cônjuge,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.75223525359699
+Muaná,dados_muana__sem_conjuge,Sem cônjuge,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.61678635929162
+Muaná,dados_muana__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.99139758546744
+Muaná,dados_muana__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.86551526612327
+Muaná,dados_muana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,594.4953708201385
+Muaná,dados_muana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,759.3828846631092
+Muaná,dados_muana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.733370955539485
+Muaná,dados_muana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.103628967032186
+Muaná,dados_muana__trabalha_em_outro_municipio_ex_belem_sao_seba,Trabalha em outro município (ex: Belém / São Sebastião da Boa Vista),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.608715281151039
+Muaná,dados_muana__trabalha_em_outro_municipio_ex_belem_sao_seba,Trabalha em outro município (ex: Belém / São Sebastião da Boa Vista),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.845371634973317
+Muaná,dados_muana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Muaná),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.75234989727817
+Muaná,dados_muana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Muaná),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.5778350333295
+Muaná,dados_muana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.495698792733716
+Muaná,dados_muana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.43275763306163
+Muaná,dados_muana__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.687039944891914
+Muaná,dados_muana__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.9428294486366
+Muaná,dados_muana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Muaná,dados_muana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Muaná,dados_muana__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.414563090791223
+Muaná,dados_muana__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.845915025321062
+Muaná,dados_muana__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.10160303568314
+Muaná,dados_muana__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.78874447395767
+Muaná,dados_muana__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.889907416402767
+Muaná,dados_muana__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_muana,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.18765769326218

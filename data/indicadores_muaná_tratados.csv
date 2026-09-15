@@ -1,1 +1,326 @@
-
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,4,tanh,lbfgs,True,1.1465608425359513,1991,23.42,Valor
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,4,tanh,lbfgs,True,1.1465608425359513,2000,28.532,Valor
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,4,tanh,lbfgs,True,1.1465608425359513,2010,34.225,Valor
+Muaná,dados_muana__populacao_total,População Total,dados_muana,Grupo 1 — 4 censos,4,tanh,lbfgs,True,1.1465608425359513,2022,35.836,Valor
+Muaná,dados_muana__populacao_urbana,População Urbana,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,0.8626000448083525,2000,11.82,Valor
+Muaná,dados_muana__populacao_urbana,População Urbana,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,0.8626000448083525,2010,13.82,Valor
+Muaná,dados_muana__populacao_urbana,População Urbana,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,0.8626000448083525,2022,14.416,Valor
+Muaná,dados_muana__populacao_rural,População Rural,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.6461841132143569,2000,16.712,Valor
+Muaná,dados_muana__populacao_rural,População Rural,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.6461841132143569,2010,20.405,Valor
+Muaná,dados_muana__populacao_rural,População Rural,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.6461841132143569,2022,21.42,Valor
+Muaná,dados_muana__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,580.0,Valor
+Muaná,dados_muana__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.64,Valor
+Muaná,dados_muana__populacao_de_mulheres,População de Mulheres,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2353624823720175,2000,13.82,Valor
+Muaná,dados_muana__populacao_de_mulheres,População de Mulheres,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2353624823720175,2010,16.62,Valor
+Muaná,dados_muana__populacao_de_mulheres,População de Mulheres,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2353624823720175,2022,17.41,Valor
+Muaná,dados_muana__populacao_de_homens,População de Homens,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2734216756506953,2000,14.712,Valor
+Muaná,dados_muana__populacao_de_homens,População de Homens,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2734216756506953,2010,17.605,Valor
+Muaná,dados_muana__populacao_de_homens,População de Homens,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,1.2734216756506953,2022,18.426,Valor
+Muaná,dados_muana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.26561026772778956,2000,106.5,Valor
+Muaná,dados_muana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.26561026772778956,2010,105.9,Valor
+Muaná,dados_muana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.26561026772778956,2022,105.8,Valor
+Muaná,dados_muana__idade_mediana,Idade Mediana,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348898,2000,17.0,Valor
+Muaná,dados_muana__idade_mediana,Idade Mediana,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348898,2010,20.0,Valor
+Muaná,dados_muana__idade_mediana,Idade Mediana,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348898,2022,25.0,Valor
+Muaná,dados_muana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.195025821734909,2000,4.8,Valor
+Muaná,dados_muana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.195025821734909,2010,8.1,Valor
+Muaná,dados_muana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.195025821734909,2022,19.4,Valor
+Muaná,dados_muana__populacao_parda,População Parda,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,3.3197426998042894,2000,20.42,Valor
+Muaná,dados_muana__populacao_parda,População Parda,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,3.3197426998042894,2010,27.82,Valor
+Muaná,dados_muana__populacao_parda,População Parda,dados_muana,Grupo 2 — 3 censos,3,logistic,adam,True,3.3197426998042894,2022,29.82,Valor
+Muaná,dados_muana__populacao_branca,População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.3985578437814599,2000,4.82,Valor
+Muaná,dados_muana__populacao_branca,População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.3985578437814599,2010,3.82,Valor
+Muaná,dados_muana__populacao_branca,População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.3985578437814599,2022,3.42,Valor
+Muaná,dados_muana__populacao_preta,População Preta,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.10761995764395953,2000,1.98,Valor
+Muaná,dados_muana__populacao_preta,População Preta,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.10761995764395953,2010,2.28,Valor
+Muaná,dados_muana__populacao_preta,População Preta,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.10761995764395953,2022,2.412,Valor
+Muaná,dados_muana__populacao_amarela,População Amarela,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,19.48741383070119,2000,60.0,Valor
+Muaná,dados_muana__populacao_amarela,População Amarela,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,19.48741383070119,2010,80.0,Valor
+Muaná,dados_muana__populacao_amarela,População Amarela,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,19.48741383070119,2022,42.0,Valor
+Muaná,dados_muana__populacao_indigena,População Indígena,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2000,1.252,Valor
+Muaná,dados_muana__populacao_indigena,População Indígena,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2010,225.0,Valor
+Muaná,dados_muana__populacao_indigena,População Indígena,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2022,142.0,Valor
+Muaná,dados_muana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,129.60953214335265,2000,98.4,Valor
+Muaná,dados_muana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,129.60953214335265,2010,224.8,Valor
+Muaná,dados_muana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,129.60953214335265,2022,580.0,Valor
+Muaná,dados_muana__apenas_1_trabalho,Apenas 1 trabalho,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062783,2000,96.2,Valor
+Muaná,dados_muana__apenas_1_trabalho,Apenas 1 trabalho,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062783,2010,95.8,Valor
+Muaná,dados_muana__apenas_1_trabalho,Apenas 1 trabalho,dados_muana,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.7746055398062783,2022,91.8,Valor
+Muaná,dados_muana__2_trabalhos,2 trabalhos,dados_muana,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727923,2000,3.4,Valor
+Muaná,dados_muana__2_trabalhos,2 trabalhos,dados_muana,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727923,2010,3.8,Valor
+Muaná,dados_muana__2_trabalhos,2 trabalhos,dados_muana,Grupo 2 — 3 censos,3,relu,sgd,True,1.6863093597727923,2022,7.4,Valor
+Muaná,dados_muana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Muaná,dados_muana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Muaná,dados_muana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Muaná,dados_muana__setor_privado,Setor privado,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.1519225599335053,2000,1.82,Valor
+Muaná,dados_muana__setor_privado,Setor privado,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.1519225599335053,2010,2.82,Valor
+Muaná,dados_muana__setor_privado,Setor privado,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.1519225599335053,2022,3.82,Valor
+Muaná,dados_muana__conta_propria,Conta própria,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.0158798353982483,2000,5.42,Valor
+Muaná,dados_muana__conta_propria,Conta própria,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.0158798353982483,2010,8.92,Valor
+Muaná,dados_muana__conta_propria,Conta própria,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.0158798353982483,2022,11.24,Valor
+Muaná,dados_muana__setor_publico,Setor público,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,539.641895382391,2000,980.0,Valor
+Muaná,dados_muana__setor_publico,Setor público,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,539.641895382391,2010,1.84,Valor
+Muaná,dados_muana__setor_publico,Setor público,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,539.641895382391,2022,2.98,Valor
+Muaná,dados_muana__trabalhador_domestico,Trabalhador doméstico,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,100.34791812112432,2000,320.0,Valor
+Muaná,dados_muana__trabalhador_domestico,Trabalhador doméstico,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,100.34791812112432,2010,680.0,Valor
+Muaná,dados_muana__trabalhador_domestico,Trabalhador doméstico,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,100.34791812112432,2022,980.0,Valor
+Muaná,dados_muana__empregador,Empregador,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2000,120.0,Valor
+Muaná,dados_muana__empregador,Empregador,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2010,280.0,Valor
+Muaná,dados_muana__empregador,Empregador,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,36.56678580405537,2022,520.0,Valor
+Muaná,dados_muana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,433.79956806508534,2000,2.84,Valor
+Muaná,dados_muana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,433.79956806508534,2010,1.92,Valor
+Muaná,dados_muana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,433.79956806508534,2022,880.0,Valor
+Muaná,dados_muana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2000,40.0,Valor
+Muaná,dados_muana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2010,90.0,Valor
+Muaná,dados_muana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2022,180.0,Valor
+Muaná,dados_muana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2000,420.0,Valor
+Muaná,dados_muana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2010,1.12,Valor
+Muaná,dados_muana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,231.2140075793046,2022,1.84,Valor
+Muaná,dados_muana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.060795366828405806,2000,1.4,Valor
+Muaná,dados_muana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.060795366828405806,2010,1.7,Valor
+Muaná,dados_muana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.060795366828405806,2022,1.98,Valor
+Muaná,dados_muana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,sgd,True,6.074161646611382,2000,20.0,Valor
+Muaná,dados_muana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,sgd,True,6.074161646611382,2010,80.0,Valor
+Muaná,dados_muana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,sgd,True,6.074161646611382,2022,160.0,Valor
+Muaná,dados_muana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,528.6223895509308,2000,960.0,Valor
+Muaná,dados_muana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,528.6223895509308,2010,1.76,Valor
+Muaná,dados_muana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,528.6223895509308,2022,2.82,Valor
+Muaná,dados_muana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,12.186733363434834,2000,25.0,Valor
+Muaná,dados_muana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,12.186733363434834,2010,70.0,Valor
+Muaná,dados_muana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,12.186733363434834,2022,140.0,Valor
+Muaná,dados_muana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,90.88104859442768,2000,295.0,Valor
+Muaná,dados_muana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,90.88104859442768,2010,610.0,Valor
+Muaná,dados_muana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,90.88104859442768,2022,840.0,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.26020085273926,1991,48.2,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.26020085273926,2000,61.4,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.26020085273926,2010,74.8,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.26020085273926,2022,82.4,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.1064545893226665,2000,78.2,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.1064545893226665,2010,89.4,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.1064545893226665,2022,94.2,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,2.1630957791565493,2000,18.4,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,2.1630957791565493,2010,26.2,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,2.1630957791565493,2022,38.4,Valor
+Muaná,dados_muana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2000,71.2,Valor
+Muaná,dados_muana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2010,85.4,Valor
+Muaná,dados_muana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2022,91.2,Valor
+Muaná,dados_muana__populacao_com_superior_completo,População com Superior Completo,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,322.01586723925703,2000,80.0,Valor
+Muaná,dados_muana__populacao_com_superior_completo,População com Superior Completo,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,322.01586723925703,2010,520.0,Valor
+Muaná,dados_muana__populacao_com_superior_completo,População com Superior Completo,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,322.01586723925703,2022,1.84,Valor
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20041577852294334,1991,1.6,Valor
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20041577852294334,2000,2.8,Valor
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20041577852294334,2010,4.8,Valor
+Muaná,dados_muana__anos_de_estudo_media,Anos de Estudo (Média),dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20041577852294334,2022,6.5,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.22598977670105952,1991,1.8,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.22598977670105952,2000,3.1,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.22598977670105952,2010,5.2,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.22598977670105952,2022,6.9,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.1902696032792106,1991,1.4,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.1902696032792106,2000,2.5,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.1902696032792106,2010,4.4,Valor
+Muaná,dados_muana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.1902696032792106,2022,6.1,Valor
+Muaná,dados_muana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008088105199366266,1991,0.142,Valor
+Muaná,dados_muana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008088105199366266,2000,0.284,Valor
+Muaná,dados_muana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.008088105199366266,2010,0.452,Valor
+Muaná,dados_muana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2000,71.2,Valor
+Muaná,dados_muana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2010,85.4,Valor
+Muaná,dados_muana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,5.404261258966012,2022,91.2,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.039732281965563,2000,44.2,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.039732281965563,2010,58.2,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,4.039732281965563,2022,68.4,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.5668255757656275,2000,10.8,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.5668255757656275,2010,16.2,Valor
+Muaná,dados_muana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,1.5668255757656275,2022,19.8,Valor
+Muaná,dados_muana__media_populacao_amarela,Média: População Amarela,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.42564659636385055,2000,3.8,Valor
+Muaná,dados_muana__media_populacao_amarela,Média: População Amarela,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.42564659636385055,2010,5.6,Valor
+Muaná,dados_muana__media_populacao_amarela,Média: População Amarela,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.42564659636385055,2022,7.2,Valor
+Muaná,dados_muana__media_populacao_branca,Média: População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2000,3.4,Valor
+Muaná,dados_muana__media_populacao_branca,Média: População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2010,5.4,Valor
+Muaná,dados_muana__media_populacao_branca,Média: População Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.5734109689100761,2022,7.0,Valor
+Muaná,dados_muana__media_populacao_preta_parda,Média: População Preta / Parda,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2000,2.6,Valor
+Muaná,dados_muana__media_populacao_preta_parda,Média: População Preta / Parda,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2010,4.6,Valor
+Muaná,dados_muana__media_populacao_preta_parda,Média: População Preta / Parda,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2022,6.3,Valor
+Muaná,dados_muana__media_populacao_indigena,Média: População Indígena,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22788383990025896,2000,2.1,Valor
+Muaná,dados_muana__media_populacao_indigena,Média: População Indígena,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22788383990025896,2010,3.6,Valor
+Muaná,dados_muana__media_populacao_indigena,Média: População Indígena,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22788383990025896,2022,5.1,Valor
+Muaná,dados_muana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Muaná,dados_muana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Muaná,dados_muana__populacao_residente_em_favelas,População Residente em Favelas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,580.0,Valor
+Muaná,dados_muana__populacao_residente_em_favelas,População Residente em Favelas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.64,Valor
+Muaná,dados_muana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,140.0,Valor
+Muaná,dados_muana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,460.0,Valor
+Muaná,dados_muana__idade_mediana_2,Idade Mediana,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.0,Valor
+Muaná,dados_muana__idade_mediana_2,Idade Mediana,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.0,Valor
+Muaná,dados_muana__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Muaná,dados_muana__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Muaná,dados_muana__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,103.4,Valor
+Muaná,dados_muana__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,100.2,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.8,Valor
+Muaná,dados_muana__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Muaná,dados_muana__populacao_parda_2,População Parda,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,480.0,Valor
+Muaná,dados_muana__populacao_parda_2,População Parda,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.38,Valor
+Muaná,dados_muana__populacao_branca_2,População Branca,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,40.0,Valor
+Muaná,dados_muana__populacao_branca_2,População Branca,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,120.0,Valor
+Muaná,dados_muana__populacao_preta_2,População Preta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.0,Valor
+Muaná,dados_muana__populacao_preta_2,População Preta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,110.0,Valor
+Muaná,dados_muana__populacao_amarela_2,População Amarela,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Muaná,dados_muana__populacao_amarela_2,População Amarela,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.0,Valor
+Muaná,dados_muana__populacao_indigena_2,População Indígena,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Muaná,dados_muana__populacao_indigena_2,População Indígena,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+Muaná,dados_muana__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Muaná,dados_muana__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Muaná,dados_muana__com_coleta_de_lixo,Com Coleta de Lixo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Muaná,dados_muana__com_coleta_de_lixo,Com Coleta de Lixo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Muaná,dados_muana__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Muaná,dados_muana__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Muaná,dados_muana__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Muaná,dados_muana__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Muaná,dados_muana__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Muaná,dados_muana__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Muaná,dados_muana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Muaná,dados_muana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Muaná,dados_muana__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Muaná,dados_muana__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Muaná,dados_muana__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Muaná,dados_muana__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Muaná,dados_muana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.4,Valor
+Muaná,dados_muana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.2,Valor
+Muaná,dados_muana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.6,Valor
+Muaná,dados_muana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Muaná,dados_muana__casais_com_filhos,Casais com filhos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7082670301247613,2000,68.4,Valor
+Muaná,dados_muana__casais_com_filhos,Casais com filhos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7082670301247613,2010,58.2,Valor
+Muaná,dados_muana__casais_com_filhos,Casais com filhos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7082670301247613,2022,48.2,Valor
+Muaná,dados_muana__casais_sem_filhos,Casais sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2000,5.8,Valor
+Muaná,dados_muana__casais_sem_filhos,Casais sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2010,7.8,Valor
+Muaná,dados_muana__casais_sem_filhos,Casais sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2022,11.8,Valor
+Muaná,dados_muana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252447079303919,2000,14.8,Valor
+Muaná,dados_muana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252447079303919,2010,17.8,Valor
+Muaná,dados_muana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252447079303919,2022,21.6,Valor
+Muaná,dados_muana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340259,2000,2.8,Valor
+Muaná,dados_muana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340259,2010,3.2,Valor
+Muaná,dados_muana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340259,2022,3.6,Valor
+Muaná,dados_muana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2000,8.4,Valor
+Muaná,dados_muana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2010,8.8,Valor
+Muaná,dados_muana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2632425858975142,2022,8.4,Valor
+Muaná,dados_muana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.36605720782792844,2000,4.2,Valor
+Muaná,dados_muana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.36605720782792844,2010,4.9,Valor
+Muaná,dados_muana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.36605720782792844,2022,4.6,Valor
+Muaná,dados_muana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340237,2000,1.2,Valor
+Muaná,dados_muana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340237,2010,1.6,Valor
+Muaná,dados_muana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340237,2022,2.0,Valor
+Muaná,dados_muana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Muaná),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.8,Valor
+Muaná,dados_muana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Muaná),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+Muaná,dados_muana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Muaná,dados_muana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.8,Valor
+Muaná,dados_muana__trabalha_em_outro_municipio_ex_belem_sao_seba,Trabalha em outro município (ex: Belém / São Sebastião da Boa Vista),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Muaná,dados_muana__trabalha_em_outro_municipio_ex_belem_sao_seba,Trabalha em outro município (ex: Belém / São Sebastião da Boa Vista),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.6,Valor
+Muaná,dados_muana__motocicleta,Motocicleta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Muaná,dados_muana__motocicleta,Motocicleta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.2,Valor
+Muaná,dados_muana__automovel_onibus,Automóvel / Ônibus,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Muaná,dados_muana__automovel_onibus,Automóvel / Ônibus,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.8,Valor
+Muaná,dados_muana__a_pe,A pé,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.2,Valor
+Muaná,dados_muana__a_pe,A pé,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Muaná,dados_muana__bicicleta,Bicicleta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Muaná,dados_muana__bicicleta,Bicicleta,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.2,Valor
+Muaná,dados_muana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.8,Valor
+Muaná,dados_muana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.4,Valor
+Muaná,dados_muana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Muaná,dados_muana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Muaná,dados_muana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Muaná,dados_muana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.4,Valor
+Muaná,dados_muana__mais_de_1_hora_deslocamento_fluvial_rodoviari,Mais de 1 hora (Deslocamento fluvial/rodoviário intermunicipal),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.6,Valor
+Muaná,dados_muana__mais_de_1_hora_deslocamento_fluvial_rodoviari,Mais de 1 hora (Deslocamento fluvial/rodoviário intermunicipal),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.8,Valor
+Muaná,dados_muana__estuda_no_proprio_municipio_muana,Estuda no próprio município (Muaná),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.4,Valor
+Muaná,dados_muana__estuda_no_proprio_municipio_muana,Estuda no próprio município (Muaná),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.2,Valor
+Muaná,dados_muana__estuda_em_outro_municipio,Estuda em outro município,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.6,Valor
+Muaná,dados_muana__estuda_em_outro_municipio,Estuda em outro município,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,4,relu,adam,True,0.39779029920631426,1991,3.42,Valor
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,4,relu,adam,True,0.39779029920631426,2000,4.98,Valor
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,4,relu,adam,True,0.39779029920631426,2010,7.82,Valor
+Muaná,dados_muana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_muana,Grupo 1 — 4 censos,4,relu,adam,True,0.39779029920631426,2022,10.82,Valor
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3514112021721999,1991,3.28,Valor
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3514112021721999,2000,4.84,Valor
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3514112021721999,2010,7.64,Valor
+Muaná,dados_muana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3514112021721999,2022,10.58,Valor
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.355738393680067,1991,140.0,Valor
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.355738393680067,2000,140.0,Valor
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.355738393680067,2010,180.0,Valor
+Muaná,dados_muana__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_muana,Grupo 1 — 4 censos,4,relu,lbfgs,True,10.355738393680067,2022,240.0,Valor
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.15258151827807376,1991,6.8,Valor
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.15258151827807376,2000,5.7,Valor
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.15258151827807376,2010,4.4,Valor
+Muaná,dados_muana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_muana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.15258151827807376,2022,3.4,Valor
+Muaná,dados_muana__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Muaná,dados_muana__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.8,Valor
+Muaná,dados_muana__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Muaná,dados_muana__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.4,Valor
+Muaná,dados_muana__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Muaná,dados_muana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Muaná,dados_muana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Muaná,dados_muana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Muaná,dados_muana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Muaná,dados_muana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Muaná,dados_muana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.8,Valor
+Muaná,dados_muana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Muaná,dados_muana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Muaná,dados_muana__ruas_sem_arvores,Ruas Sem Árvores,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.6,Valor
+Muaná,dados_muana__ruas_sem_arvores,Ruas Sem Árvores,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Muaná,dados_muana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Muaná,dados_muana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Muaná,dados_muana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Muaná,dados_muana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Muaná,dados_muana__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Muaná,dados_muana__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Muaná,dados_muana__populacao_indigena_total,População Indígena Total,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2000,1.252,Valor
+Muaná,dados_muana__populacao_indigena_total,População Indígena Total,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2010,225.0,Valor
+Muaná,dados_muana__populacao_indigena_total,População Indígena Total,dados_muana,Grupo 2 — 3 censos,3,logistic,sgd,True,121.21322508665786,2022,142.0,Valor
+Muaná,dados_muana__proporcao_na_populacao_de_muana,Proporção na população de Muaná,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,1.8864274621969288,2000,4.39,Valor
+Muaná,dados_muana__proporcao_na_populacao_de_muana,Proporção na população de Muaná,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,1.8864274621969288,2010,0.66,Valor
+Muaná,dados_muana__proporcao_na_populacao_de_muana,Proporção na população de Muaná,dados_muana,Grupo 2 — 3 censos,3,tanh,adam,True,1.8864274621969288,2022,0.4,Valor
+Muaná,dados_muana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.1,Valor
+Muaná,dados_muana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.4,Valor
+Muaná,dados_muana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.8,Valor
+Muaná,dados_muana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Muaná,dados_muana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.4,Valor
+Muaná,dados_muana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.1,Valor
+Muaná,dados_muana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.7,Valor
+Muaná,dados_muana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.3,Valor
+Muaná,dados_muana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2000,14.8,Valor
+Muaná,dados_muana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2010,18.2,Valor
+Muaná,dados_muana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.700951204094407,2022,23.2,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.45756750466152835,2000,60.2,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.45756750466152835,2010,51.2,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.45756750466152835,2022,41.0,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22748869707520777,2000,7.8,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22748869707520777,2010,10.8,Valor
+Muaná,dados_muana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.22748869707520777,2022,14.1,Valor
+Muaná,dados_muana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Muaná,dados_muana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.8,Valor
+Muaná,dados_muana__sem_conjuge,Sem cônjuge,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.1,Valor
+Muaná,dados_muana__sem_conjuge,Sem cônjuge,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.6,Valor
+Muaná,dados_muana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Muaná,dados_muana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Muaná,dados_muana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Muaná,dados_muana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_muana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Muaná,dados_muana__responsavel_mulher,Responsável Mulher,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.3,Valor
+Muaná,dados_muana__responsavel_mulher,Responsável Mulher,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.7,Valor
+Muaná,dados_muana__responsavel_mulher,Responsável Mulher,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.2,Valor
+Muaná,dados_muana__responsavel_homem,Responsável Homem,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281076,2000,5.2,Valor
+Muaná,dados_muana__responsavel_homem,Responsável Homem,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281076,2010,4.4,Valor
+Muaná,dados_muana__responsavel_homem,Responsável Homem,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281076,2022,3.8,Valor
+Muaná,dados_muana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.3,Valor
+Muaná,dados_muana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.7,Valor
+Muaná,dados_muana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_muana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.2,Valor
+Muaná,dados_muana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.106766125063821,2000,11.8,Valor
+Muaná,dados_muana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.106766125063821,2010,16.1,Valor
+Muaná,dados_muana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.106766125063821,2022,21.4,Valor
+Muaná,dados_muana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669427,2000,14.8,Valor
+Muaná,dados_muana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669427,2010,18.8,Valor
+Muaná,dados_muana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_muana,Grupo 2 — 3 censos,3,identity,adam,True,0.3033182627669427,2022,23.2,Valor
+Muaná,dados_muana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004319,2000,53.2,Valor
+Muaná,dados_muana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004319,2010,38.2,Valor
+Muaná,dados_muana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_muana,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.813101033004319,2022,25.2,Valor
