@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Redenção,dados_redencao__anos_de_estudo_media,Anos de Estudo (Média),dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.2590975973660651,2030,11.490638074929912
+Redenção,dados_redencao__anos_de_estudo_media,Anos de Estudo (Média),dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.2590975973660651,2040,13.445623118400663
+Redenção,dados_redencao__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_redencao,Grupo 1 — 4 censos,relu,adam,True,9.741108180647807,2030,252.89875250780412
+Redenção,dados_redencao__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_redencao,Grupo 1 — 4 censos,relu,adam,True,9.741108180647807,2040,268.87144046158863
+Redenção,dados_redencao__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.594111135655127,2030,36.772736223145984
+Redenção,dados_redencao__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.594111135655127,2040,44.07004723796493
+Redenção,dados_redencao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.23140306985265902,2030,11.047327660813977
+Redenção,dados_redencao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.23140306985265902,2040,12.963832269332595
+Redenção,dados_redencao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.2883412030458785,2030,11.933948418965173
+Redenção,dados_redencao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.2883412030458785,2040,13.927413941067257
+Redenção,dados_redencao__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_redencao,Grupo 1 — 4 censos,identity,adam,True,0.021391171185425883,2030,2.1695600572758296
+Redenção,dados_redencao__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_redencao,Grupo 1 — 4 censos,identity,adam,True,0.021391171185425883,2040,1.5188969321951356
+Redenção,dados_redencao__populacao_total,População Total,dados_redencao,Grupo 1 — 4 censos,relu,adam,True,6.379674306215735,2030,89.88452609952469
+Redenção,dados_redencao__populacao_total,População Total,dados_redencao,Grupo 1 — 4 censos,relu,adam,True,6.379674306215735,2040,95.16628235955014
+Redenção,dados_redencao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_redencao,Grupo 1 — 4 censos,logistic,lbfgs,True,2.7429066052743707,2030,96.9203781439453
+Redenção,dados_redencao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_redencao,Grupo 1 — 4 censos,logistic,lbfgs,True,2.7429066052743707,2040,97.72387831181595
+Redenção,dados_redencao__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.5948842796034213,2030,37.04227448047171
+Redenção,dados_redencao__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_redencao,Grupo 1 — 4 censos,identity,lbfgs,True,0.5948842796034213,2040,44.371355147660985
+Redenção,dados_redencao__2_trabalhos,2 trabalhos,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,1.623680088831364,2030,7.151367396202169
+Redenção,dados_redencao__2_trabalhos,2 trabalhos,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,1.623680088831364,2040,7.272298248096755
+Redenção,dados_redencao__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,0.3543412915479848,2030,1.1786315089723522
+Redenção,dados_redencao__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,0.3543412915479848,2040,1.2059818893665855
+Redenção,dados_redencao__apenas_1_trabalho,Apenas 1 trabalho,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,1.981090982757048,2030,94.10384408387392
+Redenção,dados_redencao__apenas_1_trabalho,Apenas 1 trabalho,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,1.981090982757048,2040,94.0959741301329
+Redenção,dados_redencao__casais_com_filhos,Casais com filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,1.708267671694055,2030,35.56892750750784
+Redenção,dados_redencao__casais_com_filhos,Casais com filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,1.708267671694055,2040,27.415067948100344
+Redenção,dados_redencao__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.43566456118971403,2030,7.169830849861016
+Redenção,dados_redencao__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.43566456118971403,2040,7.168540946980081
+Redenção,dados_redencao__casais_sem_filhos,Casais sem filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100869250852151,2030,19.69871723828175
+Redenção,dados_redencao__casais_sem_filhos,Casais sem filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100869250852151,2040,23.33612974689173
+Redenção,dados_redencao__conta_propria,Conta própria,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,1.2627681454718254,2030,18.053092897301802
+Redenção,dados_redencao__conta_propria,Conta própria,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,1.2627681454718254,2040,20.066084141900696
+Redenção,dados_redencao__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.218541622068465,2030,29.76307492767786
+Redenção,dados_redencao__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.218541622068465,2040,34.492687076413475
+Redenção,dados_redencao__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.4555042512504836,2030,29.445939612591832
+Redenção,dados_redencao__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.4555042512504836,2040,33.15126506307263
+Redenção,dados_redencao__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,4.465130022858635,2030,8.916417197317394
+Redenção,dados_redencao__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,4.465130022858635,2040,2.048134878166234
+Redenção,dados_redencao__empregador,Empregador,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,539.55260660999,2030,-3.8289831115791344
+Redenção,dados_redencao__empregador,Empregador,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,539.55260660999,2040,24.616414326877134
+Redenção,dados_redencao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,3.259209015613242,2030,97.56678625681427
+Redenção,dados_redencao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,3.259209015613242,2040,97.47132198319461
+Redenção,dados_redencao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_redencao,Grupo 2 — 3 censos,relu,adam,True,2.6780250363545974,2030,88.90622947535226
+Redenção,dados_redencao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_redencao,Grupo 2 — 3 censos,relu,adam,True,2.6780250363545974,2040,91.9964006495912
+Redenção,dados_redencao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6992074606489034,2030,33.38156118330755
+Redenção,dados_redencao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,2.6992074606489034,2040,33.306494834390456
+Redenção,dados_redencao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.03769062259337439,2030,1.0022686709651747
+Redenção,dados_redencao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.03769062259337439,2040,1.1738423837314471
+Redenção,dados_redencao__idade_mediana,Idade Mediana,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2030,34.748932617941264
+Redenção,dados_redencao__idade_mediana,Idade Mediana,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2040,39.264485813175625
+Redenção,dados_redencao__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,286.23784049337786,2030,-1.8336510658721181
+Redenção,dados_redencao__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_redencao,Grupo 2 — 3 censos,tanh,adam,True,286.23784049337786,2040,13.256621452189592
+Redenção,dados_redencao__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752045,2030,25.419583574092236
+Redenção,dados_redencao__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752045,2040,28.26827596477188
+Redenção,dados_redencao__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556426,2030,3.968186467509041
+Redenção,dados_redencao__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556426,2040,3.9674912838412335
+Redenção,dados_redencao__media_populacao_amarela,Média: População Amarela,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434948,2030,11.42160347412658
+Redenção,dados_redencao__media_populacao_amarela,Média: População Amarela,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434948,2040,12.427668308672555
+Redenção,dados_redencao__media_populacao_branca,Média: População Branca,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.629717845817282,2030,11.024118479013326
+Redenção,dados_redencao__media_populacao_branca,Média: População Branca,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.629717845817282,2040,12.033400664408676
+Redenção,dados_redencao__media_populacao_indigena,Média: População Indígena,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100960568243341,2030,9.09881830688075
+Redenção,dados_redencao__media_populacao_indigena,Média: População Indígena,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100960568243341,2040,10.736203416542725
+Redenção,dados_redencao__media_populacao_preta_parda,Média: População Preta / Parda,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670125,2030,10.699573047176505
+Redenção,dados_redencao__media_populacao_preta_parda,Média: População Preta / Parda,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670125,2040,12.505794325270248
+Redenção,dados_redencao__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,504.73450876638964,2030,511.4681338096048
+Redenção,dados_redencao__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,504.73450876638964,2040,510.00359883015415
+Redenção,dados_redencao__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.045576767980051315,2030,3.4249359570764764
+Redenção,dados_redencao__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.045576767980051315,2040,3.6958691487905377
+Redenção,dados_redencao__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.03038451198670115,2030,1.3499573047176505
+Redenção,dados_redencao__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.03038451198670115,2040,1.530579432527025
+Redenção,dados_redencao__populacao_amarela,População Amarela,dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,14.731201010734878,2030,180.6364759009898
+Redenção,dados_redencao__populacao_amarela,População Amarela,dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,14.731201010734878,2040,131.57265108391204
+Redenção,dados_redencao__populacao_branca,População Branca,dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,0.6738422378741001,2030,20.16572761067157
+Redenção,dados_redencao__populacao_branca,População Branca,dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,0.6738422378741001,2040,21.25088873459331
+Redenção,dados_redencao__populacao_indigena,População Indígena,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,63.47311202402019,2030,490.0164889942846
+Redenção,dados_redencao__populacao_indigena,População Indígena,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,63.47311202402019,2040,489.81713441620315
+Redenção,dados_redencao__populacao_indigena_total,População Indígena Total,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,63.47311202402019,2030,490.0164889942846
+Redenção,dados_redencao__populacao_indigena_total,População Indígena Total,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,63.47311202402019,2040,489.81713441620315
+Redenção,dados_redencao__populacao_parda,População Parda,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,3.0869683316943983,2030,61.10677772344592
+Redenção,dados_redencao__populacao_parda,População Parda,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,3.0869683316943983,2040,64.45062632787646
+Redenção,dados_redencao__populacao_preta,População Preta,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.2575130690827268,2030,8.453420888789617
+Redenção,dados_redencao__populacao_preta,População Preta,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.2575130690827268,2040,9.816056299508439
+Redenção,dados_redencao__populacao_rural,População Rural,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.5483391295283854,2030,4.869699840383844
+Redenção,dados_redencao__populacao_rural,População Rural,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.5483391295283854,2040,4.868068892636444
+Redenção,dados_redencao__populacao_urbana,População Urbana,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,3.7681952589413164,2030,84.28571304230323
+Redenção,dados_redencao__populacao_urbana,População Urbana,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,3.7681952589413164,2040,89.04253357545934
+Redenção,dados_redencao__populacao_com_superior_completo,População com Superior Completo,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,2.4392260382654825,2030,19.523584909214545
+Redenção,dados_redencao__populacao_com_superior_completo,População com Superior Completo,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,2.4392260382654825,2040,25.57925091990686
+Redenção,dados_redencao__populacao_de_homens,População de Homens,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.2777375990309767,2030,45.57396989175527
+Redenção,dados_redencao__populacao_de_homens,População de Homens,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.2777375990309767,2040,50.03249421728352
+Redenção,dados_redencao__populacao_de_mulheres,População de Mulheres,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,2.0087770372670093,2030,46.28993740868195
+Redenção,dados_redencao__populacao_de_mulheres,População de Mulheres,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,2.0087770372670093,2040,49.31714409891259
+Redenção,dados_redencao__proporcao_na_populacao_de_redencao,Proporção na população de Redenção,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.16663870103703626,2030,0.6636699571606981
+Redenção,dados_redencao__proporcao_na_populacao_de_redencao,Proporção na população de Redenção,dados_redencao,Grupo 2 — 3 censos,logistic,sgd,True,0.16663870103703626,2040,0.6630231954765418
+Redenção,dados_redencao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_redencao,Grupo 2 — 3 censos,tanh,sgd,True,1.956648687019315,2030,94.28015173067081
+Redenção,dados_redencao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_redencao,Grupo 2 — 3 censos,tanh,sgd,True,1.956648687019315,2040,93.99000924700928
+Redenção,dados_redencao__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2030,32.17778609077298
+Redenção,dados_redencao__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2040,24.925036341060775
+Redenção,dados_redencao__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.000180763580327555,2030,19.199848369204577
+Redenção,dados_redencao__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.000180763580327555,2040,22.19988949111058
+Redenção,dados_redencao__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.5836826230089536,2030,30.157784607492133
+Redenção,dados_redencao__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.5836826230089536,2040,34.7130346335762
+Redenção,dados_redencao__responsavel_homem,Responsável Homem,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281079,2030,2.6158674027562707
+Redenção,dados_redencao__responsavel_homem,Responsável Homem,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.2186119147281079,2040,2.227131508271336
+Redenção,dados_redencao__responsavel_mulher,Responsável Mulher,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2030,2.2236116306733114
+Redenção,dados_redencao__responsavel_mulher,Responsável Mulher,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622578,2040,1.7703147713162986
+Redenção,dados_redencao__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.3764714603351633
+Redenção,dados_redencao__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.0667646038818925
+Redenção,dados_redencao__setor_privado,Setor privado,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.3584327118277706,2030,32.200698993379106
+Redenção,dados_redencao__setor_privado,Setor privado,dados_redencao,Grupo 2 — 3 censos,identity,lbfgs,True,0.3584327118277706,2040,39.02029820086136
+Redenção,dados_redencao__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.1838455418520588,2030,23.64568720231913
+Redenção,dados_redencao__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.1838455418520588,2040,29.286595070841955
+Redenção,dados_redencao__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_redencao,Grupo 2 — 3 censos,tanh,sgd,True,1.0833237042883404,2030,8.094263168865808
+Redenção,dados_redencao__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_redencao,Grupo 2 — 3 censos,tanh,sgd,True,1.0833237042883404,2040,8.195165954827168
+Redenção,dados_redencao__setor_publico,Setor público,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.11342823427756077,2030,11.025752339053538
+Redenção,dados_redencao__setor_publico,Setor público,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.11342823427756077,2040,13.645359825169262
+Redenção,dados_redencao__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,34.91584592970283,2030,1142.1093888583168
+Redenção,dados_redencao__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_redencao,Grupo 2 — 3 censos,identity,adam,True,34.91584592970283,2040,1449.4247083377054
+Redenção,dados_redencao__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.07851238834785883,2030,9.88364839529141
+Redenção,dados_redencao__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,0.07851238834785883,2040,12.195946380403683
+Redenção,dados_redencao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.0464216636909427,2030,78.14974691290988
+Redenção,dados_redencao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_redencao,Grupo 2 — 3 censos,identity,adam,True,1.0464216636909427,2040,91.3533360481024
+Redenção,dados_redencao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_redencao,Grupo 2 — 3 censos,logistic,adam,True,1.780538768199624,2030,99.72065517625776
+Redenção,dados_redencao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_redencao,Grupo 2 — 3 censos,logistic,adam,True,1.780538768199624,2040,100.04386024582443
+Redenção,dados_redencao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,3.259209015613242,2030,97.56678625681427
+Redenção,dados_redencao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_redencao,Grupo 2 — 3 censos,tanh,lbfgs,True,3.259209015613242,2040,97.47132198319461
+Redenção,dados_redencao__trabalhador_domestico,Trabalhador doméstico,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.23990762017780712,2030,3.6225324319831325
+Redenção,dados_redencao__trabalhador_domestico,Trabalhador doméstico,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.23990762017780712,2040,3.867152983723126
+Redenção,dados_redencao__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,119.94752320571543,2030,975.6213452877171
+Redenção,dados_redencao__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,119.94752320571543,2040,1081.024288964517
+Redenção,dados_redencao__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.12238132144033842,2030,2.6380053809963724
+Redenção,dados_redencao__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_redencao,Grupo 2 — 3 censos,relu,adam,True,0.12238132144033842,2040,2.7744660958575436
+Redenção,dados_redencao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,7.0693084813614755,2030,43.153651507988045
+Redenção,dados_redencao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_redencao,Grupo 2 — 3 censos,relu,lbfgs,True,7.0693084813614755,2040,54.09531289926814
+Redenção,dados_redencao__a_pe,A pé,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.859872758303808
+Redenção,dados_redencao__a_pe,A pé,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.50749567638295
+Redenção,dados_redencao__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.36823208014364
+Redenção,dados_redencao__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.68511550692547
+Redenção,dados_redencao__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.41817891842219
+Redenção,dados_redencao__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.163101330546255
+Redenção,dados_redencao__automovel_carro,Automóvel (Carro),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.58554977582725
+Redenção,dados_redencao__automovel_carro,Automóvel (Carro),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.264971875775526
+Redenção,dados_redencao__bicicleta,Bicicleta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.955483093649011
+Redenção,dados_redencao__bicicleta,Bicicleta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.8816150777687994
+Redenção,dados_redencao__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.15080151784157
+Redenção,dados_redencao__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.99437223697885
+Redenção,dados_redencao__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.52763601251779
+Redenção,dados_redencao__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.81397247778105
+Redenção,dados_redencao__com_coleta_de_lixo,Com Coleta de Lixo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.0928877545321
+Redenção,dados_redencao__com_coleta_de_lixo,Com Coleta de Lixo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.54337283898435
+Redenção,dados_redencao__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8840596067625867
+Redenção,dados_redencao__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9871143029144435
+Redenção,dados_redencao__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.99435386706126
+Redenção,dados_redencao__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.65201884721099
+Redenção,dados_redencao__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.220298033812933
+Redenção,dados_redencao__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.735571514572216
+Redenção,dados_redencao__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.889907416402767
+Redenção,dados_redencao__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.18765769326218
+Redenção,dados_redencao__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.797132528489144
+Redenção,dados_redencao__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.75517175537442
+Redenção,dados_redencao__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.740437371597684
+Redenção,dados_redencao__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.022293791661856
+Redenção,dados_redencao__estuda_em_outro_municipio,Estuda em outro município,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.872476854100692
+Redenção,dados_redencao__estuda_em_outro_municipio,Estuda em outro município,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.696914423315546
+Redenção,dados_redencao__estuda_no_proprio_municipio_redencao,Estuda no próprio município (Redenção),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.70156659818542
+Redenção,dados_redencao__estuda_no_proprio_municipio_redencao,Estuda no próprio município (Redenção),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.25189002221964
+Redenção,dados_redencao__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.84070893424435
+Redenção,dados_redencao__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.98202993024103
+Redenção,dados_redencao__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.053916495463579
+Redenção,dados_redencao__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.42972505554914
+Redenção,dados_redencao__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.88119213525174
+Redenção,dados_redencao__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.94228605828887
+Redenção,dados_redencao__idade_mediana_2,Idade Mediana,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.68119213525173
+Redenção,dados_redencao__idade_mediana_2,Idade Mediana,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.742286058288865
+Redenção,dados_redencao__mais_de_1_hora,Mais de 1 hora,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.240596067625866
+Redenção,dados_redencao__mais_de_1_hora,Mais de 1 hora,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.271143029144433
+Redenção,dados_redencao__motocicleta,Motocicleta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.310205450215705
+Redenção,dados_redencao__motocicleta,Motocicleta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.123229207834406
+Redenção,dados_redencao__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.36739561932947
+Redenção,dados_redencao__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.83715631943642
+Redenção,dados_redencao__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.8405960676258655
+Redenção,dados_redencao__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.871143029144433
+Redenção,dados_redencao__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.934804691294918
+Redenção,dados_redencao__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.326043089344985
+Redenção,dados_redencao__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.51605325985588
+Redenção,dados_redencao__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.52377259818213
+Redenção,dados_redencao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.403508685784107
+Redenção,dados_redencao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.320326034208641
+Redenção,dados_redencao__populacao_amarela_2,População Amarela,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.20298033812933
+Redenção,dados_redencao__populacao_amarela_2,População Amarela,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.35571514572216
+Redenção,dados_redencao__populacao_branca_2,População Branca,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1190.1490169064664
+Redenção,dados_redencao__populacao_branca_2,População Branca,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1447.785757286108
+Redenção,dados_redencao__populacao_indigena_2,População Indígena,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.60894101438798
+Redenção,dados_redencao__populacao_indigena_2,População Indígena,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.06714543716649
+Redenção,dados_redencao__populacao_parda_2,População Parda,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.356834494676211
+Redenção,dados_redencao__populacao_parda_2,População Parda,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.799600240802205
+Redenção,dados_redencao__populacao_preta_2,População Preta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,779.7132528489144
+Redenção,dados_redencao__populacao_preta_2,População Preta,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,975.5171755374421
+Redenção,dados_redencao__populacao_residente_em_favelas,População Residente em Favelas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.403508685784107
+Redenção,dados_redencao__populacao_residente_em_favelas,População Residente em Favelas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.320326034208641
+Redenção,dados_redencao__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.049311348776902
+Redenção,dados_redencao__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.316514664117747
+Redenção,dados_redencao__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,96.16426242295861
+Redenção,dados_redencao__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.53337627499712
+Redenção,dados_redencao__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1056.6515132265604
+Redenção,dados_redencao__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1262.012368186243
+Redenção,dados_redencao__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6194353867061264
+Redenção,dados_redencao__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9852018847210995
+Redenção,dados_redencao__ruas_sem_arvores,Ruas Sem Árvores,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.86668547776974
+Redenção,dados_redencao__ruas_sem_arvores,Ruas Sem Árvores,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.05181448351609
+Redenção,dados_redencao__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.52100198489156
+Redenção,dados_redencao__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.437091906940765
+Redenção,dados_redencao__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.99426505697829
+Redenção,dados_redencao__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.44501014151062
+Redenção,dados_redencao__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.910343510748845
+Redenção,dados_redencao__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.64927229717939
+Redenção,dados_redencao__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.36823208014366
+Redenção,dados_redencao__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.8986226975538
+Redenção,dados_redencao__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.68511550692548
+Redenção,dados_redencao__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.4330293282355
+Redenção,dados_redencao__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6463874439568125
+Redenção,dados_redencao__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.3162429689438806
+Redenção,dados_redencao__sem_conjuge,Sem cônjuge,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.25802662992794
+Redenção,dados_redencao__sem_conjuge,Sem cônjuge,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.76188629909107
+Redenção,dados_redencao__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,96.4956987927337
+Redenção,dados_redencao__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.43275763306161
+Redenção,dados_redencao__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-532.1469720498567
+Redenção,dados_redencao__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1237.0703280704147
+Redenção,dados_redencao__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.060894101438798
+Redenção,dados_redencao__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.60671454371665
+Redenção,dados_redencao__trabalha_em_outro_municipio,Trabalha em outro município,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.202923904820093
+Redenção,dados_redencao__trabalha_em_outro_municipio,Trabalha em outro município,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.800271695173869
+Redenção,dados_redencao__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.97178528398426
+Redenção,dados_redencao__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.16303691805055
+Redenção,dados_redencao__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.54208623669053
+Redenção,dados_redencao__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.149000602005515
+Redenção,dados_redencao__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.77694736129467
+Redenção,dados_redencao__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.33048714189877
+Redenção,dados_redencao__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.913072921726558
+Redenção,dados_redencao__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.768057452459978
+Redenção,dados_redencao__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.84070893424434
+Redenção,dados_redencao__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.982029930241026
+Redenção,dados_redencao__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.85808306323716
+Redenção,dados_redencao__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.91732974963935
+Redenção,dados_redencao__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.730503484028635
+Redenção,dados_redencao__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.058800722406612
+Redenção,dados_redencao__onibus,Ônibus,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.164262422958611
+Redenção,dados_redencao__onibus,Ônibus,dados_redencao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.533376274997114
