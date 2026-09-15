@@ -1,0 +1,325 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Tucuruí,dados_tucurui__populacao_total,População Total,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.989744450281876,1991,73.543,Valor
+Tucuruí,dados_tucurui__populacao_total,População Total,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.989744450281876,2000,86.423,Valor
+Tucuruí,dados_tucurui__populacao_total,População Total,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.989744450281876,2010,97.128,Valor
+Tucuruí,dados_tucurui__populacao_total,População Total,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,6.989744450281876,2022,91.306,Valor
+Tucuruí,dados_tucurui__populacao_urbana,População Urbana,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,6.360121591426998,2000,78.21,Valor
+Tucuruí,dados_tucurui__populacao_urbana,População Urbana,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,6.360121591426998,2010,90.12,Valor
+Tucuruí,dados_tucurui__populacao_urbana,População Urbana,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,6.360121591426998,2022,85.42,Valor
+Tucuruí,dados_tucurui__populacao_rural,População Rural,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24708879745303194,2000,8.213,Valor
+Tucuruí,dados_tucurui__populacao_rural,População Rural,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24708879745303194,2010,7.008,Valor
+Tucuruí,dados_tucurui__populacao_rural,População Rural,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.24708879745303194,2022,5.886,Valor
+Tucuruí,dados_tucurui__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.41,Valor
+Tucuruí,dados_tucurui__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.21,Valor
+Tucuruí,dados_tucurui__populacao_de_mulheres,População de Mulheres,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2674947037358515,2000,43.21,Valor
+Tucuruí,dados_tucurui__populacao_de_mulheres,População de Mulheres,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2674947037358515,2010,49.42,Valor
+Tucuruí,dados_tucurui__populacao_de_mulheres,População de Mulheres,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2674947037358515,2022,46.82,Valor
+Tucuruí,dados_tucurui__populacao_de_homens,População de Homens,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,2.588332782320142,2000,43.213,Valor
+Tucuruí,dados_tucurui__populacao_de_homens,População de Homens,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,2.588332782320142,2010,47.708,Valor
+Tucuruí,dados_tucurui__populacao_de_homens,População de Homens,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,2.588332782320142,2022,44.486,Valor
+Tucuruí,dados_tucurui__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.324415297889426,2000,100.0,Valor
+Tucuruí,dados_tucurui__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.324415297889426,2010,96.5,Valor
+Tucuruí,dados_tucurui__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.324415297889426,2022,95.0,Valor
+Tucuruí,dados_tucurui__idade_mediana,Idade Mediana,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,22.0,Valor
+Tucuruí,dados_tucurui__idade_mediana,Idade Mediana,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,26.0,Valor
+Tucuruí,dados_tucurui__idade_mediana,Idade Mediana,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,32.0,Valor
+Tucuruí,dados_tucurui__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.890265312838246,2000,9.2,Valor
+Tucuruí,dados_tucurui__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.890265312838246,2010,16.8,Valor
+Tucuruí,dados_tucurui__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.890265312838246,2022,38.4,Valor
+Tucuruí,dados_tucurui__populacao_parda,População Parda,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,5.978067381640638,2000,56.82,Valor
+Tucuruí,dados_tucurui__populacao_parda,População Parda,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,5.978067381640638,2010,67.42,Valor
+Tucuruí,dados_tucurui__populacao_parda,População Parda,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,5.978067381640638,2022,64.21,Valor
+Tucuruí,dados_tucurui__populacao_branca,População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7553050435461918,2000,21.42,Valor
+Tucuruí,dados_tucurui__populacao_branca,População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7553050435461918,2010,20.81,Valor
+Tucuruí,dados_tucurui__populacao_branca,População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7553050435461918,2022,18.42,Valor
+Tucuruí,dados_tucurui__populacao_preta,População Preta,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.428054791099908,2000,7.42,Valor
+Tucuruí,dados_tucurui__populacao_preta,População Preta,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.428054791099908,2010,8.12,Valor
+Tucuruí,dados_tucurui__populacao_preta,População Preta,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.428054791099908,2022,8.01,Valor
+Tucuruí,dados_tucurui__populacao_amarela,População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,18.302886241559367,2000,410.0,Valor
+Tucuruí,dados_tucurui__populacao_amarela,População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,18.302886241559367,2010,340.0,Valor
+Tucuruí,dados_tucurui__populacao_amarela,População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,18.302886241559367,2022,280.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena,População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2000,353.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena,População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2010,438.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena,População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2022,386.0,Valor
+Tucuruí,dados_tucurui__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,312.8,Valor
+Tucuruí,dados_tucurui__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,610.4,Valor
+Tucuruí,dados_tucurui__apenas_1_trabalho,Apenas 1 trabalho,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.386764660917952,2000,95.2,Valor
+Tucuruí,dados_tucurui__apenas_1_trabalho,Apenas 1 trabalho,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.386764660917952,2010,95.8,Valor
+Tucuruí,dados_tucurui__apenas_1_trabalho,Apenas 1 trabalho,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.386764660917952,2022,93.4,Valor
+Tucuruí,dados_tucurui__2_trabalhos,2 trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303542,2000,4.2,Valor
+Tucuruí,dados_tucurui__2_trabalhos,2 trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303542,2010,3.8,Valor
+Tucuruí,dados_tucurui__2_trabalhos,2 trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,1.2121166631303542,2022,5.8,Valor
+Tucuruí,dados_tucurui__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2000,0.6,Valor
+Tucuruí,dados_tucurui__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2010,0.4,Valor
+Tucuruí,dados_tucurui__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2022,0.8,Valor
+Tucuruí,dados_tucurui__setor_privado,Setor privado,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.7299835704850626,2000,12.41,Valor
+Tucuruí,dados_tucurui__setor_privado,Setor privado,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.7299835704850626,2010,20.12,Valor
+Tucuruí,dados_tucurui__setor_privado,Setor privado,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.7299835704850626,2022,28.41,Valor
+Tucuruí,dados_tucurui__conta_propria,Conta própria,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.3418566231327524,2000,10.82,Valor
+Tucuruí,dados_tucurui__conta_propria,Conta própria,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.3418566231327524,2010,15.42,Valor
+Tucuruí,dados_tucurui__conta_propria,Conta própria,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.3418566231327524,2022,18.21,Valor
+Tucuruí,dados_tucurui__setor_publico,Setor público,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.288623645066858,2000,5.41,Valor
+Tucuruí,dados_tucurui__setor_publico,Setor público,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.288623645066858,2010,9.82,Valor
+Tucuruí,dados_tucurui__setor_publico,Setor público,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.288623645066858,2022,12.41,Valor
+Tucuruí,dados_tucurui__trabalhador_domestico,Trabalhador doméstico,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.4854620542361358,2000,2.82,Valor
+Tucuruí,dados_tucurui__trabalhador_domestico,Trabalhador doméstico,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.4854620542361358,2010,3.81,Valor
+Tucuruí,dados_tucurui__trabalhador_domestico,Trabalhador doméstico,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.4854620542361358,2022,3.92,Valor
+Tucuruí,dados_tucurui__empregador,Empregador,dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,407.3833615080114,2000,740.0,Valor
+Tucuruí,dados_tucurui__empregador,Empregador,dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,407.3833615080114,2010,1.42,Valor
+Tucuruí,dados_tucurui__empregador,Empregador,dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,407.3833615080114,2022,2.12,Valor
+Tucuruí,dados_tucurui__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,335.49211154676595,2000,2.12,Valor
+Tucuruí,dados_tucurui__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,335.49211154676595,2010,1.18,Valor
+Tucuruí,dados_tucurui__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tucurui,Grupo 2 — 3 censos,3,tanh,adam,True,335.49211154676595,2022,680.0,Valor
+Tucuruí,dados_tucurui__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.17024216681146367,2000,1.82,Valor
+Tucuruí,dados_tucurui__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.17024216681146367,2010,2.41,Valor
+Tucuruí,dados_tucurui__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.17024216681146367,2022,2.84,Valor
+Tucuruí,dados_tucurui__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.1077525476102885,2000,6.82,Valor
+Tucuruí,dados_tucurui__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.1077525476102885,2010,13.21,Valor
+Tucuruí,dados_tucurui__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.1077525476102885,2022,19.42,Valor
+Tucuruí,dados_tucurui__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.3777689771252269,2000,5.59,Valor
+Tucuruí,dados_tucurui__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.3777689771252269,2010,6.91,Valor
+Tucuruí,dados_tucurui__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.3777689771252269,2022,8.99,Valor
+Tucuruí,dados_tucurui__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,456.5307456449571,2000,420.0,Valor
+Tucuruí,dados_tucurui__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,456.5307456449571,2010,890.0,Valor
+Tucuruí,dados_tucurui__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,456.5307456449571,2022,1.24,Valor
+Tucuruí,dados_tucurui__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.1531998243835186,2000,4.99,Valor
+Tucuruí,dados_tucurui__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.1531998243835186,2010,8.93,Valor
+Tucuruí,dados_tucurui__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,1.1531998243835186,2022,11.17,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,lbfgs,True,179.48801456986635,2000,380.0,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,lbfgs,True,179.48801456986635,2010,820.0,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,logistic,lbfgs,True,179.48801456986635,2022,980.0,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3341014581756256,2000,2.44,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3341014581756256,2010,2.99,Valor
+Tucuruí,dados_tucurui__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3341014581756256,2022,2.94,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucurui,Grupo 1 — 4 censos,4,relu,adam,True,2.2286670579015997,1991,76.8,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucurui,Grupo 1 — 4 censos,4,relu,adam,True,2.2286670579015997,2000,85.4,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucurui,Grupo 1 — 4 censos,4,relu,adam,True,2.2286670579015997,2010,91.2,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucurui,Grupo 1 — 4 censos,4,relu,adam,True,2.2286670579015997,2022,95.4,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,1.5356969767312212,2000,94.2,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,1.5356969767312212,2010,97.8,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,1.5356969767312212,2022,98.9,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2140633367178708,2000,41.2,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2140633367178708,2010,54.2,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2140633367178708,2022,68.2,Valor
+Tucuruí,dados_tucurui__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2000,91.2,Valor
+Tucuruí,dados_tucurui__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2010,96.2,Valor
+Tucuruí,dados_tucurui__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2022,97.4,Valor
+Tucuruí,dados_tucurui__populacao_com_superior_completo,População com Superior Completo,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.8445355246545047,2000,2.41,Valor
+Tucuruí,dados_tucurui__populacao_com_superior_completo,População com Superior Completo,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.8445355246545047,2010,7.82,Valor
+Tucuruí,dados_tucurui__populacao_com_superior_completo,População com Superior Completo,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.8445355246545047,2022,15.42,Valor
+Tucuruí,dados_tucurui__anos_de_estudo_media,Anos de Estudo (Média),dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3721432361003887,1991,4.2,Valor
+Tucuruí,dados_tucurui__anos_de_estudo_media,Anos de Estudo (Média),dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3721432361003887,2000,6.1,Valor
+Tucuruí,dados_tucurui__anos_de_estudo_media,Anos de Estudo (Média),dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3721432361003887,2010,8.1,Valor
+Tucuruí,dados_tucurui__anos_de_estudo_media,Anos de Estudo (Média),dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3721432361003887,2022,9.6,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3682327386314017,1991,4.5,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3682327386314017,2000,6.4,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3682327386314017,2010,8.5,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3682327386314017,2022,10.1,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.4017935476741622,1991,3.9,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.4017935476741622,2000,5.8,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.4017935476741622,2010,7.7,Valor
+Tucuruí,dados_tucurui__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucurui,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.4017935476741622,2022,9.1,Valor
+Tucuruí,dados_tucurui__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.03909696065633309,1991,0.384,Valor
+Tucuruí,dados_tucurui__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.03909696065633309,2000,0.542,Valor
+Tucuruí,dados_tucurui__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.03909696065633309,2010,0.668,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2000,91.2,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2010,96.2,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tucurui,Grupo 2 — 3 censos,3,logistic,adam,True,2.337569970032007,2022,97.4,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,2.570582382459193,2000,72.4,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,2.570582382459193,2010,81.2,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,2.570582382459193,2022,86.4,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.059208387519758,2000,28.1,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.059208387519758,2010,33.2,Valor
+Tucuruí,dados_tucurui__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tucurui,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.059208387519758,2022,32.8,Valor
+Tucuruí,dados_tucurui__media_populacao_amarela,Média: População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898923,2000,6.8,Valor
+Tucuruí,dados_tucurui__media_populacao_amarela,Média: População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898923,2010,9.1,Valor
+Tucuruí,dados_tucurui__media_populacao_amarela,Média: População Amarela,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6630423841898923,2022,10.8,Valor
+Tucuruí,dados_tucurui__media_populacao_branca,Média: População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362891,2000,6.6,Valor
+Tucuruí,dados_tucurui__media_populacao_branca,Média: População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362891,2010,8.8,Valor
+Tucuruí,dados_tucurui__media_populacao_branca,Média: População Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.6348889457362891,2022,10.4,Valor
+Tucuruí,dados_tucurui__media_populacao_preta_parda,Média: População Preta / Parda,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695789,2000,5.8,Valor
+Tucuruí,dados_tucurui__media_populacao_preta_parda,Média: População Preta / Parda,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695789,2010,7.8,Valor
+Tucuruí,dados_tucurui__media_populacao_preta_parda,Média: População Preta / Parda,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.5759965188695789,2022,9.3,Valor
+Tucuruí,dados_tucurui__media_populacao_indigena,Média: População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194322,2000,4.8,Valor
+Tucuruí,dados_tucurui__media_populacao_indigena,Média: População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194322,2010,6.2,Valor
+Tucuruí,dados_tucurui__media_populacao_indigena,Média: População Indígena,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194322,2022,8.1,Valor
+Tucuruí,dados_tucurui__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.0,Valor
+Tucuruí,dados_tucurui__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.0,Valor
+Tucuruí,dados_tucurui__populacao_residente_em_favelas,População Residente em Favelas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.41,Valor
+Tucuruí,dados_tucurui__populacao_residente_em_favelas,População Residente em Favelas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.21,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.84,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.12,Valor
+Tucuruí,dados_tucurui__idade_mediana_2,Idade Mediana,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Tucuruí,dados_tucurui__idade_mediana_2,Idade Mediana,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.0,Valor
+Tucuruí,dados_tucurui__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.4,Valor
+Tucuruí,dados_tucurui__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Tucuruí,dados_tucurui__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,98.4,Valor
+Tucuruí,dados_tucurui__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,96.1,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.2,Valor
+Tucuruí,dados_tucurui__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.2,Valor
+Tucuruí,dados_tucurui__populacao_parda_2,População Parda,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.42,Valor
+Tucuruí,dados_tucurui__populacao_parda_2,População Parda,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.82,Valor
+Tucuruí,dados_tucurui__populacao_branca_2,População Branca,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.82,Valor
+Tucuruí,dados_tucurui__populacao_branca_2,População Branca,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.61,Valor
+Tucuruí,dados_tucurui__populacao_preta_2,População Preta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.11,Valor
+Tucuruí,dados_tucurui__populacao_preta_2,População Preta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.68,Valor
+Tucuruí,dados_tucurui__populacao_amarela_2,População Amarela,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+Tucuruí,dados_tucurui__populacao_amarela_2,População Amarela,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena_2,População Indígena,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena_2,População Indígena,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.0,Valor
+Tucuruí,dados_tucurui__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Tucuruí,dados_tucurui__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Tucuruí,dados_tucurui__com_coleta_de_lixo,Com Coleta de Lixo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Tucuruí,dados_tucurui__com_coleta_de_lixo,Com Coleta de Lixo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.1,Valor
+Tucuruí,dados_tucurui__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Tucuruí,dados_tucurui__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.8,Valor
+Tucuruí,dados_tucurui__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Tucuruí,dados_tucurui__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Tucuruí,dados_tucurui__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Tucuruí,dados_tucurui__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Tucuruí,dados_tucurui__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Tucuruí,dados_tucurui__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Tucuruí,dados_tucurui__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Tucuruí,dados_tucurui__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Tucuruí,dados_tucurui__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Tucuruí,dados_tucurui__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Tucuruí,dados_tucurui__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Tucuruí,dados_tucurui__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.4,Valor
+Tucuruí,dados_tucurui__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.1,Valor
+Tucuruí,dados_tucurui__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.4,Valor
+Tucuruí,dados_tucurui__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.9,Valor
+Tucuruí,dados_tucurui__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Tucuruí,dados_tucurui__casais_com_filhos,Casais com filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.3793748906180547,2000,59.8,Valor
+Tucuruí,dados_tucurui__casais_com_filhos,Casais com filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.3793748906180547,2010,50.2,Valor
+Tucuruí,dados_tucurui__casais_com_filhos,Casais com filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.3793748906180547,2022,41.8,Valor
+Tucuruí,dados_tucurui__casais_sem_filhos,Casais sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306242662,2000,9.2,Valor
+Tucuruí,dados_tucurui__casais_sem_filhos,Casais sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306242662,2010,12.8,Valor
+Tucuruí,dados_tucurui__casais_sem_filhos,Casais sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306242662,2022,17.4,Valor
+Tucuruí,dados_tucurui__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739218,2000,17.4,Valor
+Tucuruí,dados_tucurui__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739218,2010,20.8,Valor
+Tucuruí,dados_tucurui__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739218,2022,24.2,Valor
+Tucuruí,dados_tucurui__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683937,2000,3.0,Valor
+Tucuruí,dados_tucurui__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683937,2010,3.2,Valor
+Tucuruí,dados_tucurui__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683937,2022,3.6,Valor
+Tucuruí,dados_tucurui__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3692938704940539,2000,6.8,Valor
+Tucuruí,dados_tucurui__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3692938704940539,2010,7.4,Valor
+Tucuruí,dados_tucurui__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3692938704940539,2022,6.9,Valor
+Tucuruí,dados_tucurui__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2000,3.1,Valor
+Tucuruí,dados_tucurui__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2010,3.8,Valor
+Tucuruí,dados_tucurui__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.39868751481318093,2022,3.6,Valor
+Tucuruí,dados_tucurui__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701185,2000,0.7,Valor
+Tucuruí,dados_tucurui__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701185,2010,0.9,Valor
+Tucuruí,dados_tucurui__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701185,2022,1.1,Valor
+Tucuruí,dados_tucurui__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.8,Valor
+Tucuruí,dados_tucurui__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Tucuruí,dados_tucurui__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.1,Valor
+Tucuruí,dados_tucurui__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Tucuruí,dados_tucurui__trabalha_em_outro_municipio,Trabalha em outro município,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Tucuruí,dados_tucurui__trabalha_em_outro_municipio,Trabalha em outro município,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Tucuruí,dados_tucurui__motocicleta,Motocicleta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Tucuruí,dados_tucurui__motocicleta,Motocicleta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Tucuruí,dados_tucurui__automovel_carro,Automóvel (Carro),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.2,Valor
+Tucuruí,dados_tucurui__automovel_carro,Automóvel (Carro),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Tucuruí,dados_tucurui__bicicleta,Bicicleta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Tucuruí,dados_tucurui__bicicleta,Bicicleta,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Tucuruí,dados_tucurui__a_pe,A pé,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Tucuruí,dados_tucurui__a_pe,A pé,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.2,Valor
+Tucuruí,dados_tucurui__onibus,Ônibus,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.4,Valor
+Tucuruí,dados_tucurui__onibus,Ônibus,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Tucuruí,dados_tucurui__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Tucuruí,dados_tucurui__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Tucuruí,dados_tucurui__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.4,Valor
+Tucuruí,dados_tucurui__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.2,Valor
+Tucuruí,dados_tucurui__mais_de_1_hora,Mais de 1 hora,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Tucuruí,dados_tucurui__mais_de_1_hora,Mais de 1 hora,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Tucuruí,dados_tucurui__estuda_no_proprio_municipio_tucurui,Estuda no próprio município (Tucuruí),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.2,Valor
+Tucuruí,dados_tucurui__estuda_no_proprio_municipio_tucurui,Estuda no próprio município (Tucuruí),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.8,Valor
+Tucuruí,dados_tucurui__estuda_em_outro_municipio,Estuda em outro município,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Tucuruí,dados_tucurui__estuda_em_outro_municipio,Estuda em outro município,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.2267907744846589,1991,14.21,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.2267907744846589,2000,20.12,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.2267907744846589,2010,26.41,Valor
+Tucuruí,dados_tucurui__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.2267907744846589,2022,33.82,Valor
+Tucuruí,dados_tucurui__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.23829851384859113,1991,14.04,Valor
+Tucuruí,dados_tucurui__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.23829851384859113,2000,19.91,Valor
+Tucuruí,dados_tucurui__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.23829851384859113,2010,26.18,Valor
+Tucuruí,dados_tucurui__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.23829851384859113,2022,33.52,Valor
+Tucuruí,dados_tucurui__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,15.375816709308843,1991,170.0,Valor
+Tucuruí,dados_tucurui__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,15.375816709308843,2000,210.0,Valor
+Tucuruí,dados_tucurui__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,15.375816709308843,2010,230.0,Valor
+Tucuruí,dados_tucurui__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,15.375816709308843,2022,300.0,Valor
+Tucuruí,dados_tucurui__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.09178545572890073,1991,5.1,Valor
+Tucuruí,dados_tucurui__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.09178545572890073,2000,4.3,Valor
+Tucuruí,dados_tucurui__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.09178545572890073,2010,3.7,Valor
+Tucuruí,dados_tucurui__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucurui,Grupo 1 — 4 censos,4,identity,adam,True,0.09178545572890073,2022,2.7,Valor
+Tucuruí,dados_tucurui__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Tucuruí,dados_tucurui__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.4,Valor
+Tucuruí,dados_tucurui__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Tucuruí,dados_tucurui__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Tucuruí,dados_tucurui__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Tucuruí,dados_tucurui__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.2,Valor
+Tucuruí,dados_tucurui__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Tucuruí,dados_tucurui__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.1,Valor
+Tucuruí,dados_tucurui__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Tucuruí,dados_tucurui__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Tucuruí,dados_tucurui__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Tucuruí,dados_tucurui__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Tucuruí,dados_tucurui__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Tucuruí,dados_tucurui__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.4,Valor
+Tucuruí,dados_tucurui__ruas_sem_arvores,Ruas Sem Árvores,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.8,Valor
+Tucuruí,dados_tucurui__ruas_sem_arvores,Ruas Sem Árvores,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.6,Valor
+Tucuruí,dados_tucurui__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.1,Valor
+Tucuruí,dados_tucurui__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+Tucuruí,dados_tucurui__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Tucuruí,dados_tucurui__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.1,Valor
+Tucuruí,dados_tucurui__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Tucuruí,dados_tucurui__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Tucuruí,dados_tucurui__populacao_indigena_total,População Indígena Total,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2000,353.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena_total,População Indígena Total,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2010,438.0,Valor
+Tucuruí,dados_tucurui__populacao_indigena_total,População Indígena Total,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,45.90645057999124,2022,386.0,Valor
+Tucuruí,dados_tucurui__proporcao_na_populacao_de_tucurui,Proporção na população de Tucuruí,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.023485046043556446,2000,0.41,Valor
+Tucuruí,dados_tucurui__proporcao_na_populacao_de_tucurui,Proporção na população de Tucuruí,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.023485046043556446,2010,0.45,Valor
+Tucuruí,dados_tucurui__proporcao_na_populacao_de_tucurui,Proporção na população de Tucuruí,dados_tucurui,Grupo 2 — 3 censos,3,logistic,sgd,True,0.023485046043556446,2022,0.42,Valor
+Tucuruí,dados_tucurui__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.2,Valor
+Tucuruí,dados_tucurui__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Tucuruí,dados_tucurui__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.1,Valor
+Tucuruí,dados_tucurui__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.1,Valor
+Tucuruí,dados_tucurui__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Tucuruí,dados_tucurui__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Tucuruí,dados_tucurui__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.9,Valor
+Tucuruí,dados_tucurui__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.9,Valor
+Tucuruí,dados_tucurui__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.5836826230089531,2000,17.8,Valor
+Tucuruí,dados_tucurui__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.5836826230089531,2010,21.4,Valor
+Tucuruí,dados_tucurui__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.5836826230089531,2022,27.8,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151414250161025,2000,53.8,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151414250161025,2010,45.8,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151414250161025,2022,37.4,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032577863,2000,9.8,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032577863,2010,12.8,Valor
+Tucuruí,dados_tucurui__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.00018076358032577863,2022,16.4,Valor
+Tucuruí,dados_tucurui__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Tucuruí,dados_tucurui__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.8,Valor
+Tucuruí,dados_tucurui__sem_conjuge,Sem cônjuge,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.6,Valor
+Tucuruí,dados_tucurui__sem_conjuge,Sem cônjuge,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.4,Valor
+Tucuruí,dados_tucurui__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Tucuruí,dados_tucurui__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Tucuruí,dados_tucurui__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.9,Valor
+Tucuruí,dados_tucurui__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tucurui,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Tucuruí,dados_tucurui__responsavel_mulher,Responsável Mulher,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+Tucuruí,dados_tucurui__responsavel_mulher,Responsável Mulher,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+Tucuruí,dados_tucurui__responsavel_mulher,Responsável Mulher,dados_tucurui,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+Tucuruí,dados_tucurui__responsavel_homem,Responsável Homem,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2000,4.4,Valor
+Tucuruí,dados_tucurui__responsavel_homem,Responsável Homem,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2010,3.6,Valor
+Tucuruí,dados_tucurui__responsavel_homem,Responsável Homem,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2022,3.0,Valor
+Tucuruí,dados_tucurui__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,3.8,Valor
+Tucuruí,dados_tucurui__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.2,Valor
+Tucuruí,dados_tucurui__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,2.7,Valor
+Tucuruí,dados_tucurui__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2337338780618137,2000,15.2,Valor
+Tucuruí,dados_tucurui__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2337338780618137,2010,19.1,Valor
+Tucuruí,dados_tucurui__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,1.2337338780618137,2022,25.4,Valor
+Tucuruí,dados_tucurui__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2000,17.8,Valor
+Tucuruí,dados_tucurui__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2010,21.8,Valor
+Tucuruí,dados_tucurui__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tucurui,Grupo 2 — 3 censos,3,identity,adam,True,0.6076902397340227,2022,25.8,Valor
+Tucuruí,dados_tucurui__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,4.381448379083962,2000,41.2,Valor
+Tucuruí,dados_tucurui__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,4.381448379083962,2010,25.4,Valor
+Tucuruí,dados_tucurui__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tucurui,Grupo 2 — 3 censos,3,relu,adam,True,4.381448379083962,2022,15.2,Valor
