@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Juruti,dados_juruti__anos_de_estudo_media,Anos de Estudo (Média),dados_juruti,Grupo 1 — 4 censos,identity,adam,True,0.2981757253577759,2030,8.576666108971796
+Juruti,dados_juruti__anos_de_estudo_media,Anos de Estudo (Média),dados_juruti,Grupo 1 — 4 censos,identity,adam,True,0.2981757253577759,2040,10.29537281733943
+Juruti,dados_juruti__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_juruti,Grupo 1 — 4 censos,relu,lbfgs,True,9.742468533911904,2030,323.7063049129367
+Juruti,dados_juruti__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_juruti,Grupo 1 — 4 censos,relu,lbfgs,True,9.742468533911904,2040,377.5055060696701
+Juruti,dados_juruti__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8290694114605134,2030,18.723117498344905
+Juruti,dados_juruti__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8290694114605134,2040,20.00329531363265
+Juruti,dados_juruti__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_juruti,Grupo 1 — 4 censos,relu,adam,True,0.2549855854146503,2030,7.682711078065114
+Juruti,dados_juruti__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_juruti,Grupo 1 — 4 censos,relu,adam,True,0.2549855854146503,2040,8.723924437262157
+Juruti,dados_juruti__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_juruti,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2030,9.061942361809429
+Juruti,dados_juruti__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_juruti,Grupo 1 — 4 censos,identity,adam,True,0.32160754663555324,2040,10.846636996362925
+Juruti,dados_juruti__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_juruti,Grupo 1 — 4 censos,identity,lbfgs,True,0.16633388981240504,2030,2.399054923191427
+Juruti,dados_juruti__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_juruti,Grupo 1 — 4 censos,identity,lbfgs,True,0.16633388981240504,2040,1.4708471817148334
+Juruti,dados_juruti__populacao_total,População Total,dados_juruti,Grupo 1 — 4 censos,relu,adam,True,1.5380076258519075,2030,64.24091869321151
+Juruti,dados_juruti__populacao_total,População Total,dados_juruti,Grupo 1 — 4 censos,relu,adam,True,1.5380076258519075,2040,70.8966083826032
+Juruti,dados_juruti__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,1.9624130389318637,2030,88.06051398884946
+Juruti,dados_juruti__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,1.9624130389318637,2040,89.32173867530108
+Juruti,dados_juruti__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8709814558378908,2030,19.040303742882497
+Juruti,dados_juruti__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_juruti,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8709814558378908,2040,20.352881771904556
+Juruti,dados_juruti__2_trabalhos,2 trabalhos,dados_juruti,Grupo 2 — 3 censos,relu,sgd,True,1.4379018636578378,2030,8.989942330328498
+Juruti,dados_juruti__2_trabalhos,2 trabalhos,dados_juruti,Grupo 2 — 3 censos,relu,sgd,True,1.4379018636578378,2040,10.634570296819888
+Juruti,dados_juruti__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,0.1101397426305167,2030,0.9420520382223796
+Juruti,dados_juruti__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,0.1101397426305167,2040,1.1131699617353452
+Juruti,dados_juruti__apenas_1_trabalho,Apenas 1 trabalho,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,1.3264519583650174,2030,89.04248310097043
+Juruti,dados_juruti__apenas_1_trabalho,Apenas 1 trabalho,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,1.3264519583650174,2040,86.03074960609447
+Juruti,dados_juruti__casais_com_filhos,Casais com filhos,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,1.6167524385246423,2030,39.520574079448195
+Juruti,dados_juruti__casais_com_filhos,Casais com filhos,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,1.6167524385246423,2040,30.41067840604524
+Juruti,dados_juruti__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,8.334795624253138
+Juruti,dados_juruti__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,8.333962067246485
+Juruti,dados_juruti__casais_sem_filhos,Casais sem filhos,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.0354442644981534,2030,14.472968925264906
+Juruti,dados_juruti__casais_sem_filhos,Casais sem filhos,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.0354442644981534,2040,17.298221718214947
+Juruti,dados_juruti__conta_propria,Conta própria,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,1.2786262835550748,2030,15.007249626924029
+Juruti,dados_juruti__conta_propria,Conta própria,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,1.2786262835550748,2040,16.377019773644413
+Juruti,dados_juruti__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302904534078066,2030,25.29648018093951
+Juruti,dados_juruti__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302904534078066,2040,29.70862866595295
+Juruti,dados_juruti__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.30331826276693974,2030,26.69277809878965
+Juruti,dados_juruti__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.30331826276693974,2040,30.491034619695842
+Juruti,dados_juruti__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,3.8131010330043247,2030,13.280674020686938
+Juruti,dados_juruti__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,3.8131010330043247,2040,0.6157688145784519
+Juruti,dados_juruti__empregador,Empregador,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,38.12552568589564,2030,1140.7425391608022
+Juruti,dados_juruti__empregador,Empregador,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,38.12552568589564,2040,1462.8363314342328
+Juruti,dados_juruti__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_juruti,Grupo 2 — 3 censos,logistic,lbfgs,True,5.742763143692386,2030,94.46118210699353
+Juruti,dados_juruti__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_juruti,Grupo 2 — 3 censos,logistic,lbfgs,True,5.742763143692386,2040,94.74358729129582
+Juruti,dados_juruti__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,4.214111623707123,2030,76.73325398928716
+Juruti,dados_juruti__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,4.214111623707123,2040,81.56599075737802
+Juruti,dados_juruti__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,2.102124056615491,2030,23.437693192949396
+Juruti,dados_juruti__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,2.102124056615491,2040,24.969935417811698
+Juruti,dados_juruti__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.014582195975319687,2030,0.8446993310421553
+Juruti,dados_juruti__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.014582195975319687,2040,1.019438600872788
+Juruti,dados_juruti__idade_mediana,Idade Mediana,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2030,28.719480281138217
+Juruti,dados_juruti__idade_mediana,Idade Mediana,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2040,32.35998066656154
+Juruti,dados_juruti__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,74.6001114974388,2030,530.7374099728829
+Juruti,dados_juruti__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,74.6001114974388,2040,686.0086537708983
+Juruti,dados_juruti__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_juruti,Grupo 2 — 3 censos,identity,sgd,True,0.2254078501537554,2030,24.763282935785895
+Juruti,dados_juruti__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_juruti,Grupo 2 — 3 censos,identity,sgd,True,0.2254078501537554,2040,28.052450431157638
+Juruti,dados_juruti__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,0.3660572078279287,2030,4.469697732396869
+Juruti,dados_juruti__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,0.3660572078279287,2040,4.4686559783504505
+Juruti,dados_juruti__media_populacao_amarela,Média: População Amarela,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.5759965188695793,2030,8.584669561772152
+Juruti,dados_juruti__media_populacao_amarela,Média: População Amarela,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.5759965188695793,2040,9.423056923893798
+Juruti,dados_juruti__media_populacao_branca,Média: População Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362884,2030,8.429012551465995
+Juruti,dados_juruti__media_populacao_branca,Média: População Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.6348889457362884,2040,9.321030287546098
+Juruti,dados_juruti__media_populacao_indigena,Média: População Indígena,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287294,2030,6.951266239684629
+Juruti,dados_juruti__media_populacao_indigena,Média: População Indígena,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.3343613461287294,2040,8.440140760435252
+Juruti,dados_juruti__media_populacao_preta_parda,Média: População Preta / Parda,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2030,7.676083142587682
+Juruti,dados_juruti__media_populacao_preta_parda,Média: População Preta / Parda,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767855,2040,8.627407408733674
+Juruti,dados_juruti__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_juruti,Grupo 2 — 3 censos,tanh,adam,True,433.7475146621309,2030,996.5652084713417
+Juruti,dados_juruti__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_juruti,Grupo 2 — 3 censos,tanh,adam,True,433.7475146621309,2040,1042.7338998659627
+Juruti,dados_juruti__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,4.0999146094353005
+Juruti,dados_juruti__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.46115886505405
+Juruti,dados_juruti__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,2.199914609435301
+Juruti,dados_juruti__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,2.56115886505405
+Juruti,dados_juruti__populacao_amarela,População Amarela,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,26.41461130262901,2030,76.73921429378419
+Juruti,dados_juruti__populacao_amarela,População Amarela,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,26.41461130262901,2040,76.63134623513278
+Juruti,dados_juruti__populacao_branca,População Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.26488305957788505,2030,5.610781349915904
+Juruti,dados_juruti__populacao_branca,População Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.26488305957788505,2040,5.364622102229621
+Juruti,dados_juruti__populacao_indigena,População Indígena,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,419.93486765177175,2030,211.8157900038863
+Juruti,dados_juruti__populacao_indigena,População Indígena,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,419.93486765177175,2040,210.5140829557713
+Juruti,dados_juruti__populacao_indigena_total,População Indígena Total,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,419.93486765177175,2030,211.8157900038863
+Juruti,dados_juruti__populacao_indigena_total,População Indígena Total,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,419.93486765177175,2040,210.5140829557713
+Juruti,dados_juruti__populacao_parda,População Parda,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,3.645296532514189,2030,51.388906972679294
+Juruti,dados_juruti__populacao_parda,População Parda,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,3.645296532514189,2040,56.99095755244754
+Juruti,dados_juruti__populacao_preta,População Preta,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.3815079996538602,2030,4.435499267597405
+Juruti,dados_juruti__populacao_preta,População Preta,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.3815079996538602,2040,4.797347942195316
+Juruti,dados_juruti__populacao_rural,População Rural,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,1.574199997874788,2030,30.53572617343493
+Juruti,dados_juruti__populacao_rural,População Rural,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,1.574199997874788,2040,32.56757805619808
+Juruti,dados_juruti__populacao_urbana,População Urbana,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.1166439869387699,2030,34.881103146008286
+Juruti,dados_juruti__populacao_urbana,População Urbana,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.1166439869387699,2040,41.46916795457682
+Juruti,dados_juruti__populacao_com_superior_completo,População com Superior Completo,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,556.8938166120843,2030,340.475297183029
+Juruti,dados_juruti__populacao_com_superior_completo,População com Superior Completo,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,556.8938166120843,2040,338.6704531714537
+Juruti,dados_juruti__populacao_de_homens,População de Homens,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.600516816606845,2030,34.23207359281378
+Juruti,dados_juruti__populacao_de_homens,População de Homens,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.600516816606845,2040,39.67176761378748
+Juruti,dados_juruti__populacao_de_mulheres,População de Mulheres,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.573465380939427,2030,33.14449251329347
+Juruti,dados_juruti__populacao_de_mulheres,População de Mulheres,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.573465380939427,2040,38.458293336684946
+Juruti,dados_juruti__proporcao_na_populacao_de_juruti,Proporção na população de Juruti,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,1.0889556679896635,2030,2.4116062433546652
+Juruti,dados_juruti__proporcao_na_populacao_de_juruti,Proporção na população de Juruti,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,1.0889556679896635,2040,2.4071637199133344
+Juruti,dados_juruti__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.13953531321433368,2030,103.23488803741617
+Juruti,dados_juruti__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.13953531321433368,2040,103.02025421494271
+Juruti,dados_juruti__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,168.97677518220118,2030,997.6527357809314
+Juruti,dados_juruti__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,168.97677518220118,2040,1262.9085929230632
+Juruti,dados_juruti__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,0.6405966878617733,2030,33.23823680089972
+Juruti,dados_juruti__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_juruti,Grupo 2 — 3 censos,identity,lbfgs,True,0.6405966878617733,2040,24.430558419790835
+Juruti,dados_juruti__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752057,2030,16.719583574092233
+Juruti,dados_juruti__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.2274886970752057,2040,19.56827596477188
+Juruti,dados_juruti__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.6096659538592846,2030,26.576318068940378
+Juruti,dados_juruti__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.6096659538592846,2040,30.435018029616835
+Juruti,dados_juruti__responsavel_homem,Responsável Homem,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.21861191472810804,2030,3.415867402756271
+Juruti,dados_juruti__responsavel_homem,Responsável Homem,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.21861191472810804,2040,3.0271315082713377
+Juruti,dados_juruti__responsavel_mulher,Responsável Mulher,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Juruti,dados_juruti__responsavel_mulher,Responsável Mulher,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Juruti,dados_juruti__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Juruti,dados_juruti__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_juruti,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Juruti,dados_juruti__setor_privado,Setor privado,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.24202238169346968,2030,19.206142806996198
+Juruti,dados_juruti__setor_privado,Setor privado,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.24202238169346968,2040,24.635269776203607
+Juruti,dados_juruti__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_juruti,Grupo 2 — 3 censos,tanh,adam,True,540.0451566704504,2030,2.9734239800454247
+Juruti,dados_juruti__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_juruti,Grupo 2 — 3 censos,tanh,adam,True,540.0451566704504,2040,31.469655341623252
+Juruti,dados_juruti__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.6476642767067972,2030,8.16041881679981
+Juruti,dados_juruti__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.6476642767067972,2040,10.215068271834305
+Juruti,dados_juruti__setor_publico,Setor público,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.06351770376703418,2030,5.571194420687666
+Juruti,dados_juruti__setor_publico,Setor público,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.06351770376703418,2040,7.046143064753117
+Juruti,dados_juruti__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2030,417.5897707008036
+Juruti,dados_juruti__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,sgd,True,12.148323293222765,2040,551.1128365593339
+Juruti,dados_juruti__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.07572419427172143,2030,5.1618467404978325
+Juruti,dados_juruti__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,0.07572419427172143,2040,6.509829910413778
+Juruti,dados_juruti__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.5550103965974753,2030,53.48490402062821
+Juruti,dados_juruti__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_juruti,Grupo 2 — 3 censos,identity,adam,True,1.5550103965974753,2040,64.69407508712523
+Juruti,dados_juruti__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_juruti,Grupo 2 — 3 censos,logistic,adam,True,4.977509876782368,2030,98.53056938956125
+Juruti,dados_juruti__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_juruti,Grupo 2 — 3 censos,logistic,adam,True,4.977509876782368,2040,99.33344924857033
+Juruti,dados_juruti__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_juruti,Grupo 2 — 3 censos,logistic,lbfgs,True,5.742763143692386,2030,94.46118210699353
+Juruti,dados_juruti__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_juruti,Grupo 2 — 3 censos,logistic,lbfgs,True,5.742763143692386,2040,94.74358729129582
+Juruti,dados_juruti__trabalhador_domestico,Trabalhador doméstico,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,516.9698494430289,2030,469.4046833179218
+Juruti,dados_juruti__trabalhador_domestico,Trabalhador doméstico,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,516.9698494430289,2040,467.3993263329171
+Juruti,dados_juruti__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,21.335015528199552,2030,404.2141363443257
+Juruti,dados_juruti__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_juruti,Grupo 2 — 3 censos,identity,adam,True,21.335015528199552,2040,526.8189889795276
+Juruti,dados_juruti__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,429.7009983320604,2030,405.5666832040685
+Juruti,dados_juruti__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_juruti,Grupo 2 — 3 censos,logistic,sgd,True,429.7009983320604,2040,403.8579841177857
+Juruti,dados_juruti__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,4.445385861779621,2030,26.74589790206035
+Juruti,dados_juruti__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_juruti,Grupo 2 — 3 censos,relu,lbfgs,True,4.445385861779621,2040,33.80586715162441
+Juruti,dados_juruti__a_pe,A pé,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.461439356489244
+Juruti,dados_juruti__a_pe,A pé,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.659385698602616
+Juruti,dados_juruti__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.93348382215797
+Juruti,dados_juruti__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.41451586812878
+Juruti,dados_juruti__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.328524845917215
+Juruti,dados_juruti__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.06675254999422
+Juruti,dados_juruti__automovel_onibus,Automóvel / Ônibus,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.585549775827246
+Juruti,dados_juruti__automovel_onibus,Automóvel / Ônibus,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.264971875775522
+Juruti,dados_juruti__bicicleta,Bicicleta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.680874743195368
+Juruti,dados_juruti__bicicleta,Bicicleta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.2445875833237103
+Juruti,dados_juruti__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.79724539510761
+Juruti,dados_juruti__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.86605865647101
+Juruti,dados_juruti__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.79437792359676
+Juruti,dados_juruti__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.82123041184542
+Juruti,dados_juruti__com_coleta_de_lixo,Com Coleta de Lixo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.64799047963996
+Juruti,dados_juruti__com_coleta_de_lixo,Com Coleta de Lixo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.00498744290154
+Juruti,dados_juruti__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6420298033812932
+Juruti,dados_juruti__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6935571514572215
+Juruti,dados_juruti__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.91378925376738
+Juruti,dados_juruti__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.937220731932086
+Juruti,dados_juruti__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.166685477769745
+Juruti,dados_juruti__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.351814483516097
+Juruti,dados_juruti__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3463874439568126
+Juruti,dados_juruti__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.0162429689438808
+Juruti,dados_juruti__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.208715281151036
+Juruti,dados_juruti__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,33.44537163497332
+Juruti,dados_juruti__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.9479602326233465
+Juruti,dados_juruti__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.0519544347153236
+Juruti,dados_juruti__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.883697809664735
+Juruti,dados_juruti__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.618578159718208
+Juruti,dados_juruti__estuda_em_outro_municipio,Estuda em outro município,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.892774887913625
+Juruti,dados_juruti__estuda_em_outro_municipio,Estuda em outro município,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.23248593788776
+Juruti,dados_juruti__estuda_no_proprio_municipio_juruti,Estuda no próprio município (Juruti),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.41504572205133
+Juruti,dados_juruti__estuda_no_proprio_municipio_juruti,Estuda no próprio município (Juruti),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.05932128610695
+Juruti,dados_juruti__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.26387443956813
+Juruti,dados_juruti__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.96242968943881
+Juruti,dados_juruti__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.44200396978312
+Juruti,dados_juruti__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.274183813881516
+Juruti,dados_juruti__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.33337095553951
+Juruti,dados_juruti__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.70362896703222
+Juruti,dados_juruti__idade_mediana_2,Idade Mediana,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.68119213525173
+Juruti,dados_juruti__idade_mediana_2,Idade Mediana,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.742286058288865
+Juruti,dados_juruti__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.50435764057552
+Juruti,dados_juruti__mais_de_1_hora_deslocamento_rodoviario_fluvia,Mais de 1 hora (Deslocamento rodoviário/fluvial intermunicipal),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.12268581748666
+Juruti,dados_juruti__motocicleta,Motocicleta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.1710995516545
+Juruti,dados_juruti__motocicleta,Motocicleta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.52994375155105
+Juruti,dados_juruti__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.092787268875824
+Juruti,dados_juruti__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.200128824991324
+Juruti,dados_juruti__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Juruti,dados_juruti__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Juruti,dados_juruti__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.049311348776904
+Juruti,dados_juruti__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.316514664117747
+Juruti,dados_juruti__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.78853011395658
+Juruti,dados_juruti__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.62068702149769
+Juruti,dados_juruti__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-422.53974479105904
+Juruti,dados_juruti__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-982.6222899154368
+Juruti,dados_juruti__populacao_amarela_2,População Amarela,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.101490169064665
+Juruti,dados_juruti__populacao_amarela_2,População Amarela,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.67785757286108
+Juruti,dados_juruti__populacao_branca_2,População Branca,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,192.02980338129328
+Juruti,dados_juruti__populacao_branca_2,População Branca,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,243.5571514572216
+Juruti,dados_juruti__populacao_indigena_2,População Indígena,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.50745084532332
+Juruti,dados_juruti__populacao_indigena_2,População Indígena,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.3892878643054
+Juruti,dados_juruti__populacao_parda_2,População Parda,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-347.57900030543135
+Juruti,dados_juruti__populacao_parda_2,População Parda,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-808.2952766259547
+Juruti,dados_juruti__populacao_preta_2,População Preta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,167.82682304316393
+Juruti,dados_juruti__populacao_preta_2,População Preta,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,214.20143631149944
+Juruti,dados_juruti__populacao_residente_em_favelas,População Residente em Favelas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-422.53974479105904
+Juruti,dados_juruti__populacao_residente_em_favelas,População Residente em Favelas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-982.6222899154368
+Juruti,dados_juruti__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4884172473381057
+Juruti,dados_juruti__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.209800120401102
+Juruti,dados_juruti__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.74043737159768
+Juruti,dados_juruti__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.02229379166185
+Juruti,dados_juruti__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4194353867061262
+Juruti,dados_juruti__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.7852018847210993
+Juruti,dados_juruti__ruas_sem_arvores,Ruas Sem Árvores,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.08965407250497
+Juruti,dados_juruti__ruas_sem_arvores,Ruas Sem Árvores,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.096348780552027
+Juruti,dados_juruti__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.32465567438845
+Juruti,dados_juruti__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.45825733205888
+Juruti,dados_juruti__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.649311348776905
+Juruti,dados_juruti__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.99426505697829
+Juruti,dados_juruti__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.916514664117752
+Juruti,dados_juruti__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.910343510748845
+Juruti,dados_juruti__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.89002028302124
+Juruti,dados_juruti__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.51318578834503
+Juruti,dados_juruti__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.29854459435876
+Juruti,dados_juruti__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.47894435355657
+Juruti,dados_juruti__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Juruti,dados_juruti__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Juruti,dados_juruti__sem_conjuge,Sem cônjuge,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.39426505697829
+Juruti,dados_juruti__sem_conjuge,Sem cônjuge,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.310343510748844
+Juruti,dados_juruti__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.59139758546743
+Juruti,dados_juruti__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.46551526612326
+Juruti,dados_juruti__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,657.1043118345265
+Juruti,dados_juruti__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,837.4500301002756
+Juruti,dados_juruti__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.16525174201432
+Juruti,dados_juruti__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.329400361203305
+Juruti,dados_juruti__trabalha_em_outro_municipio_ex_santarem_obido,Trabalha em outro município (ex: Santarém / Óbidos / Parintins),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.724655674388453
+Juruti,dados_juruti__trabalha_em_outro_municipio_ex_santarem_obido,Trabalha em outro município (ex: Santarém / Óbidos / Parintins),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.858257332058876
+Juruti,dados_juruti__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Juruti),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.68965407250496
+Juruti,dados_juruti__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Juruti),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.69634878055203
+Juruti,dados_juruti__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.753668989352423
+Juruti,dados_juruti__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.639200481604412
+Juruti,dados_juruti__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.536351293668815
+Juruti,dados_juruti__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.059344112754346
+Juruti,dados_juruti__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8101490169064665
+Juruti,dados_juruti__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.067785757286108
+Juruti,dados_juruti__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.318920731366738
+Juruti,dados_juruti__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.36860084280771
+Juruti,dados_juruti__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.20596067625865
+Juruti,dados_juruti__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.51143029144431
+Juruti,dados_juruti__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.91599682654665
+Juruti,dados_juruti__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_juruti,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.368329147633847
