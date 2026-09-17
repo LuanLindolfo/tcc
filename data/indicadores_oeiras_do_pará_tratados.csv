@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Oeiras do Pará,dados_oeiras_do_para__populacao_total,População Total,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,adam,True,1.069032738127758,1991,21.28,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_total,População Total,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,adam,True,1.069032738127758,2000,24.536,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_total,População Total,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,adam,True,1.069032738127758,2010,28.595,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_total,População Total,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,adam,True,1.069032738127758,2022,28.643,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_urbana,População Urbana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.7076858201641301,2000,7.42,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_urbana,População Urbana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.7076858201641301,2010,9.84,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_urbana,População Urbana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.7076858201641301,2022,11.24,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_rural,População Rural,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0040793931436613,2000,17.116,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_rural,População Rural,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0040793931436613,2010,18.755,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_rural,População Rural,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0040793931436613,2022,17.403,Valor
+Oeiras do Pará,dados_oeiras_do_para__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,920.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_mulheres,População de Mulheres,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0152440020352713,2000,11.82,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_mulheres,População de Mulheres,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0152440020352713,2010,13.82,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_mulheres,População de Mulheres,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0152440020352713,2022,13.98,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_homens,População de Homens,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2048873937261153,2000,12.716,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_homens,População de Homens,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2048873937261153,2010,14.775,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_de_homens,População de Homens,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2048873937261153,2022,14.663,Valor
+Oeiras do Pará,dados_oeiras_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5774565481964231,2000,107.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5774565481964231,2010,106.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5774565481964231,2022,104.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__idade_mediana,Idade Mediana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.202794852610334,2000,18.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__idade_mediana,Idade Mediana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.202794852610334,2010,20.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__idade_mediana,Idade Mediana,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.202794852610334,2022,26.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,4.898607516430949,2000,4.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,4.898607516430949,2010,6.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,4.898607516430949,2022,18.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_parda,População Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.0856341130750686,2000,19.82,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_parda,População Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.0856341130750686,2010,23.94,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_parda,População Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.0856341130750686,2022,24.28,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_branca,População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,0.22350978806338592,2000,3.42,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_branca,População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,0.22350978806338592,2010,2.92,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_branca,População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,0.22350978806338592,2022,2.84,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_preta,População Preta,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2396195849444888,2000,1.22,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_preta,População Preta,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2396195849444888,2010,1.68,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_preta,População Preta,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2396195849444888,2022,1.48,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_amarela,População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.9224707247173853,2000,38.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_amarela,População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.9224707247173853,2010,24.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_amarela,População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.9224707247173853,2022,16.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena,População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2000,38.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena,População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2010,31.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena,População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2022,27.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,78.07369272027404,2000,74.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,78.07369272027404,2010,198.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,78.07369272027404,2022,450.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2000,96.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2010,95.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2022,93.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__2_trabalhos,2 trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504601,2000,2.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__2_trabalhos,2 trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504601,2010,3.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__2_trabalhos,2 trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504601,2022,5.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2000,0.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2010,0.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2022,0.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado,Setor privado,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,539.1752058794126,2000,980.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado,Setor privado,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,539.1752058794126,2010,2.42,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado,Setor privado,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,539.1752058794126,2022,3.28,Valor
+Oeiras do Pará,dados_oeiras_do_para__conta_propria,Conta própria,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.0849233427276037,2000,5.42,Valor
+Oeiras do Pará,dados_oeiras_do_para__conta_propria,Conta própria,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.0849233427276037,2010,8.12,Valor
+Oeiras do Pará,dados_oeiras_do_para__conta_propria,Conta própria,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.0849233427276037,2022,9.14,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico,Setor público,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.3293831550679,2000,780.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico,Setor público,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.3293831550679,2010,1.52,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico,Setor público,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.3293831550679,2022,2.14,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalhador_domestico,Trabalhador doméstico,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,63.43637243416621,2000,180.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalhador_domestico,Trabalhador doméstico,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,63.43637243416621,2010,380.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalhador_domestico,Trabalhador doméstico,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,63.43637243416621,2022,480.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__empregador,Empregador,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,33.44930604037477,2000,60.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__empregador,Empregador,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,33.44930604037477,2010,180.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__empregador,Empregador,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,33.44930604037477,2022,280.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.08846353849390025,2000,3.12,Valor
+Oeiras do Pará,dados_oeiras_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.08846353849390025,2010,2.14,Valor
+Oeiras do Pará,dados_oeiras_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.08846353849390025,2022,1.08,Valor
+Oeiras do Pará,dados_oeiras_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,18.024989133761494,2000,20.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,18.024989133761494,2010,40.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,18.024989133761494,2022,90.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,523.7253923637129,2000,280.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,523.7253923637129,2010,920.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,523.7253923637129,2022,1.48,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,385.0860362210104,2000,700.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,385.0860362210104,2010,1.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,385.0860362210104,2022,1.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2000,10.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2010,30.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2022,70.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,423.81411945239716,2000,770.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,423.81411945239716,2010,1.49,Valor
+Oeiras do Pará,dados_oeiras_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_oeiras_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,423.81411945239716,2022,2.07,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2000,10.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2010,30.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2022,60.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,70.94317851598356,2000,170.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,70.94317851598356,2010,350.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,70.94317851598356,2022,420.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.381617849172711,1991,36.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.381617849172711,2000,56.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.381617849172711,2010,71.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.381617849172711,2022,80.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.518032312245552,2000,74.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.518032312245552,2010,86.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.518032312245552,2022,93.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.2455015629047097,2000,11.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.2455015629047097,2010,20.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.2455015629047097,2022,29.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2000,66.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2010,82.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2022,90.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_com_superior_completo,População com Superior Completo,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,205.26255160563986,2000,30.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_com_superior_completo,População com Superior Completo,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,205.26255160563986,2010,220.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_com_superior_completo,População com Superior Completo,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,205.26255160563986,2022,780.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.14160668438998614,1991,1.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.14160668438998614,2000,2.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.14160668438998614,2010,4.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.14160668438998614,2022,5.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.08380987685808344,1991,1.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.08380987685808344,2000,2.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.08380987685808344,2010,4.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.08380987685808344,2022,6.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.19948132641415753,1991,0.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.19948132641415753,2000,2.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.19948132641415753,2010,3.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_oeiras_do_para,Grupo 1 — 4 censos,4,identity,adam,True,0.19948132641415753,2022,5.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06106506574768596,1991,0.084,Valor
+Oeiras do Pará,dados_oeiras_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06106506574768596,2000,0.198,Valor
+Oeiras do Pará,dados_oeiras_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06106506574768596,2010,0.402,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2000,66.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2010,82.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.755800272610979,2022,90.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.591749309692364,2000,30.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.591749309692364,2010,46.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,4.591749309692364,2022,59.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680248,2000,5.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680248,2010,10.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680248,2022,15.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_amarela,Média: População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2000,2.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_amarela,Média: População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2010,4.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_amarela,Média: População Amarela,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2022,6.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_branca,Média: População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572011,2000,2.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_branca,Média: População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572011,2010,4.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_branca,Média: População Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572011,2022,6.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2000,2.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2010,4.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2022,5.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_indigena,Média: População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2000,1.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_indigena,Média: População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2010,2.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_populacao_indigena,Média: População Indígena,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336723,2022,4.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,920.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,90.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,260.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__idade_mediana_2,Idade Mediana,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__idade_mediana_2,Idade Mediana,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,106.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,103.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_parda_2,População Parda,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,320.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_parda_2,População Parda,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,780.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_branca_2,População Branca,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_branca_2,População Branca,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_preta_2,População Preta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_preta_2,População Preta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_amarela_2,População Amarela,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_amarela_2,População Amarela,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena_2,População Indígena,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena_2,População Indígena,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_coleta_de_lixo,Com Coleta de Lixo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_coleta_de_lixo,Com Coleta de Lixo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,75.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos,Casais com filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7692765440017457,2000,72.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos,Casais com filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7692765440017457,2010,61.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos,Casais com filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.7692765440017457,2022,51.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_sem_filhos,Casais sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2000,4.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_sem_filhos,Casais sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2010,6.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_sem_filhos,Casais sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2022,9.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2000,14.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2010,18.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2022,24.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.18270221474525897,2000,3.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.18270221474525897,2010,4.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.18270221474525897,2022,4.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4622548869726521,2000,9.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4622548869726521,2010,9.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4622548869726521,2022,9.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2000,4.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2010,6.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2022,5.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2903896339681316,2000,1.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2903896339681316,2010,2.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2903896339681316,2022,2.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_no_proprio_municipio_de_residencia_o,Trabalha no próprio município de residência (Oeiras do Pará),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,92.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_no_proprio_municipio_de_residencia_o,Trabalha no próprio município de residência (Oeiras do Pará),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_em_outro_municipio_ex_cameta_abaetet,Trabalha em outro município (ex: Cametá / Abaetetuba / Belém),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__trabalha_em_outro_municipio_ex_cameta_abaetet,Trabalha em outro município (ex: Cametá / Abaetetuba / Belém),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__a_pe,A pé,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__a_pe,A pé,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__motocicleta,Motocicleta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__motocicleta,Motocicleta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__bicicleta,Bicicleta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__bicicleta,Bicicleta,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__automovel_onibus,Automóvel / Ônibus,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__automovel_onibus,Automóvel / Ônibus,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__estuda_no_proprio_municipio_oeiras_do_para,Estuda no próprio município (Oeiras do Pará),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__estuda_no_proprio_municipio_oeiras_do_para,Estuda no próprio município (Oeiras do Pará),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__estuda_em_outro_municipio_ex_cameta_belem,Estuda em outro município (ex: Cametá / Belém),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__estuda_em_outro_municipio_ex_cameta_belem,Estuda em outro município (ex: Cametá / Belém),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2866768737183454,1991,3.62,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2866768737183454,2000,4.82,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2866768737183454,2010,6.92,Valor
+Oeiras do Pará,dados_oeiras_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.2866768737183454,2022,8.48,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20665560081221157,1991,3.48,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20665560081221157,2000,4.66,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20665560081221157,2010,6.78,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.20665560081221157,2022,8.32,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,sgd,True,13.372908150572854,1991,140.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,sgd,True,13.372908150572854,2000,160.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,sgd,True,13.372908150572854,2010,140.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,sgd,True,13.372908150572854,2022,160.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.08533209933376595,1991,5.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.08533209933376595,2000,5.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.08533209933376595,2010,4.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_oeiras_do_para,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.08533209933376595,2022,3.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,84.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,90.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena_total,População Indígena Total,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2000,38.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena_total,População Indígena Total,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2010,31.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__populacao_indigena_total,População Indígena Total,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.9612353623586927,2022,27.0,Valor
+Oeiras do Pará,dados_oeiras_do_para__proporcao_na_populacao_de_oeiras_do_para,Proporção na população de Oeiras do Pará,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.013120827537430926,2000,0.15,Valor
+Oeiras do Pará,dados_oeiras_do_para__proporcao_na_populacao_de_oeiras_do_para,Proporção na população de Oeiras do Pará,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.013120827537430926,2010,0.11,Valor
+Oeiras do Pará,dados_oeiras_do_para__proporcao_na_populacao_de_oeiras_do_para,Proporção na população de Oeiras do Pará,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.013120827537430926,2022,0.09,Valor
+Oeiras do Pará,dados_oeiras_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.6,Valor
+Oeiras do Pará,dados_oeiras_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2000,14.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2010,18.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.4618811465121102,2022,24.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2000,63.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2010,50.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2022,40.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2000,4.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2010,6.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2022,9.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__sem_conjuge,Sem cônjuge,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.1,Valor
+Oeiras do Pará,dados_oeiras_do_para__sem_conjuge,Sem cônjuge,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_oeiras_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.9,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_mulher,Responsável Mulher,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_mulher,Responsável Mulher,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_mulher,Responsável Mulher,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_homem,Responsável Homem,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2000,5.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_homem,Responsável Homem,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2010,4.5,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_homem,Responsável Homem,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2022,3.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.3,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.7,Valor
+Oeiras do Pará,dados_oeiras_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_oeiras_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428340004,2000,9.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428340004,2010,13.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.15113227428340004,2022,17.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2000,11.8,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2010,16.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2022,21.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.714925933802853,2000,60.2,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.714925933802853,2010,46.4,Valor
+Oeiras do Pará,dados_oeiras_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_oeiras_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.714925933802853,2022,33.4,Valor
