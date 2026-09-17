@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Rurópolis,dados_ruropolis__anos_de_estudo_media,Anos de Estudo (Média),dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.21122932712278042,2030,8.664085371548898
+Rurópolis,dados_ruropolis__anos_de_estudo_media,Anos de Estudo (Média),dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.21122932712278042,2040,10.494713389171709
+Rurópolis,dados_ruropolis__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ruropolis,Grupo 1 — 4 censos,logistic,sgd,True,40.44183532138554,2030,200.406657767663
+Rurópolis,dados_ruropolis__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ruropolis,Grupo 1 — 4 censos,logistic,sgd,True,40.44183532138554,2040,200.30180355901336
+Rurópolis,dados_ruropolis__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ruropolis,Grupo 1 — 4 censos,tanh,adam,True,0.8393178829537773,2030,11.97507471440158
+Rurópolis,dados_ruropolis__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ruropolis,Grupo 1 — 4 censos,tanh,adam,True,0.8393178829537773,2040,12.063282576257738
+Rurópolis,dados_ruropolis__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696677,2030,8.079670682386345
+Rurópolis,dados_ruropolis__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696677,2040,9.813628795262852
+Rurópolis,dados_ruropolis__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.224699629207536,2030,9.248500055202074
+Rurópolis,dados_ruropolis__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ruropolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.224699629207536,2040,11.17579798104796
+Rurópolis,dados_ruropolis__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ruropolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.08683065338465923,2030,3.0743125000748663
+Rurópolis,dados_ruropolis__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ruropolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.08683065338465923,2040,2.9309924786715484
+Rurópolis,dados_ruropolis__populacao_total,População Total,dados_ruropolis,Grupo 1 — 4 censos,tanh,sgd,True,5.3407187949778345,2030,37.7117048567021
+Rurópolis,dados_ruropolis__populacao_total,População Total,dados_ruropolis,Grupo 1 — 4 censos,tanh,sgd,True,5.3407187949778345,2040,37.27806461237757
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ruropolis,Grupo 1 — 4 censos,logistic,lbfgs,True,4.827790533266247,2030,88.04216495188544
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ruropolis,Grupo 1 — 4 censos,logistic,lbfgs,True,4.827790533266247,2040,89.61060685532215
+Rurópolis,dados_ruropolis__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ruropolis,Grupo 1 — 4 censos,tanh,adam,True,0.8474539072274256,2030,12.196358033964179
+Rurópolis,dados_ruropolis__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ruropolis,Grupo 1 — 4 censos,tanh,adam,True,0.8474539072274256,2040,12.279473768432135
+Rurópolis,dados_ruropolis__2_trabalhos,2 trabalhos,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.959346016908252,2030,8.380148817270852
+Rurópolis,dados_ruropolis__2_trabalhos,2 trabalhos,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.959346016908252,2040,9.881832564157264
+Rurópolis,dados_ruropolis__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2030,0.8266041579919954
+Rurópolis,dados_ruropolis__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2040,0.8371422561639152
+Rurópolis,dados_ruropolis__apenas_1_trabalho,Apenas 1 trabalho,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.8828005734134573,2030,90.39189718268563
+Rurópolis,dados_ruropolis__apenas_1_trabalho,Apenas 1 trabalho,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.8828005734134573,2040,88.20864853792027
+Rurópolis,dados_ruropolis__casais_com_filhos,Casais com filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.714927537726119,2030,39.900639904736096
+Rurópolis,dados_ruropolis__casais_com_filhos,Casais com filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.714927537726119,2040,30.263233001475886
+Rurópolis,dados_ruropolis__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2030,8.66819763601095
+Rurópolis,dados_ruropolis__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2040,8.666983373481925
+Rurópolis,dados_ruropolis__casais_sem_filhos,Casais sem filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279124,2030,13.975584224910577
+Rurópolis,dados_ruropolis__casais_sem_filhos,Casais sem filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279124,2040,16.887984533249238
+Rurópolis,dados_ruropolis__conta_propria,Conta própria,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.567453010246668,2030,7.823897510259064
+Rurópolis,dados_ruropolis__conta_propria,Conta própria,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.567453010246668,2040,7.752008481725167
+Rurópolis,dados_ruropolis__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,23.047045767201872
+Rurópolis,dados_ruropolis__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,27.140508541356812
+Rurópolis,dados_ruropolis__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2030,26.342638451908485
+Rurópolis,dados_ruropolis__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2040,30.68274897805368
+Rurópolis,dados_ruropolis__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.318362168894558,2030,16.557808402022413
+Rurópolis,dados_ruropolis__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.318362168894558,2040,3.777579312869001
+Rurópolis,dados_ruropolis__empregador,Empregador,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,57.756915629735694,2030,885.2666792659078
+Rurópolis,dados_ruropolis__empregador,Empregador,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,57.756915629735694,2040,1128.8556190949105
+Rurópolis,dados_ruropolis__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,7.129168982545342,2030,96.65122627311504
+Rurópolis,dados_ruropolis__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,7.129168982545342,2040,97.78030431308143
+Rurópolis,dados_ruropolis__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,4.930875334844714,2030,73.38893953765391
+Rurópolis,dados_ruropolis__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,4.930875334844714,2040,79.41819913121137
+Rurópolis,dados_ruropolis__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.850766335627636,2030,24.59880453209422
+Rurópolis,dados_ruropolis__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.850766335627636,2040,29.656224110756703
+Rurópolis,dados_ruropolis__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.057034356672806485,2030,0.878632216334745
+Rurópolis,dados_ruropolis__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.057034356672806485,2040,1.0743542624470885
+Rurópolis,dados_ruropolis__idade_mediana,Idade Mediana,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,30.955643986961604
+Rurópolis,dados_ruropolis__idade_mediana,Idade Mediana,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,35.06293528986165
+Rurópolis,dados_ruropolis__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,15.231770275855817,2030,204.53843659597328
+Rurópolis,dados_ruropolis__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,15.231770275855817,2040,263.65858845516846
+Rurópolis,dados_ruropolis__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2030,24.166677544421326
+Rurópolis,dados_ruropolis__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2040,27.90049494975556
+Rurópolis,dados_ruropolis__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6682029163512503,2030,5.146361697932254
+Rurópolis,dados_ruropolis__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6682029163512503,2040,5.11732962147059
+Rurópolis,dados_ruropolis__media_populacao_amarela,Média: População Amarela,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172827,2030,8.424118479013327
+Rurópolis,dados_ruropolis__media_populacao_amarela,Média: População Amarela,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172827,2040,9.433400664408678
+Rurópolis,dados_ruropolis__media_populacao_branca,Média: População Branca,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2030,9.027828091854666
+Rurópolis,dados_ruropolis__media_populacao_branca,Média: População Branca,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2040,10.831552920500318
+Rurópolis,dados_ruropolis__media_populacao_indigena,Média: População Indígena,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.34955360212208086,2030,6.726244088120604
+Rurópolis,dados_ruropolis__media_populacao_indigena,Média: População Indígena,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.34955360212208086,2040,8.305428803558554
+Rurópolis,dados_ruropolis__media_populacao_preta_parda,Média: População Preta / Parda,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.4712233643439041,2030,8.327828091854666
+Rurópolis,dados_ruropolis__media_populacao_preta_parda,Média: População Preta / Parda,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.4712233643439041,2040,10.131552920500315
+Rurópolis,dados_ruropolis__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,354.9006461445031,2030,815.3825938099003
+Rurópolis,dados_ruropolis__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,354.9006461445031,2040,853.1614205450428
+Rurópolis,dados_ruropolis__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ruropolis,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.568974426752009
+Rurópolis,dados_ruropolis__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ruropolis,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.902782091398334
+Rurópolis,dados_ruropolis__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.18270221474525927,2030,2.69556439869616
+Rurópolis,dados_ruropolis__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.18270221474525927,2040,3.1062935289861646
+Rurópolis,dados_ruropolis__populacao_amarela,População Amarela,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,7.823166345873241,2030,19.90761663129973
+Rurópolis,dados_ruropolis__populacao_amarela,População Amarela,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,7.823166345873241,2040,9.696329355809006
+Rurópolis,dados_ruropolis__populacao_branca,População Branca,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,0.973438201423671,2030,6.459323691990411
+Rurópolis,dados_ruropolis__populacao_branca,População Branca,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,0.973438201423671,2040,6.4564223150255895
+Rurópolis,dados_ruropolis__populacao_indigena,População Indígena,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,27.88053240209509,2030,287.64675049060224
+Rurópolis,dados_ruropolis__populacao_indigena,População Indígena,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,27.88053240209509,2040,320.8906443874698
+Rurópolis,dados_ruropolis__populacao_indigena_total,População Indígena Total,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,27.88053240209509,2030,287.64675049060224
+Rurópolis,dados_ruropolis__populacao_indigena_total,População Indígena Total,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,27.88053240209509,2040,320.8906443874698
+Rurópolis,dados_ruropolis__populacao_parda,População Parda,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,7.246330099750203,2030,24.74702162386304
+Rurópolis,dados_ruropolis__populacao_parda,População Parda,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,7.246330099750203,2040,24.72904836334593
+Rurópolis,dados_ruropolis__populacao_preta,População Preta,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8338015115432874,2030,2.415051343089657
+Rurópolis,dados_ruropolis__populacao_preta,População Preta,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8338015115432874,2040,2.3781755277671395
+Rurópolis,dados_ruropolis__populacao_rural,População Rural,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,2.5848009042892905,2030,15.685271092778546
+Rurópolis,dados_ruropolis__populacao_rural,População Rural,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,2.5848009042892905,2040,15.6774815240241
+Rurópolis,dados_ruropolis__populacao_urbana,População Urbana,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,6.3449580083193835,2030,17.840862126846847
+Rurópolis,dados_ruropolis__populacao_urbana,População Urbana,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,6.3449580083193835,2040,17.825712148328087
+Rurópolis,dados_ruropolis__populacao_com_superior_completo,População com Superior Completo,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,335.58106970160304,2030,208.843597991226
+Rurópolis,dados_ruropolis__populacao_com_superior_completo,População com Superior Completo,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,335.58106970160304,2040,207.7496781979
+Rurópolis,dados_ruropolis__populacao_de_homens,População de Homens,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,4.436115431621773,2030,17.25032366002504
+Rurópolis,dados_ruropolis__populacao_de_homens,População de Homens,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,4.436115431621773,2040,17.238874120215606
+Rurópolis,dados_ruropolis__populacao_de_mulheres,População de Mulheres,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,4.404123156994694,2030,16.27258459520775
+Rurópolis,dados_ruropolis__populacao_de_mulheres,População de Mulheres,dados_ruropolis,Grupo 2 — 3 censos,logistic,sgd,True,4.404123156994694,2040,16.261585981480643
+Rurópolis,dados_ruropolis__proporcao_na_populacao_de_ruropolis,Proporção na população de Rurópolis,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.08811179410441329,2030,0.8436416305779038
+Rurópolis,dados_ruropolis__proporcao_na_populacao_de_ruropolis,Proporção na população de Rurópolis,dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.08811179410441329,2040,0.9805359693882765
+Rurópolis,dados_ruropolis__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.13683046164557786,2030,102.92320968084135
+Rurópolis,dados_ruropolis__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.13683046164557786,2040,101.21380543006168
+Rurópolis,dados_ruropolis__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,105.2972447172428,2030,789.9455462782782
+Rurópolis,dados_ruropolis__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,105.2972447172428,2040,1026.1646912204503
+Rurópolis,dados_ruropolis__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.9894713125264736,2030,34.845648123846985
+Rurópolis,dados_ruropolis__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.9894713125264736,2040,25.076360899476075
+Rurópolis,dados_ruropolis__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279124,2030,13.975584224910577
+Rurópolis,dados_ruropolis__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279124,2040,16.887984533249238
+Rurópolis,dados_ruropolis__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2030,24.166677544421326
+Rurópolis,dados_ruropolis__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2040,27.90049494975556
+Rurópolis,dados_ruropolis__responsavel_homem,Responsável Homem,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408474,2030,2.846117725698341
+Rurópolis,dados_ruropolis__responsavel_homem,Responsável Homem,dados_ruropolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408474,2040,2.076883570296102
+Rurópolis,dados_ruropolis__responsavel_mulher,Responsável Mulher,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Rurópolis,dados_ruropolis__responsavel_mulher,Responsável Mulher,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Rurópolis,dados_ruropolis__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Rurópolis,dados_ruropolis__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Rurópolis,dados_ruropolis__setor_privado,Setor privado,dados_ruropolis,Grupo 2 — 3 censos,logistic,lbfgs,True,1.335117981757559,2030,6.39657863220154
+Rurópolis,dados_ruropolis__setor_privado,Setor privado,dados_ruropolis,Grupo 2 — 3 censos,logistic,lbfgs,True,1.335117981757559,2040,6.467178879986823
+Rurópolis,dados_ruropolis__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,340.8640270358999,2030,-1.0085212715113698
+Rurópolis,dados_ruropolis__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,340.8640270358999,2040,16.96037209939496
+Rurópolis,dados_ruropolis__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.7548820970713348,2030,3.078820589697842
+Rurópolis,dados_ruropolis__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,tanh,lbfgs,True,0.7548820970713348,2040,3.050765333843569
+Rurópolis,dados_ruropolis__setor_publico,Setor público,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,539.2454714220772,2030,-3.8450342090091
+Rurópolis,dados_ruropolis__setor_publico,Setor público,dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,539.2454714220772,2040,24.585821023184053
+Rurópolis,dados_ruropolis__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,identity,sgd,True,6.074161646611382,2030,213.7948853504018
+Rurópolis,dados_ruropolis__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,identity,sgd,True,6.074161646611382,2040,280.55641827966696
+Rurópolis,dados_ruropolis__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,528.2259655906172,2030,-3.8805798763919483
+Rurópolis,dados_ruropolis__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ruropolis,Grupo 2 — 3 censos,tanh,adam,True,528.2259655906172,2040,23.969683579738955
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8800971334141963,2030,44.335139311138875
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,0.8800971334141963,2040,53.557216565285486
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,4.913669212760183,2030,98.87949471056729
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,4.913669212760183,2040,99.72811632921845
+Rurópolis,dados_ruropolis__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,7.129168982545342,2030,96.65122627311504
+Rurópolis,dados_ruropolis__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,7.129168982545342,2040,97.78030431308143
+Rurópolis,dados_ruropolis__trabalhador_domestico,Trabalhador doméstico,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,76.12364692099948,2030,693.763471942023
+Rurópolis,dados_ruropolis__trabalhador_domestico,Trabalhador doméstico,dados_ruropolis,Grupo 2 — 3 censos,relu,adam,True,76.12364692099948,2040,755.3391547103629
+Rurópolis,dados_ruropolis__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,7.62247085167878,2030,182.1825763972987
+Rurópolis,dados_ruropolis__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,identity,adam,True,7.62247085167878,2040,236.64125899426972
+Rurópolis,dados_ruropolis__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,86.08039205001289,2030,540.3048191982863
+Rurópolis,dados_ruropolis__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ruropolis,Grupo 2 — 3 censos,logistic,adam,True,86.08039205001289,2040,552.9970232472814
+Rurópolis,dados_ruropolis__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,5.31038525230981,2030,26.513701903102366
+Rurópolis,dados_ruropolis__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ruropolis,Grupo 2 — 3 censos,relu,lbfgs,True,5.31038525230981,2040,34.38014012369619
+Rurópolis,dados_ruropolis__a_pe,A pé,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.943570567968546
+Rurópolis,dados_ruropolis__a_pe,A pé,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.326073836101168
+Rurópolis,dados_ruropolis__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.20596067625865
+Rurópolis,dados_ruropolis__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.51143029144431
+Rurópolis,dados_ruropolis__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.72852484591723
+Rurópolis,dados_ruropolis__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.46675254999424
+Rurópolis,dados_ruropolis__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.333370955539486
+Rurópolis,dados_ruropolis__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.703628967032188
+Rurópolis,dados_ruropolis__bicicleta,Bicicleta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.295920465246692
+Rurópolis,dados_ruropolis__bicicleta,Bicicleta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1.4960911305693543
+Rurópolis,dados_ruropolis__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.36823208014366
+Rurópolis,dados_ruropolis__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.68511550692548
+Rurópolis,dados_ruropolis__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.29586809266142
+Rurópolis,dados_ruropolis__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.89908798470651
+Rurópolis,dados_ruropolis__com_coleta_de_lixo,Com Coleta de Lixo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.57121241827296
+Rurópolis,dados_ruropolis__com_coleta_de_lixo,Com Coleta de Lixo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.04083065264763
+Rurópolis,dados_ruropolis__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Rurópolis,dados_ruropolis__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Rurópolis,dados_ruropolis__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.982441341380806
+Rurópolis,dados_ruropolis__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.09647760554338
+Rurópolis,dados_ruropolis__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.188417247338105
+Rurópolis,dados_ruropolis__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.909800120401101
+Rurópolis,dados_ruropolis__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Rurópolis,dados_ruropolis__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Rurópolis,dados_ruropolis__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.472476854100695
+Rurópolis,dados_ruropolis__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.29691442331555
+Rurópolis,dados_ruropolis__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8238611281483572
+Rurópolis,dados_ruropolis__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.7256369587330753
+Rurópolis,dados_ruropolis__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.658306160118379
+Rurópolis,dados_ruropolis__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.755605654163299
+Rurópolis,dados_ruropolis__estuda_em_outro_municipio_ex_santarem_itaitub,Estuda em outro município (ex: Santarém / Itaituba),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.197132528489144
+Rurópolis,dados_ruropolis__estuda_em_outro_municipio_ex_santarem_itaitub,Estuda em outro município (ex: Santarém / Itaituba),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.15517175537442
+Rurópolis,dados_ruropolis__estuda_no_proprio_municipio_ruropolis,Estuda no próprio município (Rurópolis),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.79122067069041
+Rurópolis,dados_ruropolis__estuda_no_proprio_municipio_ruropolis,Estuda no próprio município (Rurópolis),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.34823880277169
+Rurópolis,dados_ruropolis__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.011695619280367
+Rurópolis,dados_ruropolis__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.40108678069548
+Rurópolis,dados_ruropolis__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.77930814500994
+Rurópolis,dados_ruropolis__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.792697561104056
+Rurópolis,dados_ruropolis__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.04931134877691
+Rurópolis,dados_ruropolis__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.31651466411776
+Rurópolis,dados_ruropolis__idade_mediana_2,Idade Mediana,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.260894101438797
+Rurópolis,dados_ruropolis__idade_mediana_2,Idade Mediana,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.806714543716648
+Rurópolis,dados_ruropolis__mais_de_1_hora_deslocamento_pela_br_163_br_23,Mais de 1 hora (Deslocamento pela BR-163 / BR-230 / vicinais),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.840596067625867
+Rurópolis,dados_ruropolis__mais_de_1_hora_deslocamento_pela_br_163_br_23,Mais de 1 hora (Deslocamento pela BR-163 / BR-230 / vicinais),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.87114302914443
+Rurópolis,dados_ruropolis__motocicleta,Motocicleta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.687039944891914
+Rurópolis,dados_ruropolis__motocicleta,Motocicleta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.94282944863661
+Rurópolis,dados_ruropolis__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.76739561932948
+Rurópolis,dados_ruropolis__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.23715631943642
+Rurópolis,dados_ruropolis__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Rurópolis,dados_ruropolis__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Rurópolis,dados_ruropolis__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.63772859611501
+Rurópolis,dados_ruropolis__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.62631478451886
+Rurópolis,dados_ruropolis__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.31892073136675
+Rurópolis,dados_ruropolis__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.36860084280772
+Rurópolis,dados_ruropolis__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1058.554977582725
+Rurópolis,dados_ruropolis__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1326.4971875775523
+Rurópolis,dados_ruropolis__populacao_amarela_2,População Amarela,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Rurópolis,dados_ruropolis__populacao_amarela_2,População Amarela,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Rurópolis,dados_ruropolis__populacao_branca_2,População Branca,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,123.21788202877596
+Rurópolis,dados_ruropolis__populacao_branca_2,População Branca,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,154.13429087433298
+Rurópolis,dados_ruropolis__populacao_indigena_2,População Indígena,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.101490169064665
+Rurópolis,dados_ruropolis__populacao_indigena_2,População Indígena,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.67785757286108
+Rurópolis,dados_ruropolis__populacao_parda_2,População Parda,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,856.5251742014318
+Rurópolis,dados_ruropolis__populacao_parda_2,População Parda,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1072.9400361203307
+Rurópolis,dados_ruropolis__populacao_preta_2,População Preta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.29013314963971
+Rurópolis,dados_ruropolis__populacao_preta_2,População Preta,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.80943149545536
+Rurópolis,dados_ruropolis__populacao_residente_em_favelas,População Residente em Favelas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1058.554977582725
+Rurópolis,dados_ruropolis__populacao_residente_em_favelas,População Residente em Favelas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1326.4971875775523
+Rurópolis,dados_ruropolis__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.620298033812933
+Rurópolis,dados_ruropolis__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.135571514572216
+Rurópolis,dados_ruropolis__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.15234989727814
+Rurópolis,dados_ruropolis__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.97783503332947
+Rurópolis,dados_ruropolis__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.1194353867061264
+Rurópolis,dados_ruropolis__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4852018847210995
+Rurópolis,dados_ruropolis__ruas_sem_arvores,Ruas Sem Árvores,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.680874743195368
+Rurópolis,dados_ruropolis__ruas_sem_arvores,Ruas Sem Árvores,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.24458758332371
+Rurópolis,dados_ruropolis__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.7217882028776
+Rurópolis,dados_ruropolis__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.81342908743329
+Rurópolis,dados_ruropolis__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.892774887913625
+Rurópolis,dados_ruropolis__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.786983511582678
+Rurópolis,dados_ruropolis__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.232485937887761
+Rurópolis,dados_ruropolis__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.487385998088314
+Rurópolis,dados_ruropolis__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.52190106949607
+Rurópolis,dados_ruropolis__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.34506657481987
+Rurópolis,dados_ruropolis__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.7243159885299
+Rurópolis,dados_ruropolis__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.10471574772768
+Rurópolis,dados_ruropolis__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8101490169064665
+Rurópolis,dados_ruropolis__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.067785757286108
+Rurópolis,dados_ruropolis__sem_conjuge,Sem cônjuge,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.494265056978286
+Rurópolis,dados_ruropolis__sem_conjuge,Sem cônjuge,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.41034351074884
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.4290697482732
+Rurópolis,dados_ruropolis__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.73638660009382
+Rurópolis,dados_ruropolis__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,307.24768541006927
+Rurópolis,dados_ruropolis__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,389.6914423315546
+Rurópolis,dados_ruropolis__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.733370955539485
+Rurópolis,dados_ruropolis__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.103628967032186
+Rurópolis,dados_ruropolis__trabalha_em_outro_municipio_ex_santarem_placa,Trabalha em outro município (ex: Santarém / Placas / Itaituba),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.776834494676212
+Rurópolis,dados_ruropolis__trabalha_em_outro_municipio_ex_santarem_placa,Trabalha em outro município (ex: Santarém / Placas / Itaituba),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.219600240802205
+Rurópolis,dados_ruropolis__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rurópolis),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.4777415468245
+Rurópolis,dados_ruropolis__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rurópolis),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.9408075388844
+Rurópolis,dados_ruropolis__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.495698792733716
+Rurópolis,dados_ruropolis__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.43275763306163
+Rurópolis,dados_ruropolis__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.785662642445715
+Rurópolis,dados_ruropolis__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.575858776872096
+Rurópolis,dados_ruropolis__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Rurópolis,dados_ruropolis__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Rurópolis,dados_ruropolis__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.61754342892054
+Rurópolis,dados_ruropolis__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.201630171043206
+Rurópolis,dados_ruropolis__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.03497399122263
+Rurópolis,dados_ruropolis__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.09237344098986
+Rurópolis,dados_ruropolis__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.889907416402767
+Rurópolis,dados_ruropolis__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_ruropolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.18765769326218
