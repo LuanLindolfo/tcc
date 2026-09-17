@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Bagre,dados_bagre__anos_de_estudo_media,Anos de Estudo (Média),dados_bagre,Grupo 1 — 4 censos,identity,adam,True,0.15730254800368762,2030,6.861650509091259
+Bagre,dados_bagre__anos_de_estudo_media,Anos de Estudo (Média),dados_bagre,Grupo 1 — 4 censos,identity,adam,True,0.15730254800368762,2040,8.399147129886149
+Bagre,dados_bagre__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_bagre,Grupo 1 — 4 censos,identity,sgd,True,7.0194013311487105,2030,169.11933883293418
+Bagre,dados_bagre__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_bagre,Grupo 1 — 4 censos,identity,sgd,True,7.0194013311487105,2040,181.31658784855722
+Bagre,dados_bagre__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bagre,Grupo 1 — 4 censos,relu,lbfgs,True,0.37976363412663583,2030,9.635002628092854
+Bagre,dados_bagre__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bagre,Grupo 1 — 4 censos,relu,lbfgs,True,0.37976363412663583,2040,11.709492495828918
+Bagre,dados_bagre__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.17544198520482956,2030,5.720061881607503
+Bagre,dados_bagre__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.17544198520482956,2040,6.043606165889008
+Bagre,dados_bagre__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bagre,Grupo 1 — 4 censos,identity,adam,True,0.12053740385746059,2030,7.302445149412609
+Bagre,dados_bagre__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bagre,Grupo 1 — 4 censos,identity,adam,True,0.12053740385746059,2040,8.89783557182247
+Bagre,dados_bagre__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.0851460614151257,2030,3.765534084859204
+Bagre,dados_bagre__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.0851460614151257,2040,3.6900414639686483
+Bagre,dados_bagre__populacao_total,População Total,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8650521090563865,2030,33.7102039551227
+Bagre,dados_bagre__populacao_total,População Total,dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8650521090563865,2040,35.10741366139831
+Bagre,dados_bagre__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,3.3715711860354194,2030,81.7044728683828
+Bagre,dados_bagre__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bagre,Grupo 1 — 4 censos,logistic,lbfgs,True,3.3715711860354194,2040,84.35051975376416
+Bagre,dados_bagre__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bagre,Grupo 1 — 4 censos,relu,lbfgs,True,0.3931347753648319,2030,9.803124262237516
+Bagre,dados_bagre__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bagre,Grupo 1 — 4 censos,relu,lbfgs,True,0.3931347753648319,2040,11.883148213688438
+Bagre,dados_bagre__2_trabalhos,2 trabalhos,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.8209568314767738,2030,6.912886096868625
+Bagre,dados_bagre__2_trabalhos,2 trabalhos,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.8209568314767738,2040,8.223247951081916
+Bagre,dados_bagre__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,1.1516024901903066e-05,2030,0.6000142724576784
+Bagre,dados_bagre__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,1.1516024901903066e-05,2040,0.6000188615001163
+Bagre,dados_bagre__apenas_1_trabalho,Apenas 1 trabalho,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.6841715612357149,2030,92.20918839026598
+Bagre,dados_bagre__apenas_1_trabalho,Apenas 1 trabalho,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.6841715612357149,2040,90.43082536526099
+Bagre,dados_bagre__casais_com_filhos,Casais com filhos,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2030,44.21171980649076
+Bagre,dados_bagre__casais_com_filhos,Casais com filhos,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2040,34.70071113254522
+Bagre,dados_bagre__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.46225488697265327,2030,9.667656635178952
+Bagre,dados_bagre__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.46225488697265327,2040,9.665814451146497
+Bagre,dados_bagre__casais_sem_filhos,Casais sem filhos,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.944027299988015,2030,10.926127329604958
+Bagre,dados_bagre__casais_sem_filhos,Casais sem filhos,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.944027299988015,2040,13.297112662860687
+Bagre,dados_bagre__conta_propria,Conta própria,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.8567267723025557,2030,9.132357563039752
+Bagre,dados_bagre__conta_propria,Conta própria,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.8567267723025557,2040,9.949744048868862
+Bagre,dados_bagre__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669421,2030,20.292778098789643
+Bagre,dados_bagre__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3033182627669421,2040,24.09103461969584
+Bagre,dados_bagre__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2030,24.342638451908485
+Bagre,dados_bagre__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2040,28.68274897805368
+Bagre,dados_bagre__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,3.0809843002033355,2030,24.793979372137073
+Bagre,dados_bagre__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,3.0809843002033355,2040,12.480753138761244
+Bagre,dados_bagre__empregador,Empregador,dados_bagre,Grupo 2 — 3 censos,identity,sgd,True,9.111242469917073,2030,340.6923280256027
+Bagre,dados_bagre__empregador,Empregador,dados_bagre,Grupo 2 — 3 censos,identity,sgd,True,9.111242469917073,2040,440.8346274195005
+Bagre,dados_bagre__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,6.528668430204992,2030,93.06266516518217
+Bagre,dados_bagre__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,6.528668430204992,2040,97.24875828465127
+Bagre,dados_bagre__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,4.7562083820022245,2030,64.332151627065
+Bagre,dados_bagre__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,4.7562083820022245,2040,71.84653011942426
+Bagre,dados_bagre__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704563,2030,18.342638451908485
+Bagre,dados_bagre__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704563,2040,22.682748978053677
+Bagre,dados_bagre__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.06965978781343009,2030,0.6997263145975021
+Bagre,dados_bagre__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.06965978781343009,2040,0.8641867868682334
+Bagre,dados_bagre__idade_mediana,Idade Mediana,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683952,2030,23.970429324641067
+Bagre,dados_bagre__idade_mediana,Idade Mediana,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683952,2040,26.708623526574428
+Bagre,dados_bagre__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2030,103.55875295257351
+Bagre,dados_bagre__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2040,132.01291433601278
+Bagre,dados_bagre__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,28.063376337365863
+Bagre,dados_bagre__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,32.43197679987385
+Bagre,dados_bagre__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.7300790353729566,2030,5.738800811949198
+Bagre,dados_bagre__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.7300790353729566,2040,5.737056405999554
+Bagre,dados_bagre__media_populacao_amarela,Média: População Amarela,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.44083885235720155,2030,7.577875818825987
+Bagre,dados_bagre__media_populacao_amarela,Média: População Amarela,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.44083885235720155,2040,9.200983996543757
+Bagre,dados_bagre__media_populacao_branca,Média: População Branca,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2030,7.326244088120603
+Bagre,dados_bagre__media_populacao_branca,Média: População Branca,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2040,8.905428803558552
+Bagre,dados_bagre__media_populacao_indigena,Média: População Indígena,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336731,2030,5.2965357017490495
+Bagre,dados_bagre__media_populacao_indigena,Média: População Indígena,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336731,2040,6.653817444050902
+Bagre,dados_bagre__media_populacao_preta_parda,Média: População Preta / Parda,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2030,6.826244088120604
+Bagre,dados_bagre__media_populacao_preta_parda,Média: População Preta / Parda,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2040,8.405428803558552
+Bagre,dados_bagre__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,453.39923600392416,2030,1042.0099066363937
+Bagre,dados_bagre__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,453.39923600392416,2040,1090.3366788985968
+Bagre,dados_bagre__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.09141696451013785,2030,5.3468793689380085
+Bagre,dados_bagre__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.09141696451013785,2040,5.801189646459635
+Bagre,dados_bagre__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.2903896339681316,2030,3.2753323383777966
+Bagre,dados_bagre__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,0.2903896339681316,2040,3.728973191824743
+Bagre,dados_bagre__populacao_amarela,População Amarela,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,2.790706264286649,2030,12.697760748323375
+Bagre,dados_bagre__populacao_amarela,População Amarela,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,2.790706264286649,2040,8.405084298853902
+Bagre,dados_bagre__populacao_branca,População Branca,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.15278584707562062,2030,2.574358251386963
+Bagre,dados_bagre__populacao_branca,População Branca,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.15278584707562062,2040,2.573913380668007
+Bagre,dados_bagre__populacao_indigena,População Indígena,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,23.26864474908582,2030,43.50433604777179
+Bagre,dados_bagre__populacao_indigena,População Indígena,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,23.26864474908582,2040,43.443217637641375
+Bagre,dados_bagre__populacao_indigena_total,População Indígena Total,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,23.26864474908582,2030,43.50433604777179
+Bagre,dados_bagre__populacao_indigena_total,População Indígena Total,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,23.26864474908582,2040,43.443217637641375
+Bagre,dados_bagre__populacao_parda,População Parda,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.42446116788869287,2030,32.00752817397675
+Bagre,dados_bagre__populacao_parda,População Parda,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.42446116788869287,2040,38.022317906235884
+Bagre,dados_bagre__populacao_preta,População Preta,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,396.18786319386066,2030,-3.55342746256008
+Bagre,dados_bagre__populacao_preta,População Preta,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,396.18786319386066,2040,17.336900393356814
+Bagre,dados_bagre__populacao_rural,População Rural,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.2140562889490519,2030,20.88879491513116
+Bagre,dados_bagre__populacao_rural,População Rural,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.2140562889490519,2040,23.897066306771862
+Bagre,dados_bagre__populacao_urbana,População Urbana,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.21213838395183457,2030,15.562584803708685
+Bagre,dados_bagre__populacao_urbana,População Urbana,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.21213838395183457,2040,18.918596359462654
+Bagre,dados_bagre__populacao_com_superior_completo,População com Superior Completo,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,168.71512138112993,2030,857.4641890237226
+Bagre,dados_bagre__populacao_com_superior_completo,População com Superior Completo,dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,168.71512138112993,2040,1119.7531089282297
+Bagre,dados_bagre__populacao_de_homens,População de Homens,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.19270810199334912,2030,18.582818269823697
+Bagre,dados_bagre__populacao_de_homens,População de Homens,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.19270810199334912,2040,21.763473059347653
+Bagre,dados_bagre__populacao_de_mulheres,População de Mulheres,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.23348657090753674,2030,17.86856195067096
+Bagre,dados_bagre__populacao_de_mulheres,População de Mulheres,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.23348657090753674,2040,21.0521906446006
+Bagre,dados_bagre__proporcao_na_populacao_de_bagre,Proporção na população de Bagre,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.0838994791365182,2030,0.17719391181545507
+Bagre,dados_bagre__proporcao_na_populacao_de_bagre,Proporção na população de Bagre,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,0.0838994791365182,2040,0.17694470274376073
+Bagre,dados_bagre__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.9184579276201816,2030,103.8436564989823
+Bagre,dados_bagre__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.9184579276201816,2040,102.78562721972109
+Bagre,dados_bagre__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,77.09651490852399,2030,533.1846188617818
+Bagre,dados_bagre__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,77.09651490852399,2040,692.0783252399356
+Bagre,dados_bagre__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,3.406368014517009,2030,35.11930493792049
+Bagre,dados_bagre__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,3.406368014517009,2040,28.64912633071539
+Bagre,dados_bagre__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.944027299988015,2030,10.926127329604958
+Bagre,dados_bagre__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,0.944027299988015,2040,13.297112662860687
+Bagre,dados_bagre__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,28.063376337365863
+Bagre,dados_bagre__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,32.43197679987385
+Bagre,dados_bagre__responsavel_homem,Responsável Homem,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.27907062642866504,2030,3.569776074832337
+Bagre,dados_bagre__responsavel_homem,Responsável Homem,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.27907062642866504,2040,3.140508429885389
+Bagre,dados_bagre__responsavel_mulher,Responsável Mulher,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.976471460335164
+Bagre,dados_bagre__responsavel_mulher,Responsável Mulher,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.666764603881893
+Bagre,dados_bagre__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.976471460335164
+Bagre,dados_bagre__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.666764603881893
+Bagre,dados_bagre__setor_privado,Setor privado,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,374.3188041775791,2030,-1.5832674523664423
+Bagre,dados_bagre__setor_privado,Setor privado,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,374.3188041775791,2040,18.14805873036869
+Bagre,dados_bagre__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,453.22307628281493,2030,332.5711985968553
+Bagre,dados_bagre__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bagre,Grupo 2 — 3 censos,logistic,sgd,True,453.22307628281493,2040,330.99983862895635
+Bagre,dados_bagre__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,258.7384966474891,2030,-1.5424510359227384
+Bagre,dados_bagre__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,258.7384966474891,2040,12.097605756056737
+Bagre,dados_bagre__setor_publico,Setor público,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,341.2549522459622,2030,-2.150413229171221
+Bagre,dados_bagre__setor_publico,Setor público,dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,341.2549522459622,2040,15.840373567095554
+Bagre,dados_bagre__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,11.114055444649068,2030,76.98501742205315
+Bagre,dados_bagre__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,11.114055444649068,2040,100.7267088797487
+Bagre,dados_bagre__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,336.841716678301,2030,-2.1611131223646964
+Bagre,dados_bagre__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bagre,Grupo 2 — 3 censos,tanh,adam,True,336.841716678301,2040,15.597175897351775
+Bagre,dados_bagre__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050891212382408,2030,34.750135935571095
+Bagre,dados_bagre__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bagre,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050891212382408,2040,42.93156676212055
+Bagre,dados_bagre__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,3.738088719955371,2030,96.24055184171192
+Bagre,dados_bagre__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,3.738088719955371,2040,100.20929104576274
+Bagre,dados_bagre__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,6.528668430204992,2030,93.06266516518217
+Bagre,dados_bagre__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bagre,Grupo 2 — 3 censos,relu,adam,True,6.528668430204992,2040,97.24875828465127
+Bagre,dados_bagre__trabalhador_domestico,Trabalhador doméstico,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,52.22751919218761,2030,494.6020986364448
+Bagre,dados_bagre__trabalhador_domestico,Trabalhador doméstico,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,52.22751919218761,2040,558.0226719221889
+Bagre,dados_bagre__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,3.504756020472031,2030,64.62459439417194
+Bagre,dados_bagre__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bagre,Grupo 2 — 3 censos,identity,adam,True,3.504756020472031,2040,83.69972328569676
+Bagre,dados_bagre__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,47.648278651835334,2030,429.25744770107605
+Bagre,dados_bagre__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bagre,Grupo 2 — 3 censos,relu,adam,True,47.648278651835334,2040,477.5382160573423
+Bagre,dados_bagre__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,3.65284649596636,2030,19.445667722712663
+Bagre,dados_bagre__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bagre,Grupo 2 — 3 censos,relu,lbfgs,True,3.65284649596636,2040,24.888247707860295
+Bagre,dados_bagre__a_pe,A pé,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.367395619329473
+Bagre,dados_bagre__a_pe,A pé,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.837156319436424
+Bagre,dados_bagre__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.695755226042948
+Bagre,dados_bagre__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.18820108360991
+Bagre,dados_bagre__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.053916495463575
+Bagre,dados_bagre__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.429725055549135
+Bagre,dados_bagre__automovel_onibus,Automóvel / Ônibus,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7253916495463579
+Bagre,dados_bagre__automovel_onibus,Automóvel / Ônibus,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.362972505554914
+Bagre,dados_bagre__bicicleta,Bicicleta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.415045722051326
+Bagre,dados_bagre__bicicleta,Bicicleta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.05932128610694143
+Bagre,dados_bagre__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.75366898935242
+Bagre,dados_bagre__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.639200481604405
+Bagre,dados_bagre__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.87843753035934
+Bagre,dados_bagre__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.00834471475986
+Bagre,dados_bagre__com_coleta_de_lixo,Com Coleta de Lixo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.62625871007158
+Bagre,dados_bagre__com_coleta_de_lixo,Com Coleta de Lixo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.44700180601653
+Bagre,dados_bagre__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Bagre,dados_bagre__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Bagre,dados_bagre__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.99435386706126
+Bagre,dados_bagre__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.65201884721099
+Bagre,dados_bagre__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.304357640575519
+Bagre,dados_bagre__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.922685817486659
+Bagre,dados_bagre__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.28405960676258657
+Bagre,dados_bagre__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.38711430291444326
+Bagre,dados_bagre__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.04059606762587
+Bagre,dados_bagre__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.07114302914444
+Bagre,dados_bagre__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.73337095553948
+Bagre,dados_bagre__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.10362896703218
+Bagre,dados_bagre__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.152349897278148
+Bagre,dados_bagre__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.977835033329487
+Bagre,dados_bagre__estuda_em_outro_municipio_ex_portel_breves_be,Estuda em outro município (ex: Portel / Breves / Belém),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.892774887913625
+Bagre,dados_bagre__estuda_em_outro_municipio_ex_portel_breves_be,Estuda em outro município (ex: Portel / Breves / Belém),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.23248593788776
+Bagre,dados_bagre__estuda_no_proprio_municipio_bagre,Estuda no próprio município (Bagre),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.41504572205133
+Bagre,dados_bagre__estuda_no_proprio_municipio_bagre,Estuda no próprio município (Bagre),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.05932128610695
+Bagre,dados_bagre__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.00011286661848
+Bagre,dados_bagre__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.11088690109659
+Bagre,dados_bagre__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.76739561932947
+Bagre,dados_bagre__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.237156319436423
+Bagre,dados_bagre__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.90149016906466
+Bagre,dados_bagre__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.47785757286108
+Bagre,dados_bagre__idade_mediana_2,Idade Mediana,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.260894101438797
+Bagre,dados_bagre__idade_mediana_2,Idade Mediana,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.806714543716648
+Bagre,dados_bagre__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.840596067625867
+Bagre,dados_bagre__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.87114302914443
+Bagre,dados_bagre__motocicleta,Motocicleta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.62901331496397
+Bagre,dados_bagre__motocicleta,Motocicleta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.380943149545532
+Bagre,dados_bagre__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.04200396978312
+Bagre,dados_bagre__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.87418381388152
+Bagre,dados_bagre__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8405960676258655
+Bagre,dados_bagre__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.871143029144433
+Bagre,dados_bagre__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.75366898935242
+Bagre,dados_bagre__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.639200481604405
+Bagre,dados_bagre__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-217.8652378166889
+Bagre,dados_bagre__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-506.82202132106727
+Bagre,dados_bagre__populacao_amarela_2,População Amarela,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Bagre,dados_bagre__populacao_amarela_2,População Amarela,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Bagre,dados_bagre__populacao_branca_2,População Branca,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,118.05847809640183
+Bagre,dados_bagre__populacao_branca_2,População Branca,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,150.0054339034774
+Bagre,dados_bagre__populacao_indigena_2,População Indígena,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.260894101438798
+Bagre,dados_bagre__populacao_indigena_2,População Indígena,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.806714543716648
+Bagre,dados_bagre__populacao_parda_2,População Parda,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1178.990741640277
+Bagre,dados_bagre__populacao_parda_2,População Parda,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1508.7657693262183
+Bagre,dados_bagre__populacao_preta_2,População Preta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.69609382589837
+Bagre,dados_bagre__populacao_preta_2,População Preta,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,122.52086178689967
+Bagre,dados_bagre__populacao_residente_em_favelas,População Residente em Favelas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-217.8652378166889
+Bagre,dados_bagre__populacao_residente_em_favelas,População Residente em Favelas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-506.82202132106727
+Bagre,dados_bagre__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Bagre,dados_bagre__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Bagre,dados_bagre__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,101.74043737159768
+Bagre,dados_bagre__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.02229379166185
+Bagre,dados_bagre__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.588087474319537
+Bagre,dados_bagre__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.0444587583323717
+Bagre,dados_bagre__ruas_sem_arvores,Ruas Sem Árvores,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.818178918422189
+Bagre,dados_bagre__ruas_sem_arvores,Ruas Sem Árvores,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.4368986694537522
+Bagre,dados_bagre__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.63772859611501
+Bagre,dados_bagre__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.62631478451885
+Bagre,dados_bagre__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8202980338129324
+Bagre,dados_bagre__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8202980338129324
+Bagre,dados_bagre__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3355715145722162
+Bagre,dados_bagre__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3355715145722162
+Bagre,dados_bagre__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.0928877545321
+Bagre,dados_bagre__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.26100696805727
+Bagre,dados_bagre__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.54337283898435
+Bagre,dados_bagre__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.917601444813236
+Bagre,dados_bagre__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.28405960676258657
+Bagre,dados_bagre__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.38711430291444326
+Bagre,dados_bagre__sem_conjuge,Sem cônjuge,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.64208623669053
+Bagre,dados_bagre__sem_conjuge,Sem cônjuge,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.249000602005516
+Bagre,dados_bagre__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.69575522604296
+Bagre,dados_bagre__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.18820108360994
+Bagre,dados_bagre__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,378.2625871007159
+Bagre,dados_bagre__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,486.4700180601654
+Bagre,dados_bagre__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.04931134877691
+Bagre,dados_bagre__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.31651466411776
+Bagre,dados_bagre__trabalha_em_outro_municipio_ex_portel_breves_,Trabalha em outro município (ex: Portel / Breves / Belém),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.313072921726558
+Bagre,dados_bagre__trabalha_em_outro_municipio_ex_portel_breves_,Trabalha em outro município (ex: Portel / Breves / Belém),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.16805745245998
+Bagre,dados_bagre__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Bagre),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.72852484591722
+Bagre,dados_bagre__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Bagre),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.46675254999424
+Bagre,dados_bagre__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.6493113487769
+Bagre,dados_bagre__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,100.91651466411774
+Bagre,dados_bagre__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.63772859611501
+Bagre,dados_bagre__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.626314784518854
+Bagre,dados_bagre__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.095755226042954
+Bagre,dados_bagre__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.588201083609924
+Bagre,dados_bagre__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.14202980338129328
+Bagre,dados_bagre__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.19355715145722163
+Bagre,dados_bagre__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.002980338129326
+Bagre,dados_bagre__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.155715145722162
+Bagre,dados_bagre__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.36536460863279
+Bagre,dados_bagre__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.64028726229989
+Bagre,dados_bagre__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.33337095553949
+Bagre,dados_bagre__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_bagre,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.703628967032195
