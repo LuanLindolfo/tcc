@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Porto de Moz,dados_porto_de_moz__anos_de_estudo_media,Anos de Estudo (Média),dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2159666567772695,2030,7.546951276794089
+Porto de Moz,dados_porto_de_moz__anos_de_estudo_media,Anos de Estudo (Média),dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.2159666567772695,2040,7.8100317957879355
+Porto de Moz,dados_porto_de_moz__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_porto_de_moz,Grupo 1 — 4 censos,tanh,adam,True,12.712184673479562,2030,243.1995536804708
+Porto de Moz,dados_porto_de_moz__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_porto_de_moz,Grupo 1 — 4 censos,tanh,adam,True,12.712184673479562,2040,245.92149703322474
+Porto de Moz,dados_porto_de_moz__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.4161389629579617,2030,11.516083767706444
+Porto de Moz,dados_porto_de_moz__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.4161389629579617,2040,12.0381630068085
+Porto de Moz,dados_porto_de_moz__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_porto_de_moz,Grupo 1 — 4 censos,relu,adam,True,0.28992200950145053,2030,7.7159864415354535
+Porto de Moz,dados_porto_de_moz__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_porto_de_moz,Grupo 1 — 4 censos,relu,adam,True,0.28992200950145053,2040,8.780617221240124
+Porto de Moz,dados_porto_de_moz__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.32004305717808945,2030,7.951218306437946
+Porto de Moz,dados_porto_de_moz__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.32004305717808945,2040,8.219112337629765
+Porto de Moz,dados_porto_de_moz__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.07852663204693533,2030,3.6258464199133824
+Porto de Moz,dados_porto_de_moz__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.07852663204693533,2040,3.5278398743532895
+Porto de Moz,dados_porto_de_moz__populacao_total,População Total,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8060091482032474,2030,42.51308688588189
+Porto de Moz,dados_porto_de_moz__populacao_total,População Total,dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,0.8060091482032474,2040,43.67538064286623
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,2.384473972496913,2030,87.08090949974077
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_porto_de_moz,Grupo 1 — 4 censos,logistic,lbfgs,True,2.384473972496913,2040,88.19579423715726
+Porto de Moz,dados_porto_de_moz__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_porto_de_moz,Grupo 1 — 4 censos,relu,lbfgs,True,0.4610023115259977,2030,12.813102944082214
+Porto de Moz,dados_porto_de_moz__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_porto_de_moz,Grupo 1 — 4 censos,relu,lbfgs,True,0.4610023115259977,2040,15.296841431241319
+Porto de Moz,dados_porto_de_moz__2_trabalhos,2 trabalhos,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,1.9018399651257945,2030,8.265057510715023
+Porto de Moz,dados_porto_de_moz__2_trabalhos,2 trabalhos,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,1.9018399651257945,2040,8.435726938292218
+Porto de Moz,dados_porto_de_moz__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2030,0.6345907702241325
+Porto de Moz,dados_porto_de_moz__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2040,0.6341654432015779
+Porto de Moz,dados_porto_de_moz__apenas_1_trabalho,Apenas 1 trabalho,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2030,88.362560635222
+Porto de Moz,dados_porto_de_moz__apenas_1_trabalho,Apenas 1 trabalho,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2040,84.57597476919454
+Porto de Moz,dados_porto_de_moz__casais_com_filhos,Casais com filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,1.4489756337936346,2030,40.54861302767264
+Porto de Moz,dados_porto_de_moz__casais_com_filhos,Casais com filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,1.4489756337936346,2040,31.43597482647421
+Porto de Moz,dados_porto_de_moz__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2030,8.534795624253139
+Porto de Moz,dados_porto_de_moz__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.2632425858975142,2040,8.533962067246486
+Porto de Moz,dados_porto_de_moz__casais_sem_filhos,Casais sem filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,1.385393009445287,2030,14.142828440672787
+Porto de Moz,dados_porto_de_moz__casais_sem_filhos,Casais sem filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,1.385393009445287,2040,16.88423896500756
+Porto de Moz,dados_porto_de_moz__conta_propria,Conta própria,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.0445503838437518,2030,12.912041972728897
+Porto de Moz,dados_porto_de_moz__conta_propria,Conta própria,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.0445503838437518,2040,14.18045343844378
+Porto de Moz,dados_porto_de_moz__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,23.44704576720187
+Porto de Moz,dados_porto_de_moz__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,27.540508541356814
+Porto de Moz,dados_porto_de_moz__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.4858887632371805,2030,25.99589582487082
+Porto de Moz,dados_porto_de_moz__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.4858887632371805,2040,29.8818422316347
+Porto de Moz,dados_porto_de_moz__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,2.135333627263621,2030,18.66114042964261
+Porto de Moz,dados_porto_de_moz__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,2.135333627263621,2040,6.968823785923114
+Porto de Moz,dados_porto_de_moz__empregador,Empregador,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504346254260213,2030,684.9358619140874
+Porto de Moz,dados_porto_de_moz__empregador,Empregador,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504346254260213,2040,866.8064873445862
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2030,96.16803142085071
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2040,97.28317602614476
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,4.7570712153050225,2030,72.63735595348183
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,4.7570712153050225,2040,77.76063767305641
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.7357462064872482,2030,22.313267603643663
+Porto de Moz,dados_porto_de_moz__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.7357462064872482,2040,24.542900739700208
+Porto de Moz,dados_porto_de_moz__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.031772957249558115,2030,0.8332053361319146
+Porto de Moz,dados_porto_de_moz__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.031772957249558115,2040,1.0118241099517626
+Porto de Moz,dados_porto_de_moz__idade_mediana,Idade Mediana,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,30.468793689380078
+Porto de Moz,dados_porto_de_moz__idade_mediana,Idade Mediana,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,35.011896464596354
+Porto de Moz,dados_porto_de_moz__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2030,226.89825197485774
+Porto de Moz,dados_porto_de_moz__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2040,290.6842090145694
+Porto de Moz,dados_porto_de_moz__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.44215599510737863,2030,23.805906909398892
+Porto de Moz,dados_porto_de_moz__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.44215599510737863,2040,27.16371078445063
+Porto de Moz,dados_porto_de_moz__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.40162820150829975,2030,4.603339895383065
+Porto de Moz,dados_porto_de_moz__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.40162820150829975,2040,4.602121679375857
+Porto de Moz,dados_porto_de_moz__media_populacao_amarela,Média: População Amarela,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505528,2030,9.052851827149064
+Porto de Moz,dados_porto_de_moz__media_populacao_amarela,Média: População Amarela,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505528,2040,10.76626818949294
+Porto de Moz,dados_porto_de_moz__media_populacao_branca,Média: População Branca,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767854,2030,8.276083142587684
+Porto de Moz,dados_porto_de_moz__media_populacao_branca,Média: População Branca,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767854,2040,9.227407408733676
+Porto de Moz,dados_porto_de_moz__media_populacao_indigena,Média: População Indígena,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.33436134612872986,2030,6.651266239684631
+Porto de Moz,dados_porto_de_moz__media_populacao_indigena,Média: População Indígena,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.33436134612872986,2040,8.140140760435251
+Porto de Moz,dados_porto_de_moz__media_populacao_preta_parda,Média: População Preta / Parda,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767854,2030,7.576083142587683
+Porto de Moz,dados_porto_de_moz__media_populacao_preta_parda,Média: População Preta / Parda,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.6323033957767854,2040,8.527407408733676
+Porto de Moz,dados_porto_de_moz__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,413.9255376283081,2030,951.3683024732943
+Porto de Moz,dados_porto_de_moz__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,413.9255376283081,2040,995.4798654997644
+Porto de Moz,dados_porto_de_moz__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,4.0999146094353005
+Porto de Moz,dados_porto_de_moz__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.46115886505405
+Porto de Moz,dados_porto_de_moz__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452595,2030,2.495564398696161
+Porto de Moz,dados_porto_de_moz__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452595,2040,2.906293528986165
+Porto de Moz,dados_porto_de_moz__populacao_amarela,População Amarela,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,8.059625524398909,2030,5.835397609903332
+Porto de Moz,dados_porto_de_moz__populacao_amarela,População Amarela,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,8.059625524398909,2040,-21.946561990972477
+Porto de Moz,dados_porto_de_moz__populacao_branca,População Branca,dados_porto_de_moz,Grupo 2 — 3 censos,identity,sgd,True,0.03037080823305723,2030,6.088974426752009
+Porto de Moz,dados_porto_de_moz__populacao_branca,População Branca,dados_porto_de_moz,Grupo 2 — 3 censos,identity,sgd,True,0.03037080823305723,2040,6.422782091398336
+Porto de Moz,dados_porto_de_moz__populacao_indigena,População Indígena,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,lbfgs,True,220.53655838456362,2030,493.6853552582958
+Porto de Moz,dados_porto_de_moz__populacao_indigena,População Indígena,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,lbfgs,True,220.53655838456362,2040,483.55594624281724
+Porto de Moz,dados_porto_de_moz__populacao_indigena_total,População Indígena Total,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,lbfgs,True,220.53655838456362,2030,493.6853552582958
+Porto de Moz,dados_porto_de_moz__populacao_indigena_total,População Indígena Total,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,lbfgs,True,220.53655838456362,2040,483.55594624281724
+Porto de Moz,dados_porto_de_moz__populacao_parda,População Parda,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,1.7788110939721922,2030,35.610088133525856
+Porto de Moz,dados_porto_de_moz__populacao_parda,População Parda,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,1.7788110939721922,2040,41.19704112862118
+Porto de Moz,dados_porto_de_moz__populacao_preta,População Preta,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.3679309601181639,2030,3.679856781053111
+Porto de Moz,dados_porto_de_moz__populacao_preta,População Preta,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.3679309601181639,2040,3.9774725811000873
+Porto de Moz,dados_porto_de_moz__populacao_rural,População Rural,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.1005210212582657,2030,23.56627735475269
+Porto de Moz,dados_porto_de_moz__populacao_rural,População Rural,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.1005210212582657,2040,25.269715069279886
+Porto de Moz,dados_porto_de_moz__populacao_urbana,População Urbana,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.351652656873884,2030,20.064897875955946
+Porto de Moz,dados_porto_de_moz__populacao_urbana,População Urbana,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.351652656873884,2040,22.079859611204892
+Porto de Moz,dados_porto_de_moz__populacao_com_superior_completo,População com Superior Completo,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,389.1905705909751,2030,235.96699725334605
+Porto de Moz,dados_porto_de_moz__populacao_com_superior_completo,População com Superior Completo,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,389.1905705909751,2040,234.70857491980075
+Porto de Moz,dados_porto_de_moz__populacao_de_homens,População de Homens,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.2183058749916864,2030,22.25767364783287
+Porto de Moz,dados_porto_de_moz__populacao_de_homens,População de Homens,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.2183058749916864,2040,24.071962970865112
+Porto de Moz,dados_porto_de_moz__populacao_de_mulheres,População de Mulheres,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.2338678031404644,2030,21.373333239790824
+Porto de Moz,dados_porto_de_moz__populacao_de_mulheres,População de Mulheres,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,1.2338678031404644,2040,23.27799761976432
+Porto de Moz,dados_porto_de_moz__proporcao_na_populacao_de_porto_de_moz,Proporção na população de Porto de Moz,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.604455564602677,2030,1.0811415024999478
+Porto de Moz,dados_porto_de_moz__proporcao_na_populacao_de_porto_de_moz,Proporção na população de Porto de Moz,dados_porto_de_moz,Grupo 2 — 3 censos,logistic,sgd,True,0.604455564602677,2040,1.0796364972873824
+Porto de Moz,dados_porto_de_moz__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.7992415460776764,2030,103.80450595335627
+Porto de Moz,dados_porto_de_moz__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.7992415460776764,2040,102.45666373497654
+Porto de Moz,dados_porto_de_moz__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,134.7477045146148,2030,782.5068849057691
+Porto de Moz,dados_porto_de_moz__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,134.7477045146148,2040,991.0274027969946
+Porto de Moz,dados_porto_de_moz__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,2.028567940332875,2030,34.088102777447105
+Porto de Moz,dados_porto_de_moz__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,2.028567940332875,2040,24.530393836264125
+Porto de Moz,dados_porto_de_moz__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032844317,2030,16.199848369204574
+Porto de Moz,dados_porto_de_moz__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.00018076358032844317,2040,19.19988949111058
+Porto de Moz,dados_porto_de_moz__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241657,2030,25.427732573624994
+Porto de Moz,dados_porto_de_moz__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,0.5183807036241657,2040,29.330123167719922
+Porto de Moz,dados_porto_de_moz__responsavel_homem,Responsável Homem,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.1982812408848383,2030,3.221395065803574
+Porto de Moz,dados_porto_de_moz__responsavel_homem,Responsável Homem,dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.1982812408848383,2040,2.5428201810615922
+Porto de Moz,dados_porto_de_moz__responsavel_mulher,Responsável Mulher,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Porto de Moz,dados_porto_de_moz__responsavel_mulher,Responsável Mulher,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Porto de Moz,dados_porto_de_moz__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Porto de Moz,dados_porto_de_moz__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Porto de Moz,dados_porto_de_moz__setor_privado,Setor privado,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.8627020033246172,2030,8.470177192271706
+Porto de Moz,dados_porto_de_moz__setor_privado,Setor privado,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.8627020033246172,2040,9.757127600511954
+Porto de Moz,dados_porto_de_moz__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,462.3078118707611,2030,-1.7634391154298896
+Porto de Moz,dados_porto_de_moz__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,462.3078118707611,2040,22.605906332411678
+Porto de Moz,dados_porto_de_moz__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.4132236858305815,2030,4.008607519789791
+Porto de Moz,dados_porto_de_moz__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,0.4132236858305815,2040,4.481935661050083
+Porto de Moz,dados_porto_de_moz__setor_publico,Setor público,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,539.5578588907196,2030,-3.817200803032165
+Porto de Moz,dados_porto_de_moz__setor_publico,Setor público,dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,539.5578588907196,2040,24.62841131699855
+Porto de Moz,dados_porto_de_moz__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,13.71254467652077,2030,232.03190534070123
+Porto de Moz,dados_porto_de_moz__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,13.71254467652077,2040,300.1784469689453
+Porto de Moz,dados_porto_de_moz__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,523.027824624896,2030,-3.804950280352557
+Porto de Moz,dados_porto_de_moz__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_porto_de_moz,Grupo 2 — 3 censos,tanh,adam,True,523.027824624896,2040,23.76956707534771
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.6100987963460748,2030,49.38848613467145
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_porto_de_moz,Grupo 2 — 3 censos,identity,lbfgs,True,0.6100987963460748,2040,59.76225515210774
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,lbfgs,True,4.313936717990894,2030,95.92432137704698
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,lbfgs,True,4.313936717990894,2040,96.16673917181078
+Porto de Moz,dados_porto_de_moz__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2030,96.16803142085071
+Porto de Moz,dados_porto_de_moz__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_porto_de_moz,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2040,97.28317602614476
+Porto de Moz,dados_porto_de_moz__trabalhador_domestico,Trabalhador doméstico,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,98.30724070175397,2030,1029.2571688179705
+Porto de Moz,dados_porto_de_moz__trabalhador_domestico,Trabalhador doméstico,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,98.30724070175397,2040,1156.6570446219228
+Porto de Moz,dados_porto_de_moz__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,15.231770275855817,2030,204.53843659597328
+Porto de Moz,dados_porto_de_moz__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,identity,adam,True,15.231770275855817,2040,263.65858845516846
+Porto de Moz,dados_porto_de_moz__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,85.00618646280334,2030,832.1255444876772
+Porto de Moz,dados_porto_de_moz__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_porto_de_moz,Grupo 2 — 3 censos,relu,adam,True,85.00618646280334,2040,915.0033076568614
+Porto de Moz,dados_porto_de_moz__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,4.645300394032251,2030,26.130469401034798
+Porto de Moz,dados_porto_de_moz__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_porto_de_moz,Grupo 2 — 3 censos,relu,lbfgs,True,4.645300394032251,2040,33.558062538187954
+Porto de Moz,dados_porto_de_moz__a_pe,A pé,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.731658042288082
+Porto de Moz,dados_porto_de_moz__a_pe,A pé,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.57053259443353
+Porto de Moz,dados_porto_de_moz__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.89002028302124
+Porto de Moz,dados_porto_de_moz__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.29854459435876
+Porto de Moz,dados_porto_de_moz__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.45391649546358
+Porto de Moz,dados_porto_de_moz__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.82972505554914
+Porto de Moz,dados_porto_de_moz__automovel_onibus,Automóvel / Ônibus,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.721788202877597
+Porto de Moz,dados_porto_de_moz__automovel_onibus,Automóvel / Ônibus,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.813429087433295
+Porto de Moz,dados_porto_de_moz__bicicleta,Bicicleta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.257049691834441
+Porto de Moz,dados_porto_de_moz__bicicleta,Bicicleta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.2664949000115495
+Porto de Moz,dados_porto_de_moz__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.92476854100693
+Porto de Moz,dados_porto_de_moz__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.16914423315546
+Porto de Moz,dados_porto_de_moz__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.2871528115104
+Porto de Moz,dados_porto_de_moz__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.65371634973319
+Porto de Moz,dados_porto_de_moz__com_coleta_de_lixo,Com Coleta de Lixo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.78279517093488
+Porto de Moz,dados_porto_de_moz__com_coleta_de_lixo,Com Coleta de Lixo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.53103053224653
+Porto de Moz,dados_porto_de_moz__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6420298033812932
+Porto de Moz,dados_porto_de_moz__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6935571514572215
+Porto de Moz,dados_porto_de_moz__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.40187672808692
+Porto de Moz,dados_porto_de_moz__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.88167949026446
+Porto de Moz,dados_porto_de_moz__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.872476854100692
+Porto de Moz,dados_porto_de_moz__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.696914423315546
+Porto de Moz,dados_porto_de_moz__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.388417247338106
+Porto de Moz,dados_porto_de_moz__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.109800120401102
+Porto de Moz,dados_porto_de_moz__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.90435764057552
+Porto de Moz,dados_porto_de_moz__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.52268581748666
+Porto de Moz,dados_porto_de_moz__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.764262422958609
+Porto de Moz,dados_porto_de_moz__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.133376274997111
+Porto de Moz,dados_porto_de_moz__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.826958247731788
+Porto de Moz,dados_porto_de_moz__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.014862527774568
+Porto de Moz,dados_porto_de_moz__estuda_em_outro_municipio_ex_altamira_belem,Estuda em outro município (ex: Altamira / Belém),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.197132528489144
+Porto de Moz,dados_porto_de_moz__estuda_em_outro_municipio_ex_altamira_belem,Estuda em outro município (ex: Altamira / Belém),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.15517175537442
+Porto de Moz,dados_porto_de_moz__estuda_no_proprio_municipio_porto_de_moz,Estuda no próprio município (Porto de Moz),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.79122067069041
+Porto de Moz,dados_porto_de_moz__estuda_no_proprio_municipio_porto_de_moz,Estuda no próprio município (Porto de Moz),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.34823880277169
+Porto de Moz,dados_porto_de_moz__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.59718896179838
+Porto de Moz,dados_porto_de_moz__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.11061520592272
+Porto de Moz,dados_porto_de_moz__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.77930814500994
+Porto de Moz,dados_porto_de_moz__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.792697561104056
+Porto de Moz,dados_porto_de_moz__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.04931134877691
+Porto de Moz,dados_porto_de_moz__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.31651466411776
+Porto de Moz,dados_porto_de_moz__idade_mediana_2,Idade Mediana,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.68119213525173
+Porto de Moz,dados_porto_de_moz__idade_mediana_2,Idade Mediana,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.742286058288865
+Porto de Moz,dados_porto_de_moz__mais_de_1_hora_deslocamento_fluvial_intermuni,Mais de 1 hora (Deslocamento fluvial / intermunicipal),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.57683449467621
+Porto de Moz,dados_porto_de_moz__mais_de_1_hora_deslocamento_fluvial_intermuni,Mais de 1 hora (Deslocamento fluvial / intermunicipal),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.019600240802202
+Porto de Moz,dados_porto_de_moz__motocicleta,Motocicleta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.318920731366745
+Porto de Moz,dados_porto_de_moz__motocicleta,Motocicleta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.36860084280773
+Porto de Moz,dados_porto_de_moz__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.630091444102646
+Porto de Moz,dados_porto_de_moz__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.91864257221388
+Porto de Moz,dados_porto_de_moz__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Porto de Moz,dados_porto_de_moz__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Porto de Moz,dados_porto_de_moz__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.301490169064664
+Porto de Moz,dados_porto_de_moz__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.87785757286108
+Porto de Moz,dados_porto_de_moz__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.10733797870486
+Porto de Moz,dados_porto_de_moz__ponto_de_onibus_ou_trapiche_embarcadouro_prox,Ponto de Ônibus ou Trapiche/Embarcadouro próximo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.87840096320883
+Porto de Moz,dados_porto_de_moz__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-354.59599594562434
+Porto de Moz,dados_porto_de_moz__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-824.454295173332
+Porto de Moz,dados_porto_de_moz__populacao_amarela_2,População Amarela,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.260894101438798
+Porto de Moz,dados_porto_de_moz__populacao_amarela_2,População Amarela,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.806714543716648
+Porto de Moz,dados_porto_de_moz__populacao_branca_2,População Branca,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,176.98622697553807
+Porto de Moz,dados_porto_de_moz__populacao_branca_2,População Branca,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,222.330293282355
+Porto de Moz,dados_porto_de_moz__populacao_indigena_2,População Indígena,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.66685477769745
+Porto de Moz,dados_porto_de_moz__populacao_indigena_2,População Indígena,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.51814483516097
+Porto de Moz,dados_porto_de_moz__populacao_parda_2,População Parda,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-279.58465583371304
+Porto de Moz,dados_porto_de_moz__populacao_parda_2,População Parda,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-650.049504821767
+Porto de Moz,dados_porto_de_moz__populacao_preta_2,População Preta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,151.94265056978287
+Porto de Moz,dados_porto_de_moz__populacao_preta_2,População Preta,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,191.10343510748842
+Porto de Moz,dados_porto_de_moz__populacao_residente_em_favelas,População Residente em Favelas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-354.59599594562434
+Porto de Moz,dados_porto_de_moz__populacao_residente_em_favelas,População Residente em Favelas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-824.454295173332
+Porto de Moz,dados_porto_de_moz__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Porto de Moz,dados_porto_de_moz__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Porto de Moz,dados_porto_de_moz__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,99.41504572205133
+Porto de Moz,dados_porto_de_moz__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.05932128610695
+Porto de Moz,dados_porto_de_moz__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.2507832990927157
+Porto de Moz,dados_porto_de_moz__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.525945011109828
+Porto de Moz,dados_porto_de_moz__ruas_sem_arvores,Ruas Sem Árvores,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.71661232023676
+Porto de Moz,dados_porto_de_moz__ruas_sem_arvores,Ruas Sem Árvores,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.9112113083266
+Porto de Moz,dados_porto_de_moz__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.16525174201432
+Porto de Moz,dados_porto_de_moz__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.32940036120331
+Porto de Moz,dados_porto_de_moz__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.649311348776905
+Porto de Moz,dados_porto_de_moz__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.049311348776904
+Porto de Moz,dados_porto_de_moz__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.916514664117752
+Porto de Moz,dados_porto_de_moz__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.31651466411775
+Porto de Moz,dados_porto_de_moz__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.89002028302124
+Porto de Moz,dados_porto_de_moz__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.2508579511508
+Porto de Moz,dados_porto_de_moz__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.29854459435876
+Porto de Moz,dados_porto_de_moz__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.64981568752712
+Porto de Moz,dados_porto_de_moz__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Porto de Moz,dados_porto_de_moz__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Porto de Moz,dados_porto_de_moz__sem_conjuge,Sem cônjuge,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.746443877266046
+Porto de Moz,dados_porto_de_moz__sem_conjuge,Sem cônjuge,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.971686419492165
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.8551591584171
+Porto de Moz,dados_porto_de_moz__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.3170580544655
+Porto de Moz,dados_porto_de_moz__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,527.6834494676211
+Porto de Moz,dados_porto_de_moz__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,671.9600240802206
+Porto de Moz,dados_porto_de_moz__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.73916233187044
+Porto de Moz,dados_porto_de_moz__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.748728906831644
+Porto de Moz,dados_porto_de_moz__trabalha_em_outro_municipio_ex_almeirim_senad,Trabalha em outro município (ex: Almeirim / Senador José Porfírio / Gurupá / Vitória do Xingu),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.62901331496397
+Porto de Moz,dados_porto_de_moz__trabalha_em_outro_municipio_ex_almeirim_senad,Trabalha em outro município (ex: Almeirim / Senador José Porfírio / Gurupá / Vitória do Xingu),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.380943149545534
+Porto de Moz,dados_porto_de_moz__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Porto de Moz),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.46582902114403
+Porto de Moz,dados_porto_de_moz__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Porto de Moz),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.38526629721676
+Porto de Moz,dados_porto_de_moz__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.753668989352423
+Porto de Moz,dados_porto_de_moz__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.639200481604412
+Porto de Moz,dados_porto_de_moz__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.687039944891914
+Porto de Moz,dados_porto_de_moz__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.942829448636605
+Porto de Moz,dados_porto_de_moz__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Porto de Moz,dados_porto_de_moz__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Porto de Moz,dados_porto_de_moz__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.687039944891914
+Porto de Moz,dados_porto_de_moz__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.9428294486366
+Porto de Moz,dados_porto_de_moz__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Porto de Moz,dados_porto_de_moz__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Porto de Moz,dados_porto_de_moz__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.173967023165355
+Porto de Moz,dados_porto_de_moz__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_porto_de_moz,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.57477199617663
