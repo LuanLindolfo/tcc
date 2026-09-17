@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Tracuateua,dados_tracuateua__2_trabalhos,2 trabalhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.7611933709677392,2030,8.032497613656904
+Tracuateua,dados_tracuateua__2_trabalhos,2 trabalhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.7611933709677392,2040,9.495015659045189
+Tracuateua,dados_tracuateua__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.15750535177964411,2030,1.020162217610323
+Tracuateua,dados_tracuateua__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.15750535177964411,2040,1.045305496248
+Tracuateua,dados_tracuateua__anos_de_estudo_media,Anos de Estudo (Média),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.30384511986701207,2030,8.399573047176506
+Tracuateua,dados_tracuateua__anos_de_estudo_media,Anos de Estudo (Média),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.30384511986701207,2040,10.20579432527025
+Tracuateua,dados_tracuateua__apenas_1_trabalho,Apenas 1 trabalho,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965644064775991,2030,90.75707476016616
+Tracuateua,dados_tracuateua__apenas_1_trabalho,Apenas 1 trabalho,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965644064775991,2040,89.11421295089093
+Tracuateua,dados_tracuateua__casais_com_filhos,Casais com filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,1.5557426038630098,2030,42.321677265735545
+Tracuateua,dados_tracuateua__casais_com_filhos,Casais com filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,1.5557426038630098,2040,33.07442133485249
+Tracuateua,dados_tracuateua__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.330182371008411,2030,8.534141290141632
+Tracuateua,dados_tracuateua__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.330182371008411,2040,8.532811845463419
+Tracuateua,dados_tracuateua__casais_sem_filhos,Casais sem filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.5223867419354766,2030,13.664995227313806
+Tracuateua,dados_tracuateua__casais_sem_filhos,Casais sem filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.5223867419354766,2040,16.590031318090375
+Tracuateua,dados_tracuateua__conta_propria,Conta própria,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.5057462262157291,2030,7.526735663351298
+Tracuateua,dados_tracuateua__conta_propria,Conta própria,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.5057462262157291,2040,7.969605860393644
+Tracuateua,dados_tracuateua__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,9.832089301923835,2030,182.66041579919954
+Tracuateua,dados_tracuateua__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,9.832089301923835,2040,183.71422561639153
+Tracuateua,dados_tracuateua__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.2946770805609935,2030,11.253898960259509
+Tracuateua,dados_tracuateua__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.2946770805609935,2040,13.205129190376642
+Tracuateua,dados_tracuateua__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.091513495349736,2030,24.54812639589641
+Tracuateua,dados_tracuateua__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.091513495349736,2040,29.004231455824353
+Tracuateua,dados_tracuateua__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,26.44704576720187
+Tracuateua,dados_tracuateua__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,30.540508541356814
+Tracuateua,dados_tracuateua__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,2.3183621688945677,2030,13.35780840202241
+Tracuateua,dados_tracuateua__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,2.3183621688945677,2040,0.5775793128689912
+Tracuateua,dados_tracuateua__empregador,Empregador,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,18.217535764518942,2030,589.8035864902132
+Tracuateua,dados_tracuateua__empregador,Empregador,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,18.217535764518942,2040,747.976755951999
+Tracuateua,dados_tracuateua__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tracuateua,Grupo 2 — 3 censos,logistic,lbfgs,True,6.266221389752791,2030,94.59987661832584
+Tracuateua,dados_tracuateua__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tracuateua,Grupo 2 — 3 censos,logistic,lbfgs,True,6.266221389752791,2040,95.0111352380577
+Tracuateua,dados_tracuateua__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,5.806505087966848,2030,73.94242122083656
+Tracuateua,dados_tracuateua__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,5.806505087966848,2040,80.74943182009144
+Tracuateua,dados_tracuateua__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.2159073365681177,2030,24.805243480157557
+Tracuateua,dados_tracuateua__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.2159073365681177,2040,30.038261426851832
+Tracuateua,dados_tracuateua__idade_mediana,Idade Mediana,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2030,33.70464018886804
+Tracuateua,dados_tracuateua__idade_mediana,Idade Mediana,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2040,38.71417399679638
+Tracuateua,dados_tracuateua__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2030,154.68793689380078
+Tracuateua,dados_tracuateua__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2040,200.1189646459635
+Tracuateua,dados_tracuateua__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2030,26.716508879552197
+Tracuateua,dados_tracuateua__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2040,30.63081215662124
+Tracuateua,dados_tracuateua__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.40162820150829975,2030,4.803339895383065
+Tracuateua,dados_tracuateua__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.40162820150829975,2040,4.802121679375857
+Tracuateua,dados_tracuateua__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087818,2030,7.876200029443444
+Tracuateua,dados_tracuateua__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087818,2040,9.636005399351054
+Tracuateua,dados_tracuateua__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.22775212562524075,2030,8.922969806295917
+Tracuateua,dados_tracuateua__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.22775212562524075,2040,10.775632531536315
+Tracuateua,dados_tracuateua__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.27520013774964475,2030,2.6550181003954694
+Tracuateua,dados_tracuateua__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.27520013774964475,2040,2.1867954424251
+Tracuateua,dados_tracuateua__media_populacao_amarela,Média: População Amarela,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2030,8.799573047176505
+Tracuateua,dados_tracuateua__media_populacao_amarela,Média: População Amarela,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2040,10.605794325270251
+Tracuateua,dados_tracuateua__media_populacao_branca,Média: População Branca,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2030,8.547991756515653
+Tracuateua,dados_tracuateua__media_populacao_branca,Média: População Branca,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2040,10.31034406398324
+Tracuateua,dados_tracuateua__media_populacao_indigena,Média: População Indígena,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.33436134612873064,2030,6.45126623968463
+Tracuateua,dados_tracuateua__media_populacao_indigena,Média: População Indígena,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.33436134612873064,2040,7.940140760435251
+Tracuateua,dados_tracuateua__media_populacao_preta_parda,Média: População Preta / Parda,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189097,2030,8.147991756515651
+Tracuateua,dados_tracuateua__media_populacao_preta_parda,Média: População Preta / Parda,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189097,2040,9.910344063983242
+Tracuateua,dados_tracuateua__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,256.5276892263309,2030,588.9895358842341
+Tracuateua,dados_tracuateua__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,256.5276892263309,2040,616.2457920457855
+Tracuateua,dados_tracuateua__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2030,4.699914609435302
+Tracuateua,dados_tracuateua__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2040,5.06115886505405
+Tracuateua,dados_tracuateua__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,0.2202794852610334,2030,2.4841040764447593
+Tracuateua,dados_tracuateua__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,0.2202794852610334,2040,2.826339923470691
+Tracuateua,dados_tracuateua__populacao_amarela,População Amarela,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.9151427081547089,2030,13.483339568079737
+Tracuateua,dados_tracuateua__populacao_amarela,População Amarela,dados_tracuateua,Grupo 2 — 3 censos,identity,lbfgs,True,0.9151427081547089,2040,8.043777255795586
+Tracuateua,dados_tracuateua__populacao_branca,População Branca,dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,0.29709937275345516,2030,3.9087007819253103
+Tracuateua,dados_tracuateua__populacao_branca,População Branca,dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,0.29709937275345516,2040,3.9075079341245305
+Tracuateua,dados_tracuateua__populacao_indigena,População Indígena,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,17.418072304252725,2030,33.79978589239188
+Tracuateua,dados_tracuateua__populacao_indigena,População Indígena,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,17.418072304252725,2040,33.74788758505243
+Tracuateua,dados_tracuateua__populacao_indigena_total,População Indígena Total,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,17.418072304252725,2030,33.79978589239188
+Tracuateua,dados_tracuateua__populacao_indigena_total,População Indígena Total,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,17.418072304252725,2040,33.74788758505243
+Tracuateua,dados_tracuateua__populacao_parda,População Parda,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.755259349429212,2030,23.928205416906692
+Tracuateua,dados_tracuateua__populacao_parda,População Parda,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.755259349429212,2040,24.83854142317868
+Tracuateua,dados_tracuateua__populacao_preta,População Preta,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.1418863570319672,2030,2.0427636356370433
+Tracuateua,dados_tracuateua__populacao_preta,População Preta,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.1418863570319672,2040,2.114244696268374
+Tracuateua,dados_tracuateua__populacao_rural,População Rural,dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,0.35688825387530204,2030,16.200770819124894
+Tracuateua,dados_tracuateua__populacao_rural,População Rural,dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,0.35688825387530204,2040,15.628479553159895
+Tracuateua,dados_tracuateua__populacao_total,População Total,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.6596927031860638,2030,29.89348029254537
+Tracuateua,dados_tracuateua__populacao_total,População Total,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.6596927031860638,2040,30.82774379245425
+Tracuateua,dados_tracuateua__populacao_urbana,População Urbana,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.30376609130199955,2030,14.218543741766798
+Tracuateua,dados_tracuateua__populacao_urbana,População Urbana,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.30376609130199955,2040,16.323559519869995
+Tracuateua,dados_tracuateua__populacao_com_superior_completo,População com Superior Completo,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,291.9032824376881,2030,191.90684838741572
+Tracuateua,dados_tracuateua__populacao_com_superior_completo,População com Superior Completo,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,291.9032824376881,2040,190.93831238700957
+Tracuateua,dados_tracuateua__populacao_de_homens,População de Homens,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.33001015717286347,2030,15.036907338529819
+Tracuateua,dados_tracuateua__populacao_de_homens,População de Homens,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.33001015717286347,2040,15.366769112352587
+Tracuateua,dados_tracuateua__populacao_de_mulheres,População de Mulheres,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.2675417626129904,2030,15.22172067437682
+Tracuateua,dados_tracuateua__populacao_de_mulheres,População de Mulheres,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.2675417626129904,2040,16.2136471974948
+Tracuateua,dados_tracuateua__proporcao_na_populacao_de_tracuateua,Proporção na população de Tracuateua,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.06705150216252782,2030,0.12380090548317231
+Tracuateua,dados_tracuateua__proporcao_na_populacao_de_tracuateua,Proporção na população de Tracuateua,dados_tracuateua,Grupo 2 — 3 censos,logistic,sgd,True,0.06705150216252782,2040,0.12360286276351548
+Tracuateua,dados_tracuateua__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,1.016108092586549,2030,100.57693466112909
+Tracuateua,dados_tracuateua__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tracuateua,Grupo 2 — 3 censos,relu,lbfgs,True,1.016108092586549,2040,97.99044931723869
+Tracuateua,dados_tracuateua__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,85.17541201137836,2030,715.0991215692238
+Tracuateua,dados_tracuateua__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,85.17541201137836,2040,928.2202945962022
+Tracuateua,dados_tracuateua__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,3.398627037158969,2030,34.089673939415036
+Tracuateua,dados_tracuateua__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,3.398627037158969,2040,27.551050038481534
+Tracuateua,dados_tracuateua__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.5223867419354766,2030,13.664995227313806
+Tracuateua,dados_tracuateua__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.5223867419354766,2040,16.590031318090375
+Tracuateua,dados_tracuateua__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2030,26.716508879552197
+Tracuateua,dados_tracuateua__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,1.1878936815317325,2040,30.63081215662124
+Tracuateua,dados_tracuateua__responsavel_homem,Responsável Homem,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.27132964907062496,2030,2.9347097214794626
+Tracuateua,dados_tracuateua__responsavel_homem,Responsável Homem,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.27132964907062496,2040,2.4308568824919217
+Tracuateua,dados_tracuateua__responsavel_mulher,Responsável Mulher,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Tracuateua,dados_tracuateua__responsavel_mulher,Responsável Mulher,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Tracuateua,dados_tracuateua__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Tracuateua,dados_tracuateua__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Tracuateua,dados_tracuateua__setor_privado,Setor privado,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.5750198211059645,2030,5.664842062374591
+Tracuateua,dados_tracuateua__setor_privado,Setor privado,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.5750198211059645,2040,6.3341802016200255
+Tracuateua,dados_tracuateua__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,451.2686836406354,2030,-2.87477027358716
+Tracuateua,dados_tracuateua__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,tanh,adam,True,451.2686836406354,2040,20.916338816289056
+Tracuateua,dados_tracuateua__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.2698709436030624,2030,2.6655053786181817
+Tracuateua,dados_tracuateua__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.2698709436030624,2040,2.924338768623152
+Tracuateua,dados_tracuateua__setor_publico,Setor público,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.3266949305021696,2030,3.128675642233633
+Tracuateua,dados_tracuateua__setor_publico,Setor público,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.3266949305021696,2040,3.485083395355709
+Tracuateua,dados_tracuateua__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,13.70595896276989,2030,142.12055487285383
+Tracuateua,dados_tracuateua__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,13.70595896276989,2040,185.37067247253978
+Tracuateua,dados_tracuateua__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.3174876145332841,2030,2.990148614566248
+Tracuateua,dados_tracuateua__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,0.3174876145332841,2040,3.3126134910458207
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,4.296225792947301,2030,88.13177982768684
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,4.296225792947301,2040,91.94528817714865
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.6668786924072165,2030,44.8787163004788
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.6668786924072165,2040,54.82855212466333
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,3.979581844454335,2030,97.85969240609573
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,3.979581844454335,2040,100.20921902520193
+Tracuateua,dados_tracuateua__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tracuateua,Grupo 2 — 3 censos,logistic,lbfgs,True,6.266221389752791,2030,94.59987661832584
+Tracuateua,dados_tracuateua__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tracuateua,Grupo 2 — 3 censos,logistic,lbfgs,True,6.266221389752791,2040,95.0111352380577
+Tracuateua,dados_tracuateua__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.27945848171263954,2030,11.438578170795104
+Tracuateua,dados_tracuateua__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tracuateua,Grupo 2 — 3 censos,identity,adam,True,0.27945848171263954,2040,13.399096539515769
+Tracuateua,dados_tracuateua__trabalhador_domestico,Trabalhador doméstico,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,52.74462918408826,2030,581.0727956643666
+Tracuateua,dados_tracuateua__trabalhador_domestico,Trabalhador doméstico,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,52.74462918408826,2040,631.5975093128944
+Tracuateua,dados_tracuateua__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2030,116.8974426752009
+Tracuateua,dados_tracuateua__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2040,150.27820913983348
+Tracuateua,dados_tracuateua__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,57.965111819550145,2030,474.03739950441786
+Tracuateua,dados_tracuateua__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tracuateua,Grupo 2 — 3 censos,relu,adam,True,57.965111819550145,2040,503.7022050531102
+Tracuateua,dados_tracuateua__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tracuateua,Grupo 2 — 3 censos,relu,sgd,True,6.844556102614308,2030,30.468287313982096
+Tracuateua,dados_tracuateua__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tracuateua,Grupo 2 — 3 censos,relu,sgd,True,6.844556102614308,2040,38.30310055561327
+Tracuateua,dados_tracuateua__a_pe,A pé,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.63009144410265
+Tracuateua,dados_tracuateua__a_pe,A pé,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.918642572213876
+Tracuateua,dados_tracuateua__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.10160303568314
+Tracuateua,dados_tracuateua__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.78874447395767
+Tracuateua,dados_tracuateua__ate_30_minutos_trajeto_urbano_vicinal_curta,Até 30 minutos (Trajeto urbano/vicinal curta),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.15234989727814
+Tracuateua,dados_tracuateua__ate_30_minutos_trajeto_urbano_vicinal_curta,Até 30 minutos (Trajeto urbano/vicinal curta),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.97783503332947
+Tracuateua,dados_tracuateua__automovel_onibus,Automóvel / Ônibus,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.484059606762587
+Tracuateua,dados_tracuateua__automovel_onibus,Automóvel / Ônibus,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.587114302914443
+Tracuateua,dados_tracuateua__bicicleta,Bicicleta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.053916495463579
+Tracuateua,dados_tracuateua__bicicleta,Bicicleta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.42972505554914
+Tracuateua,dados_tracuateua__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.684172473381054
+Tracuateua,dados_tracuateua__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.898001204011024
+Tracuateua,dados_tracuateua__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.41180848589883
+Tracuateua,dados_tracuateua__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.91197368179206
+Tracuateua,dados_tracuateua__com_coleta_de_lixo,Com Coleta de Lixo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.2030932047478
+Tracuateua,dados_tracuateua__com_coleta_de_lixo,Com Coleta de Lixo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.46660204681875
+Tracuateua,dados_tracuateua__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Tracuateua,dados_tracuateua__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Tracuateua,dados_tracuateua__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.74357056796855
+Tracuateua,dados_tracuateua__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.126073836101156
+Tracuateua,dados_tracuateua__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8840596067625865
+Tracuateua,dados_tracuateua__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.987114302914444
+Tracuateua,dados_tracuateua__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Tracuateua,dados_tracuateua__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Tracuateua,dados_tracuateua__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.640596067625864
+Tracuateua,dados_tracuateua__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.67114302914443
+Tracuateua,dados_tracuateua__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.689654072504967
+Tracuateua,dados_tracuateua__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.696348780552025
+Tracuateua,dados_tracuateua__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.28965407250497
+Tracuateua,dados_tracuateua__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.296348780552028
+Tracuateua,dados_tracuateua__estuda_em_outro_municipio_ex_braganca_capanem,Estuda em outro município (ex: Bragança / Capanema / Belém),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.029013314963969
+Tracuateua,dados_tracuateua__estuda_em_outro_municipio_ex_braganca_capanem,Estuda em outro município (ex: Bragança / Capanema / Belém),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.780943149545532
+Tracuateua,dados_tracuateua__estuda_no_proprio_municipio_tracuateua,Estuda no próprio município (Tracuateua),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.06582902114405
+Tracuateua,dados_tracuateua__estuda_no_proprio_municipio_tracuateua,Estuda no próprio município (Tracuateua),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.98526629721678
+Tracuateua,dados_tracuateua__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.63784146273349
+Tracuateua,dados_tracuateua__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.73720168561545
+Tracuateua,dados_tracuateua__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.504699794556295
+Tracuateua,dados_tracuateua__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.155670066658962
+Tracuateua,dados_tracuateua__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.21743056230207
+Tracuateua,dados_tracuateua__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.69074326994664
+Tracuateua,dados_tracuateua__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7931643237973998
+Tracuateua,dados_tracuateua__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9376455025724021
+Tracuateua,dados_tracuateua__idade_mediana_2,Idade Mediana,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.260894101438797
+Tracuateua,dados_tracuateua__idade_mediana_2,Idade Mediana,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.806714543716648
+Tracuateua,dados_tracuateua__mais_de_1_hora_zonas_rurais_ramais_longos,Mais de 1 hora (Zonas rurais/ramais longos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.568119213525174
+Tracuateua,dados_tracuateua__mais_de_1_hora_zonas_rurais_ramais_longos,Mais de 1 hora (Zonas rurais/ramais longos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.774228605828888
+Tracuateua,dados_tracuateua__motocicleta,Motocicleta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.10733797870485
+Tracuateua,dados_tracuateua__motocicleta,Motocicleta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.87840096320882
+Tracuateua,dados_tracuateua__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.4420039697831
+Tracuateua,dados_tracuateua__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.274183813881486
+Tracuateua,dados_tracuateua__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Tracuateua,dados_tracuateua__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Tracuateua,dados_tracuateua__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.76381800625889
+Tracuateua,dados_tracuateua__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.906986238890518
+Tracuateua,dados_tracuateua__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,877.5400758920784
+Tracuateua,dados_tracuateua__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1119.7186118489417
+Tracuateua,dados_tracuateua__populacao_amarela_2,População Amarela,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Tracuateua,dados_tracuateua__populacao_amarela_2,População Amarela,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Tracuateua,dados_tracuateua__populacao_branca_2,População Branca,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,95.01490169064664
+Tracuateua,dados_tracuateua__populacao_branca_2,População Branca,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,120.7785757286108
+Tracuateua,dados_tracuateua__populacao_indigena_2,População Indígena,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8405960676258655
+Tracuateua,dados_tracuateua__populacao_indigena_2,População Indígena,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.871143029144432
+Tracuateua,dados_tracuateua__populacao_parda_2,População Parda,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,709.7132528489144
+Tracuateua,dados_tracuateua__populacao_parda_2,População Parda,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,905.5171755374421
+Tracuateua,dados_tracuateua__populacao_preta_2,População Preta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.55102725107851
+Tracuateua,dados_tracuateua__populacao_preta_2,População Preta,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.616146039172
+Tracuateua,dados_tracuateua__populacao_residente_em_favelas,População Residente em Favelas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,877.5400758920784
+Tracuateua,dados_tracuateua__populacao_residente_em_favelas,População Residente em Favelas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1119.7186118489417
+Tracuateua,dados_tracuateua__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.2043576405755188
+Tracuateua,dados_tracuateua__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.8226858174866587
+Tracuateua,dados_tracuateua__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.41504572205133
+Tracuateua,dados_tracuateua__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.05932128610695
+Tracuateua,dados_tracuateua__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8194353867061257
+Tracuateua,dados_tracuateua__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.185201884721099
+Tracuateua,dados_tracuateua__ruas_sem_arvores,Ruas Sem Árvores,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.767395619329472
+Tracuateua,dados_tracuateua__ruas_sem_arvores,Ruas Sem Árvores,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.237156319436423
+Tracuateua,dados_tracuateua__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.90149016906466
+Tracuateua,dados_tracuateua__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.47785757286108
+Tracuateua,dados_tracuateua__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.892774887913625
+Tracuateua,dados_tracuateua__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.713072921726558
+Tracuateua,dados_tracuateua__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.232485937887761
+Tracuateua,dados_tracuateua__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.568057452459978
+Tracuateua,dados_tracuateua__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.94219910330901
+Tracuateua,dados_tracuateua__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.77694736129467
+Tracuateua,dados_tracuateua__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.65988750310211
+Tracuateua,dados_tracuateua__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.33048714189877
+Tracuateua,dados_tracuateua__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Tracuateua,dados_tracuateua__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Tracuateua,dados_tracuateua__sem_conjuge,Sem cônjuge,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.00584780964018
+Tracuateua,dados_tracuateua__sem_conjuge,Sem cônjuge,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.20054339034774
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.67545719223001
+Tracuateua,dados_tracuateua__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.6526295690377
+Tracuateua,dados_tracuateua__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,246.74023456474592
+Tracuateua,dados_tracuateua__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,316.3021544672492
+Tracuateua,dados_tracuateua__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.37683449467622
+Tracuateua,dados_tracuateua__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.81960024080222
+Tracuateua,dados_tracuateua__trabalha_em_outro_municipio_ex_braganca_capan,Trabalha em outro município (ex: Bragança / Capanema / Belém),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.029013314963972
+Tracuateua,dados_tracuateua__trabalha_em_outro_municipio_ex_braganca_capan,Trabalha em outro município (ex: Bragança / Capanema / Belém),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.780943149545536
+Tracuateua,dados_tracuateua__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Tracuateua),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.06582902114405
+Tracuateua,dados_tracuateua__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Tracuateua),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.98526629721678
+Tracuateua,dados_tracuateua__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.164262422958611
+Tracuateua,dados_tracuateua__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.533376274997114
+Tracuateua,dados_tracuateua__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.573967023165356
+Tracuateua,dados_tracuateua__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.974771996176628
+Tracuateua,dados_tracuateua__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.60596067625865
+Tracuateua,dados_tracuateua__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.91143029144432
+Tracuateua,dados_tracuateua__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Tracuateua,dados_tracuateua__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Tracuateua,dados_tracuateua__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.504470507193986
+Tracuateua,dados_tracuateua__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.23357271858324
+Tracuateua,dados_tracuateua__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.298735564172276
+Tracuateua,dados_tracuateua__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.94391622933207
+Tracuateua,dados_tracuateua__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.83772859611501
+Tracuateua,dados_tracuateua__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tracuateua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.826314784518855
