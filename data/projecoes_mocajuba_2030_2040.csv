@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Mocajuba,dados_mocajuba__anos_de_estudo_media,Anos de Estudo (Média),dados_mocajuba,Grupo 1 — 4 censos,relu,adam,True,0.32850265380730637,2030,8.402725356627395
+Mocajuba,dados_mocajuba__anos_de_estudo_media,Anos de Estudo (Média),dados_mocajuba,Grupo 1 — 4 censos,relu,adam,True,0.32850265380730637,2040,9.599006503325462
+Mocajuba,dados_mocajuba__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_mocajuba,Grupo 1 — 4 censos,identity,lbfgs,True,7.666491292468436e-06,2030,140.00001315738876
+Mocajuba,dados_mocajuba__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_mocajuba,Grupo 1 — 4 censos,identity,lbfgs,True,7.666491292468436e-06,2040,140.0000165565464
+Mocajuba,dados_mocajuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_mocajuba,Grupo 1 — 4 censos,relu,lbfgs,True,0.4012456338707001,2030,10.895815299184513
+Mocajuba,dados_mocajuba__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_mocajuba,Grupo 1 — 4 censos,relu,lbfgs,True,0.4012456338707001,2040,12.892439813347554
+Mocajuba,dados_mocajuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_mocajuba,Grupo 1 — 4 censos,relu,adam,True,0.29923358223656216,2030,7.870405468517791
+Mocajuba,dados_mocajuba__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_mocajuba,Grupo 1 — 4 censos,relu,adam,True,0.29923358223656216,2040,9.017562687431763
+Mocajuba,dados_mocajuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_mocajuba,Grupo 1 — 4 censos,identity,sgd,True,0.3428679571611406,2030,9.24625958445313
+Mocajuba,dados_mocajuba__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_mocajuba,Grupo 1 — 4 censos,identity,sgd,True,0.3428679571611406,2040,11.01424903687526
+Mocajuba,dados_mocajuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_mocajuba,Grupo 1 — 4 censos,identity,lbfgs,True,0.14025526889948248,2030,2.324591854616731
+Mocajuba,dados_mocajuba__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_mocajuba,Grupo 1 — 4 censos,identity,lbfgs,True,0.14025526889948248,2040,1.5512418447951188
+Mocajuba,dados_mocajuba__populacao_total,População Total,dados_mocajuba,Grupo 1 — 4 censos,tanh,adam,True,0.7221487641759641,2030,28.41211583206449
+Mocajuba,dados_mocajuba__populacao_total,População Total,dados_mocajuba,Grupo 1 — 4 censos,tanh,adam,True,0.7221487641759641,2040,28.478850590252815
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_mocajuba,Grupo 1 — 4 censos,logistic,lbfgs,True,1.8070019823237047,2030,89.96405918010505
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_mocajuba,Grupo 1 — 4 censos,logistic,lbfgs,True,1.8070019823237047,2040,91.34139116641099
+Mocajuba,dados_mocajuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_mocajuba,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3521912355329453,2030,10.455148185655592
+Mocajuba,dados_mocajuba__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_mocajuba,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3521912355329453,2040,11.08286459919656
+Mocajuba,dados_mocajuba__2_trabalhos,2 trabalhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.7611933709677378,2030,8.132497613656904
+Mocajuba,dados_mocajuba__2_trabalhos,2 trabalhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.7611933709677378,2040,9.595015659045188
+Mocajuba,dados_mocajuba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,0.12277835762638849,2030,1.1118791645024322
+Mocajuba,dados_mocajuba__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,0.12277835762638849,2040,1.116443113876799
+Mocajuba,dados_mocajuba__apenas_1_trabalho,Apenas 1 trabalho,dados_mocajuba,Grupo 2 — 3 censos,relu,lbfgs,True,0.5214877814922024,2030,90.32666758163927
+Mocajuba,dados_mocajuba__apenas_1_trabalho,Apenas 1 trabalho,dados_mocajuba,Grupo 2 — 3 censos,relu,lbfgs,True,0.5214877814922024,2040,88.44888809822923
+Mocajuba,dados_mocajuba__casais_com_filhos,Casais com filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,2.2878593366639968,2030,39.10839745900231
+Mocajuba,dados_mocajuba__casais_com_filhos,Casais com filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,2.2878593366639968,2040,29.509470259294105
+Mocajuba,dados_mocajuba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.2971637014684472,2030,8.200591409034127
+Mocajuba,dados_mocajuba__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.2971637014684472,2040,8.199410399844492
+Mocajuba,dados_mocajuba__casais_sem_filhos,Casais sem filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.3094317294785363,2030,15.117253449613223
+Mocajuba,dados_mocajuba__casais_sem_filhos,Casais sem filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.3094317294785363,2040,18.309693707403188
+Mocajuba,dados_mocajuba__conta_propria,Conta própria,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.6292370473044336,2030,7.1277303852067035
+Mocajuba,dados_mocajuba__conta_propria,Conta própria,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.6292370473044336,2040,7.483303184260081
+Mocajuba,dados_mocajuba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364346,2030,24.79537425521859
+Mocajuba,dados_mocajuba__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364346,2040,29.344887329316684
+Mocajuba,dados_mocajuba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,26.44704576720187
+Mocajuba,dados_mocajuba__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,30.540508541356814
+Mocajuba,dados_mocajuba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,2.8369449615568008,2030,12.598404535089688
+Mocajuba,dados_mocajuba__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,2.8369449615568008,2040,-0.26425906576005787
+Mocajuba,dados_mocajuba__empregador,Empregador,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,42.5646596363851,2030,610.2900110137343
+Mocajuba,dados_mocajuba__empregador,Empregador,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,42.5646596363851,2040,763.5700433100988
+Mocajuba,dados_mocajuba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.0178271801690215,2030,97.22105065950592
+Mocajuba,dados_mocajuba__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.0178271801690215,2040,99.98062076299254
+Mocajuba,dados_mocajuba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.601386757812189,2030,76.5664038843498
+Mocajuba,dados_mocajuba__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.601386757812189,2040,84.35739422982223
+Mocajuba,dados_mocajuba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.789733883104196,2030,26.495461777379994
+Mocajuba,dados_mocajuba__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.789733883104196,2040,32.187621850796006
+Mocajuba,dados_mocajuba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.009669232754215698,2030,0.8794978917600185
+Mocajuba,dados_mocajuba__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.009669232754215698,2040,1.043170915809902
+Mocajuba,dados_mocajuba__idade_mediana,Idade Mediana,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2030,33.70464018886804
+Mocajuba,dados_mocajuba__idade_mediana,Idade Mediana,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2040,38.71417399679638
+Mocajuba,dados_mocajuba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.003012726338790609,2030,179.99747282007624
+Mocajuba,dados_mocajuba__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.003012726338790609,2040,229.9981581851763
+Mocajuba,dados_mocajuba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.005323181061487,2030,27.419181855776028
+Mocajuba,dados_mocajuba__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.005323181061487,2040,31.420697207041968
+Mocajuba,dados_mocajuba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263877,2030,4.769004527415862
+Mocajuba,dados_mocajuba__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263877,2040,4.768014313817577
+Mocajuba,dados_mocajuba__media_populacao_amarela,Média: População Amarela,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2030,9.299573047176505
+Mocajuba,dados_mocajuba__media_populacao_amarela,Média: População Amarela,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2040,11.105794325270251
+Mocajuba,dados_mocajuba__media_populacao_branca,Média: População Branca,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2030,9.047991756515652
+Mocajuba,dados_mocajuba__media_populacao_branca,Média: População Branca,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2040,10.810344063983242
+Mocajuba,dados_mocajuba__media_populacao_indigena,Média: População Indígena,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2030,6.846485350103076
+Mocajuba,dados_mocajuba__media_populacao_indigena,Média: População Indígena,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2040,8.384381030489195
+Mocajuba,dados_mocajuba__media_populacao_preta_parda,Média: População Preta / Parda,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21348186955701287,2030,8.54043029565604
+Mocajuba,dados_mocajuba__media_populacao_preta_parda,Média: População Preta / Parda,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21348186955701287,2040,10.264474419633888
+Mocajuba,dados_mocajuba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,491.73097929577034,2030,454.40872262657604
+Mocajuba,dados_mocajuba__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,491.73097929577034,2040,452.94074797608295
+Mocajuba,dados_mocajuba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005161,2030,4.524935957076476
+Mocajuba,dados_mocajuba__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005161,2040,4.795869148790537
+Mocajuba,dados_mocajuba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056785,2030,2.2689744267520093
+Mocajuba,dados_mocajuba__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_mocajuba,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056785,2040,2.602782091398335
+Mocajuba,dados_mocajuba__populacao_amarela,População Amarela,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,2.790706264286649,2030,10.697760748323375
+Mocajuba,dados_mocajuba__populacao_amarela,População Amarela,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,2.790706264286649,2040,6.405084298853902
+Mocajuba,dados_mocajuba__populacao_branca,População Branca,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.04575713540773515,2030,3.5941669784039867
+Mocajuba,dados_mocajuba__populacao_branca,População Branca,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.04575713540773515,2040,3.322188862789779
+Mocajuba,dados_mocajuba__populacao_indigena,População Indígena,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,13.983768343797236,2030,28.03262637603423
+Mocajuba,dados_mocajuba__populacao_indigena,População Indígena,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,13.983768343797236,2040,27.97823140207358
+Mocajuba,dados_mocajuba__populacao_indigena_total,População Indígena Total,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,13.983768343797236,2030,28.03262637603423
+Mocajuba,dados_mocajuba__populacao_indigena_total,População Indígena Total,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,13.983768343797236,2040,27.97823140207358
+Mocajuba,dados_mocajuba__populacao_parda,População Parda,dados_mocajuba,Grupo 2 — 3 censos,logistic,adam,True,1.842555815687606,2030,22.77237795474886
+Mocajuba,dados_mocajuba__populacao_parda,População Parda,dados_mocajuba,Grupo 2 — 3 censos,logistic,adam,True,1.842555815687606,2040,23.092494735693073
+Mocajuba,dados_mocajuba__populacao_preta,População Preta,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,0.2372778523526903,2030,2.0974358828777837
+Mocajuba,dados_mocajuba__populacao_preta,População Preta,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,0.2372778523526903,2040,2.086875591218178
+Mocajuba,dados_mocajuba__populacao_rural,População Rural,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.8153457660108957,2030,11.806507384301783
+Mocajuba,dados_mocajuba__populacao_rural,População Rural,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.8153457660108957,2040,11.803888703441228
+Mocajuba,dados_mocajuba__populacao_urbana,População Urbana,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.9533676385882343,2030,17.47714893130377
+Mocajuba,dados_mocajuba__populacao_urbana,População Urbana,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.9533676385882343,2040,18.701441531665125
+Mocajuba,dados_mocajuba__populacao_com_superior_completo,População com Superior Completo,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,429.47286946452897,2030,296.0835209705989
+Mocajuba,dados_mocajuba__populacao_com_superior_completo,População com Superior Completo,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,429.47286946452897,2040,294.6335287310785
+Mocajuba,dados_mocajuba__populacao_de_homens,População de Homens,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0734696940848767,2030,13.846050937759895
+Mocajuba,dados_mocajuba__populacao_de_homens,População de Homens,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0734696940848767,2040,13.802405956735866
+Mocajuba,dados_mocajuba__populacao_de_mulheres,População de Mulheres,dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,0.9096418201793686,2030,14.051563112638512
+Mocajuba,dados_mocajuba__populacao_de_mulheres,População de Mulheres,dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,0.9096418201793686,2040,14.115411462422365
+Mocajuba,dados_mocajuba__proporcao_na_populacao_de_mocajuba,Proporção na população de Mocajuba,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.07330840796237433,2030,0.11681845605606127
+Mocajuba,dados_mocajuba__proporcao_na_populacao_de_mocajuba,Proporção na população de Mocajuba,dados_mocajuba,Grupo 2 — 3 censos,logistic,sgd,True,0.07330840796237433,2040,0.11653400341356493
+Mocajuba,dados_mocajuba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_mocajuba,Grupo 2 — 3 censos,relu,lbfgs,True,1.351157037942869,2030,97.2060362498727
+Mocajuba,dados_mocajuba__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_mocajuba,Grupo 2 — 3 censos,relu,lbfgs,True,1.351157037942869,2040,93.89058394561367
+Mocajuba,dados_mocajuba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,118.02088901153695,2030,816.6045597459133
+Mocajuba,dados_mocajuba__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,118.02088901153695,2040,1064.0173785622135
+Mocajuba,dados_mocajuba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,3.3250242804191763,2030,28.789547142391356
+Mocajuba,dados_mocajuba__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,3.3250242804191763,2040,18.025747082558897
+Mocajuba,dados_mocajuba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.3094317294785363,2030,15.117253449613223
+Mocajuba,dados_mocajuba__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.3094317294785363,2040,18.309693707403188
+Mocajuba,dados_mocajuba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.005323181061487,2030,27.419181855776028
+Mocajuba,dados_mocajuba__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,1.005323181061487,2040,31.420697207041968
+Mocajuba,dados_mocajuba__responsavel_homem,Responsável Homem,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496449,2030,2.955018100395469
+Mocajuba,dados_mocajuba__responsavel_homem,Responsável Homem,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496449,2040,2.4867954424251
+Mocajuba,dados_mocajuba__responsavel_mulher,Responsável Mulher,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Mocajuba,dados_mocajuba__responsavel_mulher,Responsável Mulher,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Mocajuba,dados_mocajuba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Mocajuba,dados_mocajuba__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Mocajuba,dados_mocajuba__setor_privado,Setor privado,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923226,2030,7.249529143915222
+Mocajuba,dados_mocajuba__setor_privado,Setor privado,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923226,2040,8.91658456305538
+Mocajuba,dados_mocajuba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,tanh,adam,True,539.3925352825022,2030,-3.515111615791227
+Mocajuba,dados_mocajuba__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,tanh,adam,True,539.3925352825022,2040,24.921782735041006
+Mocajuba,dados_mocajuba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21892654343426932,2030,3.3018009406329765
+Mocajuba,dados_mocajuba__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,0.21892654343426932,2040,4.004745136688054
+Mocajuba,dados_mocajuba__setor_publico,Setor público,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.308251537454306,2030,3.243315741011757
+Mocajuba,dados_mocajuba__setor_publico,Setor público,dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.308251537454306,2040,3.6067952256009947
+Mocajuba,dados_mocajuba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2030,142.4704576720187
+Mocajuba,dados_mocajuba__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2040,183.40508541356812
+Mocajuba,dados_mocajuba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.2972487170688148,2030,3.0720830126717136
+Mocajuba,dados_mocajuba__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,0.2972487170688148,2040,3.3942580369634188
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353179354069476,2030,45.94566194835406
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_mocajuba,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353179354069476,2040,55.67656462041468
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,4.2352347466541955,2030,96.99080858515079
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_mocajuba,Grupo 2 — 3 censos,logistic,lbfgs,True,4.2352347466541955,2040,97.27058582091951
+Mocajuba,dados_mocajuba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.0178271801690215,2030,97.22105065950592
+Mocajuba,dados_mocajuba__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_mocajuba,Grupo 2 — 3 censos,relu,adam,True,5.0178271801690215,2040,99.98062076299254
+Mocajuba,dados_mocajuba__trabalhador_domestico,Trabalhador doméstico,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,121.38554708134102,2030,634.1114366015814
+Mocajuba,dados_mocajuba__trabalhador_domestico,Trabalhador doméstico,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,121.38554708134102,2040,628.8477993962912
+Mocajuba,dados_mocajuba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2030,139.99146094353011
+Mocajuba,dados_mocajuba__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2040,176.11588650540503
+Mocajuba,dados_mocajuba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,122.60067692411438,2030,520.0463046472688
+Mocajuba,dados_mocajuba__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_mocajuba,Grupo 2 — 3 censos,tanh,lbfgs,True,122.60067692411438,2040,514.7720933673075
+Mocajuba,dados_mocajuba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_mocajuba,Grupo 2 — 3 censos,relu,sgd,True,6.798443911873329,2030,29.740289556474323
+Mocajuba,dados_mocajuba__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_mocajuba,Grupo 2 — 3 censos,relu,sgd,True,6.798443911873329,2040,37.39094666869865
+Mocajuba,dados_mocajuba__a_pe,A pé,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.943570567968546
+Mocajuba,dados_mocajuba__a_pe,A pé,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.326073836101168
+Mocajuba,dados_mocajuba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.62625871007158
+Mocajuba,dados_mocajuba__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.44700180601653
+Mocajuba,dados_mocajuba__ate_30_minutos_sede_zona_ribeirinha_proxima,Até 30 minutos (Sede/zona ribeirinha próxima),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.826958247731795
+Mocajuba,dados_mocajuba__ate_30_minutos_sede_zona_ribeirinha_proxima,Até 30 minutos (Sede/zona ribeirinha próxima),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.014862527774575
+Mocajuba,dados_mocajuba__automovel_onibus,Automóvel / Ônibus,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.336238427050347
+Mocajuba,dados_mocajuba__automovel_onibus,Automóvel / Ônibus,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.748457211657774
+Mocajuba,dados_mocajuba__bicicleta,Bicicleta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.053916495463579
+Mocajuba,dados_mocajuba__bicicleta,Bicicleta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.42972505554914
+Mocajuba,dados_mocajuba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.765364608632794
+Mocajuba,dados_mocajuba__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.0402872622999
+Mocajuba,dados_mocajuba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.04368927237367
+Mocajuba,dados_mocajuba__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.33774507596317
+Mocajuba,dados_mocajuba__com_coleta_de_lixo,Com Coleta de Lixo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.05527202503555
+Mocajuba,dados_mocajuba__com_coleta_de_lixo,Com Coleta de Lixo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.62794495556207
+Mocajuba,dados_mocajuba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Mocajuba,dados_mocajuba__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Mocajuba,dados_mocajuba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.13165804228808
+Mocajuba,dados_mocajuba__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.970532594433536
+Mocajuba,dados_mocajuba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.623861128148357
+Mocajuba,dados_mocajuba__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.525636958733075
+Mocajuba,dados_mocajuba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Mocajuba,dados_mocajuba__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Mocajuba,dados_mocajuba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.388417247338108
+Mocajuba,dados_mocajuba__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.109800120401104
+Mocajuba,dados_mocajuba__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.015045722051326
+Mocajuba,dados_mocajuba__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.65932128610694
+Mocajuba,dados_mocajuba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.28965407250497
+Mocajuba,dados_mocajuba__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.296348780552028
+Mocajuba,dados_mocajuba__estuda_em_outro_municipio_ex_cameta_belem,Estuda em outro município (ex: Cametá / Belém),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.449311348776902
+Mocajuba,dados_mocajuba__estuda_em_outro_municipio_ex_cameta_belem,Estuda em outro município (ex: Cametá / Belém),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.716514664117748
+Mocajuba,dados_mocajuba__estuda_no_proprio_municipio_mocajuba,Estuda no próprio município (Mocajuba),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.37930814500994
+Mocajuba,dados_mocajuba__estuda_no_proprio_municipio_mocajuba,Estuda no próprio município (Mocajuba),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.39269756110407
+Mocajuba,dados_mocajuba__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.44655674388451
+Mocajuba,dados_mocajuba__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.78257332058875
+Mocajuba,dados_mocajuba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.77930814500994
+Mocajuba,dados_mocajuba__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.792697561104056
+Mocajuba,dados_mocajuba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.04931134877691
+Mocajuba,dados_mocajuba__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.31651466411776
+Mocajuba,dados_mocajuba__idade_mediana_2,Idade Mediana,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Mocajuba,dados_mocajuba__idade_mediana_2,Idade Mediana,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Mocajuba,dados_mocajuba__mais_de_1_hora_comunidades_fluviais_distantes,Mais de 1 hora (Comunidades fluviais distantes),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.25217882028776
+Mocajuba,dados_mocajuba__mais_de_1_hora_comunidades_fluviais_distantes,Mais de 1 hora (Comunidades fluviais distantes),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.56134290874333
+Mocajuba,dados_mocajuba__motocicleta,Motocicleta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.24357640575519
+Mocajuba,dados_mocajuba__motocicleta,Motocicleta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.426858174866595
+Mocajuba,dados_mocajuba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.4420039697831
+Mocajuba,dados_mocajuba__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.274183813881486
+Mocajuba,dados_mocajuba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Mocajuba,dados_mocajuba__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Mocajuba,dados_mocajuba__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.63772859611501
+Mocajuba,dados_mocajuba__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.626314784518858
+Mocajuba,dados_mocajuba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,791.3072921726557
+Mocajuba,dados_mocajuba__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,976.8057452459977
+Mocajuba,dados_mocajuba__populacao_amarela_2,População Amarela,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Mocajuba,dados_mocajuba__populacao_amarela_2,População Amarela,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Mocajuba,dados_mocajuba__populacao_branca_2,População Branca,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.81192135251732
+Mocajuba,dados_mocajuba__populacao_branca_2,População Branca,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,111.42286058288865
+Mocajuba,dados_mocajuba__populacao_indigena_2,População Indígena,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Mocajuba,dados_mocajuba__populacao_indigena_2,População Indígena,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Mocajuba,dados_mocajuba__populacao_parda_2,População Parda,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,631.8864298057505
+Mocajuba,dados_mocajuba__populacao_parda_2,População Parda,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,781.3157392259427
+Mocajuba,dados_mocajuba__populacao_preta_2,População Preta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.76834494676211
+Mocajuba,dados_mocajuba__populacao_preta_2,População Preta,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.19600240802205
+Mocajuba,dados_mocajuba__populacao_residente_em_favelas,População Residente em Favelas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,791.3072921726557
+Mocajuba,dados_mocajuba__populacao_residente_em_favelas,População Residente em Favelas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,976.8057452459977
+Mocajuba,dados_mocajuba__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3463874439568126
+Mocajuba,dados_mocajuba__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.0162429689438808
+Mocajuba,dados_mocajuba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.92100198489156
+Mocajuba,dados_mocajuba__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.83709190694076
+Mocajuba,dados_mocajuba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8194353867061257
+Mocajuba,dados_mocajuba__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.185201884721099
+Mocajuba,dados_mocajuba__ruas_sem_arvores,Ruas Sem Árvores,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.030091444102652
+Mocajuba,dados_mocajuba__ruas_sem_arvores,Ruas Sem Árvores,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.318642572213875
+Mocajuba,dados_mocajuba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.58554977582726
+Mocajuba,dados_mocajuba__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.26497187577553
+Mocajuba,dados_mocajuba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.292774887913625
+Mocajuba,dados_mocajuba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.913072921726558
+Mocajuba,dados_mocajuba__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.632485937887761
+Mocajuba,dados_mocajuba__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.768057452459978
+Mocajuba,dados_mocajuba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.87843753035935
+Mocajuba,dados_mocajuba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.62912618158245
+Mocajuba,dados_mocajuba__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.00834471475986
+Mocajuba,dados_mocajuba__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.49183005064212
+Mocajuba,dados_mocajuba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8101490169064665
+Mocajuba,dados_mocajuba__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.067785757286108
+Mocajuba,dados_mocajuba__sem_conjuge,Sem cônjuge,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.45802662992794
+Mocajuba,dados_mocajuba__sem_conjuge,Sem cônjuge,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.96188629909107
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.5710995516545
+Mocajuba,dados_mocajuba__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.92994375155105
+Mocajuba,dados_mocajuba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,226.2327837194226
+Mocajuba,dados_mocajuba__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,282.9128666029438
+Mocajuba,dados_mocajuba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.89277488791362
+Mocajuba,dados_mocajuba__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.23248593788775
+Mocajuba,dados_mocajuba__trabalha_em_outro_municipio_ex_cameta_belem,Trabalha em outro município (ex: Cametá / Belém),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.713072921726557
+Mocajuba,dados_mocajuba__trabalha_em_outro_municipio_ex_cameta_belem,Trabalha em outro município (ex: Cametá / Belém),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.568057452459975
+Mocajuba,dados_mocajuba__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Mocajuba),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.32852484591722
+Mocajuba,dados_mocajuba__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Mocajuba),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.0667525499942
+Mocajuba,dados_mocajuba__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.152349897278148
+Mocajuba,dados_mocajuba__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.9778350333294865
+Mocajuba,dados_mocajuba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.858026629927942
+Mocajuba,dados_mocajuba__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.361886299091072
+Mocajuba,dados_mocajuba__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.362497137121935
+Mocajuba,dados_mocajuba__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.59545901767432
+Mocajuba,dados_mocajuba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Mocajuba,dados_mocajuba__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Mocajuba,dados_mocajuba__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.637841462733476
+Mocajuba,dados_mocajuba__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.73720168561542
+Mocajuba,dados_mocajuba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.9915104520859
+Mocajuba,dados_mocajuba__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.97640216721985
+Mocajuba,dados_mocajuba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.405847809640184
+Mocajuba,dados_mocajuba__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_mocajuba,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.600543390347742
