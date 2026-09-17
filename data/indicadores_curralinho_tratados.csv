@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Curralinho,dados_curralinho__populacao_total,População Total,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.386421429784388,1991,19.82,Valor
+Curralinho,dados_curralinho__populacao_total,População Total,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.386421429784388,2000,23.328,Valor
+Curralinho,dados_curralinho__populacao_total,População Total,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.386421429784388,2010,28.549,Valor
+Curralinho,dados_curralinho__populacao_total,População Total,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.386421429784388,2022,33.791,Valor
+Curralinho,dados_curralinho__populacao_urbana,População Urbana,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,1.0440332738518514,2000,9.82,Valor
+Curralinho,dados_curralinho__populacao_urbana,População Urbana,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,1.0440332738518514,2010,13.42,Valor
+Curralinho,dados_curralinho__populacao_urbana,População Urbana,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,1.0440332738518514,2022,15.84,Valor
+Curralinho,dados_curralinho__populacao_rural,População Rural,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.6676103911914494,2000,13.508,Valor
+Curralinho,dados_curralinho__populacao_rural,População Rural,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.6676103911914494,2010,15.129,Valor
+Curralinho,dados_curralinho__populacao_rural,População Rural,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.6676103911914494,2022,17.951,Valor
+Curralinho,dados_curralinho__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,420.0,Valor
+Curralinho,dados_curralinho__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.28,Valor
+Curralinho,dados_curralinho__populacao_de_mulheres,População de Mulheres,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.4680268560152114,2000,11.24,Valor
+Curralinho,dados_curralinho__populacao_de_mulheres,População de Mulheres,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.4680268560152114,2010,13.92,Valor
+Curralinho,dados_curralinho__populacao_de_mulheres,População de Mulheres,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.4680268560152114,2022,16.52,Valor
+Curralinho,dados_curralinho__populacao_de_homens,População de Homens,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.3091813006068496,2000,12.088,Valor
+Curralinho,dados_curralinho__populacao_de_homens,População de Homens,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.3091813006068496,2010,14.629,Valor
+Curralinho,dados_curralinho__populacao_de_homens,População de Homens,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.3091813006068496,2022,17.271,Valor
+Curralinho,dados_curralinho__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,1.020582082420982,2000,107.5,Valor
+Curralinho,dados_curralinho__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,1.020582082420982,2010,105.1,Valor
+Curralinho,dados_curralinho__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,1.020582082420982,2022,104.5,Valor
+Curralinho,dados_curralinho__idade_mediana,Idade Mediana,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2000,17.0,Valor
+Curralinho,dados_curralinho__idade_mediana,Idade Mediana,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2010,19.0,Valor
+Curralinho,dados_curralinho__idade_mediana,Idade Mediana,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.802498913376149,2022,24.0,Valor
+Curralinho,dados_curralinho__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.257370110998361,2000,4.2,Valor
+Curralinho,dados_curralinho__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.257370110998361,2010,6.2,Valor
+Curralinho,dados_curralinho__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.257370110998361,2022,16.4,Valor
+Curralinho,dados_curralinho__populacao_parda,População Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.0821364552616164,2000,18.42,Valor
+Curralinho,dados_curralinho__populacao_parda,População Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.0821364552616164,2010,23.84,Valor
+Curralinho,dados_curralinho__populacao_parda,População Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.0821364552616164,2022,28.92,Valor
+Curralinho,dados_curralinho__populacao_branca,População Branca,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.426502524366054,2000,3.82,Valor
+Curralinho,dados_curralinho__populacao_branca,População Branca,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.426502524366054,2010,3.12,Valor
+Curralinho,dados_curralinho__populacao_branca,População Branca,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.426502524366054,2022,3.24,Valor
+Curralinho,dados_curralinho__populacao_preta,População Preta,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,539.2625328320106,2000,980.0,Valor
+Curralinho,dados_curralinho__populacao_preta,População Preta,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,539.2625328320106,2010,1.48,Valor
+Curralinho,dados_curralinho__populacao_preta,População Preta,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,539.2625328320106,2022,1.52,Valor
+Curralinho,dados_curralinho__populacao_amarela,População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.8450609511369875,2000,42.0,Valor
+Curralinho,dados_curralinho__populacao_amarela,População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.8450609511369875,2010,28.0,Valor
+Curralinho,dados_curralinho__populacao_amarela,População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.8450609511369875,2022,18.0,Valor
+Curralinho,dados_curralinho__populacao_indigena,População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2000,66.0,Valor
+Curralinho,dados_curralinho__populacao_indigena,População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2010,81.0,Valor
+Curralinho,dados_curralinho__populacao_indigena,População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2022,93.0,Valor
+Curralinho,dados_curralinho__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,80.63310429800785,2000,78.4,Valor
+Curralinho,dados_curralinho__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,80.63310429800785,2010,212.8,Valor
+Curralinho,dados_curralinho__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,80.63310429800785,2022,480.0,Valor
+Curralinho,dados_curralinho__apenas_1_trabalho,Apenas 1 trabalho,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6265605515655418,2000,96.2,Valor
+Curralinho,dados_curralinho__apenas_1_trabalho,Apenas 1 trabalho,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6265605515655418,2010,95.4,Valor
+Curralinho,dados_curralinho__apenas_1_trabalho,Apenas 1 trabalho,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6265605515655418,2022,93.2,Valor
+Curralinho,dados_curralinho__2_trabalhos,2 trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7610291592738779,2000,3.2,Valor
+Curralinho,dados_curralinho__2_trabalhos,2 trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7610291592738779,2010,4.0,Valor
+Curralinho,dados_curralinho__2_trabalhos,2 trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7610291592738779,2022,6.1,Valor
+Curralinho,dados_curralinho__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,0.01901074828302644,2000,0.6,Valor
+Curralinho,dados_curralinho__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,0.01901074828302644,2010,0.6,Valor
+Curralinho,dados_curralinho__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,0.01901074828302644,2022,0.7,Valor
+Curralinho,dados_curralinho__setor_privado,Setor privado,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.5007866611427948,2000,1.12,Valor
+Curralinho,dados_curralinho__setor_privado,Setor privado,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.5007866611427948,2010,2.84,Valor
+Curralinho,dados_curralinho__setor_privado,Setor privado,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.5007866611427948,2022,3.92,Valor
+Curralinho,dados_curralinho__conta_propria,Conta própria,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.7624988893158203,2000,4.82,Valor
+Curralinho,dados_curralinho__conta_propria,Conta própria,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.7624988893158203,2010,7.42,Valor
+Curralinho,dados_curralinho__conta_propria,Conta própria,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.7624988893158203,2022,8.84,Valor
+Curralinho,dados_curralinho__setor_publico,Setor público,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2000,820.0,Valor
+Curralinho,dados_curralinho__setor_publico,Setor público,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2010,1.64,Valor
+Curralinho,dados_curralinho__setor_publico,Setor público,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2022,2.28,Valor
+Curralinho,dados_curralinho__trabalhador_domestico,Trabalhador doméstico,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2000,210.0,Valor
+Curralinho,dados_curralinho__trabalhador_domestico,Trabalhador doméstico,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2010,420.0,Valor
+Curralinho,dados_curralinho__trabalhador_domestico,Trabalhador doméstico,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2022,520.0,Valor
+Curralinho,dados_curralinho__empregador,Empregador,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,19.749932791355747,2000,80.0,Valor
+Curralinho,dados_curralinho__empregador,Empregador,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,19.749932791355747,2010,210.0,Valor
+Curralinho,dados_curralinho__empregador,Empregador,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,19.749932791355747,2022,340.0,Valor
+Curralinho,dados_curralinho__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,483.14169103460534,2000,2.84,Valor
+Curralinho,dados_curralinho__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,483.14169103460534,2010,1.92,Valor
+Curralinho,dados_curralinho__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,483.14169103460534,2022,980.0,Valor
+Curralinho,dados_curralinho__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,18.27022147452594,2000,20.0,Valor
+Curralinho,dados_curralinho__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,18.27022147452594,2010,50.0,Valor
+Curralinho,dados_curralinho__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,18.27022147452594,2022,110.0,Valor
+Curralinho,dados_curralinho__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,187.1277120547089,2000,340.0,Valor
+Curralinho,dados_curralinho__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,187.1277120547089,2010,1.12,Valor
+Curralinho,dados_curralinho__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,187.1277120547089,2022,1.84,Valor
+Curralinho,dados_curralinho__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,429.0826081172902,2000,780.0,Valor
+Curralinho,dados_curralinho__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,429.0826081172902,2010,1.72,Valor
+Curralinho,dados_curralinho__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,429.0826081172902,2022,2.08,Valor
+Curralinho,dados_curralinho__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,10.660922050348901,2000,10.0,Valor
+Curralinho,dados_curralinho__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,10.660922050348901,2010,40.0,Valor
+Curralinho,dados_curralinho__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,10.660922050348901,2022,90.0,Valor
+Curralinho,dados_curralinho__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,445.8019008390782,2000,810.0,Valor
+Curralinho,dados_curralinho__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,445.8019008390782,2010,1.6,Valor
+Curralinho,dados_curralinho__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curralinho,Grupo 2 — 3 censos,3,tanh,adam,True,445.8019008390782,2022,2.19,Valor
+Curralinho,dados_curralinho__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2000,10.0,Valor
+Curralinho,dados_curralinho__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2010,40.0,Valor
+Curralinho,dados_curralinho__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2022,80.0,Valor
+Curralinho,dados_curralinho__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,logistic,lbfgs,True,73.66701457583311,2000,200.0,Valor
+Curralinho,dados_curralinho__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,logistic,lbfgs,True,73.66701457583311,2010,380.0,Valor
+Curralinho,dados_curralinho__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curralinho,Grupo 2 — 3 censos,3,logistic,lbfgs,True,73.66701457583311,2022,440.0,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.886640192897266,1991,38.2,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.886640192897266,2000,58.4,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.886640192897266,2010,73.2,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.886640192897266,2022,81.4,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.077375368362652,2000,76.2,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.077375368362652,2010,88.4,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.077375368362652,2022,94.2,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.428072063374956,2000,12.4,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.428072063374956,2010,21.8,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,1.428072063374956,2022,31.2,Valor
+Curralinho,dados_curralinho__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2000,68.2,Valor
+Curralinho,dados_curralinho__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2010,84.2,Valor
+Curralinho,dados_curralinho__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2022,91.4,Valor
+Curralinho,dados_curralinho__populacao_com_superior_completo,População com Superior Completo,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.30282899747976,2000,40.0,Valor
+Curralinho,dados_curralinho__populacao_com_superior_completo,População com Superior Completo,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.30282899747976,2010,280.0,Valor
+Curralinho,dados_curralinho__populacao_com_superior_completo,População com Superior Completo,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.30282899747976,2022,890.0,Valor
+Curralinho,dados_curralinho__anos_de_estudo_media,Anos de Estudo (Média),dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1096299710582806,1991,1.2,Valor
+Curralinho,dados_curralinho__anos_de_estudo_media,Anos de Estudo (Média),dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1096299710582806,2000,2.6,Valor
+Curralinho,dados_curralinho__anos_de_estudo_media,Anos de Estudo (Média),dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1096299710582806,2010,4.4,Valor
+Curralinho,dados_curralinho__anos_de_estudo_media,Anos de Estudo (Média),dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1096299710582806,2022,6.2,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135164,1991,1.4,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135164,2000,2.9,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135164,2010,4.8,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curralinho,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.11834360616135164,2022,6.7,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.10252039914773547,1991,1.0,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.10252039914773547,2000,2.3,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.10252039914773547,2010,4.0,Valor
+Curralinho,dados_curralinho__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curralinho,Grupo 1 — 4 censos,4,identity,adam,True,0.10252039914773547,2022,5.7,Valor
+Curralinho,dados_curralinho__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.061679350793167685,1991,0.098,Valor
+Curralinho,dados_curralinho__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.061679350793167685,2000,0.214,Valor
+Curralinho,dados_curralinho__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.061679350793167685,2010,0.421,Valor
+Curralinho,dados_curralinho__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2000,68.2,Valor
+Curralinho,dados_curralinho__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2010,84.2,Valor
+Curralinho,dados_curralinho__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,5.628927527742657,2022,91.4,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,4.074422320268343,2000,32.4,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,4.074422320268343,2010,48.2,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,4.074422320268343,2022,61.8,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.09009982175996385,2000,6.8,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.09009982175996385,2010,11.4,Valor
+Curralinho,dados_curralinho__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.09009982175996385,2022,16.8,Valor
+Curralinho,dados_curralinho__media_populacao_amarela,Média: População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543125,2000,3.1,Valor
+Curralinho,dados_curralinho__media_populacao_amarela,Média: População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543125,2010,5.0,Valor
+Curralinho,dados_curralinho__media_populacao_amarela,Média: População Amarela,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.36474585811543125,2022,6.8,Valor
+Curralinho,dados_curralinho__media_populacao_branca,Média: População Branca,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031074,2000,3.0,Valor
+Curralinho,dados_curralinho__media_populacao_branca,Média: População Branca,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031074,2010,4.8,Valor
+Curralinho,dados_curralinho__media_populacao_branca,Média: População Branca,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031074,2022,6.6,Valor
+Curralinho,dados_curralinho__media_populacao_preta_parda,Média: População Preta / Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2000,2.4,Valor
+Curralinho,dados_curralinho__media_populacao_preta_parda,Média: População Preta / Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2010,4.2,Valor
+Curralinho,dados_curralinho__media_populacao_preta_parda,Média: População Preta / Parda,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2022,6.0,Valor
+Curralinho,dados_curralinho__media_populacao_indigena,Média: População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671807,2000,1.6,Valor
+Curralinho,dados_curralinho__media_populacao_indigena,Média: População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671807,2010,3.1,Valor
+Curralinho,dados_curralinho__media_populacao_indigena,Média: População Indígena,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.07569785141671807,2022,4.8,Valor
+Curralinho,dados_curralinho__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Curralinho,dados_curralinho__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Curralinho,dados_curralinho__populacao_residente_em_favelas,População Residente em Favelas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,420.0,Valor
+Curralinho,dados_curralinho__populacao_residente_em_favelas,População Residente em Favelas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.28,Valor
+Curralinho,dados_curralinho__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,110.0,Valor
+Curralinho,dados_curralinho__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,360.0,Valor
+Curralinho,dados_curralinho__idade_mediana_2,Idade Mediana,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.0,Valor
+Curralinho,dados_curralinho__idade_mediana_2,Idade Mediana,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.0,Valor
+Curralinho,dados_curralinho__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.2,Valor
+Curralinho,dados_curralinho__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.4,Valor
+Curralinho,dados_curralinho__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,105.2,Valor
+Curralinho,dados_curralinho__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,102.4,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,66.8,Valor
+Curralinho,dados_curralinho__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Curralinho,dados_curralinho__populacao_parda_2,População Parda,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,350.0,Valor
+Curralinho,dados_curralinho__populacao_parda_2,População Parda,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.04,Valor
+Curralinho,dados_curralinho__populacao_branca_2,População Branca,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.0,Valor
+Curralinho,dados_curralinho__populacao_branca_2,População Branca,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,120.0,Valor
+Curralinho,dados_curralinho__populacao_preta_2,População Preta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Curralinho,dados_curralinho__populacao_preta_2,População Preta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,110.0,Valor
+Curralinho,dados_curralinho__populacao_amarela_2,População Amarela,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Curralinho,dados_curralinho__populacao_amarela_2,População Amarela,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Curralinho,dados_curralinho__populacao_indigena_2,População Indígena,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Curralinho,dados_curralinho__populacao_indigena_2,População Indígena,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.0,Valor
+Curralinho,dados_curralinho__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Curralinho,dados_curralinho__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Curralinho,dados_curralinho__com_coleta_de_lixo,Com Coleta de Lixo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Curralinho,dados_curralinho__com_coleta_de_lixo,Com Coleta de Lixo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Curralinho,dados_curralinho__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Curralinho,dados_curralinho__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.8,Valor
+Curralinho,dados_curralinho__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Curralinho,dados_curralinho__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.2,Valor
+Curralinho,dados_curralinho__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Curralinho,dados_curralinho__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Curralinho,dados_curralinho__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Curralinho,dados_curralinho__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Curralinho,dados_curralinho__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Curralinho,dados_curralinho__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Curralinho,dados_curralinho__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Curralinho,dados_curralinho__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Curralinho,dados_curralinho__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Curralinho,dados_curralinho__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Curralinho,dados_curralinho__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.4,Valor
+Curralinho,dados_curralinho__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,76.2,Valor
+Curralinho,dados_curralinho__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.6,Valor
+Curralinho,dados_curralinho__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.8,Valor
+Curralinho,dados_curralinho__casais_com_filhos,Casais com filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2000,71.2,Valor
+Curralinho,dados_curralinho__casais_com_filhos,Casais com filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2010,60.4,Valor
+Curralinho,dados_curralinho__casais_com_filhos,Casais com filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2022,50.2,Valor
+Curralinho,dados_curralinho__casais_sem_filhos,Casais sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2000,4.8,Valor
+Curralinho,dados_curralinho__casais_sem_filhos,Casais sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2010,6.8,Valor
+Curralinho,dados_curralinho__casais_sem_filhos,Casais sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2022,10.4,Valor
+Curralinho,dados_curralinho__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2000,14.2,Valor
+Curralinho,dados_curralinho__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2010,17.8,Valor
+Curralinho,dados_curralinho__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2022,23.4,Valor
+Curralinho,dados_curralinho__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348927,2000,3.8,Valor
+Curralinho,dados_curralinho__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348927,2010,4.1,Valor
+Curralinho,dados_curralinho__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348927,2022,4.6,Valor
+Curralinho,dados_curralinho__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4031773273359172,2000,9.2,Valor
+Curralinho,dados_curralinho__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4031773273359172,2010,9.6,Valor
+Curralinho,dados_curralinho__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4031773273359172,2022,8.8,Valor
+Curralinho,dados_curralinho__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2000,4.6,Valor
+Curralinho,dados_curralinho__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2010,5.8,Valor
+Curralinho,dados_curralinho__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7300790353729566,2022,5.6,Valor
+Curralinho,dados_curralinho__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2000,1.6,Valor
+Curralinho,dados_curralinho__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2010,1.9,Valor
+Curralinho,dados_curralinho__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curralinho,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2022,2.6,Valor
+Curralinho,dados_curralinho__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Curralinho),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Curralinho,dados_curralinho__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Curralinho),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Curralinho,dados_curralinho__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Curralinho,dados_curralinho__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.4,Valor
+Curralinho,dados_curralinho__trabalha_em_outro_municipio_ex_breves_sao_seb,Trabalha em outro município (ex: Breves / São Sebastião da Boa Vista / Belém),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Curralinho,dados_curralinho__trabalha_em_outro_municipio_ex_breves_sao_seb,Trabalha em outro município (ex: Breves / São Sebastião da Boa Vista / Belém),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Curralinho,dados_curralinho__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Curralinho,dados_curralinho__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Curralinho,dados_curralinho__a_pe,A pé,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Curralinho,dados_curralinho__a_pe,A pé,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Curralinho,dados_curralinho__motocicleta,Motocicleta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Curralinho,dados_curralinho__motocicleta,Motocicleta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Curralinho,dados_curralinho__bicicleta,Bicicleta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Curralinho,dados_curralinho__bicicleta,Bicicleta,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Curralinho,dados_curralinho__automovel_onibus,Automóvel / Ônibus,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Curralinho,dados_curralinho__automovel_onibus,Automóvel / Ônibus,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Curralinho,dados_curralinho__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Curralinho,dados_curralinho__ate_30_minutos_trajeto_rapido_no_furo_rio,Até 30 minutos (Trajeto rápido no furo/rio),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Curralinho,dados_curralinho__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.4,Valor
+Curralinho,dados_curralinho__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.8,Valor
+Curralinho,dados_curralinho__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.4,Valor
+Curralinho,dados_curralinho__mais_de_1_hora_navegacao_em_rios_igarapes,Mais de 1 hora (Navegação em rios/igarapés),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+Curralinho,dados_curralinho__estuda_no_proprio_municipio_curralinho,Estuda no próprio município (Curralinho),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.2,Valor
+Curralinho,dados_curralinho__estuda_no_proprio_municipio_curralinho,Estuda no próprio município (Curralinho),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+Curralinho,dados_curralinho__estuda_em_outro_municipio_ex_breves_belem,Estuda em outro município (ex: Breves / Belém),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Curralinho,dados_curralinho__estuda_em_outro_municipio_ex_breves_belem,Estuda em outro município (ex: Breves / Belém),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.6,Valor
+Curralinho,dados_curralinho__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.3132615000566985,1991,3.42,Valor
+Curralinho,dados_curralinho__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.3132615000566985,2000,4.68,Valor
+Curralinho,dados_curralinho__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.3132615000566985,2010,6.84,Valor
+Curralinho,dados_curralinho__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.3132615000566985,2022,9.24,Valor
+Curralinho,dados_curralinho__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.31127608580843114,1991,3.28,Valor
+Curralinho,dados_curralinho__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.31127608580843114,2000,4.52,Valor
+Curralinho,dados_curralinho__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.31127608580843114,2010,6.68,Valor
+Curralinho,dados_curralinho__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curralinho,Grupo 1 — 4 censos,4,relu,adam,True,0.31127608580843114,2022,9.08,Valor
+Curralinho,dados_curralinho__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curralinho,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,1991,140.0,Valor
+Curralinho,dados_curralinho__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curralinho,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2000,160.0,Valor
+Curralinho,dados_curralinho__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curralinho,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2010,160.0,Valor
+Curralinho,dados_curralinho__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_curralinho,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2022,160.0,Valor
+Curralinho,dados_curralinho__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.0904440175202883,1991,5.8,Valor
+Curralinho,dados_curralinho__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.0904440175202883,2000,5.1,Valor
+Curralinho,dados_curralinho__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.0904440175202883,2010,4.2,Valor
+Curralinho,dados_curralinho__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curralinho,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.0904440175202883,2022,3.7,Valor
+Curralinho,dados_curralinho__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Curralinho,dados_curralinho__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.4,Valor
+Curralinho,dados_curralinho__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Curralinho,dados_curralinho__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Curralinho,dados_curralinho__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Curralinho,dados_curralinho__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.4,Valor
+Curralinho,dados_curralinho__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Curralinho,dados_curralinho__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.8,Valor
+Curralinho,dados_curralinho__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Curralinho,dados_curralinho__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Curralinho,dados_curralinho__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Curralinho,dados_curralinho__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Curralinho,dados_curralinho__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Curralinho,dados_curralinho__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Curralinho,dados_curralinho__ruas_sem_arvores,Ruas Sem Árvores,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.6,Valor
+Curralinho,dados_curralinho__ruas_sem_arvores,Ruas Sem Árvores,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Curralinho,dados_curralinho__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Curralinho,dados_curralinho__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Curralinho,dados_curralinho__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Curralinho,dados_curralinho__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Curralinho,dados_curralinho__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.4,Valor
+Curralinho,dados_curralinho__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.2,Valor
+Curralinho,dados_curralinho__populacao_indigena_total,População Indígena Total,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2000,66.0,Valor
+Curralinho,dados_curralinho__populacao_indigena_total,População Indígena Total,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2010,81.0,Valor
+Curralinho,dados_curralinho__populacao_indigena_total,População Indígena Total,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,4.300582266825572,2022,93.0,Valor
+Curralinho,dados_curralinho__proporcao_na_populacao_de_curralinho,Proporção na população de Curralinho,dados_curralinho,Grupo 2 — 3 censos,3,logistic,adam,True,0.0034092458327307416,2000,0.28,Valor
+Curralinho,dados_curralinho__proporcao_na_populacao_de_curralinho,Proporção na população de Curralinho,dados_curralinho,Grupo 2 — 3 censos,3,logistic,adam,True,0.0034092458327307416,2010,0.28,Valor
+Curralinho,dados_curralinho__proporcao_na_populacao_de_curralinho,Proporção na população de Curralinho,dados_curralinho,Grupo 2 — 3 censos,3,logistic,adam,True,0.0034092458327307416,2022,0.27,Valor
+Curralinho,dados_curralinho__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Curralinho,dados_curralinho__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Curralinho,dados_curralinho__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.4,Valor
+Curralinho,dados_curralinho__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Curralinho,dados_curralinho__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Curralinho,dados_curralinho__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Curralinho,dados_curralinho__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.6,Valor
+Curralinho,dados_curralinho__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Curralinho,dados_curralinho__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2000,14.2,Valor
+Curralinho,dados_curralinho__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2010,17.8,Valor
+Curralinho,dados_curralinho__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9749386690747842,2022,23.4,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.353650280174494,2000,63.8,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.353650280174494,2010,51.4,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,3.353650280174494,2022,41.2,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2000,4.8,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2010,6.8,Valor
+Curralinho,dados_curralinho__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.9136427880013146,2022,10.4,Valor
+Curralinho,dados_curralinho__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.6,Valor
+Curralinho,dados_curralinho__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.6,Valor
+Curralinho,dados_curralinho__sem_conjuge,Sem cônjuge,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.9,Valor
+Curralinho,dados_curralinho__sem_conjuge,Sem cônjuge,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,37.9,Valor
+Curralinho,dados_curralinho__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Curralinho,dados_curralinho__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Curralinho,dados_curralinho__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Curralinho,dados_curralinho__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curralinho,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Curralinho,dados_curralinho__responsavel_mulher,Responsável Mulher,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.2,Valor
+Curralinho,dados_curralinho__responsavel_mulher,Responsável Mulher,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.6,Valor
+Curralinho,dados_curralinho__responsavel_mulher,Responsável Mulher,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,3.1,Valor
+Curralinho,dados_curralinho__responsavel_homem,Responsável Homem,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2000,5.4,Valor
+Curralinho,dados_curralinho__responsavel_homem,Responsável Homem,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2010,4.4,Valor
+Curralinho,dados_curralinho__responsavel_homem,Responsável Homem,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.2752001377496449,2022,3.7,Valor
+Curralinho,dados_curralinho__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.2,Valor
+Curralinho,dados_curralinho__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.6,Valor
+Curralinho,dados_curralinho__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curralinho,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,3.1,Valor
+Curralinho,dados_curralinho__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.1511322742834024,2000,9.8,Valor
+Curralinho,dados_curralinho__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.1511322742834024,2010,13.8,Valor
+Curralinho,dados_curralinho__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.1511322742834024,2022,18.4,Valor
+Curralinho,dados_curralinho__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680395,2000,12.4,Valor
+Curralinho,dados_curralinho__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680395,2010,16.8,Valor
+Curralinho,dados_curralinho__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680395,2022,21.8,Valor
+Curralinho,dados_curralinho__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.897955117003093,2000,58.2,Valor
+Curralinho,dados_curralinho__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.897955117003093,2010,44.2,Valor
+Curralinho,dados_curralinho__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curralinho,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.897955117003093,2022,31.2,Valor
