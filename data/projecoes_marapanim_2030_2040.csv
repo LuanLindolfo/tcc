@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Marapanim,dados_marapanim__anos_de_estudo_media,Anos de Estudo (Média),dados_marapanim,Grupo 1 — 4 censos,identity,sgd,True,0.27711318405868246,2030,9.191278647839988
+Marapanim,dados_marapanim__anos_de_estudo_media,Anos de Estudo (Média),dados_marapanim,Grupo 1 — 4 censos,identity,sgd,True,0.27711318405868246,2040,10.967646512625556
+Marapanim,dados_marapanim__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_marapanim,Grupo 1 — 4 censos,logistic,lbfgs,True,10.985406888334587,2030,189.73671978245207
+Marapanim,dados_marapanim__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_marapanim,Grupo 1 — 4 censos,logistic,lbfgs,True,10.985406888334587,2040,194.32039046839088
+Marapanim,dados_marapanim__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_marapanim,Grupo 1 — 4 censos,relu,lbfgs,True,0.4135322442209004,2030,11.19970175004965
+Marapanim,dados_marapanim__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_marapanim,Grupo 1 — 4 censos,relu,lbfgs,True,0.4135322442209004,2040,13.121242045436967
+Marapanim,dados_marapanim__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_marapanim,Grupo 1 — 4 censos,relu,adam,True,0.3036603611768689,2030,8.424099271949114
+Marapanim,dados_marapanim__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_marapanim,Grupo 1 — 4 censos,relu,adam,True,0.3036603611768689,2040,9.62921103529537
+Marapanim,dados_marapanim__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_marapanim,Grupo 1 — 4 censos,identity,sgd,True,0.2111709468683488,2030,9.635608145633539
+Marapanim,dados_marapanim__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_marapanim,Grupo 1 — 4 censos,identity,sgd,True,0.2111709468683488,2040,11.441005222078603
+Marapanim,dados_marapanim__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_marapanim,Grupo 1 — 4 censos,identity,lbfgs,True,0.14025526889948203,2030,2.2245918546167314
+Marapanim,dados_marapanim__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_marapanim,Grupo 1 — 4 censos,identity,lbfgs,True,0.14025526889948203,2040,1.4512418447951179
+Marapanim,dados_marapanim__populacao_total,População Total,dados_marapanim,Grupo 1 — 4 censos,tanh,sgd,True,0.5453052388338149,2030,26.776420774598456
+Marapanim,dados_marapanim__populacao_total,População Total,dados_marapanim,Grupo 1 — 4 censos,tanh,sgd,True,0.5453052388338149,2040,26.78429103929724
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_marapanim,Grupo 1 — 4 censos,logistic,lbfgs,True,2.165051690442411,2030,90.64814758629964
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_marapanim,Grupo 1 — 4 censos,logistic,lbfgs,True,2.165051690442411,2040,91.85080254083138
+Marapanim,dados_marapanim__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_marapanim,Grupo 1 — 4 censos,relu,lbfgs,True,0.4179790519014319,2030,11.3897496405573
+Marapanim,dados_marapanim__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_marapanim,Grupo 1 — 4 censos,relu,lbfgs,True,0.4179790519014319,2040,13.326018753304655
+Marapanim,dados_marapanim__2_trabalhos,2 trabalhos,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.8612198627646563,2030,9.092027685549166
+Marapanim,dados_marapanim__2_trabalhos,2 trabalhos,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.8612198627646563,2040,10.436748943336
+Marapanim,dados_marapanim__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.1575053517796441,2030,1.220162217610323
+Marapanim,dados_marapanim__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.1575053517796441,2040,1.2453054962480001
+Marapanim,dados_marapanim__apenas_1_trabalho,Apenas 1 trabalho,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5316370307592232,2030,89.27016090841964
+Marapanim,dados_marapanim__apenas_1_trabalho,Apenas 1 trabalho,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5316370307592232,2040,87.31218550743019
+Marapanim,dados_marapanim__casais_com_filhos,Casais com filhos,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,2.2878593366639826,2030,38.70839745900231
+Marapanim,dados_marapanim__casais_com_filhos,Casais com filhos,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,2.2878593366639826,2040,29.109470259294113
+Marapanim,dados_marapanim__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.2971637014684472,2030,8.200591409034127
+Marapanim,dados_marapanim__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.2971637014684472,2040,8.199410399844492
+Marapanim,dados_marapanim__casais_sem_filhos,Casais sem filhos,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2030,15.372613093515128
+Marapanim,dados_marapanim__casais_sem_filhos,Casais sem filhos,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2040,18.558816594793928
+Marapanim,dados_marapanim__conta_propria,Conta própria,dados_marapanim,Grupo 2 — 3 censos,logistic,lbfgs,True,0.6138917881319426,2030,6.484814564160724
+Marapanim,dados_marapanim__conta_propria,Conta própria,dados_marapanim,Grupo 2 — 3 censos,logistic,lbfgs,True,0.6138917881319426,2040,6.511579034829133
+Marapanim,dados_marapanim__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036476,2030,25.19537425521859
+Marapanim,dados_marapanim__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036476,2040,29.744887329316683
+Marapanim,dados_marapanim__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.15252401420608072,2030,26.847045767201877
+Marapanim,dados_marapanim__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.15252401420608072,2040,30.94050854135682
+Marapanim,dados_marapanim__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,2.6539157783565734,2030,11.3017254676753
+Marapanim,dados_marapanim__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,2.6539157783565734,2040,-1.4730200295300975
+Marapanim,dados_marapanim__empregador,Empregador,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,54.78430804159759,2030,543.9245960054648
+Marapanim,dados_marapanim__empregador,Empregador,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,54.78430804159759,2040,622.1383640299144
+Marapanim,dados_marapanim__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.041090556937012,2030,97.4683379770592
+Marapanim,dados_marapanim__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.041090556937012,2040,99.81950126729849
+Marapanim,dados_marapanim__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.811676187885854,2030,78.71215132691457
+Marapanim,dados_marapanim__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.811676187885854,2040,85.56736550696223
+Marapanim,dados_marapanim__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9723043835744392,2030,27.998633750964817
+Marapanim,dados_marapanim__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9723043835744392,2040,33.778541840864804
+Marapanim,dados_marapanim__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.016685117356006696,2030,0.8879482275819148
+Marapanim,dados_marapanim__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.016685117356006696,2040,1.0475100654865566
+Marapanim,dados_marapanim__idade_mediana,Idade Mediana,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,2.4360295299367913,2030,36.940858649282134
+Marapanim,dados_marapanim__idade_mediana,Idade Mediana,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,2.4360295299367913,2040,42.41724705314886
+Marapanim,dados_marapanim__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,7.62247085167878,2030,202.1825763972987
+Marapanim,dados_marapanim__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,7.62247085167878,2040,256.6412589942697
+Marapanim,dados_marapanim__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.990130925068137,2030,27.694112672638216
+Marapanim,dados_marapanim__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.990130925068137,2040,31.785887714479745
+Marapanim,dados_marapanim__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263877,2030,4.769004527415862
+Marapanim,dados_marapanim__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.33525751081263877,2040,4.768014313817577
+Marapanim,dados_marapanim__media_populacao_amarela,Média: População Amarela,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254260312,2030,9.449358619140874
+Marapanim,dados_marapanim__media_populacao_amarela,Média: População Amarela,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254260312,2040,11.268064873445864
+Marapanim,dados_marapanim__media_populacao_branca,Média: População Branca,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254259868,2030,9.349358619140874
+Marapanim,dados_marapanim__media_populacao_branca,Média: População Branca,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254259868,2040,11.168064873445864
+Marapanim,dados_marapanim__media_populacao_indigena,Média: População Indígena,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100960568243267,2030,7.298818306880749
+Marapanim,dados_marapanim__media_populacao_indigena,Média: População Indígena,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100960568243267,2040,8.936203416542725
+Marapanim,dados_marapanim__media_populacao_preta_parda,Média: População Preta / Parda,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050434625425913,2030,9.049358619140873
+Marapanim,dados_marapanim__media_populacao_preta_parda,Média: População Preta / Parda,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050434625425913,2040,10.868064873445864
+Marapanim,dados_marapanim__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,434.97002986650165,2030,390.480022745712
+Marapanim,dados_marapanim__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,434.97002986650165,2040,389.1862235399171
+Marapanim,dados_marapanim__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.08704586532031255,2030,4.2910034977274085
+Marapanim,dados_marapanim__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.08704586532031255,2040,4.3967044532036486
+Marapanim,dados_marapanim__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056785,2030,2.2689744267520093
+Marapanim,dados_marapanim__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_marapanim,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056785,2040,2.602782091398335
+Marapanim,dados_marapanim__populacao_amarela,População Amarela,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,2.0656526274348024,2030,10.179826364637856
+Marapanim,dados_marapanim__populacao_amarela,População Amarela,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,2.0656526274348024,2040,2.8374404257532433
+Marapanim,dados_marapanim__populacao_branca,População Branca,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.05795955143857482,2030,3.8860308131906898
+Marapanim,dados_marapanim__populacao_branca,População Branca,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.05795955143857482,2040,3.4305366119947234
+Marapanim,dados_marapanim__populacao_indigena,População Indígena,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,8.66134013082822,2030,30.708193686816905
+Marapanim,dados_marapanim__populacao_indigena,População Indígena,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,8.66134013082822,2040,30.676408194258038
+Marapanim,dados_marapanim__populacao_indigena_total,População Indígena Total,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,8.66134013082822,2030,30.708193686816905
+Marapanim,dados_marapanim__populacao_indigena_total,População Indígena Total,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,8.66134013082822,2040,30.676408194258038
+Marapanim,dados_marapanim__populacao_parda,População Parda,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,1.1583888254519685,2030,20.076059722076362
+Marapanim,dados_marapanim__populacao_parda,População Parda,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,1.1583888254519685,2040,20.029354079773807
+Marapanim,dados_marapanim__populacao_preta,População Preta,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.07987719888378986,2030,1.9001969319239307
+Marapanim,dados_marapanim__populacao_preta,População Preta,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.07987719888378986,2040,1.8998852483678188
+Marapanim,dados_marapanim__populacao_rural,População Rural,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5172051008607296,2030,9.705365088325873
+Marapanim,dados_marapanim__populacao_rural,População Rural,dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5172051008607296,2040,8.176931924143258
+Marapanim,dados_marapanim__populacao_urbana,População Urbana,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.7516971017060925,2030,16.14631019818916
+Marapanim,dados_marapanim__populacao_urbana,População Urbana,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.7516971017060925,2040,16.98630695067657
+Marapanim,dados_marapanim__populacao_com_superior_completo,População com Superior Completo,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,489.89761359526216,2030,336.44474228110334
+Marapanim,dados_marapanim__populacao_com_superior_completo,População com Superior Completo,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,489.89761359526216,2040,334.79300705822146
+Marapanim,dados_marapanim__populacao_de_homens,População de Homens,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.4242078236732259,2030,13.088197318409222
+Marapanim,dados_marapanim__populacao_de_homens,População de Homens,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.4242078236732259,2040,13.086937371900982
+Marapanim,dados_marapanim__populacao_de_mulheres,População de Mulheres,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,0.48546205423613503,2030,13.19982743068832
+Marapanim,dados_marapanim__populacao_de_mulheres,População de Mulheres,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,0.48546205423613503,2040,13.17973690208577
+Marapanim,dados_marapanim__proporcao_na_populacao_de_marapanim,Proporção na população de Marapanim,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.036664450413644016,2030,0.11683892794443877
+Marapanim,dados_marapanim__proporcao_na_populacao_de_marapanim,Proporção na população de Marapanim,dados_marapanim,Grupo 2 — 3 censos,logistic,sgd,True,0.036664450413644016,2040,0.1166985681527978
+Marapanim,dados_marapanim__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,1.0193925785184774,2030,96.69333833416835
+Marapanim,dados_marapanim__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_marapanim,Grupo 2 — 3 censos,relu,lbfgs,True,1.0193925785184774,2040,93.61146796225935
+Marapanim,dados_marapanim__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,115.28364864723346,2030,842.1224163849006
+Marapanim,dados_marapanim__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,115.28364864723346,2040,1095.8173653558442
+Marapanim,dados_marapanim__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,3.3250242804191807,2030,28.189547142391355
+Marapanim,dados_marapanim__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,3.3250242804191807,2040,17.425747082558885
+Marapanim,dados_marapanim__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2030,15.372613093515128
+Marapanim,dados_marapanim__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247531,2040,18.558816594793928
+Marapanim,dados_marapanim__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.990130925068137,2030,27.694112672638216
+Marapanim,dados_marapanim__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,0.990130925068137,2040,31.785887714479745
+Marapanim,dados_marapanim__responsavel_homem,Responsável Homem,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496452,2030,2.85501810039547
+Marapanim,dados_marapanim__responsavel_homem,Responsável Homem,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496452,2040,2.3867954424251008
+Marapanim,dados_marapanim__responsavel_mulher,Responsável Mulher,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Marapanim,dados_marapanim__responsavel_mulher,Responsável Mulher,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Marapanim,dados_marapanim__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Marapanim,dados_marapanim__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Marapanim,dados_marapanim__setor_privado,Setor privado,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.6108148649977044,2030,6.541391554346363
+Marapanim,dados_marapanim__setor_privado,Setor privado,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.6108148649977044,2040,7.424429543445651
+Marapanim,dados_marapanim__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,tanh,adam,True,539.3048797038754,2030,-3.3977013222884693
+Marapanim,dados_marapanim__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,tanh,adam,True,539.3048797038754,2040,25.034695305457376
+Marapanim,dados_marapanim__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.23602929523855232,2030,2.863154476695732
+Marapanim,dados_marapanim__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.23602929523855232,2040,3.209855364144149
+Marapanim,dados_marapanim__setor_publico,Setor público,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.4331120858099313,2030,3.5164848890454232
+Marapanim,dados_marapanim__setor_publico,Setor público,dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.4331120858099313,2040,3.8330665443754617
+Marapanim,dados_marapanim__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,7.596127996675293,2030,167.48932617941264
+Marapanim,dados_marapanim__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,7.596127996675293,2040,212.64485813175628
+Marapanim,dados_marapanim__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.43456604685793226,2030,3.3643660480133772
+Marapanim,dados_marapanim__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,0.43456604685793226,2040,3.6553593988357855
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.09152034415408512,2030,50.85111541035232
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_marapanim,Grupo 2 — 3 censos,identity,lbfgs,True,0.09152034415408512,2040,61.39521599344836
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_marapanim,Grupo 2 — 3 censos,logistic,lbfgs,True,3.6833507287916567,2030,97.2060396524337
+Marapanim,dados_marapanim__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_marapanim,Grupo 2 — 3 censos,logistic,lbfgs,True,3.6833507287916567,2040,97.39452876524678
+Marapanim,dados_marapanim__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.041090556937012,2030,97.4683379770592
+Marapanim,dados_marapanim__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_marapanim,Grupo 2 — 3 censos,relu,adam,True,5.041090556937012,2040,99.81950126729849
+Marapanim,dados_marapanim__trabalhador_domestico,Trabalhador doméstico,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,110.3189293721291,2030,615.97478697289
+Marapanim,dados_marapanim__trabalhador_domestico,Trabalhador doméstico,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,110.3189293721291,2040,611.574099795499
+Marapanim,dados_marapanim__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2030,139.99146094353011
+Marapanim,dados_marapanim__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_marapanim,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2040,176.11588650540503
+Marapanim,dados_marapanim__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,110.97991701966811,2030,501.5503065123707
+Marapanim,dados_marapanim__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_marapanim,Grupo 2 — 3 censos,tanh,lbfgs,True,110.97991701966811,2040,496.5744863171062
+Marapanim,dados_marapanim__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_marapanim,Grupo 2 — 3 censos,relu,sgd,True,8.368696270190865,2030,37.140041195647626
+Marapanim,dados_marapanim__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_marapanim,Grupo 2 — 3 censos,relu,sgd,True,8.368696270190865,2040,46.72401904488716
+Marapanim,dados_marapanim__a_pe,A pé,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.680874743195368
+Marapanim,dados_marapanim__a_pe,A pé,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.24458758332371
+Marapanim,dados_marapanim__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.04655674388451
+Marapanim,dados_marapanim__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,67.38257332058876
+Marapanim,dados_marapanim__ate_30_minutos_sede_vilas_praianas,Até 30 minutos (Sede/vilas praianas),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.54639363443791
+Marapanim,dados_marapanim__ate_30_minutos_sede_vilas_praianas,Até 30 minutos (Sede/vilas praianas),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.10006441249566
+Marapanim,dados_marapanim__automovel_onibus,Automóvel / Ônibus,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.988417247338106
+Marapanim,dados_marapanim__automovel_onibus,Automóvel / Ônibus,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.7098001204011
+Marapanim,dados_marapanim__bicicleta,Bicicleta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.779308145009938
+Marapanim,dados_marapanim__bicicleta,Bicicleta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.792697561104056
+Marapanim,dados_marapanim__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.20596067625866
+Marapanim,dados_marapanim__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.51143029144433
+Marapanim,dados_marapanim__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.14804691294918
+Marapanim,dados_marapanim__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.06043089344983
+Marapanim,dados_marapanim__com_coleta_de_lixo,Com Coleta de Lixo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.88715281151039
+Marapanim,dados_marapanim__com_coleta_de_lixo,Com Coleta de Lixo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.25371634973318
+Marapanim,dados_marapanim__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Marapanim,dados_marapanim__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Marapanim,dados_marapanim__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.93165804228808
+Marapanim,dados_marapanim__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.77053259443353
+Marapanim,dados_marapanim__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.968119213525173
+Marapanim,dados_marapanim__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.174228605828886
+Marapanim,dados_marapanim__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.3362384270503462
+Marapanim,dados_marapanim__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.7484572116577728
+Marapanim,dados_marapanim__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.230447050719402
+Marapanim,dados_marapanim__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.003357271858327
+Marapanim,dados_marapanim__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8388707734122516
+Marapanim,dados_marapanim__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.570403769442198
+Marapanim,dados_marapanim__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.28965407250497
+Marapanim,dados_marapanim__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.296348780552028
+Marapanim,dados_marapanim__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.617430562302076
+Marapanim,dados_marapanim__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.090743269946636
+Marapanim,dados_marapanim__estuda_no_proprio_municipio_marapanim,Estuda no próprio município (Marapanim),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.1046997945563
+Marapanim,dados_marapanim__estuda_no_proprio_municipio_marapanim,Estuda no próprio município (Marapanim),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.75567006665896
+Marapanim,dados_marapanim__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.89873556417228
+Marapanim,dados_marapanim__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.54391622933208
+Marapanim,dados_marapanim__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.57930814500994
+Marapanim,dados_marapanim__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.592697561104057
+Marapanim,dados_marapanim__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.24931134877691
+Marapanim,dados_marapanim__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.51651466411776
+Marapanim,dados_marapanim__idade_mediana_2,Idade Mediana,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.68119213525173
+Marapanim,dados_marapanim__idade_mediana_2,Idade Mediana,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.742286058288865
+Marapanim,dados_marapanim__mais_de_1_hora_deslocamento_para_polos_urbano,Mais de 1 hora (Deslocamento para pólos urbanos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.504357640575519
+Marapanim,dados_marapanim__mais_de_1_hora_deslocamento_para_polos_urbano,Mais de 1 hora (Deslocamento para pólos urbanos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.122685817486659
+Marapanim,dados_marapanim__motocicleta,Motocicleta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.571099551654505
+Marapanim,dados_marapanim__motocicleta,Motocicleta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.92994375155106
+Marapanim,dados_marapanim__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.63009144410265
+Marapanim,dados_marapanim__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.91864257221388
+Marapanim,dados_marapanim__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Marapanim,dados_marapanim__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Marapanim,dados_marapanim__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.75366898935242
+Marapanim,dados_marapanim__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.639200481604405
+Marapanim,dados_marapanim__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,646.0894101438798
+Marapanim,dados_marapanim__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,800.6714543716648
+Marapanim,dados_marapanim__populacao_amarela_2,População Amarela,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0238611281483572
+Marapanim,dados_marapanim__populacao_amarela_2,População Amarela,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9256369587330753
+Marapanim,dados_marapanim__populacao_branca_2,População Branca,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.97132528489144
+Marapanim,dados_marapanim__populacao_branca_2,População Branca,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,103.55171755374421
+Marapanim,dados_marapanim__populacao_indigena_2,População Indígena,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0238611281483572
+Marapanim,dados_marapanim__populacao_indigena_2,População Indígena,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9256369587330753
+Marapanim,dados_marapanim__populacao_parda_2,População Parda,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,510.87152811510384
+Marapanim,dados_marapanim__populacao_parda_2,População Parda,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,634.5371634973319
+Marapanim,dados_marapanim__populacao_preta_2,População Preta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.24655674388452
+Marapanim,dados_marapanim__populacao_preta_2,População Preta,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.58257332058875
+Marapanim,dados_marapanim__populacao_residente_em_favelas,População Residente em Favelas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,646.0894101438798
+Marapanim,dados_marapanim__populacao_residente_em_favelas,População Residente em Favelas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,800.6714543716648
+Marapanim,dados_marapanim__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8724768541006926
+Marapanim,dados_marapanim__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.696914423315545
+Marapanim,dados_marapanim__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,99.15234989727814
+Marapanim,dados_marapanim__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.97783503332947
+Marapanim,dados_marapanim__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7194353867061265
+Marapanim,dados_marapanim__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.0852018847210996
+Marapanim,dados_marapanim__ruas_sem_arvores,Ruas Sem Árvores,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.767395619329472
+Marapanim,dados_marapanim__ruas_sem_arvores,Ruas Sem Árvores,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.237156319436423
+Marapanim,dados_marapanim__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.90149016906466
+Marapanim,dados_marapanim__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.47785757286108
+Marapanim,dados_marapanim__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.502923904820092
+Marapanim,dados_marapanim__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.73337095553949
+Marapanim,dados_marapanim__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.10027169517387
+Marapanim,dados_marapanim__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.103628967032193
+Marapanim,dados_marapanim__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.7190335979852
+Marapanim,dados_marapanim__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.36536460863279
+Marapanim,dados_marapanim__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.87948774390429
+Marapanim,dados_marapanim__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.64028726229989
+Marapanim,dados_marapanim__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.194208623669053
+Marapanim,dados_marapanim__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.554900060200551
+Marapanim,dados_marapanim__sem_conjuge,Sem cônjuge,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.65802662992794
+Marapanim,dados_marapanim__sem_conjuge,Sem cônjuge,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.161886299091066
+Marapanim,dados_marapanim__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.00298033812932
+Marapanim,dados_marapanim__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.15571514572216
+Marapanim,dados_marapanim__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,187.82682304316393
+Marapanim,dados_marapanim__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,234.20143631149944
+Marapanim,dados_marapanim__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.640596067625864
+Marapanim,dados_marapanim__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.67114302914443
+Marapanim,dados_marapanim__trabalha_em_outro_municipio_ex_castanhal_bele,Trabalha em outro município (ex: Castanhal / Belém / Curuçá),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.049311348776904
+Marapanim,dados_marapanim__trabalha_em_outro_municipio_ex_castanhal_bele,Trabalha em outro município (ex: Castanhal / Belém / Curuçá),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.316514664117747
+Marapanim,dados_marapanim__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Marapanim),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.77930814500994
+Marapanim,dados_marapanim__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Marapanim),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.79269756110403
+Marapanim,dados_marapanim__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.101566598185432
+Marapanim,dados_marapanim__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.651890022219656
+Marapanim,dados_marapanim__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.142086236690528
+Marapanim,dados_marapanim__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.749000602005516
+Marapanim,dados_marapanim__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.89873556417228
+Marapanim,dados_marapanim__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.54391622933207
+Marapanim,dados_marapanim__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.4840596067625865
+Marapanim,dados_marapanim__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5871143029144432
+Marapanim,dados_marapanim__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.03497399122263
+Marapanim,dados_marapanim__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.09237344098986
+Marapanim,dados_marapanim__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.29586809266142
+Marapanim,dados_marapanim__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.89908798470651
+Marapanim,dados_marapanim__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.08990741640277
+Marapanim,dados_marapanim__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_marapanim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.387657693262184
