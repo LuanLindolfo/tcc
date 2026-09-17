@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Tucumã,dados_tucuma__anos_de_estudo_media,Anos de Estudo (Média),dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3285537549081279,2030,9.122071542828277
+Tucumã,dados_tucuma__anos_de_estudo_media,Anos de Estudo (Média),dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3285537549081279,2040,9.450374364033403
+Tucumã,dados_tucuma__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_tucuma,Grupo 1 — 4 censos,tanh,adam,True,19.08286415204754,2030,288.7717020495861
+Tucumã,dados_tucuma__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_tucuma,Grupo 1 — 4 censos,tanh,adam,True,19.08286415204754,2040,291.31150177598215
+Tucumã,dados_tucuma__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucuma,Grupo 1 — 4 censos,relu,lbfgs,True,0.5122356324285738,2030,15.485099633873535
+Tucumã,dados_tucuma__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_tucuma,Grupo 1 — 4 censos,relu,lbfgs,True,0.5122356324285738,2040,18.78641299544529
+Tucumã,dados_tucuma__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3207603473732752,2030,8.681057507733978
+Tucumã,dados_tucuma__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3207603473732752,2040,8.979613965214362
+Tucumã,dados_tucuma__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3472174093990603,2030,9.52987505692148
+Tucumã,dados_tucuma__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3472174093990603,2040,9.863145423663962
+Tucumã,dados_tucuma__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucuma,Grupo 1 — 4 censos,relu,adam,True,0.14292977795932826,2030,2.6464652089271365
+Tucumã,dados_tucuma__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_tucuma,Grupo 1 — 4 censos,relu,adam,True,0.14292977795932826,2040,2.196144060903325
+Tucumã,dados_tucuma__populacao_total,População Total,dados_tucuma,Grupo 1 — 4 censos,tanh,lbfgs,True,1.8054600442447173,2030,40.27005006344285
+Tucumã,dados_tucuma__populacao_total,População Total,dados_tucuma,Grupo 1 — 4 censos,tanh,lbfgs,True,1.8054600442447173,2040,40.49490820624873
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,3.2292151414225216,2030,93.07813316807199
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_tucuma,Grupo 1 — 4 censos,logistic,lbfgs,True,3.2292151414225216,2040,93.86367849741757
+Tucumã,dados_tucuma__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucuma,Grupo 1 — 4 censos,relu,lbfgs,True,0.5101642670059707,2030,15.798160020939768
+Tucumã,dados_tucuma__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_tucuma,Grupo 1 — 4 censos,relu,lbfgs,True,0.5101642670059707,2040,19.140565726895662
+Tucumã,dados_tucuma__2_trabalhos,2 trabalhos,dados_tucuma,Grupo 2 — 3 censos,tanh,adam,True,1.7852628576640657,2030,9.064176677319358
+Tucumã,dados_tucuma__2_trabalhos,2 trabalhos,dados_tucuma,Grupo 2 — 3 censos,tanh,adam,True,1.7852628576640657,2040,9.242233844944211
+Tucumã,dados_tucuma__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,0.2049117414343765,2030,0.9011520483993364
+Tucumã,dados_tucuma__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,0.2049117414343765,2040,0.9005436707359779
+Tucumã,dados_tucuma__apenas_1_trabalho,Apenas 1 trabalho,dados_tucuma,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2030,87.362560635222
+Tucumã,dados_tucuma__apenas_1_trabalho,Apenas 1 trabalho,dados_tucuma,Grupo 2 — 3 censos,relu,lbfgs,True,2.3629805262399564,2040,83.57597476919454
+Tucumã,dados_tucuma__casais_com_filhos,Casais com filhos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.943713856334097,2030,33.571480567147916
+Tucumã,dados_tucuma__casais_com_filhos,Casais com filhos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.943713856334097,2040,23.57417580606793
+Tucumã,dados_tucuma__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,0.26324258589751476,2030,6.934795624253138
+Tucumã,dados_tucuma__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,0.26324258589751476,2040,6.933962067246486
+Tucumã,dados_tucuma__casais_sem_filhos,Casais sem filhos,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,1.4008486939886737,2030,19.064089359784333
+Tucumã,dados_tucuma__casais_sem_filhos,Casais sem filhos,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,1.4008486939886737,2040,22.710790260646185
+Tucumã,dados_tucuma__conta_propria,Conta própria,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.8745380109181453,2030,9.86741823089021
+Tucumã,dados_tucuma__conta_propria,Conta própria,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.8745380109181453,2040,10.970074652210362
+Tucumã,dados_tucuma__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.303054834216909,2030,27.289406862440973
+Tucumã,dados_tucuma__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.303054834216909,2040,32.08370908494665
+Tucumã,dados_tucuma__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,1.3987412655883904,2030,29.512114004014272
+Tucumã,dados_tucuma__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,1.3987412655883904,2040,33.8371889955345
+Tucumã,dados_tucuma__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,3.6300712082347744,2030,6.683999934153327
+Tucumã,dados_tucuma__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,3.6300712082347744,2040,-6.892976625662399
+Tucumã,dados_tucuma__empregador,Empregador,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,352.3791511305042,2030,331.94249870838
+Tucumã,dados_tucuma__empregador,Empregador,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,352.3791511305042,2040,330.5439547114718
+Tucumã,dados_tucuma__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,5.398414921297804,2030,96.3631223666151
+Tucumã,dados_tucuma__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,5.398414921297804,2040,96.21298966878093
+Tucumã,dados_tucuma__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,4.593034073401479,2030,83.03709817115785
+Tucumã,dados_tucuma__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,4.593034073401479,2040,88.41271751938939
+Tucumã,dados_tucuma__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,2.1862012217448985,2030,30.850502124684304
+Tucumã,dados_tucuma__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,2.1862012217448985,2040,34.096408149375684
+Tucumã,dados_tucuma__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.01751336864947416,2030,1.0343152796000272
+Tucumã,dados_tucuma__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.01751336864947416,2040,1.2438260384840705
+Tucumã,dados_tucuma__idade_mediana,Idade Mediana,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678784,2030,35.21825763972987
+Tucumã,dados_tucuma__idade_mediana,Idade Mediana,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678784,2040,40.66412589942698
+Tucumã,dados_tucuma__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,36.54044294905188,2030,299.1128797392321
+Tucumã,dados_tucuma__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,36.54044294905188,2040,381.258705797233
+Tucumã,dados_tucuma__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.15113227428339945,2030,25.939658892461342
+Tucumã,dados_tucuma__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.15113227428339945,2040,29.830891714659863
+Tucumã,dados_tucuma__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,2.05768049789496,2030,4.4820527109920345
+Tucumã,dados_tucuma__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,2.05768049789496,2040,4.47711529946701
+Tucumã,dados_tucuma__media_populacao_amarela,Média: População Amarela,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839916,2030,9.967961792272941
+Tucumã,dados_tucuma__media_populacao_amarela,Média: População Amarela,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839916,2040,11.032156151362638
+Tucumã,dados_tucuma__media_populacao_branca,Média: População Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.7526737994697082,2030,9.820264483154652
+Tucumã,dados_tucuma__media_populacao_branca,Média: População Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.7526737994697082,2040,10.775194938847704
+Tucumã,dados_tucuma__media_populacao_indigena,Média: População Indígena,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2030,8.299573047176505
+Tucumã,dados_tucuma__media_populacao_indigena,Média: População Indígena,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2040,10.105794325270251
+Tucumã,dados_tucuma__media_populacao_preta_parda,Média: População Preta / Parda,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.7526737994697078,2030,9.120264483154653
+Tucumã,dados_tucuma__media_populacao_preta_parda,Média: População Preta / Parda,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.7526737994697078,2040,10.075194938847705
+Tucumã,dados_tucuma__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,465.33868480224356,2030,470.968869706789
+Tucumã,dados_tucuma__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,465.33868480224356,2040,469.58039341182496
+Tucumã,dados_tucuma__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2030,4.199914609435301
+Tucumã,dados_tucuma__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.0607690239734023,2040,4.56115886505405
+Tucumã,dados_tucuma__pais_solo_vivendo_with_outros_parentes,Pais solo vivendo with outros parentes,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.1067409347785064,2030,3.4702151478280197
+Tucumã,dados_tucuma__pais_solo_vivendo_with_outros_parentes,Pais solo vivendo with outros parentes,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.1067409347785064,2040,4.332237209816944
+Tucumã,dados_tucuma__populacao_amarela,População Amarela,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.440399802158334,2030,26.043468461685965
+Tucumã,dados_tucuma__populacao_amarela,População Amarela,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.440399802158334,2040,10.548962158921164
+Tucumã,dados_tucuma__populacao_branca,População Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.5672631712274541,2030,10.15208363432584
+Tucumã,dados_tucuma__populacao_branca,População Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.5672631712274541,2040,11.049224836389191
+Tucumã,dados_tucuma__populacao_indigena,População Indígena,dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,15.568043081097718,2030,118.81550874900216
+Tucumã,dados_tucuma__populacao_indigena,População Indígena,dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,15.568043081097718,2040,118.34815106361746
+Tucumã,dados_tucuma__populacao_indigena_total,População Indígena Total,dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,15.568043081097718,2030,118.81550874900216
+Tucumã,dados_tucuma__populacao_indigena_total,População Indígena Total,dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,15.568043081097718,2040,118.34815106361746
+Tucumã,dados_tucuma__populacao_parda,População Parda,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,3.143277314426168,2030,28.59667435434206
+Tucumã,dados_tucuma__populacao_parda,População Parda,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,3.143277314426168,2040,30.42246010727337
+Tucumã,dados_tucuma__populacao_preta,População Preta,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.2498762205794968,2030,3.094675537431403
+Tucumã,dados_tucuma__populacao_preta,População Preta,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.2498762205794968,2040,3.3900264430459415
+Tucumã,dados_tucuma__populacao_rural,População Rural,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,1.475238608044443,2030,7.903695768476233
+Tucumã,dados_tucuma__populacao_rural,População Rural,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,1.475238608044443,2040,7.900154268238037
+Tucumã,dados_tucuma__populacao_urbana,População Urbana,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,2.6102842174053933,2030,34.096254359620204
+Tucumã,dados_tucuma__populacao_urbana,População Urbana,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,2.6102842174053933,2040,37.471796163807824
+Tucumã,dados_tucuma__populacao_com_superior_completo,População com Superior Completo,dados_tucuma,Grupo 2 — 3 censos,tanh,adam,True,132.7474067647559,2030,2.8913551519001004
+Tucumã,dados_tucuma__populacao_com_superior_completo,População com Superior Completo,dados_tucuma,Grupo 2 — 3 censos,tanh,adam,True,132.7474067647559,2040,9.892229387941796
+Tucumã,dados_tucuma__populacao_de_homens,População de Homens,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.9345863122735274,2030,20.782322569320975
+Tucumã,dados_tucuma__populacao_de_homens,População de Homens,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.9345863122735274,2040,22.095875680546666
+Tucumã,dados_tucuma__populacao_de_mulheres,População de Mulheres,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.6939759315734453,2030,21.263863872653044
+Tucumã,dados_tucuma__populacao_de_mulheres,População de Mulheres,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.6939759315734453,2040,22.92247662413039
+Tucumã,dados_tucuma__proporcao_na_populacao_de_tucuma,Proporção na população de Tucumã,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.004575745619238773,2030,0.28258159414486184
+Tucumã,dados_tucuma__proporcao_na_populacao_de_tucuma,Proporção na população de Tucumã,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.004575745619238773,2040,0.25977936573811533
+Tucumã,dados_tucuma__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.24369996589441692,2030,97.42228033881075
+Tucumã,dados_tucuma__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.24369996589441692,2040,94.83447991895834
+Tucumã,dados_tucuma__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,173.9798426054086,2030,1132.477264052479
+Tucumã,dados_tucuma__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,173.9798426054086,2040,1472.364101298329
+Tucumã,dados_tucuma__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.3488688505409763,2030,30.80728724029283
+Tucumã,dados_tucuma__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,2.3488688505409763,2040,20.845722694554436
+Tucumã,dados_tucuma__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050343308034975,2030,19.84925753593038
+Tucumã,dados_tucuma__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050343308034975,2040,23.667991201482454
+Tucumã,dados_tucuma__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tucuma,Grupo 2 — 3 censos,identity,sgd,True,0.30054380020500443,2030,26.951043914381188
+Tucumã,dados_tucuma__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_tucuma,Grupo 2 — 3 censos,identity,sgd,True,0.30054380020500443,2040,31.336600574876847
+Tucumã,dados_tucuma__responsavel_homem,Responsável Homem,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201902775396138,2030,2.5977786090772987
+Tucumã,dados_tucuma__responsavel_homem,Responsável Homem,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201902775396138,2040,1.8725036341060783
+Tucumã,dados_tucuma__responsavel_mulher,Responsável Mulher,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Tucumã,dados_tucuma__responsavel_mulher,Responsável Mulher,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Tucumã,dados_tucuma__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Tucumã,dados_tucuma__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Tucumã,dados_tucuma__setor_privado,Setor privado,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.3516526568738838,2030,13.064897875955943
+Tucumã,dados_tucuma__setor_privado,Setor privado,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,1.3516526568738838,2040,15.079859611204892
+Tucumã,dados_tucuma__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.6079273254290546,2030,10.122270356058333
+Tucumã,dados_tucuma__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,0.6079273254290546,2040,12.838368555281228
+Tucumã,dados_tucuma__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.5905936394247334,2030,3.8844828435536662
+Tucumã,dados_tucuma__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,0.5905936394247334,2040,4.23184885631635
+Tucumã,dados_tucuma__setor_publico,Setor público,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.003049978038469329,2030,4.784885318959625
+Tucumã,dados_tucuma__setor_publico,Setor público,dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.003049978038469329,2040,5.9667696511498
+Tucumã,dados_tucuma__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,3.0121083436666254,2030,414.6588428345147
+Tucumã,dados_tucuma__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,3.0121083436666254,2040,532.3258769152483
+Tucumã,dados_tucuma__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.006100549639981967,2030,4.369836344310997
+Tucumã,dados_tucuma__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_tucuma,Grupo 2 — 3 censos,identity,lbfgs,True,0.006100549639981967,2040,5.433587189439828
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,2.3094863395393226,2030,63.00020518330355
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,2.3094863395393226,2040,75.73152566168088
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tucuma,Grupo 2 — 3 censos,logistic,adam,True,3.6901616463929607,2030,99.89183067123004
+Tucumã,dados_tucuma__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_tucuma,Grupo 2 — 3 censos,logistic,adam,True,3.6901616463929607,2040,100.41151883336823
+Tucumã,dados_tucuma__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,5.398414921297804,2030,96.3631223666151
+Tucumã,dados_tucuma__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_tucuma,Grupo 2 — 3 censos,tanh,lbfgs,True,5.398414921297804,2040,96.21298966878093
+Tucumã,dados_tucuma__trabalhador_domestico,Trabalhador doméstico,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,409.5158392766516,2030,415.4548907374218
+Tucumã,dados_tucuma__trabalhador_domestico,Trabalhador doméstico,dados_tucuma,Grupo 2 — 3 censos,logistic,sgd,True,409.5158392766516,2040,413.74390521164446
+Tucumã,dados_tucuma__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,30.463540551711635,2030,429.07687319194656
+Tucumã,dados_tucuma__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_tucuma,Grupo 2 — 3 censos,identity,adam,True,30.463540551711635,2040,547.3171769103369
+Tucumã,dados_tucuma__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,102.07978031386631,2030,842.3996644514127
+Tucumã,dados_tucuma__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_tucuma,Grupo 2 — 3 censos,relu,adam,True,102.07978031386631,2040,913.8056175267487
+Tucumã,dados_tucuma__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tucuma,Grupo 2 — 3 censos,relu,lbfgs,True,6.703970054040462,2030,33.06994041932241
+Tucumã,dados_tucuma__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_tucuma,Grupo 2 — 3 censos,relu,lbfgs,True,6.703970054040462,2040,42.994370448042964
+Tucumã,dados_tucuma__a_pe,A pé,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.707832990927155
+Tucumã,dados_tucuma__a_pe,A pé,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4594501110982776
+Tucumã,dados_tucuma__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.866854777697455
+Tucumã,dados_tucuma__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.71814483516097
+Tucumã,dados_tucuma__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.316612320236764
+Tucumã,dados_tucuma__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.51121130832661
+Tucumã,dados_tucuma__automovel_onibus_caminhonete,Automóvel / Ônibus / Caminhonete,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.48990741640277
+Tucumã,dados_tucuma__automovel_onibus_caminhonete,Automóvel / Ônibus / Caminhonete,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.787657693262183
+Tucumã,dados_tucuma__bicicleta,Bicicleta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.31974551660762
+Tucumã,dados_tucuma__bicicleta,Bicicleta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-4.385008647234095
+Tucumã,dados_tucuma__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.36823208014366
+Tucumã,dados_tucuma__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.68511550692548
+Tucumã,dados_tucuma__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.12774887913625
+Tucumã,dados_tucuma__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.52485937887762
+Tucumã,dados_tucuma__com_coleta_de_lixo,Com Coleta de Lixo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.4871528115104
+Tucumã,dados_tucuma__com_coleta_de_lixo,Com Coleta de Lixo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,104.8537163497332
+Tucumã,dados_tucuma__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Tucumã,dados_tucuma__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Tucumã,dados_tucuma__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.295920465246695
+Tucumã,dados_tucuma__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.50390886943066
+Tucumã,dados_tucuma__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.536238427050346
+Tucumã,dados_tucuma__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.948457211657773
+Tucumã,dados_tucuma__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.313072921726558
+Tucumã,dados_tucuma__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.168057452459976
+Tucumã,dados_tucuma__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.07247685410069
+Tucumã,dados_tucuma__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.896914423315543
+Tucumã,dados_tucuma__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.03134791238658946
+Tucumã,dados_tucuma__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.05925687361127155
+Tucumã,dados_tucuma__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.152349897278148
+Tucumã,dados_tucuma__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.977835033329487
+Tucumã,dados_tucuma__estuda_em_outro_municipio_ex_ourilandia_reden,Estuda em outro município (ex: Ourilândia / Redenção / Belém),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.617430562302076
+Tucumã,dados_tucuma__estuda_em_outro_municipio_ex_ourilandia_reden,Estuda em outro município (ex: Ourilândia / Redenção / Belém),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.090743269946636
+Tucumã,dados_tucuma__estuda_no_proprio_municipio_tucuma,Estuda no próprio município (Tucumã),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.1046997945563
+Tucumã,dados_tucuma__estuda_no_proprio_municipio_tucuma,Estuda no próprio município (Tucumã),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.75567006665896
+Tucumã,dados_tucuma__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.34506657481985
+Tucumã,dados_tucuma__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.10471574772767
+Tucumã,dados_tucuma__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.71661232023676
+Tucumã,dados_tucuma__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.911211308326596
+Tucumã,dados_tucuma__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.16525174201432
+Tucumã,dados_tucuma__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.32940036120331
+Tucumã,dados_tucuma__idade_mediana_2,Idade Mediana,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.68119213525173
+Tucumã,dados_tucuma__idade_mediana_2,Idade Mediana,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.742286058288865
+Tucumã,dados_tucuma__mais_de_1_hora_deslocamento_rural_intermunici,Mais de 1 hora (Deslocamento rural / intermunicipal PA-279),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.492774887913626
+Tucumã,dados_tucuma__mais_de_1_hora_deslocamento_rural_intermunici,Mais de 1 hora (Deslocamento rural / intermunicipal PA-279),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.83248593788776
+Tucumã,dados_tucuma__motocicleta,Motocicleta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.729069748273204
+Tucumã,dados_tucuma__motocicleta,Motocicleta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.03638660009382
+Tucumã,dados_tucuma__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.76739561932948
+Tucumã,dados_tucuma__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.23715631943642
+Tucumã,dados_tucuma__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Tucumã,dados_tucuma__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Tucumã,dados_tucuma__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.921788202877593
+Tucumã,dados_tucuma__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.013429087433295
+Tucumã,dados_tucuma__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.8986226975538
+Tucumã,dados_tucuma__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.4330293282355
+Tucumã,dados_tucuma__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-423.48419648169386
+Tucumã,dados_tucuma__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-984.0741284076593
+Tucumã,dados_tucuma__populacao_amarela_2,População Amarela,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Tucumã,dados_tucuma__populacao_amarela_2,População Amarela,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Tucumã,dados_tucuma__populacao_branca_2,População Branca,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,216.98622697553807
+Tucumã,dados_tucuma__populacao_branca_2,População Branca,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,262.330293282355
+Tucumã,dados_tucuma__populacao_indigena_2,População Indígena,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.8405960676258655
+Tucumã,dados_tucuma__populacao_indigena_2,População Indígena,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.871143029144433
+Tucumã,dados_tucuma__populacao_parda_2,População Parda,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1190.1490169064664
+Tucumã,dados_tucuma__populacao_parda_2,População Parda,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1447.785757286108
+Tucumã,dados_tucuma__populacao_preta_2,População Preta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,138.58026629927943
+Tucumã,dados_tucuma__populacao_preta_2,População Preta,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,173.6188629909107
+Tucumã,dados_tucuma__populacao_residente_em_favelas,População Residente em Favelas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-423.48419648169386
+Tucumã,dados_tucuma__populacao_residente_em_favelas,População Residente em Favelas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-984.0741284076593
+Tucumã,dados_tucuma__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.492774887913624
+Tucumã,dados_tucuma__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.8324859378877605
+Tucumã,dados_tucuma__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.15234989727814
+Tucumã,dados_tucuma__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.97783503332947
+Tucumã,dados_tucuma__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Tucumã,dados_tucuma__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Tucumã,dados_tucuma__ruas_sem_arvores,Ruas Sem Árvores,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.818178918422188
+Tucumã,dados_tucuma__ruas_sem_arvores,Ruas Sem Árvores,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.563101330546248
+Tucumã,dados_tucuma__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.63772859611501
+Tucumã,dados_tucuma__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.62631478451885
+Tucumã,dados_tucuma__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.594265056978287
+Tucumã,dados_tucuma__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.414563090791223
+Tucumã,dados_tucuma__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.510343510748847
+Tucumã,dados_tucuma__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.845915025321062
+Tucumã,dados_tucuma__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.89002028302124
+Tucumã,dados_tucuma__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.84070893424435
+Tucumã,dados_tucuma__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.29854459435876
+Tucumã,dados_tucuma__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.98202993024103
+Tucumã,dados_tucuma__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.814506657481986
+Tucumã,dados_tucuma__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.6904715747727677
+Tucumã,dados_tucuma__sem_conjuge,Sem cônjuge,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.814563090791225
+Tucumã,dados_tucuma__sem_conjuge,Sem cônjuge,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.24591502532106
+Tucumã,dados_tucuma__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.84644387726605
+Tucumã,dados_tucuma__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.07168641949218
+Tucumã,dados_tucuma__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,472.4655674388452
+Tucumã,dados_tucuma__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,585.8257332058876
+Tucumã,dados_tucuma__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.65510272510785
+Tucumã,dados_tucuma__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.56161460391721
+Tucumã,dados_tucuma__trabalha_em_outro_municipio_ex_ourilandia_do_,Trabalha em outro município (ex: Ourilândia do Norte / São Félix do Xingu / Redenção),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.060894101438798
+Tucumã,dados_tucuma__trabalha_em_outro_municipio_ex_ourilandia_do_,Trabalha em outro município (ex: Ourilândia do Norte / São Félix do Xingu / Redenção),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.60671454371665
+Tucumã,dados_tucuma__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Tucumã),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.14043737159768
+Tucumã,dados_tucuma__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Tucumã),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.42229379166186
+Tucumã,dados_tucuma__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.573967023165356
+Tucumã,dados_tucuma__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.974771996176628
+Tucumã,dados_tucuma__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Tucumã,dados_tucuma__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Tucumã,dados_tucuma__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.620298033812933
+Tucumã,dados_tucuma__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.135571514572216
+Tucumã,dados_tucuma__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.521901069496074
+Tucumã,dados_tucuma__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.72431598852988
+Tucumã,dados_tucuma__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.16977868251755
+Tucumã,dados_tucuma__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.61841653033483
+Tucumã,dados_tucuma__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.898622697553805
+Tucumã,dados_tucuma__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_tucuma,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.433029328235495
