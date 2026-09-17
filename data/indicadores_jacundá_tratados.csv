@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Jacundá,dados_jacunda__populacao_total,População Total,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,1.5031655120601357,1991,36.82,Valor
+Jacundá,dados_jacunda__populacao_total,População Total,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,1.5031655120601357,2000,44.502,Valor
+Jacundá,dados_jacunda__populacao_total,População Total,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,1.5031655120601357,2010,51.36,Valor
+Jacundá,dados_jacunda__populacao_total,População Total,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,1.5031655120601357,2022,58.606,Valor
+Jacundá,dados_jacunda__populacao_urbana,População Urbana,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.753464392972353,2000,29.84,Valor
+Jacundá,dados_jacunda__populacao_urbana,População Urbana,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.753464392972353,2010,39.42,Valor
+Jacundá,dados_jacunda__populacao_urbana,População Urbana,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.753464392972353,2022,46.82,Valor
+Jacundá,dados_jacunda__populacao_rural,População Rural,dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,1.3998793042160962,2000,14.662,Valor
+Jacundá,dados_jacunda__populacao_rural,População Rural,dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,1.3998793042160962,2010,11.94,Valor
+Jacundá,dados_jacunda__populacao_rural,População Rural,dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,1.3998793042160962,2022,11.786,Valor
+Jacundá,dados_jacunda__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.12,Valor
+Jacundá,dados_jacunda__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.48,Valor
+Jacundá,dados_jacunda__populacao_de_mulheres,População de Mulheres,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.17863639220145563,2000,21.84,Valor
+Jacundá,dados_jacunda__populacao_de_mulheres,População de Mulheres,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.17863639220145563,2010,25.42,Valor
+Jacundá,dados_jacunda__populacao_de_mulheres,População de Mulheres,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.17863639220145563,2022,29.48,Valor
+Jacundá,dados_jacunda__populacao_de_homens,População de Homens,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5680077061644629,2000,22.662,Valor
+Jacundá,dados_jacunda__populacao_de_homens,População de Homens,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5680077061644629,2010,25.94,Valor
+Jacundá,dados_jacunda__populacao_de_homens,População de Homens,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5680077061644629,2022,29.126,Valor
+Jacundá,dados_jacunda__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7280530442356886,2000,103.8,Valor
+Jacundá,dados_jacunda__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7280530442356886,2010,102.0,Valor
+Jacundá,dados_jacunda__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7280530442356886,2022,98.8,Valor
+Jacundá,dados_jacunda__idade_mediana,Idade Mediana,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,19.0,Valor
+Jacundá,dados_jacunda__idade_mediana,Idade Mediana,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,23.0,Valor
+Jacundá,dados_jacunda__idade_mediana,Idade Mediana,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,29.0,Valor
+Jacundá,dados_jacunda__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.4949228239764585,2000,4.2,Valor
+Jacundá,dados_jacunda__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.4949228239764585,2010,7.4,Valor
+Jacundá,dados_jacunda__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.4949228239764585,2022,21.4,Valor
+Jacundá,dados_jacunda__populacao_parda,População Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.7210541783424607,2000,31.42,Valor
+Jacundá,dados_jacunda__populacao_parda,População Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.7210541783424607,2010,37.84,Valor
+Jacundá,dados_jacunda__populacao_parda,População Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.7210541783424607,2022,43.28,Valor
+Jacundá,dados_jacunda__populacao_branca,População Branca,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3654903319850682,2000,9.82,Valor
+Jacundá,dados_jacunda__populacao_branca,População Branca,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3654903319850682,2010,9.12,Valor
+Jacundá,dados_jacunda__populacao_branca,População Branca,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3654903319850682,2022,9.42,Valor
+Jacundá,dados_jacunda__populacao_preta,População Preta,dados_jacunda,Grupo 2 — 3 censos,3,identity,sgd,True,0.0997490248502529,2000,2.98,Valor
+Jacundá,dados_jacunda__populacao_preta,População Preta,dados_jacunda,Grupo 2 — 3 censos,3,identity,sgd,True,0.0997490248502529,2010,4.12,Valor
+Jacundá,dados_jacunda__populacao_preta,População Preta,dados_jacunda,Grupo 2 — 3 censos,3,identity,sgd,True,0.0997490248502529,2022,5.62,Valor
+Jacundá,dados_jacunda__populacao_amarela,População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,11.535182853410964,2000,120.0,Valor
+Jacundá,dados_jacunda__populacao_amarela,População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,11.535182853410964,2010,78.0,Valor
+Jacundá,dados_jacunda__populacao_amarela,População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,11.535182853410964,2022,48.0,Valor
+Jacundá,dados_jacunda__populacao_indigena,População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2000,142.0,Valor
+Jacundá,dados_jacunda__populacao_indigena,População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2010,202.0,Valor
+Jacundá,dados_jacunda__populacao_indigena,População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2022,238.0,Valor
+Jacundá,dados_jacunda__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,128.31350891834495,2000,124.2,Valor
+Jacundá,dados_jacunda__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,128.31350891834495,2010,318.4,Valor
+Jacundá,dados_jacunda__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,128.31350891834495,2022,720.0,Valor
+Jacundá,dados_jacunda__apenas_1_trabalho,Apenas 1 trabalho,dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3186016150658162,2000,94.6,Valor
+Jacundá,dados_jacunda__apenas_1_trabalho,Apenas 1 trabalho,dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3186016150658162,2010,94.4,Valor
+Jacundá,dados_jacunda__apenas_1_trabalho,Apenas 1 trabalho,dados_jacunda,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3186016150658162,2022,91.6,Valor
+Jacundá,dados_jacunda__2_trabalhos,2 trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,sgd,True,1.138603185213605,2000,4.6,Valor
+Jacundá,dados_jacunda__2_trabalhos,2 trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,sgd,True,1.138603185213605,2010,5.0,Valor
+Jacundá,dados_jacunda__2_trabalhos,2 trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,sgd,True,1.138603185213605,2022,7.6,Valor
+Jacundá,dados_jacunda__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.13848923902940566,2000,0.8,Valor
+Jacundá,dados_jacunda__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.13848923902940566,2010,0.6,Valor
+Jacundá,dados_jacunda__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.13848923902940566,2022,0.8,Valor
+Jacundá,dados_jacunda__setor_privado,Setor privado,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.0081864581704294,2000,4.12,Valor
+Jacundá,dados_jacunda__setor_privado,Setor privado,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.0081864581704294,2010,9.84,Valor
+Jacundá,dados_jacunda__setor_privado,Setor privado,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,2.0081864581704294,2022,12.42,Valor
+Jacundá,dados_jacunda__conta_propria,Conta própria,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,1.4188635703196706,2000,6.82,Valor
+Jacundá,dados_jacunda__conta_propria,Conta própria,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,1.4188635703196706,2010,10.42,Valor
+Jacundá,dados_jacunda__conta_propria,Conta própria,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,1.4188635703196706,2022,11.82,Valor
+Jacundá,dados_jacunda__setor_publico,Setor público,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.4126490536184945,2000,1.68,Valor
+Jacundá,dados_jacunda__setor_publico,Setor público,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.4126490536184945,2010,3.12,Valor
+Jacundá,dados_jacunda__setor_publico,Setor público,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.4126490536184945,2022,4.28,Valor
+Jacundá,dados_jacunda__trabalhador_domestico,Trabalhador doméstico,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,501.09871123510425,2000,540.0,Valor
+Jacundá,dados_jacunda__trabalhador_domestico,Trabalhador doméstico,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,501.09871123510425,2010,980.0,Valor
+Jacundá,dados_jacunda__trabalhador_domestico,Trabalhador doméstico,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,501.09871123510425,2022,1.18,Valor
+Jacundá,dados_jacunda__empregador,Empregador,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,362.5141617500229,2000,280.0,Valor
+Jacundá,dados_jacunda__empregador,Empregador,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,362.5141617500229,2010,680.0,Valor
+Jacundá,dados_jacunda__empregador,Empregador,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,362.5141617500229,2022,1.12,Valor
+Jacundá,dados_jacunda__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,414.1703495539777,2000,2.84,Valor
+Jacundá,dados_jacunda__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,414.1703495539777,2010,1.82,Valor
+Jacundá,dados_jacunda__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_jacunda,Grupo 2 — 3 censos,3,tanh,adam,True,414.1703495539777,2022,840.0,Valor
+Jacundá,dados_jacunda__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,33.501991750381755,2000,60.0,Valor
+Jacundá,dados_jacunda__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,33.501991750381755,2010,140.0,Valor
+Jacundá,dados_jacunda__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,33.501991750381755,2022,280.0,Valor
+Jacundá,dados_jacunda__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.9252717223548178,2000,1.64,Valor
+Jacundá,dados_jacunda__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.9252717223548178,2010,4.82,Valor
+Jacundá,dados_jacunda__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.9252717223548178,2022,6.84,Valor
+Jacundá,dados_jacunda__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2006433204583271,2000,2.48,Valor
+Jacundá,dados_jacunda__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2006433204583271,2010,5.02,Valor
+Jacundá,dados_jacunda__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2006433204583271,2022,5.58,Valor
+Jacundá,dados_jacunda__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2000,60.0,Valor
+Jacundá,dados_jacunda__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2010,180.0,Valor
+Jacundá,dados_jacunda__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2022,320.0,Valor
+Jacundá,dados_jacunda__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.37938203746607096,2000,1.62,Valor
+Jacundá,dados_jacunda__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.37938203746607096,2010,2.94,Valor
+Jacundá,dados_jacunda__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.37938203746607096,2022,3.96,Valor
+Jacundá,dados_jacunda__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006025452677581218,2000,60.0,Valor
+Jacundá,dados_jacunda__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006025452677581218,2010,160.0,Valor
+Jacundá,dados_jacunda__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006025452677581218,2022,280.0,Valor
+Jacundá,dados_jacunda__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,159.9537640753408,2000,480.0,Valor
+Jacundá,dados_jacunda__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,159.9537640753408,2010,820.0,Valor
+Jacundá,dados_jacunda__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,159.9537640753408,2022,900.0,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.4629306627195824,1991,46.8,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.4629306627195824,2000,66.2,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.4629306627195824,2010,81.4,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.4629306627195824,2022,88.6,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2000,82.4,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2010,94.2,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2022,97.4,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.42706769636399144,2000,18.2,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.42706769636399144,2010,28.4,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.42706769636399144,2022,41.2,Valor
+Jacundá,dados_jacunda__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2000,74.8,Valor
+Jacundá,dados_jacunda__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2010,90.8,Valor
+Jacundá,dados_jacunda__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2022,94.6,Valor
+Jacundá,dados_jacunda__populacao_com_superior_completo,População com Superior Completo,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,603.9807215261271,2000,160.0,Valor
+Jacundá,dados_jacunda__populacao_com_superior_completo,População com Superior Completo,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,603.9807215261271,2010,980.0,Valor
+Jacundá,dados_jacunda__populacao_com_superior_completo,População com Superior Completo,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,603.9807215261271,2022,2.84,Valor
+Jacundá,dados_jacunda__anos_de_estudo_media,Anos de Estudo (Média),dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.22684099939067365,1991,1.8,Valor
+Jacundá,dados_jacunda__anos_de_estudo_media,Anos de Estudo (Média),dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.22684099939067365,2000,3.4,Valor
+Jacundá,dados_jacunda__anos_de_estudo_media,Anos de Estudo (Média),dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.22684099939067365,2010,5.7,Valor
+Jacundá,dados_jacunda__anos_de_estudo_media,Anos de Estudo (Média),dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.22684099939067365,2022,7.7,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacunda,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.28318680589427847,1991,2.0,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacunda,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.28318680589427847,2000,3.7,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacunda,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.28318680589427847,2010,6.1,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacunda,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.28318680589427847,2022,8.1,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.20342073157541274,1991,1.6,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.20342073157541274,2000,3.1,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.20342073157541274,2010,5.3,Valor
+Jacundá,dados_jacunda__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacunda,Grupo 1 — 4 censos,4,identity,adam,True,0.20342073157541274,2022,7.3,Valor
+Jacundá,dados_jacunda__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.03142532416206895,1991,0.148,Valor
+Jacundá,dados_jacunda__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.03142532416206895,2000,0.312,Valor
+Jacundá,dados_jacunda__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.03142532416206895,2010,0.534,Valor
+Jacundá,dados_jacunda__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2000,74.8,Valor
+Jacundá,dados_jacunda__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2010,90.8,Valor
+Jacundá,dados_jacunda__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,7.505199056931526,2022,94.6,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,5.3304821842151,2000,42.1,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,5.3304821842151,2010,60.4,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,5.3304821842151,2022,71.8,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.4592468610117624,2000,10.2,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.4592468610117624,2010,16.8,Valor
+Jacundá,dados_jacunda__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.4592468610117624,2022,22.8,Valor
+Jacundá,dados_jacunda__media_populacao_amarela,Média: População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303884,2000,4.0,Valor
+Jacundá,dados_jacunda__media_populacao_amarela,Média: População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303884,2010,6.3,Valor
+Jacundá,dados_jacunda__media_populacao_amarela,Média: População Amarela,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303884,2022,8.1,Valor
+Jacundá,dados_jacunda__media_populacao_branca,Média: População Branca,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.6537938648141445,2000,3.8,Valor
+Jacundá,dados_jacunda__media_populacao_branca,Média: População Branca,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.6537938648141445,2010,6.1,Valor
+Jacundá,dados_jacunda__media_populacao_branca,Média: População Branca,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.6537938648141445,2022,8.0,Valor
+Jacundá,dados_jacunda__media_populacao_preta_parda,Média: População Preta / Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5777008705723747,2000,3.1,Valor
+Jacundá,dados_jacunda__media_populacao_preta_parda,Média: População Preta / Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5777008705723747,2010,5.4,Valor
+Jacundá,dados_jacunda__media_populacao_preta_parda,Média: População Preta / Parda,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.5777008705723747,2022,7.4,Valor
+Jacundá,dados_jacunda__media_populacao_indigena,Média: População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2000,2.1,Valor
+Jacundá,dados_jacunda__media_populacao_indigena,Média: População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2010,4.0,Valor
+Jacundá,dados_jacunda__media_populacao_indigena,Média: População Indígena,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2022,5.9,Valor
+Jacundá,dados_jacunda__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Jacundá,dados_jacunda__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.0,Valor
+Jacundá,dados_jacunda__populacao_residente_em_favelas,População Residente em Favelas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.12,Valor
+Jacundá,dados_jacunda__populacao_residente_em_favelas,População Residente em Favelas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.48,Valor
+Jacundá,dados_jacunda__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,270.0,Valor
+Jacundá,dados_jacunda__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,690.0,Valor
+Jacundá,dados_jacunda__idade_mediana_2,Idade Mediana,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Jacundá,dados_jacunda__idade_mediana_2,Idade Mediana,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.0,Valor
+Jacundá,dados_jacunda__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Jacundá,dados_jacunda__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Jacundá,dados_jacunda__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,101.8,Valor
+Jacundá,dados_jacunda__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,99.2,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.8,Valor
+Jacundá,dados_jacunda__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.8,Valor
+Jacundá,dados_jacunda__populacao_parda_2,População Parda,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,890.0,Valor
+Jacundá,dados_jacunda__populacao_parda_2,População Parda,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.98,Valor
+Jacundá,dados_jacunda__populacao_branca_2,População Branca,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,140.0,Valor
+Jacundá,dados_jacunda__populacao_branca_2,População Branca,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,310.0,Valor
+Jacundá,dados_jacunda__populacao_preta_2,População Preta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.0,Valor
+Jacundá,dados_jacunda__populacao_preta_2,População Preta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,170.0,Valor
+Jacundá,dados_jacunda__populacao_amarela_2,População Amarela,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Jacundá,dados_jacunda__populacao_amarela_2,População Amarela,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.0,Valor
+Jacundá,dados_jacunda__populacao_indigena_2,População Indígena,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.0,Valor
+Jacundá,dados_jacunda__populacao_indigena_2,População Indígena,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.0,Valor
+Jacundá,dados_jacunda__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Jacundá,dados_jacunda__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Jacundá,dados_jacunda__com_coleta_de_lixo,Com Coleta de Lixo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.2,Valor
+Jacundá,dados_jacunda__com_coleta_de_lixo,Com Coleta de Lixo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.4,Valor
+Jacundá,dados_jacunda__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Jacundá,dados_jacunda__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.8,Valor
+Jacundá,dados_jacunda__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Jacundá,dados_jacunda__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Jacundá,dados_jacunda__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Jacundá,dados_jacunda__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Jacundá,dados_jacunda__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.8,Valor
+Jacundá,dados_jacunda__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Jacundá,dados_jacunda__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Jacundá,dados_jacunda__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Jacundá,dados_jacunda__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Jacundá,dados_jacunda__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Jacundá,dados_jacunda__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Jacundá,dados_jacunda__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Jacundá,dados_jacunda__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.2,Valor
+Jacundá,dados_jacunda__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,79.8,Valor
+Jacundá,dados_jacunda__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Jacundá,dados_jacunda__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.2,Valor
+Jacundá,dados_jacunda__casais_com_filhos,Casais com filhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,3.240473834131419,2000,67.8,Valor
+Jacundá,dados_jacunda__casais_com_filhos,Casais com filhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,3.240473834131419,2010,55.8,Valor
+Jacundá,dados_jacunda__casais_com_filhos,Casais com filhos,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,3.240473834131419,2022,45.8,Valor
+Jacundá,dados_jacunda__casais_sem_filhos,Casais sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2000,6.4,Valor
+Jacundá,dados_jacunda__casais_sem_filhos,Casais sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2010,9.1,Valor
+Jacundá,dados_jacunda__casais_sem_filhos,Casais sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2022,13.6,Valor
+Jacundá,dados_jacunda__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2000,14.0,Valor
+Jacundá,dados_jacunda__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2010,17.4,Valor
+Jacundá,dados_jacunda__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2022,22.6,Valor
+Jacundá,dados_jacunda__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005206,2000,3.3,Valor
+Jacundá,dados_jacunda__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005206,2010,3.6,Valor
+Jacundá,dados_jacunda__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.04557676798005206,2022,3.9,Valor
+Jacundá,dados_jacunda__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3360320737264478,2000,8.1,Valor
+Jacundá,dados_jacunda__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3360320737264478,2010,8.5,Valor
+Jacundá,dados_jacunda__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3360320737264478,2022,7.9,Valor
+Jacundá,dados_jacunda__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5975224271490466,2000,3.9,Valor
+Jacundá,dados_jacunda__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5975224271490466,2010,4.9,Valor
+Jacundá,dados_jacunda__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5975224271490466,2022,4.7,Valor
+Jacundá,dados_jacunda__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2000,1.3,Valor
+Jacundá,dados_jacunda__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2010,1.6,Valor
+Jacundá,dados_jacunda__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2022,2.1,Valor
+Jacundá,dados_jacunda__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Jacundá),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,85.4,Valor
+Jacundá,dados_jacunda__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Jacundá),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.8,Valor
+Jacundá,dados_jacunda__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.8,Valor
+Jacundá,dados_jacunda__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,37.8,Valor
+Jacundá,dados_jacunda__trabalha_em_outro_municipio_ex_maraba_tucurui,Trabalha em outro município (ex: Marabá / Tucuruí / Goianésia),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.6,Valor
+Jacundá,dados_jacunda__trabalha_em_outro_municipio_ex_maraba_tucurui,Trabalha em outro município (ex: Marabá / Tucuruí / Goianésia),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Jacundá,dados_jacunda__motocicleta,Motocicleta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.8,Valor
+Jacundá,dados_jacunda__motocicleta,Motocicleta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.8,Valor
+Jacundá,dados_jacunda__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.4,Valor
+Jacundá,dados_jacunda__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.4,Valor
+Jacundá,dados_jacunda__a_pe,A pé,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.8,Valor
+Jacundá,dados_jacunda__a_pe,A pé,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Jacundá,dados_jacunda__bicicleta,Bicicleta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Jacundá,dados_jacunda__bicicleta,Bicicleta,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.2,Valor
+Jacundá,dados_jacunda__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Jacundá,dados_jacunda__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Jacundá,dados_jacunda__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,57.4,Valor
+Jacundá,dados_jacunda__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,53.8,Valor
+Jacundá,dados_jacunda__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.4,Valor
+Jacundá,dados_jacunda__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.8,Valor
+Jacundá,dados_jacunda__mais_de_1_hora_deslocamento_pela_pa_150_vicin,Mais de 1 hora (Deslocamento pela PA-150 / vicinais),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.2,Valor
+Jacundá,dados_jacunda__mais_de_1_hora_deslocamento_pela_pa_150_vicin,Mais de 1 hora (Deslocamento pela PA-150 / vicinais),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.4,Valor
+Jacundá,dados_jacunda__estuda_no_proprio_municipio_jacunda,Estuda no próprio município (Jacundá),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.8,Valor
+Jacundá,dados_jacunda__estuda_no_proprio_municipio_jacunda,Estuda no próprio município (Jacundá),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.2,Valor
+Jacundá,dados_jacunda__estuda_em_outro_municipio_ex_maraba_tucurui_b,Estuda em outro município (ex: Marabá / Tucuruí / Belém),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Jacundá,dados_jacunda__estuda_em_outro_municipio_ex_maraba_tucurui_b,Estuda em outro município (ex: Marabá / Tucuruí / Belém),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Jacundá,dados_jacunda__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6049809325765092,1991,7.42,Valor
+Jacundá,dados_jacunda__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6049809325765092,2000,9.84,Valor
+Jacundá,dados_jacunda__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6049809325765092,2010,13.82,Valor
+Jacundá,dados_jacunda__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6049809325765092,2022,18.42,Valor
+Jacundá,dados_jacunda__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6112173502834701,1991,7.24,Valor
+Jacundá,dados_jacunda__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6112173502834701,2000,9.62,Valor
+Jacundá,dados_jacunda__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6112173502834701,2010,13.54,Valor
+Jacundá,dados_jacunda__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacunda,Grupo 1 — 4 censos,4,relu,adam,True,0.6112173502834701,2022,18.18,Valor
+Jacundá,dados_jacunda__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacunda,Grupo 1 — 4 censos,4,tanh,sgd,True,35.11404566160708,1991,180.0,Valor
+Jacundá,dados_jacunda__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacunda,Grupo 1 — 4 censos,4,tanh,sgd,True,35.11404566160708,2000,220.0,Valor
+Jacundá,dados_jacunda__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacunda,Grupo 1 — 4 censos,4,tanh,sgd,True,35.11404566160708,2010,280.0,Valor
+Jacundá,dados_jacunda__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacunda,Grupo 1 — 4 censos,4,tanh,sgd,True,35.11404566160708,2022,240.0,Valor
+Jacundá,dados_jacunda__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.06110105778218189,1991,5.1,Valor
+Jacundá,dados_jacunda__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.06110105778218189,2000,4.6,Valor
+Jacundá,dados_jacunda__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.06110105778218189,2010,3.8,Valor
+Jacundá,dados_jacunda__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacunda,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.06110105778218189,2022,3.2,Valor
+Jacundá,dados_jacunda__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Jacundá,dados_jacunda__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Jacundá,dados_jacunda__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Jacundá,dados_jacunda__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Jacundá,dados_jacunda__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Jacundá,dados_jacunda__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.2,Valor
+Jacundá,dados_jacunda__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.8,Valor
+Jacundá,dados_jacunda__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Jacundá,dados_jacunda__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.4,Valor
+Jacundá,dados_jacunda__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Jacundá,dados_jacunda__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Jacundá,dados_jacunda__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.1,Valor
+Jacundá,dados_jacunda__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Jacundá,dados_jacunda__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.4,Valor
+Jacundá,dados_jacunda__ruas_sem_arvores,Ruas Sem Árvores,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.8,Valor
+Jacundá,dados_jacunda__ruas_sem_arvores,Ruas Sem Árvores,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.6,Valor
+Jacundá,dados_jacunda__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Jacundá,dados_jacunda__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Jacundá,dados_jacunda__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Jacundá,dados_jacunda__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Jacundá,dados_jacunda__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.2,Valor
+Jacundá,dados_jacunda__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.4,Valor
+Jacundá,dados_jacunda__populacao_indigena_total,População Indígena Total,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2000,142.0,Valor
+Jacundá,dados_jacunda__populacao_indigena_total,População Indígena Total,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2010,202.0,Valor
+Jacundá,dados_jacunda__populacao_indigena_total,População Indígena Total,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,17.51259506244267,2022,238.0,Valor
+Jacundá,dados_jacunda__proporcao_na_populacao_de_jacunda,Proporção na população de Jacundá,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,0.030727967354118497,2000,0.32,Valor
+Jacundá,dados_jacunda__proporcao_na_populacao_de_jacunda,Proporção na população de Jacundá,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,0.030727967354118497,2010,0.39,Valor
+Jacundá,dados_jacunda__proporcao_na_populacao_de_jacunda,Proporção na população de Jacundá,dados_jacunda,Grupo 2 — 3 censos,3,logistic,adam,True,0.030727967354118497,2022,0.41,Valor
+Jacundá,dados_jacunda__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Jacundá,dados_jacunda__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.8,Valor
+Jacundá,dados_jacunda__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.4,Valor
+Jacundá,dados_jacunda__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.2,Valor
+Jacundá,dados_jacunda__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.6,Valor
+Jacundá,dados_jacunda__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Jacundá,dados_jacunda__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Jacundá,dados_jacunda__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.6,Valor
+Jacundá,dados_jacunda__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2000,14.0,Valor
+Jacundá,dados_jacunda__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2010,17.4,Valor
+Jacundá,dados_jacunda__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.8531371925779503,2022,22.6,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.806442129326238,2000,63.2,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.806442129326238,2010,51.8,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.806442129326238,2022,41.8,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2000,6.4,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2010,9.1,Valor
+Jacundá,dados_jacunda__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,0.9594829845314017,2022,13.6,Valor
+Jacundá,dados_jacunda__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.4,Valor
+Jacundá,dados_jacunda__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Jacundá,dados_jacunda__sem_conjuge,Sem cônjuge,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.1,Valor
+Jacundá,dados_jacunda__sem_conjuge,Sem cônjuge,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.7,Valor
+Jacundá,dados_jacunda__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Jacundá,dados_jacunda__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Jacundá,dados_jacunda__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Jacundá,dados_jacunda__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_jacunda,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Jacundá,dados_jacunda__responsavel_mulher,Responsável Mulher,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2000,3.9,Valor
+Jacundá,dados_jacunda__responsavel_mulher,Responsável Mulher,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2010,3.3,Valor
+Jacundá,dados_jacunda__responsavel_mulher,Responsável Mulher,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2022,2.9,Valor
+Jacundá,dados_jacunda__responsavel_homem,Responsável Homem,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408444,2000,5.0,Valor
+Jacundá,dados_jacunda__responsavel_homem,Responsável Homem,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408444,2010,4.1,Valor
+Jacundá,dados_jacunda__responsavel_homem,Responsável Homem,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408444,2022,3.3,Valor
+Jacundá,dados_jacunda__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2000,3.9,Valor
+Jacundá,dados_jacunda__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2010,3.3,Valor
+Jacundá,dados_jacunda__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_jacunda,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559112,2022,2.9,Valor
+Jacundá,dados_jacunda__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2000,11.4,Valor
+Jacundá,dados_jacunda__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2010,15.8,Valor
+Jacundá,dados_jacunda__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2022,21.2,Valor
+Jacundá,dados_jacunda__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.0639847766346098,2000,14.2,Valor
+Jacundá,dados_jacunda__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.0639847766346098,2010,19.2,Valor
+Jacundá,dados_jacunda__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,adam,True,1.0639847766346098,2022,23.8,Valor
+Jacundá,dados_jacunda__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.111488736357179,2000,52.1,Valor
+Jacundá,dados_jacunda__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.111488736357179,2010,37.2,Valor
+Jacundá,dados_jacunda__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_jacunda,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.111488736357179,2022,23.4,Valor
