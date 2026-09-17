@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Ulianópolis,dados_ulianopolis__anos_de_estudo_media,Anos de Estudo (Média),dados_ulianopolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.33335770100228324,2030,9.836154201908396
+Ulianópolis,dados_ulianopolis__anos_de_estudo_media,Anos de Estudo (Média),dados_ulianopolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.33335770100228324,2040,11.80991090910522
+Ulianópolis,dados_ulianopolis__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,39.27891151644179,2030,258.006294263917
+Ulianópolis,dados_ulianopolis__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,39.27891151644179,2040,255.08879717777083
+Ulianópolis,dados_ulianopolis__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,1.1357065475716763,2030,13.369928303782032
+Ulianópolis,dados_ulianopolis__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,1.1357065475716763,2040,13.529139234777288
+Ulianópolis,dados_ulianopolis__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ulianopolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.26971647912310537,2030,9.35070589261831
+Ulianópolis,dados_ulianopolis__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ulianopolis,Grupo 1 — 4 censos,identity,lbfgs,True,0.26971647912310537,2040,11.258294972056108
+Ulianópolis,dados_ulianopolis__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3476415657153249,2030,9.091543179751758
+Ulianópolis,dados_ulianopolis__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3476415657153249,2040,9.468854988545537
+Ulianópolis,dados_ulianopolis__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.08709128922430287,2030,2.8202724749609414
+Ulianópolis,dados_ulianopolis__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,0.08709128922430287,2040,2.7248053988615437
+Ulianópolis,dados_ulianopolis__populacao_total,População Total,dados_ulianopolis,Grupo 1 — 4 censos,logistic,adam,True,7.62076552479801,2030,43.78261295557356
+Ulianópolis,dados_ulianopolis__populacao_total,População Total,dados_ulianopolis,Grupo 1 — 4 censos,logistic,adam,True,7.62076552479801,2040,44.98970249284153
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,3.2646056358463085,2030,90.47233517724757
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ulianopolis,Grupo 1 — 4 censos,logistic,lbfgs,True,3.2646056358463085,2040,91.08469608853426
+Ulianópolis,dados_ulianopolis__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,1.1450482431896603,2030,13.638832245965634
+Ulianópolis,dados_ulianopolis__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ulianopolis,Grupo 1 — 4 censos,tanh,sgd,True,1.1450482431896603,2040,13.798185033226652
+Ulianópolis,dados_ulianopolis__2_trabalhos,2 trabalhos,dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,1.5426126430444675,2030,8.425666527871925
+Ulianópolis,dados_ulianopolis__2_trabalhos,2 trabalhos,dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,1.5426126430444675,2040,8.594276098622641
+Ulianópolis,dados_ulianopolis__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.20014800115431294,2030,0.8009200775438711
+Ulianópolis,dados_ulianopolis__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.20014800115431294,2040,0.8001039104651264
+Ulianópolis,dados_ulianopolis__apenas_1_trabalho,Apenas 1 trabalho,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.113162417623476,2030,93.33525018805562
+Ulianópolis,dados_ulianopolis__apenas_1_trabalho,Apenas 1 trabalho,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.113162417623476,2040,93.32681546281395
+Ulianópolis,dados_ulianopolis__casais_com_filhos,Casais com filhos,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,3.3009325458319787,2030,39.67851375567011
+Ulianópolis,dados_ulianopolis__casais_com_filhos,Casais com filhos,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,3.3009325458319787,2040,33.437884148567164
+Ulianópolis,dados_ulianopolis__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2030,7.4681976360109505
+Ulianópolis,dados_ulianopolis__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2040,7.466983373481925
+Ulianópolis,dados_ulianopolis__casais_sem_filhos,Casais sem filhos,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9290984725447015,2030,17.39737897603145
+Ulianópolis,dados_ulianopolis__casais_sem_filhos,Casais sem filhos,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9290984725447015,2040,20.854332333266818
+Ulianópolis,dados_ulianopolis__conta_propria,Conta própria,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5568043081097713,2030,8.101550874900216
+Ulianópolis,dados_ulianopolis__conta_propria,Conta própria,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5568043081097713,2040,8.054815106361747
+Ulianópolis,dados_ulianopolis__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036482,2030,25.395374255218584
+Ulianópolis,dados_ulianopolis__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036482,2040,29.94488732931669
+Ulianópolis,dados_ulianopolis__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,1.2161707651181537,2030,27.80879917654203
+Ulianópolis,dados_ulianopolis__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,1.2161707651181537,2040,32.045970582111984
+Ulianópolis,dados_ulianopolis__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.867449718495306,2030,11.447849324325638
+Ulianópolis,dados_ulianopolis__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.867449718495306,2040,-1.5961329799318307
+Ulianópolis,dados_ulianopolis__empregador,Empregador,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,335.638908789047,2030,308.49235062646613
+Ulianópolis,dados_ulianopolis__empregador,Empregador,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,335.638908789047,2040,307.18084568469044
+Ulianópolis,dados_ulianopolis__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,6.484817926502217,2030,95.15204278494082
+Ulianópolis,dados_ulianopolis__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,6.484817926502217,2040,94.97008410183503
+Ulianópolis,dados_ulianopolis__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,4.859630380382353,2030,78.44937829897609
+Ulianópolis,dados_ulianopolis__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,4.859630380382353,2040,83.3356218999738
+Ulianópolis,dados_ulianopolis__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,2.1298943448376906,2030,27.957093748370845
+Ulianópolis,dados_ulianopolis__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,2.1298943448376906,2040,31.088536759811554
+Ulianópolis,dados_ulianopolis__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.012481908880132933,2030,0.9992907928070693
+Ulianópolis,dados_ulianopolis__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.012481908880132933,2040,1.2091289920966481
+Ulianópolis,dados_ulianopolis__idade_mediana,Idade Mediana,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,32.46879368938008
+Ulianópolis,dados_ulianopolis__idade_mediana,Idade Mediana,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,37.011896464596354
+Ulianópolis,dados_ulianopolis__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2030,269.52636137880756
+Ulianópolis,dados_ulianopolis__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2040,346.70036059233666
+Ulianópolis,dados_ulianopolis__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.3794112570087111,2030,25.169353399389326
+Ulianópolis,dados_ulianopolis__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.3794112570087111,2040,28.921138547288415
+Ulianópolis,dados_ulianopolis__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2260067692411436,2030,4.900463046472689
+Ulianópolis,dados_ulianopolis__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2260067692411436,2040,4.8477209336730755
+Ulianópolis,dados_ulianopolis__media_populacao_amarela,Média: População Amarela,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434954,2030,9.42160347412658
+Ulianópolis,dados_ulianopolis__media_populacao_amarela,Média: População Amarela,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434954,2040,10.427668308672555
+Ulianópolis,dados_ulianopolis__media_populacao_branca,Média: População Branca,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839912,2030,9.36796179227294
+Ulianópolis,dados_ulianopolis__media_populacao_branca,Média: População Branca,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839912,2040,10.43215615136264
+Ulianópolis,dados_ulianopolis__media_populacao_indigena,Média: População Indígena,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2030,7.473013772284235
+Ulianópolis,dados_ulianopolis__media_populacao_indigena,Média: População Indígena,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2040,9.145055732181
+Ulianópolis,dados_ulianopolis__media_populacao_preta_parda,Média: População Preta / Parda,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839919,2030,8.66796179227294
+Ulianópolis,dados_ulianopolis__media_populacao_preta_parda,Média: População Preta / Parda,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.6886102726839919,2040,9.73215615136264
+Ulianópolis,dados_ulianopolis__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,256.4344275403615,2030,588.8743186690587
+Ulianópolis,dados_ulianopolis__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,256.4344275403615,2040,616.1534216855069
+Ulianópolis,dados_ulianopolis__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2030,4.0369339123544306
+Ulianópolis,dados_ulianopolis__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2040,4.204611384778759
+Ulianópolis,dados_ulianopolis__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.3704488218149684,2030,2.9954914918383624
+Ulianópolis,dados_ulianopolis__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,0.3704488218149684,2040,3.5838222626353673
+Ulianópolis,dados_ulianopolis__populacao_amarela,População Amarela,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,7.690121902273977,2030,32.273641377605074
+Ulianópolis,dados_ulianopolis__populacao_amarela,População Amarela,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,7.690121902273977,2040,19.028356943224182
+Ulianópolis,dados_ulianopolis__populacao_branca,População Branca,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.265285515319797,2030,7.183248663766853
+Ulianópolis,dados_ulianopolis__populacao_branca,População Branca,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.265285515319797,2040,7.17653669634476
+Ulianópolis,dados_ulianopolis__populacao_indigena,População Indígena,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,40.171330294165834,2030,119.32684328258173
+Ulianópolis,dados_ulianopolis__populacao_indigena,População Indígena,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,40.171330294165834,2040,119.20565755105164
+Ulianópolis,dados_ulianopolis__populacao_indigena_total,População Indígena Total,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,40.171330294165834,2030,119.32684328258173
+Ulianópolis,dados_ulianopolis__populacao_indigena_total,População Indígena Total,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,40.171330294165834,2040,119.20565755105164
+Ulianópolis,dados_ulianopolis__populacao_parda,População Parda,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,8.666110573944072,2030,24.184357204673063
+Ulianópolis,dados_ulianopolis__populacao_parda,População Parda,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,8.666110573944072,2040,24.163077115559105
+Ulianópolis,dados_ulianopolis__populacao_preta,População Preta,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.8255146554974648,2030,2.813516669962778
+Ulianópolis,dados_ulianopolis__populacao_preta,População Preta,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.8255146554974648,2040,2.8111209681632277
+Ulianópolis,dados_ulianopolis__populacao_rural,População Rural,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.033964423632426,2030,9.493944840022255
+Ulianópolis,dados_ulianopolis__populacao_rural,População Rural,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,2.033964423632426,2040,9.487350910504485
+Ulianópolis,dados_ulianopolis__populacao_urbana,População Urbana,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,10.62855898974282,2030,24.872609286506805
+Ulianópolis,dados_ulianopolis__populacao_urbana,População Urbana,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,10.62855898974282,2040,24.846913676268237
+Ulianópolis,dados_ulianopolis__populacao_com_superior_completo,População com Superior Completo,dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,99.55388100867634,2030,2.2766769392500166
+Ulianópolis,dados_ulianopolis__populacao_com_superior_completo,População com Superior Completo,dados_ulianopolis,Grupo 2 — 3 censos,tanh,adam,True,99.55388100867634,2040,7.526373628881608
+Ulianópolis,dados_ulianopolis__populacao_de_homens,População de Homens,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,5.793327032923274,2030,17.684811979106584
+Ulianópolis,dados_ulianopolis__populacao_de_homens,População de Homens,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,5.793327032923274,2040,17.669106965511173
+Ulianópolis,dados_ulianopolis__populacao_de_mulheres,População de Mulheres,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,5.640766836014568,2030,16.681649496229543
+Ulianópolis,dados_ulianopolis__populacao_de_mulheres,População de Mulheres,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,5.640766836014568,2040,16.667401953232364
+Ulianópolis,dados_ulianopolis__proporcao_na_populacao_de_ulianopolis,Proporção na população de Ulianópolis,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.026414611302628992,2030,0.3467392142937842
+Ulianópolis,dados_ulianopolis__proporcao_na_populacao_de_ulianopolis,Proporção na população de Ulianópolis,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,0.026414611302628992,2040,0.34663134623513275
+Ulianópolis,dados_ulianopolis__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,3.519805392075938,2030,98.04766475832402
+Ulianópolis,dados_ulianopolis__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,3.519805392075938,2040,92.54239856243386
+Ulianópolis,dados_ulianopolis__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,148.7850269406064,2030,990.3713066646349
+Ulianópolis,dados_ulianopolis__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,148.7850269406064,2040,1284.436729785642
+Ulianópolis,dados_ulianopolis__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.6234129461259883,2030,33.05230315076068
+Ulianópolis,dados_ulianopolis__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,2.6234129461259883,2040,23.458856142004795
+Ulianópolis,dados_ulianopolis__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9290984725447015,2030,17.39737897603145
+Ulianópolis,dados_ulianopolis__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.9290984725447015,2040,20.854332333266818
+Ulianópolis,dados_ulianopolis__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.3794112570087111,2030,25.169353399389326
+Ulianópolis,dados_ulianopolis__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.3794112570087111,2040,28.921138547288415
+Ulianópolis,dados_ulianopolis__responsavel_homem,Responsável Homem,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2030,2.646117725698341
+Ulianópolis,dados_ulianopolis__responsavel_homem,Responsável Homem,dados_ulianopolis,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2040,1.8768835702961018
+Ulianópolis,dados_ulianopolis__responsavel_mulher,Responsável Mulher,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559112,2030,2.697604932514091
+Ulianópolis,dados_ulianopolis__responsavel_mulher,Responsável Mulher,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559112,2040,2.424103678102507
+Ulianópolis,dados_ulianopolis__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559112,2030,2.697604932514091
+Ulianópolis,dados_ulianopolis__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559112,2040,2.424103678102507
+Ulianópolis,dados_ulianopolis__setor_privado,Setor privado,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,2.9814482832007023,2030,10.755279320229064
+Ulianópolis,dados_ulianopolis__setor_privado,Setor privado,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,2.9814482832007023,2040,10.644010561477511
+Ulianópolis,dados_ulianopolis__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,logistic,adam,True,1.7441982645154395,2030,8.30518457952139
+Ulianópolis,dados_ulianopolis__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,logistic,adam,True,1.7441982645154395,2040,8.609945125781486
+Ulianópolis,dados_ulianopolis__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,1.406524813371479,2030,2.8639427545186873
+Ulianópolis,dados_ulianopolis__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,logistic,sgd,True,1.406524813371479,2040,2.860637901771835
+Ulianópolis,dados_ulianopolis__setor_publico,Setor público,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.31641025288434305,2030,3.5039250748631994
+Ulianópolis,dados_ulianopolis__setor_publico,Setor público,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.31641025288434305,2040,3.9741192431323964
+Ulianópolis,dados_ulianopolis__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,9.1021821685086,2030,364.8171165818612
+Ulianópolis,dados_ulianopolis__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,9.1021821685086,2040,468.80442066775277
+Ulianópolis,dados_ulianopolis__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.28570002558132995,2030,3.1680556481596973
+Ulianópolis,dados_ulianopolis__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,0.28570002558132995,2040,3.5694636293957434
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.6663518353071479,2030,57.87198210190998
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,0.6663518353071479,2040,69.8139181709318
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ulianopolis,Grupo 2 — 3 censos,logistic,adam,True,3.934302046886662,2030,99.47027126402432
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ulianopolis,Grupo 2 — 3 censos,logistic,adam,True,3.934302046886662,2040,100.06964494865025
+Ulianópolis,dados_ulianopolis__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,6.484817926502217,2030,95.15204278494082
+Ulianópolis,dados_ulianopolis__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,6.484817926502217,2040,94.97008410183503
+Ulianópolis,dados_ulianopolis__trabalhador_domestico,Trabalhador doméstico,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,141.30477261276678,2030,983.9999807125229
+Ulianópolis,dados_ulianopolis__trabalhador_domestico,Trabalhador doméstico,dados_ulianopolis,Grupo 2 — 3 censos,relu,adam,True,141.30477261276678,2040,1063.0840835435492
+Ulianópolis,dados_ulianopolis__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,16.76416730269263,2030,356.87023032579407
+Ulianópolis,dados_ulianopolis__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,identity,adam,True,16.76416730269263,2040,456.7596363222958
+Ulianópolis,dados_ulianopolis__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,143.43864841053642,2030,633.7597509699451
+Ulianópolis,dados_ulianopolis__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ulianopolis,Grupo 2 — 3 censos,tanh,lbfgs,True,143.43864841053642,2040,627.7422200768939
+Ulianópolis,dados_ulianopolis__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,5.344492089503393,2030,27.792341385567006
+Ulianópolis,dados_ulianopolis__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ulianopolis,Grupo 2 — 3 censos,relu,lbfgs,True,5.344492089503393,2040,35.985460198447555
+Ulianópolis,dados_ulianopolis__a_pe,A pé,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.582441341380799
+Ulianópolis,dados_ulianopolis__a_pe,A pé,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.696477605543363
+Ulianópolis,dados_ulianopolis__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.362497137121935
+Ulianópolis,dados_ulianopolis__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.59545901767432
+Ulianópolis,dados_ulianopolis__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.316612320236764
+Ulianópolis,dados_ulianopolis__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.51121130832661
+Ulianópolis,dados_ulianopolis__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.75366898935242
+Ulianópolis,dados_ulianopolis__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.639200481604405
+Ulianópolis,dados_ulianopolis__bicicleta,Bicicleta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.04513716615398
+Ulianópolis,dados_ulianopolis__bicicleta,Bicicleta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-4.02203614167918
+Ulianópolis,dados_ulianopolis__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.78853011395658
+Ulianópolis,dados_ulianopolis__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.62068702149769
+Ulianópolis,dados_ulianopolis__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.45383828928013
+Ulianópolis,dados_ulianopolis__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.00553083324928
+Ulianópolis,dados_ulianopolis__com_coleta_de_lixo,Com Coleta de Lixo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.36249713712193
+Ulianópolis,dados_ulianopolis__com_coleta_de_lixo,Com Coleta de Lixo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.59545901767432
+Ulianópolis,dados_ulianopolis__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Ulianópolis,dados_ulianopolis__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Ulianópolis,dados_ulianopolis__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.04513716615397
+Ulianópolis,dados_ulianopolis__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.97796385832081
+Ulianópolis,dados_ulianopolis__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.90435764057552
+Ulianópolis,dados_ulianopolis__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.522685817486659
+Ulianópolis,dados_ulianopolis__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.208715281151039
+Ulianópolis,dados_ulianopolis__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.445371634973319
+Ulianópolis,dados_ulianopolis__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.07247685410069
+Ulianópolis,dados_ulianopolis__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.896914423315543
+Ulianópolis,dados_ulianopolis__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.06269582477317892
+Ulianópolis,dados_ulianopolis__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.1185137472225431
+Ulianópolis,dados_ulianopolis__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.752349897278147
+Ulianópolis,dados_ulianopolis__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.577835033329482
+Ulianópolis,dados_ulianopolis__estuda_em_outro_municipio_ex_paragominas_bele,Estuda em outro município (ex: Paragominas / Belém / Imperatriz),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.565251742014318
+Ulianópolis,dados_ulianopolis__estuda_em_outro_municipio_ex_paragominas_bele,Estuda em outro município (ex: Paragominas / Belém / Imperatriz),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.729400361203309
+Ulianópolis,dados_ulianopolis__estuda_no_proprio_municipio_ulianopolis,Estuda no próprio município (Ulianópolis),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.31661232023676
+Ulianópolis,dados_ulianopolis__estuda_no_proprio_municipio_ulianopolis,Estuda no próprio município (Ulianópolis),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.51121130832658
+Ulianópolis,dados_ulianopolis__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.84070893424434
+Ulianópolis,dados_ulianopolis__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.982029930241026
+Ulianópolis,dados_ulianopolis__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.779308145009939
+Ulianópolis,dados_ulianopolis__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.792697561104056
+Ulianópolis,dados_ulianopolis__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.04931134877691
+Ulianópolis,dados_ulianopolis__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.31651466411776
+Ulianópolis,dados_ulianopolis__idade_mediana_2,Idade Mediana,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.68119213525173
+Ulianópolis,dados_ulianopolis__idade_mediana_2,Idade Mediana,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.742286058288865
+Ulianópolis,dados_ulianopolis__mais_de_1_hora_deslocamento_rural_br_010,Mais de 1 hora (Deslocamento rural / BR-010),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.492774887913622
+Ulianópolis,dados_ulianopolis__mais_de_1_hora_deslocamento_rural_br_010,Mais de 1 hora (Deslocamento rural / BR-010),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.83248593788776
+Ulianópolis,dados_ulianopolis__motocicleta,Motocicleta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.40298033812933
+Ulianópolis,dados_ulianopolis__motocicleta,Motocicleta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.55571514572216
+Ulianópolis,dados_ulianopolis__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.1046997945563
+Ulianópolis,dados_ulianopolis__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.75567006665897
+Ulianópolis,dados_ulianopolis__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.420298033812933
+Ulianópolis,dados_ulianopolis__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.935571514572216
+Ulianópolis,dados_ulianopolis__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.88990741640277
+Ulianópolis,dados_ulianopolis__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.18765769326218
+Ulianópolis,dados_ulianopolis__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.31892073136675
+Ulianópolis,dados_ulianopolis__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.36860084280772
+Ulianópolis,dados_ulianopolis__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-532.7203891477425
+Ulianópolis,dados_ulianopolis__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1237.951801440693
+Ulianópolis,dados_ulianopolis__populacao_amarela_2,População Amarela,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Ulianópolis,dados_ulianopolis__populacao_amarela_2,População Amarela,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Ulianópolis,dados_ulianopolis__populacao_branca_2,População Branca,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,266.2327837194226
+Ulianópolis,dados_ulianopolis__populacao_branca_2,População Branca,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,322.9128666029438
+Ulianópolis,dados_ulianopolis__populacao_indigena_2,População Indígena,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.20298033812933
+Ulianópolis,dados_ulianopolis__populacao_indigena_2,População Indígena,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.35571514572216
+Ulianópolis,dados_ulianopolis__populacao_parda_2,População Parda,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-416.6189877203527
+Ulianópolis,dados_ulianopolis__populacao_parda_2,População Parda,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-968.1484410465322
+Ulianópolis,dados_ulianopolis__populacao_preta_2,População Preta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,148.58026629927943
+Ulianópolis,dados_ulianopolis__populacao_preta_2,População Preta,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,183.6188629909107
+Ulianópolis,dados_ulianopolis__populacao_residente_em_favelas,População Residente em Favelas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-532.7203891477425
+Ulianópolis,dados_ulianopolis__populacao_residente_em_favelas,População Residente em Favelas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1237.951801440693
+Ulianópolis,dados_ulianopolis__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.198566264244572
+Ulianópolis,dados_ulianopolis__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.177585877687211
+Ulianópolis,dados_ulianopolis__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,98.75234989727817
+Ulianópolis,dados_ulianopolis__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.5778350333295
+Ulianópolis,dados_ulianopolis__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.019435386706126
+Ulianópolis,dados_ulianopolis__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3852018847210994
+Ulianópolis,dados_ulianopolis__ruas_sem_arvores,Ruas Sem Árvores,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.818178918422188
+Ulianópolis,dados_ulianopolis__ruas_sem_arvores,Ruas Sem Árvores,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.563101330546246
+Ulianópolis,dados_ulianopolis__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.63772859611501
+Ulianópolis,dados_ulianopolis__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.62631478451885
+Ulianópolis,dados_ulianopolis__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.321788202877597
+Ulianópolis,dados_ulianopolis__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.889907416402767
+Ulianópolis,dados_ulianopolis__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.413429087433297
+Ulianópolis,dados_ulianopolis__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.18765769326218
+Ulianópolis,dados_ulianopolis__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.37407988978383
+Ulianópolis,dados_ulianopolis__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.20882814776951
+Ulianópolis,dados_ulianopolis__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.8856588972732
+Ulianópolis,dados_ulianopolis__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.5562585360699
+Ulianópolis,dados_ulianopolis__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.1463874439568125
+Ulianópolis,dados_ulianopolis__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.8162429689438806
+Ulianópolis,dados_ulianopolis__sem_conjuge,Sem cônjuge,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.37832466374088
+Ulianópolis,dados_ulianopolis__sem_conjuge,Sem cônjuge,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.39745781366329
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.41456309079122
+Ulianópolis,dados_ulianopolis__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.84591502532105
+Ulianópolis,dados_ulianopolis__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,601.8864298057505
+Ulianópolis,dados_ulianopolis__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,751.3157392259427
+Ulianópolis,dados_ulianopolis__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.6493113487769
+Ulianópolis,dados_ulianopolis__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.91651466411775
+Ulianópolis,dados_ulianopolis__trabalha_em_outro_municipio_ex_paragominas_do,Trabalha em outro município (ex: Paragominas / Dom Eliseu / Açailândia),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.144953708201385
+Ulianópolis,dados_ulianopolis__trabalha_em_outro_municipio_ex_paragominas_do,Trabalha em outro município (ex: Paragominas / Dom Eliseu / Açailândia),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.793828846631094
+Ulianópolis,dados_ulianopolis__trabalha_no_proprio_municipio_de_residencia_u,Trabalha no próprio município de residência (Ulianópolis),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.00313319637085
+Ulianópolis,dados_ulianopolis__trabalha_no_proprio_municipio_de_residencia_u,Trabalha no próprio município de residência (Ulianópolis),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.1037800444393
+Ulianópolis,dados_ulianopolis__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.321788202877597
+Ulianópolis,dados_ulianopolis__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.413429087433297
+Ulianópolis,dados_ulianopolis__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.10160303568314
+Ulianópolis,dados_ulianopolis__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.78874447395767
+Ulianópolis,dados_ulianopolis__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Ulianópolis,dados_ulianopolis__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Ulianópolis,dados_ulianopolis__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.79724539510761
+Ulianópolis,dados_ulianopolis__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.86605865647099
+Ulianópolis,dados_ulianopolis__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.45527202503557
+Ulianópolis,dados_ulianopolis__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.02794495556208
+Ulianópolis,dados_ulianopolis__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.162384270503463
+Ulianópolis,dados_ulianopolis__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_ulianopolis,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.284572116577728
