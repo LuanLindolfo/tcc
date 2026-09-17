@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Pacajá,dados_pacaja__populacao_total,População Total,dados_pacaja,Grupo 1 — 4 censos,4,logistic,adam,True,2.5071351354538773,1991,21.608,Valor
+Pacajá,dados_pacaja__populacao_total,População Total,dados_pacaja,Grupo 1 — 4 censos,4,logistic,adam,True,2.5071351354538773,2000,28.968,Valor
+Pacajá,dados_pacaja__populacao_total,População Total,dados_pacaja,Grupo 1 — 4 censos,4,logistic,adam,True,2.5071351354538773,2010,39.979,Valor
+Pacajá,dados_pacaja__populacao_total,População Total,dados_pacaja,Grupo 1 — 4 censos,4,logistic,adam,True,2.5071351354538773,2022,41.204,Valor
+Pacajá,dados_pacaja__populacao_urbana,População Urbana,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.9633297651846078,2000,11.42,Valor
+Pacajá,dados_pacaja__populacao_urbana,População Urbana,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.9633297651846078,2010,18.12,Valor
+Pacajá,dados_pacaja__populacao_urbana,População Urbana,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.9633297651846078,2022,21.84,Valor
+Pacajá,dados_pacaja__populacao_rural,População Rural,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,2.2798274119962536,2000,17.548,Valor
+Pacajá,dados_pacaja__populacao_rural,População Rural,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,2.2798274119962536,2010,21.859,Valor
+Pacajá,dados_pacaja__populacao_rural,População Rural,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,2.2798274119962536,2022,19.364,Valor
+Pacajá,dados_pacaja__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,840.0,Valor
+Pacajá,dados_pacaja__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.92,Valor
+Pacajá,dados_pacaja__populacao_de_mulheres,População de Mulheres,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.4886468968763076,2000,13.82,Valor
+Pacajá,dados_pacaja__populacao_de_mulheres,População de Mulheres,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.4886468968763076,2010,19.12,Valor
+Pacajá,dados_pacaja__populacao_de_mulheres,População de Mulheres,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.4886468968763076,2022,20.14,Valor
+Pacajá,dados_pacaja__populacao_de_homens,População de Homens,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0387386341481153,2000,15.148,Valor
+Pacajá,dados_pacaja__populacao_de_homens,População de Homens,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0387386341481153,2010,20.859,Valor
+Pacajá,dados_pacaja__populacao_de_homens,População de Homens,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,3.0387386341481153,2022,21.064,Valor
+Pacajá,dados_pacaja__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.9486951465311932,2000,109.6,Valor
+Pacajá,dados_pacaja__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.9486951465311932,2010,109.1,Valor
+Pacajá,dados_pacaja__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.9486951465311932,2022,104.6,Valor
+Pacajá,dados_pacaja__idade_mediana,Idade Mediana,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,18.0,Valor
+Pacajá,dados_pacaja__idade_mediana,Idade Mediana,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,22.0,Valor
+Pacajá,dados_pacaja__idade_mediana,Idade Mediana,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,28.0,Valor
+Pacajá,dados_pacaja__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.294983087861222,2000,3.8,Valor
+Pacajá,dados_pacaja__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.294983087861222,2010,6.9,Valor
+Pacajá,dados_pacaja__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.294983087861222,2022,18.4,Valor
+Pacajá,dados_pacaja__populacao_parda,População Parda,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.587532693215187,2000,20.12,Valor
+Pacajá,dados_pacaja__populacao_parda,População Parda,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.587532693215187,2010,29.84,Valor
+Pacajá,dados_pacaja__populacao_parda,População Parda,dados_pacaja,Grupo 2 — 3 censos,3,tanh,lbfgs,True,4.587532693215187,2022,31.92,Valor
+Pacajá,dados_pacaja__populacao_branca,População Branca,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4952724754148094,2000,6.82,Valor
+Pacajá,dados_pacaja__populacao_branca,População Branca,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4952724754148094,2010,6.92,Valor
+Pacajá,dados_pacaja__populacao_branca,População Branca,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.4952724754148094,2022,6.12,Valor
+Pacajá,dados_pacaja__populacao_preta,População Preta,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.709890237096935,2000,1.84,Valor
+Pacajá,dados_pacaja__populacao_preta,População Preta,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.709890237096935,2010,2.98,Valor
+Pacajá,dados_pacaja__populacao_preta,População Preta,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.709890237096935,2022,2.84,Valor
+Pacajá,dados_pacaja__populacao_amarela,População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,5.4265929814125,2000,68.0,Valor
+Pacajá,dados_pacaja__populacao_amarela,População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,5.4265929814125,2010,48.0,Valor
+Pacajá,dados_pacaja__populacao_amarela,População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,5.4265929814125,2022,32.0,Valor
+Pacajá,dados_pacaja__populacao_indigena,População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2000,120.0,Valor
+Pacajá,dados_pacaja__populacao_indigena,População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2010,191.0,Valor
+Pacajá,dados_pacaja__populacao_indigena,População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2022,292.0,Valor
+Pacajá,dados_pacaja__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,141.47967941468303,2000,112.4,Valor
+Pacajá,dados_pacaja__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,141.47967941468303,2010,258.3,Valor
+Pacajá,dados_pacaja__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,141.47967941468303,2022,648.0,Valor
+Pacajá,dados_pacaja__apenas_1_trabalho,Apenas 1 trabalho,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3309541548547184,2000,95.1,Valor
+Pacajá,dados_pacaja__apenas_1_trabalho,Apenas 1 trabalho,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3309541548547184,2010,94.8,Valor
+Pacajá,dados_pacaja__apenas_1_trabalho,Apenas 1 trabalho,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3309541548547184,2022,91.8,Valor
+Pacajá,dados_pacaja__2_trabalhos,2 trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,relu,sgd,True,1.1933738026695238,2000,4.3,Valor
+Pacajá,dados_pacaja__2_trabalhos,2 trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,relu,sgd,True,1.1933738026695238,2010,4.7,Valor
+Pacajá,dados_pacaja__2_trabalhos,2 trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,relu,sgd,True,1.1933738026695238,2022,7.4,Valor
+Pacajá,dados_pacaja__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2000,0.6,Valor
+Pacajá,dados_pacaja__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2010,0.5,Valor
+Pacajá,dados_pacaja__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2022,0.8,Valor
+Pacajá,dados_pacaja__setor_privado,Setor privado,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.997493964570571,2000,2.42,Valor
+Pacajá,dados_pacaja__setor_privado,Setor privado,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.997493964570571,2010,5.84,Valor
+Pacajá,dados_pacaja__setor_privado,Setor privado,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.997493964570571,2022,7.92,Valor
+Pacajá,dados_pacaja__conta_propria,Conta própria,dados_pacaja,Grupo 2 — 3 censos,3,logistic,lbfgs,True,1.7948802926414746,2000,6.42,Valor
+Pacajá,dados_pacaja__conta_propria,Conta própria,dados_pacaja,Grupo 2 — 3 censos,3,logistic,lbfgs,True,1.7948802926414746,2010,10.82,Valor
+Pacajá,dados_pacaja__conta_propria,Conta própria,dados_pacaja,Grupo 2 — 3 censos,3,logistic,lbfgs,True,1.7948802926414746,2022,12.42,Valor
+Pacajá,dados_pacaja__setor_publico,Setor público,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.18539820882888414,2000,1.12,Valor
+Pacajá,dados_pacaja__setor_publico,Setor público,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.18539820882888414,2010,2.14,Valor
+Pacajá,dados_pacaja__setor_publico,Setor público,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.18539820882888414,2022,3.12,Valor
+Pacajá,dados_pacaja__trabalhador_domestico,Trabalhador doméstico,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,104.45503838437521,2000,380.0,Valor
+Pacajá,dados_pacaja__trabalhador_domestico,Trabalhador doméstico,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,104.45503838437521,2010,740.0,Valor
+Pacajá,dados_pacaja__trabalhador_domestico,Trabalhador doméstico,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,104.45503838437521,2022,980.0,Valor
+Pacajá,dados_pacaja__empregador,Empregador,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.012050905355162437,2000,180.0,Valor
+Pacajá,dados_pacaja__empregador,Empregador,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.012050905355162437,2010,380.0,Valor
+Pacajá,dados_pacaja__empregador,Empregador,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.012050905355162437,2022,620.0,Valor
+Pacajá,dados_pacaja__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,453.32115589949245,2000,2.84,Valor
+Pacajá,dados_pacaja__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,453.32115589949245,2010,2.12,Valor
+Pacajá,dados_pacaja__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,453.32115589949245,2022,920.0,Valor
+Pacajá,dados_pacaja__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2000,30.0,Valor
+Pacajá,dados_pacaja__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2010,80.0,Valor
+Pacajá,dados_pacaja__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2022,160.0,Valor
+Pacajá,dados_pacaja__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,506.09962697509917,2000,920.0,Valor
+Pacajá,dados_pacaja__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,506.09962697509917,2010,2.84,Valor
+Pacajá,dados_pacaja__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,tanh,adam,True,506.09962697509917,2022,4.12,Valor
+Pacajá,dados_pacaja__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.4411466849431617,2000,1.5,Valor
+Pacajá,dados_pacaja__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.4411466849431617,2010,3.0,Valor
+Pacajá,dados_pacaja__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.4411466849431617,2022,3.8,Valor
+Pacajá,dados_pacaja__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.193319077185706,2000,40.0,Valor
+Pacajá,dados_pacaja__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.193319077185706,2010,110.0,Valor
+Pacajá,dados_pacaja__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.193319077185706,2022,210.0,Valor
+Pacajá,dados_pacaja__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.19759152790606938,2000,1.08,Valor
+Pacajá,dados_pacaja__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.19759152790606938,2010,2.03,Valor
+Pacajá,dados_pacaja__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.19759152790606938,2022,2.91,Valor
+Pacajá,dados_pacaja__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2000,40.0,Valor
+Pacajá,dados_pacaja__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2010,90.0,Valor
+Pacajá,dados_pacaja__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2022,180.0,Valor
+Pacajá,dados_pacaja__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,101.78898810426612,2000,340.0,Valor
+Pacajá,dados_pacaja__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,101.78898810426612,2010,650.0,Valor
+Pacajá,dados_pacaja__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,101.78898810426612,2022,800.0,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.6347993365130336,1991,46.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.6347993365130336,2000,62.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.6347993365130336,2010,76.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.6347993365130336,2022,83.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2000,80.4,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2010,90.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2022,94.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.372044753302178,2000,17.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.372044753302178,2010,26.8,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.372044753302178,2022,39.4,Valor
+Pacajá,dados_pacaja__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2000,71.2,Valor
+Pacajá,dados_pacaja__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2010,87.4,Valor
+Pacajá,dados_pacaja__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2022,91.8,Valor
+Pacajá,dados_pacaja__populacao_com_superior_completo,População com Superior Completo,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,426.11168410854424,2000,90.0,Valor
+Pacajá,dados_pacaja__populacao_com_superior_completo,População com Superior Completo,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,426.11168410854424,2010,680.0,Valor
+Pacajá,dados_pacaja__populacao_com_superior_completo,População com Superior Completo,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,426.11168410854424,2022,2.12,Valor
+Pacajá,dados_pacaja__anos_de_estudo_media,Anos de Estudo (Média),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.21253352747522508,1991,1.7,Valor
+Pacajá,dados_pacaja__anos_de_estudo_media,Anos de Estudo (Média),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.21253352747522508,2000,3.0,Valor
+Pacajá,dados_pacaja__anos_de_estudo_media,Anos de Estudo (Média),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.21253352747522508,2010,5.2,Valor
+Pacajá,dados_pacaja__anos_de_estudo_media,Anos de Estudo (Média),dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.21253352747522508,2022,6.9,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pacaja,Grupo 1 — 4 censos,4,identity,adam,True,0.321607546635553,1991,1.9,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pacaja,Grupo 1 — 4 censos,4,identity,adam,True,0.321607546635553,2000,3.3,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pacaja,Grupo 1 — 4 censos,4,identity,adam,True,0.321607546635553,2010,5.6,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pacaja,Grupo 1 — 4 censos,4,identity,adam,True,0.321607546635553,2022,7.3,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146502,1991,1.5,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146502,2000,2.7,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146502,2010,4.8,Valor
+Pacajá,dados_pacaja__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.2549855854146502,2022,6.5,Valor
+Pacajá,dados_pacaja__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.030369253472099716,1991,0.138,Valor
+Pacajá,dados_pacaja__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.030369253472099716,2000,0.278,Valor
+Pacajá,dados_pacaja__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.030369253472099716,2010,0.472,Valor
+Pacajá,dados_pacaja__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2000,71.2,Valor
+Pacajá,dados_pacaja__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2010,87.4,Valor
+Pacajá,dados_pacaja__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_pacaja,Grupo 2 — 3 censos,3,logistic,adam,True,7.254044746690947,2022,91.8,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.659683150146698,2000,40.8,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.659683150146698,2010,56.8,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,4.659683150146698,2022,66.8,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.6076191529158148,2000,9.8,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.6076191529158148,2010,15.4,Valor
+Pacajá,dados_pacaja__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,1.6076191529158148,2022,19.8,Valor
+Pacajá,dados_pacaja__media_populacao_amarela,Média: População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2000,3.6,Valor
+Pacajá,dados_pacaja__media_populacao_amarela,Média: População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2010,5.6,Valor
+Pacajá,dados_pacaja__media_populacao_amarela,Média: População Amarela,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2022,7.4,Valor
+Pacajá,dados_pacaja__media_populacao_branca,Média: População Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767854,2000,3.4,Valor
+Pacajá,dados_pacaja__media_populacao_branca,Média: População Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767854,2010,5.6,Valor
+Pacajá,dados_pacaja__media_populacao_branca,Média: População Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767854,2022,7.3,Valor
+Pacajá,dados_pacaja__media_populacao_preta_parda,Média: População Preta / Parda,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2000,2.8,Valor
+Pacajá,dados_pacaja__media_populacao_preta_parda,Média: População Preta / Parda,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2010,4.9,Valor
+Pacajá,dados_pacaja__media_populacao_preta_parda,Média: População Preta / Parda,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2022,6.6,Valor
+Pacajá,dados_pacaja__media_populacao_indigena,Média: População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612873064,2000,1.9,Valor
+Pacajá,dados_pacaja__media_populacao_indigena,Média: População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612873064,2010,3.6,Valor
+Pacajá,dados_pacaja__media_populacao_indigena,Média: População Indígena,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612873064,2022,5.2,Valor
+Pacajá,dados_pacaja__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.0,Valor
+Pacajá,dados_pacaja__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Pacajá,dados_pacaja__populacao_residente_em_favelas,População Residente em Favelas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,840.0,Valor
+Pacajá,dados_pacaja__populacao_residente_em_favelas,População Residente em Favelas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.92,Valor
+Pacajá,dados_pacaja__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,210.0,Valor
+Pacajá,dados_pacaja__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,540.0,Valor
+Pacajá,dados_pacaja__idade_mediana_2,Idade Mediana,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.0,Valor
+Pacajá,dados_pacaja__idade_mediana_2,Idade Mediana,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+Pacajá,dados_pacaja__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Pacajá,dados_pacaja__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.8,Valor
+Pacajá,dados_pacaja__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,104.2,Valor
+Pacajá,dados_pacaja__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,102.1,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.4,Valor
+Pacajá,dados_pacaja__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Pacajá,dados_pacaja__populacao_parda_2,População Parda,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,680.0,Valor
+Pacajá,dados_pacaja__populacao_parda_2,População Parda,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.52,Valor
+Pacajá,dados_pacaja__populacao_branca_2,População Branca,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.0,Valor
+Pacajá,dados_pacaja__populacao_branca_2,População Branca,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,210.0,Valor
+Pacajá,dados_pacaja__populacao_preta_2,População Preta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.0,Valor
+Pacajá,dados_pacaja__populacao_preta_2,População Preta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,160.0,Valor
+Pacajá,dados_pacaja__populacao_amarela_2,População Amarela,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Pacajá,dados_pacaja__populacao_amarela_2,População Amarela,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.0,Valor
+Pacajá,dados_pacaja__populacao_indigena_2,População Indígena,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.0,Valor
+Pacajá,dados_pacaja__populacao_indigena_2,População Indígena,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.0,Valor
+Pacajá,dados_pacaja__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.8,Valor
+Pacajá,dados_pacaja__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.4,Valor
+Pacajá,dados_pacaja__com_coleta_de_lixo,Com Coleta de Lixo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.2,Valor
+Pacajá,dados_pacaja__com_coleta_de_lixo,Com Coleta de Lixo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Pacajá,dados_pacaja__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.8,Valor
+Pacajá,dados_pacaja__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Pacajá,dados_pacaja__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Pacajá,dados_pacaja__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Pacajá,dados_pacaja__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Pacajá,dados_pacaja__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Pacajá,dados_pacaja__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Pacajá,dados_pacaja__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.8,Valor
+Pacajá,dados_pacaja__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Pacajá,dados_pacaja__vias_pavimentadas_asfalto_calcamento,Vias Pavimentadas (Asfalto/Calçamento),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Pacajá,dados_pacaja__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Pacajá,dados_pacaja__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Pacajá,dados_pacaja__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Pacajá,dados_pacaja__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Pacajá,dados_pacaja__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Pacajá,dados_pacaja__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.4,Valor
+Pacajá,dados_pacaja__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+Pacajá,dados_pacaja__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.6,Valor
+Pacajá,dados_pacaja__casais_com_filhos,Casais com filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6015000600553886,2000,69.1,Valor
+Pacajá,dados_pacaja__casais_com_filhos,Casais com filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6015000600553886,2010,59.1,Valor
+Pacajá,dados_pacaja__casais_com_filhos,Casais com filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6015000600553886,2022,49.2,Valor
+Pacajá,dados_pacaja__casais_sem_filhos,Casais sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2000,5.8,Valor
+Pacajá,dados_pacaja__casais_sem_filhos,Casais sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2010,7.8,Valor
+Pacajá,dados_pacaja__casais_sem_filhos,Casais sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683966,2022,11.8,Valor
+Pacajá,dados_pacaja__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4269637391140287,2000,13.2,Valor
+Pacajá,dados_pacaja__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4269637391140287,2010,16.4,Valor
+Pacajá,dados_pacaja__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.4269637391140287,2022,20.8,Valor
+Pacajá,dados_pacaja__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2000,3.2,Valor
+Pacajá,dados_pacaja__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2010,3.6,Valor
+Pacajá,dados_pacaja__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252401420608278,2022,4.1,Valor
+Pacajá,dados_pacaja__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26881036869720276,2000,8.8,Valor
+Pacajá,dados_pacaja__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26881036869720276,2010,9.1,Valor
+Pacajá,dados_pacaja__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26881036869720276,2022,8.6,Valor
+Pacajá,dados_pacaja__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2000,4.4,Valor
+Pacajá,dados_pacaja__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2010,5.2,Valor
+Pacajá,dados_pacaja__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2022,4.8,Valor
+Pacajá,dados_pacaja__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.0914169645101383,2000,1.4,Valor
+Pacajá,dados_pacaja__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.0914169645101383,2010,1.8,Valor
+Pacajá,dados_pacaja__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.0914169645101383,2022,2.4,Valor
+Pacajá,dados_pacaja__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Pacajá),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.4,Valor
+Pacajá,dados_pacaja__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Pacajá),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+Pacajá,dados_pacaja__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Pacajá,dados_pacaja__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.8,Valor
+Pacajá,dados_pacaja__trabalha_em_outro_municipio_ex_anapu_novo_rep,Trabalha em outro município (ex: Anapu / Novo Repartimento / Altamira / Tucuruí),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.6,Valor
+Pacajá,dados_pacaja__trabalha_em_outro_municipio_ex_anapu_novo_rep,Trabalha em outro município (ex: Anapu / Novo Repartimento / Altamira / Tucuruí),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Pacajá,dados_pacaja__motocicleta,Motocicleta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Pacajá,dados_pacaja__motocicleta,Motocicleta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.4,Valor
+Pacajá,dados_pacaja__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.4,Valor
+Pacajá,dados_pacaja__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Pacajá,dados_pacaja__a_pe,A pé,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Pacajá,dados_pacaja__a_pe,A pé,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Pacajá,dados_pacaja__bicicleta,Bicicleta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Pacajá,dados_pacaja__bicicleta,Bicicleta,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Pacajá,dados_pacaja__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Pacajá,dados_pacaja__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Pacajá,dados_pacaja__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,46.2,Valor
+Pacajá,dados_pacaja__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Pacajá,dados_pacaja__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.8,Valor
+Pacajá,dados_pacaja__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Pacajá,dados_pacaja__mais_de_1_hora_deslocamento_rural_br_230,Mais de 1 hora (Deslocamento rural / BR-230),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+Pacajá,dados_pacaja__mais_de_1_hora_deslocamento_rural_br_230,Mais de 1 hora (Deslocamento rural / BR-230),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Pacajá,dados_pacaja__estuda_no_proprio_municipio_pacaja,Estuda no próprio município (Pacajá),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.2,Valor
+Pacajá,dados_pacaja__estuda_no_proprio_municipio_pacaja,Estuda no próprio município (Pacajá),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.2,Valor
+Pacajá,dados_pacaja__estuda_em_outro_municipio_ex_tucurui_altamira,Estuda em outro município (ex: Tucuruí / Altamira / Belém),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Pacajá,dados_pacaja__estuda_em_outro_municipio_ex_tucurui_altamira,Estuda em outro município (ex: Tucuruí / Altamira / Belém),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.8,Valor
+Pacajá,dados_pacaja__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.355212531922805,1991,4.12,Valor
+Pacajá,dados_pacaja__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.355212531922805,2000,5.84,Valor
+Pacajá,dados_pacaja__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.355212531922805,2010,9.12,Valor
+Pacajá,dados_pacaja__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pacaja,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.355212531922805,2022,11.92,Valor
+Pacajá,dados_pacaja__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.39139683687402915,1991,3.98,Valor
+Pacajá,dados_pacaja__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.39139683687402915,2000,5.68,Valor
+Pacajá,dados_pacaja__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.39139683687402915,2010,8.92,Valor
+Pacajá,dados_pacaja__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,0.39139683687402915,2022,11.68,Valor
+Pacajá,dados_pacaja__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,5.886533735665168,1991,140.0,Valor
+Pacajá,dados_pacaja__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,5.886533735665168,2000,160.0,Valor
+Pacajá,dados_pacaja__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,5.886533735665168,2010,200.0,Valor
+Pacajá,dados_pacaja__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_pacaja,Grupo 1 — 4 censos,4,relu,adam,True,5.886533735665168,2022,240.0,Valor
+Pacajá,dados_pacaja__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pacaja,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.05626275547819071,1991,5.4,Valor
+Pacajá,dados_pacaja__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pacaja,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.05626275547819071,2000,5.1,Valor
+Pacajá,dados_pacaja__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pacaja,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.05626275547819071,2010,4.4,Valor
+Pacajá,dados_pacaja__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pacaja,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.05626275547819071,2022,3.5,Valor
+Pacajá,dados_pacaja__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,39.8,Valor
+Pacajá,dados_pacaja__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.2,Valor
+Pacajá,dados_pacaja__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Pacajá,dados_pacaja__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Pacajá,dados_pacaja__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.4,Valor
+Pacajá,dados_pacaja__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.4,Valor
+Pacajá,dados_pacaja__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Pacajá,dados_pacaja__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Pacajá,dados_pacaja__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.8,Valor
+Pacajá,dados_pacaja__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Pacajá,dados_pacaja__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Pacajá,dados_pacaja__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Pacajá,dados_pacaja__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Pacajá,dados_pacaja__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.4,Valor
+Pacajá,dados_pacaja__ruas_sem_arvores,Ruas Sem Árvores,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.8,Valor
+Pacajá,dados_pacaja__ruas_sem_arvores,Ruas Sem Árvores,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.6,Valor
+Pacajá,dados_pacaja__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Pacajá,dados_pacaja__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Pacajá,dados_pacaja__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Pacajá,dados_pacaja__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.3,Valor
+Pacajá,dados_pacaja__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Pacajá,dados_pacaja__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Pacajá,dados_pacaja__populacao_indigena_total,População Indígena Total,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2000,120.0,Valor
+Pacajá,dados_pacaja__populacao_indigena_total,População Indígena Total,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2010,191.0,Valor
+Pacajá,dados_pacaja__populacao_indigena_total,População Indígena Total,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,12.041396517252204,2022,292.0,Valor
+Pacajá,dados_pacaja__proporcao_na_populacao_de_pacaja,Proporção na população de Pacajá,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08510373862604535,2000,0.41,Valor
+Pacajá,dados_pacaja__proporcao_na_populacao_de_pacaja,Proporção na população de Pacajá,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08510373862604535,2010,0.48,Valor
+Pacajá,dados_pacaja__proporcao_na_populacao_de_pacaja,Proporção na população de Pacajá,dados_pacaja,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08510373862604535,2022,0.71,Valor
+Pacajá,dados_pacaja__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Pacajá,dados_pacaja__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,67.8,Valor
+Pacajá,dados_pacaja__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.8,Valor
+Pacajá,dados_pacaja__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Pacajá,dados_pacaja__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.4,Valor
+Pacajá,dados_pacaja__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Pacajá,dados_pacaja__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Pacajá,dados_pacaja__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.6,Valor
+Pacajá,dados_pacaja__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.5183807036241633,2000,13.2,Valor
+Pacajá,dados_pacaja__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.5183807036241633,2010,16.8,Valor
+Pacajá,dados_pacaja__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.5183807036241633,2022,21.8,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.9894713125264736,2000,64.8,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.9894713125264736,2010,53.2,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.9894713125264736,2022,43.2,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.1513957028334373,2000,6.8,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.1513957028334373,2010,9.8,Valor
+Pacajá,dados_pacaja__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.1513957028334373,2022,13.2,Valor
+Pacajá,dados_pacaja__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Pacajá,dados_pacaja__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.4,Valor
+Pacajá,dados_pacaja__sem_conjuge,Sem cônjuge,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.3,Valor
+Pacajá,dados_pacaja__sem_conjuge,Sem cônjuge,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.1,Valor
+Pacajá,dados_pacaja__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Pacajá,dados_pacaja__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Pacajá,dados_pacaja__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Pacajá,dados_pacaja__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_pacaja,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.1,Valor
+Pacajá,dados_pacaja__responsavel_mulher,Responsável Mulher,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.1,Valor
+Pacajá,dados_pacaja__responsavel_mulher,Responsável Mulher,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.5,Valor
+Pacajá,dados_pacaja__responsavel_mulher,Responsável Mulher,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.0,Valor
+Pacajá,dados_pacaja__responsavel_homem,Responsável Homem,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575681462308445,2000,5.4,Valor
+Pacajá,dados_pacaja__responsavel_homem,Responsável Homem,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575681462308445,2010,4.6,Valor
+Pacajá,dados_pacaja__responsavel_homem,Responsável Homem,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575681462308445,2022,3.7,Valor
+Pacajá,dados_pacaja__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2000,4.1,Valor
+Pacajá,dados_pacaja__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2010,3.5,Valor
+Pacajá,dados_pacaja__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_pacaja,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657102,2022,3.0,Valor
+Pacajá,dados_pacaja__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2000,10.8,Valor
+Pacajá,dados_pacaja__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2010,14.8,Valor
+Pacajá,dados_pacaja__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2022,19.8,Valor
+Pacajá,dados_pacaja__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2000,13.8,Valor
+Pacajá,dados_pacaja__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2010,18.2,Valor
+Pacajá,dados_pacaja__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,adam,True,0.21190129825680218,2022,23.2,Valor
+Pacajá,dados_pacaja__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1286721573083145,2000,55.8,Valor
+Pacajá,dados_pacaja__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1286721573083145,2010,42.4,Valor
+Pacajá,dados_pacaja__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_pacaja,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1286721573083145,2022,27.8,Valor
