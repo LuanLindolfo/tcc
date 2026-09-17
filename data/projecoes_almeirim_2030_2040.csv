@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Almeirim,dados_almeirim__anos_de_estudo_media,Anos de Estudo (Média),dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.3473039850718341,2030,9.480862848126302
+Almeirim,dados_almeirim__anos_de_estudo_media,Anos de Estudo (Média),dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.3473039850718341,2040,11.406919135529405
+Almeirim,dados_almeirim__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_almeirim,Grupo 1 — 4 censos,logistic,sgd,True,23.195608649696936,2030,232.5709829995349
+Almeirim,dados_almeirim__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_almeirim,Grupo 1 — 4 censos,logistic,sgd,True,23.195608649696936,2040,232.49151742296584
+Almeirim,dados_almeirim__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_almeirim,Grupo 1 — 4 censos,identity,lbfgs,True,0.06605425261562226,2030,13.318923333528138
+Almeirim,dados_almeirim__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_almeirim,Grupo 1 — 4 censos,identity,lbfgs,True,0.06605425261562226,2040,15.406195171107683
+Almeirim,dados_almeirim__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.33880694499772257,2030,8.940005061956343
+Almeirim,dados_almeirim__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.33880694499772257,2040,10.808112414834348
+Almeirim,dados_almeirim__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.3557957822266936,2030,10.021735812767517
+Almeirim,dados_almeirim__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_almeirim,Grupo 1 — 4 censos,identity,adam,True,0.3557957822266936,2040,12.005754328720109
+Almeirim,dados_almeirim__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_almeirim,Grupo 1 — 4 censos,logistic,lbfgs,True,0.10938241862813436,2030,2.723125968372089
+Almeirim,dados_almeirim__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_almeirim,Grupo 1 — 4 censos,logistic,lbfgs,True,0.10938241862813436,2040,2.6295178514544846
+Almeirim,dados_almeirim__populacao_total,População Total,dados_almeirim,Grupo 1 — 4 censos,relu,sgd,True,1.6129834821097724,2030,34.446209946121265
+Almeirim,dados_almeirim__populacao_total,População Total,dados_almeirim,Grupo 1 — 4 censos,relu,sgd,True,1.6129834821097724,2040,34.75800174619497
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_almeirim,Grupo 1 — 4 censos,logistic,lbfgs,True,3.1067168196371604,2030,90.20928139690872
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_almeirim,Grupo 1 — 4 censos,logistic,lbfgs,True,3.1067168196371604,2040,91.29302622819189
+Almeirim,dados_almeirim__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_almeirim,Grupo 1 — 4 censos,identity,lbfgs,True,0.051468396382640336,2030,13.525592258269324
+Almeirim,dados_almeirim__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_almeirim,Grupo 1 — 4 censos,identity,lbfgs,True,0.051468396382640336,2040,15.602211598471953
+Almeirim,dados_almeirim__2_trabalhos,2 trabalhos,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.8612198627646563,2030,8.292027685549165
+Almeirim,dados_almeirim__2_trabalhos,2 trabalhos,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.8612198627646563,2040,9.636748943335999
+Almeirim,dados_almeirim__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.10722708206803089,2030,1.0100811088051616
+Almeirim,dados_almeirim__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.10722708206803089,2040,1.0226527481240002
+Almeirim,dados_almeirim__apenas_1_trabalho,Apenas 1 trabalho,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2030,90.22545903603958
+Almeirim,dados_almeirim__apenas_1_trabalho,Apenas 1 trabalho,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2040,88.26290604335647
+Almeirim,dados_almeirim__casais_com_filhos,Casais com filhos,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,1.8607914563865127,2030,40.816151160116405
+Almeirim,dados_almeirim__casais_com_filhos,Casais com filhos,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,1.8607914563865127,2040,31.755697996575233
+Almeirim,dados_almeirim__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.3301823710084107,2030,8.134141290141631
+Almeirim,dados_almeirim__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.3301823710084107,2040,8.132811845463419
+Almeirim,dados_almeirim__casais_sem_filhos,Casais sem filhos,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2030,14.967472257105175
+Almeirim,dados_almeirim__casais_sem_filhos,Casais sem filhos,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2040,17.979485879231873
+Almeirim,dados_almeirim__conta_propria,Conta própria,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5709273519074953,2030,7.223226039565173
+Almeirim,dados_almeirim__conta_propria,Conta própria,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5709273519074953,2040,7.685043660327722
+Almeirim,dados_almeirim__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996593,2030,24.836408460189137
+Almeirim,dados_almeirim__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996593,2040,29.362480579251958
+Almeirim,dados_almeirim__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050708577599733,2030,26.750338108346412
+Almeirim,dados_almeirim__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050708577599733,2040,30.931714107050944
+Almeirim,dados_almeirim__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,2.318362168894558,2030,13.557808402022413
+Almeirim,dados_almeirim__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,2.318362168894558,2040,0.7775793128690012
+Almeirim,dados_almeirim__empregador,Empregador,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,77.82416879638073,2030,771.3068930405151
+Almeirim,dados_almeirim__empregador,Empregador,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,77.82416879638073,2040,883.0453734571934
+Almeirim,dados_almeirim__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,5.279879813500737,2030,98.14149085028438
+Almeirim,dados_almeirim__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,5.279879813500737,2040,99.10815879736955
+Almeirim,dados_almeirim__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,5.704233533990451,2030,79.97238205592447
+Almeirim,dados_almeirim__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,5.704233533990451,2040,86.32974601736097
+Almeirim,dados_almeirim__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,2.0632452680924724,2030,26.85443650657393
+Almeirim,dados_almeirim__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,2.0632452680924724,2040,30.107233212538336
+Almeirim,dados_almeirim__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.03809094139087049,2030,0.9663905961462957
+Almeirim,dados_almeirim__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.03809094139087049,2040,1.1692010446954133
+Almeirim,dados_almeirim__idade_mediana,Idade Mediana,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,31.955643986961604
+Almeirim,dados_almeirim__idade_mediana,Idade Mediana,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,36.06293528986165
+Almeirim,dados_almeirim__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,21.321844100697803,2030,294.38960562276435
+Almeirim,dados_almeirim__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,21.321844100697803,2040,367.19961333123086
+Almeirim,dados_almeirim__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450308,2030,27.866350079030433
+Almeirim,dados_almeirim__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450308,2040,31.96115024929078
+Almeirim,dados_almeirim__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.5975224271490461,2030,4.8044522642731415
+Almeirim,dados_almeirim__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.5975224271490461,2040,4.803002894344497
+Almeirim,dados_almeirim__media_populacao_amarela,Média: População Amarela,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.4864156203372536,2030,10.002804577578152
+Almeirim,dados_almeirim__media_populacao_amarela,Média: População Amarela,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.4864156203372536,2040,11.896838114924167
+Almeirim,dados_almeirim__media_populacao_branca,Média: População Branca,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.3951303701021344,2030,9.751178098774854
+Almeirim,dados_almeirim__media_populacao_branca,Média: População Branca,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.3951303701021344,2040,11.601293902836893
+Almeirim,dados_almeirim__media_populacao_indigena,Média: População Indígena,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2030,7.131184539481223
+Almeirim,dados_almeirim__media_populacao_indigena,Média: População Indígena,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2040,8.02771365360336
+Almeirim,dados_almeirim__media_populacao_preta_parda,Média: População Preta / Parda,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670109,2030,9.099573047176506
+Almeirim,dados_almeirim__media_populacao_preta_parda,Média: População Preta / Parda,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670109,2040,10.90579432527025
+Almeirim,dados_almeirim__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,256.4344275403615,2030,588.8743186690587
+Almeirim,dados_almeirim__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,256.4344275403615,2040,616.1534216855069
+Almeirim,dados_almeirim__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2030,4.499914609435301
+Almeirim,dados_almeirim__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.060769023973401705,2040,4.861158865054051
+Almeirim,dados_almeirim__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.2202794852610334,2030,2.4841040764447593
+Almeirim,dados_almeirim__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.2202794852610334,2040,2.826339923470691
+Almeirim,dados_almeirim__populacao_amarela,População Amarela,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,4.575719956466578,2030,9.416806334761475
+Almeirim,dados_almeirim__populacao_amarela,População Amarela,dados_almeirim,Grupo 2 — 3 censos,identity,lbfgs,True,4.575719956466578,2040,-7.781062613734122
+Almeirim,dados_almeirim__populacao_branca,População Branca,dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,0.8298955248268358,2030,4.973694821432087
+Almeirim,dados_almeirim__populacao_branca,População Branca,dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,0.8298955248268358,2040,4.98877098314982
+Almeirim,dados_almeirim__populacao_indigena,População Indígena,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,35.24506000034747,2030,66.39085318305763
+Almeirim,dados_almeirim__populacao_indigena,População Indígena,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,35.24506000034747,2040,3.097114776070555
+Almeirim,dados_almeirim__populacao_indigena_total,População Indígena Total,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,35.24506000034747,2030,66.39085318305763
+Almeirim,dados_almeirim__populacao_indigena_total,População Indígena Total,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,35.24506000034747,2040,3.097114776070555
+Almeirim,dados_almeirim__populacao_parda,População Parda,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.49619019343587567,2030,27.302796921934807
+Almeirim,dados_almeirim__populacao_parda,População Parda,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.49619019343587567,2040,27.8365307595014
+Almeirim,dados_almeirim__populacao_preta,População Preta,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.05318135206740626,2030,2.1868253218556473
+Almeirim,dados_almeirim__populacao_preta,População Preta,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.05318135206740626,2040,2.186613635060708
+Almeirim,dados_almeirim__populacao_rural,População Rural,dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,1.7730446725312767,2030,11.16507861697527
+Almeirim,dados_almeirim__populacao_rural,População Rural,dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,1.7730446725312767,2040,11.231407730891837
+Almeirim,dados_almeirim__populacao_urbana,População Urbana,dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,1.437058869169191,2030,23.651558376425942
+Almeirim,dados_almeirim__populacao_urbana,População Urbana,dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,1.437058869169191,2040,23.904285632207497
+Almeirim,dados_almeirim__populacao_com_superior_completo,População com Superior Completo,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,503.3755272279159,2030,343.1496935917264
+Almeirim,dados_almeirim__populacao_com_superior_completo,População com Superior Completo,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,503.3755272279159,2040,341.4569561441129
+Almeirim,dados_almeirim__populacao_de_homens,População de Homens,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.25691915564682805,2030,17.292624869502035
+Almeirim,dados_almeirim__populacao_de_homens,População de Homens,dados_almeirim,Grupo 2 — 3 censos,logistic,sgd,True,0.25691915564682805,2040,17.291746579154015
+Almeirim,dados_almeirim__populacao_de_mulheres,População de Mulheres,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.1126597800458325,2030,17.082362172497998
+Almeirim,dados_almeirim__populacao_de_mulheres,População de Mulheres,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,0.1126597800458325,2040,17.31075915078459
+Almeirim,dados_almeirim__proporcao_na_populacao_de_almeirim,Proporção na população de Almeirim,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.11445120083408923,2030,0.19022911524839792
+Almeirim,dados_almeirim__proporcao_na_populacao_de_almeirim,Proporção na população de Almeirim,dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,0.11445120083408923,2040,-0.000767030965026394
+Almeirim,dados_almeirim__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,2.0290620887116213,2030,102.53900618655865
+Almeirim,dados_almeirim__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_almeirim,Grupo 2 — 3 censos,tanh,adam,True,2.0290620887116213,2040,102.64397945742407
+Almeirim,dados_almeirim__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,96.4778333845984,2030,869.498478111653
+Almeirim,dados_almeirim__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,96.4778333845984,2040,1128.1773128909492
+Almeirim,dados_almeirim__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,3.474567703575609,2030,33.53189497949042
+Almeirim,dados_almeirim__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,3.474567703575609,2040,27.09687618252417
+Almeirim,dados_almeirim__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2030,14.967472257105175
+Almeirim,dados_almeirim__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2040,17.979485879231873
+Almeirim,dados_almeirim__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450308,2030,27.866350079030433
+Almeirim,dados_almeirim__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,1.1575091695450308,2040,31.96115024929078
+Almeirim,dados_almeirim__responsavel_homem,Responsável Homem,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.3015590049209034,2030,2.8155202583702197
+Almeirim,dados_almeirim__responsavel_homem,Responsável Homem,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.3015590049209034,2040,2.290336593052114
+Almeirim,dados_almeirim__responsavel_mulher,Responsável Mulher,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Almeirim,dados_almeirim__responsavel_mulher,Responsável Mulher,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Almeirim,dados_almeirim__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.1961235362358694,2030,2.5712035414819625
+Almeirim,dados_almeirim__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.1961235362358694,2040,2.278605163260058
+Almeirim,dados_almeirim__setor_privado,Setor privado,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.8166382425109306,2030,7.4391973156113025
+Almeirim,dados_almeirim__setor_privado,Setor privado,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.8166382425109306,2040,8.01044494021399
+Almeirim,dados_almeirim__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.4634402872753531,2030,4.632281268294693
+Almeirim,dados_almeirim__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.4634402872753531,2040,5.065786157567875
+Almeirim,dados_almeirim__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,0.3439007336152389,2030,2.835386203979594
+Almeirim,dados_almeirim__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,0.3439007336152389,2040,2.896079149388396
+Almeirim,dados_almeirim__setor_publico,Setor público,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5006195491785,2030,3.6795960370504295
+Almeirim,dados_almeirim__setor_publico,Setor público,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5006195491785,2040,3.9758073868285138
+Almeirim,dados_almeirim__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2030,226.89825197485774
+Almeirim,dados_almeirim__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2040,290.6842090145694
+Almeirim,dados_almeirim__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5297743968769689,2030,3.4365920524857483
+Almeirim,dados_almeirim__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,0.5297743968769689,2040,3.679379001198903
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,2.8577246980501223,2030,52.11692138455666
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,2.8577246980501223,2040,63.11988762257249
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,lbfgs,True,3.9124977713749254,2030,97.71930846148713
+Almeirim,dados_almeirim__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,lbfgs,True,3.9124977713749254,2040,97.95743213537445
+Almeirim,dados_almeirim__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,5.279879813500737,2030,98.14149085028438
+Almeirim,dados_almeirim__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_almeirim,Grupo 2 — 3 censos,logistic,adam,True,5.279879813500737,2040,99.10815879736955
+Almeirim,dados_almeirim__trabalhador_domestico,Trabalhador doméstico,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,96.89931190885045,2030,746.0973143016076
+Almeirim,dados_almeirim__trabalhador_domestico,Trabalhador doméstico,dados_almeirim,Grupo 2 — 3 censos,relu,adam,True,96.89931190885045,2040,790.6790370861268
+Almeirim,dados_almeirim__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,7.596127996675293,2030,177.48932617941264
+Almeirim,dados_almeirim__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_almeirim,Grupo 2 — 3 censos,identity,adam,True,7.596127996675293,2040,222.64485813175628
+Almeirim,dados_almeirim__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_almeirim,Grupo 2 — 3 censos,tanh,lbfgs,True,89.60024797812252,2030,568.8931039233527
+Almeirim,dados_almeirim__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_almeirim,Grupo 2 — 3 censos,tanh,lbfgs,True,89.60024797812252,2040,566.1834945003627
+Almeirim,dados_almeirim__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,5.721969264255926,2030,30.214448563249093
+Almeirim,dados_almeirim__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_almeirim,Grupo 2 — 3 censos,relu,lbfgs,True,5.721969264255926,2040,38.90067744668234
+Almeirim,dados_almeirim__a_pe,A pé,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.653916495463577
+Almeirim,dados_almeirim__a_pe,A pé,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.029725055549136
+Almeirim,dados_almeirim__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.60596067625865
+Almeirim,dados_almeirim__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.91143029144432
+Almeirim,dados_almeirim__ate_30_minutos_trajeto_urbano_local,Até 30 minutos (Trajeto urbano/local),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.16426242295861
+Almeirim,dados_almeirim__ate_30_minutos_trajeto_urbano_local,Até 30 minutos (Trajeto urbano/local),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.5333762749971
+Almeirim,dados_almeirim__automovel_onibus,Automóvel / Ônibus,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.913072921726558
+Almeirim,dados_almeirim__automovel_onibus,Automóvel / Ônibus,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.768057452459978
+Almeirim,dados_almeirim__bicicleta,Bicicleta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.689654072504967
+Almeirim,dados_almeirim__bicicleta,Bicicleta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.696348780552025
+Almeirim,dados_almeirim__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.85229168690623
+Almeirim,dados_almeirim__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.27222980983991
+Almeirim,dados_almeirim__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.57121241827296
+Almeirim,dados_almeirim__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.04083065264763
+Almeirim,dados_almeirim__com_coleta_de_lixo,Com Coleta de Lixo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.78279517093488
+Almeirim,dados_almeirim__com_coleta_de_lixo,Com Coleta de Lixo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.53103053224653
+Almeirim,dados_almeirim__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Almeirim,dados_almeirim__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Almeirim,dados_almeirim__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.15548309364901
+Almeirim,dados_almeirim__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.0816150777688
+Almeirim,dados_almeirim__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.6840596067625855
+Almeirim,dados_almeirim__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.787114302914442
+Almeirim,dados_almeirim__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5362384270503462
+Almeirim,dados_almeirim__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9484572116577727
+Almeirim,dados_almeirim__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.95653646086328
+Almeirim,dados_almeirim__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.88402872622999
+Almeirim,dados_almeirim__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.45391649546358
+Almeirim,dados_almeirim__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.82972505554914
+Almeirim,dados_almeirim__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.826958247731788
+Almeirim,dados_almeirim__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.014862527774568
+Almeirim,dados_almeirim__estuda_em_outro_municipio_ex_macapa_santarem,Estuda em outro município (ex: Macapá / Santarém),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.892774887913625
+Almeirim,dados_almeirim__estuda_em_outro_municipio_ex_macapa_santarem,Estuda em outro município (ex: Macapá / Santarém),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.23248593788776
+Almeirim,dados_almeirim__estuda_no_proprio_municipio_almeirim,Estuda no próprio município (Almeirim),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.41504572205133
+Almeirim,dados_almeirim__estuda_no_proprio_municipio_almeirim,Estuda no próprio município (Almeirim),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.05932128610695
+Almeirim,dados_almeirim__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.93348382215797
+Almeirim,dados_almeirim__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.41451586812879
+Almeirim,dados_almeirim__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.77930814500994
+Almeirim,dados_almeirim__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.792697561104056
+Almeirim,dados_almeirim__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.04931134877691
+Almeirim,dados_almeirim__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.31651466411776
+Almeirim,dados_almeirim__idade_mediana_2,Idade Mediana,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Almeirim,dados_almeirim__idade_mediana_2,Idade Mediana,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Almeirim,dados_almeirim__mais_de_1_hora_navegacao_zona_rural,Mais de 1 hora (Navegação/zona rural),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.423861128148358
+Almeirim,dados_almeirim__mais_de_1_hora_navegacao_zona_rural,Mais de 1 hora (Navegação/zona rural),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.325636958733076
+Almeirim,dados_almeirim__motocicleta,Motocicleta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.57396702316536
+Almeirim,dados_almeirim__motocicleta,Motocicleta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.974771996176628
+Almeirim,dados_almeirim__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.1046997945563
+Almeirim,dados_almeirim__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.75567006665897
+Almeirim,dados_almeirim__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.8405960676258655
+Almeirim,dados_almeirim__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.871143029144433
+Almeirim,dados_almeirim__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.921788202877593
+Almeirim,dados_almeirim__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.013429087433295
+Almeirim,dados_almeirim__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-436.877309829149
+Almeirim,dados_almeirim__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1015.4069893826909
+Almeirim,dados_almeirim__populacao_amarela_2,População Amarela,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Almeirim,dados_almeirim__populacao_amarela_2,População Amarela,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Almeirim,dados_almeirim__populacao_branca_2,População Branca,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,222.87039944891916
+Almeirim,dados_almeirim__populacao_branca_2,População Branca,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,275.42829448636604
+Almeirim,dados_almeirim__populacao_indigena_2,População Indígena,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Almeirim,dados_almeirim__populacao_indigena_2,População Indígena,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Almeirim,dados_almeirim__populacao_parda_2,População Parda,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-348.13555219455554
+Almeirim,dados_almeirim__populacao_parda_2,População Parda,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-809.1508243088716
+Almeirim,dados_almeirim__populacao_preta_2,População Preta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,138.8990741640277
+Almeirim,dados_almeirim__populacao_preta_2,População Preta,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,171.87657693262184
+Almeirim,dados_almeirim__populacao_residente_em_favelas,População Residente em Favelas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-436.877309829149
+Almeirim,dados_almeirim__populacao_residente_em_favelas,População Residente em Favelas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1015.4069893826909
+Almeirim,dados_almeirim__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0724768541006924
+Almeirim,dados_almeirim__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.8969144233155455
+Almeirim,dados_almeirim__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.70156659818542
+Almeirim,dados_almeirim__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.25189002221964
+Almeirim,dados_almeirim__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Almeirim,dados_almeirim__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Almeirim,dados_almeirim__ruas_sem_arvores,Ruas Sem Árvores,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.818178918422188
+Almeirim,dados_almeirim__ruas_sem_arvores,Ruas Sem Árvores,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.563101330546248
+Almeirim,dados_almeirim__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.63772859611501
+Almeirim,dados_almeirim__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.62631478451885
+Almeirim,dados_almeirim__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.229013314963971
+Almeirim,dados_almeirim__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.33337095553949
+Almeirim,dados_almeirim__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.980943149545535
+Almeirim,dados_almeirim__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.703628967032195
+Almeirim,dados_almeirim__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.89002028302124
+Almeirim,dados_almeirim__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.92476854100693
+Almeirim,dados_almeirim__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.29854459435877
+Almeirim,dados_almeirim__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.16914423315546
+Almeirim,dados_almeirim__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.5362384270503462
+Almeirim,dados_almeirim__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9484572116577727
+Almeirim,dados_almeirim__sem_conjuge,Sem cônjuge,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.75366898935243
+Almeirim,dados_almeirim__sem_conjuge,Sem cônjuge,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.63920048160442
+Almeirim,dados_almeirim__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.25515915841709
+Almeirim,dados_almeirim__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.71705805446548
+Almeirim,dados_almeirim__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,529.2774887913625
+Almeirim,dados_almeirim__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,663.2485937887761
+Almeirim,dados_almeirim__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.744953708201386
+Almeirim,dados_almeirim__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.39382884663109
+Almeirim,dados_almeirim__trabalha_em_outro_municipio_ex_macapa_santare,Trabalha em outro município (ex: Macapá / Santarém / Belém),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.892774887913626
+Almeirim,dados_almeirim__trabalha_em_outro_municipio_ex_macapa_santare,Trabalha em outro município (ex: Macapá / Santarém / Belém),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.232485937887764
+Almeirim,dados_almeirim__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Almeirim),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.41504572205133
+Almeirim,dados_almeirim__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Almeirim),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.05932128610695
+Almeirim,dados_almeirim__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.41456309079122
+Almeirim,dados_almeirim__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.84591502532105
+Almeirim,dados_almeirim__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.573967023165356
+Almeirim,dados_almeirim__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.974771996176628
+Almeirim,dados_almeirim__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.61754342892054
+Almeirim,dados_almeirim__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.2016301710432
+Almeirim,dados_almeirim__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Almeirim,dados_almeirim__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Almeirim,dados_almeirim__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.26100696805727
+Almeirim,dados_almeirim__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.917601444813236
+Almeirim,dados_almeirim__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.2146759574097
+Almeirim,dados_almeirim__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.75680192641764
+Almeirim,dados_almeirim__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.142086236690528
+Almeirim,dados_almeirim__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_almeirim,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.749000602005516
