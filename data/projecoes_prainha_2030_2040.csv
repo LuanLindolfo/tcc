@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Prainha,dados_prainha__anos_de_estudo_media,Anos de Estudo (Média),dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.18538778444075954,2030,8.614928210195878
+Prainha,dados_prainha__anos_de_estudo_media,Anos de Estudo (Média),dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.18538778444075954,2040,10.410943690946056
+Prainha,dados_prainha__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_prainha,Grupo 1 — 4 censos,identity,sgd,True,7.019401331148714,2030,189.11933883293418
+Prainha,dados_prainha__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_prainha,Grupo 1 — 4 censos,identity,sgd,True,7.019401331148714,2040,201.31658784855722
+Prainha,dados_prainha__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,0.208562616393413,2030,8.672351076508486
+Prainha,dados_prainha__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,0.208562616393413,2040,8.937000273554387
+Prainha,dados_prainha__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.12287864304326435,2030,7.98646844618257
+Prainha,dados_prainha__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.12287864304326435,2040,9.678144341450427
+Prainha,dados_prainha__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_prainha,Grupo 1 — 4 censos,identity,lbfgs,True,0.2697164791231053,2030,9.250705892618312
+Prainha,dados_prainha__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_prainha,Grupo 1 — 4 censos,identity,lbfgs,True,0.2697164791231053,2040,11.15829497205611
+Prainha,dados_prainha__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,0.0920843618557654,2030,3.2662646520644127
+Prainha,dados_prainha__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,0.0920843618557654,2040,3.136441364523371
+Prainha,dados_prainha__populacao_total,População Total,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,1.5965653540437525,2030,28.049429662303304
+Prainha,dados_prainha__populacao_total,População Total,dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,1.5965653540437525,2040,27.744063022367914
+Prainha,dados_prainha__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,4.529622036001644,2030,87.00716079786383
+Prainha,dados_prainha__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_prainha,Grupo 1 — 4 censos,logistic,lbfgs,True,4.529622036001644,2040,89.2909279264745
+Prainha,dados_prainha__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.20123007338876242,2030,9.625273458532813
+Prainha,dados_prainha__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_prainha,Grupo 1 — 4 censos,identity,adam,True,0.20123007338876242,2040,11.038831745482952
+Prainha,dados_prainha__2_trabalhos,2 trabalhos,dados_prainha,Grupo 2 — 3 censos,relu,sgd,True,1.3410980553331289,2030,8.489026497339953
+Prainha,dados_prainha__2_trabalhos,2 trabalhos,dados_prainha,Grupo 2 — 3 censos,relu,sgd,True,1.3410980553331289,2040,9.991509855888314
+Prainha,dados_prainha__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.13848923902940566,2030,0.7341013655995576
+Prainha,dados_prainha__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.13848923902940566,2040,0.733695780490652
+Prainha,dados_prainha__apenas_1_trabalho,Apenas 1 trabalho,dados_prainha,Grupo 2 — 3 censos,relu,lbfgs,True,1.4926912217907027,2030,89.65056576697943
+Prainha,dados_prainha__apenas_1_trabalho,Apenas 1 trabalho,dados_prainha,Grupo 2 — 3 censos,relu,lbfgs,True,1.4926912217907027,2040,86.90786849500115
+Prainha,dados_prainha__casais_com_filhos,Casais com filhos,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2030,40.21171980649076
+Prainha,dados_prainha__casais_com_filhos,Casais com filhos,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2040,30.700711132545226
+Prainha,dados_prainha__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264472,2030,8.868197636010951
+Prainha,dados_prainha__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264472,2040,8.866983373481926
+Prainha,dados_prainha__casais_sem_filhos,Casais sem filhos,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.5485017870608306,2030,13.481276213628046
+Prainha,dados_prainha__casais_sem_filhos,Casais sem filhos,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.5485017870608306,2040,16.207137878757813
+Prainha,dados_prainha__conta_propria,Conta própria,dados_prainha,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2118433662487043,2030,9.806406140318584
+Prainha,dados_prainha__conta_propria,Conta própria,dados_prainha,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2118433662487043,2040,9.761543529935775
+Prainha,dados_prainha__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.21190129825680337,2030,23.23955609711755
+Prainha,dados_prainha__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.21190129825680337,2040,27.492014560850066
+Prainha,dados_prainha__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2030,26.342638451908485
+Prainha,dados_prainha__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2040,30.68274897805368
+Prainha,dados_prainha__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912942886171014,2030,18.06555231130143
+Prainha,dados_prainha__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912942886171014,2040,5.823794389584528
+Prainha,dados_prainha__empregador,Empregador,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,42.5646596363851,2030,610.2900110137343
+Prainha,dados_prainha__empregador,Empregador,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,42.5646596363851,2040,763.5700433100988
+Prainha,dados_prainha__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,7.1319745464440985,2030,95.75310815148718
+Prainha,dados_prainha__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,7.1319745464440985,2040,96.81410315151899
+Prainha,dados_prainha__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,2.005114362572241,2030,77.49374546953118
+Prainha,dados_prainha__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,2.005114362572241,2040,90.41078153186012
+Prainha,dados_prainha__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.4898948015484959,2030,23.36195357191456
+Prainha,dados_prainha__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.4898948015484959,2040,28.228859348564473
+Prainha,dados_prainha__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.06018939731521228,2030,0.8064911641107552
+Prainha,dados_prainha__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.06018939731521228,2040,0.9844396937476013
+Prainha,dados_prainha__idade_mediana,Idade Mediana,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,31.468793689380078
+Prainha,dados_prainha__idade_mediana,Idade Mediana,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,36.011896464596354
+Prainha,dados_prainha__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2030,149.55643986961604
+Prainha,dados_prainha__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2040,190.6293528986165
+Prainha,dados_prainha__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.0966084312966125,2030,24.767837908734002
+Prainha,dados_prainha__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.0966084312966125,2040,28.725738993682164
+Prainha,dados_prainha__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.7300790353729566,2030,4.938800811949198
+Prainha,dados_prainha__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.7300790353729566,2040,4.937056405999554
+Prainha,dados_prainha__media_populacao_amarela,Média: População Amarela,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172827,2030,8.424118479013327
+Prainha,dados_prainha__media_populacao_amarela,Média: População Amarela,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172827,2040,9.433400664408678
+Prainha,dados_prainha__media_populacao_branca,Média: População Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172822,2030,8.224118479013327
+Prainha,dados_prainha__media_populacao_branca,Média: População Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172822,2040,9.233400664408679
+Prainha,dados_prainha__media_populacao_indigena,Média: População Indígena,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518974,2030,6.898035864902132
+Prainha,dados_prainha__media_populacao_indigena,Média: População Indígena,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518974,2040,8.47976755951999
+Prainha,dados_prainha__media_populacao_preta_parda,Média: População Preta / Parda,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390294,2030,8.427828091854666
+Prainha,dados_prainha__media_populacao_preta_parda,Média: População Preta / Parda,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390294,2040,10.231552920500318
+Prainha,dados_prainha__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,482.90490354586456,2030,1109.927469219208
+Prainha,dados_prainha__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,482.90490354586456,2040,1161.3900812487923
+Prainha,dados_prainha__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_prainha,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057527,2030,4.468974426752009
+Prainha,dados_prainha__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_prainha,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057527,2040,4.802782091398335
+Prainha,dados_prainha__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.0914169645101383,2030,2.746879368938008
+Prainha,dados_prainha__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.0914169645101383,2040,3.2011896464596354
+Prainha,dados_prainha__populacao_amarela,População Amarela,dados_prainha,Grupo 2 — 3 censos,tanh,sgd,True,16.404435054098474,2030,14.794517654436476
+Prainha,dados_prainha__populacao_amarela,População Amarela,dados_prainha,Grupo 2 — 3 censos,tanh,sgd,True,16.404435054098474,2040,11.996196194024925
+Prainha,dados_prainha__populacao_branca,População Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.38593031800988237,2030,3.544147923877542
+Prainha,dados_prainha__populacao_branca,População Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.38593031800988237,2040,3.2299210521352606
+Prainha,dados_prainha__populacao_indigena,População Indígena,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,16.930152932248188,2030,136.44205137457507
+Prainha,dados_prainha__populacao_indigena,População Indígena,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,16.930152932248188,2040,55.81004937047939
+Prainha,dados_prainha__populacao_indigena_total,População Indígena Total,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,16.930152932248188,2030,136.44205137457507
+Prainha,dados_prainha__populacao_indigena_total,População Indígena Total,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,16.930152932248188,2040,55.81004937047939
+Prainha,dados_prainha__populacao_parda,População Parda,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,2.1967631675159205,2030,22.043132644139742
+Prainha,dados_prainha__populacao_parda,População Parda,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,2.1967631675159205,2040,22.037896085842117
+Prainha,dados_prainha__populacao_preta,População Preta,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.21343250163530714,2030,1.6343209024500465
+Prainha,dados_prainha__populacao_preta,População Preta,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.21343250163530714,2040,1.6334694325471617
+Prainha,dados_prainha__populacao_rural,População Rural,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.07879436735503258,2030,17.18512847730437
+Prainha,dados_prainha__populacao_rural,População Rural,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.07879436735503258,2040,17.03708510236111
+Prainha,dados_prainha__populacao_urbana,População Urbana,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,1.401423518172459,2030,10.837051711259466
+Prainha,dados_prainha__populacao_urbana,População Urbana,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,1.401423518172459,2040,10.833578585106078
+Prainha,dados_prainha__populacao_com_superior_completo,População com Superior Completo,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,251.6508337244727,2030,171.61146831304674
+Prainha,dados_prainha__populacao_com_superior_completo,População com Superior Completo,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,251.6508337244727,2040,170.76531316089185
+Prainha,dados_prainha__populacao_de_homens,População de Homens,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.5396128458147563,2030,14.66481335850274
+Prainha,dados_prainha__populacao_de_homens,População de Homens,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.5396128458147563,2040,14.66324042271576
+Prainha,dados_prainha__populacao_de_mulheres,População de Mulheres,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.5916069798368664,2030,13.717684536512186
+Prainha,dados_prainha__populacao_de_mulheres,População de Mulheres,dados_prainha,Grupo 2 — 3 censos,logistic,sgd,True,0.5916069798368664,2040,13.71614435603457
+Prainha,dados_prainha__proporcao_na_populacao_de_prainha,Proporção na população de Prainha,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.11310299068488583,2030,0.5698328946647693
+Prainha,dados_prainha__proporcao_na_populacao_de_prainha,Proporção na população de Prainha,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.11310299068488583,2040,0.3802565563132293
+Prainha,dados_prainha__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.06092499147360778,2030,105.6805700847027
+Prainha,dados_prainha__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.06092499147360778,2040,105.0336199797396
+Prainha,dados_prainha__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,110.25413502787565,2030,738.2715802038538
+Prainha,dados_prainha__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,110.25413502787565,2040,961.0118077273067
+Prainha,dados_prainha__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912962133250109,2030,36.06559588150908
+Prainha,dados_prainha__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912962133250109,2040,26.823823994446425
+Prainha,dados_prainha__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.5485017870608306,2030,13.481276213628046
+Prainha,dados_prainha__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,0.5485017870608306,2040,16.207137878757813
+Prainha,dados_prainha__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.0966084312966125,2030,24.767837908734002
+Prainha,dados_prainha__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.0966084312966125,2040,28.725738993682164
+Prainha,dados_prainha__responsavel_homem,Responsável Homem,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201902775396108,2030,3.0977786090772987
+Prainha,dados_prainha__responsavel_homem,Responsável Homem,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201902775396108,2040,2.3725036341060783
+Prainha,dados_prainha__responsavel_mulher,Responsável Mulher,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Prainha,dados_prainha__responsavel_mulher,Responsável Mulher,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Prainha,dados_prainha__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Prainha,dados_prainha__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Prainha,dados_prainha__setor_privado,Setor privado,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.41115524586297864,2030,4.2848703555470795
+Prainha,dados_prainha__setor_privado,Setor privado,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.41115524586297864,2040,4.811480557639326
+Prainha,dados_prainha__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,209.17085981700674,2030,-0.6702509347648657
+Prainha,dados_prainha__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,209.17085981700674,2040,10.355054948782893
+Prainha,dados_prainha__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.27108543957710096,2030,2.0842730470031334
+Prainha,dados_prainha__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,0.27108543957710096,2040,2.2129851917951755
+Prainha,dados_prainha__setor_publico,Setor público,dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,539.3692937968809,2030,-4.285101264127036
+Prainha,dados_prainha__setor_publico,Setor público,dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,539.3692937968809,2040,24.152881837124426
+Prainha,dados_prainha__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2030,207.32942141725735
+Prainha,dados_prainha__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_prainha,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2040,266.16293845762414
+Prainha,dados_prainha__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,522.8497640925165,2030,-4.249294232569696
+Prainha,dados_prainha__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_prainha,Grupo 2 — 3 censos,tanh,adam,True,522.8497640925165,2040,23.318010746117693
+Prainha,dados_prainha__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_prainha,Grupo 2 — 3 censos,identity,sgd,True,0.8184296812297553,2030,44.492961174464824
+Prainha,dados_prainha__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_prainha,Grupo 2 — 3 censos,identity,sgd,True,0.8184296812297553,2040,54.029508886707994
+Prainha,dados_prainha__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_prainha,Grupo 2 — 3 censos,relu,adam,True,3.997029377030349,2030,97.19117827066123
+Prainha,dados_prainha__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_prainha,Grupo 2 — 3 censos,relu,adam,True,3.997029377030349,2040,99.23547994704522
+Prainha,dados_prainha__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,7.1319745464440985,2030,95.75310815148718
+Prainha,dados_prainha__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,7.1319745464440985,2040,96.81410315151899
+Prainha,dados_prainha__trabalhador_domestico,Trabalhador doméstico,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,63.43637243416621,2030,624.8028932850192
+Prainha,dados_prainha__trabalhador_domestico,Trabalhador doméstico,dados_prainha,Grupo 2 — 3 censos,relu,adam,True,63.43637243416621,2040,676.1159622586358
+Prainha,dados_prainha__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2030,152.47045767201874
+Prainha,dados_prainha__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_prainha,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2040,193.40508541356817
+Prainha,dados_prainha__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,67.55944472057928,2030,494.2141184966754
+Prainha,dados_prainha__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_prainha,Grupo 2 — 3 censos,logistic,adam,True,67.55944472057928,2040,505.96998931713404
+Prainha,dados_prainha__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_prainha,Grupo 2 — 3 censos,relu,lbfgs,True,6.022830733202054,2030,31.223604132168557
+Prainha,dados_prainha__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_prainha,Grupo 2 — 3 censos,relu,lbfgs,True,6.022830733202054,2040,40.38927883476134
+Prainha,dados_prainha__a_pe,A pé,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.943570567968546
+Prainha,dados_prainha__a_pe,A pé,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.326073836101168
+Prainha,dados_prainha__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.89002028302124
+Prainha,dados_prainha__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.29854459435876
+Prainha,dados_prainha__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.46582902114403
+Prainha,dados_prainha__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.38526629721676
+Prainha,dados_prainha__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.6521788202877605
+Prainha,dados_prainha__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.961342908743331
+Prainha,dados_prainha__bicicleta,Bicicleta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.477741546824506
+Prainha,dados_prainha__bicicleta,Bicicleta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.940807538884398
+Prainha,dados_prainha__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.84070893424435
+Prainha,dados_prainha__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.98202993024103
+Prainha,dados_prainha__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.99151045208589
+Prainha,dados_prainha__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.97640216721985
+Prainha,dados_prainha__com_coleta_de_lixo,Com Coleta de Lixo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.52190106949607
+Prainha,dados_prainha__com_coleta_de_lixo,Com Coleta de Lixo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.7243159885299
+Prainha,dados_prainha__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Prainha,dados_prainha__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Prainha,dados_prainha__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.71974551660762
+Prainha,dados_prainha__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.0149913527659
+Prainha,dados_prainha__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.788417247338106
+Prainha,dados_prainha__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.509800120401103
+Prainha,dados_prainha__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Prainha,dados_prainha__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Prainha,dados_prainha__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.388417247338108
+Prainha,dados_prainha__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.109800120401104
+Prainha,dados_prainha__embarcacao_transporte_hidroviario_reta_rabeta,Embarcação / Transporte Hidroviário (Reta/Rabeta/Canoa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.316612320236764
+Prainha,dados_prainha__embarcacao_transporte_hidroviario_reta_rabeta,Embarcação / Transporte Hidroviário (Reta/Rabeta/Canoa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.511211308326608
+Prainha,dados_prainha__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.152349897278148
+Prainha,dados_prainha__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.977835033329487
+Prainha,dados_prainha__estuda_em_outro_municipio_ex_santarem_monte_a,Estuda em outro município (ex: Santarém / Monte Alegre / Belém),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.776834494676212
+Prainha,dados_prainha__estuda_em_outro_municipio_ex_santarem_monte_a,Estuda em outro município (ex: Santarém / Monte Alegre / Belém),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.219600240802205
+Prainha,dados_prainha__estuda_no_proprio_municipio_prainha,Estuda no próprio município (Prainha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.4777415468245
+Prainha,dados_prainha__estuda_no_proprio_municipio_prainha,Estuda no próprio município (Prainha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.9408075388844
+Prainha,dados_prainha__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.011695619280367
+Prainha,dados_prainha__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.40108678069548
+Prainha,dados_prainha__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.504699794556295
+Prainha,dados_prainha__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.155670066658962
+Prainha,dados_prainha__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.21743056230207
+Prainha,dados_prainha__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.69074326994664
+Prainha,dados_prainha__idade_mediana_2,Idade Mediana,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Prainha,dados_prainha__idade_mediana_2,Idade Mediana,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Prainha,dados_prainha__mais_de_1_hora_deslocamento_fluvial_furos_e_r,Mais de 1 hora (Deslocamento fluvial / furos e rio Amazonas),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.240596067625866
+Prainha,dados_prainha__mais_de_1_hora_deslocamento_fluvial_furos_e_r,Mais de 1 hora (Deslocamento fluvial / furos e rio Amazonas),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.27114302914443
+Prainha,dados_prainha__motocicleta,Motocicleta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.095755226042954
+Prainha,dados_prainha__motocicleta,Motocicleta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.58820108360992
+Prainha,dados_prainha__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.04200396978312
+Prainha,dados_prainha__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.87418381388152
+Prainha,dados_prainha__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Prainha,dados_prainha__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Prainha,dados_prainha__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.721788202877605
+Prainha,dados_prainha__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.813429087433306
+Prainha,dados_prainha__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1021.7430562302077
+Prainha,dados_prainha__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1269.0743269946638
+Prainha,dados_prainha__populacao_amarela_2,População Amarela,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Prainha,dados_prainha__populacao_amarela_2,População Amarela,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Prainha,dados_prainha__populacao_branca_2,População Branca,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.49311348776904
+Prainha,dados_prainha__populacao_branca_2,População Branca,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,123.1651466411775
+Prainha,dados_prainha__populacao_indigena_2,População Indígena,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.101490169064665
+Prainha,dados_prainha__populacao_indigena_2,População Indígena,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.67785757286108
+Prainha,dados_prainha__populacao_parda_2,População Parda,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,848.1192135251731
+Prainha,dados_prainha__populacao_parda_2,População Parda,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1054.2286058288864
+Prainha,dados_prainha__populacao_preta_2,População Preta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.60894101438798
+Prainha,dados_prainha__populacao_preta_2,População Preta,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.06714543716649
+Prainha,dados_prainha__populacao_residente_em_favelas,População Residente em Favelas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1021.7430562302077
+Prainha,dados_prainha__populacao_residente_em_favelas,População Residente em Favelas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1269.0743269946638
+Prainha,dados_prainha__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Prainha,dados_prainha__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Prainha,dados_prainha__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,100.65830616011837
+Prainha,dados_prainha__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.75560565416328
+Prainha,dados_prainha__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0507832990927155
+Prainha,dados_prainha__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3259450111098268
+Prainha,dados_prainha__ruas_sem_arvores,Ruas Sem Árvores,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.818178918422188
+Prainha,dados_prainha__ruas_sem_arvores,Ruas Sem Árvores,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.563101330546248
+Prainha,dados_prainha__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.63772859611501
+Prainha,dados_prainha__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.62631478451885
+Prainha,dados_prainha__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0724768541006924
+Prainha,dados_prainha__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.892774887913625
+Prainha,dados_prainha__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.8969144233155455
+Prainha,dados_prainha__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.232485937887761
+Prainha,dados_prainha__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.52190106949607
+Prainha,dados_prainha__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.22769244582702
+Prainha,dados_prainha__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.7243159885299
+Prainha,dados_prainha__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.06941592832933
+Prainha,dados_prainha__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Prainha,dados_prainha__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Prainha,dados_prainha__sem_conjuge,Sem cônjuge,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.9102054502157
+Prainha,dados_prainha__sem_conjuge,Sem cônjuge,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.72322920783439
+Prainha,dados_prainha__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.31892073136675
+Prainha,dados_prainha__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.36860084280772
+Prainha,dados_prainha__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,276.74023456474595
+Prainha,dados_prainha__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,346.3021544672492
+Prainha,dados_prainha__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.91307292172656
+Prainha,dados_prainha__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.76805745245998
+Prainha,dados_prainha__trabalha_em_outro_municipio_ex_santarem_monte,Trabalha em outro município (ex: Santarém / Monte Alegre / Almeirim),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.144953708201387
+Prainha,dados_prainha__trabalha_em_outro_municipio_ex_santarem_monte,Trabalha em outro município (ex: Santarém / Monte Alegre / Almeirim),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.793828846631094
+Prainha,dados_prainha__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Prainha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.00313319637085
+Prainha,dados_prainha__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Prainha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.1037800444393
+Prainha,dados_prainha__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.84644387726605
+Prainha,dados_prainha__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.07168641949218
+Prainha,dados_prainha__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.153668989352422
+Prainha,dados_prainha__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.039200481604414
+Prainha,dados_prainha__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Prainha,dados_prainha__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Prainha,dados_prainha__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Prainha,dados_prainha__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Prainha,dados_prainha__vias_pavimentadas_asfalto_calcamento_empierra,Vias Pavimentadas (Asfalto/Calçamento/Empierrado),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.049424215395376
+Prainha,dados_prainha__vias_pavimentadas_asfalto_calcamento_empierra,Vias Pavimentadas (Asfalto/Calçamento/Empierrado),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.427401565214325
+Prainha,dados_prainha__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.19437792359676
+Prainha,dados_prainha__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.22123041184544
+Prainha,dados_prainha__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.721788202877594
+Prainha,dados_prainha__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_prainha,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.813429087433297
