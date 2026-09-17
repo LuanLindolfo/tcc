@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Irituia,dados_irituia__populacao_total,População Total,dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.7108669551899336,1991,28.41,Valor
+Irituia,dados_irituia__populacao_total,População Total,dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.7108669551899336,2000,30.12,Valor
+Irituia,dados_irituia__populacao_total,População Total,dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.7108669551899336,2010,31.364,Valor
+Irituia,dados_irituia__populacao_total,População Total,dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.7108669551899336,2022,30.82,Valor
+Irituia,dados_irituia__populacao_urbana,População Urbana,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.7153849478224524,2000,11.84,Valor
+Irituia,dados_irituia__populacao_urbana,População Urbana,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.7153849478224524,2010,14.28,Valor
+Irituia,dados_irituia__populacao_urbana,População Urbana,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.7153849478224524,2022,15.62,Valor
+Irituia,dados_irituia__populacao_rural,População Rural,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3422655798482648,2000,18.28,Valor
+Irituia,dados_irituia__populacao_rural,População Rural,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3422655798482648,2010,17.084,Valor
+Irituia,dados_irituia__populacao_rural,População Rural,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3422655798482648,2022,15.2,Valor
+Irituia,dados_irituia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Irituia,dados_irituia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.14,Valor
+Irituia,dados_irituia__populacao_de_mulheres,População de Mulheres,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3887201363479929,2000,14.62,Valor
+Irituia,dados_irituia__populacao_de_mulheres,População de Mulheres,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3887201363479929,2010,15.28,Valor
+Irituia,dados_irituia__populacao_de_mulheres,População de Mulheres,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.3887201363479929,2022,15.24,Valor
+Irituia,dados_irituia__populacao_de_homens,População de Homens,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365345669625657,2000,15.5,Valor
+Irituia,dados_irituia__populacao_de_homens,População de Homens,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365345669625657,2010,16.084,Valor
+Irituia,dados_irituia__populacao_de_homens,População de Homens,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.365345669625657,2022,15.58,Valor
+Irituia,dados_irituia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0059588433195283,2000,106.0,Valor
+Irituia,dados_irituia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0059588433195283,2010,105.3,Valor
+Irituia,dados_irituia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0059588433195283,2022,102.2,Valor
+Irituia,dados_irituia__idade_mediana,Idade Mediana,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2000,20.0,Valor
+Irituia,dados_irituia__idade_mediana,Idade Mediana,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2010,23.0,Valor
+Irituia,dados_irituia__idade_mediana,Idade Mediana,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2022,30.0,Valor
+Irituia,dados_irituia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.442816776567408,2000,5.8,Valor
+Irituia,dados_irituia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.442816776567408,2010,8.8,Valor
+Irituia,dados_irituia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.442816776567408,2022,24.2,Valor
+Irituia,dados_irituia__populacao_parda,População Parda,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2582287871025624,2000,21.42,Valor
+Irituia,dados_irituia__populacao_parda,População Parda,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2582287871025624,2010,23.82,Valor
+Irituia,dados_irituia__populacao_parda,População Parda,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2582287871025624,2022,23.94,Valor
+Irituia,dados_irituia__populacao_branca,População Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.4641619814686149,2000,6.82,Valor
+Irituia,dados_irituia__populacao_branca,População Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.4641619814686149,2010,5.62,Valor
+Irituia,dados_irituia__populacao_branca,População Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.4641619814686149,2022,5.12,Valor
+Irituia,dados_irituia__populacao_preta,População Preta,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.07924361768832562,2000,1.82,Valor
+Irituia,dados_irituia__populacao_preta,População Preta,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.07924361768832562,2010,1.84,Valor
+Irituia,dados_irituia__populacao_preta,População Preta,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.07924361768832562,2022,1.71,Valor
+Irituia,dados_irituia__populacao_amarela,População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2000,42.0,Valor
+Irituia,dados_irituia__populacao_amarela,População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2010,32.0,Valor
+Irituia,dados_irituia__populacao_amarela,População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2022,22.0,Valor
+Irituia,dados_irituia__populacao_indigena,População Indígena,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2000,18.0,Valor
+Irituia,dados_irituia__populacao_indigena,População Indígena,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2010,52.0,Valor
+Irituia,dados_irituia__populacao_indigena,População Indígena,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2022,28.0,Valor
+Irituia,dados_irituia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,91.75453574205794,2000,104.8,Valor
+Irituia,dados_irituia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,91.75453574205794,2010,284.2,Valor
+Irituia,dados_irituia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,91.75453574205794,2022,620.0,Valor
+Irituia,dados_irituia__apenas_1_trabalho,Apenas 1 trabalho,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5892480404293915,2000,95.8,Valor
+Irituia,dados_irituia__apenas_1_trabalho,Apenas 1 trabalho,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5892480404293915,2010,94.6,Valor
+Irituia,dados_irituia__apenas_1_trabalho,Apenas 1 trabalho,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5892480404293915,2022,92.2,Valor
+Irituia,dados_irituia__2_trabalhos,2 trabalhos,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8311393079809765,2000,3.6,Valor
+Irituia,dados_irituia__2_trabalhos,2 trabalhos,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8311393079809765,2010,4.5,Valor
+Irituia,dados_irituia__2_trabalhos,2 trabalhos,dados_irituia,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8311393079809765,2022,6.8,Valor
+Irituia,dados_irituia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.12277835824295329,2000,0.6,Valor
+Irituia,dados_irituia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.12277835824295329,2010,0.9,Valor
+Irituia,dados_irituia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.12277835824295329,2022,1.0,Valor
+Irituia,dados_irituia__setor_privado,Setor privado,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.8166382425109306,2000,2.42,Valor
+Irituia,dados_irituia__setor_privado,Setor privado,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.8166382425109306,2010,4.82,Valor
+Irituia,dados_irituia__setor_privado,Setor privado,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.8166382425109306,2022,5.94,Valor
+Irituia,dados_irituia__conta_propria,Conta própria,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.6998328121058787,2000,5.12,Valor
+Irituia,dados_irituia__conta_propria,Conta própria,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.6998328121058787,2010,6.84,Valor
+Irituia,dados_irituia__conta_propria,Conta própria,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.6998328121058787,2022,7.42,Valor
+Irituia,dados_irituia__setor_publico,Setor público,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.33232561819289014,2000,1.28,Valor
+Irituia,dados_irituia__setor_publico,Setor público,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.33232561819289014,2010,2.42,Valor
+Irituia,dados_irituia__setor_publico,Setor público,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.33232561819289014,2022,3.12,Valor
+Irituia,dados_irituia__trabalhador_domestico,Trabalhador doméstico,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,89.7440072849332,2000,320.0,Valor
+Irituia,dados_irituia__trabalhador_domestico,Trabalhador doméstico,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,89.7440072849332,2010,540.0,Valor
+Irituia,dados_irituia__trabalhador_domestico,Trabalhador doméstico,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,89.7440072849332,2022,620.0,Valor
+Irituia,dados_irituia__empregador,Empregador,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,48.64156203372536,2000,160.0,Valor
+Irituia,dados_irituia__empregador,Empregador,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,48.64156203372536,2010,380.0,Valor
+Irituia,dados_irituia__empregador,Empregador,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,48.64156203372536,2022,580.0,Valor
+Irituia,dados_irituia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_irituia,Grupo 2 — 3 censos,3,tanh,adam,True,286.08541017122565,2000,2.12,Valor
+Irituia,dados_irituia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_irituia,Grupo 2 — 3 censos,3,tanh,adam,True,286.08541017122565,2010,1.24,Valor
+Irituia,dados_irituia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_irituia,Grupo 2 — 3 censos,3,tanh,adam,True,286.08541017122565,2022,580.0,Valor
+Irituia,dados_irituia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2000,40.0,Valor
+Irituia,dados_irituia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2010,90.0,Valor
+Irituia,dados_irituia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,22.841069700032858,2022,180.0,Valor
+Irituia,dados_irituia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.3984000627260221,2000,1.12,Valor
+Irituia,dados_irituia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.3984000627260221,2010,2.48,Valor
+Irituia,dados_irituia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.3984000627260221,2022,3.24,Valor
+Irituia,dados_irituia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.4235236370306718,2000,1.3,Valor
+Irituia,dados_irituia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.4235236370306718,2010,2.34,Valor
+Irituia,dados_irituia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.4235236370306718,2022,2.7,Valor
+Irituia,dados_irituia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2000,30.0,Valor
+Irituia,dados_irituia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2010,80.0,Valor
+Irituia,dados_irituia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,15.231770275855817,2022,160.0,Valor
+Irituia,dados_irituia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.31902456395393947,2000,1.25,Valor
+Irituia,dados_irituia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.31902456395393947,2010,2.34,Valor
+Irituia,dados_irituia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.31902456395393947,2022,2.96,Valor
+Irituia,dados_irituia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2000,30.0,Valor
+Irituia,dados_irituia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2010,70.0,Valor
+Irituia,dados_irituia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2022,120.0,Valor
+Irituia,dados_irituia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,84.00023324465086,2000,290.0,Valor
+Irituia,dados_irituia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,84.00023324465086,2010,470.0,Valor
+Irituia,dados_irituia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_irituia,Grupo 2 — 3 censos,3,tanh,lbfgs,True,84.00023324465086,2022,500.0,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.235158478104502,1991,46.8,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.235158478104502,2000,66.2,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.235158478104502,2010,80.4,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_irituia,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.235158478104502,2022,86.8,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2000,82.4,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2010,92.8,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,4.129717966090676,2022,96.8,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.6101157067451208,2000,16.8,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.6101157067451208,2010,28.4,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.6101157067451208,2022,40.2,Valor
+Irituia,dados_irituia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2000,76.8,Valor
+Irituia,dados_irituia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2010,90.2,Valor
+Irituia,dados_irituia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2022,94.8,Valor
+Irituia,dados_irituia__populacao_com_superior_completo,População com Superior Completo,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,389.22899650990763,2000,120.0,Valor
+Irituia,dados_irituia__populacao_com_superior_completo,População com Superior Completo,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,389.22899650990763,2010,640.0,Valor
+Irituia,dados_irituia__populacao_com_superior_completo,População com Superior Completo,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,389.22899650990763,2022,1.82,Valor
+Irituia,dados_irituia__anos_de_estudo_media,Anos de Estudo (Média),dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.2192538569031406,1991,1.6,Valor
+Irituia,dados_irituia__anos_de_estudo_media,Anos de Estudo (Média),dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.2192538569031406,2000,3.4,Valor
+Irituia,dados_irituia__anos_de_estudo_media,Anos de Estudo (Média),dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.2192538569031406,2010,5.4,Valor
+Irituia,dados_irituia__anos_de_estudo_media,Anos de Estudo (Média),dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.2192538569031406,2022,7.4,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.29175216147554334,1991,1.8,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.29175216147554334,2000,3.8,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.29175216147554334,2010,5.8,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_irituia,Grupo 1 — 4 censos,4,identity,adam,True,0.29175216147554334,2022,7.9,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18198555009036121,1991,1.4,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18198555009036121,2000,3.0,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18198555009036121,2010,5.0,Valor
+Irituia,dados_irituia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18198555009036121,2022,6.9,Valor
+Irituia,dados_irituia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.04300258746922441,1991,0.154,Valor
+Irituia,dados_irituia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.04300258746922441,2000,0.312,Valor
+Irituia,dados_irituia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.04300258746922441,2010,0.542,Valor
+Irituia,dados_irituia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2000,76.8,Valor
+Irituia,dados_irituia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2010,90.2,Valor
+Irituia,dados_irituia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_irituia,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.455412804179455,2022,94.8,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,5.745027111140639,2000,38.4,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,5.745027111140639,2010,58.2,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,5.745027111140639,2022,71.4,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.1244903720579764,2000,9.8,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.1244903720579764,2010,16.2,Valor
+Irituia,dados_irituia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.1244903720579764,2022,22.4,Valor
+Irituia,dados_irituia__media_populacao_amarela,Média: População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2000,3.8,Valor
+Irituia,dados_irituia__media_populacao_amarela,Média: População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2010,5.8,Valor
+Irituia,dados_irituia__media_populacao_amarela,Média: População Amarela,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2022,7.8,Valor
+Irituia,dados_irituia__media_populacao_branca,Média: População Branca,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189008,2000,3.7,Valor
+Irituia,dados_irituia__media_populacao_branca,Média: População Branca,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189008,2010,5.6,Valor
+Irituia,dados_irituia__media_populacao_branca,Média: População Branca,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189008,2022,7.6,Valor
+Irituia,dados_irituia__media_populacao_preta_parda,Média: População Preta / Parda,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189097,2000,3.3,Valor
+Irituia,dados_irituia__media_populacao_preta_parda,Média: População Preta / Parda,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189097,2010,5.2,Valor
+Irituia,dados_irituia__media_populacao_preta_parda,Média: População Preta / Parda,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189097,2022,7.2,Valor
+Irituia,dados_irituia__media_populacao_indigena,Média: População Indígena,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720127,2000,2.2,Valor
+Irituia,dados_irituia__media_populacao_indigena,Média: População Indígena,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720127,2010,4.1,Valor
+Irituia,dados_irituia__media_populacao_indigena,Média: População Indígena,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.44083885235720127,2022,5.8,Valor
+Irituia,dados_irituia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.0,Valor
+Irituia,dados_irituia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Irituia,dados_irituia__populacao_residente_em_favelas,População Residente em Favelas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,380.0,Valor
+Irituia,dados_irituia__populacao_residente_em_favelas,População Residente em Favelas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.14,Valor
+Irituia,dados_irituia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,100.0,Valor
+Irituia,dados_irituia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,320.0,Valor
+Irituia,dados_irituia__idade_mediana_2,Idade Mediana,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.0,Valor
+Irituia,dados_irituia__idade_mediana_2,Idade Mediana,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.0,Valor
+Irituia,dados_irituia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Irituia,dados_irituia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Irituia,dados_irituia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,103.8,Valor
+Irituia,dados_irituia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,101.4,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Irituia,dados_irituia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.8,Valor
+Irituia,dados_irituia__populacao_parda_2,População Parda,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,310.0,Valor
+Irituia,dados_irituia__populacao_parda_2,População Parda,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,920.0,Valor
+Irituia,dados_irituia__populacao_branca_2,População Branca,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.0,Valor
+Irituia,dados_irituia__populacao_branca_2,População Branca,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,128.0,Valor
+Irituia,dados_irituia__populacao_preta_2,População Preta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.0,Valor
+Irituia,dados_irituia__populacao_preta_2,População Preta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.0,Valor
+Irituia,dados_irituia__populacao_amarela_2,População Amarela,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Irituia,dados_irituia__populacao_amarela_2,População Amarela,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Irituia,dados_irituia__populacao_indigena_2,População Indígena,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Irituia,dados_irituia__populacao_indigena_2,População Indígena,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Irituia,dados_irituia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Irituia,dados_irituia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Irituia,dados_irituia__com_coleta_de_lixo,Com Coleta de Lixo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.2,Valor
+Irituia,dados_irituia__com_coleta_de_lixo,Com Coleta de Lixo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Irituia,dados_irituia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Irituia,dados_irituia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Irituia,dados_irituia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Irituia,dados_irituia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Irituia,dados_irituia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Irituia,dados_irituia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Irituia,dados_irituia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Irituia,dados_irituia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Irituia,dados_irituia__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Irituia,dados_irituia__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Irituia,dados_irituia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Irituia,dados_irituia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Irituia,dados_irituia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Irituia,dados_irituia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Irituia,dados_irituia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Irituia,dados_irituia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.4,Valor
+Irituia,dados_irituia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+Irituia,dados_irituia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.6,Valor
+Irituia,dados_irituia__casais_com_filhos,Casais com filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0743253965252464,2000,69.8,Valor
+Irituia,dados_irituia__casais_com_filhos,Casais com filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0743253965252464,2010,59.2,Valor
+Irituia,dados_irituia__casais_com_filhos,Casais com filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0743253965252464,2022,49.2,Valor
+Irituia,dados_irituia__casais_sem_filhos,Casais sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2000,5.8,Valor
+Irituia,dados_irituia__casais_sem_filhos,Casais sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2010,7.8,Valor
+Irituia,dados_irituia__casais_sem_filhos,Casais sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2022,12.2,Valor
+Irituia,dados_irituia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2000,15.2,Valor
+Irituia,dados_irituia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2010,18.8,Valor
+Irituia,dados_irituia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2022,24.2,Valor
+Irituia,dados_irituia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2000,3.6,Valor
+Irituia,dados_irituia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2010,4.0,Valor
+Irituia,dados_irituia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.060769023973401705,2022,4.4,Valor
+Irituia,dados_irituia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.330182371008411,2000,8.4,Valor
+Irituia,dados_irituia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.330182371008411,2010,8.6,Valor
+Irituia,dados_irituia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.330182371008411,2022,8.0,Valor
+Irituia,dados_irituia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2000,4.4,Valor
+Irituia,dados_irituia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2010,5.2,Valor
+Irituia,dados_irituia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.40162820150829975,2022,4.8,Valor
+Irituia,dados_irituia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683944,2000,1.4,Valor
+Irituia,dados_irituia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683944,2010,1.6,Valor
+Irituia,dados_irituia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683944,2022,2.0,Valor
+Irituia,dados_irituia__trabalha_no_proprio_municipio_de_residencia_i,Trabalha no próprio município de residência (Irituia),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,92.4,Valor
+Irituia,dados_irituia__trabalha_no_proprio_municipio_de_residencia_i,Trabalha no próprio município de residência (Irituia),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.8,Valor
+Irituia,dados_irituia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Irituia,dados_irituia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Irituia,dados_irituia__trabalha_em_outro_municipio_ex_capanema_casta,Trabalha em outro município (ex: Capanema / Castanhal / Belém),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Irituia,dados_irituia__trabalha_em_outro_municipio_ex_capanema_casta,Trabalha em outro município (ex: Capanema / Castanhal / Belém),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+Irituia,dados_irituia__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Irituia,dados_irituia__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Irituia,dados_irituia__a_pe,A pé,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.8,Valor
+Irituia,dados_irituia__a_pe,A pé,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.2,Valor
+Irituia,dados_irituia__motocicleta,Motocicleta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Irituia,dados_irituia__motocicleta,Motocicleta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.8,Valor
+Irituia,dados_irituia__bicicleta,Bicicleta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Irituia,dados_irituia__bicicleta,Bicicleta,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Irituia,dados_irituia__automovel_onibus,Automóvel / Ônibus,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.4,Valor
+Irituia,dados_irituia__automovel_onibus,Automóvel / Ônibus,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.6,Valor
+Irituia,dados_irituia__ate_30_minutos_trajeto_urbano_vicinal_curta,Até 30 minutos (Trajeto urbano/vicinal curta),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Irituia,dados_irituia__ate_30_minutos_trajeto_urbano_vicinal_curta,Até 30 minutos (Trajeto urbano/vicinal curta),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Irituia,dados_irituia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.2,Valor
+Irituia,dados_irituia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Irituia,dados_irituia__mais_de_1_hora_zonas_rurais_ramais_longos,Mais de 1 hora (Zonas rurais/ramais longos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.6,Valor
+Irituia,dados_irituia__mais_de_1_hora_zonas_rurais_ramais_longos,Mais de 1 hora (Zonas rurais/ramais longos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.2,Valor
+Irituia,dados_irituia__estuda_no_proprio_municipio_irituia,Estuda no próprio município (Irituia),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.4,Valor
+Irituia,dados_irituia__estuda_no_proprio_municipio_irituia,Estuda no próprio município (Irituia),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.8,Valor
+Irituia,dados_irituia__estuda_em_outro_municipio_ex_castanhal_capane,Estuda em outro município (ex: Castanhal / Capanema / Belém),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Irituia,dados_irituia__estuda_em_outro_municipio_ex_castanhal_capane,Estuda em outro município (ex: Castanhal / Capanema / Belém),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Irituia,dados_irituia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.23662387258779627,1991,5.12,Valor
+Irituia,dados_irituia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.23662387258779627,2000,6.84,Valor
+Irituia,dados_irituia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.23662387258779627,2010,8.92,Valor
+Irituia,dados_irituia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.23662387258779627,2022,10.84,Valor
+Irituia,dados_irituia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2615102680173196,1991,4.92,Valor
+Irituia,dados_irituia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2615102680173196,2000,6.62,Valor
+Irituia,dados_irituia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2615102680173196,2010,8.74,Valor
+Irituia,dados_irituia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_irituia,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.2615102680173196,2022,10.62,Valor
+Irituia,dados_irituia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_irituia,Grupo 1 — 4 censos,4,logistic,sgd,True,20.0659089495313,1991,200.0,Valor
+Irituia,dados_irituia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_irituia,Grupo 1 — 4 censos,4,logistic,sgd,True,20.0659089495313,2000,220.0,Valor
+Irituia,dados_irituia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_irituia,Grupo 1 — 4 censos,4,logistic,sgd,True,20.0659089495313,2010,180.0,Valor
+Irituia,dados_irituia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_irituia,Grupo 1 — 4 censos,4,logistic,sgd,True,20.0659089495313,2022,220.0,Valor
+Irituia,dados_irituia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_irituia,Grupo 1 — 4 censos,4,relu,adam,True,0.2567886779050914,1991,5.7,Valor
+Irituia,dados_irituia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_irituia,Grupo 1 — 4 censos,4,relu,adam,True,0.2567886779050914,2000,4.5,Valor
+Irituia,dados_irituia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_irituia,Grupo 1 — 4 censos,4,relu,adam,True,0.2567886779050914,2010,3.6,Valor
+Irituia,dados_irituia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_irituia,Grupo 1 — 4 censos,4,relu,adam,True,0.2567886779050914,2022,2.9,Valor
+Irituia,dados_irituia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Irituia,dados_irituia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Irituia,dados_irituia__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Irituia,dados_irituia__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Irituia,dados_irituia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Irituia,dados_irituia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.8,Valor
+Irituia,dados_irituia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Irituia,dados_irituia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Irituia,dados_irituia__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Irituia,dados_irituia__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Irituia,dados_irituia__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.4,Valor
+Irituia,dados_irituia__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.8,Valor
+Irituia,dados_irituia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Irituia,dados_irituia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.4,Valor
+Irituia,dados_irituia__ruas_sem_arvores,Ruas Sem Árvores,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Irituia,dados_irituia__ruas_sem_arvores,Ruas Sem Árvores,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Irituia,dados_irituia__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Irituia,dados_irituia__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Irituia,dados_irituia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Irituia,dados_irituia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.3,Valor
+Irituia,dados_irituia__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Irituia,dados_irituia__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Irituia,dados_irituia__populacao_indigena_total,População Indígena Total,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2000,18.0,Valor
+Irituia,dados_irituia__populacao_indigena_total,População Indígena Total,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2010,52.0,Valor
+Irituia,dados_irituia__populacao_indigena_total,População Indígena Total,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,19.451743741801746,2022,28.0,Valor
+Irituia,dados_irituia__proporcao_na_populacao_de_irituia,Proporção na população de Irituia,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774482,2000,0.06,Valor
+Irituia,dados_irituia__proporcao_na_populacao_de_irituia,Proporção na população de Irituia,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774482,2010,0.17,Valor
+Irituia,dados_irituia__proporcao_na_populacao_de_irituia,Proporção na população de Irituia,dados_irituia,Grupo 2 — 3 censos,3,logistic,sgd,True,0.06373296762774482,2022,0.09,Valor
+Irituia,dados_irituia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.4,Valor
+Irituia,dados_irituia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.8,Valor
+Irituia,dados_irituia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Irituia,dados_irituia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Irituia,dados_irituia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Irituia,dados_irituia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Irituia,dados_irituia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Irituia,dados_irituia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.6,Valor
+Irituia,dados_irituia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2000,15.2,Valor
+Irituia,dados_irituia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2010,18.8,Valor
+Irituia,dados_irituia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,0.8227526805912438,2022,24.2,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,3.527285437918126,2000,62.2,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,3.527285437918126,2010,49.2,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,3.527285437918126,2022,38.8,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2000,5.8,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2010,7.8,Valor
+Irituia,dados_irituia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_irituia,Grupo 2 — 3 censos,3,identity,adam,True,1.5223867419354766,2022,12.2,Valor
+Irituia,dados_irituia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.4,Valor
+Irituia,dados_irituia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Irituia,dados_irituia__sem_conjuge,Sem cônjuge,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.0,Valor
+Irituia,dados_irituia__sem_conjuge,Sem cônjuge,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.2,Valor
+Irituia,dados_irituia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Irituia,dados_irituia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Irituia,dados_irituia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.9,Valor
+Irituia,dados_irituia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_irituia,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Irituia,dados_irituia__responsavel_mulher,Responsável Mulher,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2000,3.8,Valor
+Irituia,dados_irituia__responsavel_mulher,Responsável Mulher,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2010,3.2,Valor
+Irituia,dados_irituia__responsavel_mulher,Responsável Mulher,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2022,2.8,Valor
+Irituia,dados_irituia__responsavel_homem,Responsável Homem,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.27132964907062496,2000,5.0,Valor
+Irituia,dados_irituia__responsavel_homem,Responsável Homem,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.27132964907062496,2010,4.0,Valor
+Irituia,dados_irituia__responsavel_homem,Responsável Homem,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.27132964907062496,2022,3.2,Valor
+Irituia,dados_irituia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2000,3.8,Valor
+Irituia,dados_irituia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2010,3.2,Valor
+Irituia,dados_irituia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_irituia,Grupo 2 — 3 censos,3,relu,adam,True,0.16589418038559098,2022,2.8,Valor
+Irituia,dados_irituia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2000,11.4,Valor
+Irituia,dados_irituia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2010,15.8,Valor
+Irituia,dados_irituia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151349534973541,2022,21.2,Valor
+Irituia,dados_irituia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2000,14.4,Valor
+Irituia,dados_irituia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2010,18.4,Valor
+Irituia,dados_irituia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608427,2022,23.4,Valor
+Irituia,dados_irituia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.135332985694319,2000,51.8,Valor
+Irituia,dados_irituia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.135332985694319,2010,37.8,Valor
+Irituia,dados_irituia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_irituia,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.135332985694319,2022,23.8,Valor
