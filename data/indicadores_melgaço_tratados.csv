@@ -1,0 +1,326 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Melgaço,dados_melgaco__populacao_total,População Total,dados_melgaco,Grupo 1 — 4 censos,4,relu,adam,True,1.6202531445231734,1991,15.12,Valor
+Melgaço,dados_melgaco__populacao_total,População Total,dados_melgaco,Grupo 1 — 4 censos,4,relu,adam,True,1.6202531445231734,2000,21.28,Valor
+Melgaço,dados_melgaco__populacao_total,População Total,dados_melgaco,Grupo 1 — 4 censos,4,relu,adam,True,1.6202531445231734,2010,24.808,Valor
+Melgaço,dados_melgaco__populacao_total,População Total,dados_melgaco,Grupo 1 — 4 censos,4,relu,adam,True,1.6202531445231734,2022,27.892,Valor
+Melgaço,dados_melgaco__populacao_urbana,População Urbana,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4863892774822484,2000,6.82,Valor
+Melgaço,dados_melgaco__populacao_urbana,População Urbana,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4863892774822484,2010,9.12,Valor
+Melgaço,dados_melgaco__populacao_urbana,População Urbana,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4863892774822484,2022,11.24,Valor
+Melgaço,dados_melgaco__populacao_rural,População Rural,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.35255007610333483,2000,14.46,Valor
+Melgaço,dados_melgaco__populacao_rural,População Rural,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.35255007610333483,2010,15.688,Valor
+Melgaço,dados_melgaco__populacao_rural,População Rural,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.35255007610333483,2022,16.652,Valor
+Melgaço,dados_melgaco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,280.0,Valor
+Melgaço,dados_melgaco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,980.0,Valor
+Melgaço,dados_melgaco__populacao_de_mulheres,População de Mulheres,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4895594429559367,2000,10.12,Valor
+Melgaço,dados_melgaco__populacao_de_mulheres,População de Mulheres,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4895594429559367,2010,11.94,Valor
+Melgaço,dados_melgaco__populacao_de_mulheres,População de Mulheres,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.4895594429559367,2022,13.48,Valor
+Melgaço,dados_melgaco__populacao_de_homens,População de Homens,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.3842762429229314,2000,11.16,Valor
+Melgaço,dados_melgaco__populacao_de_homens,População de Homens,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.3842762429229314,2010,12.868,Valor
+Melgaço,dados_melgaco__populacao_de_homens,População de Homens,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.3842762429229314,2022,14.412,Valor
+Melgaço,dados_melgaco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_melgaco,Grupo 2 — 3 censos,3,tanh,sgd,True,1.0263382194054884,2000,110.3,Valor
+Melgaço,dados_melgaco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_melgaco,Grupo 2 — 3 censos,3,tanh,sgd,True,1.0263382194054884,2010,107.8,Valor
+Melgaço,dados_melgaco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_melgaco,Grupo 2 — 3 censos,3,tanh,sgd,True,1.0263382194054884,2022,106.9,Valor
+Melgaço,dados_melgaco__idade_mediana,Idade Mediana,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2000,15.0,Valor
+Melgaço,dados_melgaco__idade_mediana,Idade Mediana,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2010,18.0,Valor
+Melgaço,dados_melgaco__idade_mediana,Idade Mediana,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.30370808233056934,2022,22.0,Valor
+Melgaço,dados_melgaco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.729462201772763,2000,3.4,Valor
+Melgaço,dados_melgaco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.729462201772763,2010,5.2,Valor
+Melgaço,dados_melgaco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,3.729462201772763,2022,14.2,Valor
+Melgaço,dados_melgaco__populacao_parda,População Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.9121149024111119,2000,16.82,Valor
+Melgaço,dados_melgaco__populacao_parda,População Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.9121149024111119,2010,20.62,Valor
+Melgaço,dados_melgaco__populacao_parda,População Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.9121149024111119,2022,23.98,Valor
+Melgaço,dados_melgaco__populacao_branca,População Branca,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.11767412174152152,2000,2.84,Valor
+Melgaço,dados_melgaco__populacao_branca,População Branca,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.11767412174152152,2010,2.42,Valor
+Melgaço,dados_melgaco__populacao_branca,População Branca,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.11767412174152152,2022,2.18,Valor
+Melgaço,dados_melgaco__populacao_preta,População Preta,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0797375029626363,2000,1.48,Valor
+Melgaço,dados_melgaco__populacao_preta,População Preta,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0797375029626363,2010,1.62,Valor
+Melgaço,dados_melgaco__populacao_preta,População Preta,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0797375029626363,2022,1.58,Valor
+Melgaço,dados_melgaco__populacao_amarela,População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,1.3120827537430937,2000,18.0,Valor
+Melgaço,dados_melgaco__populacao_amarela,População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,1.3120827537430937,2010,14.0,Valor
+Melgaço,dados_melgaco__populacao_amarela,População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,1.3120827537430937,2022,12.0,Valor
+Melgaço,dados_melgaco__populacao_indigena,População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2000,122.0,Valor
+Melgaço,dados_melgaco__populacao_indigena,População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2010,134.0,Valor
+Melgaço,dados_melgaco__populacao_indigena,População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2022,140.0,Valor
+Melgaço,dados_melgaco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,73.19636508939976,2000,72.2,Valor
+Melgaço,dados_melgaco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,73.19636508939976,2010,168.4,Valor
+Melgaço,dados_melgaco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,73.19636508939976,2022,380.0,Valor
+Melgaço,dados_melgaco__apenas_1_trabalho,Apenas 1 trabalho,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2000,97.2,Valor
+Melgaço,dados_melgaco__apenas_1_trabalho,Apenas 1 trabalho,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2010,96.2,Valor
+Melgaço,dados_melgaco__apenas_1_trabalho,Apenas 1 trabalho,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.49104003369116356,2022,94.2,Valor
+Melgaço,dados_melgaco__2_trabalhos,2 trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504594,2000,2.4,Valor
+Melgaço,dados_melgaco__2_trabalhos,2 trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504594,2010,3.2,Valor
+Melgaço,dados_melgaco__2_trabalhos,2 trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7209995653504594,2022,5.2,Valor
+Melgaço,dados_melgaco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2000,0.4,Valor
+Melgaço,dados_melgaco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2010,0.6,Valor
+Melgaço,dados_melgaco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.10722708206803089,2022,0.6,Valor
+Melgaço,dados_melgaco__setor_privado,Setor privado,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,539.3195203647119,2000,980.0,Valor
+Melgaço,dados_melgaco__setor_privado,Setor privado,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,539.3195203647119,2010,2.12,Valor
+Melgaço,dados_melgaco__setor_privado,Setor privado,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,539.3195203647119,2022,2.94,Valor
+Melgaço,dados_melgaco__conta_propria,Conta própria,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.5899009664307098,2000,3.62,Valor
+Melgaço,dados_melgaco__conta_propria,Conta própria,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.5899009664307098,2010,5.64,Valor
+Melgaço,dados_melgaco__conta_propria,Conta própria,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.5899009664307098,2022,6.84,Valor
+Melgaço,dados_melgaco__setor_publico,Setor público,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,462.2744185230886,2000,840.0,Valor
+Melgaço,dados_melgaco__setor_publico,Setor público,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,462.2744185230886,2010,1.68,Valor
+Melgaço,dados_melgaco__setor_publico,Setor público,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,462.2744185230886,2022,2.24,Valor
+Melgaço,dados_melgaco__trabalhador_domestico,Trabalhador doméstico,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,52.74462918408826,2000,160.0,Valor
+Melgaço,dados_melgaco__trabalhador_domestico,Trabalhador doméstico,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,52.74462918408826,2010,340.0,Valor
+Melgaço,dados_melgaco__trabalhador_domestico,Trabalhador doméstico,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,52.74462918408826,2022,440.0,Valor
+Melgaço,dados_melgaco__empregador,Empregador,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,9.111242469917073,2000,50.0,Valor
+Melgaço,dados_melgaco__empregador,Empregador,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,9.111242469917073,2010,140.0,Valor
+Melgaço,dados_melgaco__empregador,Empregador,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,9.111242469917073,2022,260.0,Valor
+Melgaço,dados_melgaco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,364.8031765783259,2000,2.28,Valor
+Melgaço,dados_melgaco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,364.8031765783259,2010,1.54,Valor
+Melgaço,dados_melgaco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,364.8031765783259,2022,740.0,Valor
+Melgaço,dados_melgaco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2000,10.0,Valor
+Melgaço,dados_melgaco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2010,30.0,Valor
+Melgaço,dados_melgaco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2022,70.0,Valor
+Melgaço,dados_melgaco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,456.52383091055117,2000,280.0,Valor
+Melgaço,dados_melgaco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,456.52383091055117,2010,820.0,Valor
+Melgaço,dados_melgaco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,456.52383091055117,2022,1.42,Valor
+Melgaço,dados_melgaco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,385.15423371398623,2000,700.0,Valor
+Melgaço,dados_melgaco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,385.15423371398623,2010,1.3,Valor
+Melgaço,dados_melgaco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,385.15423371398623,2022,1.52,Valor
+Melgaço,dados_melgaco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,12.518002002235662,2000,10.0,Valor
+Melgaço,dados_melgaco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,12.518002002235662,2010,25.0,Valor
+Melgaço,dados_melgaco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,12.518002002235662,2022,60.0,Valor
+Melgaço,dados_melgaco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,456.75902556731245,2000,830.0,Valor
+Melgaço,dados_melgaco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,456.75902556731245,2010,1.655,Valor
+Melgaço,dados_melgaco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_melgaco,Grupo 2 — 3 censos,3,tanh,adam,True,456.75902556731245,2022,2.18,Valor
+Melgaço,dados_melgaco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,5.330461025174451,2000,10.0,Valor
+Melgaço,dados_melgaco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,5.330461025174451,2010,25.0,Valor
+Melgaço,dados_melgaco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,5.330461025174451,2022,50.0,Valor
+Melgaço,dados_melgaco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,57.52892350514988,2000,150.0,Valor
+Melgaço,dados_melgaco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,57.52892350514988,2010,315.0,Valor
+Melgaço,dados_melgaco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,57.52892350514988,2022,390.0,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.66963864920631,1991,31.8,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.66963864920631,2000,48.6,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.66963864920631,2010,65.2,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.66963864920631,2022,75.8,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.824846974174752,2000,68.2,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.824846974174752,2010,81.4,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.824846974174752,2022,90.4,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.11969404809655988,2000,8.4,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.11969404809655988,2010,16.2,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.11969404809655988,2022,25.4,Valor
+Melgaço,dados_melgaco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2000,60.2,Valor
+Melgaço,dados_melgaco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2010,78.8,Valor
+Melgaço,dados_melgaco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2022,87.2,Valor
+Melgaço,dados_melgaco__populacao_com_superior_completo,População com Superior Completo,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,171.20238116606458,2000,30.0,Valor
+Melgaço,dados_melgaco__populacao_com_superior_completo,População com Superior Completo,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,171.20238116606458,2010,160.0,Valor
+Melgaço,dados_melgaco__populacao_com_superior_completo,População com Superior Completo,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,171.20238116606458,2022,620.0,Valor
+Melgaço,dados_melgaco__anos_de_estudo_media,Anos de Estudo (Média),dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.09588421551342127,1991,0.6,Valor
+Melgaço,dados_melgaco__anos_de_estudo_media,Anos de Estudo (Média),dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.09588421551342127,2000,1.8,Valor
+Melgaço,dados_melgaco__anos_de_estudo_media,Anos de Estudo (Média),dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.09588421551342127,2010,3.4,Valor
+Melgaço,dados_melgaco__anos_de_estudo_media,Anos de Estudo (Média),dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.09588421551342127,2022,5.2,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.0814644022212398,1991,0.8,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.0814644022212398,2000,2.1,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.0814644022212398,2010,3.8,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_melgaco,Grupo 1 — 4 censos,4,identity,adam,True,0.0814644022212398,2022,5.6,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.1462181922860362,1991,0.4,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.1462181922860362,2000,1.5,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.1462181922860362,2010,3.0,Valor
+Melgaço,dados_melgaco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.1462181922860362,2022,4.8,Valor
+Melgaço,dados_melgaco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.07405016754285146,1991,0.058,Valor
+Melgaço,dados_melgaco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.07405016754285146,2000,0.142,Valor
+Melgaço,dados_melgaco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.07405016754285146,2010,0.342,Valor
+Melgaço,dados_melgaco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2000,60.2,Valor
+Melgaço,dados_melgaco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2010,78.8,Valor
+Melgaço,dados_melgaco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,6.522852586012983,2022,87.2,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,5.691018173092,2000,22.4,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,5.691018173092,2010,42.1,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,5.691018173092,2022,56.2,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608042,2000,4.8,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608042,2010,8.8,Valor
+Melgaço,dados_melgaco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252401420608042,2022,13.8,Valor
+Melgaço,dados_melgaco__media_populacao_amarela,Média: População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518974,2000,2.1,Valor
+Melgaço,dados_melgaco__media_populacao_amarela,Média: População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518974,2010,3.8,Valor
+Melgaço,dados_melgaco__media_populacao_amarela,Média: População Amarela,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518974,2022,5.6,Valor
+Melgaço,dados_melgaco__media_populacao_branca,Média: População Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0908901074100686,2000,2.0,Valor
+Melgaço,dados_melgaco__media_populacao_branca,Média: População Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0908901074100686,2010,3.6,Valor
+Melgaço,dados_melgaco__media_populacao_branca,Média: População Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0908901074100686,2022,5.4,Valor
+Melgaço,dados_melgaco__media_populacao_preta_parda,Média: População Preta / Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.16698310165183883,2000,1.7,Valor
+Melgaço,dados_melgaco__media_populacao_preta_parda,Média: População Preta / Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.16698310165183883,2010,3.3,Valor
+Melgaço,dados_melgaco__media_populacao_preta_parda,Média: População Preta / Parda,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.16698310165183883,2022,5.0,Valor
+Melgaço,dados_melgaco__media_populacao_indigena,Média: População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.12148323293222714,2000,1.0,Valor
+Melgaço,dados_melgaco__media_populacao_indigena,Média: População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.12148323293222714,2010,2.2,Valor
+Melgaço,dados_melgaco__media_populacao_indigena,Média: População Indígena,dados_melgaco,Grupo 2 — 3 censos,3,identity,sgd,True,0.12148323293222714,2022,3.8,Valor
+Melgaço,dados_melgaco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Melgaço,dados_melgaco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Melgaço,dados_melgaco__populacao_residente_em_favelas,População Residente em Favelas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,280.0,Valor
+Melgaço,dados_melgaco__populacao_residente_em_favelas,População Residente em Favelas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,980.0,Valor
+Melgaço,dados_melgaco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.0,Valor
+Melgaço,dados_melgaco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,270.0,Valor
+Melgaço,dados_melgaco__idade_mediana_2,Idade Mediana,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.0,Valor
+Melgaço,dados_melgaco__idade_mediana_2,Idade Mediana,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.0,Valor
+Melgaço,dados_melgaco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.4,Valor
+Melgaço,dados_melgaco__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Melgaço,dados_melgaco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,107.4,Valor
+Melgaço,dados_melgaco__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,104.2,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Melgaço,dados_melgaco__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.8,Valor
+Melgaço,dados_melgaco__populacao_parda_2,População Parda,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,240.0,Valor
+Melgaço,dados_melgaco__populacao_parda_2,População Parda,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,830.0,Valor
+Melgaço,dados_melgaco__populacao_branca_2,População Branca,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.0,Valor
+Melgaço,dados_melgaco__populacao_branca_2,População Branca,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.0,Valor
+Melgaço,dados_melgaco__populacao_preta_2,População Preta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.0,Valor
+Melgaço,dados_melgaco__populacao_preta_2,População Preta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.0,Valor
+Melgaço,dados_melgaco__populacao_amarela_2,População Amarela,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.0,Valor
+Melgaço,dados_melgaco__populacao_amarela_2,População Amarela,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.0,Valor
+Melgaço,dados_melgaco__populacao_indigena_2,População Indígena,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Melgaço,dados_melgaco__populacao_indigena_2,População Indígena,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Melgaço,dados_melgaco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.4,Valor
+Melgaço,dados_melgaco__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.2,Valor
+Melgaço,dados_melgaco__com_coleta_de_lixo,Com Coleta de Lixo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Melgaço,dados_melgaco__com_coleta_de_lixo,Com Coleta de Lixo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Melgaço,dados_melgaco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Melgaço,dados_melgaco__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.2,Valor
+Melgaço,dados_melgaco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.2,Valor
+Melgaço,dados_melgaco__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Melgaço,dados_melgaco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Melgaço,dados_melgaco__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Melgaço,dados_melgaco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Melgaço,dados_melgaco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Melgaço,dados_melgaco__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Melgaço,dados_melgaco__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Melgaço,dados_melgaco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Melgaço,dados_melgaco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Melgaço,dados_melgaco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Melgaço,dados_melgaco__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Melgaço,dados_melgaco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.8,Valor
+Melgaço,dados_melgaco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,75.4,Valor
+Melgaço,dados_melgaco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.2,Valor
+Melgaço,dados_melgaco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.6,Valor
+Melgaço,dados_melgaco__casais_com_filhos,Casais com filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862473608014962,2000,74.2,Valor
+Melgaço,dados_melgaco__casais_com_filhos,Casais com filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862473608014962,2010,63.8,Valor
+Melgaço,dados_melgaco__casais_com_filhos,Casais com filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862473608014962,2022,53.4,Valor
+Melgaço,dados_melgaco__casais_sem_filhos,Casais sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2000,3.4,Valor
+Melgaço,dados_melgaco__casais_sem_filhos,Casais sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2010,5.2,Valor
+Melgaço,dados_melgaco__casais_sem_filhos,Casais sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2022,8.8,Valor
+Melgaço,dados_melgaco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2000,13.8,Valor
+Melgaço,dados_melgaco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2010,17.2,Valor
+Melgaço,dados_melgaco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2022,23.4,Valor
+Melgaço,dados_melgaco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340156,2000,4.4,Valor
+Melgaço,dados_melgaco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340156,2010,4.8,Valor
+Melgaço,dados_melgaco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.06076902397340156,2022,5.2,Valor
+Melgaço,dados_melgaco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5943274029368931,2000,10.2,Valor
+Melgaço,dados_melgaco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5943274029368931,2010,10.4,Valor
+Melgaço,dados_melgaco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5943274029368931,2022,9.4,Valor
+Melgaço,dados_melgaco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5322618131785415,2000,5.2,Valor
+Melgaço,dados_melgaco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5322618131785415,2010,6.2,Valor
+Melgaço,dados_melgaco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5322618131785415,2022,5.8,Valor
+Melgaço,dados_melgaco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2000,2.0,Valor
+Melgaço,dados_melgaco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2010,2.3,Valor
+Melgaço,dados_melgaco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_melgaco,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2503600400447133,2022,3.0,Valor
+Melgaço,dados_melgaco__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Melgaço),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.8,Valor
+Melgaço,dados_melgaco__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Melgaço),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.2,Valor
+Melgaço,dados_melgaco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.8,Valor
+Melgaço,dados_melgaco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Melgaço,dados_melgaco__trabalha_em_outro_municipio_ex_breves_portel_,Trabalha em outro município (ex: Breves / Portel / Belém),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Melgaço,dados_melgaco__trabalha_em_outro_municipio_ex_breves_portel_,Trabalha em outro município (ex: Breves / Portel / Belém),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.8,Valor
+Melgaço,dados_melgaco__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Melgaço,dados_melgaco__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Melgaço,dados_melgaco__a_pe,A pé,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.8,Valor
+Melgaço,dados_melgaco__a_pe,A pé,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Melgaço,dados_melgaco__motocicleta,Motocicleta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Melgaço,dados_melgaco__motocicleta,Motocicleta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Melgaço,dados_melgaco__bicicleta,Bicicleta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Melgaço,dados_melgaco__bicicleta,Bicicleta,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Melgaço,dados_melgaco__automovel_onibus,Automóvel / Ônibus,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.8,Valor
+Melgaço,dados_melgaco__automovel_onibus,Automóvel / Ônibus,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.0,Valor
+Melgaço,dados_melgaco__ate_30_minutos_sede_beira_do_rio,Até 30 minutos (Sede/beira do rio),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Melgaço,dados_melgaco__ate_30_minutos_sede_beira_do_rio,Até 30 minutos (Sede/beira do rio),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.8,Valor
+Melgaço,dados_melgaco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.8,Valor
+Melgaço,dados_melgaco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.4,Valor
+Melgaço,dados_melgaco__mais_de_1_hora_navegacao_zona_rural_distante,Mais de 1 hora (Navegação/zona rural distante),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.0,Valor
+Melgaço,dados_melgaco__mais_de_1_hora_navegacao_zona_rural_distante,Mais de 1 hora (Navegação/zona rural distante),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Melgaço,dados_melgaco__estuda_no_proprio_municipio_melgaco,Estuda no próprio município (Melgaço),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,97.8,Valor
+Melgaço,dados_melgaco__estuda_no_proprio_municipio_melgaco,Estuda no próprio município (Melgaço),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.4,Valor
+Melgaço,dados_melgaco__estuda_em_outro_municipio_ex_breves_portel_be,Estuda em outro município (ex: Breves / Portel / Belém),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.2,Valor
+Melgaço,dados_melgaco__estuda_em_outro_municipio_ex_breves_portel_be,Estuda em outro município (ex: Breves / Portel / Belém),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.6,Valor
+Melgaço,dados_melgaco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3285345722877391,1991,2.48,Valor
+Melgaço,dados_melgaco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3285345722877391,2000,3.82,Valor
+Melgaço,dados_melgaco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3285345722877391,2010,5.42,Valor
+Melgaço,dados_melgaco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3285345722877391,2022,7.82,Valor
+Melgaço,dados_melgaco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3354992023443353,1991,2.36,Valor
+Melgaço,dados_melgaco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3354992023443353,2000,3.68,Valor
+Melgaço,dados_melgaco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3354992023443353,2010,5.28,Valor
+Melgaço,dados_melgaco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_melgaco,Grupo 1 — 4 censos,4,identity,sgd,True,0.3354992023443353,2022,7.68,Valor
+Melgaço,dados_melgaco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_melgaco,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,1991,120.0,Valor
+Melgaço,dados_melgaco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_melgaco,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2000,140.0,Valor
+Melgaço,dados_melgaco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_melgaco,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2010,140.0,Valor
+Melgaço,dados_melgaco__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_melgaco,Grupo 1 — 4 censos,4,relu,lbfgs,True,6.716117507038341,2022,140.0,Valor
+Melgaço,dados_melgaco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10665353481082618,1991,6.4,Valor
+Melgaço,dados_melgaco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10665353481082618,2000,5.7,Valor
+Melgaço,dados_melgaco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10665353481082618,2010,4.6,Valor
+Melgaço,dados_melgaco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_melgaco,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.10665353481082618,2022,3.6,Valor
+Melgaço,dados_melgaco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Melgaço,dados_melgaco__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.8,Valor
+Melgaço,dados_melgaco__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Melgaço,dados_melgaco__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Melgaço,dados_melgaco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Melgaço,dados_melgaco__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Melgaço,dados_melgaco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Melgaço,dados_melgaco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Melgaço,dados_melgaco__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Melgaço,dados_melgaco__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Melgaço,dados_melgaco__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Melgaço,dados_melgaco__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Melgaço,dados_melgaco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.8,Valor
+Melgaço,dados_melgaco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.4,Valor
+Melgaço,dados_melgaco__ruas_sem_arvores,Ruas Sem Árvores,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.2,Valor
+Melgaço,dados_melgaco__ruas_sem_arvores,Ruas Sem Árvores,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.6,Valor
+Melgaço,dados_melgaco__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Melgaço,dados_melgaco__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Melgaço,dados_melgaco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Melgaço,dados_melgaco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Melgaço,dados_melgaco__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.4,Valor
+Melgaço,dados_melgaco__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.4,Valor
+Melgaço,dados_melgaco__populacao_indigena_total,População Indígena Total,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2000,122.0,Valor
+Melgaço,dados_melgaco__populacao_indigena_total,População Indígena Total,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2010,134.0,Valor
+Melgaço,dados_melgaco__populacao_indigena_total,População Indígena Total,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,3.8061823460499795,2022,140.0,Valor
+Melgaço,dados_melgaco__proporcao_na_populacao_de_melgaco,Proporção na população de Melgaço,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0030462495736801967,2000,0.57,Valor
+Melgaço,dados_melgaco__proporcao_na_populacao_de_melgaco,Proporção na população de Melgaço,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0030462495736801967,2010,0.54,Valor
+Melgaço,dados_melgaco__proporcao_na_populacao_de_melgaco,Proporção na população de Melgaço,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,0.0030462495736801967,2022,0.5,Valor
+Melgaço,dados_melgaco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,71.2,Valor
+Melgaço,dados_melgaco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Melgaço,dados_melgaco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.8,Valor
+Melgaço,dados_melgaco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Melgaço,dados_melgaco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Melgaço,dados_melgaco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Melgaço,dados_melgaco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.6,Valor
+Melgaço,dados_melgaco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.6,Valor
+Melgaço,dados_melgaco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2000,13.8,Valor
+Melgaço,dados_melgaco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2010,17.2,Valor
+Melgaço,dados_melgaco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.6140671349956517,2022,23.4,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2000,64.2,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2010,51.8,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.2640147665422057,2022,41.2,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2000,3.4,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2010,5.2,Valor
+Melgaço,dados_melgaco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_melgaco,Grupo 2 — 3 censos,3,identity,adam,True,1.096213288471556,2022,8.8,Valor
+Melgaço,dados_melgaco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.8,Valor
+Melgaço,dados_melgaco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.8,Valor
+Melgaço,dados_melgaco__sem_conjuge,Sem cônjuge,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.7,Valor
+Melgaço,dados_melgaco__sem_conjuge,Sem cônjuge,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.7,Valor
+Melgaço,dados_melgaco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Melgaço,dados_melgaco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Melgaço,dados_melgaco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Melgaço,dados_melgaco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_melgaco,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Melgaço,dados_melgaco__responsavel_mulher,Responsável Mulher,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2000,4.4,Valor
+Melgaço,dados_melgaco__responsavel_mulher,Responsável Mulher,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2010,3.8,Valor
+Melgaço,dados_melgaco__responsavel_mulher,Responsável Mulher,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2022,3.2,Valor
+Melgaço,dados_melgaco__responsavel_homem,Responsável Homem,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.2713296490706251,2000,5.6,Valor
+Melgaço,dados_melgaco__responsavel_homem,Responsável Homem,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.2713296490706251,2010,4.6,Valor
+Melgaço,dados_melgaco__responsavel_homem,Responsável Homem,dados_melgaco,Grupo 2 — 3 censos,3,relu,adam,True,0.2713296490706251,2022,3.8,Valor
+Melgaço,dados_melgaco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2000,4.4,Valor
+Melgaço,dados_melgaco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2010,3.8,Valor
+Melgaço,dados_melgaco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547177,2022,3.2,Valor
+Melgaço,dados_melgaco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100869250852151,2000,8.8,Valor
+Melgaço,dados_melgaco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100869250852151,2010,12.4,Valor
+Melgaço,dados_melgaco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100869250852151,2022,16.8,Valor
+Melgaço,dados_melgaco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2000,11.4,Valor
+Melgaço,dados_melgaco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2010,15.4,Valor
+Melgaço,dados_melgaco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060819,2022,20.4,Valor
+Melgaço,dados_melgaco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8607895316785938,2000,62.4,Valor
+Melgaço,dados_melgaco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8607895316785938,2010,49.2,Valor
+Melgaço,dados_melgaco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_melgaco,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.8607895316785938,2022,35.8,Valor
