@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Anajás,dados_anajas__anos_de_estudo_media,Anos de Estudo (Média),dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.11141308391958121,2030,7.186875109789062
+Anajás,dados_anajas__anos_de_estudo_media,Anos de Estudo (Média),dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.11141308391958121,2040,8.888090071457889
+Anajás,dados_anajas__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_anajas,Grupo 1 — 4 censos,relu,lbfgs,True,10.076521205657805,2030,159.84683177548294
+Anajás,dados_anajas__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_anajas,Grupo 1 — 4 censos,relu,lbfgs,True,10.076521205657805,2040,159.6363936587083
+Anajás,dados_anajas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.3963523129916873,2030,9.413392914603001
+Anajás,dados_anajas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.3963523129916873,2040,11.20008325081642
+Anajás,dados_anajas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.1834256395771315,2030,6.696343634685633
+Anajás,dados_anajas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.1834256395771315,2040,8.328234500187834
+Anajás,dados_anajas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_anajas,Grupo 1 — 4 censos,identity,adam,True,0.07325011656014568,2030,7.54209642714125
+Anajás,dados_anajas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_anajas,Grupo 1 — 4 censos,identity,adam,True,0.07325011656014568,2040,9.2257745690755
+Anajás,dados_anajas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_anajas,Grupo 1 — 4 censos,logistic,lbfgs,True,0.09305739666738733,2030,3.2694676587318767
+Anajás,dados_anajas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_anajas,Grupo 1 — 4 censos,logistic,lbfgs,True,0.09305739666738733,2040,3.1379957446131184
+Anajás,dados_anajas__populacao_total,População Total,dados_anajas,Grupo 1 — 4 censos,identity,adam,True,1.3280498391053142,2030,30.75010799358142
+Anajás,dados_anajas__populacao_total,População Total,dados_anajas,Grupo 1 — 4 censos,identity,adam,True,1.3280498391053142,2040,33.75193617842173
+Anajás,dados_anajas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_anajas,Grupo 1 — 4 censos,logistic,lbfgs,True,2.9105750938926978,2030,81.20241067745172
+Anajás,dados_anajas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_anajas,Grupo 1 — 4 censos,logistic,lbfgs,True,2.9105750938926978,2040,83.05356173971298
+Anajás,dados_anajas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.37657201406595087,2030,9.586699723330536
+Anajás,dados_anajas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_anajas,Grupo 1 — 4 censos,identity,sgd,True,0.37657201406595087,2040,11.382101416124524
+Anajás,dados_anajas__2_trabalhos,2 trabalhos,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.7209995653504601,2030,6.5423501181029415
+Anajás,dados_anajas__2_trabalhos,2 trabalhos,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.7209995653504601,2040,7.680516573440512
+Anajás,dados_anajas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.10722708206803089,2030,0.6100811088051615
+Anajás,dados_anajas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.10722708206803089,2040,0.6226527481240001
+Anajás,dados_anajas__apenas_1_trabalho,Apenas 1 trabalho,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.49104003369116356,2030,92.48788253003299
+Anajás,dados_anajas__apenas_1_trabalho,Apenas 1 trabalho,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.49104003369116356,2040,90.85242170279706
+Anajás,dados_anajas__casais_com_filhos,Casais com filhos,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2030,44.21171980649076
+Anajás,dados_anajas__casais_com_filhos,Casais com filhos,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,2.1048301534637517,2040,34.70071113254522
+Anajás,dados_anajas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.4622548869726521,2030,9.467656635178953
+Anajás,dados_anajas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.4622548869726521,2040,9.465814451146498
+Anajás,dados_anajas__casais_sem_filhos,Casais sem filhos,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683963,2030,11.770429324641071
+Anajás,dados_anajas__casais_sem_filhos,Casais sem filhos,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683963,2040,14.508623526574432
+Anajás,dados_anajas__conta_propria,Conta própria,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.5811676187885854,2030,7.711215132691455
+Anajás,dados_anajas__conta_propria,Conta própria,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.5811676187885854,2040,8.396736550696223
+Anajás,dados_anajas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050343308034975,2030,20.84925753593038
+Anajás,dados_anajas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050343308034975,2040,24.667991201482454
+Anajás,dados_anajas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,24.44704576720187
+Anajás,dados_anajas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,28.540508541356814
+Anajás,dados_anajas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912942886171027,2030,23.065552311301428
+Anajás,dados_anajas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,1.8912942886171027,2040,10.823794389584535
+Anajás,dados_anajas__empregador,Empregador,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,6.100983397591136,2030,409.8843563804647
+Anajás,dados_anajas__empregador,Empregador,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,6.100983397591136,2040,523.6221832329172
+Anajás,dados_anajas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,6.949997574154021,2030,93.11766415008056
+Anajás,dados_anajas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,6.949997574154021,2040,96.89924098874693
+Anajás,dados_anajas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,5.719171611545609,2030,66.84014895575669
+Anajás,dados_anajas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,5.719171611545609,2040,74.72322012777596
+Anajás,dados_anajas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996385,2030,19.436408460189135
+Anajás,dados_anajas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.09009982175996385,2040,23.96248057925196
+Anajás,dados_anajas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.0770209145347245,2030,0.6592894268684977
+Anajás,dados_anajas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.0770209145347245,2040,0.7979108842912374
+Anajás,dados_anajas__idade_mediana,Idade Mediana,dados_anajas,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2030,25.68974426752009
+Anajás,dados_anajas__idade_mediana,Idade Mediana,dados_anajas,Grupo 2 — 3 censos,identity,sgd,True,0.30370808233056934,2040,29.02782091398335
+Anajás,dados_anajas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,15.225184562104948,2030,114.63036655801335
+Anajás,dados_anajas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,15.225184562104948,2040,148.85779408218042
+Anajás,dados_anajas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,27.063376337365863
+Anajás,dados_anajas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,31.43197679987385
+Anajás,dados_anajas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2030,5.537731563978102
+Anajás,dados_anajas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2040,5.536253786341124
+Anajás,dados_anajas__media_populacao_amarela,Média: População Amarela,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505528,2030,7.652851827149064
+Anajás,dados_anajas__media_populacao_amarela,Média: População Amarela,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.4560311083505528,2040,9.366268189492942
+Anajás,dados_anajas__media_populacao_branca,Média: População Branca,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543186,2030,7.40122202238414
+Anajás,dados_anajas__media_populacao_branca,Média: População Branca,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543186,2040,9.070717025602438
+Anajás,dados_anajas__media_populacao_indigena,Média: População Indígena,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336731,2030,5.2965357017490495
+Anajás,dados_anajas__media_populacao_indigena,Média: População Indígena,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.06050559542336731,2040,6.653817444050902
+Anajás,dados_anajas__media_populacao_preta_parda,Média: População Preta / Parda,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341974,2030,6.921460816733449
+Anajás,dados_anajas__media_populacao_preta_parda,Média: População Preta / Parda,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341974,2040,8.54966415250405
+Anajás,dados_anajas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,335.24545563343116,2030,770.1131745801665
+Anajás,dados_anajas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,335.24545563343116,2040,805.8050297761544
+Anajás,dados_anajas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340156,2030,5.299914609435301
+Anajás,dados_anajas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.06076902397340156,2040,5.66115886505405
+Anajás,dados_anajas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.2503600400447131,2030,3.116120281806134
+Anajás,dados_anajas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,0.2503600400447131,2040,3.507294055052432
+Anajás,dados_anajas__populacao_amarela,População Amarela,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.6100951387698057,2030,10.98889304538649
+Anajás,dados_anajas__populacao_amarela,População Amarela,dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.6100951387698057,2040,7.362518170530388
+Anajás,dados_anajas__populacao_branca,População Branca,dados_anajas,Grupo 2 — 3 censos,tanh,sgd,True,0.19651369152139608,2030,2.370347590056068
+Anajás,dados_anajas__populacao_branca,População Branca,dados_anajas,Grupo 2 — 3 censos,tanh,sgd,True,0.19651369152139608,2040,2.337623607697662
+Anajás,dados_anajas__populacao_indigena,População Indígena,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,19.54096060704026,2030,156.58915832406058
+Anajás,dados_anajas__populacao_indigena,População Indígena,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,19.54096060704026,2040,157.48449778712236
+Anajás,dados_anajas__populacao_indigena_total,População Indígena Total,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,19.54096060704026,2030,156.58915832406058
+Anajás,dados_anajas__populacao_indigena_total,População Indígena Total,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,19.54096060704026,2040,157.48449778712236
+Anajás,dados_anajas__populacao_parda,População Parda,dados_anajas,Grupo 2 — 3 censos,identity,sgd,True,0.2110135165686143,2030,26.1334713650637
+Anajás,dados_anajas__populacao_parda,População Parda,dados_anajas,Grupo 2 — 3 censos,identity,sgd,True,0.2110135165686143,2040,28.993865254957605
+Anajás,dados_anajas__populacao_preta,População Preta,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,0.09867715250811937,2030,1.543541585520699
+Anajás,dados_anajas__populacao_preta,População Preta,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,0.09867715250811937,2040,1.5480608710589052
+Anajás,dados_anajas__populacao_rural,População Rural,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.6815861226645895,2030,15.52275856688475
+Anajás,dados_anajas__populacao_rural,População Rural,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,0.6815861226645895,2040,15.520967769833502
+Anajás,dados_anajas__populacao_urbana,População Urbana,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.6689861208074946,2030,13.526112744167207
+Anajás,dados_anajas__populacao_urbana,População Urbana,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.6689861208074946,2040,15.50804253691734
+Anajás,dados_anajas__populacao_com_superior_completo,População com Superior Completo,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,211.2553188259294,2030,1062.1334869315842
+Anajás,dados_anajas__populacao_com_superior_completo,População com Superior Completo,dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,211.2553188259294,2040,1397.3469071889765
+Anajás,dados_anajas__populacao_de_homens,População de Homens,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.5363506528398906,2030,15.161210429341843
+Anajás,dados_anajas__populacao_de_homens,População de Homens,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.5363506528398906,2040,16.243857332690983
+Anajás,dados_anajas__populacao_de_mulheres,População de Mulheres,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.18901620283762988,2030,14.602401490007939
+Anajás,dados_anajas__populacao_de_mulheres,População de Mulheres,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,0.18901620283762988,2040,15.873297333825509
+Anajás,dados_anajas__proporcao_na_populacao_de_anajas,Proporção na população de Anajás,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.09307904717664954,2030,0.49236079244576564
+Anajás,dados_anajas__proporcao_na_populacao_de_anajas,Proporção na população de Anajás,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.09307904717664954,2040,0.41473118168229595
+Anajás,dados_anajas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,1.869437433145137,2030,105.1758584513526
+Anajás,dados_anajas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,1.869437433145137,2040,105.1343217568992
+Anajás,dados_anajas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,82.84748567333659,2030,529.8415906585184
+Anajás,dados_anajas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,82.84748567333659,2040,685.8573591766904
+Anajás,dados_anajas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,3.406368014517009,2030,36.11930493792049
+Anajás,dados_anajas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,3.406368014517009,2040,29.64912633071539
+Anajás,dados_anajas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683963,2030,11.770429324641071
+Anajás,dados_anajas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2180147649683963,2040,14.508623526574432
+Anajás,dados_anajas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,27.063376337365863
+Anajás,dados_anajas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,31.43197679987385
+Anajás,dados_anajas__responsavel_homem,Responsável Homem,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496449,2030,3.35501810039547
+Anajás,dados_anajas__responsavel_homem,Responsável Homem,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.2752001377496449,2040,2.8867954424251008
+Anajás,dados_anajas__responsavel_mulher,Responsável Mulher,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Anajás,dados_anajas__responsavel_mulher,Responsável Mulher,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Anajás,dados_anajas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.8764714603351633
+Anajás,dados_anajas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.5667646038818925
+Anajás,dados_anajas__setor_privado,Setor privado,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.3773711197186551,2030,3.671565743071535
+Anajás,dados_anajas__setor_privado,Setor privado,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,0.3773711197186551,2040,4.125986993208439
+Anajás,dados_anajas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,530.3556209538623,2030,456.2406361896249
+Anajás,dados_anajas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_anajas,Grupo 2 — 3 censos,logistic,sgd,True,530.3556209538623,2040,454.24904519424507
+Anajás,dados_anajas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,407.10972589765714,2030,-3.467746664120284
+Anajás,dados_anajas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,407.10972589765714,2040,17.99838734467869
+Anajás,dados_anajas__setor_publico,Setor público,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,506.2830460180941,2030,-3.8706840244225305
+Anajás,dados_anajas__setor_publico,Setor público,dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,506.2830460180941,2040,22.822742716578432
+Anajás,dados_anajas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,12.18014764968396,2030,89.70429324641069
+Anajás,dados_anajas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,12.18014764968396,2040,117.0862352657443
+Anajás,dados_anajas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,500.7677823154235,2030,-3.8783882871813944
+Anajás,dados_anajas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_anajas,Grupo 2 — 3 censos,tanh,adam,True,500.7677823154235,2040,22.524450290093853
+Anajás,dados_anajas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050891212382408,2030,34.750135935571095
+Anajás,dados_anajas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_anajas,Grupo 2 — 3 censos,identity,lbfgs,True,0.03050891212382408,2040,42.93156676212055
+Anajás,dados_anajas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,3.404843336229277,2030,96.7201924096524
+Anajás,dados_anajas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,3.404843336229277,2040,101.51692529779318
+Anajás,dados_anajas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,6.949997574154021,2030,93.11766415008056
+Anajás,dados_anajas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_anajas,Grupo 2 — 3 censos,relu,adam,True,6.949997574154021,2040,96.89924098874693
+Anajás,dados_anajas__trabalhador_domestico,Trabalhador doméstico,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,63.43637243416621,2030,524.8028932850192
+Anajás,dados_anajas__trabalhador_domestico,Trabalhador doméstico,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,63.43637243416621,2040,576.1159622586358
+Anajás,dados_anajas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2030,77.34396844690039
+Anajás,dados_anajas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_anajas,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2040,100.05948232298175
+Anajás,dados_anajas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,70.94317851598356,2030,451.3818178185217
+Anajás,dados_anajas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_anajas,Grupo 2 — 3 censos,relu,adam,True,70.94317851598356,2040,487.12234813418706
+Anajás,dados_anajas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,3.8032772304394236,2030,20.050659871867417
+Anajás,dados_anajas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_anajas,Grupo 2 — 3 censos,relu,lbfgs,True,3.8032772304394236,2040,25.733200933930792
+Anajás,dados_anajas__a_pe,A pé,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.316612320236755
+Anajás,dados_anajas__a_pe,A pé,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.511211308326597
+Anajás,dados_anajas__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.261006968057266
+Anajás,dados_anajas__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.917601444813215
+Anajás,dados_anajas__ate_30_minutos_sede_beira_do_rio,Até 30 minutos (Sede/beira do rio),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.16426242295861
+Anajás,dados_anajas__ate_30_minutos_sede_beira_do_rio,Até 30 minutos (Sede/beira do rio),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.5333762749971
+Anajás,dados_anajas__automovel_onibus,Automóvel / Ônibus,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.313072921726557
+Anajás,dados_anajas__automovel_onibus,Automóvel / Ônibus,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.168057452459976
+Anajás,dados_anajas__bicicleta,Bicicleta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.76426242295861
+Anajás,dados_anajas__bicicleta,Bicicleta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.133376274997112
+Anajás,dados_anajas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.602980338129324
+Anajás,dados_anajas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.755715145722156
+Anajás,dados_anajas__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.2030932047478
+Anajás,dados_anajas__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.46660204681875
+Anajás,dados_anajas__com_coleta_de_lixo,Com Coleta de Lixo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.57121241827297
+Anajás,dados_anajas__com_coleta_de_lixo,Com Coleta de Lixo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.04083065264763
+Anajás,dados_anajas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Anajás,dados_anajas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Anajás,dados_anajas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.70783299092716
+Anajás,dados_anajas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.45945011109828
+Anajás,dados_anajas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.536238427050346
+Anajás,dados_anajas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.9484572116577725
+Anajás,dados_anajas__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.28405960676258657
+Anajás,dados_anajas__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.38711430291444326
+Anajás,dados_anajas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.640596067625864
+Anajás,dados_anajas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.67114302914443
+Anajás,dados_anajas__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.45391649546358
+Anajás,dados_anajas__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.82972505554914
+Anajás,dados_anajas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.152349897278148
+Anajás,dados_anajas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.977835033329487
+Anajás,dados_anajas__estuda_em_outro_municipio_ex_breves_belem,Estuda em outro município (ex: Breves / Belém),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.208715281151039
+Anajás,dados_anajas__estuda_em_outro_municipio_ex_breves_belem,Estuda em outro município (ex: Breves / Belém),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.445371634973319
+Anajás,dados_anajas__estuda_no_proprio_municipio_anajas,Estuda no próprio município (Anajás),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.15234989727814
+Anajás,dados_anajas__estuda_no_proprio_municipio_anajas,Estuda no próprio município (Anajás),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.97783503332947
+Anajás,dados_anajas__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.84070893424434
+Anajás,dados_anajas__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.982029930241026
+Anajás,dados_anajas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.09278726887583
+Anajás,dados_anajas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.20012882499134
+Anajás,dados_anajas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.46960938258984
+Anajás,dados_anajas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.25208617868998
+Anajás,dados_anajas__idade_mediana_2,Idade Mediana,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.260894101438797
+Anajás,dados_anajas__idade_mediana_2,Idade Mediana,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.806714543716648
+Anajás,dados_anajas__mais_de_1_hora_navegacao_zona_rural_distante,Mais de 1 hora (Navegação/zona rural distante),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.66269582477318
+Anajás,dados_anajas__mais_de_1_hora_navegacao_zona_rural_distante,Mais de 1 hora (Navegação/zona rural distante),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.481486252777458
+Anajás,dados_anajas__motocicleta,Motocicleta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.48990741640277
+Anajás,dados_anajas__motocicleta,Motocicleta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.787657693262183
+Anajás,dados_anajas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.04200396978312
+Anajás,dados_anajas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.87418381388152
+Anajás,dados_anajas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8405960676258655
+Anajás,dados_anajas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.871143029144433
+Anajás,dados_anajas__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.75366898935242
+Anajás,dados_anajas__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.639200481604405
+Anajás,dados_anajas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-217.79777698164355
+Anajás,dados_anajas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-506.71831857162266
+Anajás,dados_anajas__populacao_amarela_2,População Amarela,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Anajás,dados_anajas__populacao_amarela_2,População Amarela,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Anajás,dados_anajas__populacao_branca_2,População Branca,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,126.58026629927943
+Anajás,dados_anajas__populacao_branca_2,População Branca,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,161.6188629909107
+Anajás,dados_anajas__populacao_indigena_2,População Indígena,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.101490169064665
+Anajás,dados_anajas__populacao_indigena_2,População Indígena,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.67785757286108
+Anajás,dados_anajas__populacao_parda_2,População Parda,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1221.5996826546648
+Anajás,dados_anajas__populacao_parda_2,População Parda,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1566.832914763385
+Anajás,dados_anajas__populacao_preta_2,População Preta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.53668989352423
+Anajás,dados_anajas__populacao_preta_2,População Preta,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,126.3920048160441
+Anajás,dados_anajas__populacao_residente_em_favelas,População Residente em Favelas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-217.79777698164355
+Anajás,dados_anajas__populacao_residente_em_favelas,População Residente em Favelas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-506.71831857162266
+Anajás,dados_anajas__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7681192135251731
+Anajás,dados_anajas__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9742286058288864
+Anajás,dados_anajas__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,101.4777415468245
+Anajás,dados_anajas__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.9408075388844
+Anajás,dados_anajas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4880874743195367
+Anajás,dados_anajas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9444587583323703
+Anajás,dados_anajas__ruas_sem_arvores,Ruas Sem Árvores,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.504699794556296
+Anajás,dados_anajas__ruas_sem_arvores,Ruas Sem Árvores,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.155670066658967
+Anajás,dados_anajas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.21743056230207
+Anajás,dados_anajas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.69074326994664
+Anajás,dados_anajas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3043576405755193
+Anajás,dados_anajas__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.640596067625865
+Anajás,dados_anajas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9226858174866592
+Anajás,dados_anajas__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.6711430291444325
+Anajás,dados_anajas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Anajás,dados_anajas__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.80596067625865
+Anajás,dados_anajas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Anajás,dados_anajas__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.11143029144432
+Anajás,dados_anajas__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Anajás,dados_anajas__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Anajás,dados_anajas__sem_conjuge,Sem cônjuge,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.66238427050346
+Anajás,dados_anajas__sem_conjuge,Sem cônjuge,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.78457211657772
+Anajás,dados_anajas__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.51605325985588
+Anajás,dados_anajas__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.52377259818213
+Anajás,dados_anajas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,404.5670576079099
+Anajás,dados_anajas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,520.5035907787486
+Anajás,dados_anajas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.79713252848915
+Anajás,dados_anajas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.75517175537443
+Anajás,dados_anajas__trabalha_em_outro_municipio_ex_breves_macapa_,Trabalha em outro município (ex: Breves / Macapá / Belém),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.776834494676212
+Anajás,dados_anajas__trabalha_em_outro_municipio_ex_breves_macapa_,Trabalha em outro município (ex: Breves / Macapá / Belém),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.219600240802205
+Anajás,dados_anajas__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Anajás),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.4777415468245
+Anajás,dados_anajas__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Anajás),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.9408075388844
+Anajás,dados_anajas__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.79713252848914
+Anajás,dados_anajas__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.75517175537442
+Anajás,dados_anajas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.405847809640184
+Anajás,dados_anajas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.600543390347738
+Anajás,dados_anajas__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.84070893424433
+Anajás,dados_anajas__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.98202993024101
+Anajás,dados_anajas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.14202980338129328
+Anajás,dados_anajas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.19355715145722163
+Anajás,dados_anajas__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.443576405755188
+Anajás,dados_anajas__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.626858174866594
+Anajás,dados_anajas__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.03784146273347
+Anajás,dados_anajas__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.13720168561542
+Anajás,dados_anajas__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.901490169064664
+Anajás,dados_anajas__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_anajas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.47785757286108
