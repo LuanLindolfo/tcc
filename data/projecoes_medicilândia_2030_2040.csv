@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Medicilândia,dados_medicilandia__populacao_total,População Total,dados_medicilandia,Grupo 1 — 4 censos,logistic,adam,True,1.5346781986535731,2030,28.988123902805178
+Medicilândia,dados_medicilandia__populacao_total,População Total,dados_medicilandia,Grupo 1 — 4 censos,logistic,adam,True,1.5346781986535731,2040,29.493631519165284
+Medicilândia,dados_medicilandia__2_trabalhos,2 trabalhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.7460011149743878,2030,8.30737409972883
+Medicilândia,dados_medicilandia__2_trabalhos,2 trabalhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.7460011149743878,2040,9.860086537708984
+Medicilândia,dados_medicilandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005176,2030,1.424935957076476
+Medicilândia,dados_medicilandia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005176,2040,1.6958691487905375
+Medicilândia,dados_medicilandia__anos_de_estudo_media,Anos de Estudo (Média),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2030,8.694855786563718
+Medicilândia,dados_medicilandia__anos_de_estudo_media,Anos de Estudo (Média),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2040,10.55016647240431
+Medicilândia,dados_medicilandia__apenas_1_trabalho,Apenas 1 trabalho,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,0.6095465389634285,2030,89.91028667146108
+Medicilândia,dados_medicilandia__apenas_1_trabalho,Apenas 1 trabalho,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,0.6095465389634285,2040,87.7870121990072
+Medicilândia,dados_medicilandia__casais_com_filhos,Casais com filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.616752117739999,2030,41.220566570274194
+Medicilândia,dados_medicilandia__casais_com_filhos,Casais com filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.616752117739999,2040,31.610673151905512
+Medicilândia,dados_medicilandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.330182371008411,2030,8.534141290141632
+Medicilândia,dados_medicilandia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.330182371008411,2040,8.532811845463419
+Medicilândia,dados_medicilandia__casais_sem_filhos,Casais sem filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2030,13.967472257105175
+Medicilândia,dados_medicilandia__casais_sem_filhos,Casais sem filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2040,16.979485879231873
+Medicilândia,dados_medicilandia__conta_propria,Conta própria,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2030292553718835,2030,7.172367805909505
+Medicilândia,dados_medicilandia__conta_propria,Conta própria,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2030292553718835,2040,7.11801789255859
+Medicilândia,dados_medicilandia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252378469245116,2030,152.47223261346622
+Medicilândia,dados_medicilandia__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252378469245116,2040,143.40629542632598
+Medicilândia,dados_medicilandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.49707654238760196,2030,10.335644177571961
+Medicilândia,dados_medicilandia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.49707654238760196,2040,12.193309688002648
+Medicilândia,dados_medicilandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036476,2030,24.395374255218588
+Medicilândia,dados_medicilandia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.2440393359036476,2040,28.944887329316693
+Medicilândia,dados_medicilandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2030,26.047045767201872
+Medicilândia,dados_medicilandia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525240142060825,2040,30.14050854135681
+Medicilândia,dados_medicilandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,2.7149252922335485,2030,13.20061492724292
+Medicilândia,dados_medicilandia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,2.7149252922335485,2040,0.06323198794715523
+Medicilândia,dados_medicilandia__empregador,Empregador,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,115.34863921989994,2030,742.7093105239526
+Medicilândia,dados_medicilandia__empregador,Empregador,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,115.34863921989994,2040,814.250577959084
+Medicilândia,dados_medicilandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.73500246947233,2030,96.88207753868855
+Medicilândia,dados_medicilandia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.73500246947233,2040,99.94761924366854
+Medicilândia,dados_medicilandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,5.980596818607471,2030,74.58625399975827
+Medicilândia,dados_medicilandia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,5.980596818607471,2040,81.76786618708407
+Medicilândia,dados_medicilandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.5767788706472512,2030,24.842366136644596
+Medicilândia,dados_medicilandia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.5767788706472512,2040,30.26619213667955
+Medicilândia,dados_medicilandia__idade_mediana,Idade Mediana,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2030,32.16120281806134
+Medicilândia,dados_medicilandia__idade_mediana,Idade Mediana,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2040,36.07294055052432
+Medicilândia,dados_medicilandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,14.335274222751899,2030,138.27961348703056
+Medicilândia,dados_medicilandia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,14.335274222751899,2040,160.692841340084
+Medicilândia,dados_medicilandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.8227526805912438,2030,26.321914320442072
+Medicilândia,dados_medicilandia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.8227526805912438,2040,30.410706818136717
+Medicilândia,dados_medicilandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.36844285616046984,2030,4.836162255387058
+Medicilândia,dados_medicilandia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.36844285616046984,2040,4.835063635061987
+Medicilândia,dados_medicilandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254260312,2030,8.249358619140873
+Medicilândia,dados_medicilandia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.030504346254260312,2040,10.068064873445863
+Medicilândia,dados_medicilandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114835096,2030,9.094855786563718
+Medicilândia,dados_medicilandia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114835096,2040,10.950166472404309
+Medicilândia,dados_medicilandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.1372723685771624,2030,2.577447824345856
+Medicilândia,dados_medicilandia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.1372723685771624,2040,1.8933809721434605
+Medicilândia,dados_medicilandia__media_populacao_amarela,Média: População Amarela,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114835096,2030,9.094855786563718
+Medicilândia,dados_medicilandia__media_populacao_amarela,Média: População Amarela,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114835096,2040,10.950166472404309
+Medicilândia,dados_medicilandia__media_populacao_branca,Média: População Branca,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2030,8.994855786563717
+Medicilândia,dados_medicilandia__media_populacao_branca,Média: População Branca,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2040,10.85016647240431
+Medicilândia,dados_medicilandia__media_populacao_indigena,Média: População Indígena,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2030,6.646485350103077
+Medicilândia,dados_medicilandia__media_populacao_indigena,Média: População Indígena,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.0908901074100686,2040,8.184381030489197
+Medicilândia,dados_medicilandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2030,8.494855786563717
+Medicilândia,dados_medicilandia__media_populacao_preta_parda,Média: População Preta / Parda,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.06037388114834948,2040,10.35016647240431
+Medicilândia,dados_medicilandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,207.15059312457234,2030,475.6719371947004
+Medicilândia,dados_medicilandia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,207.15059312457234,2040,497.6663369040747
+Medicilândia,dados_medicilandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005206,2030,4.724935957076476
+Medicilândia,dados_medicilandia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005206,2040,4.995869148790538
+Medicilândia,dados_medicilandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348927,2030,2.4719480281138217
+Medicilândia,dados_medicilandia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348927,2040,2.8359980666561544
+Medicilândia,dados_medicilandia__populacao_amarela,População Amarela,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,8.805875747121746,2030,31.03665726730773
+Medicilândia,dados_medicilandia__populacao_amarela,População Amarela,dados_medicilandia,Grupo 2 — 3 censos,relu,lbfgs,True,8.805875747121746,2040,6.773003814744044
+Medicilândia,dados_medicilandia__populacao_branca,População Branca,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2030,6.357731563978103
+Medicilândia,dados_medicilandia__populacao_branca,População Branca,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785415,2040,6.356253786341124
+Medicilândia,dados_medicilandia__populacao_indigena,População Indígena,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,18.537167601972644,2030,45.82378380485121
+Medicilândia,dados_medicilandia__populacao_indigena,População Indígena,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,18.537167601972644,2040,45.77096542759019
+Medicilândia,dados_medicilandia__populacao_indigena_total,População Indígena Total,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,18.537167601972644,2030,45.82378380485121
+Medicilândia,dados_medicilandia__populacao_indigena_total,População Indígena Total,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,18.537167601972644,2040,45.77096542759019
+Medicilândia,dados_medicilandia__populacao_parda,População Parda,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7832107288663597,2030,18.197610266131925
+Medicilândia,dados_medicilandia__populacao_parda,População Parda,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,2.7832107288663597,2040,18.076205014591245
+Medicilândia,dados_medicilandia__populacao_preta,População Preta,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.15226501704855142,2030,2.42611303276058
+Medicilândia,dados_medicilandia__populacao_preta,População Preta,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.15226501704855142,2040,2.8181648241032184
+Medicilândia,dados_medicilandia__populacao_rural,População Rural,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.85682300411433,2030,13.841011733493312
+Medicilândia,dados_medicilandia__populacao_rural,População Rural,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.85682300411433,2040,13.837575226494051
+Medicilândia,dados_medicilandia__populacao_urbana,População Urbana,dados_medicilandia,Grupo 2 — 3 censos,logistic,adam,True,2.5220780523516493,2030,15.259732938449492
+Medicilândia,dados_medicilandia__populacao_urbana,População Urbana,dados_medicilandia,Grupo 2 — 3 censos,logistic,adam,True,2.5220780523516493,2040,15.603734491617894
+Medicilândia,dados_medicilandia__populacao_com_superior_completo,População com Superior Completo,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,375.7779409786978,2030,249.11941105359233
+Medicilândia,dados_medicilandia__populacao_com_superior_completo,População com Superior Completo,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,375.7779409786978,2040,247.8689531439398
+Medicilândia,dados_medicilandia__populacao_de_homens,População de Homens,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,1.7886643904086768,2030,13.145826854127728
+Medicilândia,dados_medicilandia__populacao_de_homens,População de Homens,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,1.7886643904086768,2040,13.14162512385431
+Medicilândia,dados_medicilandia__populacao_de_mulheres,População de Mulheres,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5894259774866348,2030,13.147069614261843
+Medicilândia,dados_medicilandia__populacao_de_mulheres,População de Mulheres,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5894259774866348,2040,13.074748397119402
+Medicilândia,dados_medicilandia__proporcao_na_populacao_de_medicilandia,Proporção na população de Medicilândia,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.08303517377830733,2030,0.1838833638334343
+Medicilândia,dados_medicilandia__proporcao_na_populacao_de_medicilandia,Proporção na população de Medicilândia,dados_medicilandia,Grupo 2 — 3 censos,logistic,sgd,True,0.08303517377830733,2040,0.1836411181160317
+Medicilândia,dados_medicilandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.5643380033620721,2030,101.8147260669825
+Medicilândia,dados_medicilandia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.5643380033620721,2040,98.4603293077406
+Medicilândia,dados_medicilandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,123.627181501542,2030,906.0179167568112
+Medicilândia,dados_medicilandia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,123.627181501542,2040,1178.9672275793955
+Medicilândia,dados_medicilandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,2.958965914018691,2030,30.796202906910285
+Medicilândia,dados_medicilandia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,2.958965914018691,2040,20.208243293428314
+Medicilândia,dados_medicilandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2030,13.967472257105175
+Medicilândia,dados_medicilandia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,1.3398162414652361,2040,16.979485879231873
+Medicilândia,dados_medicilandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.8227526805912438,2030,26.321914320442072
+Medicilândia,dados_medicilandia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.8227526805912438,2040,30.410706818136717
+Medicilândia,dados_medicilandia__responsavel_homem,Responsável Homem,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.27132964907062496,2030,2.9347097214794626
+Medicilândia,dados_medicilandia__responsavel_homem,Responsável Homem,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.27132964907062496,2040,2.4308568824919217
+Medicilândia,dados_medicilandia__responsavel_mulher,Responsável Mulher,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Medicilândia,dados_medicilandia__responsavel_mulher,Responsável Mulher,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Medicilândia,dados_medicilandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.476471460335164
+Medicilândia,dados_medicilandia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.166764603881893
+Medicilândia,dados_medicilandia__setor_privado,Setor privado,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,1.0207978031386629,2030,7.443996644514128
+Medicilândia,dados_medicilandia__setor_privado,Setor privado,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,1.0207978031386629,2040,8.158056175267488
+Medicilândia,dados_medicilandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.5811676187885858,2030,5.011215132691456
+Medicilândia,dados_medicilandia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,0.5811676187885858,2040,5.696736550696222
+Medicilândia,dados_medicilandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,0.4965286719453474,2030,2.3779671996224336
+Medicilândia,dados_medicilandia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,0.4965286719453474,2040,2.3570124610341336
+Medicilândia,dados_medicilandia__setor_publico,Setor público,dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,539.1619519428281,2030,-4.077286294555904
+Medicilândia,dados_medicilandia__setor_publico,Setor público,dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,539.1619519428281,2040,24.35023689139001
+Medicilândia,dados_medicilandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,16.724653020187386,2030,182.6528186041802
+Medicilândia,dados_medicilandia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,16.724653020187386,2040,232.2010634229336
+Medicilândia,dados_medicilandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,522.6529267999225,2030,-4.017911956337684
+Medicilândia,dados_medicilandia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_medicilandia,Grupo 2 — 3 censos,tanh,adam,True,522.6529267999225,2040,23.53936667090977
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.147750158062839,2030,90.60769995058159
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.147750158062839,2040,94.99668183579902
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403705296885825,2030,43.99512163923405
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_medicilandia,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403705296885825,2040,53.54470316400982
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.262406555151017,2030,97.59628049730478
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.262406555151017,2040,99.63942146975674
+Medicilândia,dados_medicilandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.73500246947233,2030,96.88207753868855
+Medicilândia,dados_medicilandia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,4.73500246947233,2040,99.94761924366854
+Medicilândia,dados_medicilandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.4955573167882674,2030,10.48814657161103
+Medicilândia,dados_medicilandia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_medicilandia,Grupo 2 — 3 censos,identity,adam,True,0.4955573167882674,2040,12.336781257937865
+Medicilândia,dados_medicilandia__trabalhador_domestico,Trabalhador doméstico,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,121.38554708134102,2030,534.1114366015813
+Medicilândia,dados_medicilandia__trabalhador_domestico,Trabalhador doméstico,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,121.38554708134102,2040,528.8477993962912
+Medicilândia,dados_medicilandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,14.59382921870222,2030,123.6116741745531
+Medicilândia,dados_medicilandia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,relu,adam,True,14.59382921870222,2040,139.30972822062944
+Medicilândia,dados_medicilandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,110.9799170196681,2030,421.5503065123707
+Medicilândia,dados_medicilandia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_medicilandia,Grupo 2 — 3 censos,tanh,lbfgs,True,110.9799170196681,2040,416.5744863171062
+Medicilândia,dados_medicilandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_medicilandia,Grupo 2 — 3 censos,relu,sgd,True,5.751607454631354,2030,25.159769321314
+Medicilândia,dados_medicilandia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_medicilandia,Grupo 2 — 3 censos,relu,sgd,True,5.751607454631354,2040,31.738281187279554
+Medicilândia,dados_medicilandia__a_pe,A pé,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.95548309364901
+Medicilândia,dados_medicilandia__a_pe,A pé,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.881615077768796
+Medicilândia,dados_medicilandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.80596067625865
+Medicilândia,dados_medicilandia__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.11143029144432
+Medicilândia,dados_medicilandia__ate_30_minutos_sede_agrovilas,Até 30 minutos (Sede/agrovilas),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.15234989727814
+Medicilândia,dados_medicilandia__ate_30_minutos_sede_agrovilas,Até 30 minutos (Sede/agrovilas),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.97783503332947
+Medicilândia,dados_medicilandia__automovel_onibus,Automóvel / Ônibus,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.031347912386593
+Medicilândia,dados_medicilandia__automovel_onibus,Automóvel / Ônibus,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.940743126388735
+Medicilândia,dados_medicilandia__bicicleta,Bicicleta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.316612320236754
+Medicilândia,dados_medicilandia__bicicleta,Bicicleta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.51121130832659
+Medicilândia,dados_medicilandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.513185788345034
+Medicilândia,dados_medicilandia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.47894435355657
+Medicilândia,dados_medicilandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.895868092661416
+Medicilândia,dados_medicilandia__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.4990879847065
+Medicilândia,dados_medicilandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.12774887913625
+Medicilândia,dados_medicilandia__com_coleta_de_lixo,Com Coleta de Lixo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.52485937887762
+Medicilândia,dados_medicilandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Medicilândia,dados_medicilandia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Medicilândia,dados_medicilandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.25704969183444
+Medicilândia,dados_medicilandia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.73350509998844
+Medicilândia,dados_medicilandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.623861128148357
+Medicilândia,dados_medicilandia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.525636958733075
+Medicilândia,dados_medicilandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8101490169064665
+Medicilândia,dados_medicilandia__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.067785757286108
+Medicilândia,dados_medicilandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.472476854100695
+Medicilândia,dados_medicilandia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.29691442331555
+Medicilândia,dados_medicilandia__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.29404373715976834
+Medicilândia,dados_medicilandia__embarcacao_transporte_hidroviario_rabeira_bar,Embarcação / Transporte Hidroviário (Rabeira / Barco),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.022229379166185392
+Medicilândia,dados_medicilandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.689654072504965
+Medicilândia,dados_medicilandia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.696348780552023
+Medicilândia,dados_medicilandia__estuda_em_outro_municipio_ex_altamira,Estuda em outro município (ex: Altamira),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.313072921726558
+Medicilândia,dados_medicilandia__estuda_em_outro_municipio_ex_altamira,Estuda em outro município (ex: Altamira),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.16805745245998
+Medicilândia,dados_medicilandia__estuda_no_proprio_municipio_medicilandia,Estuda no próprio município (Medicilândia),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.72852484591722
+Medicilândia,dados_medicilandia__estuda_no_proprio_municipio_medicilandia,Estuda no próprio município (Medicilândia),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.46675254999424
+Medicilândia,dados_medicilandia__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.45813949654641
+Medicilândia,dados_medicilandia__existencia_de_calcada_passarela_de_madeira,Existência de Calçada / Passarela de Madeira,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,74.07277320018764
+Medicilândia,dados_medicilandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.167395619329476
+Medicilândia,dados_medicilandia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.637156319436425
+Medicilândia,dados_medicilandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.50149016906467
+Medicilândia,dados_medicilandia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.07785757286109
+Medicilândia,dados_medicilandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7653469803721142
+Medicilândia,dados_medicilandia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8900700492291675
+Medicilândia,dados_medicilandia__idade_mediana_2,Idade Mediana,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.260894101438797
+Medicilândia,dados_medicilandia__idade_mediana_2,Idade Mediana,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.806714543716648
+Medicilândia,dados_medicilandia__mais_de_1_hora_glebas_vicinais_distantes,Mais de 1 hora (Glebas/vicinais distantes),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.736238427050347
+Medicilândia,dados_medicilandia__mais_de_1_hora_glebas_vicinais_distantes,Mais de 1 hora (Glebas/vicinais distantes),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.148457211657774
+Medicilândia,dados_medicilandia__motocicleta,Motocicleta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.687039944891914
+Medicilândia,dados_medicilandia__motocicleta,Motocicleta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.94282944863661
+Medicilândia,dados_medicilandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.36739561932947
+Medicilândia,dados_medicilandia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.83715631943642
+Medicilândia,dados_medicilandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Medicilândia,dados_medicilandia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Medicilândia,dados_medicilandia__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.005847809640183
+Medicilândia,dados_medicilandia__obstaculo_na_calcada_passarela,Obstáculo na calçada/passarela,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.20054339034774
+Medicilândia,dados_medicilandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,735.5102725107852
+Medicilândia,dados_medicilandia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,926.16146039172
+Medicilândia,dados_medicilandia__populacao_amarela_2,População Amarela,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Medicilândia,dados_medicilandia__populacao_amarela_2,População Amarela,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Medicilândia,dados_medicilandia__populacao_branca_2,População Branca,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,111.53668989352423
+Medicilândia,dados_medicilandia__populacao_branca_2,População Branca,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,140.3920048160441
+Medicilândia,dados_medicilandia__populacao_indigena_2,População Indígena,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.4202980338129327
+Medicilândia,dados_medicilandia__populacao_indigena_2,População Indígena,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9355715145722163
+Medicilândia,dados_medicilandia__populacao_parda_2,População Parda,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,557.6834494676211
+Medicilândia,dados_medicilandia__populacao_parda_2,População Parda,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,701.9600240802206
+Medicilândia,dados_medicilandia__populacao_preta_2,População Preta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.44953708201385
+Medicilândia,dados_medicilandia__populacao_preta_2,População Preta,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.93828846631092
+Medicilândia,dados_medicilandia__populacao_residente_em_favelas,População Residente em Favelas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,735.5102725107852
+Medicilândia,dados_medicilandia__populacao_residente_em_favelas,População Residente em Favelas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,926.16146039172
+Medicilândia,dados_medicilandia__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.1043576405755196
+Medicilândia,dados_medicilandia__rampa_para_cadeirantes_em_trapiches_vias,Rampa para Cadeirantes em Trapiches/Vias,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.7226858174866595
+Medicilândia,dados_medicilandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,101.01504572205131
+Medicilândia,dados_medicilandia__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,98.65932128610693
+Medicilândia,dados_medicilandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Medicilândia,dados_medicilandia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Medicilândia,dados_medicilandia__ruas_sem_arvores,Ruas Sem Árvores,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.767395619329472
+Medicilândia,dados_medicilandia__ruas_sem_arvores,Ruas Sem Árvores,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.237156319436423
+Medicilândia,dados_medicilandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.90149016906466
+Medicilândia,dados_medicilandia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.47785757286108
+Medicilândia,dados_medicilandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.892774887913625
+Medicilândia,dados_medicilandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.229013314963971
+Medicilândia,dados_medicilandia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.232485937887761
+Medicilândia,dados_medicilandia__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.980943149545535
+Medicilândia,dados_medicilandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.7306163506471
+Medicilândia,dados_medicilandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,73.7653646086328
+Medicilândia,dados_medicilandia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.1696876235032
+Medicilândia,dados_medicilandia__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.0402872622999
+Medicilândia,dados_medicilandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Medicilândia,dados_medicilandia__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Medicilândia,dados_medicilandia__sem_conjuge,Sem cônjuge,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.22614584345312
+Medicilândia,dados_medicilandia__sem_conjuge,Sem cônjuge,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.93611490491996
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.02327837194227
+Medicilândia,dados_medicilandia__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.69128666029438
+Medicilândia,dados_medicilandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,204.13129355035795
+Medicilândia,dados_medicilandia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,258.23500903008267
+Medicilândia,dados_medicilandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.20871528115104
+Medicilândia,dados_medicilandia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.44537163497333
+Medicilândia,dados_medicilandia__trabalha_em_outro_municipio_ex_altamira_brasi,Trabalha em outro município (ex: Altamira / Brasil Novo),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.197132528489144
+Medicilândia,dados_medicilandia__trabalha_em_outro_municipio_ex_altamira_brasi,Trabalha em outro município (ex: Altamira / Brasil Novo),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.15517175537442
+Medicilândia,dados_medicilandia__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Medicilândia),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.79122067069041
+Medicilândia,dados_medicilandia__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Medicilândia),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.34823880277169
+Medicilândia,dados_medicilandia__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.525391649546358
+Medicilândia,dados_medicilandia__trapiche_ponto_de_embarque_hidroviario_proxim,Trapiche / Ponto de Embarque Hidroviário próximo,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.16297250555491405
+Medicilândia,dados_medicilandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.426145843453114
+Medicilândia,dados_medicilandia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.136114904919957
+Medicilândia,dados_medicilandia__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.19437792359676
+Medicilândia,dados_medicilandia__via_pavimentada_trapiches_calcamento,Via Pavimentada / Trapiches / Calçamento,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.22123041184544
+Medicilândia,dados_medicilandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Medicilândia,dados_medicilandia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Medicilândia,dados_medicilandia__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.19724539510761
+Medicilândia,dados_medicilandia__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.26605865647099
+Medicilândia,dados_medicilandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.03497399122263
+Medicilândia,dados_medicilandia__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.09237344098986
+Medicilândia,dados_medicilandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.63772859611501
+Medicilândia,dados_medicilandia__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_medicilandia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.62631478451885
