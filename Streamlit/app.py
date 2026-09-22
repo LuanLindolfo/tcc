@@ -299,6 +299,41 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_afuá_tratados.csv",
     },
+    {
+        "nome":    "Ulianópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_ulianópolis_tratados.csv",
+    },
+    {
+        "nome":    "Prainha",
+        "pasta":   "data",
+        "arquivo": "indicadores_prainha_tratados.csv",
+    },
+    {
+        "nome":    "Igarapé-Açu",
+        "pasta":   "data",
+        "arquivo": "indicadores_igarapé_açu_tratados.csv",
+    },
+    {
+        "nome":    "Jacundá",
+        "pasta":   "data",
+        "arquivo": "indicadores_jacundá_tratados.csv",
+    },
+    {
+        "nome":    "Mãe do Rio",
+        "pasta":   "data",
+        "arquivo": "indicadores_mãe_do_rio_tratados.csv",
+    },
+    {
+        "nome":    "Rurópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_rurópolis_tratados.csv",
+    },
+    {
+        "nome":    "Novo Progresso",
+        "pasta":   "data",
+        "arquivo": "indicadores_novo_progresso_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
