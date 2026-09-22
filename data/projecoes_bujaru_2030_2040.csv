@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Bujaru,dados_bujaru__anos_de_estudo_media,Anos de Estudo (Média),dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.09947728116141813,2030,7.6012729945740585
+Bujaru,dados_bujaru__anos_de_estudo_media,Anos de Estudo (Média),dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.09947728116141813,2040,9.227032131872141
+Bujaru,dados_bujaru__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_bujaru,Grupo 1 — 4 censos,relu,lbfgs,True,4.0231272267701,2030,67.6218081907551
+Bujaru,dados_bujaru__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_bujaru,Grupo 1 — 4 censos,relu,lbfgs,True,4.0231272267701,2040,52.46455984980672
+Bujaru,dados_bujaru__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bujaru,Grupo 1 — 4 censos,identity,sgd,True,0.1912203710177608,2030,8.228014758665992
+Bujaru,dados_bujaru__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bujaru,Grupo 1 — 4 censos,identity,sgd,True,0.1912203710177608,2040,9.475294918011194
+Bujaru,dados_bujaru__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.11037361107592858,2030,7.01725805034992
+Bujaru,dados_bujaru__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.11037361107592858,2040,8.546739007691286
+Bujaru,dados_bujaru__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.10181964579709002,2030,8.185291085294459
+Bujaru,dados_bujaru__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bujaru,Grupo 1 — 4 censos,identity,adam,True,0.10181964579709002,2040,9.907331152172304
+Bujaru,dados_bujaru__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bujaru,Grupo 1 — 4 censos,identity,lbfgs,True,0.023233433539152193,2030,2.667776620030647
+Bujaru,dados_bujaru__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bujaru,Grupo 1 — 4 censos,identity,lbfgs,True,0.023233433539152193,2040,1.891613771128994
+Bujaru,dados_bujaru__populacao_total,População Total,dados_bujaru,Grupo 1 — 4 censos,tanh,sgd,True,1.6008489126412089,2030,24.538092024522236
+Bujaru,dados_bujaru__populacao_total,População Total,dados_bujaru,Grupo 1 — 4 censos,tanh,sgd,True,1.6008489126412089,2040,24.38481402550506
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bujaru,Grupo 1 — 4 censos,logistic,lbfgs,True,3.7381218238538754,2030,83.53196344797155
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bujaru,Grupo 1 — 4 censos,logistic,lbfgs,True,3.7381218238538754,2040,85.07152717076843
+Bujaru,dados_bujaru__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bujaru,Grupo 1 — 4 censos,identity,sgd,True,0.1828562661401043,2030,8.303145270554792
+Bujaru,dados_bujaru__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bujaru,Grupo 1 — 4 censos,identity,sgd,True,0.1828562661401043,2040,9.540008468594813
+Bujaru,dados_bujaru__2_trabalhos,2 trabalhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.841088347120715,2030,7.479054483205319
+Bujaru,dados_bujaru__2_trabalhos,2 trabalhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.841088347120715,2040,8.784711979958619
+Bujaru,dados_bujaru__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2030,0.6345907702241325
+Bujaru,dados_bujaru__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.168425938921089,2040,0.6341654432015779
+Bujaru,dados_bujaru__apenas_1_trabalho,Apenas 1 trabalho,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.8111850728090341,2030,91.15622269419435
+Bujaru,dados_bujaru__apenas_1_trabalho,Apenas 1 trabalho,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.8111850728090341,2040,89.05450206031911
+Bujaru,dados_bujaru__casais_com_filhos,Casais com filhos,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.8209827698733866,2030,42.939258085048095
+Bujaru,dados_bujaru__casais_com_filhos,Casais com filhos,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.8209827698733866,2040,32.68283258037013
+Bujaru,dados_bujaru__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.2918765843740445,2030,7.672233483491063
+Bujaru,dados_bujaru__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.2918765843740445,2040,7.986194564412591
+Bujaru,dados_bujaru__casais_sem_filhos,Casais sem filhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,1.6423805376824765,2030,13.46886544337091
+Bujaru,dados_bujaru__casais_sem_filhos,Casais sem filhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,1.6423805376824765,2040,16.03590714145257
+Bujaru,dados_bujaru__conta_propria,Conta própria,dados_bujaru,Grupo 2 — 3 censos,tanh,lbfgs,True,0.4301823884162281,2030,5.966849903782577
+Bujaru,dados_bujaru__conta_propria,Conta própria,dados_bujaru,Grupo 2 — 3 censos,tanh,lbfgs,True,0.4301823884162281,2040,5.950454486737873
+Bujaru,dados_bujaru__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.7619836566178441,2030,22.021687205138313
+Bujaru,dados_bujaru__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.7619836566178441,2040,26.471572239806363
+Bujaru,dados_bujaru__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2030,25.268793689380082
+Bujaru,dados_bujaru__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.914169645101385,2040,29.811896464596355
+Bujaru,dados_bujaru__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.8236226632155011,2030,18.934817881407742
+Bujaru,dados_bujaru__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.8236226632155011,2040,5.0392375281311885
+Bujaru,dados_bujaru__empregador,Empregador,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2030,349.37587378760156
+Bujaru,dados_bujaru__empregador,Empregador,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2040,440.237929291927
+Bujaru,dados_bujaru__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,adam,True,9.838560681115387,2030,95.98100089916387
+Bujaru,dados_bujaru__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,adam,True,9.838560681115387,2040,97.41400488072985
+Bujaru,dados_bujaru__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,5.289400995963981,2030,65.1375322928124
+Bujaru,dados_bujaru__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,5.289400995963981,2040,71.20430306436923
+Bujaru,dados_bujaru__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.972567812124472,2030,20.40209486255058
+Bujaru,dados_bujaru__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.972567812124472,2040,25.186053664425913
+Bujaru,dados_bujaru__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.06527617708006078,2030,0.7695763244431678
+Bujaru,dados_bujaru__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.06527617708006078,2040,0.9465482519929223
+Bujaru,dados_bujaru__idade_mediana,Idade Mediana,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2030,31.161202818061344
+Bujaru,dados_bujaru__idade_mediana,Idade Mediana,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2040,35.07294055052432
+Bujaru,dados_bujaru__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2030,87.34396844690039
+Bujaru,dados_bujaru__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2040,110.05948232298175
+Bujaru,dados_bujaru__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.2334704495117812,2030,21.891765902996948
+Bujaru,dados_bujaru__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.2334704495117812,2040,25.535344920835655
+Bujaru,dados_bujaru__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.40707588814796053,2030,4.776239662003079
+Bujaru,dados_bujaru__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.40707588814796053,2040,5.2385973586755545
+Bujaru,dados_bujaru__media_populacao_amarela,Média: População Amarela,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923227,2030,8.129529143915223
+Bujaru,dados_bujaru__media_populacao_amarela,Média: População Amarela,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.5321241025923227,2040,9.796584563055381
+Bujaru,dados_bujaru__media_populacao_branca,Média: População Branca,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.27346060788031074,2030,7.949615742458855
+Bujaru,dados_bujaru__media_populacao_branca,Média: População Branca,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.27346060788031074,2040,9.575214892743226
+Bujaru,dados_bujaru__media_populacao_indigena,Média: População Indígena,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.31916909013537986,2030,5.676288493408842
+Bujaru,dados_bujaru__media_populacao_indigena,Média: População Indígena,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.31916909013537986,2040,7.074852930360577
+Bujaru,dados_bujaru__media_populacao_preta_parda,Média: População Preta / Parda,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853983,2030,7.573013772284235
+Bujaru,dados_bujaru__media_populacao_preta_parda,Média: População Preta / Parda,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853983,2040,9.245055732181001
+Bujaru,dados_bujaru__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,414.277980230678,2030,951.2726287466105
+Bujaru,dados_bujaru__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,414.277980230678,2040,995.3444985103852
+Bujaru,dados_bujaru__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.18024989133761501,2030,4.135587529525735
+Bujaru,dados_bujaru__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.18024989133761501,2040,4.4201291433601275
+Bujaru,dados_bujaru__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,tanh,lbfgs,True,0.9375906985292547,2030,3.0707743344789393
+Bujaru,dados_bujaru__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bujaru,Grupo 2 — 3 censos,tanh,lbfgs,True,0.9375906985292547,2040,3.0348694069383777
+Bujaru,dados_bujaru__populacao_amarela,População Amarela,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,17.19494800812215,2030,12.405414129905957
+Bujaru,dados_bujaru__populacao_amarela,População Amarela,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,17.19494800812215,2040,9.542065673545444
+Bujaru,dados_bujaru__populacao_branca,População Branca,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.1540492791670983,2030,3.2396992358508383
+Bujaru,dados_bujaru__populacao_branca,População Branca,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.1540492791670983,2040,2.7240371033698807
+Bujaru,dados_bujaru__populacao_indigena,População Indígena,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,41.416087222055324,2030,143.5781329466783
+Bujaru,dados_bujaru__populacao_indigena,População Indígena,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,41.416087222055324,2040,138.1924039393201
+Bujaru,dados_bujaru__populacao_indigena_total,População Indígena Total,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,41.416087222055324,2030,143.5781329466783
+Bujaru,dados_bujaru__populacao_indigena_total,População Indígena Total,dados_bujaru,Grupo 2 — 3 censos,tanh,sgd,True,41.416087222055324,2040,138.1924039393201
+Bujaru,dados_bujaru__populacao_parda,População Parda,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,1.6667402726485676,2030,18.105718591931044
+Bujaru,dados_bujaru__populacao_parda,População Parda,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,1.6667402726485676,2040,18.101635622796092
+Bujaru,dados_bujaru__populacao_preta,População Preta,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.3958421467723177,2030,1.5292606367348003
+Bujaru,dados_bujaru__populacao_preta,População Preta,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.3958421467723177,2040,1.5280900838673706
+Bujaru,dados_bujaru__populacao_rural,População Rural,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,1.3375696433467315,2030,16.418917210505683
+Bujaru,dados_bujaru__populacao_rural,População Rural,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,1.3375696433467315,2040,16.413473711899183
+Bujaru,dados_bujaru__populacao_urbana,População Urbana,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.7486567774587348,2030,9.162834821647358
+Bujaru,dados_bujaru__populacao_urbana,População Urbana,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.7486567774587348,2040,9.530480749313707
+Bujaru,dados_bujaru__populacao_com_superior_completo,População com Superior Completo,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,212.47254725914445,2030,1092.6887454235289
+Bujaru,dados_bujaru__populacao_com_superior_completo,População com Superior Completo,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,212.47254725914445,2040,1422.9519077904615
+Bujaru,dados_bujaru__populacao_de_homens,População de Homens,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.8384076336116285,2030,12.627431248097068
+Bujaru,dados_bujaru__populacao_de_homens,População de Homens,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.8384076336116285,2040,12.62494969992792
+Bujaru,dados_bujaru__populacao_de_mulheres,População de Mulheres,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.7162936936453738,2030,11.532574917724709
+Bujaru,dados_bujaru__populacao_de_mulheres,População de Mulheres,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,0.7162936936453738,2040,11.530406813952292
+Bujaru,dados_bujaru__proporcao_na_populacao_de_bujaru,Proporção na população de Bujaru,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,0.24753875168586922,2030,0.6516600937104801
+Bujaru,dados_bujaru__proporcao_na_populacao_de_bujaru,Proporção na população de Bujaru,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,0.24753875168586922,2040,0.6606344478601361
+Bujaru,dados_bujaru__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2030,105.92545903603958
+Bujaru,dados_bujaru__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2040,103.96290604335647
+Bujaru,dados_bujaru__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,110.1916775300278,2030,641.866053411749
+Bujaru,dados_bujaru__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,110.1916775300278,2040,815.6553576038337
+Bujaru,dados_bujaru__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,1.2506931097701919,2030,38.82717726194867
+Bujaru,dados_bujaru__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,1.2506931097701919,2040,28.393119890368393
+Bujaru,dados_bujaru__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,1.6423805376824765,2030,13.46886544337091
+Bujaru,dados_bujaru__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bujaru,Grupo 2 — 3 censos,relu,lbfgs,True,1.6423805376824765,2040,16.03590714145257
+Bujaru,dados_bujaru__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.2334704495117812,2030,21.891765902996948
+Bujaru,dados_bujaru__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.2334704495117812,2040,25.535344920835655
+Bujaru,dados_bujaru__responsavel_homem,Responsável Homem,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.1372714062232053,2030,2.8225009352119597
+Bujaru,dados_bujaru__responsavel_homem,Responsável Homem,dados_bujaru,Grupo 2 — 3 censos,identity,lbfgs,True,0.1372714062232053,2040,2.006566588369337
+Bujaru,dados_bujaru__responsavel_mulher,Responsável Mulher,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Bujaru,dados_bujaru__responsavel_mulher,Responsável Mulher,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Bujaru,dados_bujaru__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Bujaru,dados_bujaru__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Bujaru,dados_bujaru__setor_privado,Setor privado,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,462.3190218310355,2030,-3.6225028885325514
+Bujaru,dados_bujaru__setor_privado,Setor privado,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,462.3190218310355,2040,20.752888956599634
+Bujaru,dados_bujaru__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,335.6819877910623,2030,278.518117926973
+Bujaru,dados_bujaru__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,335.6819877910623,2040,277.2826255351676
+Bujaru,dados_bujaru__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,524.263744041219,2030,531.7118742162132
+Bujaru,dados_bujaru__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,sgd,True,524.263744041219,2040,529.589918715411
+Bujaru,dados_bujaru__setor_publico,Setor público,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,489.9216959412324,2030,-4.444641202136495
+Bujaru,dados_bujaru__setor_publico,Setor público,dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,489.9216959412324,2040,21.38732757883838
+Bujaru,dados_bujaru__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2030,106.8974426752009
+Bujaru,dados_bujaru__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2040,140.27820913983348
+Bujaru,dados_bujaru__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,484.4119430255023,2030,-4.462418832471201
+Bujaru,dados_bujaru__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bujaru,Grupo 2 — 3 censos,tanh,adam,True,484.4119430255023,2040,21.079246471491786
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.1585628837451676,2030,36.452435144344975
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,1.1585628837451676,2040,44.53095569797826
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,lbfgs,True,5.384641129879436,2030,94.94998553908773
+Bujaru,dados_bujaru__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,lbfgs,True,5.384641129879436,2040,95.30034437508452
+Bujaru,dados_bujaru__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,adam,True,9.838560681115387,2030,95.98100089916387
+Bujaru,dados_bujaru__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bujaru,Grupo 2 — 3 censos,logistic,adam,True,9.838560681115387,2040,97.41400488072985
+Bujaru,dados_bujaru__trabalhador_domestico,Trabalhador doméstico,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,40.96614381074634,2030,476.1482083311287
+Bujaru,dados_bujaru__trabalhador_domestico,Trabalhador doméstico,dados_bujaru,Grupo 2 — 3 censos,relu,adam,True,40.96614381074634,2040,517.7565794897833
+Bujaru,dados_bujaru__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,12.18014764968396,2030,89.70429324641069
+Bujaru,dados_bujaru__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bujaru,Grupo 2 — 3 censos,identity,adam,True,12.18014764968396,2040,117.0862352657443
+Bujaru,dados_bujaru__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,lbfgs,True,49.1113430505554,2030,375.04846569479656
+Bujaru,dados_bujaru__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bujaru,Grupo 2 — 3 censos,logistic,lbfgs,True,49.1113430505554,2040,377.08662024226686
+Bujaru,dados_bujaru__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bujaru,Grupo 2 — 3 censos,relu,sgd,True,7.438841129058548,2030,32.56892550724234
+Bujaru,dados_bujaru__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bujaru,Grupo 2 — 3 censos,relu,sgd,True,7.438841129058548,2040,41.08801692878858
+Bujaru,dados_bujaru__a_pe,A pé,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.672095413885764
+Bujaru,dados_bujaru__a_pe,A pé,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.792826386095381
+Bujaru,dados_bujaru__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.37930814500994
+Bujaru,dados_bujaru__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.39269756110406
+Bujaru,dados_bujaru__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.649311348776905
+Bujaru,dados_bujaru__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.91651466411775
+Bujaru,dados_bujaru__bicicleta,Bicicleta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.570528815700335
+Bujaru,dados_bujaru__bicicleta,Bicicleta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.1409363638757313
+Bujaru,dados_bujaru__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.20882814776951
+Bujaru,dados_bujaru__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.55625853606989
+Bujaru,dados_bujaru__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Bujaru,dados_bujaru__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Bujaru,dados_bujaru__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.67209541388576
+Bujaru,dados_bujaru__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.792826386095385
+Bujaru,dados_bujaru__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.90435764057552
+Bujaru,dados_bujaru__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.522685817486659
+Bujaru,dados_bujaru__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.95653646086328
+Bujaru,dados_bujaru__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.88402872622999
+Bujaru,dados_bujaru__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.11347912386589454
+Bujaru,dados_bujaru__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.7925687361127152
+Bujaru,dados_bujaru__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.42695824773179
+Bujaru,dados_bujaru__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.61486252777457
+Bujaru,dados_bujaru__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.776834494676212
+Bujaru,dados_bujaru__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.219600240802205
+Bujaru,dados_bujaru__estuda_no_proprio_municipio_bujaru,Estuda no próprio município (Bujaru),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.4777415468245
+Bujaru,dados_bujaru__estuda_no_proprio_municipio_bujaru,Estuda no próprio município (Bujaru),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,86.9408075388844
+Bujaru,dados_bujaru__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.687039944891914
+Bujaru,dados_bujaru__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.9428294486366
+Bujaru,dados_bujaru__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.477741546824504
+Bujaru,dados_bujaru__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.940807538884394
+Bujaru,dados_bujaru__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.77683449467621
+Bujaru,dados_bujaru__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.21960024080221
+Bujaru,dados_bujaru__mais_de_1_hora_deslocamento_por_rodovias_vici,Mais de 1 hora (Deslocamento por rodovias/vicinais),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.492774887913622
+Bujaru,dados_bujaru__mais_de_1_hora_deslocamento_por_rodovias_vici,Mais de 1 hora (Deslocamento por rodovias/vicinais),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.832485937887757
+Bujaru,dados_bujaru__motocicleta,Motocicleta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.93635129366881
+Bujaru,dados_bujaru__motocicleta,Motocicleta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.45934411275434
+Bujaru,dados_bujaru__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.69278726887585
+Bujaru,dados_bujaru__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.800128824991354
+Bujaru,dados_bujaru__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.910205450215706
+Bujaru,dados_bujaru__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.7232292078344
+Bujaru,dados_bujaru__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.68703994489192
+Bujaru,dados_bujaru__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.94282944863662
+Bujaru,dados_bujaru__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_amarela_2,População Amarela,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_amarela_2,População Amarela,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_branca_2,População Branca,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_branca_2,População Branca,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_indigena_2,População Indígena,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_indigena_2,População Indígena,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_parda_2,População Parda,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_parda_2,População Parda,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_preta_2,População Preta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_preta_2,População Preta,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__populacao_residente_em_favelas,População Residente em Favelas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__populacao_residente_em_favelas,População Residente em Favelas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Bujaru,dados_bujaru__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Bujaru,dados_bujaru__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0134791238658947
+Bujaru,dados_bujaru__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.107431263887285
+Bujaru,dados_bujaru__ruas_sem_arvores,Ruas Sem Árvores,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.343570567968545
+Bujaru,dados_bujaru__ruas_sem_arvores,Ruas Sem Árvores,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.7260738361011576
+Bujaru,dados_bujaru__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.00584780964019
+Bujaru,dados_bujaru__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.20054339034775
+Bujaru,dados_bujaru__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.292774887913625
+Bujaru,dados_bujaru__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.632485937887761
+Bujaru,dados_bujaru__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.20882814776951
+Bujaru,dados_bujaru__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,67.55625853606989
+Bujaru,dados_bujaru__sem_conjuge,Sem cônjuge,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.176890927985454
+Bujaru,dados_bujaru__sem_conjuge,Sem cônjuge,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.1750436913505
+Bujaru,dados_bujaru__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Bujaru,dados_bujaru__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Bujaru,dados_bujaru__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.16525174201431
+Bujaru,dados_bujaru__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.329400361203305
+Bujaru,dados_bujaru__trabalha_em_outro_municipio_ex_santa_izabel_b,Trabalha em outro município (ex: Santa Izabel / Belém / Castanhal),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.144953708201387
+Bujaru,dados_bujaru__trabalha_em_outro_municipio_ex_santa_izabel_b,Trabalha em outro município (ex: Santa Izabel / Belém / Castanhal),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.793828846631094
+Bujaru,dados_bujaru__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Bujaru),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.00313319637085
+Bujaru,dados_bujaru__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Bujaru),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.1037800444393
+Bujaru,dados_bujaru__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.005847809640183
+Bujaru,dados_bujaru__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.20054339034774
+Bujaru,dados_bujaru__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.85808306323718
+Bujaru,dados_bujaru__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.917329749639364
+Bujaru,dados_bujaru__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Bujaru,dados_bujaru__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bujaru,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
