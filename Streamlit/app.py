@@ -334,6 +334,76 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_novo_progresso_tratados.csv",
     },
+    {
+        "nome":    "Curralinho",
+        "pasta":   "data",
+        "arquivo": "indicadores_curralinho_tratados.csv",
+    },
+    {
+        "nome":    "Oeiras do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_oeiras_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Almeirim",
+        "pasta":   "data",
+        "arquivo": "indicadores_almeirim_tratados.csv",
+    },
+    {
+        "nome":    "Anapu",
+        "pasta":   "data",
+        "arquivo": "indicadores_anapu_tratados.csv",
+    },
+    {
+        "nome":    "Ourilândia do Norte",
+        "pasta":   "data",
+        "arquivo": "indicadores_ourilândia_do_norte_tratados.csv",
+    },
+    {
+        "nome":    "Bagre",
+        "pasta":   "data",
+        "arquivo": "indicadores_bagre_tratados.csv",
+    },
+    {
+        "nome":    "Gurupá",
+        "pasta":   "data",
+        "arquivo": "indicadores_gurupá_tratados.csv",
+    },
+    {
+        "nome":    "Irituia",
+        "pasta":   "data",
+        "arquivo": "indicadores_irituia_tratados.csv",
+    },
+    {
+        "nome":    "São Domingos do Capim",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_domingos_do_capim_tratados.csv",
+    },
+    {
+        "nome":    "Limoeiro do Ajuru",
+        "pasta":   "data",
+        "arquivo": "indicadores_limoeiro_do_ajuru_tratados.csv",
+    },
+    {
+        "nome":    "Tracuateua",
+        "pasta":   "data",
+        "arquivo": "indicadores_tracueateua_tratados.csv",
+    },
+    {
+        "nome":    "Santana do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_santana_do_araguaia_tratados.csv",
+    },
+    {
+        "nome":    "Anajás",
+        "pasta":   "data",
+        "arquivo": "indicadores_anajás_tratados.csv",
+    },
+    {
+        "nome":    "Melgaço",
+        "pasta":   "data",
+        "arquivo": "indicadores_melgaço_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
