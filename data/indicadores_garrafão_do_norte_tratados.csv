@@ -1,0 +1,300 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Garrafão do Norte,dados_garrafao_do_norte__populacao_total,População Total,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.901773971247473,1991,21.139,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_total,População Total,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.901773971247473,2000,23.513,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_total,População Total,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.901773971247473,2010,25.034,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_total,População Total,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.901773971247473,2022,24.629,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_urbana,População Urbana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.749869635281378,2000,7.151,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_urbana,População Urbana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.749869635281378,2010,10.512,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_urbana,População Urbana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.749869635281378,2022,10.702,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_rural,População Rural,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.7525243965808416,2000,16.362,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_rural,População Rural,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.7525243965808416,2010,14.522,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_rural,População Rural,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.7525243965808416,2022,13.927,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_mulheres,População de Mulheres,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5114081257427673,2000,11.021,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_mulheres,População de Mulheres,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5114081257427673,2010,11.89,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_mulheres,População de Mulheres,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5114081257427673,2022,11.838,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_homens,População de Homens,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3365168013432462,2000,12.492,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_homens,População de Homens,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3365168013432462,2010,13.144,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_de_homens,População de Homens,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.3365168013432462,2022,12.791,Valor
+Garrafão do Norte,dados_garrafao_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6558532365314941,2000,113.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6558532365314941,2010,110.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6558532365314941,2022,108.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idade_mediana,Idade Mediana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2000,18.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idade_mediana,Idade Mediana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2010,21.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idade_mediana,Idade Mediana,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2022,28.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,7.735983642280669,2000,5.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,7.735983642280669,2010,9.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,7.735983642280669,2022,27.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_parda,População Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.987831215711464,2000,16.94,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_parda,População Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.987831215711464,2010,18.82,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_parda,População Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.987831215711464,2022,18.91,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_branca,População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.2899691496925114,2000,4.82,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_branca,População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.2899691496925114,2010,4.11,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_branca,População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,0.2899691496925114,2022,3.89,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_preta,População Preta,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.32557784226174036,2000,1.21,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_preta,População Preta,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.32557784226174036,2010,1.78,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_preta,População Preta,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.32557784226174036,2022,1.62,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_amarela,População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,17.590204485133988,2000,85.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_amarela,População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,17.590204485133988,2010,42.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_amarela,População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,sgd,True,17.590204485133988,2022,28.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena,População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2000,458.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena,População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2010,282.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena,População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2022,181.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.61726666878018,2000,68.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.61726666878018,2010,184.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.61726666878018,2022,482.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0737449164169608,2000,96.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0737449164169608,2010,95.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0737449164169608,2022,93.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__2_trabalhos,2 trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8609864254001923,2000,3.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__2_trabalhos,2 trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8609864254001923,2010,3.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__2_trabalhos,2 trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8609864254001923,2022,6.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2000,0.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2010,0.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20224865098067824,2022,0.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado,Setor privado,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,489.83989181226434,2000,890.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado,Setor privado,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,489.83989181226434,2010,1.64,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado,Setor privado,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,489.83989181226434,2022,2.18,Valor
+Garrafão do Norte,dados_garrafao_do_norte__conta_propria,Conta própria,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.40320111794198077,2000,5.12,Valor
+Garrafão do Norte,dados_garrafao_do_norte__conta_propria,Conta própria,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.40320111794198077,2010,5.98,Valor
+Garrafão do Norte,dados_garrafao_do_norte__conta_propria,Conta própria,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.40320111794198077,2022,6.14,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico,Setor público,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,451.3797690912767,2000,820.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico,Setor público,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,451.3797690912767,2010,1.24,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico,Setor público,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,451.3797690912767,2022,1.58,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,37.892244969435694,2000,210.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,37.892244969435694,2010,340.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,37.892244969435694,2022,420.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__empregador,Empregador,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252173127130106,2000,90.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__empregador,Empregador,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252173127130106,2010,180.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__empregador,Empregador,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252173127130106,2022,290.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,453.6269950096343,2000,2.94,Valor
+Garrafão do Norte,dados_garrafao_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,453.6269950096343,2010,1.89,Valor
+Garrafão do Norte,dados_garrafao_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,453.6269950096343,2022,920.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2000,15.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2010,30.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2022,60.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,345.7623515910768,2000,210.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,345.7623515910768,2010,620.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,345.7623515910768,2022,1.04,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,374.2344390598787,2000,680.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,374.2344390598787,2010,1.02,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,374.2344390598787,2022,1.14,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2000,10.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2010,40.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,3.037080823305691,2022,80.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,445.8700161755468,2000,810.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,445.8700161755468,2010,1.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,445.8700161755468,2022,1.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2000,10.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2010,30.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,12.18014764968396,2022,70.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,44.87200364246661,2000,200.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,44.87200364246661,2010,310.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,44.87200364246661,2022,350.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.289276326749615,1991,38.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.289276326749615,2000,54.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.289276326749615,2010,71.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.289276326749615,2022,79.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.753430264192858,2000,74.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.753430264192858,2010,88.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.753430264192858,2022,93.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.1889473957318735,2000,11.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.1889473957318735,2010,18.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.1889473957318735,2022,28.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2000,62.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2010,84.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2022,90.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,210.45939569475036,2000,32.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,210.45939569475036,2010,210.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,210.45939569475036,2022,780.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.15380799704623233,1991,1.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.15380799704623233,2000,2.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.15380799704623233,2010,4.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.15380799704623233,2022,6.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.1424973517983178,1991,1.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.1424973517983178,2000,2.7,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.1424973517983178,2010,4.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.1424973517983178,2022,6.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.16511676600143144,1991,1.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.16511676600143144,2000,2.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.16511676600143144,2010,3.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.16511676600143144,2022,5.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06720528191700327,1991,0.082,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06720528191700327,2000,0.198,Valor
+Garrafão do Norte,dados_garrafao_do_norte__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06720528191700327,2010,0.412,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2000,62.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2010,84.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,9.588107761849507,2022,90.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.156102842473544,2000,28.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.156102842473544,2010,46.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,5.156102842473544,2022,58.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0943692886213114,2000,5.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0943692886213114,2010,10.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0943692886213114,2022,15.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_amarela,Média: População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2000,2.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_amarela,Média: População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2010,4.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_amarela,Média: População Amarela,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923222,2022,6.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_branca,Média: População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2000,2.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_branca,Média: População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2010,4.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_branca,Média: População Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2022,6.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853939,2000,2.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853939,2010,4.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853939,2022,6.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_indigena,Média: População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.3191690901353798,2000,1.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_indigena,Média: População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.3191690901353798,2010,2.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_populacao_indigena,Média: População Indígena,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.3191690901353798,2022,4.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_residente_em_favelas,População Residente em Favelas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_residente_em_favelas,População Residente em Favelas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_parda_2,População Parda,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_parda_2,População Parda,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_branca_2,População Branca,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_branca_2,População Branca,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_preta_2,População Preta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_preta_2,População Preta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_amarela_2,População Amarela,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_amarela_2,População Amarela,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena_2,População Indígena,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena_2,População Indígena,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos,Casais com filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.8519468039502721,2000,74.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos,Casais com filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.8519468039502721,2010,64.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos,Casais com filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.8519468039502721,2022,52.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_sem_filhos,Casais sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2000,4.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_sem_filhos,Casais sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2010,6.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_sem_filhos,Casais sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2022,10.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2000,10.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2010,13.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2022,18.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,0.2572654875754418,2000,3.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,0.2572654875754418,2010,3.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,sgd,True,0.2572654875754418,2022,3.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407544,2000,5.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407544,2010,6.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407544,2022,7.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.4070758881479603,2000,1.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.4070758881479603,2010,3.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.4070758881479603,2022,4.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0479897619906124,2000,0.7,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0479897619906124,2010,2.9,Valor
+Garrafão do Norte,dados_garrafao_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0479897619906124,2022,3.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_no_proprio_municipio_de_residencia_g,Trabalha no próprio município de residência (Garrafão),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_no_proprio_municipio_de_residencia_g,Trabalha no próprio município de residência (Garrafão),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_em_outro_municipio_ex_nova_esperanca,Trabalha em outro município (ex: Nova Esperança do Piriá / Belém),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__trabalha_em_outro_municipio_ex_nova_esperanca,Trabalha em outro município (ex: Nova Esperança do Piriá / Belém),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__motocicleta,Motocicleta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__motocicleta,Motocicleta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__a_pe,A pé,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__a_pe,A pé,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__bicicleta,Bicicleta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__bicicleta,Bicicleta,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__mais_de_1_hora_deslocamento_pela_pa_256_vicin,Mais de 1 hora (Deslocamento pela PA-256 / vicinais),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__mais_de_1_hora_deslocamento_pela_pa_256_vicin,Mais de 1 hora (Deslocamento pela PA-256 / vicinais),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.7,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estuda_no_proprio_municipio_garrafao,Estuda no próprio município (Garrafão),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estuda_no_proprio_municipio_garrafao,Estuda no próprio município (Garrafão),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estuda_em_outro_municipio_ex_paragominas_bele,Estuda em outro município (ex: Paragominas / Belém),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estuda_em_outro_municipio_ex_paragominas_bele,Estuda em outro município (ex: Paragominas / Belém),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08874875601656507,1991,3.64,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08874875601656507,2000,4.68,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08874875601656507,2010,5.92,Valor
+Garrafão do Norte,dados_garrafao_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08874875601656507,2022,7.48,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09896869852225654,1991,3.52,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09896869852225654,2000,4.56,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09896869852225654,2010,5.81,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09896869852225654,2022,7.39,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,relu,lbfgs,True,4.0231272267701,1991,120.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,relu,lbfgs,True,4.0231272267701,2000,120.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,relu,lbfgs,True,4.0231272267701,2010,110.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_garrafao_do_norte,Grupo 1 — 4 censos,4,relu,lbfgs,True,4.0231272267701,2022,90.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.034726196171290136,1991,5.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.034726196171290136,2000,5.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.034726196171290136,2010,4.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_garrafao_do_norte,Grupo 1 — 4 censos,4,identity,adam,True,0.034726196171290136,2022,3.3,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_sem_arvores,Ruas Sem Árvores,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ruas_sem_arvores,Ruas Sem Árvores,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,74.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena_total,População Indígena Total,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2000,458.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena_total,População Indígena Total,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2010,282.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__populacao_indigena_total,População Indígena Total,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,49.29447273067991,2022,181.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__proporcao_na_populacao_de_garrafao_norte,Proporção na população de Garrafão Norte,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.27603068005190295,2000,1.95,Valor
+Garrafão do Norte,dados_garrafao_do_norte__proporcao_na_populacao_de_garrafao_norte,Proporção na população de Garrafão Norte,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.27603068005190295,2010,1.13,Valor
+Garrafão do Norte,dados_garrafao_do_norte__proporcao_na_populacao_de_garrafao_norte,Proporção na população de Garrafão Norte,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.27603068005190295,2022,0.73,Valor
+Garrafão do Norte,dados_garrafao_do_norte__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,71.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2000,10.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2010,13.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.5834191944589164,2022,18.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5795858908462014,2000,71.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5795858908462014,2010,60.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5795858908462014,2022,48.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2000,4.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2010,6.1,Valor
+Garrafão do Norte,dados_garrafao_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6923591707456334,2022,10.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__sem_conjuge,Sem cônjuge,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__sem_conjuge,Sem cônjuge,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_garrafao_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_mulher,Responsável Mulher,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_mulher,Responsável Mulher,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_mulher,Responsável Mulher,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,3.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_homem,Responsável Homem,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2000,5.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_homem,Responsável Homem,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2010,4.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_homem,Responsável Homem,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2022,3.5,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.6,Valor
+Garrafão do Norte,dados_garrafao_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,3.0,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178423,2000,8.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178423,2010,12.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178423,2022,18.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7315991446311395,2000,11.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7315991446311395,2010,15.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.7315991446311395,2022,21.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302020122998167,2000,62.4,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302020122998167,2010,48.2,Valor
+Garrafão do Norte,dados_garrafao_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_garrafao_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302020122998167,2022,31.4,Valor
