@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Igarapé-Açu,dados_igarape_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.2268409993906736,2030,9.442196850558979
+Igarapé-Açu,dados_igarape_acu__anos_de_estudo_media,Anos de Estudo (Média),dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.2268409993906736,2040,11.372904119824684
+Igarapé-Açu,dados_igarape_acu__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_igarape_acu,Grupo 1 — 4 censos,tanh,sgd,True,26.709030667472604,2030,236.6823140883871
+Igarapé-Açu,dados_igarape_acu__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_igarape_acu,Grupo 1 — 4 censos,tanh,sgd,True,26.709030667472604,2040,236.04485078478112
+Igarapé-Açu,dados_igarape_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3998855998676776,2030,12.339163971231669
+Igarapé-Açu,dados_igarape_acu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,0.3998855998676776,2040,12.84157664680857
+Igarapé-Açu,dados_igarape_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.20342073157541313,2030,8.956947476588935
+Igarapé-Açu,dados_igarape_acu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.20342073157541313,2040,10.821690802338772
+Igarapé-Açu,dados_igarape_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_igarape_acu,Grupo 1 — 4 censos,identity,lbfgs,True,0.28318680589427925,2030,9.935120607619687
+Igarapé-Açu,dados_igarape_acu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_igarape_acu,Grupo 1 — 4 censos,identity,lbfgs,True,0.28318680589427925,2040,11.939379575837988
+Igarapé-Açu,dados_igarape_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.10106345734184918,2030,2.3918388845578304
+Igarapé-Açu,dados_igarape_acu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_igarape_acu,Grupo 1 — 4 censos,identity,adam,True,0.10106345734184918,2040,1.5959318505708135
+Igarapé-Açu,dados_igarape_acu__populacao_total,População Total,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,1.2877331275685995,2030,35.64872129970767
+Igarapé-Açu,dados_igarape_acu__populacao_total,População Total,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,1.2877331275685995,2040,35.55997431476126
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,3.602425856252374,2030,89.7872152614142
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,3.602425856252374,2040,90.83220947070151
+Igarapé-Açu,dados_igarape_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,0.39261598614134563,2030,12.518628953593039
+Igarapé-Açu,dados_igarape_acu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_igarape_acu,Grupo 1 — 4 censos,logistic,lbfgs,True,0.39261598614134563,2040,12.975498601745795
+Igarapé-Açu,dados_igarape_acu__2_trabalhos,2 trabalhos,dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,1.0111557619541276,2030,9.177928412588903
+Igarapé-Açu,dados_igarape_acu__2_trabalhos,2 trabalhos,dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,1.0111557619541276,2040,10.79479742065358
+Igarapé-Açu,dados_igarape_acu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.07206673662443482,2030,0.7670506827997788
+Igarapé-Açu,dados_igarape_acu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.07206673662443482,2040,0.766847890245326
+Igarapé-Açu,dados_igarape_acu__apenas_1_trabalho,Apenas 1 trabalho,dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,0.9367129290587949,2030,89.62827389916711
+Igarapé-Açu,dados_igarape_acu__apenas_1_trabalho,Apenas 1 trabalho,dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,0.9367129290587949,2040,87.36385982518438
+Igarapé-Açu,dados_igarape_acu__casais_com_filhos,Casais com filhos,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,3.240473834131419,2030,41.72942920670327
+Igarapé-Açu,dados_igarape_acu__casais_com_filhos,Casais com filhos,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,3.240473834131419,2040,35.53529207763785
+Igarapé-Açu,dados_igarape_acu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2030,8.26819763601095
+Igarapé-Açu,dados_igarape_acu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264478,2040,8.266983373481924
+Igarapé-Açu,dados_igarape_acu__casais_sem_filhos,Casais sem filhos,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247502,2030,15.572613093515127
+Igarapé-Açu,dados_igarape_acu__casais_sem_filhos,Casais sem filhos,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247502,2040,18.758816594793927
+Igarapé-Açu,dados_igarape_acu__conta_propria,Conta própria,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2768035306276027,2030,8.408928928298266
+Igarapé-Açu,dados_igarape_acu__conta_propria,Conta própria,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2768035306276027,2040,8.372385081456045
+Igarapé-Açu,dados_igarape_acu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.274544595331817,2030,24.244833907167372
+Igarapé-Açu,dados_igarape_acu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.274544595331817,2040,28.61302586670361
+Igarapé-Açu,dados_igarape_acu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704236,2030,26.94263845190848
+Igarapé-Açu,dados_igarape_acu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704236,2040,31.282748978053675
+Igarapé-Açu,dados_igarape_acu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,2.4708865951563133,2030,14.805045215025903
+Igarapé-Açu,dados_igarape_acu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,2.4708865951563133,2040,2.1182174713243285
+Igarapé-Açu,dados_igarape_acu__empregador,Empregador,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,63.8469894545777,2030,915.4350165206015
+Igarapé-Açu,dados_igarape_acu__empregador,Empregador,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,63.8469894545777,2040,1145.3550649651481
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,7.190419880860257,2030,94.74095900008226
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,7.190419880860257,2040,94.53661647081458
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,4.93604643476372,2030,77.4959825888312
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,4.93604643476372,2040,83.40973266575843
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.1548748840446752,2030,28.701835421834282
+Igarapé-Açu,dados_igarape_acu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.1548748840446752,2040,34.569523465244856
+Igarapé-Açu,dados_igarape_acu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.016340118554017947,2030,0.9460697740355308
+Igarapé-Açu,dados_igarape_acu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.016340118554017947,2040,1.1496622213195655
+Igarapé-Açu,dados_igarape_acu__idade_mediana,Idade Mediana,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678784,2030,36.21825763972987
+Igarapé-Açu,dados_igarape_acu__idade_mediana,Idade Mediana,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.7622470851678784,2040,41.66412589942698
+Igarapé-Açu,dados_igarape_acu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2030,279.52636137880756
+Igarapé-Açu,dados_igarape_acu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2040,356.70036059233666
+Igarapé-Açu,dados_igarape_acu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2030,25.166677544421326
+Igarapé-Açu,dados_igarape_acu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2040,28.90049494975556
+Igarapé-Açu,dados_igarape_acu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.5555711189606525,2030,4.850405544025808
+Igarapé-Açu,dados_igarape_acu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.5555711189606525,2040,4.913263740620001
+Igarapé-Açu,dados_igarape_acu__media_populacao_amarela,Média: População Amarela,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2030,9.022323383050182
+Igarapé-Açu,dados_igarape_acu__media_populacao_amarela,Média: População Amarela,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2040,10.0304674541723
+Igarapé-Açu,dados_igarape_acu__media_populacao_branca,Média: População Branca,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.6537938648141449,2030,9.731141467394943
+Igarapé-Açu,dados_igarape_acu__media_populacao_branca,Média: População Branca,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.6537938648141449,2040,11.622768380221363
+Igarapé-Açu,dados_igarape_acu__media_populacao_indigena,Média: População Indígena,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366024,2030,7.424594394817682
+Igarapé-Açu,dados_igarape_acu__media_populacao_indigena,Média: População Indígena,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366024,2040,9.140504609006737
+Igarapé-Açu,dados_igarape_acu__media_populacao_preta_parda,Média: População Preta / Parda,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.5777008705723746,2030,9.154450203256875
+Igarapé-Açu,dados_igarape_acu__media_populacao_preta_parda,Média: População Preta / Parda,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.5777008705723746,2040,11.092422445363496
+Igarapé-Açu,dados_igarape_acu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_igarape_acu,Grupo 2 — 3 censos,tanh,adam,True,335.24545563343116,2030,770.1131745801665
+Igarapé-Açu,dados_igarape_acu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_igarape_acu,Grupo 2 — 3 censos,tanh,adam,True,335.24545563343116,2040,805.8050297761544
+Igarapé-Açu,dados_igarape_acu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005206,2030,4.224935957076476
+Igarapé-Açu,dados_igarape_acu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.04557676798005206,2040,4.495869148790538
+Igarapé-Açu,dados_igarape_acu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452595,2030,2.495564398696161
+Igarapé-Açu,dados_igarape_acu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452595,2040,2.906293528986165
+Igarapé-Açu,dados_igarape_acu__populacao_amarela,População Amarela,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,12.972837007674977,2030,22.99561789738506
+Igarapé-Açu,dados_igarape_acu__populacao_amarela,População Amarela,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,12.972837007674977,2040,3.8798778637276
+Igarapé-Açu,dados_igarape_acu__populacao_branca,População Branca,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.4334806105010737,2030,5.082213548087651
+Igarapé-Açu,dados_igarape_acu__populacao_branca,População Branca,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.4334806105010737,2040,4.594491649771529
+Igarapé-Açu,dados_igarape_acu__populacao_indigena,População Indígena,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,105.61927829676513,2030,211.5554772113499
+Igarapé-Açu,dados_igarape_acu__populacao_indigena,População Indígena,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,105.61927829676513,2040,211.14566031777665
+Igarapé-Açu,dados_igarape_acu__populacao_indigena_total,População Indígena Total,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,105.61927829676513,2030,211.5554772113499
+Igarapé-Açu,dados_igarape_acu__populacao_indigena_total,População Indígena Total,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,105.61927829676513,2040,211.14566031777665
+Igarapé-Açu,dados_igarape_acu__populacao_parda,População Parda,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.864141490712374,2030,27.362281604096204
+Igarapé-Açu,dados_igarape_acu__populacao_parda,População Parda,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,1.864141490712374,2040,27.291012060596316
+Igarapé-Açu,dados_igarape_acu__populacao_preta,População Preta,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,0.36780203077234325,2030,2.650138913941807
+Igarapé-Açu,dados_igarape_acu__populacao_preta,População Preta,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,0.36780203077234325,2040,2.6343162801019226
+Igarapé-Açu,dados_igarape_acu__populacao_rural,População Rural,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.19599301521210202,2030,10.64468069412317
+Igarapé-Açu,dados_igarape_acu__populacao_rural,População Rural,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.19599301521210202,2040,9.404708083576644
+Igarapé-Açu,dados_igarape_acu__populacao_urbana,População Urbana,dados_igarape_acu,Grupo 2 — 3 censos,logistic,adam,True,1.9295480160047092,2030,25.062365463085005
+Igarapé-Açu,dados_igarape_acu__populacao_urbana,População Urbana,dados_igarape_acu,Grupo 2 — 3 censos,logistic,adam,True,1.9295480160047092,2040,25.373705064016452
+Igarapé-Açu,dados_igarape_acu__populacao_com_superior_completo,População com Superior Completo,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,516.8351585177197,2030,329.94655073838345
+Igarapé-Açu,dados_igarape_acu__populacao_com_superior_completo,População com Superior Completo,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,516.8351585177197,2040,328.2479068606797
+Igarapé-Açu,dados_igarape_acu__populacao_de_homens,População de Homens,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.7916663314654157,2030,17.38790469986394
+Igarapé-Açu,dados_igarape_acu__populacao_de_homens,População de Homens,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.7916663314654157,2040,17.38599060594569
+Igarapé-Açu,dados_igarape_acu__populacao_de_mulheres,População de Mulheres,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8717252195355082,2030,18.09956654189288
+Igarapé-Açu,dados_igarape_acu__populacao_de_mulheres,População de Mulheres,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8717252195355082,2040,18.062279467712333
+Igarapé-Açu,dados_igarape_acu__proporcao_na_populacao_de_igarape_acu,Proporção na população de Igarapé-Açu,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.34990972094297207,2030,0.6207160261194473
+Igarapé-Açu,dados_igarape_acu__proporcao_na_populacao_de_igarape_acu,Proporção na população de Igarapé-Açu,dados_igarape_acu,Grupo 2 — 3 censos,logistic,sgd,True,0.34990972094297207,2040,0.6193581794273456
+Igarapé-Açu,dados_igarape_acu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.5338338879928841,2030,95.46529320873665
+Igarapé-Açu,dados_igarape_acu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.5338338879928841,2040,93.29220973718284
+Igarapé-Açu,dados_igarape_acu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,127.64057136928692,2030,864.2101361122554
+Igarapé-Açu,dados_igarape_acu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,127.64057136928692,2040,1123.3005679848632
+Igarapé-Açu,dados_igarape_acu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,2.8064421293262356,2030,34.148976314080215
+Igarapé-Açu,dados_igarape_acu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,2.8064421293262356,2040,24.46760940916107
+Igarapé-Açu,dados_igarape_acu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247502,2030,15.572613093515127
+Igarapé-Açu,dados_igarape_acu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,0.9746752405247502,2040,18.758816594793927
+Igarapé-Açu,dados_igarape_acu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2030,25.166677544421326
+Igarapé-Açu,dados_igarape_acu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.2182781935184295,2040,28.90049494975556
+Igarapé-Açu,dados_igarape_acu__responsavel_homem,Responsável Homem,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408355,2030,2.7461177256983405
+Igarapé-Açu,dados_igarape_acu__responsavel_homem,Responsável Homem,dados_igarape_acu,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408355,2040,1.9768835702961018
+Igarapé-Açu,dados_igarape_acu__responsavel_mulher,Responsável Mulher,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Igarapé-Açu,dados_igarape_acu__responsavel_mulher,Responsável Mulher,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Igarapé-Açu,dados_igarape_acu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Igarapé-Açu,dados_igarape_acu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Igarapé-Açu,dados_igarape_acu__setor_privado,Setor privado,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.7568682016250996,2030,7.451154905533423
+Igarapé-Açu,dados_igarape_acu__setor_privado,Setor privado,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.7568682016250996,2040,8.175607309948843
+Igarapé-Açu,dados_igarape_acu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,tanh,adam,True,539.0593030039568,2030,-2.6924164278902367
+Igarapé-Açu,dados_igarape_acu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,tanh,adam,True,539.0593030039568,2040,25.726279129374575
+Igarapé-Açu,dados_igarape_acu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.2560718274134665,2030,3.0429784992826687
+Igarapé-Açu,dados_igarape_acu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.2560718274134665,2040,3.2064071550798565
+Igarapé-Açu,dados_igarape_acu__setor_publico,Setor público,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.307734427462405,2030,3.498572292015239
+Igarapé-Açu,dados_igarape_acu__setor_publico,Setor público,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.307734427462405,2040,3.868313018665684
+Igarapé-Açu,dados_igarape_acu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2030,309.37587378760156
+Igarapé-Açu,dados_igarape_acu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,18.283392902027686,2040,400.237929291927
+Igarapé-Açu,dados_igarape_acu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.2862458966833237,2030,3.2157002556520102
+Igarapé-Açu,dados_igarape_acu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,0.2862458966833237,2040,3.5232386241993128
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.9448721956989143,2030,51.60071890171485
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,1.9448721956989143,2040,62.16457532677568
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,5.017613870451423,2030,97.16311062213055
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,5.017613870451423,2040,97.02241631800649
+Igarapé-Açu,dados_igarape_acu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,7.190419880860257,2030,94.74095900008226
+Igarapé-Açu,dados_igarape_acu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,7.190419880860257,2040,94.53661647081458
+Igarapé-Açu,dados_igarape_acu__trabalhador_domestico,Trabalhador doméstico,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,115.93022363910029,2030,888.0747990088357
+Igarapé-Açu,dados_igarape_acu__trabalhador_domestico,Trabalhador doméstico,dados_igarape_acu,Grupo 2 — 3 censos,relu,adam,True,115.93022363910029,2040,947.4044101062204
+Igarapé-Açu,dados_igarape_acu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2030,269.52636137880756
+Igarapé-Açu,dados_igarape_acu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2040,346.70036059233666
+Igarapé-Açu,dados_igarape_acu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,115.86559390827313,2030,624.4825041586691
+Igarapé-Açu,dados_igarape_acu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_igarape_acu,Grupo 2 — 3 censos,tanh,lbfgs,True,115.86559390827313,2040,619.4865515912575
+Igarapé-Açu,dados_igarape_acu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,7.186568417513489,2030,37.929670223111025
+Igarapé-Açu,dados_igarape_acu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_igarape_acu,Grupo 2 — 3 censos,relu,lbfgs,True,7.186568417513489,2040,49.10876166206179
+Igarapé-Açu,dados_igarape_acu__a_pe,A pé,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.668962217514903
+Igarapé-Açu,dados_igarape_acu__a_pe,A pé,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.689046341656077
+Igarapé-Açu,dados_igarape_acu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.19437792359676
+Igarapé-Açu,dados_igarape_acu__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.22123041184544
+Igarapé-Açu,dados_igarape_acu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.79122067069039
+Igarapé-Açu,dados_igarape_acu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.348238802771675
+Igarapé-Açu,dados_igarape_acu__automovel_onibus_van,Automóvel / Ônibus / Van,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.57396702316536
+Igarapé-Açu,dados_igarape_acu__automovel_onibus_van,Automóvel / Ônibus / Van,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.974771996176628
+Igarapé-Açu,dados_igarape_acu__bicicleta,Bicicleta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.534791238658945
+Igarapé-Açu,dados_igarape_acu__bicicleta,Bicicleta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-3.525687361127158
+Igarapé-Açu,dados_igarape_acu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.36823208014366
+Igarapé-Açu,dados_igarape_acu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.68511550692548
+Igarapé-Açu,dados_igarape_acu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.12774887913625
+Igarapé-Açu,dados_igarape_acu__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.52485937887762
+Igarapé-Açu,dados_igarape_acu__com_coleta_de_lixo,Com Coleta de Lixo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.86685477769745
+Igarapé-Açu,dados_igarape_acu__com_coleta_de_lixo,Com Coleta de Lixo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.71814483516097
+Igarapé-Açu,dados_igarape_acu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Igarapé-Açu,dados_igarape_acu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Igarapé-Açu,dados_igarape_acu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.982441341380806
+Igarapé-Açu,dados_igarape_acu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.09647760554338
+Igarapé-Açu,dados_igarape_acu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.220298033812933
+Igarapé-Açu,dados_igarape_acu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.735571514572216
+Igarapé-Açu,dados_igarape_acu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.388417247338106
+Igarapé-Açu,dados_igarape_acu__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.109800120401102
+Igarapé-Açu,dados_igarape_acu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.90435764057552
+Igarapé-Açu,dados_igarape_acu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.522685817486657
+Igarapé-Açu,dados_igarape_acu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Igarapé-Açu,dados_igarape_acu__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Igarapé-Açu,dados_igarape_acu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.689654072504968
+Igarapé-Açu,dados_igarape_acu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.696348780552027
+Igarapé-Açu,dados_igarape_acu__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.197132528489144
+Igarapé-Açu,dados_igarape_acu__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.15517175537442
+Igarapé-Açu,dados_igarape_acu__estuda_no_proprio_municipio_igarape_acu,Estuda no próprio município (Igarapé-Açu),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.79122067069041
+Igarapé-Açu,dados_igarape_acu__estuda_no_proprio_municipio_igarape_acu,Estuda no próprio município (Igarapé-Açu),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.34823880277169
+Igarapé-Açu,dados_igarape_acu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.504470507193986
+Igarapé-Açu,dados_igarape_acu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.23357271858324
+Igarapé-Açu,dados_igarape_acu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.44200396978312
+Igarapé-Açu,dados_igarape_acu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.274183813881516
+Igarapé-Açu,dados_igarape_acu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.33337095553951
+Igarapé-Açu,dados_igarape_acu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.70362896703222
+Igarapé-Açu,dados_igarape_acu__idade_mediana_2,Idade Mediana,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.68119213525173
+Igarapé-Açu,dados_igarape_acu__idade_mediana_2,Idade Mediana,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.742286058288865
+Igarapé-Açu,dados_igarape_acu__mais_de_1_hora_deslocamento_intermunicipal_vi,Mais de 1 hora (Deslocamento intermunicipal / vicinais),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.292774887913623
+Igarapé-Açu,dados_igarape_acu__mais_de_1_hora_deslocamento_intermunicipal_vi,Mais de 1 hora (Deslocamento intermunicipal / vicinais),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.632485937887765
+Igarapé-Açu,dados_igarape_acu__motocicleta,Motocicleta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.40298033812933
+Igarapé-Açu,dados_igarape_acu__motocicleta,Motocicleta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.55571514572216
+Igarapé-Açu,dados_igarape_acu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.6420039697831
+Igarapé-Açu,dados_igarape_acu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.474183813881496
+Igarapé-Açu,dados_igarape_acu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.420298033812933
+Igarapé-Açu,dados_igarape_acu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.935571514572216
+Igarapé-Açu,dados_igarape_acu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.489907416402765
+Igarapé-Açu,dados_igarape_acu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.787657693262176
+Igarapé-Açu,dados_igarape_acu__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.40298033812932
+Igarapé-Açu,dados_igarape_acu__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.55571514572216
+Igarapé-Açu,dados_igarape_acu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-436.9785010817172
+Igarapé-Açu,dados_igarape_acu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1015.5625435068578
+Igarapé-Açu,dados_igarape_acu__populacao_amarela_2,População Amarela,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Igarapé-Açu,dados_igarape_acu__populacao_amarela_2,População Amarela,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Igarapé-Açu,dados_igarape_acu__populacao_branca_2,População Branca,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,221.1892073136674
+Igarapé-Açu,dados_igarape_acu__populacao_branca_2,População Branca,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,271.6860084280772
+Igarapé-Açu,dados_igarape_acu__populacao_indigena_2,População Indígena,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.20298033812933
+Igarapé-Açu,dados_igarape_acu__populacao_indigena_2,População Indígena,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,23.35571514572216
+Igarapé-Açu,dados_igarape_acu__populacao_parda_2,População Parda,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-348.2367434471236
+Igarapé-Açu,dados_igarape_acu__populacao_parda_2,População Parda,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-809.3063784330386
+Igarapé-Açu,dados_igarape_acu__populacao_preta_2,População Preta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,127.21788202877596
+Igarapé-Açu,dados_igarape_acu__populacao_preta_2,População Preta,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,158.13429087433298
+Igarapé-Açu,dados_igarape_acu__populacao_residente_em_favelas,População Residente em Favelas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-436.9785010817172
+Igarapé-Açu,dados_igarape_acu__populacao_residente_em_favelas,População Residente em Favelas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1015.5625435068578
+Igarapé-Açu,dados_igarape_acu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.814506657481986
+Igarapé-Açu,dados_igarape_acu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.6904715747727677
+Igarapé-Açu,dados_igarape_acu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.15234989727814
+Igarapé-Açu,dados_igarape_acu__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.97783503332947
+Igarapé-Açu,dados_igarape_acu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9194353867061262
+Igarapé-Açu,dados_igarape_acu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2852018847210993
+Igarapé-Açu,dados_igarape_acu__ruas_sem_arvores,Ruas Sem Árvores,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.994353867061262
+Igarapé-Açu,dados_igarape_acu__ruas_sem_arvores,Ruas Sem Árvores,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.652018847210995
+Igarapé-Açu,dados_igarape_acu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.14208623669053
+Igarapé-Açu,dados_igarape_acu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.74900060200551
+Igarapé-Açu,dados_igarape_acu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.649311348776905
+Igarapé-Açu,dados_igarape_acu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.217430562302077
+Igarapé-Açu,dados_igarape_acu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.916514664117752
+Igarapé-Açu,dados_igarape_acu__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.690743269946633
+Igarapé-Açu,dados_igarape_acu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.89002028302124
+Igarapé-Açu,dados_igarape_acu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.12476854100693
+Igarapé-Açu,dados_igarape_acu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.29854459435877
+Igarapé-Açu,dados_igarape_acu__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.36914423315547
+Igarapé-Açu,dados_igarape_acu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Igarapé-Açu,dados_igarape_acu__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Igarapé-Açu,dados_igarape_acu__sem_conjuge,Sem cônjuge,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.494265056978286
+Igarapé-Açu,dados_igarape_acu__sem_conjuge,Sem cônjuge,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.41034351074884
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.8986226975538
+Igarapé-Açu,dados_igarape_acu__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.4330293282355
+Igarapé-Açu,dados_igarape_acu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,515.0745084532332
+Igarapé-Açu,dados_igarape_acu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,643.892878643054
+Igarapé-Açu,dados_igarape_acu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.88119213525174
+Igarapé-Açu,dados_igarape_acu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.942286058288865
+Igarapé-Açu,dados_igarape_acu__trabalha_em_outro_municipio_ex_castanhal_sant,Trabalha em outro município (ex: Castanhal / Santa Izabel / Belém),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.776834494676216
+Igarapé-Açu,dados_igarape_acu__trabalha_em_outro_municipio_ex_castanhal_sant,Trabalha em outro município (ex: Castanhal / Santa Izabel / Belém),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.219600240802208
+Igarapé-Açu,dados_igarape_acu__trabalha_no_proprio_municipio_de_residencia_i,Trabalha no próprio município de residência (Igarapé-Açu),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.4777415468245
+Igarapé-Açu,dados_igarape_acu__trabalha_no_proprio_municipio_de_residencia_i,Trabalha no próprio município de residência (Igarapé-Açu),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,76.9408075388844
+Igarapé-Açu,dados_igarape_acu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.63772859611501
+Igarapé-Açu,dados_igarape_acu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.626314784518854
+Igarapé-Açu,dados_igarape_acu__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.31031831683417
+Igarapé-Açu,dados_igarape_acu__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.23411610893098
+Igarapé-Açu,dados_igarape_acu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7681192135251731
+Igarapé-Açu,dados_igarape_acu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9742286058288864
+Igarapé-Açu,dados_igarape_acu__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.362497137121935
+Igarapé-Açu,dados_igarape_acu__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.59545901767432
+Igarapé-Açu,dados_igarape_acu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.32774887913625
+Igarapé-Açu,dados_igarape_acu__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.72485937887762
+Igarapé-Açu,dados_igarape_acu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.05802662992794
+Igarapé-Açu,dados_igarape_acu__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_igarape_acu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.561886299091068
