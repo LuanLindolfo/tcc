@@ -445,7 +445,6 @@ MUNICIPIOS = [
         "arquivo": "indicadores_xinguara_tratados.csv",
     },
 ]
-]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
 ANOS_PROJECAO = [2030, 2040]
