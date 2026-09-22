@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Mãe do Rio,dados_mae_do_rio__anos_de_estudo_media,Anos de Estudo (Média),dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.24047296687758052,2030,9.007395666575126
+Mãe do Rio,dados_mae_do_rio__anos_de_estudo_media,Anos de Estudo (Média),dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.24047296687758052,2040,10.876504193928788
+Mãe do Rio,dados_mae_do_rio__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_mae_do_rio,Grupo 1 — 4 censos,tanh,sgd,True,19.63945575822089,2030,189.0031471319585
+Mãe do Rio,dados_mae_do_rio__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_mae_do_rio,Grupo 1 — 4 censos,tanh,sgd,True,19.63945575822089,2040,187.5443985888854
+Mãe do Rio,dados_mae_do_rio__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_mae_do_rio,Grupo 1 — 4 censos,relu,lbfgs,True,0.46032779524124845,2030,11.7196101007303
+Mãe do Rio,dados_mae_do_rio__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_mae_do_rio,Grupo 1 — 4 censos,relu,lbfgs,True,0.46032779524124845,2040,13.90189909532649
+Mãe do Rio,dados_mae_do_rio__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.22700265517584362,2030,8.422980961715947
+Mãe do Rio,dados_mae_do_rio__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.22700265517584362,2040,10.195419594098961
+Mãe do Rio,dados_mae_do_rio__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.2539432786097858,2030,9.59181036446977
+Mãe do Rio,dados_mae_do_rio__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.2539432786097858,2040,11.557588791154693
+Mãe do Rio,dados_mae_do_rio__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_mae_do_rio,Grupo 1 — 4 censos,logistic,lbfgs,True,0.07070323795048561,2030,3.1518046201780052
+Mãe do Rio,dados_mae_do_rio__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_mae_do_rio,Grupo 1 — 4 censos,logistic,lbfgs,True,0.07070323795048561,2040,3.0705469484428685
+Mãe do Rio,dados_mae_do_rio__populacao_total,População Total,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.1596141862403062,2030,36.42507838380318
+Mãe do Rio,dados_mae_do_rio__populacao_total,População Total,dados_mae_do_rio,Grupo 1 — 4 censos,identity,lbfgs,True,0.1596141862403062,2040,40.60775927757155
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_mae_do_rio,Grupo 1 — 4 censos,logistic,lbfgs,True,3.527142628062556,2030,88.25895318506649
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_mae_do_rio,Grupo 1 — 4 censos,logistic,lbfgs,True,3.527142628062556,2040,89.4778717417069
+Mãe do Rio,dados_mae_do_rio__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_mae_do_rio,Grupo 1 — 4 censos,relu,adam,True,0.44060606005084935,2030,11.397886784913947
+Mãe do Rio,dados_mae_do_rio__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_mae_do_rio,Grupo 1 — 4 censos,relu,adam,True,0.44060606005084935,2040,12.934617919702196
+Mãe do Rio,dados_mae_do_rio__2_trabalhos,2 trabalhos,dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,1.0161076269781197,2030,8.735979331817406
+Mãe do Rio,dados_mae_do_rio__2_trabalhos,2 trabalhos,dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,1.0161076269781197,2040,10.301389428704944
+Mãe do Rio,dados_mae_do_rio__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033919,2030,0.7008618545147849
+Mãe do Rio,dados_mae_do_rio__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.10112432549033919,2040,0.7005656022837713
+Mãe do Rio,dados_mae_do_rio__apenas_1_trabalho,Apenas 1 trabalho,dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,1.0321851005605442,2030,90.00842640330718
+Mãe do Rio,dados_mae_do_rio__apenas_1_trabalho,Apenas 1 trabalho,dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,1.0321851005605442,2040,87.72007930683178
+Mãe do Rio,dados_mae_do_rio__casais_com_filhos,Casais com filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.9894713125264736,2030,38.845648123846985
+Mãe do Rio,dados_mae_do_rio__casais_com_filhos,Casais com filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.9894713125264736,2040,29.076360899476075
+Mãe do Rio,dados_mae_do_rio__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264484,2030,8.46819763601095
+Mãe do Rio,dados_mae_do_rio__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.3360320737264484,2040,8.466983373481925
+Mãe do Rio,dados_mae_do_rio__casais_sem_filhos,Casais sem filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.005059752511455,2030,14.622784113320826
+Mãe do Rio,dados_mae_do_rio__casais_sem_filhos,Casais sem filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.005059752511455,2040,17.62850439807783
+Mãe do Rio,dados_mae_do_rio__conta_propria,Conta própria,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.5930036263821141,2030,7.406632812211627
+Mãe do Rio,dados_mae_do_rio__conta_propria,Conta própria,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.5930036263821141,2040,7.964628126167924
+Mãe do Rio,dados_mae_do_rio__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201875477790954,2030,23.797586085989565
+Mãe do Rio,dados_mae_do_rio__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.12201875477790954,2040,28.072369999294793
+Mãe do Rio,dados_mae_do_rio__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704535,2030,26.74263845190848
+Mãe do Rio,dados_mae_do_rio__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.39447179872704535,2040,31.082748978053676
+Mãe do Rio,dados_mae_do_rio__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.501391352094816,2030,15.054489902931913
+Mãe do Rio,dados_mae_do_rio__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.501391352094816,2040,2.1863434258659353
+Mãe do Rio,dados_mae_do_rio__empregador,Empregador,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,41.03226260954832,2030,752.6156221787826
+Mãe do Rio,dados_mae_do_rio__empregador,Empregador,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,41.03226260954832,2040,946.6582518134953
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,7.1333773283934745,2030,97.10427231558785
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,7.1333773283934745,2040,98.13174406253482
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,4.992353311670932,2030,75.21802476860279
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,4.992353311670932,2040,81.33000739333693
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.2159073365681177,2030,25.805243480157557
+Mãe do Rio,dados_mae_do_rio__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.2159073365681177,2040,31.038261426851832
+Mãe do Rio,dados_mae_do_rio__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.05194757690795804,2030,0.8955532175424732
+Mãe do Rio,dados_mae_do_rio__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.05194757690795804,2040,1.0922548960301222
+Mãe do Rio,dados_mae_do_rio__idade_mediana,Idade Mediana,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,33.46879368938008
+Mãe do Rio,dados_mae_do_rio__idade_mediana,Idade Mediana,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,38.011896464596354
+Mãe do Rio,dados_mae_do_rio__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2030,226.89825197485774
+Mãe do Rio,dados_mae_do_rio__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,22.841069700032858,2040,290.6842090145694
+Mãe do Rio,dados_mae_do_rio__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.294371187760202,2030,24.890283964418924
+Mãe do Rio,dados_mae_do_rio__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.294371187760202,2040,28.67076866649271
+Mãe do Rio,dados_mae_do_rio__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6682029163512503,2030,4.946361697932254
+Mãe do Rio,dados_mae_do_rio__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,lbfgs,True,0.6682029163512503,2040,4.917329621470591
+Mãe do Rio,dados_mae_do_rio__media_populacao_amarela,Média: População Amarela,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2030,8.722323383050185
+Mãe do Rio,dados_mae_do_rio__media_populacao_amarela,Média: População Amarela,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2040,9.730467454172302
+Mãe do Rio,dados_mae_do_rio__media_populacao_branca,Média: População Branca,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790247,2030,9.379476059653207
+Mãe do Rio,dados_mae_do_rio__media_populacao_branca,Média: População Branca,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790247,2040,11.227142182362371
+Mãe do Rio,dados_mae_do_rio__media_populacao_indigena,Média: População Indígena,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543125,2030,7.101222022384141
+Mãe do Rio,dados_mae_do_rio__media_populacao_indigena,Média: População Indígena,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.36474585811543125,2040,8.770717025602437
+Mãe do Rio,dados_mae_do_rio__media_populacao_preta_parda,Média: População Preta / Parda,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790242,2030,8.679476059653208
+Mãe do Rio,dados_mae_do_rio__media_populacao_preta_parda,Média: População Preta / Parda,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.5625086145790242,2040,10.527142182362368
+Mãe do Rio,dados_mae_do_rio__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,266.30285213426555,2030,611.5346745186614
+Mãe do Rio,dados_mae_do_rio__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,266.30285213426555,2040,639.8675568146843
+Mãe do Rio,dados_mae_do_rio__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056195,2030,4.3689744267520085
+Mãe do Rio,dados_mae_do_rio__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_mae_do_rio,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056195,2040,4.702782091398334
+Mãe do Rio,dados_mae_do_rio__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452594,2030,2.59556439869616
+Mãe do Rio,dados_mae_do_rio__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.1827022147452594,2040,3.0062935289861645
+Mãe do Rio,dados_mae_do_rio__populacao_amarela,População Amarela,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,sgd,True,18.070343244092246,2030,21.850336928251295
+Mãe do Rio,dados_mae_do_rio__populacao_amarela,População Amarela,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,sgd,True,18.070343244092246,2040,18.71975775453025
+Mãe do Rio,dados_mae_do_rio__populacao_branca,População Branca,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.2260733316778166,2030,5.01398577950206
+Mãe do Rio,dados_mae_do_rio__populacao_branca,População Branca,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,0.2260733316778166,2040,5.013089904321094
+Mãe do Rio,dados_mae_do_rio__populacao_indigena,População Indígena,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,27.424681597317104,2030,81.90021024045267
+Mãe do Rio,dados_mae_do_rio__populacao_indigena,População Indígena,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,27.424681597317104,2040,83.18859396397197
+Mãe do Rio,dados_mae_do_rio__populacao_indigena_total,População Indígena Total,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,27.424681597317104,2030,81.90021024045267
+Mãe do Rio,dados_mae_do_rio__populacao_indigena_total,População Indígena Total,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,27.424681597317104,2040,83.18859396397197
+Mãe do Rio,dados_mae_do_rio__populacao_parda,População Parda,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.4128869059040892,2030,28.194982096384354
+Mãe do Rio,dados_mae_do_rio__populacao_parda,População Parda,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.4128869059040892,2040,31.946243952133514
+Mãe do Rio,dados_mae_do_rio__populacao_preta,População Preta,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.22230745174798483,2030,3.359317495784476
+Mãe do Rio,dados_mae_do_rio__populacao_preta,População Preta,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.22230745174798483,2040,3.933704326232408
+Mãe do Rio,dados_mae_do_rio__populacao_rural,População Rural,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,0.18318658400812904,2030,5.718467393007554
+Mãe do Rio,dados_mae_do_rio__populacao_rural,População Rural,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,0.18318658400812904,2040,5.726603870537745
+Mãe do Rio,dados_mae_do_rio__populacao_urbana,População Urbana,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.0732104310102244,2030,30.898460685938097
+Mãe do Rio,dados_mae_do_rio__populacao_urbana,População Urbana,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.0732104310102244,2040,35.263355696270075
+Mãe do Rio,dados_mae_do_rio__populacao_com_superior_completo,População com Superior Completo,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,379.19656500403636,2030,245.76553172987332
+Mãe do Rio,dados_mae_do_rio__populacao_com_superior_completo,População com Superior Completo,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,sgd,True,379.19656500403636,2040,244.51318818977217
+Mãe do Rio,dados_mae_do_rio__populacao_de_homens,População de Homens,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.25599734376797834,2030,17.954640512754136
+Mãe do Rio,dados_mae_do_rio__populacao_de_homens,População de Homens,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,0.25599734376797834,2040,19.9148353281323
+Mãe do Rio,dados_mae_do_rio__populacao_de_mulheres,População de Mulheres,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.13117124578027273,2030,18.47252502387296
+Mãe do Rio,dados_mae_do_rio__populacao_de_mulheres,População de Mulheres,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.13117124578027273,2040,20.692885225983662
+Mãe do Rio,dados_mae_do_rio__proporcao_na_populacao_de_mae_do_rio,Proporção na população de Mãe do Rio,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,0.10723701502121115,2030,0.2257199449300784
+Mãe do Rio,dados_mae_do_rio__proporcao_na_populacao_de_mae_do_rio,Proporção na população de Mãe do Rio,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,0.10723701502121115,2040,0.22906596106030028
+Mãe do Rio,dados_mae_do_rio__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.9209244364494301,2030,97.47682270555919
+Mãe do Rio,dados_mae_do_rio__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.9209244364494301,2040,96.47426373593407
+Mãe do Rio,dados_mae_do_rio__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,113.77434673289103,2030,813.6136588546133
+Mãe do Rio,dados_mae_do_rio__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,113.77434673289103,2040,1056.3297614931594
+Mãe do Rio,dados_mae_do_rio__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.7149275377261097,2030,34.60063990473609
+Mãe do Rio,dados_mae_do_rio__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,2.7149275377261097,2040,24.963233001475885
+Mãe do Rio,dados_mae_do_rio__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.005059752511455,2030,14.622784113320826
+Mãe do Rio,dados_mae_do_rio__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.005059752511455,2040,17.62850439807783
+Mãe do Rio,dados_mae_do_rio__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.294371187760202,2030,24.890283964418924
+Mãe do Rio,dados_mae_do_rio__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.294371187760202,2040,28.67076866649271
+Mãe do Rio,dados_mae_do_rio__responsavel_homem,Responsável Homem,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408355,2030,2.7461177256983405
+Mãe do Rio,dados_mae_do_rio__responsavel_homem,Responsável Homem,dados_mae_do_rio,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408355,2040,1.9768835702961018
+Mãe do Rio,dados_mae_do_rio__responsavel_mulher,Responsável Mulher,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Mãe do Rio,dados_mae_do_rio__responsavel_mulher,Responsável Mulher,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Mãe do Rio,dados_mae_do_rio__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.676471460335163
+Mãe do Rio,dados_mae_do_rio__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.366764603881892
+Mãe do Rio,dados_mae_do_rio__setor_privado,Setor privado,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.6179968826641268,2030,6.519600228837501
+Mãe do Rio,dados_mae_do_rio__setor_privado,Setor privado,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.6179968826641268,2040,7.375910580879205
+Mãe do Rio,dados_mae_do_rio__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,407.21820221280876,2030,-1.6989948281514273
+Mãe do Rio,dados_mae_do_rio__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,tanh,adam,True,407.21820221280876,2040,19.767199613374345
+Mãe do Rio,dados_mae_do_rio__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.22275700210969496,2030,2.752366077424838
+Mãe do Rio,dados_mae_do_rio__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.22275700210969496,2040,2.9644064755014017
+Mãe do Rio,dados_mae_do_rio__setor_publico,Setor público,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.24729067061999355,2030,2.9414466529704684
+Mãe do Rio,dados_mae_do_rio__setor_publico,Setor público,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.24729067061999355,2040,3.3108462817466346
+Mãe do Rio,dados_mae_do_rio__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,13.71254467652077,2030,232.03190534070123
+Mãe do Rio,dados_mae_do_rio__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,13.71254467652077,2040,300.1784469689453
+Mãe do Rio,dados_mae_do_rio__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.2311742725356826,2030,2.71932967915704
+Mãe do Rio,dados_mae_do_rio__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,0.2311742725356826,2040,3.021918406530342
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.0626676338844376,2030,46.038259491119945
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.0626676338844376,2040,55.348029252973745
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,4.421180065924688,2030,99.06785395631725
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,4.421180065924688,2040,99.8573028852586
+Mãe do Rio,dados_mae_do_rio__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,7.1333773283934745,2030,97.10427231558785
+Mãe do Rio,dados_mae_do_rio__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,7.1333773283934745,2040,98.13174406253482
+Mãe do Rio,dados_mae_do_rio__trabalhador_domestico,Trabalhador doméstico,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,82.46728416441611,2030,768.2437612705249
+Mãe do Rio,dados_mae_do_rio__trabalhador_domestico,Trabalhador doméstico,dados_mae_do_rio,Grupo 2 — 3 censos,relu,adam,True,82.46728416441611,2040,834.9507509362265
+Mãe do Rio,dados_mae_do_rio__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2030,207.32942141725735
+Mãe do Rio,dados_mae_do_rio__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2040,266.16293845762414
+Mãe do Rio,dados_mae_do_rio__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,86.01025295254409,2030,592.6817071249156
+Mãe do Rio,dados_mae_do_rio__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_mae_do_rio,Grupo 2 — 3 censos,logistic,adam,True,86.01025295254409,2040,607.0289952497751
+Mãe do Rio,dados_mae_do_rio__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,6.286784687814851,2030,32.33669665644488
+Mãe do Rio,dados_mae_do_rio__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_mae_do_rio,Grupo 2 — 3 censos,relu,lbfgs,True,6.286784687814851,2040,41.868997010976
+Mãe do Rio,dados_mae_do_rio__a_pe,A pé,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.006266392741722
+Mãe do Rio,dados_mae_do_rio__a_pe,A pé,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.207560088878614
+Mãe do Rio,dados_mae_do_rio__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.19437792359676
+Mãe do Rio,dados_mae_do_rio__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.22123041184544
+Mãe do Rio,dados_mae_do_rio__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.45391649546358
+Mãe do Rio,dados_mae_do_rio__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.82972505554914
+Mãe do Rio,dados_mae_do_rio__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.06960938258984
+Mãe do Rio,dados_mae_do_rio__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.852086178689966
+Mãe do Rio,dados_mae_do_rio__bicicleta,Bicicleta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.621312114793051
+Mãe do Rio,dados_mae_do_rio__bicicleta,Bicicleta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1.5331186250144349
+Mãe do Rio,dados_mae_do_rio__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,77.78853011395658
+Mãe do Rio,dados_mae_do_rio__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.6206870214977
+Mãe do Rio,dados_mae_do_rio__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.97992769942401
+Mãe do Rio,dados_mae_do_rio__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.68620228762094
+Mãe do Rio,dados_mae_do_rio__com_coleta_de_lixo,Com Coleta de Lixo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.31903359798523
+Mãe do Rio,dados_mae_do_rio__com_coleta_de_lixo,Com Coleta de Lixo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.47948774390431
+Mãe do Rio,dados_mae_do_rio__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Mãe do Rio,dados_mae_do_rio__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Mãe do Rio,dados_mae_do_rio__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.04513716615397
+Mãe do Rio,dados_mae_do_rio__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.97796385832081
+Mãe do Rio,dados_mae_do_rio__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.178268230431639
+Mãe do Rio,dados_mae_do_rio__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.642014363114994
+Mãe do Rio,dados_mae_do_rio__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.8623278371942256
+Mãe do Rio,dados_mae_do_rio__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4291286660294373
+Mãe do Rio,dados_mae_do_rio__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.07247685410069
+Mãe do Rio,dados_mae_do_rio__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.896914423315543
+Mãe do Rio,dados_mae_do_rio__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.8238611281483572
+Mãe do Rio,dados_mae_do_rio__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.7256369587330753
+Mãe do Rio,dados_mae_do_rio__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.221001984891558
+Mãe do Rio,dados_mae_do_rio__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.137091906940753
+Mãe do Rio,dados_mae_do_rio__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.713072921726557
+Mãe do Rio,dados_mae_do_rio__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.568057452459977
+Mãe do Rio,dados_mae_do_rio__estuda_no_proprio_municipio_mae_do_rio,Estuda no próprio município (Mãe do Rio),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.32852484591722
+Mãe do Rio,dados_mae_do_rio__estuda_no_proprio_municipio_mae_do_rio,Estuda no próprio município (Mãe do Rio),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.0667525499942
+Mãe do Rio,dados_mae_do_rio__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.116053259855875
+Mãe do Rio,dados_mae_do_rio__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.12377259818213
+Mãe do Rio,dados_mae_do_rio__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.042003969783114
+Mãe do Rio,dados_mae_do_rio__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.874183813881507
+Mãe do Rio,dados_mae_do_rio__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.73337095553948
+Mãe do Rio,dados_mae_do_rio__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.10362896703218
+Mãe do Rio,dados_mae_do_rio__idade_mediana_2,Idade Mediana,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.68119213525173
+Mãe do Rio,dados_mae_do_rio__idade_mediana_2,Idade Mediana,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.742286058288865
+Mãe do Rio,dados_mae_do_rio__mais_de_1_hora_deslocamento_pela_br_010_vicin,Mais de 1 hora (Deslocamento pela BR-010 / vicinais),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.408715281151036
+Mãe do Rio,dados_mae_do_rio__mais_de_1_hora_deslocamento_pela_br_010_vicin,Mais de 1 hora (Deslocamento pela BR-010 / vicinais),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.645371634973316
+Mãe do Rio,dados_mae_do_rio__motocicleta,Motocicleta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.40298033812933
+Mãe do Rio,dados_mae_do_rio__motocicleta,Motocicleta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.55571514572216
+Mãe do Rio,dados_mae_do_rio__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.04200396978312
+Mãe do Rio,dados_mae_do_rio__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.87418381388152
+Mãe do Rio,dados_mae_do_rio__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Mãe do Rio,dados_mae_do_rio__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Mãe do Rio,dados_mae_do_rio__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.00584780964018
+Mãe do Rio,dados_mae_do_rio__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.20054339034774
+Mãe do Rio,dados_mae_do_rio__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.40298033812932
+Mãe do Rio,dados_mae_do_rio__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,97.55571514572216
+Mãe do Rio,dados_mae_do_rio__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-327.53992591053236
+Mãe do Rio,dados_mae_do_rio__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-761.3737622254903
+Mãe do Rio,dados_mae_do_rio__populacao_amarela_2,População Amarela,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8405960676258655
+Mãe do Rio,dados_mae_do_rio__populacao_amarela_2,População Amarela,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.871143029144433
+Mãe do Rio,dados_mae_do_rio__populacao_branca_2,População Branca,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,174.4644387726605
+Mãe do Rio,dados_mae_do_rio__populacao_branca_2,População Branca,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,216.71686419492173
+Mãe do Rio,dados_mae_do_rio__populacao_indigena_2,População Indígena,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.521788202877596
+Mãe do Rio,dados_mae_do_rio__populacao_indigena_2,População Indígena,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.613429087433296
+Mãe do Rio,dados_mae_do_rio__populacao_parda_2,População Parda,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1171.163918597113
+Mãe do Rio,dados_mae_do_rio__populacao_parda_2,População Parda,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1454.5643330147188
+Mãe do Rio,dados_mae_do_rio__populacao_preta_2,População Preta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,113.21788202877596
+Mãe do Rio,dados_mae_do_rio__populacao_preta_2,População Preta,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,144.13429087433298
+Mãe do Rio,dados_mae_do_rio__populacao_residente_em_favelas,População Residente em Favelas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-327.53992591053236
+Mãe do Rio,dados_mae_do_rio__populacao_residente_em_favelas,População Residente em Favelas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-761.3737622254903
+Mãe do Rio,dados_mae_do_rio__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.1463874439568125
+Mãe do Rio,dados_mae_do_rio__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.8162429689438806
+Mãe do Rio,dados_mae_do_rio__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,97.54639363443793
+Mãe do Rio,dados_mae_do_rio__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.1000644124957
+Mãe do Rio,dados_mae_do_rio__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.019435386706126
+Mãe do Rio,dados_mae_do_rio__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3852018847210994
+Mãe do Rio,dados_mae_do_rio__ruas_sem_arvores,Ruas Sem Árvores,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.343570567968545
+Mãe do Rio,dados_mae_do_rio__ruas_sem_arvores,Ruas Sem Árvores,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.726073836101161
+Mãe do Rio,dados_mae_do_rio__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.00584780964019
+Mãe do Rio,dados_mae_do_rio__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.20054339034775
+Mãe do Rio,dados_mae_do_rio__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.060894101438798
+Mãe do Rio,dados_mae_do_rio__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.481192135251732
+Mãe do Rio,dados_mae_do_rio__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.606714543716648
+Mãe do Rio,dados_mae_do_rio__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.542286058288864
+Mãe do Rio,dados_mae_do_rio__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.20596067625866
+Mãe do Rio,dados_mae_do_rio__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.77694736129467
+Mãe do Rio,dados_mae_do_rio__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.51143029144433
+Mãe do Rio,dados_mae_do_rio__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.33048714189877
+Mãe do Rio,dados_mae_do_rio__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0942086236690531
+Mãe do Rio,dados_mae_do_rio__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.4549000602005513
+Mãe do Rio,dados_mae_do_rio__sem_conjuge,Sem cônjuge,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.37832466374088
+Mãe do Rio,dados_mae_do_rio__sem_conjuge,Sem cônjuge,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.39745781366329
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.68703994489192
+Mãe do Rio,dados_mae_do_rio__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.94282944863662
+Mãe do Rio,dados_mae_do_rio__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,418.2625871007159
+Mãe do Rio,dados_mae_do_rio__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,526.4700180601653
+Mãe do Rio,dados_mae_do_rio__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.733370955539485
+Mãe do Rio,dados_mae_do_rio__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.103628967032186
+Mãe do Rio,dados_mae_do_rio__trabalha_em_outro_municipio_ex_irituia_sao_mi,Trabalha em outro município (ex: Irituia / São Miguel do Guamá / Belém),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.029013314963972
+Mãe do Rio,dados_mae_do_rio__trabalha_em_outro_municipio_ex_irituia_sao_mi,Trabalha em outro município (ex: Irituia / São Miguel do Guamá / Belém),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.78094314954554
+Mãe do Rio,dados_mae_do_rio__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Mãe do Rio),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.06582902114405
+Mãe do Rio,dados_mae_do_rio__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Mãe do Rio),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,77.98526629721678
+Mãe do Rio,dados_mae_do_rio__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.721788202877594
+Mãe do Rio,dados_mae_do_rio__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.8134290874333
+Mãe do Rio,dados_mae_do_rio__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.521901069496074
+Mãe do Rio,dados_mae_do_rio__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.7243159885299
+Mãe do Rio,dados_mae_do_rio__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6681192135251731
+Mãe do Rio,dados_mae_do_rio__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8742286058288864
+Mãe do Rio,dados_mae_do_rio__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.217543428920536
+Mãe do Rio,dados_mae_do_rio__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.8016301710432
+Mãe do Rio,dados_mae_do_rio__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.05527202503555
+Mãe do Rio,dados_mae_do_rio__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.62794495556207
+Mãe do Rio,dados_mae_do_rio__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.61599682654665
+Mãe do Rio,dados_mae_do_rio__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_mae_do_rio,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.06832914763385
