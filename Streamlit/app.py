@@ -279,6 +279,26 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_xinguara_tratados.csv",
     },
+    {
+        "nome":    "Porto de Moz",
+        "pasta":   "data",
+        "arquivo": "indicadores_porto_de_moz_tratados.csv",
+    },
+    {
+        "nome":    "Pacajá",
+        "pasta":   "data",
+        "arquivo": "indicadores_pacaja_tratados.csv",
+    },
+    {
+        "nome":    "Tucumã",
+        "pasta":   "data",
+        "arquivo": "indicadores_tucumã_tratados.csv",
+    },
+    {
+        "nome":    "Afuá",
+        "pasta":   "data",
+        "arquivo": "indicadores_afuá_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
