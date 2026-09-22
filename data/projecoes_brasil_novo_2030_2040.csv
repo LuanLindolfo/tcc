@@ -1,0 +1,221 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Brasil Novo,dados_brasil_novo__anos_de_estudo_media,Anos de Estudo (Média),dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.16621192758475734,2030,9.361879223420457
+Brasil Novo,dados_brasil_novo__anos_de_estudo_media,Anos de Estudo (Média),dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.16621192758475734,2040,11.212216280629
+Brasil Novo,dados_brasil_novo__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_brasil_novo,Grupo 1 — 4 censos,identity,adam,True,9.4875023694322,2030,143.9307193108329
+Brasil Novo,dados_brasil_novo__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_brasil_novo,Grupo 1 — 4 censos,identity,adam,True,9.4875023694322,2040,148.62807413944765
+Brasil Novo,dados_brasil_novo__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_brasil_novo,Grupo 1 — 4 censos,relu,adam,True,1.2638083127019972,2030,9.00407577336182
+Brasil Novo,dados_brasil_novo__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_brasil_novo,Grupo 1 — 4 censos,relu,adam,True,1.2638083127019972,2040,10.850996389145513
+Brasil Novo,dados_brasil_novo__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325495,2030,8.777464558219929
+Brasil Novo,dados_brasil_novo__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.15274162504325495,2040,10.531131695510119
+Brasil Novo,dados_brasil_novo__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.1796822309513022,2030,9.946293885559376
+Brasil Novo,dados_brasil_novo__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.1796822309513022,2040,11.89330086462748
+Brasil Novo,dados_brasil_novo__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_brasil_novo,Grupo 1 — 4 censos,tanh,adam,True,0.16994241511265973,2030,3.1578366924560086
+Brasil Novo,dados_brasil_novo__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_brasil_novo,Grupo 1 — 4 censos,tanh,adam,True,0.16994241511265973,2040,3.083508246460793
+Brasil Novo,dados_brasil_novo__populacao_total,População Total,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,3.807403500350731,2030,25.404726855850043
+Brasil Novo,dados_brasil_novo__populacao_total,População Total,dados_brasil_novo,Grupo 1 — 4 censos,identity,lbfgs,True,3.807403500350731,2040,28.34923921637636
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_brasil_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,3.07986283786021,2030,90.30742499199937
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_brasil_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,3.07986283786021,2040,91.91752098236276
+Brasil Novo,dados_brasil_novo__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_brasil_novo,Grupo 1 — 4 censos,relu,adam,True,1.2764789990407475,2030,9.14944119341295
+Brasil Novo,dados_brasil_novo__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_brasil_novo,Grupo 1 — 4 censos,relu,adam,True,1.2764789990407475,2040,11.002903011363653
+Brasil Novo,dados_brasil_novo__2_trabalhos,2 trabalhos,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.9310965741072904,2030,9.845950742918227
+Brasil Novo,dados_brasil_novo__2_trabalhos,2 trabalhos,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.9310965741072904,2040,11.3233154807316
+Brasil Novo,dados_brasil_novo__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,0.16842593892108892,2030,0.8345907702241324
+Brasil Novo,dados_brasil_novo__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,0.16842593892108892,2040,0.8341654432015779
+Brasil Novo,dados_brasil_novo__apenas_1_trabalho,Apenas 1 trabalho,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.9367129290587949,2030,88.62827389916711
+Brasil Novo,dados_brasil_novo__apenas_1_trabalho,Apenas 1 trabalho,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.9367129290587949,2040,86.36385982518438
+Brasil Novo,dados_brasil_novo__casais_com_filhos,Casais com filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.7997813009402346,2030,41.717249112849814
+Brasil Novo,dados_brasil_novo__casais_com_filhos,Casais com filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.7997813009402346,2040,32.019438609179204
+Brasil Novo,dados_brasil_novo__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,0.9299316378502723,2030,5.1402176961537664
+Brasil Novo,dados_brasil_novo__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,0.9299316378502723,2040,5.13790230351905
+Brasil Novo,dados_brasil_novo__casais_sem_filhos,Casais sem filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.1116689730149438,2030,16.294730690240677
+Brasil Novo,dados_brasil_novo__casais_sem_filhos,Casais sem filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.1116689730149438,2040,19.66449937790198
+Brasil Novo,dados_brasil_novo__conta_propria,Conta própria,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.33240903571949804,2030,5.274433263793419
+Brasil Novo,dados_brasil_novo__conta_propria,Conta própria,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.33240903571949804,2040,5.808285528114282
+Brasil Novo,dados_brasil_novo__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2030,23.342638451908485
+Brasil Novo,dados_brasil_novo__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.3944717987270459,2040,27.68274897805368
+Brasil Novo,dados_brasil_novo__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.09009982175995941,2030,26.436408460189135
+Brasil Novo,dados_brasil_novo__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.09009982175995941,2040,30.96248057925196
+Brasil Novo,dados_brasil_novo__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,4.148654000897014,2030,16.524573124861718
+Brasil Novo,dados_brasil_novo__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,4.148654000897014,2040,2.8651551103617194
+Brasil Novo,dados_brasil_novo__empregador,Empregador,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.4928827443315622,2030,507.16160543398723
+Brasil Novo,dados_brasil_novo__empregador,Empregador,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.4928827443315622,2040,615.7982042772637
+Brasil Novo,dados_brasil_novo__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,6.212941089719313,2030,97.40719855815661
+Brasil Novo,dados_brasil_novo__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,6.212941089719313,2040,98.25430146957318
+Brasil Novo,dados_brasil_novo__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,5.059002388416144,2030,77.48807466066278
+Brasil Novo,dados_brasil_novo__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,5.059002388416144,2040,83.38729322691384
+Brasil Novo,dados_brasil_novo__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7897338831041925,2030,28.495461777379994
+Brasil Novo,dados_brasil_novo__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7897338831041925,2040,34.18762185079601
+Brasil Novo,dados_brasil_novo__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.046860797143109416,2030,0.9244766306671868
+Brasil Novo,dados_brasil_novo__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.046860797143109416,2040,1.1221591072688593
+Brasil Novo,dados_brasil_novo__idade_mediana,Idade Mediana,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.9115353596010346,2030,35.49871914152952
+Brasil Novo,dados_brasil_novo__idade_mediana,Idade Mediana,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.9115353596010346,2040,40.91738297581075
+Brasil Novo,dados_brasil_novo__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2030,103.55875295257351
+Brasil Novo,dados_brasil_novo__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2040,132.01291433601278
+Brasil Novo,dados_brasil_novo__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7921047400545115,2030,21.075290138110574
+Brasil Novo,dados_brasil_novo__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7921047400545115,2040,24.348710171583797
+Brasil Novo,dados_brasil_novo__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,tanh,lbfgs,True,0.7504020803875272,2030,4.085389479230815
+Brasil Novo,dados_brasil_novo__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,tanh,lbfgs,True,0.7504020803875272,2040,4.060305862047022
+Brasil Novo,dados_brasil_novo__media_populacao_amarela,Média: População Amarela,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898917,2030,8.976388393131309
+Brasil Novo,dados_brasil_novo__media_populacao_amarela,Média: População Amarela,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.6630423841898917,2040,9.926231846697542
+Brasil Novo,dados_brasil_novo__media_populacao_branca,Média: População Branca,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2030,8.924118479013327
+Brasil Novo,dados_brasil_novo__media_populacao_branca,Média: População Branca,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2040,9.933400664408676
+Brasil Novo,dados_brasil_novo__media_populacao_indigena,Média: População Indígena,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2030,7.473013772284235
+Brasil Novo,dados_brasil_novo__media_populacao_indigena,Média: População Indígena,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2040,9.145055732181
+Brasil Novo,dados_brasil_novo__media_populacao_preta_parda,Média: População Preta / Parda,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2030,8.999573047176506
+Brasil Novo,dados_brasil_novo__media_populacao_preta_parda,Média: População Preta / Parda,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670116,2040,10.805794325270252
+Brasil Novo,dados_brasil_novo__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,207.32188021346042,2030,475.62426635536156
+Brasil Novo,dados_brasil_novo__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,207.32188021346042,2040,497.5989887437561
+Brasil Novo,dados_brasil_novo__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_brasil_novo,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057378,2030,4.768974426752009
+Brasil Novo,dados_brasil_novo__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_brasil_novo,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057378,2040,5.1027820913983355
+Brasil Novo,dados_brasil_novo__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.522275191921876,2030,4.346020986364447
+Brasil Novo,dados_brasil_novo__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.522275191921876,2040,4.980226719221889
+Brasil Novo,dados_brasil_novo__populacao_amarela,População Amarela,dados_brasil_novo,Grupo 2 — 3 censos,tanh,sgd,True,17.98546096214583,2030,14.1031754861947
+Brasil Novo,dados_brasil_novo__populacao_amarela,População Amarela,dados_brasil_novo,Grupo 2 — 3 censos,tanh,sgd,True,17.98546096214583,2040,11.202418791057148
+Brasil Novo,dados_brasil_novo__populacao_branca,População Branca,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,1.3237448845256006,2030,5.543557075806204
+Brasil Novo,dados_brasil_novo__populacao_branca,População Branca,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,1.3237448845256006,2040,5.539200762427381
+Brasil Novo,dados_brasil_novo__populacao_indigena,População Indígena,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,107.24044187058293,2030,255.90632760392324
+Brasil Novo,dados_brasil_novo__populacao_indigena,População Indígena,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,107.24044187058293,2040,255.48983803035085
+Brasil Novo,dados_brasil_novo__populacao_indigena_total,População Indígena Total,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,107.24044187058293,2030,255.90632760392324
+Brasil Novo,dados_brasil_novo__populacao_indigena_total,População Indígena Total,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,107.24044187058293,2040,255.48983803035085
+Brasil Novo,dados_brasil_novo__populacao_parda,População Parda,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,3.5847853030334327,2030,17.69304333031164
+Brasil Novo,dados_brasil_novo__populacao_parda,População Parda,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,3.5847853030334327,2040,18.013370904447676
+Brasil Novo,dados_brasil_novo__populacao_preta,População Preta,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,539.8731841208805,2030,-4.949266824784161
+Brasil Novo,dados_brasil_novo__populacao_preta,População Preta,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,539.8731841208805,2040,23.514567861047112
+Brasil Novo,dados_brasil_novo__populacao_rural,População Rural,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.4036143574365845,2030,10.993342193876376
+Brasil Novo,dados_brasil_novo__populacao_rural,População Rural,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.4036143574365845,2040,10.985693409653901
+Brasil Novo,dados_brasil_novo__populacao_urbana,População Urbana,dados_brasil_novo,Grupo 2 — 3 censos,relu,sgd,True,2.5049270074699312,2030,14.850633251993758
+Brasil Novo,dados_brasil_novo__populacao_urbana,População Urbana,dados_brasil_novo,Grupo 2 — 3 censos,relu,sgd,True,2.5049270074699312,2040,17.623994629503855
+Brasil Novo,dados_brasil_novo__populacao_com_superior_completo,População com Superior Completo,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,246.59097355669087,2030,166.61152603960093
+Brasil Novo,dados_brasil_novo__populacao_com_superior_completo,População com Superior Completo,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,246.59097355669087,2040,165.7853809049159
+Brasil Novo,dados_brasil_novo__populacao_de_homens,População de Homens,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.5928788641914693,2030,10.319690248826623
+Brasil Novo,dados_brasil_novo__populacao_de_homens,População de Homens,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.5928788641914693,2040,10.313078113634035
+Brasil Novo,dados_brasil_novo__populacao_de_mulheres,População de Mulheres,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.5328785776775082,2030,9.432253643064092
+Brasil Novo,dados_brasil_novo__populacao_de_mulheres,População de Mulheres,dados_brasil_novo,Grupo 2 — 3 censos,logistic,sgd,True,2.5328785776775082,2040,9.425974405632937
+Brasil Novo,dados_brasil_novo__proporcao_na_populacao_de_brasil_novo,Proporção na população de Brasil Novo,dados_brasil_novo,Grupo 2 — 3 censos,tanh,sgd,True,0.3193347487222686,2030,0.7218148338411106
+Brasil Novo,dados_brasil_novo__proporcao_na_populacao_de_brasil_novo,Proporção na população de Brasil Novo,dados_brasil_novo,Grupo 2 — 3 censos,tanh,sgd,True,0.3193347487222686,2040,0.6686383625087011
+Brasil Novo,dados_brasil_novo__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.25929235868507305,2030,106.77962144033133
+Brasil Novo,dados_brasil_novo__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.25929235868507305,2040,105.32082932891542
+Brasil Novo,dados_brasil_novo__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,130.58216020380485,2030,918.417246392864
+Brasil Novo,dados_brasil_novo__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,130.58216020380485,2040,1195.9340665942723
+Brasil Novo,dados_brasil_novo__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,3.019976069464974,2030,37.69509368603683
+Brasil Novo,dados_brasil_novo__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,3.019976069464974,2040,27.744487996410047
+Brasil Novo,dados_brasil_novo__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.1116689730149438,2030,16.294730690240677
+Brasil Novo,dados_brasil_novo__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,1.1116689730149438,2040,19.66449937790198
+Brasil Novo,dados_brasil_novo__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7921047400545115,2030,21.075290138110574
+Brasil Novo,dados_brasil_novo__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.7921047400545115,2040,24.348710171583797
+Brasil Novo,dados_brasil_novo__responsavel_homem,Responsável Homem,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2030,2.646117725698341
+Brasil Novo,dados_brasil_novo__responsavel_homem,Responsável Homem,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2040,1.8768835702961018
+Brasil Novo,dados_brasil_novo__responsavel_mulher,Responsável Mulher,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Brasil Novo,dados_brasil_novo__responsavel_mulher,Responsável Mulher,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Brasil Novo,dados_brasil_novo__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2030,2.7764714603351637
+Brasil Novo,dados_brasil_novo__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_brasil_novo,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657102,2040,2.4667646038818924
+Brasil Novo,dados_brasil_novo__setor_privado,Setor privado,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.6289081555901509,2030,4.7331232248556905
+Brasil Novo,dados_brasil_novo__setor_privado,Setor privado,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.6289081555901509,2040,5.715940595664133
+Brasil Novo,dados_brasil_novo__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,264.4362976446354,2030,-1.0132488361442995
+Brasil Novo,dados_brasil_novo__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,264.4362976446354,2040,12.924310925872419
+Brasil Novo,dados_brasil_novo__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,517.8184977722793,2030,-4.6068592076567825
+Brasil Novo,dados_brasil_novo__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,517.8184977722793,2040,22.693882843863832
+Brasil Novo,dados_brasil_novo__setor_publico,Setor público,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,374.50497259569966,2030,-2.7358036518883466
+Brasil Novo,dados_brasil_novo__setor_publico,Setor público,dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,374.50497259569966,2040,17.007808570982746
+Brasil Novo,dados_brasil_novo__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,25.036004004471323,2030,151.6120281806134
+Brasil Novo,dados_brasil_novo__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,25.036004004471323,2040,190.7294055052432
+Brasil Novo,dados_brasil_novo__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,363.47418668414736,2030,-2.729347498527801
+Brasil Novo,dados_brasil_novo__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_brasil_novo,Grupo 2 — 3 censos,tanh,adam,True,363.47418668414736,2040,16.433032419060794
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.33212220345342774,2030,49.22254649261407
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,0.33212220345342774,2040,59.17774048210868
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,4.179845229329719,2030,99.39989846715822
+Brasil Novo,dados_brasil_novo__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,4.179845229329719,2040,100.04556124528446
+Brasil Novo,dados_brasil_novo__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,6.212941089719313,2030,97.40719855815661
+Brasil Novo,dados_brasil_novo__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_brasil_novo,Grupo 2 — 3 censos,logistic,adam,True,6.212941089719313,2040,98.25430146957318
+Brasil Novo,dados_brasil_novo__trabalhador_domestico,Trabalhador doméstico,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,19.8157899288645,2030,581.7089058248037
+Brasil Novo,dados_brasil_novo__trabalhador_domestico,Trabalhador doméstico,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,19.8157899288645,2040,713.3415533431196
+Brasil Novo,dados_brasil_novo__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2030,139.55643986961604
+Brasil Novo,dados_brasil_novo__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2040,180.6293528986165
+Brasil Novo,dados_brasil_novo__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252173127130202,2030,442.4679309570437
+Brasil Novo,dados_brasil_novo__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_brasil_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252173127130202,2040,533.4032436722932
+Brasil Novo,dados_brasil_novo__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,6.249877173481525,2030,30.84073726391976
+Brasil Novo,dados_brasil_novo__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_brasil_novo,Grupo 2 — 3 censos,relu,lbfgs,True,6.249877173481525,2040,40.26032333560018
+Brasil Novo,dados_brasil_novo__a_pe,A pé,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.092787268875831
+Brasil Novo,dados_brasil_novo__a_pe,A pé,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.20012882499134
+Brasil Novo,dados_brasil_novo__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.9912206706904
+Brasil Novo,dados_brasil_novo__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.548238802771685
+Brasil Novo,dados_brasil_novo__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.36525174201432
+Brasil Novo,dados_brasil_novo__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.52940036120331
+Brasil Novo,dados_brasil_novo__bicicleta,Bicicleta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.621312114793051
+Brasil Novo,dados_brasil_novo__bicicleta,Bicicleta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1.5331186250144349
+Brasil Novo,dados_brasil_novo__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.51605325985588
+Brasil Novo,dados_brasil_novo__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.52377259818213
+Brasil Novo,dados_brasil_novo__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Brasil Novo,dados_brasil_novo__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Brasil Novo,dados_brasil_novo__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.982441341380806
+Brasil Novo,dados_brasil_novo__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.09647760554338
+Brasil Novo,dados_brasil_novo__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.336238427050346
+Brasil Novo,dados_brasil_novo__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.748457211657772
+Brasil Novo,dados_brasil_novo__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.040596067625863
+Brasil Novo,dados_brasil_novo__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.07114302914443
+Brasil Novo,dados_brasil_novo__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Brasil Novo,dados_brasil_novo__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Brasil Novo,dados_brasil_novo__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.415045722051325
+Brasil Novo,dados_brasil_novo__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.059321286106938
+Brasil Novo,dados_brasil_novo__estuda_em_outro_municipio_ex_altamira,Estuda em outro município (ex: Altamira),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.197132528489144
+Brasil Novo,dados_brasil_novo__estuda_em_outro_municipio_ex_altamira,Estuda em outro município (ex: Altamira),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.15517175537442
+Brasil Novo,dados_brasil_novo__estuda_no_proprio_municipio_brasil_novo,Estuda no próprio município (Brasil Novo),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.79122067069041
+Brasil Novo,dados_brasil_novo__estuda_no_proprio_municipio_brasil_novo,Estuda no próprio município (Brasil Novo),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.34823880277169
+Brasil Novo,dados_brasil_novo__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.521844636186835
+Brasil Novo,dados_brasil_novo__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.168872537981585
+Brasil Novo,dados_brasil_novo__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.877741546824502
+Brasil Novo,dados_brasil_novo__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.340807538884395
+Brasil Novo,dados_brasil_novo__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.37683449467622
+Brasil Novo,dados_brasil_novo__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.8196002408022
+Brasil Novo,dados_brasil_novo__mais_de_1_hora_deslocamento_pela_br_230_vicin,Mais de 1 hora (Deslocamento pela BR-230 / vicinais),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.95653646086328
+Brasil Novo,dados_brasil_novo__mais_de_1_hora_deslocamento_pela_br_230_vicin,Mais de 1 hora (Deslocamento pela BR-230 / vicinais),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.88402872622999
+Brasil Novo,dados_brasil_novo__motocicleta,Motocicleta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.687039944891914
+Brasil Novo,dados_brasil_novo__motocicleta,Motocicleta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.94282944863661
+Brasil Novo,dados_brasil_novo__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.79122067069041
+Brasil Novo,dados_brasil_novo__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.34823880277169
+Brasil Novo,dados_brasil_novo__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.18411604007182
+Brasil Novo,dados_brasil_novo__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.842557753462735
+Brasil Novo,dados_brasil_novo__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.10733797870486
+Brasil Novo,dados_brasil_novo__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.87840096320883
+Brasil Novo,dados_brasil_novo__populacao_amarela_2,População Amarela,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_amarela_2,População Amarela,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__populacao_branca_2,População Branca,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_branca_2,População Branca,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__populacao_indigena_2,População Indígena,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_indigena_2,População Indígena,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__populacao_parda_2,População Parda,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_parda_2,População Parda,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__populacao_preta_2,População Preta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_preta_2,População Preta,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__populacao_residente_em_favelas,População Residente em Favelas,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__populacao_residente_em_favelas,População Residente em Favelas,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.620298033812933
+Brasil Novo,dados_brasil_novo__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.135571514572216
+Brasil Novo,dados_brasil_novo__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.2507832990927157
+Brasil Novo,dados_brasil_novo__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.525945011109828
+Brasil Novo,dados_brasil_novo__ruas_sem_arvores,Ruas Sem Árvores,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.030091444102652
+Brasil Novo,dados_brasil_novo__ruas_sem_arvores,Ruas Sem Árvores,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.318642572213875
+Brasil Novo,dados_brasil_novo__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.58554977582726
+Brasil Novo,dados_brasil_novo__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.26497187577553
+Brasil Novo,dados_brasil_novo__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.586983511582678
+Brasil Novo,dados_brasil_novo__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.287385998088315
+Brasil Novo,dados_brasil_novo__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,69.22769244582702
+Brasil Novo,dados_brasil_novo__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.06941592832933
+Brasil Novo,dados_brasil_novo__sem_conjuge,Sem cônjuge,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.452235253596996
+Brasil Novo,dados_brasil_novo__sem_conjuge,Sem cônjuge,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.31678635929161
+Brasil Novo,dados_brasil_novo__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Brasil Novo,dados_brasil_novo__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Brasil Novo,dados_brasil_novo__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.6493113487769
+Brasil Novo,dados_brasil_novo__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.91651466411775
+Brasil Novo,dados_brasil_novo__trabalha_em_outro_municipio_ex_altamira_medic,Trabalha em outro município (ex: Altamira / Medicilândia / Anapu),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.202923904820093
+Brasil Novo,dados_brasil_novo__trabalha_em_outro_municipio_ex_altamira_medic,Trabalha em outro município (ex: Altamira / Medicilândia / Anapu),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.80027169517387
+Brasil Novo,dados_brasil_novo__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Brasil Novo),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.97178528398426
+Brasil Novo,dados_brasil_novo__trabalha_no_proprio_municipio_de_residencia_b,Trabalha no próprio município de residência (Brasil Novo),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.16303691805055
+Brasil Novo,dados_brasil_novo__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.753668989352423
+Brasil Novo,dados_brasil_novo__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.639200481604412
+Brasil Novo,dados_brasil_novo__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.953781855970895
+Brasil Novo,dados_brasil_novo__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.95008738270099
+Brasil Novo,dados_brasil_novo__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Brasil Novo,dados_brasil_novo__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_brasil_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
