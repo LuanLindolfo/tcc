@@ -1,0 +1,221 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Jacareacanga,dados_jacareacanga__2_trabalhos,2 trabalhos,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.7408976436299369,2030,8.190982983676726
+Jacareacanga,dados_jacareacanga__2_trabalhos,2 trabalhos,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.7408976436299369,2040,9.367644525270737
+Jacareacanga,dados_jacareacanga__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.1101397426305167,2030,1.142052038222379
+Jacareacanga,dados_jacareacanga__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.1101397426305167,2040,1.3131699617353445
+Jacareacanga,dados_jacareacanga__anos_de_estudo_media,Anos de Estudo (Média),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518974,2030,6.898035864902132
+Jacareacanga,dados_jacareacanga__anos_de_estudo_media,Anos de Estudo (Média),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518974,2040,8.47976755951999
+Jacareacanga,dados_jacareacanga__apenas_1_trabalho,Apenas 1 trabalho,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.6943208105027215,2030,90.34633798288733
+Jacareacanga,dados_jacareacanga__apenas_1_trabalho,Apenas 1 trabalho,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,0.6943208105027215,2040,88.48689138422183
+Jacareacanga,dados_jacareacanga__casais_com_filhos,Casais com filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.9980631833943647,2030,46.23865802464098
+Jacareacanga,dados_jacareacanga__casais_com_filhos,Casais com filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.9980631833943647,2040,36.86226779769158
+Jacareacanga,dados_jacareacanga__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2687878889133275,2030,8.048676164355408
+Jacareacanga,dados_jacareacanga__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,tanh,lbfgs,True,1.2687878889133275,2040,7.996577722185652
+Jacareacanga,dados_jacareacanga__casais_sem_filhos,Casais sem filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,1.0810210324782072,2030,11.64827557980532
+Jacareacanga,dados_jacareacanga__casais_sem_filhos,Casais sem filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,1.0810210324782072,2040,14.20286190223636
+Jacareacanga,dados_jacareacanga__conta_propria,Conta própria,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,0.8037882567304718,2030,3.610973351901916
+Jacareacanga,dados_jacareacanga__conta_propria,Conta própria,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,0.8037882567304718,2040,3.67981345030797
+Jacareacanga,dados_jacareacanga__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,6.647894474716547,2030,136.70506827997787
+Jacareacanga,dados_jacareacanga__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,6.647894474716547,2040,136.6847890245326
+Jacareacanga,dados_jacareacanga__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,1.4963125629431715,2030,6.176441044926434
+Jacareacanga,dados_jacareacanga__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,1.4963125629431715,2040,6.294247978318616
+Jacareacanga,dados_jacareacanga__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.5162732752238869,2030,20.745852134769457
+Jacareacanga,dados_jacareacanga__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.5162732752238869,2040,24.81241960239504
+Jacareacanga,dados_jacareacanga__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,0.274544595331817,2030,24.244833907167372
+Jacareacanga,dados_jacareacanga__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,0.274544595331817,2040,28.61302586670361
+Jacareacanga,dados_jacareacanga__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.1744299342853495,2030,28.60352455552984
+Jacareacanga,dados_jacareacanga__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.1744299342853495,2040,16.62276993090758
+Jacareacanga,dados_jacareacanga__empregador,Empregador,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,27.41191792553978,2030,344.2411097457076
+Jacareacanga,dados_jacareacanga__empregador,Empregador,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,27.41191792553978,2040,430.74134494507956
+Jacareacanga,dados_jacareacanga__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,5.749984428418979,2030,85.79616449394443
+Jacareacanga,dados_jacareacanga__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,5.749984428418979,2040,89.67783676703328
+Jacareacanga,dados_jacareacanga__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,2.8422690135067357,2030,64.83840188375628
+Jacareacanga,dados_jacareacanga__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,2.8422690135067357,2040,76.74691988441667
+Jacareacanga,dados_jacareacanga__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.6988437756941271,2030,18.849018008505965
+Jacareacanga,dados_jacareacanga__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.6988437756941271,2040,23.003326948121575
+Jacareacanga,dados_jacareacanga__idade_mediana,Idade Mediana,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.8704586532031264,2030,23.91003497727408
+Jacareacanga,dados_jacareacanga__idade_mediana,Idade Mediana,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.8704586532031264,2040,24.967044532036482
+Jacareacanga,dados_jacareacanga__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,9.115353596010342,2030,284.9871914152952
+Jacareacanga,dados_jacareacanga__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,9.115353596010342,2040,339.17382975810756
+Jacareacanga,dados_jacareacanga__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02959422633659751,2030,19.739876510700633
+Jacareacanga,dados_jacareacanga__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02959422633659751,2040,22.90867089420346
+Jacareacanga,dados_jacareacanga__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.4941217534682731,2030,4.360403388903989
+Jacareacanga,dados_jacareacanga__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.4941217534682731,2040,4.926151469793068
+Jacareacanga,dados_jacareacanga__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.16698310165183913,2030,6.323058048423072
+Jacareacanga,dados_jacareacanga__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.16698310165183913,2040,7.8144795750868274
+Jacareacanga,dados_jacareacanga__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2030,7.473013772284235
+Jacareacanga,dados_jacareacanga__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2040,9.145055732181
+Jacareacanga,dados_jacareacanga__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,0.8166889617852421,2030,4.051477530261095
+Jacareacanga,dados_jacareacanga__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,0.8166889617852421,2040,4.090744125971161
+Jacareacanga,dados_jacareacanga__media_populacao_amarela,Média: População Amarela,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366024,2030,8.424594394817682
+Jacareacanga,dados_jacareacanga__media_populacao_amarela,Média: População Amarela,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366024,2040,10.140504609006737
+Jacareacanga,dados_jacareacanga__media_populacao_branca,Média: População Branca,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2030,8.473013772284235
+Jacareacanga,dados_jacareacanga__media_populacao_branca,Média: População Branca,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.19736761363854072,2040,10.145055732181
+Jacareacanga,dados_jacareacanga__media_populacao_indigena,Média: População Indígena,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.07569785141671836,2030,5.7715102848929005
+Jacareacanga,dados_jacareacanga__media_populacao_indigena,Média: População Indígena,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.07569785141671836,2040,7.219098738760659
+Jacareacanga,dados_jacareacanga__media_populacao_preta_parda,Média: População Preta / Parda,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.014797113168297571,2030,7.269938255350317
+Jacareacanga,dados_jacareacanga__media_populacao_preta_parda,Média: População Preta / Parda,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.014797113168297571,2040,8.854335447101732
+Jacareacanga,dados_jacareacanga__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,453.68899888945185,2030,1042.0733065560348
+Jacareacanga,dados_jacareacanga__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,453.68899888945185,2040,1090.4250483104304
+Jacareacanga,dados_jacareacanga__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2030,4.93693391235443
+Jacareacanga,dados_jacareacanga__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.11519930377391585,2040,5.104611384778759
+Jacareacanga,dados_jacareacanga__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.04544505370503419,2030,2.723242675051539
+Jacareacanga,dados_jacareacanga__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.04544505370503419,2040,3.4921905152445984
+Jacareacanga,dados_jacareacanga__populacao_amarela,População Amarela,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,9.621544114006225,2030,16.563328406835936
+Jacareacanga,dados_jacareacanga__populacao_amarela,População Amarela,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,9.621544114006225,2040,16.818285098867854
+Jacareacanga,dados_jacareacanga__populacao_branca,População Branca,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,0.7028265611300332,2030,1.8267178108360052
+Jacareacanga,dados_jacareacanga__populacao_branca,População Branca,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,0.7028265611300332,2040,1.8241588374136624
+Jacareacanga,dados_jacareacanga__populacao_indigena,População Indígena,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1970951964348484,2030,11.353635016190578
+Jacareacanga,dados_jacareacanga__populacao_indigena,População Indígena,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1970951964348484,2040,11.344771720883491
+Jacareacanga,dados_jacareacanga__populacao_indigena_total,População Indígena Total,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1970951964348484,2030,11.353635016190578
+Jacareacanga,dados_jacareacanga__populacao_indigena_total,População Indígena Total,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1970951964348484,2040,11.344771720883491
+Jacareacanga,dados_jacareacanga__populacao_parda,População Parda,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,2.0701422944915957,2030,6.293700353986642
+Jacareacanga,dados_jacareacanga__populacao_parda,População Parda,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,2.0701422944915957,2040,6.28658974663863
+Jacareacanga,dados_jacareacanga__populacao_preta,População Preta,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,262.6481977241387,2030,561.9710309892337
+Jacareacanga,dados_jacareacanga__populacao_preta,População Preta,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,262.6481977241387,2040,561.3492674429103
+Jacareacanga,dados_jacareacanga__populacao_rural,População Rural,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,5.369054618336236,2030,13.339901489000447
+Jacareacanga,dados_jacareacanga__populacao_rural,População Rural,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,5.369054618336236,2040,13.324238114283101
+Jacareacanga,dados_jacareacanga__populacao_total,População Total,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,5.873936094334954,2030,20.06022635806526
+Jacareacanga,dados_jacareacanga__populacao_total,População Total,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,5.873936094334954,2040,20.043111854220637
+Jacareacanga,dados_jacareacanga__populacao_urbana,População Urbana,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,0.5048814759987165,2030,6.720345606051148
+Jacareacanga,dados_jacareacanga__populacao_urbana,População Urbana,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,0.5048814759987165,2040,6.718882795988564
+Jacareacanga,dados_jacareacanga__populacao_com_superior_completo,População com Superior Completo,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,172.0216480336901,2030,900.6989083386627
+Jacareacanga,dados_jacareacanga__populacao_com_superior_completo,População com Superior Completo,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,172.0216480336901,2040,1168.2166510986958
+Jacareacanga,dados_jacareacanga__populacao_de_homens,População de Homens,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1236687202574913,2030,10.80046489056851
+Jacareacanga,dados_jacareacanga__populacao_de_homens,População de Homens,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,3.1236687202574913,2040,10.791219347672971
+Jacareacanga,dados_jacareacanga__populacao_de_mulheres,População de Mulheres,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,2.7502673740774615,2030,9.25993707301026
+Jacareacanga,dados_jacareacanga__populacao_de_mulheres,População de Mulheres,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,2.7502673740774615,2040,9.251969108698487
+Jacareacanga,dados_jacareacanga__proporcao_na_populacao_de_jacareacanga,Proporção na população de Jacareacanga,dados_jacareacanga,Grupo 2 — 3 censos,tanh,lbfgs,True,4.369879694928279,2030,59.93801171765693
+Jacareacanga,dados_jacareacanga__proporcao_na_populacao_de_jacareacanga,Proporção na população de Jacareacanga,dados_jacareacanga,Grupo 2 — 3 censos,tanh,lbfgs,True,4.369879694928279,2040,59.74852077826648
+Jacareacanga,dados_jacareacanga__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.2964605102867874,2030,106.89812955219743
+Jacareacanga,dados_jacareacanga__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,1.2964605102867874,2040,101.60415772029185
+Jacareacanga,dados_jacareacanga__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,101.28240835237584,2030,608.6525807584472
+Jacareacanga,dados_jacareacanga__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,101.28240835237584,2040,766.7551301008576
+Jacareacanga,dados_jacareacanga__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,2.9284614778648455,2030,39.74675784694154
+Jacareacanga,dados_jacareacanga__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_jacareacanga,Grupo 2 — 3 censos,identity,lbfgs,True,2.9284614778648455,2040,29.840112337670064
+Jacareacanga,dados_jacareacanga__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,1.0810210324782072,2030,11.64827557980532
+Jacareacanga,dados_jacareacanga__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,1.0810210324782072,2040,14.20286190223636
+Jacareacanga,dados_jacareacanga__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02959422633659751,2030,19.739876510700633
+Jacareacanga,dados_jacareacanga__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02959422633659751,2040,22.90867089420346
+Jacareacanga,dados_jacareacanga__responsavel_homem,Responsável Homem,dados_jacareacanga,Grupo 2 — 3 censos,tanh,sgd,True,0.5745796383031788,2030,3.9772497731911427
+Jacareacanga,dados_jacareacanga__responsavel_homem,Responsável Homem,dados_jacareacanga,Grupo 2 — 3 censos,tanh,sgd,True,0.5745796383031788,2040,3.878386601584684
+Jacareacanga,dados_jacareacanga__responsavel_mulher,Responsável Mulher,dados_jacareacanga,Grupo 2 — 3 censos,tanh,sgd,True,0.3289375239014336,2030,2.9152429028386235
+Jacareacanga,dados_jacareacanga__responsavel_mulher,Responsável Mulher,dados_jacareacanga,Grupo 2 — 3 censos,tanh,sgd,True,0.3289375239014336,2040,2.857572871436027
+Jacareacanga,dados_jacareacanga__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.19681241306146338,2030,2.7164978212104933
+Jacareacanga,dados_jacareacanga__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,0.19681241306146338,2040,2.489777261368804
+Jacareacanga,dados_jacareacanga__setor_privado,Setor privado,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,451.6949059350446,2030,-3.3542791831101226
+Jacareacanga,dados_jacareacanga__setor_privado,Setor privado,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,451.6949059350446,2040,20.45842667969231
+Jacareacanga,dados_jacareacanga__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,263.45955216283744,2030,267.8244470626398
+Jacareacanga,dados_jacareacanga__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,263.45955216283744,2040,266.7283712878276
+Jacareacanga,dados_jacareacanga__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,415.27658493439094,2030,421.26989522634915
+Jacareacanga,dados_jacareacanga__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,logistic,sgd,True,415.27658493439094,2040,419.61487774888315
+Jacareacanga,dados_jacareacanga__setor_publico,Setor público,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.018072650061999873,2030,3.2479530570070887
+Jacareacanga,dados_jacareacanga__setor_publico,Setor público,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.018072650061999873,2040,3.9539552614914903
+Jacareacanga,dados_jacareacanga__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2030,174.68793689380078
+Jacareacanga,dados_jacareacanga__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2040,220.1189646459635
+Jacareacanga,dados_jacareacanga__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02721434651301354,2030,3.073273012872245
+Jacareacanga,dados_jacareacanga__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.02721434651301354,2040,3.7338526256911404
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,3.937460727989162,2030,78.4844020564372
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,3.937460727989162,2040,83.47076460009528
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.8845754187647898,2030,34.208411482301635
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,0.8845754187647898,2040,41.92003166102725
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,4.726278703184302,2030,91.21445065888449
+Jacareacanga,dados_jacareacanga__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,4.726278703184302,2040,94.43224194667758
+Jacareacanga,dados_jacareacanga__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,5.749984428418979,2030,85.79616449394443
+Jacareacanga,dados_jacareacanga__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_jacareacanga,Grupo 2 — 3 censos,relu,adam,True,5.749984428418979,2040,89.67783676703328
+Jacareacanga,dados_jacareacanga__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,1.5070756306132094,2030,6.316967214298759
+Jacareacanga,dados_jacareacanga__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_jacareacanga,Grupo 2 — 3 censos,tanh,adam,True,1.5070756306132094,2040,6.434907015197622
+Jacareacanga,dados_jacareacanga__trabalhador_domestico,Trabalhador doméstico,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,22.84106970003286,2030,326.89825197485777
+Jacareacanga,dados_jacareacanga__trabalhador_domestico,Trabalhador doméstico,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,22.84106970003286,2040,390.6842090145694
+Jacareacanga,dados_jacareacanga__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2030,77.34396844690039
+Jacareacanga,dados_jacareacanga__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2040,100.05948232298175
+Jacareacanga,dados_jacareacanga__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2030,249.55643986961604
+Jacareacanga,dados_jacareacanga__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_jacareacanga,Grupo 2 — 3 censos,identity,adam,True,18.27022147452594,2040,290.6293528986165
+Jacareacanga,dados_jacareacanga__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,2.34301515002453,2030,14.810190928468126
+Jacareacanga,dados_jacareacanga__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_jacareacanga,Grupo 2 — 3 censos,relu,lbfgs,True,2.34301515002453,2040,18.455029487284108
+Jacareacanga,dados_jacareacanga__a_pe,A pé,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.539180903313746
+Jacareacanga,dados_jacareacanga__a_pe,A pé,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.200193237487007
+Jacareacanga,dados_jacareacanga__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.14796023262335
+Jacareacanga,dados_jacareacanga__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.25195443471533
+Jacareacanga,dados_jacareacanga__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.78698351158268
+Jacareacanga,dados_jacareacanga__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.487385998088314
+Jacareacanga,dados_jacareacanga__bicicleta,Bicicleta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.149526830808775
+Jacareacanga,dados_jacareacanga__bicicleta,Bicicleta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1.1961555430650268
+Jacareacanga,dados_jacareacanga__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.28560620913649
+Jacareacanga,dados_jacareacanga__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.52041532632381
+Jacareacanga,dados_jacareacanga__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Jacareacanga,dados_jacareacanga__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Jacareacanga,dados_jacareacanga__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.94670376433941
+Jacareacanga,dados_jacareacanga__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.42985388054048
+Jacareacanga,dados_jacareacanga__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.910149016906466
+Jacareacanga,dados_jacareacanga__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.167785757286108
+Jacareacanga,dados_jacareacanga__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.07247685410069
+Jacareacanga,dados_jacareacanga__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.896914423315543
+Jacareacanga,dados_jacareacanga__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.47826823043164
+Jacareacanga,dados_jacareacanga__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.942014363114994
+Jacareacanga,dados_jacareacanga__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.152349897278148
+Jacareacanga,dados_jacareacanga__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.977835033329487
+Jacareacanga,dados_jacareacanga__estuda_em_outro_municipio_ex_itaituba_santare,Estuda em outro município (ex: Itaituba / Santarém),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.586983511582677
+Jacareacanga,dados_jacareacanga__estuda_em_outro_municipio_ex_itaituba_santare,Estuda em outro município (ex: Itaituba / Santarém),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.287385998088315
+Jacareacanga,dados_jacareacanga__estuda_no_proprio_municipio_jacareacanga,Estuda no próprio município (Jacareacanga),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.53448110875745
+Jacareacanga,dados_jacareacanga__estuda_no_proprio_municipio_jacareacanga,Estuda no próprio município (Jacareacanga),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.54452317082804
+Jacareacanga,dados_jacareacanga__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.426145843453115
+Jacareacanga,dados_jacareacanga__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.136114904919957
+Jacareacanga,dados_jacareacanga__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.77930814500994
+Jacareacanga,dados_jacareacanga__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.792697561104056
+Jacareacanga,dados_jacareacanga__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.04931134877691
+Jacareacanga,dados_jacareacanga__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.31651466411776
+Jacareacanga,dados_jacareacanga__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6328583964080339
+Jacareacanga,dados_jacareacanga__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.7563465833952154
+Jacareacanga,dados_jacareacanga__mais_de_1_hora_deslocamento_por_rios_br_230_g,Mais de 1 hora (Deslocamento por rios / BR-230 / garimpos),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.634804691294917
+Jacareacanga,dados_jacareacanga__mais_de_1_hora_deslocamento_por_rios_br_230_g,Mais de 1 hora (Deslocamento por rios / BR-230 / garimpos),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.026043089344984
+Jacareacanga,dados_jacareacanga__motocicleta,Motocicleta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.318920731366745
+Jacareacanga,dados_jacareacanga__motocicleta,Motocicleta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.36860084280773
+Jacareacanga,dados_jacareacanga__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.14796023262333
+Jacareacanga,dados_jacareacanga__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.2519544347153
+Jacareacanga,dados_jacareacanga__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.49569879273372
+Jacareacanga,dados_jacareacanga__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.432757633061634
+Jacareacanga,dados_jacareacanga__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.687039944891914
+Jacareacanga,dados_jacareacanga__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,67.9428294486366
+Jacareacanga,dados_jacareacanga__populacao_amarela_2,População Amarela,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_amarela_2,População Amarela,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__populacao_branca_2,População Branca,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_branca_2,População Branca,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__populacao_indigena_2,População Indígena,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_indigena_2,População Indígena,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__populacao_parda_2,População Parda,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_parda_2,População Parda,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__populacao_preta_2,População Preta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_preta_2,População Preta,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__populacao_residente_em_favelas,População Residente em Favelas,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__populacao_residente_em_favelas,População Residente em Favelas,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Jacareacanga,dados_jacareacanga__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Jacareacanga,dados_jacareacanga__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.619435386706126
+Jacareacanga,dados_jacareacanga__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9852018847210986
+Jacareacanga,dados_jacareacanga__ruas_sem_arvores,Ruas Sem Árvores,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.35987275830381
+Jacareacanga,dados_jacareacanga__ruas_sem_arvores,Ruas Sem Árvores,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.0074956763829555
+Jacareacanga,dados_jacareacanga__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.65510272510784
+Jacareacanga,dados_jacareacanga__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.56161460391718
+Jacareacanga,dados_jacareacanga__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6463874439568125
+Jacareacanga,dados_jacareacanga__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.3162429689438806
+Jacareacanga,dados_jacareacanga__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.84070893424435
+Jacareacanga,dados_jacareacanga__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.982029930241026
+Jacareacanga,dados_jacareacanga__sem_conjuge,Sem cônjuge,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.00877171446028
+Jacareacanga,dados_jacareacanga__sem_conjuge,Sem cônjuge,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.800815085521606
+Jacareacanga,dados_jacareacanga__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Jacareacanga,dados_jacareacanga__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Jacareacanga,dados_jacareacanga__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.04787761302147
+Jacareacanga,dados_jacareacanga__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.29410054180495
+Jacareacanga,dados_jacareacanga__trabalha_em_outro_municipio_ex_itaituba_novo_,Trabalha em outro município (ex: Itaituba / Novo Progresso),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.28698351158268
+Jacareacanga,dados_jacareacanga__trabalha_em_outro_municipio_ex_itaituba_novo_,Trabalha em outro município (ex: Itaituba / Novo Progresso),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.987385998088314
+Jacareacanga,dados_jacareacanga__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Jacareacanga),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.83448110875744
+Jacareacanga,dados_jacareacanga__trabalha_no_proprio_municipio_de_residencia_j,Trabalha no próprio município de residência (Jacareacanga),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.84452317082801
+Jacareacanga,dados_jacareacanga__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.005847809640183
+Jacareacanga,dados_jacareacanga__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.20054339034774
+Jacareacanga,dados_jacareacanga__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,30.137785029424244
+Jacareacanga,dados_jacareacanga__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,36.68175823506715
+Jacareacanga,dados_jacareacanga__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.14202980338129328
+Jacareacanga,dados_jacareacanga__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_jacareacanga,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.19355715145722163
