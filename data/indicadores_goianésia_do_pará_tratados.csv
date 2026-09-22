@@ -1,0 +1,288 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Goianésia do Pará,dados_goianesia_do_para__populacao_total,População Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9413597680235455,2000,22.685,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_total,População Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9413597680235455,2010,30.41,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_total,População Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9413597680235455,2022,26.362,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_urbana,População Urbana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2723243350276223,2000,14.687,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_urbana,População Urbana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2723243350276223,2010,21.083,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_urbana,População Urbana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.2723243350276223,2022,18.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_rural,População Rural,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8103277422160101,2000,7.998,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_rural,População Rural,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8103277422160101,2010,9.327,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_rural,População Rural,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.8103277422160101,2022,8.242,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_mulheres,População de Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.944689229370433,2000,10.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_mulheres,População de Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.944689229370433,2010,14.68,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_mulheres,População de Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,1.944689229370433,2022,12.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_homens,População de Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,2.040773488528836,2000,11.845,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_homens,População de Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,2.040773488528836,2010,15.73,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_de_homens,População de Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,2.040773488528836,2022,13.522,Valor
+Goianésia do Pará,dados_goianesia_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490865872467907,2000,109.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490865872467907,2010,107.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5490865872467907,2022,105.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__idade_mediana,Idade Mediana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,20.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__idade_mediana,Idade Mediana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,24.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__idade_mediana,Idade Mediana,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,30.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,6.168724322744748,2000,4.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,6.168724322744748,2010,6.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,sgd,True,6.168724322744748,2022,21.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_parda,População Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9599439059386814,2000,14.28,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_parda,População Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9599439059386814,2010,21.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_parda,População Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,3.9599439059386814,2022,18.62,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_branca,População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252397716324317,2000,6.82,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_branca,População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252397716324317,2010,6.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_branca,População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15252397716324317,2022,5.48,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_preta,População Preta,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5708075674759743,2000,1.24,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_preta,População Preta,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5708075674759743,2010,2.18,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_preta,População Preta,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5708075674759743,2022,2.02,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_amarela,População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,sgd,True,18.070343244092246,2000,92.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_amarela,População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,sgd,True,18.070343244092246,2010,48.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_amarela,População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,sgd,True,18.070343244092246,2022,32.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena,População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2000,253.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena,População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2010,222.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena,População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2022,210.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,88.56468884055433,2000,118.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,88.56468884055433,2010,320.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,88.56468884055433,2022,680.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0198325607716232,2000,94.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0198325607716232,2010,93.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__apenas_1_trabalho,Apenas 1 trabalho,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.0198325607716232,2022,91.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__2_trabalhos,2 trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9224385025749223,2000,5.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__2_trabalhos,2 trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9224385025749223,2010,5.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__2_trabalhos,2 trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9224385025749223,2022,7.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.16842593892108892,2000,0.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.16842593892108892,2010,0.7,Valor
+Goianésia do Pará,dados_goianesia_do_para__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.16842593892108892,2022,1.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado,Setor privado,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2499234550099083,2000,2.18,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado,Setor privado,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2499234550099083,2010,4.82,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado,Setor privado,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.2499234550099083,2022,5.42,Valor
+Goianésia do Pará,dados_goianesia_do_para__conta_propria,Conta própria,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.3712233220360339,2000,3.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__conta_propria,Conta própria,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.3712233220360339,2010,5.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__conta_propria,Conta própria,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.3712233220360339,2022,5.98,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico,Setor público,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2000,820.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico,Setor público,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2010,1.64,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico,Setor público,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,451.31690603553767,2022,2.28,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalhador_domestico,Trabalhador doméstico,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,58.11676187885856,2000,280.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalhador_domestico,Trabalhador doméstico,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,58.11676187885856,2010,480.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalhador_domestico,Trabalhador doméstico,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,58.11676187885856,2022,610.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__empregador,Empregador,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,61.44921571611951,2000,210.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__empregador,Empregador,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,61.44921571611951,2010,420.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__empregador,Empregador,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,61.44921571611951,2022,540.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,236.7092360632997,2000,1.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,236.7092360632997,2010,1.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,236.7092360632997,2022,480.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2000,30.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2010,80.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2022,140.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,450.85399993252946,2000,820.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,450.85399993252946,2010,2.48,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,450.85399993252946,2022,3.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5653586378861656,2000,1.36,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5653586378861656,2010,2.34,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.5653586378861656,2022,2.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,10.63457919534541,2000,40.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,10.63457919534541,2010,110.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,10.63457919534541,2022,180.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.29761096447993,2000,780.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.29761096447993,2010,1.53,Valor
+Goianésia do Pará,dados_goianesia_do_para__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,adam,True,429.29761096447993,2022,2.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2000,30.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2010,80.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.003012726338790609,2022,140.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,51.039890156933154,2000,250.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,51.039890156933154,2010,400.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,51.039890156933154,2022,470.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,6.053164593787666,2000,66.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,6.053164593787666,2010,82.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,6.053164593787666,2022,88.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,4.362950529700011,2000,84.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,4.362950529700011,2010,94.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,4.362950529700011,2022,97.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.727779430655635,2000,18.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.727779430655635,2010,28.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.727779430655635,2022,39.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2000,76.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2010,90.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2022,93.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_com_superior_completo,População com Superior Completo,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,316.07989461534237,2000,98.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_com_superior_completo,População com Superior Completo,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,316.07989461534237,2010,520.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_com_superior_completo,População com Superior Completo,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,316.07989461534237,2022,1.48,Valor
+Goianésia do Pará,dados_goianesia_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2000,3.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2010,5.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__anos_de_estudo_media,Anos de Estudo (Média),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2022,7.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.41032262609548376,2000,3.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.41032262609548376,2010,6.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.41032262609548376,2022,8.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.37993811410878225,2000,3.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.37993811410878225,2010,5.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.37993811410878225,2022,7.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.298,Valor
+Goianésia do Pará,dados_goianesia_do_para__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.56,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2000,76.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2010,90.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,6.843218975546724,2022,93.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2000,42.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2010,59.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2022,71.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5767788706472512,2000,10.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5767788706472512,2010,16.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.5767788706472512,2022,22.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_amarela,Média: População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303895,2000,3.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_amarela,Média: População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303895,2010,6.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_amarela,Média: População Amarela,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303895,2022,8.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_branca,Média: População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303887,2000,3.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_branca,Média: População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303887,2010,6.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_branca,Média: População Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.6604568342303887,2022,7.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3951303701021323,2000,3.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3951303701021323,2010,5.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_preta_parda,Média: População Preta / Parda,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.3951303701021323,2022,7.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_indigena,Média: População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2000,2.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_indigena,Média: População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2010,4.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_populacao_indigena,Média: População Indígena,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2022,5.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_residente_em_favelas,População Residente em Favelas,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_parda_2,População Parda,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_parda_2,População Parda,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_branca_2,População Branca,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_branca_2,População Branca,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_preta_2,População Preta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_preta_2,População Preta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_amarela_2,População Amarela,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_amarela_2,População Amarela,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena_2,População Indígena,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena_2,População Indígena,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos,Casais com filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.3086735231900186,2000,70.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos,Casais com filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.3086735231900186,2010,58.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos,Casais com filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,3.3086735231900186,2022,48.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_sem_filhos,Casais sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2000,6.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_sem_filhos,Casais sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2010,8.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_sem_filhos,Casais sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2022,13.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2000,12.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2010,15.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2022,20.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,4.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.870478108045844,2000,5.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.870478108045844,2010,7.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.870478108045844,2022,6.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,1.3532930673356482,2000,1.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,1.3532930673356482,2010,4.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,adam,True,1.3532930673356482,2022,4.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.7504020803875275,2000,0.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.7504020803875275,2010,2.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.7504020803875275,2022,2.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_no_proprio_municipio_de_residencia_g,Trabalha no próprio município de residência (Goianésia do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_no_proprio_municipio_de_residencia_g,Trabalha no próprio município de residência (Goianésia do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_em_outro_municipio_ex_jacunda_tucuru,Trabalha em outro município (ex: Jacundá / Tucuruí / Rondon do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__trabalha_em_outro_municipio_ex_jacunda_tucuru,Trabalha em outro município (ex: Jacundá / Tucuruí / Rondon do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__motocicleta,Motocicleta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__motocicleta,Motocicleta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__a_pe,A pé,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__a_pe,A pé,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__bicicleta,Bicicleta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__bicicleta,Bicicleta,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__mais_de_1_hora_deslocamento_pela_pa_150_vicin,Mais de 1 hora (Deslocamento pela PA-150 / vicinais),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__mais_de_1_hora_deslocamento_pela_pa_150_vicin,Mais de 1 hora (Deslocamento pela PA-150 / vicinais),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.7,Valor
+Goianésia do Pará,dados_goianesia_do_para__estuda_no_proprio_municipio_goianesia_do_para,Estuda no próprio município (Goianésia do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__estuda_no_proprio_municipio_goianesia_do_para,Estuda no próprio município (Goianésia do Pará),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__estuda_em_outro_municipio_ex_tucurui_belem,Estuda em outro município (ex: Tucuruí / Belém),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__estuda_em_outro_municipio_ex_tucurui_belem,Estuda em outro município (ex: Tucuruí / Belém),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.2141224252727383,2000,4.82,Valor
+Goianésia do Pará,dados_goianesia_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.2141224252727383,2010,7.84,Valor
+Goianésia do Pará,dados_goianesia_do_para__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.2141224252727383,2022,8.98,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.1194956596729024,2000,4.68,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.1194956596729024,2010,7.62,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,1.1194956596729024,2022,8.82,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,46.97009208711285,2000,140.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,46.97009208711285,2010,220.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,46.97009208711285,2022,160.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1372714062232062,2000,4.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1372714062232062,2010,3.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1372714062232062,2022,3.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,45.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,78.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__ruas_sem_arvores,Ruas Sem Árvores,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena_total,População Indígena Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2000,253.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena_total,População Indígena Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2010,222.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__populacao_indigena_total,População Indígena Total,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,12.637441778607998,2022,210.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__proporcao_na_populacao_de_goianesia_do_para,Proporção na população de Goianésia do Pará,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2365575427560225,2000,1.12,Valor
+Goianésia do Pará,dados_goianesia_do_para__proporcao_na_populacao_de_goianesia_do_para,Proporção na população de Goianésia do Pará,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2365575427560225,2010,0.73,Valor
+Goianésia do Pará,dados_goianesia_do_para__proporcao_na_populacao_de_goianesia_do_para,Proporção na população de Goianésia do Pará,dados_goianesia_do_para,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2365575427560225,2022,0.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2000,12.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2010,15.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,1.0660922050348909,2022,20.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.2726066374100973,2000,66.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.2726066374100973,2010,54.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.2726066374100973,2022,44.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2000,6.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2010,8.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.8072969960478581,2022,13.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__sem_conjuge,Sem cônjuge,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__sem_conjuge,Sem cônjuge,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.7,Valor
+Goianésia do Pará,dados_goianesia_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_goianesia_do_para,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.6,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_mulher,Responsável Mulher,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_mulher,Responsável Mulher,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_mulher,Responsável Mulher,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_homem,Responsável Homem,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727140622320588,2000,5.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_homem,Responsável Homem,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727140622320588,2010,4.2,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_homem,Responsável Homem,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727140622320588,2022,3.3,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_goianesia_do_para,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.045755606207480426,2000,10.4,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.045755606207480426,2010,15.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.045755606207480426,2022,20.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.257478066236855,2000,13.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.257478066236855,2010,17.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,adam,True,0.257478066236855,2022,23.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.76734325602728,2000,56.8,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.76734325602728,2010,41.1,Valor
+Goianésia do Pará,dados_goianesia_do_para__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_goianesia_do_para,Grupo 2 — 3 censos,3,identity,lbfgs,True,3.76734325602728,2022,27.2,Valor
