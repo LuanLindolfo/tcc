@@ -312,7 +312,7 @@ MUNICIPIOS = [
     {
         "nome":    "Igarapé-Açu",
         "pasta":   "data",
-        "arquivo": "indicadores_igarapé_acu_tratados.csv",
+        "arquivo": "indicadores_igarapé-açu_tratados.csv",
     },
     {
         "nome":    "Jacundá",
