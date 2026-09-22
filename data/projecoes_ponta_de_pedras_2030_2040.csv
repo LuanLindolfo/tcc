@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Ponta de Pedras,dados_ponta_de_pedras__anos_de_estudo_media,Anos de Estudo (Média),dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,lbfgs,True,0.15139085131212887,2030,8.078636857689158
+Ponta de Pedras,dados_ponta_de_pedras__anos_de_estudo_media,Anos de Estudo (Média),dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,lbfgs,True,0.15139085131212887,2040,9.84309737285095
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,lbfgs,True,9.989905848615969,2030,149.23394740339094
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,lbfgs,True,9.989905848615969,2040,160.7505897427468
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,adam,True,0.6821382266730207,2030,9.253038533566496
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,adam,True,0.6821382266730207,2040,10.560876410500327
+Ponta de Pedras,dados_ponta_de_pedras__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,adam,True,0.14394635438346304,2030,7.487669200893663
+Ponta de Pedras,dados_ponta_de_pedras__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,adam,True,0.14394635438346304,2040,9.149001365183054
+Ponta de Pedras,dados_ponta_de_pedras__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,lbfgs,True,0.16105787177232755,2030,8.66305155743
+Ponta de Pedras,dados_ponta_de_pedras__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,lbfgs,True,0.16105787177232755,2040,10.524181970580834
+Ponta de Pedras,dados_ponta_de_pedras__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,sgd,True,0.20367784493182128,2030,2.3157013787190888
+Ponta de Pedras,dados_ponta_de_pedras__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,sgd,True,0.20367784493182128,2040,1.4941535856524975
+Ponta de Pedras,dados_ponta_de_pedras__populacao_total,População Total,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,adam,True,0.15736769855016508,2030,31.010706047367947
+Ponta de Pedras,dados_ponta_de_pedras__populacao_total,População Total,dados_ponta_de_pedras,Grupo 1 — 4 censos,identity,adam,True,0.15736769855016508,2040,33.55798186395158
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ponta_de_pedras,Grupo 1 — 4 censos,logistic,lbfgs,True,3.654478687657484,2030,84.50460315406164
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_ponta_de_pedras,Grupo 1 — 4 censos,logistic,lbfgs,True,3.654478687657484,2040,85.85755469848728
+Ponta de Pedras,dados_ponta_de_pedras__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,adam,True,0.6837472183116403,2030,9.395603662192778
+Ponta de Pedras,dados_ponta_de_pedras__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_ponta_de_pedras,Grupo 1 — 4 censos,relu,adam,True,0.6837472183116403,2040,10.709183514075846
+Ponta de Pedras,dados_ponta_de_pedras__2_trabalhos,2 trabalhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,0.959346016908252,2030,8.380148817270852
+Ponta de Pedras,dados_ponta_de_pedras__2_trabalhos,2 trabalhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,0.959346016908252,2040,9.881832564157264
+Ponta de Pedras,dados_ponta_de_pedras__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2030,0.8266041579919954
+Ponta de Pedras,dados_ponta_de_pedras__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958867005,2040,0.8371422561639152
+Ponta de Pedras,dados_ponta_de_pedras__apenas_1_trabalho,Apenas 1 trabalho,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,0.8828005734134573,2030,90.39189718268563
+Ponta de Pedras,dados_ponta_de_pedras__apenas_1_trabalho,Apenas 1 trabalho,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,0.8828005734134573,2040,88.20864853792027
+Ponta de Pedras,dados_ponta_de_pedras__casais_com_filhos,Casais com filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.7540238447478416,2030,42.94307503291269
+Ponta de Pedras,dados_ponta_de_pedras__casais_com_filhos,Casais com filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.7540238447478416,2040,33.017245017943715
+Ponta de Pedras,dados_ponta_de_pedras__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.8646710238797679,2030,5.673803714451495
+Ponta de Pedras,dados_ponta_de_pedras__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.8646710238797679,2040,5.6714513882668625
+Ponta de Pedras,dados_ponta_de_pedras__casais_sem_filhos,Casais sem filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279109,2030,13.375584224910572
+Ponta de Pedras,dados_ponta_de_pedras__casais_sem_filhos,Casais sem filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279109,2040,16.287984533249233
+Ponta de Pedras,dados_ponta_de_pedras__conta_propria,Conta própria,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.34197482672529667,2030,6.707546872109608
+Ponta de Pedras,dados_ponta_de_pedras__conta_propria,Conta própria,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.34197482672529667,2040,6.987782141606332
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.045755606207480426,2030,24.573936846344
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.045755606207480426,2040,29.302023638338582
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,0.4875150727916934,2030,27.072937549679793
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,0.4875150727916934,2040,31.89011874187252
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.982807917863256,2030,16.413869098922145
+Ponta de Pedras,dados_ponta_de_pedras__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.982807917863256,2040,2.6281588390949295
+Ponta de Pedras,dados_ponta_de_pedras__empregador,Empregador,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,7.513595005125116,2030,428.7760978595297
+Ponta de Pedras,dados_ponta_de_pedras__empregador,Empregador,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,7.513595005125116,2040,538.4150143719212
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,adam,True,6.878014672304782,2030,94.90772407959189
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,adam,True,6.878014672304782,2040,96.12158298776794
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,4.559134312827003,2030,70.60111773099584
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,4.559134312827003,2040,77.71390536252102
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675296,2030,21.54893261794127
+Ponta de Pedras,dados_ponta_de_pedras__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675296,2040,26.064485813175626
+Ponta de Pedras,dados_ponta_de_pedras__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.054927483863868976,2030,0.8036286798207586
+Ponta de Pedras,dados_ponta_de_pedras__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.054927483863868976,2040,0.9846487332761139
+Ponta de Pedras,dados_ponta_de_pedras__idade_mediana,Idade Mediana,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,30.955643986961604
+Ponta de Pedras,dados_ponta_de_pedras__idade_mediana,Idade Mediana,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,35.06293528986165
+Ponta de Pedras,dados_ponta_de_pedras__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2030,113.55875295257351
+Ponta de Pedras,dados_ponta_de_pedras__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2040,142.01291433601278
+Ponta de Pedras,dados_ponta_de_pedras__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.5639574716042149,2030,23.602879756230042
+Ponta de Pedras,dados_ponta_de_pedras__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.5639574716042149,2040,27.234426053860332
+Ponta de Pedras,dados_ponta_de_pedras__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.7699602354980003,2030,4.4025628044677125
+Ponta de Pedras,dados_ponta_de_pedras__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.7699602354980003,2040,4.862183672232289
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_amarela,Média: População Amarela,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2030,8.527828091854666
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_amarela,Média: População Amarela,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2040,10.331552920500318
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_branca,Média: População Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366035,2030,8.32459439481768
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_branca,Média: População Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366035,2040,10.040504609006737
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_indigena,Média: População Indígena,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151486511060607,2030,5.948277969055789
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_indigena,Média: População Indígena,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151486511060607,2040,7.404341955567869
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_preta_parda,Média: População Preta / Parda,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2030,7.7245943948176805
+Ponta de Pedras,dados_ponta_de_pedras__media_populacao_preta_parda,Média: População Preta / Parda,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2040,9.440504609006737
+Ponta de Pedras,dados_ponta_de_pedras__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,256.51510952175215,2030,588.9570746176872
+Ponta de Pedras,dados_ponta_de_pedras__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,256.51510952175215,2040,616.2002277558558
+Ponta de Pedras,dados_ponta_de_pedras__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.068974426752009
+Ponta de Pedras,dados_ponta_de_pedras__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.402782091398334
+Ponta de Pedras,dados_ponta_de_pedras__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.04531333943001644,2030,4.221561704371662
+Ponta de Pedras,dados_ponta_de_pedras__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.04531333943001644,2040,5.488537360748214
+Ponta de Pedras,dados_ponta_de_pedras__populacao_amarela,População Amarela,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,sgd,True,18.070343244092246,2030,21.850336928251295
+Ponta de Pedras,dados_ponta_de_pedras__populacao_amarela,População Amarela,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,sgd,True,18.070343244092246,2040,18.71975775453025
+Ponta de Pedras,dados_ponta_de_pedras__populacao_branca,População Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.24620038757278495,2030,4.173972757689551
+Ponta de Pedras,dados_ponta_de_pedras__populacao_branca,População Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.24620038757278495,2040,4.173008179610459
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena,População Indígena,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,27.110065404725493,2030,235.55839285731815
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena,População Indígena,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,27.110065404725493,2040,238.76406849452255
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena_total,População Indígena Total,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,27.110065404725493,2030,235.55839285731815
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena_total,População Indígena Total,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,27.110065404725493,2040,238.76406849452255
+Ponta de Pedras,dados_ponta_de_pedras__populacao_parda,População Parda,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.7936153056629749,2030,24.581619429667484
+Ponta de Pedras,dados_ponta_de_pedras__populacao_parda,População Parda,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.7936153056629749,2040,27.104898332760346
+Ponta de Pedras,dados_ponta_de_pedras__populacao_preta,População Preta,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.05471846443106543,2030,2.370271221474855
+Ponta de Pedras,dados_ponta_de_pedras__populacao_preta,População Preta,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.05471846443106543,2040,2.5957982440304335
+Ponta de Pedras,dados_ponta_de_pedras__populacao_rural,População Rural,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.03355528312533688,2030,16.45435006878441
+Ponta de Pedras,dados_ponta_de_pedras__populacao_rural,População Rural,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.03355528312533688,2040,17.3549118790985
+Ponta de Pedras,dados_ponta_de_pedras__populacao_urbana,População Urbana,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.3052361314759171,2030,14.674631425375821
+Ponta de Pedras,dados_ponta_de_pedras__populacao_urbana,População Urbana,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.3052361314759171,2040,16.399343969847255
+Ponta de Pedras,dados_ponta_de_pedras__populacao_com_superior_completo,População com Superior Completo,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,229.12801464978895,2030,1269.699146952475
+Ponta de Pedras,dados_ponta_de_pedras__populacao_com_superior_completo,População com Superior Completo,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,229.12801464978895,2040,1627.627996794505
+Ponta de Pedras,dados_ponta_de_pedras__populacao_de_homens,População de Homens,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.2353517539065031,2030,15.889729751896445
+Ponta de Pedras,dados_ponta_de_pedras__populacao_de_homens,População de Homens,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.2353517539065031,2040,17.199011539486925
+Ponta de Pedras,dados_ponta_de_pedras__populacao_de_mulheres,População de Mulheres,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.03617164297900288,2030,15.236241859207293
+Ponta de Pedras,dados_ponta_de_pedras__populacao_de_mulheres,População de Mulheres,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.03617164297900288,2040,16.548640225472663
+Ponta de Pedras,dados_ponta_de_pedras__proporcao_na_populacao_de_ponta_de_pedras,Proporção na população de Ponta de Pedras,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.06740475663727845,2030,0.7239035694465139
+Ponta de Pedras,dados_ponta_de_pedras__proporcao_na_populacao_de_ponta_de_pedras,Proporção na população de Ponta de Pedras,dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.06740475663727845,2040,0.7237134771045594
+Ponta de Pedras,dados_ponta_de_pedras__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.8584735159631833,2030,105.26855283845424
+Ponta de Pedras,dados_ponta_de_pedras__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,sgd,True,0.8584735159631833,2040,105.26512664904479
+Ponta de Pedras,dados_ponta_de_pedras__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,88.33513782944526,2030,650.7257102729592
+Ponta de Pedras,dados_ponta_de_pedras__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,88.33513782944526,2040,844.0869953427816
+Ponta de Pedras,dados_ponta_de_pedras__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,3.421849969233089,2030,38.610971766118176
+Ponta de Pedras,dados_ponta_de_pedras__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,3.421849969233089,2040,32.29019441452163
+Ponta de Pedras,dados_ponta_de_pedras__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279109,2030,13.375584224910572
+Ponta de Pedras,dados_ponta_de_pedras__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.8528737640279109,2040,16.287984533249233
+Ponta de Pedras,dados_ponta_de_pedras__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.5639574716042149,2030,23.602879756230042
+Ponta de Pedras,dados_ponta_de_pedras__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,0.5639574716042149,2040,27.234426053860332
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_homem,Responsável Homem,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100919309232836,2030,2.4988791642884713
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_homem,Responsável Homem,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100919309232836,2040,1.6362431864737923
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_mulher,Responsável Mulher,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_mulher,Responsável Mulher,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado,Setor privado,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.349677269036766,2030,4.267833437973076
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado,Setor privado,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.349677269036766,2040,4.816901086910191
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,264.27872922275145,2030,-1.3666035352478048
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,tanh,adam,True,264.27872922275145,2040,12.56469177240723
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.20474114504693305,2030,2.0961276128351822
+Ponta de Pedras,dados_ponta_de_pedras__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.20474114504693305,2040,2.2288730554427696
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico,Setor público,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.24372842289687555,2030,2.7948097936367424
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico,Setor público,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.24372842289687555,2040,3.090772468970215
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,16.750995875190878,2030,177.04640188868035
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,adam,True,16.750995875190878,2040,227.1417399679638
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.23324271250328513,2030,2.6036804792646353
+Ponta de Pedras,dados_ponta_de_pedras__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,0.23324271250328513,2040,2.8541006546738514
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.2592901392699047,2030,39.119902014339885
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,0.2592901392699047,2040,47.57880926989916
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,lbfgs,True,5.014622235053437,2030,95.52264033603726
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,lbfgs,True,5.014622235053437,2040,95.89108503094323
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,adam,True,6.878014672304782,2030,94.90772407959189
+Ponta de Pedras,dados_ponta_de_pedras__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_ponta_de_pedras,Grupo 2 — 3 censos,logistic,adam,True,6.878014672304782,2040,96.12158298776794
+Ponta de Pedras,dados_ponta_de_pedras__trabalhador_domestico,Trabalhador doméstico,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,49.67073034277763,2030,625.2772623965838
+Ponta de Pedras,dados_ponta_de_pedras__trabalhador_domestico,Trabalhador doméstico,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,49.67073034277763,2040,677.4610050420159
+Ponta de Pedras,dados_ponta_de_pedras__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2030,142.4704576720187
+Ponta de Pedras,dados_ponta_de_pedras__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2040,183.40508541356812
+Ponta de Pedras,dados_ponta_de_pedras__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,51.62147457613353,2030,490.0577100480867
+Ponta de Pedras,dados_ponta_de_pedras__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,adam,True,51.62147457613353,2040,514.8175792949293
+Ponta de Pedras,dados_ponta_de_pedras__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,5.313185929449556,2030,26.302617476999625
+Ponta de Pedras,dados_ponta_de_pedras__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_ponta_de_pedras,Grupo 2 — 3 censos,relu,lbfgs,True,5.313185929449556,2040,33.938246731194646
+Ponta de Pedras,dados_ponta_de_pedras__a_pe,A pé,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.394353867061263
+Ponta de Pedras,dados_ponta_de_pedras__a_pe,A pé,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.052018847210993
+Ponta de Pedras,dados_ponta_de_pedras__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.285264407850164
+Ponta de Pedras,dados_ponta_de_pedras__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.57046818193786
+Ponta de Pedras,dados_ponta_de_pedras__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.22901331496397
+Ponta de Pedras,dados_ponta_de_pedras__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.980943149545535
+Ponta de Pedras,dados_ponta_de_pedras__bicicleta,Bicicleta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.268962217514904
+Ponta de Pedras,dados_ponta_de_pedras__bicicleta,Bicicleta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.2890463416560802
+Ponta de Pedras,dados_ponta_de_pedras__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.66387443956813
+Ponta de Pedras,dados_ponta_de_pedras__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.36242968943881
+Ponta de Pedras,dados_ponta_de_pedras__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Ponta de Pedras,dados_ponta_de_pedras__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Ponta de Pedras,dados_ponta_de_pedras__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.633224640473514
+Ponta de Pedras,dados_ponta_de_pedras__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.022422616653195
+Ponta de Pedras,dados_ponta_de_pedras__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.484059606762587
+Ponta de Pedras,dados_ponta_de_pedras__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.587114302914443
+Ponta de Pedras,dados_ponta_de_pedras__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,28.07247685410069
+Ponta de Pedras,dados_ponta_de_pedras__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.896914423315543
+Ponta de Pedras,dados_ponta_de_pedras__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.619435386706125
+Ponta de Pedras,dados_ponta_de_pedras__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.985201884721098
+Ponta de Pedras,dados_ponta_de_pedras__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.152349897278148
+Ponta de Pedras,dados_ponta_de_pedras__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.977835033329487
+Ponta de Pedras,dados_ponta_de_pedras__estuda_em_outro_municipio_ex_belem_ananindeua,Estuda em outro município (ex: Belém / Ananindeua),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.88119213525173
+Ponta de Pedras,dados_ponta_de_pedras__estuda_em_outro_municipio_ex_belem_ananindeua,Estuda em outro município (ex: Belém / Ananindeua),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.942286058288863
+Ponta de Pedras,dados_ponta_de_pedras__estuda_no_proprio_municipio_ponta_de_pedras,Estuda no próprio município (Ponta de Pedras),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.05391649546357
+Ponta de Pedras,dados_ponta_de_pedras__estuda_no_proprio_municipio_ponta_de_pedras,Estuda no próprio município (Ponta de Pedras),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.42972505554914
+Ponta de Pedras,dados_ponta_de_pedras__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.846443877266047
+Ponta de Pedras,dados_ponta_de_pedras__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.07168641949217
+Ponta de Pedras,dados_ponta_de_pedras__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.465829021144042
+Ponta de Pedras,dados_ponta_de_pedras__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.38526629721677
+Ponta de Pedras,dados_ponta_de_pedras__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.62901331496397
+Ponta de Pedras,dados_ponta_de_pedras__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.38094314954554
+Ponta de Pedras,dados_ponta_de_pedras__mais_de_1_hora_deslocamento_por_rios_barcos_p,Mais de 1 hora (Deslocamento por rios / barcos para Belém),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.55074508453233
+Ponta de Pedras,dados_ponta_de_pedras__mais_de_1_hora_deslocamento_por_rios_barcos_p,Mais de 1 hora (Deslocamento por rios / barcos para Belém),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.83892878643054
+Ponta de Pedras,dados_ponta_de_pedras__motocicleta,Motocicleta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.68124856856097
+Ponta de Pedras,dados_ponta_de_pedras__motocicleta,Motocicleta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.29772950883716
+Ponta de Pedras,dados_ponta_de_pedras__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.65391649546359
+Ponta de Pedras,dados_ponta_de_pedras__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,62.02972505554914
+Ponta de Pedras,dados_ponta_de_pedras__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,29.153668989352425
+Ponta de Pedras,dados_ponta_de_pedras__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.03920048160441
+Ponta de Pedras,dados_ponta_de_pedras__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.25515915841709
+Ponta de Pedras,dados_ponta_de_pedras__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,84.71705805446548
+Ponta de Pedras,dados_ponta_de_pedras__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_amarela_2,População Amarela,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_amarela_2,População Amarela,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_branca_2,População Branca,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_branca_2,População Branca,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena_2,População Indígena,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_indigena_2,População Indígena,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_parda_2,População Parda,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_parda_2,População Parda,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_preta_2,População Preta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_preta_2,População Preta,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__populacao_residente_em_favelas,População Residente em Favelas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__populacao_residente_em_favelas,População Residente em Favelas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Ponta de Pedras,dados_ponta_de_pedras__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.6821312114793043
+Ponta de Pedras,dados_ponta_de_pedras__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.8666881374985556
+Ponta de Pedras,dados_ponta_de_pedras__ruas_sem_arvores,Ruas Sem Árvores,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.030091444102652
+Ponta de Pedras,dados_ponta_de_pedras__ruas_sem_arvores,Ruas Sem Árvores,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.318642572213875
+Ponta de Pedras,dados_ponta_de_pedras__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.58554977582726
+Ponta de Pedras,dados_ponta_de_pedras__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.26497187577553
+Ponta de Pedras,dados_ponta_de_pedras__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.124655674388452
+Ponta de Pedras,dados_ponta_de_pedras__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.258257332058876
+Ponta de Pedras,dados_ponta_de_pedras__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.84070893424435
+Ponta de Pedras,dados_ponta_de_pedras__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.98202993024103
+Ponta de Pedras,dados_ponta_de_pedras__sem_conjuge,Sem cônjuge,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.58847368064734
+Ponta de Pedras,dados_ponta_de_pedras__sem_conjuge,Sem cônjuge,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.865243570949396
+Ponta de Pedras,dados_ponta_de_pedras__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Ponta de Pedras,dados_ponta_de_pedras__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.31307292172655
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.16805745245997
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_em_outro_municipio_ex_belem_ananinde,Trabalha em outro município (ex: Belém / Ananindeua / Muaná / Barcarena),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.018864298057505
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_em_outro_municipio_ex_belem_ananinde,Trabalha em outro município (ex: Belém / Ananindeua / Muaná / Barcarena),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.513157392259426
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Ponta de Pedras),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.2090894592111
+Ponta de Pedras,dados_ponta_de_pedras__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Ponta de Pedras),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.58155066527314
+Ponta de Pedras,dados_ponta_de_pedras__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.005847809640183
+Ponta de Pedras,dados_ponta_de_pedras__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.20054339034774
+Ponta de Pedras,dados_ponta_de_pedras__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.788530113956575
+Ponta de Pedras,dados_ponta_de_pedras__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.62068702149768
+Ponta de Pedras,dados_ponta_de_pedras__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.14202980338129328
+Ponta de Pedras,dados_ponta_de_pedras__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_ponta_de_pedras,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.19355715145722163
