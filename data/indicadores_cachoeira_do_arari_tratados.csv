@@ -1,0 +1,300 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_total,População Total,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,sgd,True,1.0328986714751105,1991,15.783,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_total,População Total,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,sgd,True,1.0328986714751105,2000,15.908,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_total,População Total,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,sgd,True,1.0328986714751105,2010,20.356,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_total,População Total,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,sgd,True,1.0328986714751105,2022,23.981,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_urbana,População Urbana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7065595351285401,2000,6.12,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_urbana,População Urbana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7065595351285401,2010,8.581,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_urbana,População Urbana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7065595351285401,2022,10.512,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_rural,População Rural,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.524822599716264,2000,9.788,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_rural,População Rural,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.524822599716264,2010,11.775,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_rural,População Rural,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.524822599716264,2022,13.469,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_mulheres,População de Mulheres,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7428058039543662,2000,7.365,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_mulheres,População de Mulheres,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7428058039543662,2010,9.908,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_mulheres,População de Mulheres,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.7428058039543662,2022,11.412,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_homens,População de Homens,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12505160911110558,2000,8.543,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_homens,População de Homens,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12505160911110558,2010,10.448,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_de_homens,População de Homens,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12505160911110558,2022,12.569,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,5.448459317342132,2000,116.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,5.448459317342132,2010,105.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,5.448459317342132,2022,110.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idade_mediana,Idade Mediana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.6030907918445187,2000,18.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idade_mediana,Idade Mediana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.6030907918445187,2010,20.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idade_mediana,Idade Mediana,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.6030907918445187,2022,27.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,sgd,True,7.3295624867283635,2000,6.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,sgd,True,7.3295624867283635,2010,8.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,sgd,True,7.3295624867283635,2022,25.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_parda,População Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,1.261044543830452,2000,11.24,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_parda,População Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,1.261044543830452,2010,15.62,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_parda,População Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,1.261044543830452,2022,18.92,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_branca,População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.09070465419948803,2000,3.41,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_branca,População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.09070465419948803,2010,3.21,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_branca,População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.09070465419948803,2022,3.18,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_preta,População Preta,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,539.4752091233001,2000,980.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_preta,População Preta,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,539.4752091233001,2010,1.38,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_preta,População Preta,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,539.4752091233001,2022,1.72,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_amarela,População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,13.26881806718689,2000,72.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_amarela,População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,13.26881806718689,2010,38.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_amarela,População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,13.26881806718689,2022,24.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena,População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2000,206.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena,População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2010,108.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena,População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2022,137.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,99.17770326697614,2000,62.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,99.17770326697614,2010,172.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,99.17770326697614,2022,448.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6943208105027215,2000,96.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6943208105027215,2010,96.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6943208105027215,2022,93.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__2_trabalhos,2 trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6909190105667798,2000,2.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__2_trabalhos,2 trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6909190105667798,2010,3.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__2_trabalhos,2 trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6909190105667798,2022,5.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2000,0.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2010,0.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.161033199897907,2022,0.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado,Setor privado,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,396.28403744076496,2000,720.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado,Setor privado,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,396.28403744076496,2010,1.38,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado,Setor privado,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,396.28403744076496,2022,1.89,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__conta_propria,Conta própria,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.29854149204856634,2000,3.82,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__conta_propria,Conta própria,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.29854149204856634,2010,4.84,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__conta_propria,Conta própria,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.29854149204856634,2022,5.42,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico,Setor público,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,407.35960300996794,2000,740.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico,Setor público,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,407.35960300996794,2010,1.12,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico,Setor público,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,407.35960300996794,2022,1.46,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,28.670548445503794,2000,180.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,28.670548445503794,2010,280.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,28.670548445503794,2022,360.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__empregador,Empregador,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,4.575743255530303,2000,70.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__empregador,Empregador,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,4.575743255530303,2010,140.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__empregador,Empregador,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,4.575743255530303,2022,230.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,335.24545563343116,2000,2.14,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,335.24545563343116,2010,1.42,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,335.24545563343116,2022,680.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528456,2000,10.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528456,2010,25.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528456,2022,45.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,38.12552568589564,2000,180.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,38.12552568589564,2010,480.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,38.12552568589564,2022,890.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,474.80264086750094,2000,540.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,474.80264086750094,2010,900.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,474.80264086750094,2022,1.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2000,10.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2010,30.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2022,60.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,401.84959158802684,2000,730.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,401.84959158802684,2010,1.09,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,401.84959158802684,2022,1.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2000,10.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2010,20.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2022,50.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2000,170.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2010,260.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2022,310.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3440579868608324,1991,36.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3440579868608324,2000,52.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3440579868608324,2010,69.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.3440579868608324,2022,78.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.738890653712862,2000,71.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.738890653712862,2010,86.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.738890653712862,2022,92.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.919229397612839,2000,9.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.919229397612839,2010,16.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.919229397612839,2022,26.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2000,58.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2010,82.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2022,88.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,168.61563098973255,2000,24.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,168.61563098973255,2010,180.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,168.61563098973255,2022,640.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,1991,1.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2000,2.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2010,4.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2022,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,1991,1.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2000,2.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2010,4.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2022,6.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.19091723185497958,1991,0.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.19091723185497958,2000,1.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.19091723185497958,2010,3.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.19091723185497958,2022,5.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.07422116651879444,1991,0.074,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.07422116651879444,2000,0.182,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.07422116651879444,2010,0.396,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2000,58.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2010,82.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,adam,True,11.069082157229511,2022,88.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2000,26.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2010,43.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,5.14604825373646,2022,55.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5162732752238833,2000,4.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5162732752238833,2010,9.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5162732752238833,2022,13.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_amarela,Média: População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572027,2000,2.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_amarela,Média: População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572027,2010,4.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_amarela,Média: População Amarela,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572027,2022,6.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_branca,Média: População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188695973,2000,2.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_branca,Média: População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188695973,2010,4.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_branca,Média: População Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188695973,2022,6.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2000,2.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2010,3.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2022,5.7,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_indigena,Média: População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1365985896651376,2000,1.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_indigena,Média: População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1365985896651376,2010,2.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_populacao_indigena,Média: População Indígena,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1365985896651376,2022,4.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_residente_em_favelas,População Residente em Favelas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_residente_em_favelas,População Residente em Favelas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_parda_2,População Parda,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_parda_2,População Parda,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_branca_2,População Branca,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_branca_2,População Branca,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_preta_2,População Preta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_preta_2,População Preta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_amarela_2,População Amarela,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_amarela_2,População Amarela,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena_2,População Indígena,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena_2,População Indígena,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,79.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos,Casais com filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.6671656761691599,2000,75.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos,Casais com filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.6671656761691599,2010,66.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos,Casais com filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.6671656761691599,2022,53.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_sem_filhos,Casais sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2000,3.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_sem_filhos,Casais sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2010,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_sem_filhos,Casais sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2022,9.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2000,10.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2010,12.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2022,17.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.20719234454293142,2000,3.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.20719234454293142,2010,3.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.20719234454293142,2022,4.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2000,4.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2010,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.15192255993350567,2022,6.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.4044903381884571,2000,1.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.4044903381884571,2010,2.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.4044903381884571,2022,3.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8960024797812255,2000,0.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8960024797812255,2010,2.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.8960024797812255,2022,2.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Cachoeira Arari),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Cachoeira Arari),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,90.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_em_outro_municipio_ex_ponta_de_pedra,Trabalha em outro município (ex: Ponta de Pedras / Belém / Salvaterra),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__trabalha_em_outro_municipio_ex_ponta_de_pedra,Trabalha em outro município (ex: Ponta de Pedras / Belém / Salvaterra),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__motocicleta,Motocicleta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__motocicleta,Motocicleta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__a_pe,A pé,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__a_pe,A pé,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__bicicleta,Bicicleta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__bicicleta,Bicicleta,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,60.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__mais_de_1_hora_deslocamento_hidroviario_vicin,Mais de 1 hora (Deslocamento hidroviário / vicinais),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__mais_de_1_hora_deslocamento_hidroviario_vicin,Mais de 1 hora (Deslocamento hidroviário / vicinais),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estuda_no_proprio_municipio_de_residencia_cac,Estuda no próprio município de residência (Cachoeira Arari),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estuda_no_proprio_municipio_de_residencia_cac,Estuda no próprio município de residência (Cachoeira Arari),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estuda_em_outro_municipio_ex_soure_belem,Estuda em outro município (ex: Soure / Belém),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estuda_em_outro_municipio_ex_soure_belem,Estuda em outro município (ex: Soure / Belém),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.22019234270619437,1991,2.98,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.22019234270619437,2000,3.34,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.22019234270619437,2010,4.539,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.22019234270619437,2022,6.21,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.2212254191613281,1991,2.89,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.2212254191613281,2000,3.24,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.2212254191613281,2010,4.48,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.2212254191613281,2022,6.12,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,sgd,True,17.004420795931694,1991,90.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,sgd,True,17.004420795931694,2000,100.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,sgd,True,17.004420795931694,2010,59.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,logistic,sgd,True,17.004420795931694,2022,90.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.0454681770346087,1991,5.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.0454681770346087,2000,4.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.0454681770346087,2010,4.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_cachoeira_do_arari,Grupo 1 — 4 censos,4,identity,adam,True,0.0454681770346087,2022,3.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,84.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,90.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_sem_arvores,Ruas Sem Árvores,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ruas_sem_arvores,Ruas Sem Árvores,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.9,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena_total,População Indígena Total,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2000,206.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena_total,População Indígena Total,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2010,108.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__populacao_indigena_total,População Indígena Total,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,55.57508259431405,2022,137.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__proporcao_na_populacao_de_cachoeira_do_arari,Proporção na população de Cachoeira do Arari,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.4453397173420899,2000,1.3,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__proporcao_na_populacao_de_cachoeira_do_arari,Proporção na população de Cachoeira do Arari,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.4453397173420899,2010,0.53,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__proporcao_na_populacao_de_cachoeira_do_arari,Proporção na população de Cachoeira do Arari,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.4453397173420899,2022,0.57,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,77.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.0,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2000,10.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2010,12.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.1268612290082896,2022,17.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151395003081882,2000,72.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151395003081882,2010,61.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.9151395003081882,2022,49.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2000,3.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2010,5.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2180147649683963,2022,9.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,79.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__sem_conjuge,Sem cônjuge,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__sem_conjuge,Sem cônjuge,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,30.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_cachoeira_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.7,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_mulher,Responsável Mulher,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2000,4.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_mulher,Responsável Mulher,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2010,3.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_mulher,Responsável Mulher,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2022,3.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_homem,Responsável Homem,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201902775396063,2000,5.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_homem,Responsável Homem,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201902775396063,2010,4.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_homem,Responsável Homem,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.12201902775396063,2022,3.6,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2000,4.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2010,3.5,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1658941803855908,2022,3.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782746,2000,9.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782746,2010,13.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.0815478895782746,2022,19.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7467914006244959,2000,12.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7467914006244959,2010,16.2,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7467914006244959,2022,22.1,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.006652487985054,2000,58.4,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.006652487985054,2010,44.8,Valor
+Cachoeira do Arari,dados_cachoeira_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_cachoeira_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.006652487985054,2022,29.8,Valor
