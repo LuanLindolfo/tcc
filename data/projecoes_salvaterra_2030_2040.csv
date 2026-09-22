@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Salvaterra,dados_salvaterra__anos_de_estudo_media,Anos de Estudo (Média),dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.21122932712278042,2030,8.664085371548898
+Salvaterra,dados_salvaterra__anos_de_estudo_media,Anos de Estudo (Média),dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.21122932712278042,2040,10.494713389171709
+Salvaterra,dados_salvaterra__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_salvaterra,Grupo 1 — 4 censos,logistic,lbfgs,True,5.6841330242300145,2030,144.86835989122602
+Salvaterra,dados_salvaterra__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_salvaterra,Grupo 1 — 4 censos,logistic,lbfgs,True,5.6841330242300145,2040,147.16019523419544
+Salvaterra,dados_salvaterra__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.6193826270485748,2030,8.026878370498336
+Salvaterra,dados_salvaterra__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.6193826270485748,2040,9.268583781825138
+Salvaterra,dados_salvaterra__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696677,2030,8.079670682386345
+Salvaterra,dados_salvaterra__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.19775902606696677,2040,9.813628795262852
+Salvaterra,dados_salvaterra__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.224699629207536,2030,9.248500055202074
+Salvaterra,dados_salvaterra__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_salvaterra,Grupo 1 — 4 censos,identity,lbfgs,True,0.224699629207536,2040,11.17579798104796
+Salvaterra,dados_salvaterra__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_salvaterra,Grupo 1 — 4 censos,identity,sgd,True,0.20459588324478728,2030,2.4883549980868453
+Salvaterra,dados_salvaterra__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_salvaterra,Grupo 1 — 4 censos,identity,sgd,True,0.20459588324478728,2040,1.7535838588733696
+Salvaterra,dados_salvaterra__populacao_total,População Total,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.5820775145819987,2030,25.847663283779042
+Salvaterra,dados_salvaterra__populacao_total,População Total,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.5820775145819987,2040,27.96343453174138
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_salvaterra,Grupo 1 — 4 censos,logistic,lbfgs,True,3.932697406900351,2030,87.40510526644726
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_salvaterra,Grupo 1 — 4 censos,logistic,lbfgs,True,3.932697406900351,2040,88.76237514454883
+Salvaterra,dados_salvaterra__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.6220304300981757,2030,8.16940945492023
+Salvaterra,dados_salvaterra__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_salvaterra,Grupo 1 — 4 censos,relu,adam,True,0.6220304300981757,2040,9.415921529190301
+Salvaterra,dados_salvaterra__2_trabalhos,2 trabalhos,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.8311393079809767,2030,8.48416342078643
+Salvaterra,dados_salvaterra__2_trabalhos,2 trabalhos,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.8311393079809767,2040,9.794185420261083
+Salvaterra,dados_salvaterra__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,0.01901074828302644,2030,0.8133020789959977
+Salvaterra,dados_salvaterra__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,0.01901074828302644,2040,0.8185711280819576
+Salvaterra,dados_salvaterra__apenas_1_trabalho,Apenas 1 trabalho,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.6756645549346558,2030,90.28140071992566
+Salvaterra,dados_salvaterra__apenas_1_trabalho,Apenas 1 trabalho,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.6756645549346558,2040,88.33743260174369
+Salvaterra,dados_salvaterra__casais_com_filhos,Casais com filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,2.3488688505409647,2030,41.40728724029284
+Salvaterra,dados_salvaterra__casais_com_filhos,Casais com filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,2.3488688505409647,2040,31.44572269455443
+Salvaterra,dados_salvaterra__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.930949327991723,2030,6.040168155181063
+Salvaterra,dados_salvaterra__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.930949327991723,2040,6.037687274306806
+Salvaterra,dados_salvaterra__casais_sem_filhos,Casais sem filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.8072969960478614,2030,14.800359573135456
+Salvaterra,dados_salvaterra__casais_sem_filhos,Casais sem filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.8072969960478614,2040,17.983520191139583
+Salvaterra,dados_salvaterra__conta_propria,Conta própria,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.13065340154281557,2030,5.784816410285897
+Salvaterra,dados_salvaterra__conta_propria,Conta própria,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.13065340154281557,2040,6.561491559866207
+Salvaterra,dados_salvaterra__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727115619851796,2030,24.822290663132225
+Salvaterra,dados_salvaterra__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727115619851796,2040,29.506420853497538
+Salvaterra,dados_salvaterra__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364288,2030,26.995374255218586
+Salvaterra,dados_salvaterra__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364288,2040,31.54488732931668
+Salvaterra,dados_salvaterra__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.7387692207860397,2030,15.81829325459002
+Salvaterra,dados_salvaterra__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.7387692207860397,2040,2.4831364239659024
+Salvaterra,dados_salvaterra__empregador,Empregador,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252173127130106,2030,362.4679309570437
+Salvaterra,dados_salvaterra__empregador,Empregador,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252173127130106,2040,453.4032436722931
+Salvaterra,dados_salvaterra__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2030,96.16803142085071
+Salvaterra,dados_salvaterra__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2040,97.28317602614476
+Salvaterra,dados_salvaterra__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,4.72575700469005,2030,73.97047961391846
+Salvaterra,dados_salvaterra__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,4.72575700469005,2040,80.78911052405338
+Salvaterra,dados_salvaterra__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.5769105849222663,2030,23.844063381964
+Salvaterra,dados_salvaterra__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.5769105849222663,2040,28.76987896692272
+Salvaterra,dados_salvaterra__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.0619460027511603,2030,0.8799337275595784
+Salvaterra,dados_salvaterra__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.0619460027511603,2040,1.0767709600453728
+Salvaterra,dados_salvaterra__idade_mediana,Idade Mediana,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2030,33.16120281806134
+Salvaterra,dados_salvaterra__idade_mediana,Idade Mediana,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2040,37.07294055052432
+Salvaterra,dados_salvaterra__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2030,113.55875295257351
+Salvaterra,dados_salvaterra__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,18.024989133761494,2040,142.01291433601278
+Salvaterra,dados_salvaterra__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811087,2030,23.975034951504064
+Salvaterra,dados_salvaterra__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811087,2040,27.609517171677084
+Salvaterra,dados_salvaterra__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,lbfgs,True,0.8974400913535154,2030,4.3305082440834175
+Salvaterra,dados_salvaterra__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,lbfgs,True,0.8974400913535154,2040,4.396843242889401
+Salvaterra,dados_salvaterra__media_populacao_amarela,Média: População Amarela,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390294,2030,8.927828091854666
+Salvaterra,dados_salvaterra__media_populacao_amarela,Média: População Amarela,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390294,2040,10.731552920500318
+Salvaterra,dados_salvaterra__media_populacao_branca,Média: População Branca,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2030,8.72459439481768
+Salvaterra,dados_salvaterra__media_populacao_branca,Média: População Branca,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2040,10.440504609006737
+Salvaterra,dados_salvaterra__media_populacao_indigena,Média: População Indígena,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.09089010741006838,2030,6.446485350103078
+Salvaterra,dados_salvaterra__media_populacao_indigena,Média: População Indígena,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.09089010741006838,2040,7.984381030489197
+Salvaterra,dados_salvaterra__media_populacao_preta_parda,Média: População Preta / Parda,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.379938114108783,2030,8.276200029443444
+Salvaterra,dados_salvaterra__media_populacao_preta_parda,Média: População Preta / Parda,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.379938114108783,2040,10.036005399351055
+Salvaterra,dados_salvaterra__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,518.6661207909552,2030,467.8284545084879
+Salvaterra,dados_salvaterra__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,518.6661207909552,2040,466.28478581600115
+Salvaterra,dados_salvaterra__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2030,4.4247045767201865
+Salvaterra,dados_salvaterra__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252401420608278,2040,4.834050854135681
+Salvaterra,dados_salvaterra__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,0.6152607380570563,2030,2.3736151668851377
+Salvaterra,dados_salvaterra__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,0.6152607380570563,2040,2.454584588067866
+Salvaterra,dados_salvaterra__populacao_amarela,População Amarela,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,10.205820824209821,2030,14.760879682204493
+Salvaterra,dados_salvaterra__populacao_amarela,População Amarela,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,10.205820824209821,2040,14.363738449539765
+Salvaterra,dados_salvaterra__populacao_branca,População Branca,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.1827059063106399,2030,3.024369794640362
+Salvaterra,dados_salvaterra__populacao_branca,População Branca,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.1827059063106399,2040,3.0238062432808865
+Salvaterra,dados_salvaterra__populacao_indigena,População Indígena,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,51.52527250369292,2030,66.38570009388374
+Salvaterra,dados_salvaterra__populacao_indigena,População Indígena,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,51.52527250369292,2040,66.26144796337856
+Salvaterra,dados_salvaterra__populacao_indigena_total,População Indígena Total,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,51.52527250369292,2030,66.38570009388374
+Salvaterra,dados_salvaterra__populacao_indigena_total,População Indígena Total,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,51.52527250369292,2040,66.26144796337856
+Salvaterra,dados_salvaterra__populacao_parda,População Parda,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.705315820916517,2030,20.404244500464923
+Salvaterra,dados_salvaterra__populacao_parda,População Parda,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.705315820916517,2040,23.10080088490095
+Salvaterra,dados_salvaterra__populacao_preta,População Preta,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.26130398309842584,2030,3.0646242912316857
+Salvaterra,dados_salvaterra__populacao_preta,População Preta,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,0.26130398309842584,2040,3.481900258102753
+Salvaterra,dados_salvaterra__populacao_rural,População Rural,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.22576697377128893,2030,10.85222881780078
+Salvaterra,dados_salvaterra__populacao_rural,População Rural,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.22576697377128893,2040,11.849886010980873
+Salvaterra,dados_salvaterra__populacao_urbana,População Urbana,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.00610201071824316,2030,15.690001915394182
+Salvaterra,dados_salvaterra__populacao_urbana,População Urbana,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.00610201071824316,2040,17.826294934288377
+Salvaterra,dados_salvaterra__populacao_com_superior_completo,População com Superior Completo,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,225.10171152100074,2030,1200.6417744378052
+Salvaterra,dados_salvaterra__populacao_com_superior_completo,População com Superior Completo,dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,225.10171152100074,2040,1552.1176578593183
+Salvaterra,dados_salvaterra__populacao_de_homens,População de Homens,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.19091698497909468,2030,13.393400631877125
+Salvaterra,dados_salvaterra__populacao_de_homens,População de Homens,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.19091698497909468,2040,14.947283094942001
+Salvaterra,dados_salvaterra__populacao_de_mulheres,População de Mulheres,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.028979197429590542,2030,13.146898269036111
+Salvaterra,dados_salvaterra__populacao_de_mulheres,População de Mulheres,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.028979197429590542,2040,14.72466715510943
+Salvaterra,dados_salvaterra__proporcao_na_populacao_de_salvaterra,Proporção na população de Salvaterra,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.1819894048137675,2030,0.311538478160189
+Salvaterra,dados_salvaterra__proporcao_na_populacao_de_salvaterra,Proporção na população de Salvaterra,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,0.1819894048137675,2040,0.31102737323354573
+Salvaterra,dados_salvaterra__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,1.099626119435617,2030,102.90227684084093
+Salvaterra,dados_salvaterra__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,1.099626119435617,2040,102.89801005120347
+Salvaterra,dados_salvaterra__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,117.2548222123935,2030,750.8449547018465
+Salvaterra,dados_salvaterra__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,117.2548222123935,2040,978.3806927295054
+Salvaterra,dados_salvaterra__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,3.240473834131419,2030,38.32942920670327
+Salvaterra,dados_salvaterra__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,3.240473834131419,2040,32.13529207763784
+Salvaterra,dados_salvaterra__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.8072969960478614,2030,14.800359573135456
+Salvaterra,dados_salvaterra__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.8072969960478614,2040,17.983520191139583
+Salvaterra,dados_salvaterra__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811087,2030,23.975034951504064
+Salvaterra,dados_salvaterra__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811087,2040,27.609517171677084
+Salvaterra,dados_salvaterra__responsavel_homem,Responsável Homem,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727140622320722,2030,2.5225009352119603
+Salvaterra,dados_salvaterra__responsavel_homem,Responsável Homem,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727140622320722,2040,1.7065665883693377
+Salvaterra,dados_salvaterra__responsavel_mulher,Responsável Mulher,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Salvaterra,dados_salvaterra__responsavel_mulher,Responsável Mulher,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Salvaterra,dados_salvaterra__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Salvaterra,dados_salvaterra__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Salvaterra,dados_salvaterra__setor_privado,Setor privado,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.03934180845269079,2030,3.7929163020336714
+Salvaterra,dados_salvaterra__setor_privado,Setor privado,dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.03934180845269079,2040,4.625346651654642
+Salvaterra,dados_salvaterra__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,469.90980263042974,2030,425.8864980143707
+Salvaterra,dados_salvaterra__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,logistic,sgd,True,469.90980263042974,2040,424.06627781799244
+Salvaterra,dados_salvaterra__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,495.4868152325792,2030,-4.549415208157654
+Salvaterra,dados_salvaterra__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,tanh,adam,True,495.4868152325792,2040,21.575833696844825
+Salvaterra,dados_salvaterra__setor_publico,Setor público,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.2181030121825891,2030,2.6541319266016394
+Salvaterra,dados_salvaterra__setor_publico,Setor público,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.2181030121825891,2040,2.9902500713836586
+Salvaterra,dados_salvaterra__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2030,142.4704576720187
+Salvaterra,dados_salvaterra__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608284,2040,183.40508541356812
+Salvaterra,dados_salvaterra__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.20710019179709813,2030,2.5211780202591996
+Salvaterra,dados_salvaterra__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,0.20710019179709813,2040,2.828960833215209
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.4083469119702207,2030,43.80077564445096
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_salvaterra,Grupo 2 — 3 censos,identity,adam,True,0.4083469119702207,2040,53.21144146582979
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,5.038544976905793,2030,98.6739423704409
+Salvaterra,dados_salvaterra__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,5.038544976905793,2040,99.4960802244458
+Salvaterra,dados_salvaterra__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2030,96.16803142085071
+Salvaterra,dados_salvaterra__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_salvaterra,Grupo 2 — 3 censos,logistic,adam,True,6.882223018152899,2040,97.28317602614476
+Salvaterra,dados_salvaterra__trabalhador_domestico,Trabalhador doméstico,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,40.44903381884569,2030,525.500935300266
+Salvaterra,dados_salvaterra__trabalhador_domestico,Trabalhador doméstico,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,40.44903381884569,2040,578.5982978494325
+Salvaterra,dados_salvaterra__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2030,116.8974426752009
+Salvaterra,dados_salvaterra__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,identity,sgd,True,3.037080823305691,2040,150.27820913983348
+Salvaterra,dados_salvaterra__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,32.26155727871509,2030,417.06186555350786
+Salvaterra,dados_salvaterra__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_salvaterra,Grupo 2 — 3 censos,relu,adam,True,32.26155727871509,2040,448.1184710795435
+Salvaterra,dados_salvaterra__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,5.914908867341815,2030,29.734445997452024
+Salvaterra,dados_salvaterra__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_salvaterra,Grupo 2 — 3 censos,relu,lbfgs,True,5.914908867341815,2040,38.33737494969977
+Salvaterra,dados_salvaterra__a_pe,A pé,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.474918480355132
+Salvaterra,dados_salvaterra__a_pe,A pé,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.766816962489887
+Salvaterra,dados_salvaterra__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.79122067069039
+Salvaterra,dados_salvaterra__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.348238802771675
+Salvaterra,dados_salvaterra__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.62901331496397
+Salvaterra,dados_salvaterra__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.380943149545534
+Salvaterra,dados_salvaterra__bicicleta,Bicicleta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.04513716615398
+Salvaterra,dados_salvaterra__bicicleta,Bicicleta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.022036141679180332
+Salvaterra,dados_salvaterra__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.96679834438822
+Salvaterra,dados_salvaterra__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.26270138461268
+Salvaterra,dados_salvaterra__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Salvaterra,dados_salvaterra__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Salvaterra,dados_salvaterra__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.033224640473506
+Salvaterra,dados_salvaterra__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.42242261665318
+Salvaterra,dados_salvaterra__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.852178820287759
+Salvaterra,dados_salvaterra__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.161342908743329
+Salvaterra,dados_salvaterra__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.788417247338103
+Salvaterra,dados_salvaterra__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.5098001204011
+Salvaterra,dados_salvaterra__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.6761749486390736
+Salvaterra,dados_salvaterra__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.5889175166647416
+Salvaterra,dados_salvaterra__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.752349897278147
+Salvaterra,dados_salvaterra__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.577835033329482
+Salvaterra,dados_salvaterra__estuda_em_outro_municipio_ex_soure_belem,Estuda em outro município (ex: Soure / Belém),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.049311348776902
+Salvaterra,dados_salvaterra__estuda_em_outro_municipio_ex_soure_belem,Estuda em outro município (ex: Soure / Belém),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.316514664117747
+Salvaterra,dados_salvaterra__estuda_no_proprio_municipio_salvaterra,Estuda no próprio município (Salvaterra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.77930814500994
+Salvaterra,dados_salvaterra__estuda_no_proprio_municipio_salvaterra,Estuda no próprio município (Salvaterra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.79269756110403
+Salvaterra,dados_salvaterra__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.687039944891914
+Salvaterra,dados_salvaterra__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.942829448636605
+Salvaterra,dados_salvaterra__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.222568583076985
+Salvaterra,dados_salvaterra__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.688981929160404
+Salvaterra,dados_salvaterra__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.73916233187042
+Salvaterra,dados_salvaterra__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.74872890683162
+Salvaterra,dados_salvaterra__mais_de_1_hora_deslocamento_por_travessia_rio,Mais de 1 hora (Deslocamento por travessia / rios para Belém),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,19.408715281151036
+Salvaterra,dados_salvaterra__mais_de_1_hora_deslocamento_por_travessia_rio,Mais de 1 hora (Deslocamento por travessia / rios para Belém),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.645371634973316
+Salvaterra,dados_salvaterra__motocicleta,Motocicleta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.1015466023739
+Salvaterra,dados_salvaterra__motocicleta,Motocicleta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.23330102340937
+Salvaterra,dados_salvaterra__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,65.84796023262335
+Salvaterra,dados_salvaterra__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.951954434715326
+Salvaterra,dados_salvaterra__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.74787761302148
+Salvaterra,dados_salvaterra__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.99410054180496
+Salvaterra,dados_salvaterra__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.82327837194227
+Salvaterra,dados_salvaterra__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.49128666029438
+Salvaterra,dados_salvaterra__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_amarela_2,População Amarela,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_amarela_2,População Amarela,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_branca_2,População Branca,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_branca_2,População Branca,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_indigena_2,População Indígena,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_indigena_2,População Indígena,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_parda_2,População Parda,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_parda_2,População Parda,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_preta_2,População Preta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_preta_2,População Preta,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__populacao_residente_em_favelas,População Residente em Favelas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__populacao_residente_em_favelas,População Residente em Favelas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Salvaterra,dados_salvaterra__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Salvaterra,dados_salvaterra__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.650783299092716
+Salvaterra,dados_salvaterra__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9259450111098282
+Salvaterra,dados_salvaterra__ruas_sem_arvores,Ruas Sem Árvores,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.986831006035597
+Salvaterra,dados_salvaterra__ruas_sem_arvores,Ruas Sem Árvores,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.8223582041575153
+Salvaterra,dados_salvaterra__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.4956987927337
+Salvaterra,dados_salvaterra__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.43275763306161
+Salvaterra,dados_salvaterra__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.234804691294918
+Salvaterra,dados_salvaterra__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.626043089344982
+Salvaterra,dados_salvaterra__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.93348382215797
+Salvaterra,dados_salvaterra__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.41451586812879
+Salvaterra,dados_salvaterra__sem_conjuge,Sem cônjuge,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,40.18847368064735
+Salvaterra,dados_salvaterra__sem_conjuge,Sem cônjuge,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.465243570949404
+Salvaterra,dados_salvaterra__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Salvaterra,dados_salvaterra__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Salvaterra,dados_salvaterra__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,48.20728154539561
+Salvaterra,dados_salvaterra__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.422957512660524
+Salvaterra,dados_salvaterra__trabalha_em_outro_municipio_ex_soure_belem_an,Trabalha em outro município (ex: Soure / Belém / Ananindeua / Joanes),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.202923904820093
+Salvaterra,dados_salvaterra__trabalha_em_outro_municipio_ex_soure_belem_an,Trabalha em outro município (ex: Soure / Belém / Ananindeua / Joanes),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.80027169517387
+Salvaterra,dados_salvaterra__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (Salvaterra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.97178528398426
+Salvaterra,dados_salvaterra__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (Salvaterra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.16303691805055
+Salvaterra,dados_salvaterra__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.763818006258887
+Salvaterra,dados_salvaterra__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.906986238890518
+Salvaterra,dados_salvaterra__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.26100696805727
+Salvaterra,dados_salvaterra__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.917601444813236
+Salvaterra,dados_salvaterra__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Salvaterra,dados_salvaterra__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_salvaterra,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
