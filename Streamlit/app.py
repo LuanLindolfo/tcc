@@ -404,6 +404,46 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_melgaço_tratados.csv",
     },
+    {
+        "nome":    "Eldorado do Carajás",
+        "pasta":   "data",
+        "arquivo": "indicadores_eldorado_do_carajás_tratados.csv",
+    },
+    {
+        "nome":    "Ipixuna do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_ipixuna_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santo Antônio do Tauá",
+        "pasta":   "data",
+        "arquivo": "indicadores_santo_antônio_do_tauá_tratados.csv",
+    },
+    {
+        "nome":    "Mocajuba",
+        "pasta":   "data",
+        "arquivo": "indicadores_mocajuba_tratados.csv",
+    },
+    {
+        "nome":    "Medicilândia",
+        "pasta":   "data",
+        "arquivo": "indicadores_medicilândia_tratados.csv",
+    },
+    {
+        "nome":    "Concórdia do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_concórdia_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Marapanim",
+        "pasta":   "data",
+        "arquivo": "indicadores_marapanim_tratados.csv",
+    },
+    {
+        "nome":    "São Sebastião da Boa Vista",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_sebastião_da_boa_vista_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
