@@ -387,7 +387,7 @@ MUNICIPIOS = [
     {
         "nome":    "Tracuateua",
         "pasta":   "data",
-        "arquivo": "indicadores_tracueateua_tratados.csv",
+        "arquivo": "indicadores_tracuateua_tratados.csv",
     },
     {
         "nome":    "Santana do Araguaia",
