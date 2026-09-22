@@ -1,0 +1,298 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Maracanã,dados_maracana__populacao_total,População Total,dados_maracana,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.9137009069336415,1991,27.571,Valor
+Maracanã,dados_maracana__populacao_total,População Total,dados_maracana,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.9137009069336415,2000,28.328,Valor
+Maracanã,dados_maracana__populacao_total,População Total,dados_maracana,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.9137009069336415,2010,28.329,Valor
+Maracanã,dados_maracana__populacao_total,População Total,dados_maracana,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.9137009069336415,2022,25.971,Valor
+Maracanã,dados_maracana__populacao_urbana,População Urbana,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.3997029377030348,2000,9.82,Valor
+Maracanã,dados_maracana__populacao_urbana,População Urbana,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.3997029377030348,2010,10.84,Valor
+Maracanã,dados_maracana__populacao_urbana,População Urbana,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.3997029377030348,2022,11.24,Valor
+Maracanã,dados_maracana__populacao_rural,População Rural,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7808440238664248,2000,18.508,Valor
+Maracanã,dados_maracana__populacao_rural,População Rural,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7808440238664248,2010,17.489,Valor
+Maracanã,dados_maracana__populacao_rural,População Rural,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7808440238664248,2022,14.731,Valor
+Maracanã,dados_maracana__populacao_de_mulheres,População de Mulheres,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.45338640921122614,2000,13.682,Valor
+Maracanã,dados_maracana__populacao_de_mulheres,População de Mulheres,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.45338640921122614,2010,13.682,Valor
+Maracanã,dados_maracana__populacao_de_mulheres,População de Mulheres,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.45338640921122614,2022,12.82,Valor
+Maracanã,dados_maracana__populacao_de_homens,População de Homens,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8073146179834657,2000,14.646,Valor
+Maracanã,dados_maracana__populacao_de_homens,População de Homens,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8073146179834657,2010,14.647,Valor
+Maracanã,dados_maracana__populacao_de_homens,População de Homens,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.8073146179834657,2022,13.151,Valor
+Maracanã,dados_maracana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.504633756969284,2000,107.0,Valor
+Maracanã,dados_maracana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.504633756969284,2010,107.1,Valor
+Maracanã,dados_maracana__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.504633756969284,2022,102.6,Valor
+Maracanã,dados_maracana__idade_mediana,Idade Mediana,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2000,19.0,Valor
+Maracanã,dados_maracana__idade_mediana,Idade Mediana,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2010,23.0,Valor
+Maracanã,dados_maracana__idade_mediana,Idade Mediana,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2022,31.0,Valor
+Maracanã,dados_maracana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_maracana,Grupo 2 — 3 censos,3,relu,sgd,True,7.477268730524506,2000,5.8,Valor
+Maracanã,dados_maracana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_maracana,Grupo 2 — 3 censos,3,relu,sgd,True,7.477268730524506,2010,9.1,Valor
+Maracanã,dados_maracana__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_maracana,Grupo 2 — 3 censos,3,relu,sgd,True,7.477268730524506,2022,26.8,Valor
+Maracanã,dados_maracana__populacao_parda,População Parda,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1153696948853107,2000,20.12,Valor
+Maracanã,dados_maracana__populacao_parda,População Parda,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1153696948853107,2010,21.84,Valor
+Maracanã,dados_maracana__populacao_parda,População Parda,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1153696948853107,2022,20.24,Valor
+Maracanã,dados_maracana__populacao_branca,População Branca,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.7527445076587926,2000,5.84,Valor
+Maracanã,dados_maracana__populacao_branca,População Branca,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.7527445076587926,2010,4.12,Valor
+Maracanã,dados_maracana__populacao_branca,População Branca,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.7527445076587926,2022,3.82,Valor
+Maracanã,dados_maracana__populacao_preta,População Preta,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.24433480319253106,2000,2.12,Valor
+Maracanã,dados_maracana__populacao_preta,População Preta,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.24433480319253106,2010,2.24,Valor
+Maracanã,dados_maracana__populacao_preta,População Preta,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.24433480319253106,2022,1.81,Valor
+Maracanã,dados_maracana__populacao_amarela,População Amarela,dados_maracana,Grupo 2 — 3 censos,3,tanh,sgd,True,21.53952391589192,2000,94.0,Valor
+Maracanã,dados_maracana__populacao_amarela,População Amarela,dados_maracana,Grupo 2 — 3 censos,3,tanh,sgd,True,21.53952391589192,2010,42.0,Valor
+Maracanã,dados_maracana__populacao_amarela,População Amarela,dados_maracana,Grupo 2 — 3 censos,3,tanh,sgd,True,21.53952391589192,2022,28.0,Valor
+Maracanã,dados_maracana__populacao_indigena,População Indígena,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2000,154.0,Valor
+Maracanã,dados_maracana__populacao_indigena,População Indígena,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2010,87.0,Valor
+Maracanã,dados_maracana__populacao_indigena,População Indígena,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2022,73.0,Valor
+Maracanã,dados_maracana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,120.6050632143959,2000,94.8,Valor
+Maracanã,dados_maracana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,120.6050632143959,2010,242.1,Valor
+Maracanã,dados_maracana__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,120.6050632143959,2022,580.0,Valor
+Maracanã,dados_maracana__apenas_1_trabalho,Apenas 1 trabalho,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9381985843823486,2000,96.2,Valor
+Maracanã,dados_maracana__apenas_1_trabalho,Apenas 1 trabalho,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9381985843823486,2010,95.4,Valor
+Maracanã,dados_maracana__apenas_1_trabalho,Apenas 1 trabalho,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9381985843823486,2022,92.4,Valor
+Maracanã,dados_maracana__2_trabalhos,2 trabalhos,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9912576836746504,2000,3.2,Valor
+Maracanã,dados_maracana__2_trabalhos,2 trabalhos,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9912576836746504,2010,4.1,Valor
+Maracanã,dados_maracana__2_trabalhos,2 trabalhos,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.9912576836746504,2022,6.8,Valor
+Maracanã,dados_maracana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2000,0.6,Valor
+Maracanã,dados_maracana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2010,0.5,Valor
+Maracanã,dados_maracana__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.168425938921089,2022,0.8,Valor
+Maracanã,dados_maracana__setor_privado,Setor privado,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.35729461582127536,2000,1.82,Valor
+Maracanã,dados_maracana__setor_privado,Setor privado,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.35729461582127536,2010,3.12,Valor
+Maracanã,dados_maracana__setor_privado,Setor privado,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.35729461582127536,2022,4.21,Valor
+Maracanã,dados_maracana__conta_propria,Conta própria,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.4342752546483319,2000,4.98,Valor
+Maracanã,dados_maracana__conta_propria,Conta própria,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.4342752546483319,2010,6.24,Valor
+Maracanã,dados_maracana__conta_propria,Conta própria,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.4342752546483319,2022,6.82,Valor
+Maracanã,dados_maracana__setor_publico,Setor público,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.27188186135047876,2000,1.24,Valor
+Maracanã,dados_maracana__setor_publico,Setor público,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.27188186135047876,2010,2.18,Valor
+Maracanã,dados_maracana__setor_publico,Setor público,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.27188186135047876,2022,2.84,Valor
+Maracanã,dados_maracana__trabalhador_domestico,Trabalhador doméstico,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,40.707588814796,2000,380.0,Valor
+Maracanã,dados_maracana__trabalhador_domestico,Trabalhador doméstico,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,40.707588814796,2010,520.0,Valor
+Maracanã,dados_maracana__trabalhador_domestico,Trabalhador doméstico,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,40.707588814796,2022,610.0,Valor
+Maracanã,dados_maracana__empregador,Empregador,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2000,120.0,Valor
+Maracanã,dados_maracana__empregador,Empregador,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2010,240.0,Valor
+Maracanã,dados_maracana__empregador,Empregador,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,3.0121083436666254,2022,380.0,Valor
+Maracanã,dados_maracana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,335.44363671611615,2000,2.48,Valor
+Maracanã,dados_maracana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,335.44363671611615,2010,1.42,Valor
+Maracanã,dados_maracana__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,335.44363671611615,2022,680.0,Valor
+Maracanã,dados_maracana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,25.036004004471323,2000,20.0,Valor
+Maracanã,dados_maracana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,25.036004004471323,2010,50.0,Valor
+Maracanã,dados_maracana__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_maracana,Grupo 2 — 3 censos,3,relu,lbfgs,True,25.036004004471323,2022,120.0,Valor
+Maracanã,dados_maracana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,297.1991363808989,2000,540.0,Valor
+Maracanã,dados_maracana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,297.1991363808989,2010,1.42,Valor
+Maracanã,dados_maracana__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,297.1991363808989,2022,2.18,Valor
+Maracanã,dados_maracana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.12057143646868607,2000,1.28,Valor
+Maracanã,dados_maracana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.12057143646868607,2010,1.7,Valor
+Maracanã,dados_maracana__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.12057143646868607,2022,2.03,Valor
+Maracanã,dados_maracana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936792,2000,40.0,Valor
+Maracanã,dados_maracana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936792,2010,80.0,Valor
+Maracanã,dados_maracana__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936792,2022,160.0,Valor
+Maracanã,dados_maracana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.26165470595283885,2000,1.2,Valor
+Maracanã,dados_maracana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.26165470595283885,2010,2.1,Valor
+Maracanã,dados_maracana__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.26165470595283885,2022,2.68,Valor
+Maracanã,dados_maracana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2000,30.0,Valor
+Maracanã,dados_maracana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2010,70.0,Valor
+Maracanã,dados_maracana__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5252401420608284,2022,120.0,Valor
+Maracanã,dados_maracana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,38.6434078797001,2000,350.0,Valor
+Maracanã,dados_maracana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,38.6434078797001,2010,450.0,Valor
+Maracanã,dados_maracana__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,38.6434078797001,2022,490.0,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_maracana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,4.108925019783289,1991,41.2,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_maracana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,4.108925019783289,2000,61.8,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_maracana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,4.108925019783289,2010,76.4,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_maracana,Grupo 1 — 4 censos,4,logistic,lbfgs,True,4.108925019783289,2022,83.8,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.802008030431367,2000,79.4,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.802008030431367,2010,91.2,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,lbfgs,True,4.802008030431367,2022,95.2,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04576177013138919,2000,14.8,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04576177013138919,2010,23.6,Valor
+Maracanã,dados_maracana__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04576177013138919,2022,34.1,Valor
+Maracanã,dados_maracana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2000,71.8,Valor
+Maracanã,dados_maracana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2010,87.4,Valor
+Maracanã,dados_maracana__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2022,92.1,Valor
+Maracanã,dados_maracana__populacao_com_superior_completo,População com Superior Completo,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,230.83912936926947,2000,72.0,Valor
+Maracanã,dados_maracana__populacao_com_superior_completo,População com Superior Completo,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,230.83912936926947,2010,380.0,Valor
+Maracanã,dados_maracana__populacao_com_superior_completo,População com Superior Completo,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,230.83912936926947,2022,1.12,Valor
+Maracanã,dados_maracana__anos_de_estudo_media,Anos de Estudo (Média),dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15139085131212904,1991,1.4,Valor
+Maracanã,dados_maracana__anos_de_estudo_media,Anos de Estudo (Média),dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15139085131212904,2000,2.9,Valor
+Maracanã,dados_maracana__anos_de_estudo_media,Anos de Estudo (Média),dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15139085131212904,2010,4.9,Valor
+Maracanã,dados_maracana__anos_de_estudo_media,Anos de Estudo (Média),dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15139085131212904,2022,6.8,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1610578717723271,1991,1.6,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1610578717723271,2000,3.2,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1610578717723271,2010,5.3,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.1610578717723271,2022,7.3,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346365,1991,1.2,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346365,2000,2.6,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346365,2010,4.5,Valor
+Maracanã,dados_maracana__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.14394635438346365,2022,6.3,Valor
+Maracanã,dados_maracana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.05615605395483244,1991,0.118,Valor
+Maracanã,dados_maracana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.05615605395483244,2000,0.252,Valor
+Maracanã,dados_maracana__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.05615605395483244,2010,0.472,Valor
+Maracanã,dados_maracana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2000,71.8,Valor
+Maracanã,dados_maracana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2010,87.4,Valor
+Maracanã,dados_maracana__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_maracana,Grupo 2 — 3 censos,3,logistic,adam,True,6.696312153883895,2022,92.1,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,4.530980874373403,2000,38.4,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,4.530980874373403,2010,54.2,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,4.530980874373403,2022,66.8,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.561718328928921,2000,8.2,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.561718328928921,2010,13.4,Valor
+Maracanã,dados_maracana__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.561718328928921,2022,18.9,Valor
+Maracanã,dados_maracana__media_populacao_amarela,Média: População Amarela,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2000,3.2,Valor
+Maracanã,dados_maracana__media_populacao_amarela,Média: População Amarela,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2010,5.4,Valor
+Maracanã,dados_maracana__media_populacao_amarela,Média: População Amarela,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2022,7.2,Valor
+Maracanã,dados_maracana__media_populacao_branca,Média: População Branca,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366157,2000,3.3,Valor
+Maracanã,dados_maracana__media_populacao_branca,Média: População Branca,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366157,2010,5.2,Valor
+Maracanã,dados_maracana__media_populacao_branca,Média: População Branca,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366157,2022,7.1,Valor
+Maracanã,dados_maracana__media_populacao_preta_parda,Média: População Preta / Parda,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366024,2000,2.7,Valor
+Maracanã,dados_maracana__media_populacao_preta_parda,Média: População Preta / Parda,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366024,2010,4.6,Valor
+Maracanã,dados_maracana__media_populacao_preta_parda,Média: População Preta / Parda,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366024,2022,6.5,Valor
+Maracanã,dados_maracana__media_populacao_indigena,Média: População Indígena,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194344,2000,1.8,Valor
+Maracanã,dados_maracana__media_populacao_indigena,Média: População Indígena,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194344,2010,3.2,Valor
+Maracanã,dados_maracana__media_populacao_indigena,Média: População Indígena,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.16777338730194344,2022,5.1,Valor
+Maracanã,dados_maracana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_residente_em_favelas,População Residente em Favelas,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_residente_em_favelas,População Residente em Favelas,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_parda_2,População Parda,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_parda_2,População Parda,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_branca_2,População Branca,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_branca_2,População Branca,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_preta_2,População Preta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_preta_2,População Preta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_amarela_2,População Amarela,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_amarela_2,População Amarela,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__populacao_indigena_2,População Indígena,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__populacao_indigena_2,População Indígena,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Maracanã,dados_maracana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.8,Valor
+Maracanã,dados_maracana__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.4,Valor
+Maracanã,dados_maracana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.2,Valor
+Maracanã,dados_maracana__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.6,Valor
+Maracanã,dados_maracana__casais_com_filhos,Casais com filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0133152410789634,2000,72.4,Valor
+Maracanã,dados_maracana__casais_com_filhos,Casais com filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0133152410789634,2010,61.2,Valor
+Maracanã,dados_maracana__casais_com_filhos,Casais com filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.0133152410789634,2022,50.4,Valor
+Maracanã,dados_maracana__casais_sem_filhos,Casais sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2000,5.2,Valor
+Maracanã,dados_maracana__casais_sem_filhos,Casais sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2010,7.8,Valor
+Maracanã,dados_maracana__casais_sem_filhos,Casais sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2022,11.8,Valor
+Maracanã,dados_maracana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2000,12.1,Valor
+Maracanã,dados_maracana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2010,15.4,Valor
+Maracanã,dados_maracana__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2022,20.2,Valor
+Maracanã,dados_maracana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.2,Valor
+Maracanã,dados_maracana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.5,Valor
+Maracanã,dados_maracana__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.9,Valor
+Maracanã,dados_maracana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9319670181331734,2000,5.1,Valor
+Maracanã,dados_maracana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9319670181331734,2010,6.9,Valor
+Maracanã,dados_maracana__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9319670181331734,2022,6.1,Valor
+Maracanã,dados_maracana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.7728681575940017,2000,1.4,Valor
+Maracanã,dados_maracana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.7728681575940017,2010,3.4,Valor
+Maracanã,dados_maracana__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.7728681575940017,2022,4.2,Valor
+Maracanã,dados_maracana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.1214832329322274,2000,0.6,Valor
+Maracanã,dados_maracana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.1214832329322274,2010,1.8,Valor
+Maracanã,dados_maracana__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.1214832329322274,2022,3.4,Valor
+Maracanã,dados_maracana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Maracanã),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.4,Valor
+Maracanã,dados_maracana__trabalha_no_proprio_municipio_de_residencia_m,Trabalha no próprio município de residência (Maracanã),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.2,Valor
+Maracanã,dados_maracana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.8,Valor
+Maracanã,dados_maracana__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.2,Valor
+Maracanã,dados_maracana__trabalha_em_outro_municipio_ex_castanhal_sali,Trabalha em outro município (ex: Castanhal / Salinópolis / Belém),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.6,Valor
+Maracanã,dados_maracana__trabalha_em_outro_municipio_ex_castanhal_sali,Trabalha em outro município (ex: Castanhal / Salinópolis / Belém),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Maracanã,dados_maracana__motocicleta,Motocicleta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.2,Valor
+Maracanã,dados_maracana__motocicleta,Motocicleta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Maracanã,dados_maracana__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+Maracanã,dados_maracana__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Maracanã,dados_maracana__a_pe,A pé,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.4,Valor
+Maracanã,dados_maracana__a_pe,A pé,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.4,Valor
+Maracanã,dados_maracana__bicicleta,Bicicleta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.8,Valor
+Maracanã,dados_maracana__bicicleta,Bicicleta,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Maracanã,dados_maracana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Maracanã,dados_maracana__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Maracanã,dados_maracana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,56.4,Valor
+Maracanã,dados_maracana__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.8,Valor
+Maracanã,dados_maracana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.2,Valor
+Maracanã,dados_maracana__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.8,Valor
+Maracanã,dados_maracana__mais_de_1_hora_deslocamento_por_rodovia_barco,Mais de 1 hora (Deslocamento por rodovia/barco),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Maracanã,dados_maracana__mais_de_1_hora_deslocamento_por_rodovia_barco,Mais de 1 hora (Deslocamento por rodovia/barco),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.4,Valor
+Maracanã,dados_maracana__estuda_no_proprio_municipio_maracana,Estuda no próprio município (Maracanã),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.8,Valor
+Maracanã,dados_maracana__estuda_no_proprio_municipio_maracana,Estuda no próprio município (Maracanã),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.4,Valor
+Maracanã,dados_maracana__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Maracanã,dados_maracana__estuda_em_outro_municipio_ex_castanhal_belem,Estuda em outro município (ex: Castanhal / Belém),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.6,Valor
+Maracanã,dados_maracana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.4070361889473295,1991,4.82,Valor
+Maracanã,dados_maracana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.4070361889473295,2000,5.94,Valor
+Maracanã,dados_maracana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.4070361889473295,2010,6.82,Valor
+Maracanã,dados_maracana__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.4070361889473295,2022,8.92,Valor
+Maracanã,dados_maracana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.40655130360040825,1991,4.68,Valor
+Maracanã,dados_maracana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.40655130360040825,2000,5.81,Valor
+Maracanã,dados_maracana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.40655130360040825,2010,6.68,Valor
+Maracanã,dados_maracana__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_maracana,Grupo 1 — 4 censos,4,identity,adam,True,0.40655130360040825,2022,8.78,Valor
+Maracanã,dados_maracana__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_maracana,Grupo 1 — 4 censos,4,logistic,sgd,True,4.953710895329394,1991,140.0,Valor
+Maracanã,dados_maracana__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_maracana,Grupo 1 — 4 censos,4,logistic,sgd,True,4.953710895329394,2000,130.0,Valor
+Maracanã,dados_maracana__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_maracana,Grupo 1 — 4 censos,4,logistic,sgd,True,4.953710895329394,2010,140.0,Valor
+Maracanã,dados_maracana__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_maracana,Grupo 1 — 4 censos,4,logistic,sgd,True,4.953710895329394,2022,140.0,Valor
+Maracanã,dados_maracana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09066669060359067,1991,5.6,Valor
+Maracanã,dados_maracana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09066669060359067,2000,4.9,Valor
+Maracanã,dados_maracana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09066669060359067,2010,4.1,Valor
+Maracanã,dados_maracana__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_maracana,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.09066669060359067,2022,3.0,Valor
+Maracanã,dados_maracana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Maracanã,dados_maracana__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Maracanã,dados_maracana__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.4,Valor
+Maracanã,dados_maracana__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Maracanã,dados_maracana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Maracanã,dados_maracana__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.8,Valor
+Maracanã,dados_maracana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Maracanã,dados_maracana__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.8,Valor
+Maracanã,dados_maracana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.4,Valor
+Maracanã,dados_maracana__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Maracanã,dados_maracana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Maracanã,dados_maracana__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Maracanã,dados_maracana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Maracanã,dados_maracana__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.2,Valor
+Maracanã,dados_maracana__ruas_sem_arvores,Ruas Sem Árvores,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.6,Valor
+Maracanã,dados_maracana__ruas_sem_arvores,Ruas Sem Árvores,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.8,Valor
+Maracanã,dados_maracana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Maracanã,dados_maracana__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.6,Valor
+Maracanã,dados_maracana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Maracanã,dados_maracana__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Maracanã,dados_maracana__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Maracanã,dados_maracana__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Maracanã,dados_maracana__populacao_indigena_total,População Indígena Total,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2000,154.0,Valor
+Maracanã,dados_maracana__populacao_indigena_total,População Indígena Total,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2010,87.0,Valor
+Maracanã,dados_maracana__populacao_indigena_total,População Indígena Total,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,28.446432557019232,2022,73.0,Valor
+Maracanã,dados_maracana__proporcao_na_populacao_de_maracana,Proporção na população de Maracanã,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.1072370150212112,2000,0.54,Valor
+Maracanã,dados_maracana__proporcao_na_populacao_de_maracana,Proporção na população de Maracanã,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.1072370150212112,2010,0.31,Valor
+Maracanã,dados_maracana__proporcao_na_populacao_de_maracana,Proporção na população de Maracanã,dados_maracana,Grupo 2 — 3 censos,3,tanh,adam,True,0.1072370150212112,2022,0.28,Valor
+Maracanã,dados_maracana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.4,Valor
+Maracanã,dados_maracana__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.2,Valor
+Maracanã,dados_maracana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Maracanã,dados_maracana__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.4,Valor
+Maracanã,dados_maracana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.9,Valor
+Maracanã,dados_maracana__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.1,Valor
+Maracanã,dados_maracana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.9,Valor
+Maracanã,dados_maracana__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.3,Valor
+Maracanã,dados_maracana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2000,12.1,Valor
+Maracanã,dados_maracana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2010,15.4,Valor
+Maracanã,dados_maracana__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6400504658459862,2022,20.2,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,3.3241554779060984,2000,66.4,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,3.3241554779060984,2010,54.2,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,3.3241554779060984,2022,44.8,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2000,5.2,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2010,7.8,Valor
+Maracanã,dados_maracana__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_maracana,Grupo 2 — 3 censos,3,identity,adam,True,0.6703032635576713,2022,11.8,Valor
+Maracanã,dados_maracana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Maracanã,dados_maracana__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.2,Valor
+Maracanã,dados_maracana__sem_conjuge,Sem cônjuge,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.2,Valor
+Maracanã,dados_maracana__sem_conjuge,Sem cônjuge,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.3,Valor
+Maracanã,dados_maracana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Maracanã,dados_maracana__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Maracanã,dados_maracana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Maracanã,dados_maracana__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_maracana,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Maracanã,dados_maracana__responsavel_mulher,Responsável Mulher,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Maracanã,dados_maracana__responsavel_mulher,Responsável Mulher,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Maracanã,dados_maracana__responsavel_mulher,Responsável Mulher,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Maracanã,dados_maracana__responsavel_homem,Responsável Homem,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253020038548412,2000,5.2,Valor
+Maracanã,dados_maracana__responsavel_homem,Responsável Homem,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253020038548412,2010,4.3,Valor
+Maracanã,dados_maracana__responsavel_homem,Responsável Homem,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015253020038548412,2022,3.2,Valor
+Maracanã,dados_maracana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Maracanã,dados_maracana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Maracanã,dados_maracana__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_maracana,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Maracanã,dados_maracana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647546993,2000,10.8,Valor
+Maracanã,dados_maracana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647546993,2010,15.4,Valor
+Maracanã,dados_maracana__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353407647546993,2022,21.2,Valor
+Maracanã,dados_maracana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.3612854166711165,2000,13.2,Valor
+Maracanã,dados_maracana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.3612854166711165,2010,17.8,Valor
+Maracanã,dados_maracana__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,sgd,True,0.3612854166711165,2022,23.8,Valor
+Maracanã,dados_maracana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.623410379848765,2000,56.4,Valor
+Maracanã,dados_maracana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.623410379848765,2010,41.2,Valor
+Maracanã,dados_maracana__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_maracana,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.623410379848765,2022,26.4,Valor
