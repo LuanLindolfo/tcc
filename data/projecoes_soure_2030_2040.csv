@@ -1,0 +1,249 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Soure,dados_soure__anos_de_estudo_media,Anos de Estudo (Média),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,0.39188678830844403,2030,8.813490134872218
+Soure,dados_soure__anos_de_estudo_media,Anos de Estudo (Média),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,0.39188678830844403,2040,9.23872211608087
+Soure,dados_soure__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,16.564349963550328,2030,148.41325318325443
+Soure,dados_soure__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,16.564349963550328,2040,141.37844191395746
+Soure,dados_soure__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_soure,Grupo 1 — 4 censos,relu,lbfgs,True,0.2681782659331152,2030,9.125581270138042
+Soure,dados_soure__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_soure,Grupo 1 — 4 censos,relu,lbfgs,True,0.2681782659331152,2040,10.552548320869509
+Soure,dados_soure__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_soure,Grupo 1 — 4 censos,relu,adam,True,0.365686382007272,2030,8.813842446635995
+Soure,dados_soure__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_soure,Grupo 1 — 4 censos,relu,adam,True,0.365686382007272,2040,9.87279530006316
+Soure,dados_soure__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,0.40057896505988144,2030,9.2154715841548
+Soure,dados_soure__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,0.40057896505988144,2040,9.63443443344339
+Soure,dados_soure__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_soure,Grupo 1 — 4 censos,identity,lbfgs,True,0.12272336028704656,2030,2.40901787278964
+Soure,dados_soure__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_soure,Grupo 1 — 4 censos,identity,lbfgs,True,0.12272336028704656,2040,1.7323366141957286
+Soure,dados_soure__populacao_total,População Total,dados_soure,Grupo 1 — 4 censos,tanh,lbfgs,True,0.34398024316939146,2030,24.368446127822303
+Soure,dados_soure__populacao_total,População Total,dados_soure,Grupo 1 — 4 censos,tanh,lbfgs,True,0.34398024316939146,2040,24.424142215460716
+Soure,dados_soure__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,4.135852425069894,2030,91.2760636128975
+Soure,dados_soure__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_soure,Grupo 1 — 4 censos,logistic,lbfgs,True,4.135852425069894,2040,92.44501085215352
+Soure,dados_soure__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_soure,Grupo 1 — 4 censos,relu,adam,True,0.2652645948241408,2030,8.960464694170529
+Soure,dados_soure__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_soure,Grupo 1 — 4 censos,relu,adam,True,0.2652645948241408,2040,9.913562614320346
+Soure,dados_soure__2_trabalhos,2 trabalhos,dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,0.9111984958278132,2030,8.954860881579826
+Soure,dados_soure__2_trabalhos,2 trabalhos,dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,0.9111984958278132,2040,10.365377553652644
+Soure,dados_soure__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_soure,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958866936,2030,1.0266041579919953
+Soure,dados_soure__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_soure,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958866936,2040,1.037142256163915
+Soure,dados_soure__apenas_1_trabalho,Apenas 1 trabalho,dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,0.7925288172409637,2030,89.4932991540577
+Soure,dados_soure__apenas_1_trabalho,Apenas 1 trabalho,dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,0.7925288172409637,2040,87.30957034332697
+Soure,dados_soure__casais_com_filhos,Casais com filhos,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,1.4337229345397493,2030,35.32388233620641
+Soure,dados_soure__casais_com_filhos,Casais com filhos,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,1.4337229345397493,2040,25.801905515947205
+Soure,dados_soure__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.5943284840347012,2030,9.701531321231178
+Soure,dados_soure__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.5943284840347012,2040,9.699124588020085
+Soure,dados_soure__casais_sem_filhos,Casais sem filhos,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.2790472174918317,2030,16.667048732675504
+Soure,dados_soure__casais_sem_filhos,Casais sem filhos,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.2790472174918317,2040,20.03993302719311
+Soure,dados_soure__conta_propria,Conta própria,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5637113380352786,2030,6.253220440266761
+Soure,dados_soure__conta_propria,Conta própria,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5637113380352786,2040,6.726179554251823
+Soure,dados_soure__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,0.015250575072783453,2030,25.624502409996623
+Soure,dados_soure__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,0.015250575072783453,2040,30.03390351016227
+Soure,dados_soure__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.13567658974001753,2030,28.661326683096334
+Soure,dados_soure__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.13567658974001753,2040,33.45831303479616
+Soure,dados_soure__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504795432648457,2030,11.14453437878134
+Soure,dados_soure__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504795432648457,2040,-0.987373212683579
+Soure,dados_soure__empregador,Empregador,dados_soure,Grupo 2 — 3 censos,identity,adam,True,50.16078763306041,2030,787.778125513553
+Soure,dados_soure__empregador,Empregador,dados_soure,Grupo 2 — 3 censos,identity,adam,True,50.16078763306041,2040,986.2123711258248
+Soure,dados_soure__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,6.328017505803302,2030,96.03357410887038
+Soure,dados_soure__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,6.328017505803302,2040,95.84736946948911
+Soure,dados_soure__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_soure,Grupo 2 — 3 censos,relu,adam,True,4.610845312017067,2030,79.30241260461368
+Soure,dados_soure__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_soure,Grupo 2 — 3 censos,relu,adam,True,4.610845312017067,2040,84.8300499786495
+Soure,dados_soure__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.1852593960313798,2030,30.85179229488339
+Soure,dados_soure__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.1852593960313798,2040,36.90010200076372
+Soure,dados_soure__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.031603092134063974,2030,1.0170973860647592
+Soure,dados_soure__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.031603092134063974,2040,1.2376486432883336
+Soure,dados_soure__idade_mediana,Idade Mediana,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2030,35.70464018886804
+Soure,dados_soure__idade_mediana,Idade Mediana,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2040,40.71417399679638
+Soure,dados_soure__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2030,257.3294214172574
+Soure,dados_soure__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.5060541718333127,2040,316.16293845762414
+Soure,dados_soure__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.9334996536810685,2030,26.929516651627267
+Soure,dados_soure__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.9334996536810685,2040,30.903107702432088
+Soure,dados_soure__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785418,2030,5.337731563978102
+Soure,dados_soure__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.5322618131785418,2040,5.336253786341124
+Soure,dados_soure__media_populacao_amarela,Média: População Amarela,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434954,2030,9.42160347412658
+Soure,dados_soure__media_populacao_amarela,Média: População Amarela,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6911958226434954,2040,10.427668308672555
+Soure,dados_soure__media_populacao_branca,Média: População Branca,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2030,9.324118479013327
+Soure,dados_soure__media_populacao_branca,Média: População Branca,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6297178458172829,2040,10.333400664408678
+Soure,dados_soure__media_populacao_indigena,Média: População Indígena,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2030,7.131184539481223
+Soure,dados_soure__media_populacao_indigena,Média: População Indígena,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5734109689100761,2040,8.02771365360336
+Soure,dados_soure__media_populacao_preta_parda,Média: População Preta / Parda,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2030,8.722323383050185
+Soure,dados_soure__media_populacao_preta_parda,Média: População Preta / Parda,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6604568342303887,2040,9.730467454172302
+Soure,dados_soure__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,395.49631922176223,2030,400.33204868054145
+Soure,dados_soure__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,395.49631922176223,2040,399.15647007272077
+Soure,dados_soure__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_soure,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057378,2030,4.768974426752009
+Soure,dados_soure__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_soure,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233057378,2040,5.1027820913983355
+Soure,dados_soure__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.07622470851678768,2030,3.221825763972987
+Soure,dados_soure__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_soure,Grupo 2 — 3 censos,identity,adam,True,0.07622470851678768,2040,3.7664125899426972
+Soure,dados_soure__populacao_amarela,População Amarela,dados_soure,Grupo 2 — 3 censos,relu,adam,True,10.6446525597007,2030,14.380302400441096
+Soure,dados_soure__populacao_amarela,População Amarela,dados_soure,Grupo 2 — 3 censos,relu,adam,True,10.6446525597007,2040,5.67266559394486
+Soure,dados_soure__populacao_branca,População Branca,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.39620676974092134,2030,4.49425774732097
+Soure,dados_soure__populacao_branca,População Branca,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.39620676974092134,2040,4.492716556392084
+Soure,dados_soure__populacao_indigena,População Indígena,dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,8.848024584759989,2030,101.74436430804316
+Soure,dados_soure__populacao_indigena,População Indígena,dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,8.848024584759989,2040,101.4123341184796
+Soure,dados_soure__populacao_indigena_total,População Indígena Total,dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,8.848024584759989,2030,101.74436430804316
+Soure,dados_soure__populacao_indigena_total,População Indígena Total,dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,8.848024584759989,2040,101.4123341184796
+Soure,dados_soure__populacao_parda,População Parda,dados_soure,Grupo 2 — 3 censos,relu,adam,True,1.056640871657935,2030,18.35304945219775
+Soure,dados_soure__populacao_parda,População Parda,dados_soure,Grupo 2 — 3 censos,relu,adam,True,1.056640871657935,2040,18.887367429715667
+Soure,dados_soure__populacao_preta,População Preta,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.021244447792233927,2030,1.793479562425314
+Soure,dados_soure__populacao_preta,População Preta,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.021244447792233927,2040,1.7933962067246487
+Soure,dados_soure__populacao_rural,População Rural,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,0.027301770291334737,2030,3.603253250334444
+Soure,dados_soure__populacao_rural,População Rural,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,0.027301770291334737,2040,3.460972880477205
+Soure,dados_soure__populacao_urbana,População Urbana,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6509824529304803,2030,21.098608456017516
+Soure,dados_soure__populacao_urbana,População Urbana,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.6509824529304803,2040,21.810569449318685
+Soure,dados_soure__populacao_com_superior_completo,População com Superior Completo,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,526.8916562751851,2030,369.90106810113514
+Soure,dados_soure__populacao_com_superior_completo,População com Superior Completo,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,526.8916562751851,2040,368.1088139450088
+Soure,dados_soure__populacao_de_homens,População de Homens,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.26709082803202183,2030,12.004013112652228
+Soure,dados_soure__populacao_de_homens,População de Homens,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.26709082803202183,2040,12.225734647324892
+Soure,dados_soure__populacao_de_mulheres,População de Mulheres,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.3516768003381004,2030,12.696954101404444
+Soure,dados_soure__populacao_de_mulheres,População de Mulheres,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.3516768003381004,2040,13.086547967686117
+Soure,dados_soure__proporcao_na_populacao_de_soure,Proporção na população de Soure,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.029876121357452323,2030,0.4102226132136571
+Soure,dados_soure__proporcao_na_populacao_de_soure,Proporção na população de Soure,dados_soure,Grupo 2 — 3 censos,logistic,sgd,True,0.029876121357452323,2040,0.41015014471722483
+Soure,dados_soure__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.8442183030621541,2030,94.38748093059102
+Soure,dados_soure__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.8442183030621541,2040,92.85575171257882
+Soure,dados_soure__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_soure,Grupo 2 — 3 censos,identity,adam,True,125.26978914867418,2030,903.5032351907741
+Soure,dados_soure__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_soure,Grupo 2 — 3 censos,identity,adam,True,125.26978914867418,2040,1173.678614643589
+Soure,dados_soure__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,2.806442129326238,2030,31.548976314080214
+Soure,dados_soure__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_soure,Grupo 2 — 3 censos,identity,lbfgs,True,2.806442129326238,2040,21.867609409161073
+Soure,dados_soure__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.2790472174918317,2030,16.667048732675504
+Soure,dados_soure__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.2790472174918317,2040,20.03993302719311
+Soure,dados_soure__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.9334996536810685,2030,26.929516651627267
+Soure,dados_soure__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.9334996536810685,2040,30.903107702432088
+Soure,dados_soure__responsavel_homem,Responsável Homem,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.24497078189936664,2030,2.8764379443107835
+Soure,dados_soure__responsavel_homem,Responsável Homem,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.24497078189936664,2040,2.430618651420696
+Soure,dados_soure__responsavel_mulher,Responsável Mulher,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Soure,dados_soure__responsavel_mulher,Responsável Mulher,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Soure,dados_soure__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2030,2.597604932514091
+Soure,dados_soure__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.16589418038559098,2040,2.3241036781025066
+Soure,dados_soure__setor_privado,Setor privado,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5570935380500011,2030,5.702422385455411
+Soure,dados_soure__setor_privado,Setor privado,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.5570935380500011,2040,6.378908500503349
+Soure,dados_soure__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_soure,Grupo 2 — 3 censos,tanh,adam,True,379.7017268371687,2030,-1.782674744658948
+Soure,dados_soure__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_soure,Grupo 2 — 3 censos,tanh,adam,True,379.7017268371687,2040,18.23362801124324
+Soure,dados_soure__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.24914660575084926,2030,2.4275002430004156
+Soure,dados_soure__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.24914660575084926,2040,2.59609088103378
+Soure,dados_soure__setor_publico,Setor público,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.23781041910011144,2030,3.2866075813532496
+Soure,dados_soure__setor_publico,Setor público,dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.23781041910011144,2040,3.6623265059712122
+Soure,dados_soure__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_soure,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2030,269.52636137880756
+Soure,dados_soure__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_soure,Grupo 2 — 3 censos,identity,adam,True,12.193319077185706,2040,346.70036059233666
+Soure,dados_soure__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.21887867717044016,2030,3.0301744334734177
+Soure,dados_soure__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_soure,Grupo 2 — 3 censos,relu,adam,True,0.21887867717044016,2040,3.3487616310796424
+Soure,dados_soure__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.625571391288517,2030,50.82271580239431
+Soure,dados_soure__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_soure,Grupo 2 — 3 censos,identity,adam,True,1.625571391288517,2040,60.485999640195836
+Soure,dados_soure__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_soure,Grupo 2 — 3 censos,logistic,adam,True,3.255902035782109,2030,99.72256168201129
+Soure,dados_soure__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_soure,Grupo 2 — 3 censos,logistic,adam,True,3.255902035782109,2040,100.2704810447191
+Soure,dados_soure__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,6.328017505803302,2030,96.03357410887038
+Soure,dados_soure__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_soure,Grupo 2 — 3 censos,tanh,lbfgs,True,6.328017505803302,2040,95.84736946948911
+Soure,dados_soure__trabalhador_domestico,Trabalhador doméstico,dados_soure,Grupo 2 — 3 censos,relu,adam,True,61.44921571611955,2030,794.2223124966931
+Soure,dados_soure__trabalhador_domestico,Trabalhador doméstico,dados_soure,Grupo 2 — 3 censos,relu,adam,True,61.44921571611955,2040,856.6348692346751
+Soure,dados_soure__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_soure,Grupo 2 — 3 censos,identity,adam,True,10.63457919534541,2030,232.4850566511777
+Soure,dados_soure__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_soure,Grupo 2 — 3 censos,identity,adam,True,10.63457919534541,2040,295.7028013844588
+Soure,dados_soure__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_soure,Grupo 2 — 3 censos,logistic,lbfgs,True,57.07377917073586,2030,567.5131126541909
+Soure,dados_soure__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_soure,Grupo 2 — 3 censos,logistic,lbfgs,True,57.07377917073586,2040,570.9626248693214
+Soure,dados_soure__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,8.094754178631366,2030,41.81204289753166
+Soure,dados_soure__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_soure,Grupo 2 — 3 censos,relu,lbfgs,True,8.094754178631366,2040,54.009562930218294
+Soure,dados_soure__a_pe,A pé,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.570528815700335
+Soure,dados_soure__a_pe,A pé,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.140936363875731
+Soure,dados_soure__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.782795170934875
+Soure,dados_soure__abastecimento_de_agua_pela_rede_geral,Abastecimento de água pela rede geral,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.53103053224653
+Soure,dados_soure__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.10469979455629
+Soure,dados_soure__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.75567006665896
+Soure,dados_soure__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.165251742014316
+Soure,dados_soure__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.329400361203305
+Soure,dados_soure__bicicleta,Bicicleta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.39435386706126
+Soure,dados_soure__bicicleta,Bicicleta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.0520188472109933
+Soure,dados_soure__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.08417247338106
+Soure,dados_soure__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.29800120401103
+Soure,dados_soure__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,79.83210651971177
+Soure,dados_soure__com_banheiro_de_uso_exclusivo,Com Banheiro de uso exclusivo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.84754519636428
+Soure,dados_soure__com_coleta_de_lixo,Com Coleta de Lixo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,86.52190106949607
+Soure,dados_soure__com_coleta_de_lixo,Com Coleta de Lixo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,96.7243159885299
+Soure,dados_soure__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6238611281483573
+Soure,dados_soure__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5256369587330751
+Soure,dados_soure__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.04513716615397
+Soure,dados_soure__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,47.97796385832081
+Soure,dados_soure__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.162327837194226
+Soure,dados_soure__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.729128666029438
+Soure,dados_soure__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.640596067625865
+Soure,dados_soure__conexao_a_rede_de_esgoto,Conexão à rede de esgoto,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.6711430291444325
+Soure,dados_soure__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.640596067625864
+Soure,dados_soure__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.67114302914443
+Soure,dados_soure__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.450783299092715
+Soure,dados_soure__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.725945011109827
+Soure,dados_soure__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.015045722051328
+Soure,dados_soure__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.659321286106943
+Soure,dados_soure__estuda_em_outro_municipio_ex_salvaterra_belem,Estuda em outro município (ex: Salvaterra / Belém),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.197132528489144
+Soure,dados_soure__estuda_em_outro_municipio_ex_salvaterra_belem,Estuda em outro município (ex: Salvaterra / Belém),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.15517175537442
+Soure,dados_soure__estuda_no_proprio_municipio_de_residencia_sou,Estuda no próprio município de residência (Soure),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,84.79122067069041
+Soure,dados_soure__estuda_no_proprio_municipio_de_residencia_sou,Estuda no próprio município de residência (Soure),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.34823880277169
+Soure,dados_soure__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.26100696805727
+Soure,dados_soure__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.917601444813236
+Soure,dados_soure__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.179308145009934
+Soure,dados_soure__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.192697561104048
+Soure,dados_soure__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.6493113487769
+Soure,dados_soure__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.91651466411774
+Soure,dados_soure__idade_mediana_2,Idade Mediana,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.101490169064665
+Soure,dados_soure__idade_mediana_2,Idade Mediana,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.67785757286108
+Soure,dados_soure__mais_de_1_hora_deslocamento_hidroviario_vicin,Mais de 1 hora (Deslocamento hidroviário / vicinais),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.97683449467621
+Soure,dados_soure__mais_de_1_hora_deslocamento_hidroviario_vicin,Mais de 1 hora (Deslocamento hidroviário / vicinais),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.419600240802207
+Soure,dados_soure__motocicleta,Motocicleta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.15951679899261
+Soure,dados_soure__motocicleta,Motocicleta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.239743871952165
+Soure,dados_soure__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.104699794556296
+Soure,dados_soure__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,58.75567006665897
+Soure,dados_soure__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.4202980338129327
+Soure,dados_soure__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.9355715145722163
+Soure,dados_soure__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.14208623669053
+Soure,dados_soure__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.74900060200551
+Soure,dados_soure__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,94.8986226975538
+Soure,dados_soure__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,99.4330293282355
+Soure,dados_soure__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-628.4960076312905
+Soure,dados_soure__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1460.3929107492506
+Soure,dados_soure__populacao_amarela_2,População Amarela,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8405960676258655
+Soure,dados_soure__populacao_amarela_2,População Amarela,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.871143029144433
+Soure,dados_soure__populacao_branca_2,População Branca,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,266.2327837194226
+Soure,dados_soure__populacao_branca_2,População Branca,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,322.9128666029438
+Soure,dados_soure__populacao_indigena_2,População Indígena,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.101490169064665
+Soure,dados_soure__populacao_indigena_2,População Indígena,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.67785757286108
+Soure,dados_soure__populacao_parda_2,População Parda,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-505.56312786008255
+Soure,dados_soure__populacao_parda_2,População Parda,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1174.7157143686848
+Soure,dados_soure__populacao_preta_2,População Preta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,182.88473680647343
+Soure,dados_soure__populacao_preta_2,População Preta,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,225.65243570949394
+Soure,dados_soure__populacao_residente_em_favelas,População Residente em Favelas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,-628.4960076312905
+Soure,dados_soure__populacao_residente_em_favelas,População Residente em Favelas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-1460.3929107492506
+Soure,dados_soure__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.198566264244572
+Soure,dados_soure__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.177585877687211
+Soure,dados_soure__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,96.14043737159768
+Soure,dados_soure__razao_de_sexo_homens_por_100_mulheres,Razão de Sexo (homens por 100 mulheres),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.42229379166186
+Soure,dados_soure__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7194353867061265
+Soure,dados_soure__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.0852018847210996
+Soure,dados_soure__ruas_sem_arvores,Ruas Sem Árvores,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.030091444102652
+Soure,dados_soure__ruas_sem_arvores,Ruas Sem Árvores,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.318642572213875
+Soure,dados_soure__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.58554977582726
+Soure,dados_soure__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.26497187577553
+Soure,dados_soure__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.913072921726558
+Soure,dados_soure__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.153668989352422
+Soure,dados_soure__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.768057452459978
+Soure,dados_soure__ruas_com_bueiro_ou_boca_de_lobo_2,Ruas com Bueiro ou Boca de Lobo,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.039200481604414
+Soure,dados_soure__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.92476854100693
+Soure,dados_soure__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.68130500187021
+Soure,dados_soure__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,89.16914423315546
+Soure,dados_soure__ruas_com_iluminacao_publica_2,Ruas com Iluminação Pública,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.85317295938546
+Soure,dados_soure__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.620298033812933
+Soure,dados_soure__ruas_com_rampa_para_cadeirantes,Ruas com Rampa para Cadeirantes,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.135571514572216
+Soure,dados_soure__sem_conjuge,Sem cônjuge,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,42.278324663740875
+Soure,dados_soure__sem_conjuge,Sem cônjuge,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,46.297457813663286
+Soure,dados_soure__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.33050348402863
+Soure,dados_soure__taxa_de_alfabetizacao,Taxa de Alfabetização,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.65880072240661
+Soure,dados_soure__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,631.8864298057505
+Soure,dados_soure__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,781.3157392259427
+Soure,dados_soure__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.6493113487769
+Soure,dados_soure__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.91651466411775
+Soure,dados_soure__trabalha_em_outro_municipio_ex_salvaterra_bel,Trabalha em outro município (ex: Salvaterra / Belém / Cachoeira do Arari),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.144953708201385
+Soure,dados_soure__trabalha_em_outro_municipio_ex_salvaterra_bel,Trabalha em outro município (ex: Salvaterra / Belém / Cachoeira do Arari),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.793828846631094
+Soure,dados_soure__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (Soure),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.00313319637085
+Soure,dados_soure__trabalha_no_proprio_municipio_de_residencia_s,Trabalha no próprio município de residência (Soure),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.1037800444393
+Soure,dados_soure__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.747877613021474
+Soure,dados_soure__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.99410054180496
+Soure,dados_soure__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.57121241827296
+Soure,dados_soure__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,81.04083065264763
+Soure,dados_soure__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.4782682304316395
+Soure,dados_soure__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.9420143631149949
+Soure,dados_soure__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.521901069496074
+Soure,dados_soure__vias_pavimentadas_asfalto_calcamento_picarra,Vias Pavimentadas (Asfalto/Calçamento/Piçarra),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,66.7243159885299
+Soure,dados_soure__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.57121241827296
+Soure,dados_soure__agua_canalizada_ate_dentro_da_habitacao,Água canalizada até dentro da habitação,dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.04083065264763
+Soure,dados_soure__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.426145843453115
+Soure,dados_soure__indice_de_envelhecimento_60_por_100_ate_14_an,Índice de Envelhecimento (60+ por 100 até 14 anos),dados_soure,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.136114904919957
