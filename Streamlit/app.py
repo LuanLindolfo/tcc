@@ -287,7 +287,7 @@ MUNICIPIOS = [
     {
         "nome":    "Pacajá",
         "pasta":   "data",
-        "arquivo": "indicadores_pacaja_tratados.csv",
+        "arquivo": "indicadores_pacajá_tratados.csv",
     },
     {
         "nome":    "Tucumã",
