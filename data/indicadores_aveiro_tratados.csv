@@ -1,1 +1,300 @@
-
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Aveiro,dados_aveiro__populacao_total,População Total,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.5409036016615039,1991,14.12,Valor
+Aveiro,dados_aveiro__populacao_total,População Total,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.5409036016615039,2000,15.82,Valor
+Aveiro,dados_aveiro__populacao_total,População Total,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.5409036016615039,2010,15.849,Valor
+Aveiro,dados_aveiro__populacao_total,População Total,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.5409036016615039,2022,17.181,Valor
+Aveiro,dados_aveiro__populacao_urbana,População Urbana,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.38236298786259865,2000,2.84,Valor
+Aveiro,dados_aveiro__populacao_urbana,População Urbana,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.38236298786259865,2010,3.98,Valor
+Aveiro,dados_aveiro__populacao_urbana,População Urbana,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.38236298786259865,2022,4.52,Valor
+Aveiro,dados_aveiro__populacao_rural,População Rural,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.6334144982166414,2000,12.98,Valor
+Aveiro,dados_aveiro__populacao_rural,População Rural,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.6334144982166414,2010,11.869,Valor
+Aveiro,dados_aveiro__populacao_rural,População Rural,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.6334144982166414,2022,12.661,Valor
+Aveiro,dados_aveiro__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_de_mulheres,População de Mulheres,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2673646383321566,2000,7.48,Valor
+Aveiro,dados_aveiro__populacao_de_mulheres,População de Mulheres,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2673646383321566,2010,7.62,Valor
+Aveiro,dados_aveiro__populacao_de_mulheres,População de Mulheres,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2673646383321566,2022,8.28,Valor
+Aveiro,dados_aveiro__populacao_de_homens,População de Homens,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,0.39627936099643435,2000,8.34,Valor
+Aveiro,dados_aveiro__populacao_de_homens,População de Homens,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,0.39627936099643435,2010,8.229,Valor
+Aveiro,dados_aveiro__populacao_de_homens,População de Homens,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,0.39627936099643435,2022,8.901,Valor
+Aveiro,dados_aveiro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,1.603590685667707,2000,111.5,Valor
+Aveiro,dados_aveiro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,1.603590685667707,2010,108.0,Valor
+Aveiro,dados_aveiro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,1.603590685667707,2022,107.5,Valor
+Aveiro,dados_aveiro__idade_mediana,Idade Mediana,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2000,18.0,Valor
+Aveiro,dados_aveiro__idade_mediana,Idade Mediana,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2010,21.0,Valor
+Aveiro,dados_aveiro__idade_mediana,Idade Mediana,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2022,28.0,Valor
+Aveiro,dados_aveiro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_aveiro,Grupo 2 — 3 censos,3,relu,sgd,True,7.09389241720054,2000,5.4,Valor
+Aveiro,dados_aveiro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_aveiro,Grupo 2 — 3 censos,3,relu,sgd,True,7.09389241720054,2010,8.2,Valor
+Aveiro,dados_aveiro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_aveiro,Grupo 2 — 3 censos,3,relu,sgd,True,7.09389241720054,2022,24.8,Valor
+Aveiro,dados_aveiro__populacao_parda,População Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.31673652460178897,2000,12.12,Valor
+Aveiro,dados_aveiro__populacao_parda,População Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.31673652460178897,2010,12.84,Valor
+Aveiro,dados_aveiro__populacao_parda,População Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.31673652460178897,2022,14.12,Valor
+Aveiro,dados_aveiro__populacao_branca,População Branca,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19301903550537855,2000,2.42,Valor
+Aveiro,dados_aveiro__populacao_branca,População Branca,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19301903550537855,2010,2.08,Valor
+Aveiro,dados_aveiro__populacao_branca,População Branca,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19301903550537855,2022,2.18,Valor
+Aveiro,dados_aveiro__populacao_preta,População Preta,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,80.65075575113853,2000,680.0,Valor
+Aveiro,dados_aveiro__populacao_preta,População Preta,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,80.65075575113853,2010,780.0,Valor
+Aveiro,dados_aveiro__populacao_preta,População Preta,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,80.65075575113853,2022,640.0,Valor
+Aveiro,dados_aveiro__populacao_amarela,População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,4.592289638100827,2000,32.0,Valor
+Aveiro,dados_aveiro__populacao_amarela,População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,4.592289638100827,2010,18.0,Valor
+Aveiro,dados_aveiro__populacao_amarela,População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,4.592289638100827,2022,11.0,Valor
+Aveiro,dados_aveiro__populacao_indigena,População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2000,568.0,Valor
+Aveiro,dados_aveiro__populacao_indigena,População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2010,131.0,Valor
+Aveiro,dados_aveiro__populacao_indigena,População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2022,230.0,Valor
+Aveiro,dados_aveiro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.55267024928798,2000,64.1,Valor
+Aveiro,dados_aveiro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.55267024928798,2010,172.4,Valor
+Aveiro,dados_aveiro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,107.55267024928798,2022,468.0,Valor
+Aveiro,dados_aveiro__apenas_1_trabalho,Apenas 1 trabalho,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6095465389634332,2000,96.8,Valor
+Aveiro,dados_aveiro__apenas_1_trabalho,Apenas 1 trabalho,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6095465389634332,2010,95.4,Valor
+Aveiro,dados_aveiro__apenas_1_trabalho,Apenas 1 trabalho,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6095465389634332,2022,92.8,Valor
+Aveiro,dados_aveiro__2_trabalhos,2 trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7308088589810375,2000,2.8,Valor
+Aveiro,dados_aveiro__2_trabalhos,2 trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7308088589810375,2010,4.0,Valor
+Aveiro,dados_aveiro__2_trabalhos,2 trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7308088589810375,2022,6.4,Valor
+Aveiro,dados_aveiro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701074,2000,0.4,Valor
+Aveiro,dados_aveiro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701074,2010,0.6,Valor
+Aveiro,dados_aveiro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.030384511986701074,2022,0.8,Valor
+Aveiro,dados_aveiro__setor_privado,Setor privado,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,297.238405251609,2000,540.0,Valor
+Aveiro,dados_aveiro__setor_privado,Setor privado,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,297.238405251609,2010,1.12,Valor
+Aveiro,dados_aveiro__setor_privado,Setor privado,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,297.238405251609,2022,1.64,Valor
+Aveiro,dados_aveiro__conta_propria,Conta própria,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.1326084768379784,2000,3.82,Valor
+Aveiro,dados_aveiro__conta_propria,Conta própria,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.1326084768379784,2010,4.28,Valor
+Aveiro,dados_aveiro__conta_propria,Conta própria,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.1326084768379784,2022,4.62,Valor
+Aveiro,dados_aveiro__setor_publico,Setor público,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,341.27476303102117,2000,620.0,Valor
+Aveiro,dados_aveiro__setor_publico,Setor público,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,341.27476303102117,2010,1.02,Valor
+Aveiro,dados_aveiro__setor_publico,Setor público,dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,341.27476303102117,2022,1.34,Valor
+Aveiro,dados_aveiro__trabalhador_domestico,Trabalhador doméstico,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,28.929103441454117,2000,140.0,Valor
+Aveiro,dados_aveiro__trabalhador_domestico,Trabalhador doméstico,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,28.929103441454117,2010,240.0,Valor
+Aveiro,dados_aveiro__trabalhador_domestico,Trabalhador doméstico,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,28.929103441454117,2022,310.0,Valor
+Aveiro,dados_aveiro__empregador,Empregador,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.5060541718333127,2000,50.0,Valor
+Aveiro,dados_aveiro__empregador,Empregador,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.5060541718333127,2010,110.0,Valor
+Aveiro,dados_aveiro__empregador,Empregador,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.5060541718333127,2022,180.0,Valor
+Aveiro,dados_aveiro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,286.04235790054554,2000,2.12,Valor
+Aveiro,dados_aveiro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,286.04235790054554,2010,1.28,Valor
+Aveiro,dados_aveiro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,286.04235790054554,2022,580.0,Valor
+Aveiro,dados_aveiro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.506987131525835,2000,10.0,Valor
+Aveiro,dados_aveiro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.506987131525835,2010,15.0,Valor
+Aveiro,dados_aveiro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.506987131525835,2022,30.0,Valor
+Aveiro,dados_aveiro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2000,120.0,Valor
+Aveiro,dados_aveiro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2010,380.0,Valor
+Aveiro,dados_aveiro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,36.59312865905889,2022,740.0,Valor
+Aveiro,dados_aveiro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,101.49819589466597,2000,420.0,Valor
+Aveiro,dados_aveiro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,101.49819589466597,2010,740.0,Valor
+Aveiro,dados_aveiro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,101.49819589466597,2022,900.0,Valor
+Aveiro,dados_aveiro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2000,10.0,Valor
+Aveiro,dados_aveiro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2010,20.0,Valor
+Aveiro,dados_aveiro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,11.01397426305167,2022,50.0,Valor
+Aveiro,dados_aveiro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,335.7592408221394,2000,610.0,Valor
+Aveiro,dados_aveiro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,335.7592408221394,2010,1.0,Valor
+Aveiro,dados_aveiro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_aveiro,Grupo 2 — 3 censos,3,tanh,adam,True,335.7592408221394,2022,1.29,Valor
+Aveiro,dados_aveiro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2000,10.0,Valor
+Aveiro,dados_aveiro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2010,20.0,Valor
+Aveiro,dados_aveiro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2022,40.0,Valor
+Aveiro,dados_aveiro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2000,130.0,Valor
+Aveiro,dados_aveiro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2010,220.0,Valor
+Aveiro,dados_aveiro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,26.37231459204413,2022,270.0,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_aveiro,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.2832958248111197,1991,42.8,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_aveiro,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.2832958248111197,2000,56.2,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_aveiro,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.2832958248111197,2010,72.8,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_aveiro,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.2832958248111197,2022,81.2,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.27738851409768,2000,75.4,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.27738851409768,2010,89.2,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.27738851409768,2022,94.8,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.280232645966991,2000,12.1,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.280232645966991,2010,19.2,Valor
+Aveiro,dados_aveiro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.280232645966991,2022,29.4,Valor
+Aveiro,dados_aveiro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2000,64.2,Valor
+Aveiro,dados_aveiro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2010,85.4,Valor
+Aveiro,dados_aveiro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2022,91.2,Valor
+Aveiro,dados_aveiro__populacao_com_superior_completo,População com Superior Completo,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29513007412075,2000,21.0,Valor
+Aveiro,dados_aveiro__populacao_com_superior_completo,População com Superior Completo,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29513007412075,2010,160.0,Valor
+Aveiro,dados_aveiro__populacao_com_superior_completo,População com Superior Completo,dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.29513007412075,2022,580.0,Valor
+Aveiro,dados_aveiro__anos_de_estudo_media,Anos de Estudo (Média),dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,1991,1.3,Valor
+Aveiro,dados_aveiro__anos_de_estudo_media,Anos de Estudo (Média),dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2000,2.5,Valor
+Aveiro,dados_aveiro__anos_de_estudo_media,Anos de Estudo (Média),dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2010,4.4,Valor
+Aveiro,dados_aveiro__anos_de_estudo_media,Anos de Estudo (Média),dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1683053358903473,2022,6.3,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.15699635563305947,1991,1.5,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.15699635563305947,2000,2.8,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.15699635563305947,2010,4.8,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.15699635563305947,2022,6.8,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,1991,1.1,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2000,2.2,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2010,4.0,Valor
+Aveiro,dados_aveiro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_aveiro,Grupo 1 — 4 censos,4,identity,adam,True,0.1796123985256014,2022,5.8,Valor
+Aveiro,dados_aveiro__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.07018782315841461,1991,0.094,Valor
+Aveiro,dados_aveiro__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.07018782315841461,2000,0.212,Valor
+Aveiro,dados_aveiro__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.07018782315841461,2010,0.432,Valor
+Aveiro,dados_aveiro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2000,64.2,Valor
+Aveiro,dados_aveiro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2010,85.4,Valor
+Aveiro,dados_aveiro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_aveiro,Grupo 2 — 3 censos,3,logistic,adam,True,9.466738952577359,2022,91.2,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.345707872871189,2000,29.8,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.345707872871189,2010,48.2,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,5.345707872871189,2022,60.2,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.972567812124472,2000,5.8,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.972567812124472,2010,11.2,Valor
+Aveiro,dados_aveiro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.972567812124472,2022,16.4,Valor
+Aveiro,dados_aveiro__media_populacao_amarela,Média: População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923239,2000,2.9,Valor
+Aveiro,dados_aveiro__media_populacao_amarela,Média: População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923239,2010,4.9,Valor
+Aveiro,dados_aveiro__media_populacao_amarela,Média: População Amarela,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.5321241025923239,2022,6.6,Valor
+Aveiro,dados_aveiro__media_populacao_branca,Média: População Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572017,2000,2.9,Valor
+Aveiro,dados_aveiro__media_populacao_branca,Média: População Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572017,2010,4.8,Valor
+Aveiro,dados_aveiro__media_populacao_branca,Média: População Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572017,2022,6.5,Valor
+Aveiro,dados_aveiro__media_populacao_preta_parda,Média: População Preta / Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.2886528638736607,2000,2.4,Valor
+Aveiro,dados_aveiro__media_populacao_preta_parda,Média: População Preta / Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.2886528638736607,2010,4.3,Valor
+Aveiro,dados_aveiro__media_populacao_preta_parda,Média: População Preta / Parda,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.2886528638736607,2022,6.2,Valor
+Aveiro,dados_aveiro__media_populacao_indigena,Média: População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006891,2000,1.4,Valor
+Aveiro,dados_aveiro__media_populacao_indigena,Média: População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006891,2010,3.0,Valor
+Aveiro,dados_aveiro__media_populacao_indigena,Média: População Indígena,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006891,2022,4.8,Valor
+Aveiro,dados_aveiro__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_residente_em_favelas,População Residente em Favelas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_residente_em_favelas,População Residente em Favelas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_parda_2,População Parda,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_parda_2,População Parda,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_branca_2,População Branca,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_branca_2,População Branca,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_preta_2,População Preta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_preta_2,População Preta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_amarela_2,População Amarela,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_amarela_2,População Amarela,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__populacao_indigena_2,População Indígena,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__populacao_indigena_2,População Indígena,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Aveiro,dados_aveiro__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,77.8,Valor
+Aveiro,dados_aveiro__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.8,Valor
+Aveiro,dados_aveiro__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.2,Valor
+Aveiro,dados_aveiro__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.2,Valor
+Aveiro,dados_aveiro__casais_com_filhos,Casais com filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.3595314887606662,2000,72.8,Valor
+Aveiro,dados_aveiro__casais_com_filhos,Casais com filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.3595314887606662,2010,63.2,Valor
+Aveiro,dados_aveiro__casais_com_filhos,Casais com filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.3595314887606662,2022,51.2,Valor
+Aveiro,dados_aveiro__casais_sem_filhos,Casais sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2000,4.8,Valor
+Aveiro,dados_aveiro__casais_sem_filhos,Casais sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2010,7.1,Valor
+Aveiro,dados_aveiro__casais_sem_filhos,Casais sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2022,11.2,Valor
+Aveiro,dados_aveiro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2000,11.4,Valor
+Aveiro,dados_aveiro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2010,14.1,Valor
+Aveiro,dados_aveiro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2022,19.4,Valor
+Aveiro,dados_aveiro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.18024989133761501,2000,3.2,Valor
+Aveiro,dados_aveiro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.18024989133761501,2010,3.4,Valor
+Aveiro,dados_aveiro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_aveiro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.18024989133761501,2022,3.9,Valor
+Aveiro,dados_aveiro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.44872002250405413,2000,6.1,Valor
+Aveiro,dados_aveiro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.44872002250405413,2010,7.2,Valor
+Aveiro,dados_aveiro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.44872002250405413,2022,7.6,Valor
+Aveiro,dados_aveiro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.70070801887183,2000,1.1,Valor
+Aveiro,dados_aveiro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.70070801887183,2010,3.2,Valor
+Aveiro,dados_aveiro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.70070801887183,2022,4.2,Valor
+Aveiro,dados_aveiro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407542,2000,0.6,Valor
+Aveiro,dados_aveiro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407542,2010,1.8,Valor
+Aveiro,dados_aveiro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_aveiro,Grupo 2 — 3 censos,3,relu,adam,True,0.3507690112407542,2022,2.5,Valor
+Aveiro,dados_aveiro__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Aveiro),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,91.8,Valor
+Aveiro,dados_aveiro__trabalha_no_proprio_municipio_de_residencia_a,Trabalha no próprio município de residência (Aveiro),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,88.4,Valor
+Aveiro,dados_aveiro__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.2,Valor
+Aveiro,dados_aveiro__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,55.4,Valor
+Aveiro,dados_aveiro__trabalha_em_outro_municipio_ex_itaituba_santa,Trabalha em outro município (ex: Itaituba / Santarém),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.2,Valor
+Aveiro,dados_aveiro__trabalha_em_outro_municipio_ex_itaituba_santa,Trabalha em outro município (ex: Itaituba / Santarém),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.6,Valor
+Aveiro,dados_aveiro__motocicleta,Motocicleta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Aveiro,dados_aveiro__motocicleta,Motocicleta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.2,Valor
+Aveiro,dados_aveiro__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Aveiro,dados_aveiro__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Aveiro,dados_aveiro__a_pe,A pé,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.2,Valor
+Aveiro,dados_aveiro__a_pe,A pé,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.4,Valor
+Aveiro,dados_aveiro__bicicleta,Bicicleta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Aveiro,dados_aveiro__bicicleta,Bicicleta,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Aveiro,dados_aveiro__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Aveiro,dados_aveiro__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.8,Valor
+Aveiro,dados_aveiro__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Aveiro,dados_aveiro__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Aveiro,dados_aveiro__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.2,Valor
+Aveiro,dados_aveiro__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.1,Valor
+Aveiro,dados_aveiro__mais_de_1_hora_deslocamento_fluvial_vicinais,Mais de 1 hora (Deslocamento fluvial / vicinais),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Aveiro,dados_aveiro__mais_de_1_hora_deslocamento_fluvial_vicinais,Mais de 1 hora (Deslocamento fluvial / vicinais),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.7,Valor
+Aveiro,dados_aveiro__estuda_no_proprio_municipio_aveiro,Estuda no próprio município (Aveiro),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.8,Valor
+Aveiro,dados_aveiro__estuda_no_proprio_municipio_aveiro,Estuda no próprio município (Aveiro),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.1,Valor
+Aveiro,dados_aveiro__estuda_em_outro_municipio_ex_itaituba_santare,Estuda em outro município (ex: Itaituba / Santarém) vicio,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,5.2,Valor
+Aveiro,dados_aveiro__estuda_em_outro_municipio_ex_itaituba_santare,Estuda em outro município (ex: Itaituba / Santarém) vicio,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.9,Valor
+Aveiro,dados_aveiro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.27752880687874815,1991,2.58,Valor
+Aveiro,dados_aveiro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.27752880687874815,2000,3.18,Valor
+Aveiro,dados_aveiro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.27752880687874815,2010,3.92,Valor
+Aveiro,dados_aveiro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.27752880687874815,2022,5.24,Valor
+Aveiro,dados_aveiro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.2897313238593531,1991,2.48,Valor
+Aveiro,dados_aveiro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.2897313238593531,2000,3.08,Valor
+Aveiro,dados_aveiro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.2897313238593531,2010,3.81,Valor
+Aveiro,dados_aveiro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_aveiro,Grupo 1 — 4 censos,4,identity,sgd,True,0.2897313238593531,2022,5.15,Valor
+Aveiro,dados_aveiro__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_aveiro,Grupo 1 — 4 censos,4,logistic,sgd,True,6.755680889530389,1991,100.0,Valor
+Aveiro,dados_aveiro__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_aveiro,Grupo 1 — 4 censos,4,logistic,sgd,True,6.755680889530389,2000,100.0,Valor
+Aveiro,dados_aveiro__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_aveiro,Grupo 1 — 4 censos,4,logistic,sgd,True,6.755680889530389,2010,110.0,Valor
+Aveiro,dados_aveiro__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_aveiro,Grupo 1 — 4 censos,4,logistic,sgd,True,6.755680889530389,2022,90.0,Valor
+Aveiro,dados_aveiro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_aveiro,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07040688451055799,1991,5.7,Valor
+Aveiro,dados_aveiro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_aveiro,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07040688451055799,2000,5.1,Valor
+Aveiro,dados_aveiro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_aveiro,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07040688451055799,2010,4.2,Valor
+Aveiro,dados_aveiro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_aveiro,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07040688451055799,2022,3.3,Valor
+Aveiro,dados_aveiro__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Aveiro,dados_aveiro__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,48.1,Valor
+Aveiro,dados_aveiro__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Aveiro,dados_aveiro__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Aveiro,dados_aveiro__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.1,Valor
+Aveiro,dados_aveiro__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Aveiro,dados_aveiro__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Aveiro,dados_aveiro__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.4,Valor
+Aveiro,dados_aveiro__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Aveiro,dados_aveiro__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Aveiro,dados_aveiro__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,20.8,Valor
+Aveiro,dados_aveiro__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.4,Valor
+Aveiro,dados_aveiro__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.2,Valor
+Aveiro,dados_aveiro__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.8,Valor
+Aveiro,dados_aveiro__ruas_sem_arvores,Ruas Sem Árvores,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.8,Valor
+Aveiro,dados_aveiro__ruas_sem_arvores,Ruas Sem Árvores,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.2,Valor
+Aveiro,dados_aveiro__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Aveiro,dados_aveiro__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Aveiro,dados_aveiro__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Aveiro,dados_aveiro__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Aveiro,dados_aveiro__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Aveiro,dados_aveiro__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,73.1,Valor
+Aveiro,dados_aveiro__populacao_indigena_total,População Indígena Total,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2000,568.0,Valor
+Aveiro,dados_aveiro__populacao_indigena_total,População Indígena Total,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2010,131.0,Valor
+Aveiro,dados_aveiro__populacao_indigena_total,População Indígena Total,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,258.09542065944754,2022,230.0,Valor
+Aveiro,dados_aveiro__proporcao_na_populacao_de_aveiro,Proporção na população de Aveiro,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6691455519176686,2000,3.59,Valor
+Aveiro,dados_aveiro__proporcao_na_populacao_de_aveiro,Proporção na população de Aveiro,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6691455519176686,2010,0.83,Valor
+Aveiro,dados_aveiro__proporcao_na_populacao_de_aveiro,Proporção na população de Aveiro,dados_aveiro,Grupo 2 — 3 censos,3,logistic,sgd,True,1.6691455519176686,2022,1.34,Valor
+Aveiro,dados_aveiro__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.8,Valor
+Aveiro,dados_aveiro__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.8,Valor
+Aveiro,dados_aveiro__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.4,Valor
+Aveiro,dados_aveiro__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.8,Valor
+Aveiro,dados_aveiro__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Aveiro,dados_aveiro__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Aveiro,dados_aveiro__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Aveiro,dados_aveiro__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.0,Valor
+Aveiro,dados_aveiro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2000,11.4,Valor
+Aveiro,dados_aveiro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2010,14.1,Valor
+Aveiro,dados_aveiro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.568226938465564,2022,19.4,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862467192321905,2000,69.8,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862467192321905,2010,58.4,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.5862467192321905,2022,46.8,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2000,4.8,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2010,7.1,Valor
+Aveiro,dados_aveiro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,1.0202520085048026,2022,11.2,Valor
+Aveiro,dados_aveiro__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,77.4,Valor
+Aveiro,dados_aveiro__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,67.4,Valor
+Aveiro,dados_aveiro__sem_conjuge,Sem cônjuge,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.2,Valor
+Aveiro,dados_aveiro__sem_conjuge,Sem cônjuge,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.2,Valor
+Aveiro,dados_aveiro__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Aveiro,dados_aveiro__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Aveiro,dados_aveiro__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.7,Valor
+Aveiro,dados_aveiro__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_aveiro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.7,Valor
+Aveiro,dados_aveiro__responsavel_mulher,Responsável Mulher,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.2,Valor
+Aveiro,dados_aveiro__responsavel_mulher,Responsável Mulher,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.6,Valor
+Aveiro,dados_aveiro__responsavel_mulher,Responsável Mulher,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,3.0,Valor
+Aveiro,dados_aveiro__responsavel_homem,Responsável Homem,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2000,5.4,Valor
+Aveiro,dados_aveiro__responsavel_homem,Responsável Homem,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2010,4.5,Valor
+Aveiro,dados_aveiro__responsavel_homem,Responsável Homem,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.061009193092329106,2022,3.5,Valor
+Aveiro,dados_aveiro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.2,Valor
+Aveiro,dados_aveiro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.6,Valor
+Aveiro,dados_aveiro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,3.0,Valor
+Aveiro,dados_aveiro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178441,2000,8.8,Valor
+Aveiro,dados_aveiro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178441,2010,12.8,Valor
+Aveiro,dados_aveiro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.7619836566178441,2022,18.6,Valor
+Aveiro,dados_aveiro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2000,11.8,Valor
+Aveiro,dados_aveiro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2010,15.8,Valor
+Aveiro,dados_aveiro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,adam,True,0.914169645101385,2022,21.8,Valor
+Aveiro,dados_aveiro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3050398705532551,2000,60.8,Valor
+Aveiro,dados_aveiro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3050398705532551,2010,46.8,Valor
+Aveiro,dados_aveiro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_aveiro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.3050398705532551,2022,30.4,Valor
