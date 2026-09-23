@@ -1,1 +1,300 @@
-
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Rio Maria,dados_rio_maria__populacao_total,População Total,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,sgd,True,0.31087979094771345,1991,18.42,Valor
+Rio Maria,dados_rio_maria__populacao_total,População Total,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,sgd,True,0.31087979094771345,2000,18.14,Valor
+Rio Maria,dados_rio_maria__populacao_total,População Total,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,sgd,True,0.31087979094771345,2010,17.627,Valor
+Rio Maria,dados_rio_maria__populacao_total,População Total,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,sgd,True,0.31087979094771345,2022,18.201,Valor
+Rio Maria,dados_rio_maria__populacao_urbana,População Urbana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0045754236446592005,2000,14.12,Valor
+Rio Maria,dados_rio_maria__populacao_urbana,População Urbana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0045754236446592005,2010,14.89,Valor
+Rio Maria,dados_rio_maria__populacao_urbana,População Urbana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.0045754236446592005,2022,15.82,Valor
+Rio Maria,dados_rio_maria__populacao_rural,População Rural,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5248439450953443,2000,4.02,Valor
+Rio Maria,dados_rio_maria__populacao_rural,População Rural,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5248439450953443,2010,2.737,Valor
+Rio Maria,dados_rio_maria__populacao_rural,População Rural,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,0.5248439450953443,2022,2.381,Valor
+Rio Maria,dados_rio_maria__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_de_mulheres,População de Mulheres,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26271695986182486,2000,8.92,Valor
+Rio Maria,dados_rio_maria__populacao_de_mulheres,População de Mulheres,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26271695986182486,2010,8.78,Valor
+Rio Maria,dados_rio_maria__populacao_de_mulheres,População de Mulheres,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.26271695986182486,2022,9.24,Valor
+Rio Maria,dados_rio_maria__populacao_de_homens,População de Homens,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2102977163881524,2000,9.22,Valor
+Rio Maria,dados_rio_maria__populacao_de_homens,População de Homens,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2102977163881524,2010,8.847,Valor
+Rio Maria,dados_rio_maria__populacao_de_homens,População de Homens,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2102977163881524,2022,8.961,Valor
+Rio Maria,dados_rio_maria__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185847173701509,2000,103.4,Valor
+Rio Maria,dados_rio_maria__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185847173701509,2010,100.8,Valor
+Rio Maria,dados_rio_maria__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185847173701509,2022,97.0,Valor
+Rio Maria,dados_rio_maria__idade_mediana,Idade Mediana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2000,22.0,Valor
+Rio Maria,dados_rio_maria__idade_mediana,Idade Mediana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2010,28.0,Valor
+Rio Maria,dados_rio_maria__idade_mediana,Idade Mediana,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2022,34.0,Valor
+Rio Maria,dados_rio_maria__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,10.58606800834489,2000,5.2,Valor
+Rio Maria,dados_rio_maria__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,10.58606800834489,2010,9.4,Valor
+Rio Maria,dados_rio_maria__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,10.58606800834489,2022,34.2,Valor
+Rio Maria,dados_rio_maria__populacao_parda,População Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.39635157302000107,2000,11.82,Valor
+Rio Maria,dados_rio_maria__populacao_parda,População Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.39635157302000107,2010,11.94,Valor
+Rio Maria,dados_rio_maria__populacao_parda,População Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.39635157302000107,2022,12.82,Valor
+Rio Maria,dados_rio_maria__populacao_branca,População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.2984250810702422,2000,4.98,Valor
+Rio Maria,dados_rio_maria__populacao_branca,População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.2984250810702422,2010,4.21,Valor
+Rio Maria,dados_rio_maria__populacao_branca,População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.2984250810702422,2022,3.89,Valor
+Rio Maria,dados_rio_maria__populacao_preta,População Preta,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,0.07380323292785922,2000,1.22,Valor
+Rio Maria,dados_rio_maria__populacao_preta,População Preta,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,0.07380323292785922,2010,1.38,Valor
+Rio Maria,dados_rio_maria__populacao_preta,População Preta,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,0.07380323292785922,2022,1.42,Valor
+Rio Maria,dados_rio_maria__populacao_amarela,População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,18.7759739161695,2000,88.0,Valor
+Rio Maria,dados_rio_maria__populacao_amarela,População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,18.7759739161695,2010,42.0,Valor
+Rio Maria,dados_rio_maria__populacao_amarela,População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,sgd,True,18.7759739161695,2022,28.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena,População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2000,42.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena,População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2010,55.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena,População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2022,43.0,Valor
+Rio Maria,dados_rio_maria__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,132.8948942858533,2000,158.2,Valor
+Rio Maria,dados_rio_maria__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,132.8948942858533,2010,412.4,Valor
+Rio Maria,dados_rio_maria__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,132.8948942858533,2022,892.0,Valor
+Rio Maria,dados_rio_maria__apenas_1_trabalho,Apenas 1 trabalho,dados_rio_maria,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7620810694399154,2000,93.8,Valor
+Rio Maria,dados_rio_maria__apenas_1_trabalho,Apenas 1 trabalho,dados_rio_maria,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7620810694399154,2010,93.2,Valor
+Rio Maria,dados_rio_maria__apenas_1_trabalho,Apenas 1 trabalho,dados_rio_maria,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7620810694399154,2022,90.8,Valor
+Rio Maria,dados_rio_maria__2_trabalhos,2 trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.9742913328458496,2000,5.4,Valor
+Rio Maria,dados_rio_maria__2_trabalhos,2 trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.9742913328458496,2010,5.8,Valor
+Rio Maria,dados_rio_maria__2_trabalhos,2 trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,sgd,True,0.9742913328458496,2022,8.1,Valor
+Rio Maria,dados_rio_maria__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416611,2000,0.8,Valor
+Rio Maria,dados_rio_maria__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416611,2010,1.0,Valor
+Rio Maria,dados_rio_maria__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416611,2022,1.1,Valor
+Rio Maria,dados_rio_maria__setor_privado,Setor privado,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.39633162275841965,2000,2.28,Valor
+Rio Maria,dados_rio_maria__setor_privado,Setor privado,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.39633162275841965,2010,3.64,Valor
+Rio Maria,dados_rio_maria__setor_privado,Setor privado,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.39633162275841965,2022,4.48,Valor
+Rio Maria,dados_rio_maria__conta_propria,Conta própria,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16334746525108498,2000,2.42,Valor
+Rio Maria,dados_rio_maria__conta_propria,Conta própria,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16334746525108498,2010,2.98,Valor
+Rio Maria,dados_rio_maria__conta_propria,Conta própria,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16334746525108498,2022,3.32,Valor
+Rio Maria,dados_rio_maria__setor_publico,Setor público,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,539.4568672190006,2000,980.0,Valor
+Rio Maria,dados_rio_maria__setor_publico,Setor público,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,539.4568672190006,2010,1.48,Valor
+Rio Maria,dados_rio_maria__setor_publico,Setor público,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,539.4568672190006,2022,1.89,Valor
+Rio Maria,dados_rio_maria__trabalhador_domestico,Trabalhador doméstico,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,35.07690112407539,2000,290.0,Valor
+Rio Maria,dados_rio_maria__trabalhador_domestico,Trabalhador doméstico,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,35.07690112407539,2010,410.0,Valor
+Rio Maria,dados_rio_maria__trabalhador_domestico,Trabalhador doméstico,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,35.07690112407539,2022,480.0,Valor
+Rio Maria,dados_rio_maria__empregador,Empregador,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,48.63651035897633,2000,210.0,Valor
+Rio Maria,dados_rio_maria__empregador,Empregador,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,48.63651035897633,2010,380.0,Valor
+Rio Maria,dados_rio_maria__empregador,Empregador,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,48.63651035897633,2022,520.0,Valor
+Rio Maria,dados_rio_maria__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,95.03883253290682,2000,720.0,Valor
+Rio Maria,dados_rio_maria__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,95.03883253290682,2010,380.0,Valor
+Rio Maria,dados_rio_maria__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,95.03883253290682,2022,180.0,Valor
+Rio Maria,dados_rio_maria__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675293,2000,60.0,Valor
+Rio Maria,dados_rio_maria__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675293,2010,110.0,Valor
+Rio Maria,dados_rio_maria__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675293,2022,160.0,Valor
+Rio Maria,dados_rio_maria__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.3297400682333869,2000,1.18,Valor
+Rio Maria,dados_rio_maria__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.3297400682333869,2010,2.32,Valor
+Rio Maria,dados_rio_maria__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.3297400682333869,2022,3.12,Valor
+Rio Maria,dados_rio_maria__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.10304028578696967,2000,1.1,Valor
+Rio Maria,dados_rio_maria__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.10304028578696967,2010,1.32,Valor
+Rio Maria,dados_rio_maria__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.10304028578696967,2022,1.36,Valor
+Rio Maria,dados_rio_maria__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,16.750995875190878,2000,40.0,Valor
+Rio Maria,dados_rio_maria__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,16.750995875190878,2010,80.0,Valor
+Rio Maria,dados_rio_maria__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,16.750995875190878,2022,150.0,Valor
+Rio Maria,dados_rio_maria__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,517.4210397871212,2000,940.0,Valor
+Rio Maria,dados_rio_maria__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,517.4210397871212,2010,1.4,Valor
+Rio Maria,dados_rio_maria__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_rio_maria,Grupo 2 — 3 censos,3,tanh,adam,True,517.4210397871212,2022,1.74,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2000,40.0,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2010,90.0,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2022,120.0,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537315,2000,250.0,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537315,2010,320.0,Valor
+Rio Maria,dados_rio_maria__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537315,2022,360.0,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.3698552075368937,1991,64.2,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.3698552075368937,2000,80.4,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.3698552075368937,2010,89.8,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,3.3698552075368937,2022,93.8,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,1.9657482414939647,2000,92.8,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,1.9657482414939647,2010,97.4,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,1.9657482414939647,2022,98.8,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185830180615554,2000,30.2,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185830180615554,2010,40.8,Valor
+Rio Maria,dados_rio_maria__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5185830180615554,2022,54.2,Valor
+Rio Maria,dados_rio_maria__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2000,86.4,Valor
+Rio Maria,dados_rio_maria__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2010,95.2,Valor
+Rio Maria,dados_rio_maria__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2022,97.4,Valor
+Rio Maria,dados_rio_maria__populacao_com_superior_completo,População com Superior Completo,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,368.9858333723141,2000,180.0,Valor
+Rio Maria,dados_rio_maria__populacao_com_superior_completo,População com Superior Completo,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,368.9858333723141,2010,640.0,Valor
+Rio Maria,dados_rio_maria__populacao_com_superior_completo,População com Superior Completo,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,368.9858333723141,2022,1.98,Valor
+Rio Maria,dados_rio_maria__anos_de_estudo_media,Anos de Estudo (Média),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3798096316513503,1991,3.1,Valor
+Rio Maria,dados_rio_maria__anos_de_estudo_media,Anos de Estudo (Média),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3798096316513503,2000,5.2,Valor
+Rio Maria,dados_rio_maria__anos_de_estudo_media,Anos de Estudo (Média),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3798096316513503,2010,7.5,Valor
+Rio Maria,dados_rio_maria__anos_de_estudo_media,Anos de Estudo (Média),dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3798096316513503,2022,9.2,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3989467859056607,1991,3.4,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3989467859056607,2000,5.6,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3989467859056607,2010,8.0,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_rio_maria,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3989467859056607,2022,9.7,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.4178064274892186,1991,2.8,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.4178064274892186,2000,4.8,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.4178064274892186,2010,7.0,Valor
+Rio Maria,dados_rio_maria__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.4178064274892186,2022,8.7,Valor
+Rio Maria,dados_rio_maria__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.01628479855851067,1991,0.238,Valor
+Rio Maria,dados_rio_maria__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.01628479855851067,2000,0.442,Valor
+Rio Maria,dados_rio_maria__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.01628479855851067,2010,0.648,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2000,86.4,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2010,95.2,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_rio_maria,Grupo 2 — 3 censos,3,logistic,adam,True,4.059177811032252,2022,97.4,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.859630380382356,2000,54.2,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.859630380382356,2010,70.8,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.859630380382356,2022,80.2,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,2.5625381214797507,2000,14.2,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,2.5625381214797507,2010,23.1,Valor
+Rio Maria,dados_rio_maria__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,2.5625381214797507,2022,29.8,Valor
+Rio Maria,dados_rio_maria__media_populacao_amarela,Média: População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625008,2000,5.8,Valor
+Rio Maria,dados_rio_maria__media_populacao_amarela,Média: População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625008,2010,8.2,Valor
+Rio Maria,dados_rio_maria__media_populacao_amarela,Média: População Amarela,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6963669225625008,2022,9.8,Valor
+Rio Maria,dados_rio_maria__media_populacao_branca,Média: População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6656279341493949,2000,5.7,Valor
+Rio Maria,dados_rio_maria__media_populacao_branca,Média: População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6656279341493949,2010,8.0,Valor
+Rio Maria,dados_rio_maria__media_populacao_branca,Média: População Branca,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6656279341493949,2022,9.6,Valor
+Rio Maria,dados_rio_maria__media_populacao_preta_parda,Média: População Preta / Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2000,5.0,Valor
+Rio Maria,dados_rio_maria__media_populacao_preta_parda,Média: População Preta / Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2010,7.2,Valor
+Rio Maria,dados_rio_maria__media_populacao_preta_parda,Média: População Preta / Parda,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.6323033957767855,2022,8.9,Valor
+Rio Maria,dados_rio_maria__media_populacao_indigena,Média: População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2000,3.8,Valor
+Rio Maria,dados_rio_maria__media_populacao_indigena,Média: População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2010,5.6,Valor
+Rio Maria,dados_rio_maria__media_populacao_indigena,Média: População Indígena,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2022,7.4,Valor
+Rio Maria,dados_rio_maria__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_residente_em_favelas,População Residente em Favelas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_residente_em_favelas,População Residente em Favelas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_parda_2,População Parda,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_parda_2,População Parda,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_branca_2,População Branca,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_branca_2,População Branca,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_preta_2,População Preta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_preta_2,População Preta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_amarela_2,População Amarela,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_amarela_2,População Amarela,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena_2,População Indígena,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena_2,População Indígena,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Rio Maria,dados_rio_maria__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Rio Maria,dados_rio_maria__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.6,Valor
+Rio Maria,dados_rio_maria__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.6,Valor
+Rio Maria,dados_rio_maria__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.4,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos,Casais com filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6234129461259883,2000,62.4,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos,Casais com filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6234129461259883,2010,51.2,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos,Casais com filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6234129461259883,2022,41.2,Valor
+Rio Maria,dados_rio_maria__casais_sem_filhos,Casais sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2000,8.4,Valor
+Rio Maria,dados_rio_maria__casais_sem_filhos,Casais sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2010,12.1,Valor
+Rio Maria,dados_rio_maria__casais_sem_filhos,Casais sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2022,17.8,Valor
+Rio Maria,dados_rio_maria__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2000,16.8,Valor
+Rio Maria,dados_rio_maria__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2010,19.8,Valor
+Rio Maria,dados_rio_maria__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2022,24.6,Valor
+Rio Maria,dados_rio_maria__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233055453,2000,4.1,Valor
+Rio Maria,dados_rio_maria__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233055453,2010,4.4,Valor
+Rio Maria,dados_rio_maria__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_rio_maria,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233055453,2022,4.8,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.5555711189606525,2000,4.8,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.5555711189606525,2010,5.8,Valor
+Rio Maria,dados_rio_maria__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.5555711189606525,2022,5.8,Valor
+Rio Maria,dados_rio_maria__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5611020621260217,2000,2.2,Valor
+Rio Maria,dados_rio_maria__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5611020621260217,2010,4.9,Valor
+Rio Maria,dados_rio_maria__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5611020621260217,2022,4.2,Valor
+Rio Maria,dados_rio_maria__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2661309065892709,2000,1.3,Valor
+Rio Maria,dados_rio_maria__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2661309065892709,2010,1.8,Valor
+Rio Maria,dados_rio_maria__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2661309065892709,2022,1.6,Valor
+Rio Maria,dados_rio_maria__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rio Maria),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,82.4,Valor
+Rio Maria,dados_rio_maria__trabalha_no_proprio_municipio_de_residencia_r,Trabalha no próprio município de residência (Rio Maria),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.1,Valor
+Rio Maria,dados_rio_maria__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.8,Valor
+Rio Maria,dados_rio_maria__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.4,Valor
+Rio Maria,dados_rio_maria__trabalha_em_outro_municipio_ex_xinguara_reden,Trabalha em outro município (ex: Xinguara / Redenção),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.6,Valor
+Rio Maria,dados_rio_maria__trabalha_em_outro_municipio_ex_xinguara_reden,Trabalha em outro município (ex: Xinguara / Redenção),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.9,Valor
+Rio Maria,dados_rio_maria__motocicleta,Motocicleta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Rio Maria,dados_rio_maria__motocicleta,Motocicleta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,51.4,Valor
+Rio Maria,dados_rio_maria__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Rio Maria,dados_rio_maria__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Rio Maria,dados_rio_maria__a_pe,A pé,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.2,Valor
+Rio Maria,dados_rio_maria__a_pe,A pé,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Rio Maria,dados_rio_maria__bicicleta,Bicicleta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.1,Valor
+Rio Maria,dados_rio_maria__bicicleta,Bicicleta,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.2,Valor
+Rio Maria,dados_rio_maria__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Rio Maria,dados_rio_maria__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Rio Maria,dados_rio_maria__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Rio Maria,dados_rio_maria__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.8,Valor
+Rio Maria,dados_rio_maria__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Rio Maria,dados_rio_maria__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Rio Maria,dados_rio_maria__mais_de_1_hora_deslocamento_pela_br_155_vicin,Mais de 1 hora (Deslocamento pela BR-155 / vicinais),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.4,Valor
+Rio Maria,dados_rio_maria__mais_de_1_hora_deslocamento_pela_br_155_vicin,Mais de 1 hora (Deslocamento pela BR-155 / vicinais),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.0,Valor
+Rio Maria,dados_rio_maria__estuda_no_proprio_municipio_rio_maria,Estuda no próprio município (Rio Maria),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.4,Valor
+Rio Maria,dados_rio_maria__estuda_no_proprio_municipio_rio_maria,Estuda no próprio município (Rio Maria),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.2,Valor
+Rio Maria,dados_rio_maria__estuda_em_outro_municipio_ex_redencao_xinguar,Estuda em outro município (ex: Redenção / Xinguara) vicio,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,13.6,Valor
+Rio Maria,dados_rio_maria__estuda_em_outro_municipio_ex_redencao_xinguar,Estuda em outro município (ex: Redenção / Xinguara) vicio,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.8,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.0720076512019584,1991,3.98,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.0720076512019584,2000,4.82,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.0720076512019584,2010,5.58,Valor
+Rio Maria,dados_rio_maria__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.0720076512019584,2022,6.72,Valor
+Rio Maria,dados_rio_maria__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08478411759063142,1991,3.84,Valor
+Rio Maria,dados_rio_maria__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08478411759063142,2000,4.71,Valor
+Rio Maria,dados_rio_maria__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08478411759063142,2010,5.46,Valor
+Rio Maria,dados_rio_maria__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.08478411759063142,2022,6.62,Valor
+Rio Maria,dados_rio_maria__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,12.776196577118853,1991,140.0,Valor
+Rio Maria,dados_rio_maria__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,12.776196577118853,2000,110.0,Valor
+Rio Maria,dados_rio_maria__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,12.776196577118853,2010,120.0,Valor
+Rio Maria,dados_rio_maria__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_rio_maria,Grupo 1 — 4 censos,4,identity,lbfgs,True,12.776196577118853,2022,100.0,Valor
+Rio Maria,dados_rio_maria__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.25776096554403105,1991,4.8,Valor
+Rio Maria,dados_rio_maria__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.25776096554403105,2000,3.8,Valor
+Rio Maria,dados_rio_maria__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.25776096554403105,2010,3.2,Valor
+Rio Maria,dados_rio_maria__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_rio_maria,Grupo 1 — 4 censos,4,relu,adam,True,0.25776096554403105,2022,2.7,Valor
+Rio Maria,dados_rio_maria__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,62.4,Valor
+Rio Maria,dados_rio_maria__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,80.2,Valor
+Rio Maria,dados_rio_maria__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,42.1,Valor
+Rio Maria,dados_rio_maria__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.8,Valor
+Rio Maria,dados_rio_maria__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.1,Valor
+Rio Maria,dados_rio_maria__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Rio Maria,dados_rio_maria__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Rio Maria,dados_rio_maria__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.4,Valor
+Rio Maria,dados_rio_maria__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Rio Maria,dados_rio_maria__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Rio Maria,dados_rio_maria__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.8,Valor
+Rio Maria,dados_rio_maria__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,41.2,Valor
+Rio Maria,dados_rio_maria__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.2,Valor
+Rio Maria,dados_rio_maria__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.8,Valor
+Rio Maria,dados_rio_maria__ruas_sem_arvores,Ruas Sem Árvores,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.8,Valor
+Rio Maria,dados_rio_maria__ruas_sem_arvores,Ruas Sem Árvores,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.2,Valor
+Rio Maria,dados_rio_maria__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.1,Valor
+Rio Maria,dados_rio_maria__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Rio Maria,dados_rio_maria__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Rio Maria,dados_rio_maria__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.4,Valor
+Rio Maria,dados_rio_maria__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,84.2,Valor
+Rio Maria,dados_rio_maria__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.1,Valor
+Rio Maria,dados_rio_maria__populacao_indigena_total,População Indígena Total,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2000,42.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena_total,População Indígena Total,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2010,55.0,Valor
+Rio Maria,dados_rio_maria__populacao_indigena_total,População Indígena Total,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,8.398458056987659,2022,43.0,Valor
+Rio Maria,dados_rio_maria__proporcao_na_populacao_de_rio_maria,Proporção na população de Rio Maria,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05037372805525427,2000,0.23,Valor
+Rio Maria,dados_rio_maria__proporcao_na_populacao_de_rio_maria,Proporção na população de Rio Maria,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05037372805525427,2010,0.31,Valor
+Rio Maria,dados_rio_maria__proporcao_na_populacao_de_rio_maria,Proporção na população de Rio Maria,dados_rio_maria,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05037372805525427,2022,0.24,Valor
+Rio Maria,dados_rio_maria__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,70.8,Valor
+Rio Maria,dados_rio_maria__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.2,Valor
+Rio Maria,dados_rio_maria__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.2,Valor
+Rio Maria,dados_rio_maria__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Rio Maria,dados_rio_maria__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.6,Valor
+Rio Maria,dados_rio_maria__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Rio Maria,dados_rio_maria__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.4,Valor
+Rio Maria,dados_rio_maria__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Rio Maria,dados_rio_maria__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2000,16.8,Valor
+Rio Maria,dados_rio_maria__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2010,19.8,Valor
+Rio Maria,dados_rio_maria__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9139062165513488,2022,24.6,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777622731862678,2000,56.2,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777622731862678,2010,46.2,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.6777622731862678,2022,36.4,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2000,8.4,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2010,12.1,Valor
+Rio Maria,dados_rio_maria__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,0.9597464130814375,2022,17.8,Valor
+Rio Maria,dados_rio_maria__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.2,Valor
+Rio Maria,dados_rio_maria__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Rio Maria,dados_rio_maria__sem_conjuge,Sem cônjuge,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.2,Valor
+Rio Maria,dados_rio_maria__sem_conjuge,Sem cônjuge,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,39.5,Valor
+Rio Maria,dados_rio_maria__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Rio Maria,dados_rio_maria__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+Rio Maria,dados_rio_maria__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.6,Valor
+Rio Maria,dados_rio_maria__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_rio_maria,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Rio Maria,dados_rio_maria__responsavel_mulher,Responsável Mulher,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2000,3.3,Valor
+Rio Maria,dados_rio_maria__responsavel_mulher,Responsável Mulher,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2010,2.9,Valor
+Rio Maria,dados_rio_maria__responsavel_mulher,Responsável Mulher,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2022,2.5,Valor
+Rio Maria,dados_rio_maria__responsavel_homem,Responsável Homem,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Rio Maria,dados_rio_maria__responsavel_homem,Responsável Homem,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Rio Maria,dados_rio_maria__responsavel_homem,Responsável Homem,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Rio Maria,dados_rio_maria__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2000,3.3,Valor
+Rio Maria,dados_rio_maria__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2010,2.9,Valor
+Rio Maria,dados_rio_maria__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.06100951387698069,2022,2.5,Valor
+Rio Maria,dados_rio_maria__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2000,15.2,Valor
+Rio Maria,dados_rio_maria__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2010,19.2,Valor
+Rio Maria,dados_rio_maria__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525240142060825,2022,24.2,Valor
+Rio Maria,dados_rio_maria__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,1.2466869913798722,2000,17.4,Valor
+Rio Maria,dados_rio_maria__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,1.2466869913798722,2010,22.1,Valor
+Rio Maria,dados_rio_maria__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_rio_maria,Grupo 2 — 3 censos,3,identity,adam,True,1.2466869913798722,2022,26.1,Valor
+Rio Maria,dados_rio_maria__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.037858430652398,2000,35.4,Valor
+Rio Maria,dados_rio_maria__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.037858430652398,2010,21.8,Valor
+Rio Maria,dados_rio_maria__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_rio_maria,Grupo 2 — 3 censos,3,relu,adam,True,4.037858430652398,2022,14.4,Valor
