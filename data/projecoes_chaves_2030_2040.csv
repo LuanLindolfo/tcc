@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Chaves,dados_chaves__anos_de_estudo_media,Anos de Estudo (Média),dados_chaves,Grupo 1 — 4 censos,identity,adam,True,0.21984381633982944,2030,6.533404863103714
+Chaves,dados_chaves__anos_de_estudo_media,Anos de Estudo (Média),dados_chaves,Grupo 1 — 4 censos,identity,adam,True,0.21984381633982944,2040,8.007906077458388
+Chaves,dados_chaves__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_chaves,Grupo 1 — 4 censos,tanh,sgd,True,3.320673753214617,2030,78.08543917943048
+Chaves,dados_chaves__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_chaves,Grupo 1 — 4 censos,tanh,sgd,True,3.320673753214617,2040,77.49750703300545
+Chaves,dados_chaves__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.2059626710470528,2030,6.824099710740427
+Chaves,dados_chaves__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.2059626710470528,2040,7.603047364336442
+Chaves,dados_chaves__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.22185150347402977,2030,5.747537971858456
+Chaves,dados_chaves__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.22185150347402977,2040,6.702496206269116
+Chaves,dados_chaves__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_chaves,Grupo 1 — 4 censos,identity,adam,True,0.20854119605887644,2030,7.117393800169175
+Chaves,dados_chaves__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_chaves,Grupo 1 — 4 censos,identity,adam,True,0.20854119605887644,2040,8.688150349376784
+Chaves,dados_chaves__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_chaves,Grupo 1 — 4 censos,relu,lbfgs,True,0.1680402821449224,2030,2.7829212731851682
+Chaves,dados_chaves__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_chaves,Grupo 1 — 4 censos,relu,lbfgs,True,0.1680402821449224,2040,2.008441863146868
+Chaves,dados_chaves__populacao_total,População Total,dados_chaves,Grupo 1 — 4 censos,logistic,adam,True,0.8159663666946351,2030,21.757072363234148
+Chaves,dados_chaves__populacao_total,População Total,dados_chaves,Grupo 1 — 4 censos,logistic,adam,True,0.8159663666946351,2040,22.009745473040976
+Chaves,dados_chaves__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_chaves,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2626071278721636,2030,79.78272884565469
+Chaves,dados_chaves__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_chaves,Grupo 1 — 4 censos,logistic,lbfgs,True,2.2626071278721636,2040,81.70458636008107
+Chaves,dados_chaves__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.2075238707239474,2030,6.901622132987958
+Chaves,dados_chaves__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_chaves,Grupo 1 — 4 censos,relu,adam,True,0.2075238707239474,2040,7.679567128188841
+Chaves,dados_chaves__2_trabalhos,2 trabalhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.7809272375533554,2030,6.540689230335133
+Chaves,dados_chaves__2_trabalhos,2 trabalhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.7809272375533554,2040,7.77785072196437
+Chaves,dados_chaves__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_chaves,Grupo 2 — 3 censos,tanh,adam,True,0.11169107692838691,2030,0.739906236987993
+Chaves,dados_chaves__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_chaves,Grupo 2 — 3 censos,tanh,adam,True,0.11169107692838691,2040,0.7557133842458725
+Chaves,dados_chaves__apenas_1_trabalho,Apenas 1 trabalho,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.7620810694399154,2030,92.28270099584681
+Chaves,dados_chaves__apenas_1_trabalho,Apenas 1 trabalho,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.7620810694399154,2040,90.342836987929
+Chaves,dados_chaves__casais_com_filhos,Casais com filhos,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.6671656761691599,2030,46.58941527959364
+Chaves,dados_chaves__casais_com_filhos,Casais com filhos,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.6671656761691599,2040,36.427771811784424
+Chaves,dados_chaves__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.15192255993350567,2030,7.549786523588253
+Chaves,dados_chaves__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.15192255993350567,2040,8.452897162635125
+Chaves,dados_chaves__casais_sem_filhos,Casais sem filhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,1.602117506394593,2030,11.824737603267153
+Chaves,dados_chaves__casais_sem_filhos,Casais sem filhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,1.602117506394593,2040,14.303406781006503
+Chaves,dados_chaves__conta_propria,Conta própria,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.3079840941991998,2030,5.641025121787085
+Chaves,dados_chaves__conta_propria,Conta própria,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.3079840941991998,2040,5.824873468892917
+Chaves,dados_chaves__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.2641183900485171,2030,21.538298012855616
+Chaves,dados_chaves__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.2641183900485171,2040,25.997148117247185
+Chaves,dados_chaves__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013844,2030,24.66879368938008
+Chaves,dados_chaves__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013844,2040,29.211896464596357
+Chaves,dados_chaves__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.9456423325387604,2030,21.332621452788132
+Chaves,dados_chaves__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.9456423325387604,2040,7.711764405824816
+Chaves,dados_chaves__empregador,Empregador,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2030,174.68793689380078
+Chaves,dados_chaves__empregador,Empregador,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,9.141696451013843,2040,220.1189646459635
+Chaves,dados_chaves__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_chaves,Grupo 2 — 3 censos,logistic,lbfgs,True,9.297139208433324,2030,88.60076155023705
+Chaves,dados_chaves__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_chaves,Grupo 2 — 3 censos,logistic,lbfgs,True,9.297139208433324,2040,89.15529101010978
+Chaves,dados_chaves__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_chaves,Grupo 2 — 3 censos,relu,adam,True,5.053831288497143,2030,56.38767392513736
+Chaves,dados_chaves__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_chaves,Grupo 2 — 3 censos,relu,adam,True,5.053831288497143,2040,62.405824482745345
+Chaves,dados_chaves__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.37941125700871253,2030,15.169353399389326
+Chaves,dados_chaves__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.37941125700871253,2040,18.921138547288415
+Chaves,dados_chaves__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.07520859852795701,2030,0.6370743756100266
+Chaves,dados_chaves__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.07520859852795701,2040,0.7746423608405644
+Chaves,dados_chaves__idade_mediana,Idade Mediana,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,2.202794852610334,2030,27.84104076444759
+Chaves,dados_chaves__idade_mediana,Idade Mediana,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,2.202794852610334,2040,31.263399234706903
+Chaves,dados_chaves__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Chaves,dados_chaves__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Chaves,dados_chaves__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.279047217491834,2030,19.6670487326755
+Chaves,dados_chaves__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.279047217491834,2040,23.03993302719311
+Chaves,dados_chaves__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.4659683150146697,2030,4.253914874424672
+Chaves,dados_chaves__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.4659683150146697,2040,4.779209908899103
+Chaves,dados_chaves__media_populacao_amarela,Média: População Amarela,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385116,2030,6.902900110137343
+Chaves,dados_chaves__media_populacao_amarela,Média: População Amarela,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385116,2040,8.435700433100987
+Chaves,dados_chaves__media_populacao_branca,Média: População Branca,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.24307609589360935,2030,6.6996584377412045
+Chaves,dados_chaves__media_populacao_branca,Média: População Branca,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.24307609589360935,2040,8.1446354602162
+Chaves,dados_chaves__media_populacao_indigena,Média: População Indígena,dados_chaves,Grupo 2 — 3 censos,identity,sgd,True,0.12148323293222714,2030,4.875897707008036
+Chaves,dados_chaves__media_populacao_indigena,Média: População Indígena,dados_chaves,Grupo 2 — 3 censos,identity,sgd,True,0.12148323293222714,2040,6.21112836559334
+Chaves,dados_chaves__media_populacao_preta_parda,Média: População Preta / Parda,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518936,2030,6.598035864902133
+Chaves,dados_chaves__media_populacao_preta_parda,Média: População Preta / Parda,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518936,2040,8.179767559519991
+Chaves,dados_chaves__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_chaves,Grupo 2 — 3 censos,tanh,adam,True,354.97330368896496,2030,815.387528935268
+Chaves,dados_chaves__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_chaves,Grupo 2 — 3 censos,tanh,adam,True,354.97330368896496,2040,853.1681741305013
+Chaves,dados_chaves__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.20719234454293142,2030,4.258296124826262
+Chaves,dados_chaves__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.20719234454293142,2040,4.5611497026143235
+Chaves,dados_chaves__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.6459954127256697,2030,3.0406487620107168
+Chaves,dados_chaves__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.6459954127256697,2040,3.3378602472408447
+Chaves,dados_chaves__populacao_amarela,População Amarela,dados_chaves,Grupo 2 — 3 censos,tanh,sgd,True,12.474665761144834,2030,18.048209669316744
+Chaves,dados_chaves__populacao_amarela,População Amarela,dados_chaves,Grupo 2 — 3 censos,tanh,sgd,True,12.474665761144834,2040,16.392079685103266
+Chaves,dados_chaves__populacao_branca,População Branca,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.22676670839135063,2030,2.167535238142045
+Chaves,dados_chaves__populacao_branca,População Branca,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.22676670839135063,2040,1.6918960061234682
+Chaves,dados_chaves__populacao_indigena,População Indígena,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,35.35913285277581,2030,118.2648856175156
+Chaves,dados_chaves__populacao_indigena,População Indígena,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,35.35913285277581,2040,118.18016166875968
+Chaves,dados_chaves__populacao_indigena_total,População Indígena Total,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,35.35913285277581,2030,118.2648856175156
+Chaves,dados_chaves__populacao_indigena_total,População Indígena Total,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,35.35913285277581,2040,118.18016166875968
+Chaves,dados_chaves__populacao_parda,População Parda,dados_chaves,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5005190767298746,2030,16.757648422127534
+Chaves,dados_chaves__populacao_parda,População Parda,dados_chaves,Grupo 2 — 3 censos,tanh,lbfgs,True,1.5005190767298746,2040,16.695550424628742
+Chaves,dados_chaves__populacao_preta,População Preta,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.08646710238797668,2030,1.2073803714451494
+Chaves,dados_chaves__populacao_preta,População Preta,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.08646710238797668,2040,1.2071451388266863
+Chaves,dados_chaves__populacao_rural,População Rural,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,1.0159407632158046,2030,15.721765855159006
+Chaves,dados_chaves__populacao_rural,População Rural,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,1.0159407632158046,2040,15.718738703345803
+Chaves,dados_chaves__populacao_urbana,População Urbana,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.33433653594030605,2030,5.532680216022353
+Chaves,dados_chaves__populacao_urbana,População Urbana,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,0.33433653594030605,2040,6.013239708158624
+Chaves,dados_chaves__populacao_com_superior_completo,População com Superior Completo,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,114.93862515403761,2030,573.2262093444355
+Chaves,dados_chaves__populacao_com_superior_completo,População com Superior Completo,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,114.93862515403761,2040,755.4570194896661
+Chaves,dados_chaves__populacao_de_homens,População de Homens,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.9861066503719798,2030,10.508073697159611
+Chaves,dados_chaves__populacao_de_homens,População de Homens,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.9861066503719798,2040,10.505735264989394
+Chaves,dados_chaves__populacao_de_mulheres,População de Mulheres,dados_chaves,Grupo 2 — 3 censos,tanh,lbfgs,True,0.823053876345425,2030,9.823807141321813
+Chaves,dados_chaves__populacao_de_mulheres,População de Mulheres,dados_chaves,Grupo 2 — 3 censos,tanh,lbfgs,True,0.823053876345425,2040,9.785938762069236
+Chaves,dados_chaves__proporcao_na_populacao_de_chaves,Proporção na população de Chaves,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.1528046358012039,2030,0.5946075863453111
+Chaves,dados_chaves__proporcao_na_populacao_de_chaves,Proporção na população de Chaves,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,0.1528046358012039,2040,0.5941574104237315
+Chaves,dados_chaves__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.694320810502731,2030,108.64633798288732
+Chaves,dados_chaves__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,0.694320810502731,2040,106.7868913842218
+Chaves,dados_chaves__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,87.46402814104026,2030,508.87022493675704
+Chaves,dados_chaves__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,87.46402814104026,2040,645.4428192531637
+Chaves,dados_chaves__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.5490811339076913,2030,42.88985568121207
+Chaves,dados_chaves__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.5490811339076913,2040,32.626137736724495
+Chaves,dados_chaves__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,1.602117506394593,2030,11.824737603267153
+Chaves,dados_chaves__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_chaves,Grupo 2 — 3 censos,relu,lbfgs,True,1.602117506394593,2040,14.303406781006503
+Chaves,dados_chaves__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.279047217491834,2030,19.6670487326755
+Chaves,dados_chaves__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,1.279047217491834,2040,23.03993302719311
+Chaves,dados_chaves__responsavel_homem,Responsável Homem,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727140622320647,2030,2.922500935211959
+Chaves,dados_chaves__responsavel_homem,Responsável Homem,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727140622320647,2040,2.1065665883693354
+Chaves,dados_chaves__responsavel_mulher,Responsável Mulher,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2030,2.6483339568079733
+Chaves,dados_chaves__responsavel_mulher,Responsável Mulher,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2040,2.1043777255795577
+Chaves,dados_chaves__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2030,2.6483339568079733
+Chaves,dados_chaves__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_chaves,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547059,2040,2.1043777255795577
+Chaves,dados_chaves__setor_privado,Setor privado,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,481.1292387115302,2030,488.5805619779605
+Chaves,dados_chaves__setor_privado,Setor privado,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,481.1292387115302,2040,486.58881585344653
+Chaves,dados_chaves__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,73.0940573256055,2030,738.0373956390463
+Chaves,dados_chaves__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,73.0940573256055,2040,952.1092957518833
+Chaves,dados_chaves__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,72.19348110566011,2030,921.7926448203236
+Chaves,dados_chaves__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,72.19348110566011,2040,1021.910579093362
+Chaves,dados_chaves__setor_publico,Setor público,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,527.3807094728655,2030,535.1621435499328
+Chaves,dados_chaves__setor_publico,Setor público,dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,527.3807094728655,2040,533.0246158576558
+Chaves,dados_chaves__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Chaves,dados_chaves__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Chaves,dados_chaves__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,517.5016312238498,2030,525.1167345738572
+Chaves,dados_chaves__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_chaves,Grupo 2 — 3 censos,logistic,sgd,True,517.5016312238498,2040,523.0204751968989
+Chaves,dados_chaves__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,2.7713128759906467,2030,30.277981543748602
+Chaves,dados_chaves__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_chaves,Grupo 2 — 3 censos,identity,adam,True,2.7713128759906467,2040,37.75183641662584
+Chaves,dados_chaves__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_chaves,Grupo 2 — 3 censos,relu,adam,True,5.496238938682315,2030,94.61414520326167
+Chaves,dados_chaves__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_chaves,Grupo 2 — 3 censos,relu,adam,True,5.496238938682315,2040,98.2897447627584
+Chaves,dados_chaves__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_chaves,Grupo 2 — 3 censos,logistic,lbfgs,True,9.297139208433324,2030,88.60076155023705
+Chaves,dados_chaves__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_chaves,Grupo 2 — 3 censos,logistic,lbfgs,True,9.297139208433324,2040,89.15529101010978
+Chaves,dados_chaves__trabalhador_domestico,Trabalhador doméstico,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,21.28232981819255,2030,355.14500550686716
+Chaves,dados_chaves__trabalhador_domestico,Trabalhador doméstico,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,21.28232981819255,2040,431.7850216550494
+Chaves,dados_chaves__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Chaves,dados_chaves__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_chaves,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Chaves,dados_chaves__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,23.03986075478316,2030,277.38678247088603
+Chaves,dados_chaves__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_chaves,Grupo 2 — 3 censos,relu,adam,True,23.03986075478316,2040,310.92227695575184
+Chaves,dados_chaves__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_chaves,Grupo 2 — 3 censos,relu,sgd,True,6.064830466898772,2030,27.372431877661803
+Chaves,dados_chaves__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_chaves,Grupo 2 — 3 censos,relu,sgd,True,6.064830466898772,2040,34.2434848879151
+Chaves,dados_chaves__a_pe,A pé,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.672095413885764
+Chaves,dados_chaves__a_pe,A pé,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.792826386095385
+Chaves,dados_chaves__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.79122067069039
+Chaves,dados_chaves__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.348238802771675
+Chaves,dados_chaves__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.082625871007158
+Chaves,dados_chaves__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.164700180601653
+Chaves,dados_chaves__bicicleta,Bicicleta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.316612320236755
+Chaves,dados_chaves__bicicleta,Bicicleta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.5112113083265974
+Chaves,dados_chaves__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,47.85808306323718
+Chaves,dados_chaves__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.917329749639364
+Chaves,dados_chaves__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5420298033812933
+Chaves,dados_chaves__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5935571514572215
+Chaves,dados_chaves__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.67209541388576
+Chaves,dados_chaves__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.792826386095385
+Chaves,dados_chaves__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.020298033812932
+Chaves,dados_chaves__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.535571514572215
+Chaves,dados_chaves__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.95653646086328
+Chaves,dados_chaves__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.88402872622999
+Chaves,dados_chaves__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.598566264244575
+Chaves,dados_chaves__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.577585877687213
+Chaves,dados_chaves__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.838870773412253
+Chaves,dados_chaves__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.570403769442201
+Chaves,dados_chaves__estuda_em_outro_municipio_ex_macapa_belem,Estuda em outro município (ex: Macapá / Belém),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.208715281151039
+Chaves,dados_chaves__estuda_em_outro_municipio_ex_macapa_belem,Estuda em outro município (ex: Macapá / Belém),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.445371634973319
+Chaves,dados_chaves__estuda_no_proprio_municipio_de_residencia_cha,Estuda no próprio município de residência (Chaves),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.15234989727814
+Chaves,dados_chaves__estuda_no_proprio_municipio_de_residencia_cha,Estuda no próprio município de residência (Chaves),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.97783503332947
+Chaves,dados_chaves__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.005847809640183
+Chaves,dados_chaves__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.20054339034774
+Chaves,dados_chaves__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.540437371597685
+Chaves,dados_chaves__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.822293791661856
+Chaves,dados_chaves__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.6608941014388
+Chaves,dados_chaves__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.20671454371666
+Chaves,dados_chaves__mais_de_1_hora_deslocamento_fluvial_rios,Mais de 1 hora (Deslocamento fluvial / rios),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.240596067625866
+Chaves,dados_chaves__mais_de_1_hora_deslocamento_fluvial_rios,Mais de 1 hora (Deslocamento fluvial / rios),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.271143029144433
+Chaves,dados_chaves__motocicleta,Motocicleta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.602980338129324
+Chaves,dados_chaves__motocicleta,Motocicleta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.755715145722156
+Chaves,dados_chaves__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.1046997945563
+Chaves,dados_chaves__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.75567006665896
+Chaves,dados_chaves__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.48990741640277
+Chaves,dados_chaves__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.787657693262183
+Chaves,dados_chaves__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.947934046330715
+Chaves,dados_chaves__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.74954399235325
+Chaves,dados_chaves__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_amarela_2,População Amarela,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_amarela_2,População Amarela,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_branca_2,População Branca,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_branca_2,População Branca,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_indigena_2,População Indígena,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_indigena_2,População Indígena,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_parda_2,População Parda,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_parda_2,População Parda,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_preta_2,População Preta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_preta_2,População Preta,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__populacao_residente_em_favelas,População Residente em Favelas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__populacao_residente_em_favelas,População Residente em Favelas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5260894101438799
+Chaves,dados_chaves__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.6806714543716649
+Chaves,dados_chaves__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.1448270362524835
+Chaves,dados_chaves__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.1481743902760124
+Chaves,dados_chaves__ruas_sem_arvores,Ruas Sem Árvores,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.504699794556296
+Chaves,dados_chaves__ruas_sem_arvores,Ruas Sem Árvores,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.155670066658967
+Chaves,dados_chaves__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.21743056230207
+Chaves,dados_chaves__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.69074326994664
+Chaves,dados_chaves__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.2202980338129326
+Chaves,dados_chaves__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.735571514572216
+Chaves,dados_chaves__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.36823208014364
+Chaves,dados_chaves__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.68511550692546
+Chaves,dados_chaves__sem_conjuge,Sem cônjuge,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.176890927985454
+Chaves,dados_chaves__sem_conjuge,Sem cônjuge,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.1750436913505
+Chaves,dados_chaves__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Chaves,dados_chaves__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Chaves,dados_chaves__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.6493113487769
+Chaves,dados_chaves__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.91651466411776
+Chaves,dados_chaves__trabalha_em_outro_municipio_ex_macapa_afua_be,Trabalha em outro município (ex: Macapá / Afuá / Belém),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.313072921726558
+Chaves,dados_chaves__trabalha_em_outro_municipio_ex_macapa_afua_be,Trabalha em outro município (ex: Macapá / Afuá / Belém),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.16805745245998
+Chaves,dados_chaves__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Chaves),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,88.72852484591722
+Chaves,dados_chaves__trabalha_no_proprio_municipio_de_residencia_c,Trabalha no próprio município de residência (Chaves),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,85.46675254999424
+Chaves,dados_chaves__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.385549775827249
+Chaves,dados_chaves__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.064971875775523
+Chaves,dados_chaves__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.318920731366738
+Chaves,dados_chaves__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.36860084280771
+Chaves,dados_chaves__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.14202980338129328
+Chaves,dados_chaves__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_chaves,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.19355715145722163
