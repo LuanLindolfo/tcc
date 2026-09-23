@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Placas,dados_placas__2_trabalhos,2 trabalhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.6699081207326181,2030,7.483736128552588
+Placas,dados_placas__2_trabalhos,2 trabalhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.6699081207326181,2040,8.989742939615937
+Placas,dados_placas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.06090073824841987,2030,0.8985214662320534
+Placas,dados_placas__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.06090073824841987,2040,1.0354311763287214
+Placas,dados_placas__anos_de_estudo_media,Anos de Estudo (Média),dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.48641562033725316,2030,8.402804577578152
+Placas,dados_placas__anos_de_estudo_media,Anos de Estudo (Média),dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.48641562033725316,2040,10.296838114924165
+Placas,dados_placas__apenas_1_trabalho,Apenas 1 trabalho,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2030,91.22545903603958
+Placas,dados_placas__apenas_1_trabalho,Apenas 1 trabalho,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,0.5892480404293963,2040,89.26290604335647
+Placas,dados_placas__casais_com_filhos,Casais com filhos,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727846348554826,2030,42.677228728033754
+Placas,dados_placas__casais_com_filhos,Casais com filhos,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.13727846348554826,2040,32.49318326214235
+Placas,dados_placas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.5162147457613351,2030,7.800577100480866
+Placas,dados_placas__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.5162147457613351,2040,8.04817579294929
+Placas,dados_placas__casais_sem_filhos,Casais sem filhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.492002229948776,2030,13.614748199457658
+Placas,dados_placas__casais_sem_filhos,Casais sem filhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.492002229948776,2040,16.720173075417964
+Placas,dados_placas__conta_propria,Conta própria,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,0.7637270324996592,2030,4.89233377081844
+Placas,dados_placas__conta_propria,Conta própria,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,0.7637270324996592,2040,4.890452182926446
+Placas,dados_placas__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,16.50911855042054,2030,106.70706450708155
+Placas,dados_placas__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,16.50911855042054,2040,106.64059227317097
+Placas,dados_placas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.8994501102527335,2030,7.182484109291172
+Placas,dados_placas__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.8994501102527335,2040,7.698385863634634
+Placas,dados_placas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_placas,Grupo 2 — 3 censos,identity,sgd,True,0.45714426455863527,2030,22.803963042507092
+Placas,dados_placas__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_placas,Grupo 2 — 3 censos,identity,sgd,True,0.45714426455863527,2040,27.28733653666212
+Placas,dados_placas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364288,2030,25.995374255218586
+Placas,dados_placas__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.24403933590364288,2040,30.54488732931668
+Placas,dados_placas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.9456423325387604,2030,17.332621452788132
+Placas,dados_placas__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.9456423325387604,2040,3.711764405824816
+Placas,dados_placas__empregador,Empregador,dados_placas,Grupo 2 — 3 censos,identity,adam,True,15.192255993350585,2030,354.9786523588253
+Placas,dados_placas__empregador,Empregador,dados_placas,Grupo 2 — 3 censos,identity,adam,True,15.192255993350585,2040,445.28971626351256
+Placas,dados_placas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,10.281628454469347,2030,92.67455012156826
+Placas,dados_placas__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,10.281628454469347,2040,92.36430962682293
+Placas,dados_placas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_placas,Grupo 2 — 3 censos,relu,adam,True,5.599376430054549,2030,67.40310633586687
+Placas,dados_placas__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_placas,Grupo 2 — 3 censos,relu,adam,True,5.599376430054549,2040,73.53173214912026
+Placas,dados_placas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0029523241111742,2030,21.352051524097398
+Placas,dados_placas__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0029523241111742,2040,26.316631759998998
+Placas,dados_placas__idade_mediana,Idade Mediana,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2030,31.161202818061344
+Placas,dados_placas__idade_mediana,Idade Mediana,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2040,35.07294055052432
+Placas,dados_placas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_placas,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Placas,dados_placas__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_placas,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Placas,dados_placas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348904,2030,22.519480281138218
+Placas,dados_placas__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348904,2040,26.159980666561545
+Placas,dados_placas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.634363724341662,2030,4.648028932850192
+Placas,dados_placas__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.634363724341662,2040,5.161159622586357
+Placas,dados_placas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.4712233643439041,2030,7.827828091854666
+Placas,dados_placas__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.4712233643439041,2040,9.631552920500315
+Placas,dados_placas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.5016078763306043,2030,8.97778125513553
+Placas,dados_placas__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.5016078763306043,2040,10.962123711258247
+Placas,dados_placas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2030,2.646117725698341
+Placas,dados_placas__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935408444,2040,1.8768835702961018
+Placas,dados_placas__media_populacao_amarela,Média: População Amarela,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390305,2030,8.627828091854665
+Placas,dados_placas__media_populacao_amarela,Média: População Amarela,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390305,2040,10.431552920500318
+Placas,dados_placas__media_populacao_branca,Média: População Branca,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2030,8.527828091854666
+Placas,dados_placas__media_populacao_branca,Média: População Branca,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.47122336434390216,2040,10.331552920500318
+Placas,dados_placas__media_populacao_indigena,Média: População Indígena,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341974,2030,6.321460816733449
+Placas,dados_placas__media_populacao_indigena,Média: População Indígena,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341974,2040,7.949664152504051
+Placas,dados_placas__media_populacao_preta_parda,Média: População Preta / Parda,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.39513037010213203,2030,8.151178098774855
+Placas,dados_placas__media_populacao_preta_parda,Média: População Preta / Parda,dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.39513037010213203,2040,10.001293902836892
+Placas,dados_placas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_placas,Grupo 2 — 3 censos,tanh,adam,True,305.70654954389164,2030,702.1206631602228
+Placas,dados_placas__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_placas,Grupo 2 — 3 censos,tanh,adam,True,305.70654954389164,2040,734.646371258395
+Placas,dados_placas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348927,2030,4.271948028113822
+Placas,dados_placas__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_placas,Grupo 2 — 3 censos,identity,adam,True,0.10660922050348927,2040,4.635998066656153
+Placas,dados_placas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.3815079996538604,2030,3.015499267597405
+Placas,dados_placas__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.3815079996538604,2040,3.3773479421953163
+Placas,dados_placas__populacao_amarela,População Amarela,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504949409281417,2030,13.054425907013346
+Placas,dados_placas__populacao_amarela,População Amarela,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,3.0504949409281417,2040,1.1862526343987838
+Placas,dados_placas__populacao_branca,População Branca,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,0.28794701299209285,2030,3.6956323523257364
+Placas,dados_placas__populacao_branca,População Branca,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,0.28794701299209285,2040,3.694767377412356
+Placas,dados_placas__populacao_indigena,População Indígena,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,27.03441486649453,2030,79.75034404956358
+Placas,dados_placas__populacao_indigena,População Indígena,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,27.03441486649453,2040,78.59518364059699
+Placas,dados_placas__populacao_indigena_total,População Indígena Total,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,27.03441486649453,2030,79.75034404956358
+Placas,dados_placas__populacao_indigena_total,População Indígena Total,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,27.03441486649453,2040,78.59518364059699
+Placas,dados_placas__populacao_parda,População Parda,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,3.2873910394612067,2030,16.144389289166398
+Placas,dados_placas__populacao_parda,População Parda,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,3.2873910394612067,2040,16.136284232633898
+Placas,dados_placas__populacao_preta,População Preta,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,445.622724125347,2030,-4.140385046736412
+Placas,dados_placas__populacao_preta,População Preta,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,445.622724125347,2040,19.357360641126604
+Placas,dados_placas__populacao_rural,População Rural,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,1.9308834626005276,2030,12.18919610325723
+Placas,dados_placas__populacao_rural,População Rural,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,1.9308834626005276,2040,12.1831155314391
+Placas,dados_placas__populacao_total,População Total,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,4.010107580847357,2030,21.175434920661342
+Placas,dados_placas__populacao_total,População Total,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,4.010107580847357,2040,21.16557172091055
+Placas,dados_placas__populacao_urbana,População Urbana,dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,1.6374165646205447,2030,11.44660050759507
+Placas,dados_placas__populacao_urbana,População Urbana,dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,1.6374165646205447,2040,11.540433792507985
+Placas,dados_placas__populacao_com_superior_completo,População com Superior Completo,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,208.6685686495974,2030,1058.048010779411
+Placas,dados_placas__populacao_com_superior_completo,População com Superior Completo,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,208.6685686495974,2040,1382.6474052331635
+Placas,dados_placas__populacao_de_homens,População de Homens,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,2.0187053870643523,2030,11.040577768689714
+Placas,dados_placas__populacao_de_homens,População de Homens,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,2.0187053870643523,2040,11.035490499075955
+Placas,dados_placas__populacao_de_mulheres,População de Mulheres,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,1.9914021937830053,2030,10.13487824725416
+Placas,dados_placas__populacao_de_mulheres,População de Mulheres,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,1.9914021937830053,2040,10.13008847808881
+Placas,dados_placas__proporcao_na_populacao_de_placas,Proporção na população de Placas,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,0.08960024797812255,2030,0.35889310392335266
+Placas,dados_placas__proporcao_na_populacao_de_placas,Proporção na população de Placas,dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,0.08960024797812255,2040,0.35618349450036263
+Placas,dados_placas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,0.7061123027356947,2030,105.18934221028354
+Placas,dados_placas__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,0.7061123027356947,2040,102.9981886005669
+Placas,dados_placas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_placas,Grupo 2 — 3 censos,identity,adam,True,117.25218792689316,2030,700.7242490355361
+Placas,dados_placas__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_placas,Grupo 2 — 3 censos,identity,adam,True,117.25218792689316,2040,918.1136548175973
+Placas,dados_placas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,1.5557419622936994,2030,37.32166100618716
+Placas,dados_placas__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,1.5557419622936994,2040,27.074409228379537
+Placas,dados_placas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.492002229948776,2030,13.614748199457658
+Placas,dados_placas__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.492002229948776,2040,16.720173075417964
+Placas,dados_placas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348904,2030,22.519480281138218
+Placas,dados_placas__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_placas,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348904,2040,26.159980666561545
+Placas,dados_placas__responsavel_homem,Responsável Homem,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100919309232763,2030,2.6988791642884715
+Placas,dados_placas__responsavel_homem,Responsável Homem,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100919309232763,2040,1.836243186473792
+Placas,dados_placas__responsavel_mulher,Responsável Mulher,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2030,2.448333956807974
+Placas,dados_placas__responsavel_mulher,Responsável Mulher,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2040,1.9043777255795584
+Placas,dados_placas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2030,2.448333956807974
+Placas,dados_placas__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2040,1.9043777255795584
+Placas,dados_placas__setor_privado,Setor privado,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,396.1869934820308,2030,-2.5682858137253106
+Placas,dados_placas__setor_privado,Setor privado,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,396.1869934820308,2040,18.319274720941195
+Placas,dados_placas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,328.95496399601,2030,255.20923993656868
+Placas,dados_placas__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_placas,Grupo 2 — 3 censos,logistic,sgd,True,328.95496399601,2040,254.03952278315322
+Placas,dados_placas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,297.04984015777046,2030,-2.4879938063901363
+Placas,dados_placas__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,297.04984015777046,2040,13.174922138040444
+Placas,dados_placas__setor_publico,Setor público,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,374.2723212063366,2030,-3.1231465377683776
+Placas,dados_placas__setor_publico,Setor público,dados_placas,Grupo 2 — 3 censos,tanh,adam,True,374.2723212063366,2040,16.610512581874843
+Placas,dados_placas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,14.519481698406585,2030,88.76661691888978
+Placas,dados_placas__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,14.519481698406585,2040,111.44865959123712
+Placas,dados_placas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_placas,Grupo 2 — 3 censos,tanh,adam,True,366.0016640333788,2030,-3.0960318554804758
+Placas,dados_placas__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_placas,Grupo 2 — 3 censos,tanh,adam,True,366.0016640333788,2040,16.20174160516956
+Placas,dados_placas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_placas,Grupo 2 — 3 censos,relu,adam,True,6.257475407892325,2030,88.54655296678371
+Placas,dados_placas__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_placas,Grupo 2 — 3 censos,relu,adam,True,6.257475407892325,2040,92.83171978868441
+Placas,dados_placas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965633501097236,2030,39.242420031031486
+Placas,dados_placas__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_placas,Grupo 2 — 3 censos,identity,lbfgs,True,0.3965633501097236,2040,47.88539587204866
+Placas,dados_placas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,5.21930789865696,2030,96.51374977376219
+Placas,dados_placas__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,5.21930789865696,2040,96.83874328516177
+Placas,dados_placas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,10.281628454469347,2030,92.67455012156826
+Placas,dados_placas__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_placas,Grupo 2 — 3 censos,tanh,lbfgs,True,10.281628454469347,2040,92.36430962682293
+Placas,dados_placas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.9268602046936018,2030,7.259054506987878
+Placas,dados_placas__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_placas,Grupo 2 — 3 censos,relu,adam,True,0.9268602046936018,2040,7.759661695683292
+Placas,dados_placas__trabalhador_domestico,Trabalhador doméstico,dados_placas,Grupo 2 — 3 censos,relu,adam,True,44.11466849431616,2030,426.0426187125089
+Placas,dados_placas__trabalhador_domestico,Trabalhador doméstico,dados_placas,Grupo 2 — 3 censos,relu,adam,True,44.11466849431616,2040,467.367416554603
+Placas,dados_placas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,12.518002002235662,2030,75.8060140903067
+Placas,dados_placas__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_placas,Grupo 2 — 3 censos,relu,lbfgs,True,12.518002002235662,2040,95.3647027526216
+Placas,dados_placas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,55.250260931874834,2030,335.78611193289254
+Placas,dados_placas__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_placas,Grupo 2 — 3 censos,logistic,lbfgs,True,55.250260931874834,2040,338.1058146634255
+Placas,dados_placas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_placas,Grupo 2 — 3 censos,relu,sgd,True,6.36027897222598,2030,27.059027700811534
+Placas,dados_placas__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_placas,Grupo 2 — 3 censos,relu,sgd,True,6.36027897222598,2040,34.32108593376922
+Placas,dados_placas__a_pe,A pé,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.34670376433941
+Placas,dados_placas__a_pe,A pé,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.829853880540469
+Placas,dados_placas__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.053916495463575
+Placas,dados_placas__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.429725055549135
+Placas,dados_placas__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.049311348776904
+Placas,dados_placas__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.316514664117747
+Placas,dados_placas__bicicleta,Bicicleta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.033224640473515
+Placas,dados_placas__bicicleta,Bicicleta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4224226166531935
+Placas,dados_placas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,70.92476854100693
+Placas,dados_placas__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.16914423315546
+Placas,dados_placas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Placas,dados_placas__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Placas,dados_placas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.934791238658946
+Placas,dados_placas__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.874312638872844
+Placas,dados_placas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.104357640575518
+Placas,dados_placas__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.722685817486658
+Placas,dados_placas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.898566264244575
+Placas,dados_placas__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.877585877687213
+Placas,dados_placas__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.262695824773179
+Placas,dados_placas__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.08148625277745702
+Placas,dados_placas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.564262422958612
+Placas,dados_placas__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.933376274997114
+Placas,dados_placas__estuda_em_outro_municipio_ex_santarem_ruropol,Estuda em outro município (ex: Santarém / Rurópolis),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.460894101438797
+Placas,dados_placas__estuda_em_outro_municipio_ex_santarem_ruropol,Estuda em outro município (ex: Santarém / Rurópolis),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.006714543716647
+Placas,dados_placas__estuda_no_proprio_municipio_placas,Estuda no próprio município (Placas),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.74043737159768
+Placas,dados_placas__estuda_no_proprio_municipio_placas,Estuda no próprio município (Placas),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.02229379166185
+Placas,dados_placas__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.402980338129325
+Placas,dados_placas__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,29.55571514572216
+Placas,dados_placas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.540437371597683
+Placas,dados_placas__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.822293791661856
+Placas,dados_placas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.6608941014388
+Placas,dados_placas__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,83.20671454371666
+Placas,dados_placas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7716072436178014
+Placas,dados_placas__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.9222628317421628
+Placas,dados_placas__mais_de_1_hora_deslocamento_pela_br_230_vicin,Mais de 1 hora (Deslocamento pela BR-230 / vicinais),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.982625871007162
+Placas,dados_placas__mais_de_1_hora_deslocamento_pela_br_230_vicin,Mais de 1 hora (Deslocamento pela BR-230 / vicinais),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.064700180601655
+Placas,dados_placas__motocicleta,Motocicleta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,50.51605325985588
+Placas,dados_placas__motocicleta,Motocicleta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.52377259818213
+Placas,dados_placas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.09278726887582
+Placas,dados_placas__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.200128824991324
+Placas,dados_placas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.14208623669053
+Placas,dados_placas__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.74900060200551
+Placas,dados_placas__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.24357640575519
+Placas,dados_placas__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.4268581748666
+Placas,dados_placas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_amarela_2,População Amarela,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_amarela_2,População Amarela,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_branca_2,População Branca,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_branca_2,População Branca,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_indigena_2,População Indígena,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_indigena_2,População Indígena,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_parda_2,População Parda,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_parda_2,População Parda,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_preta_2,População Preta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_preta_2,População Preta,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__populacao_residente_em_favelas,População Residente em Favelas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__populacao_residente_em_favelas,População Residente em Favelas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.3782682304316394
+Placas,dados_placas__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.8420143631149943
+Placas,dados_placas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.0507832990927155
+Placas,dados_placas__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3259450111098268
+Placas,dados_placas__ruas_sem_arvores,Ruas Sem Árvores,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.680874743195368
+Placas,dados_placas__ruas_sem_arvores,Ruas Sem Árvores,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.2445875833237103
+Placas,dados_placas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.7217882028776
+Placas,dados_placas__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,92.81342908743329
+Placas,dados_placas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.776834494676211
+Placas,dados_placas__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.219600240802205
+Placas,dados_placas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.776947361294674
+Placas,dados_placas__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.33048714189877
+Placas,dados_placas__sem_conjuge,Sem cônjuge,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.002980338129326
+Placas,dados_placas__sem_conjuge,Sem cônjuge,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.155715145722155
+Placas,dados_placas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Placas,dados_placas__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Placas,dados_placas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,57.91307292172656
+Placas,dados_placas__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.76805745245998
+Placas,dados_placas__trabalha_em_outro_municipio_ex_ruropolis_urua,Trabalha em outro município (ex: Rurópolis / Uruará / Santarém),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.28698351158268
+Placas,dados_placas__trabalha_em_outro_municipio_ex_ruropolis_urua,Trabalha em outro município (ex: Rurópolis / Uruará / Santarém),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.987385998088314
+Placas,dados_placas__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Placas),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,85.83448110875744
+Placas,dados_placas__trabalha_no_proprio_municipio_de_residencia_p,Trabalha no próprio município de residência (Placas),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,82.84452317082801
+Placas,dados_placas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.321788202877597
+Placas,dados_placas__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.413429087433297
+Placas,dados_placas__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.776947361294674
+Placas,dados_placas__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,50.33048714189877
+Placas,dados_placas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.4260894101438798
+Placas,dados_placas__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_placas,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.5806714543716648
