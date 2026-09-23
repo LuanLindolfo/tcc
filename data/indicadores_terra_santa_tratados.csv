@@ -1,1 +1,300 @@
-
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Terra Santa,dados_terra_santa__populacao_total,População Total,dados_terra_santa,Grupo 1 — 4 censos,4,identity,adam,True,0.19809728702375562,1991,13.42,Valor
+Terra Santa,dados_terra_santa__populacao_total,População Total,dados_terra_santa,Grupo 1 — 4 censos,4,identity,adam,True,0.19809728702375562,2000,14.82,Valor
+Terra Santa,dados_terra_santa__populacao_total,População Total,dados_terra_santa,Grupo 1 — 4 censos,4,identity,adam,True,0.19809728702375562,2010,16.949,Valor
+Terra Santa,dados_terra_santa__populacao_total,População Total,dados_terra_santa,Grupo 1 — 4 censos,4,identity,adam,True,0.19809728702375562,2022,18.917,Valor
+Terra Santa,dados_terra_santa__populacao_urbana,População Urbana,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.7501457717303914,2000,8.24,Valor
+Terra Santa,dados_terra_santa__populacao_urbana,População Urbana,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.7501457717303914,2010,10.82,Valor
+Terra Santa,dados_terra_santa__populacao_urbana,População Urbana,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.7501457717303914,2022,12.48,Valor
+Terra Santa,dados_terra_santa__populacao_rural,População Rural,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2527029497935362,2000,6.58,Valor
+Terra Santa,dados_terra_santa__populacao_rural,População Rural,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2527029497935362,2010,6.129,Valor
+Terra Santa,dados_terra_santa__populacao_rural,População Rural,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2527029497935362,2022,6.437,Valor
+Terra Santa,dados_terra_santa__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_de_mulheres,População de Mulheres,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.23711773634378375,2000,7.18,Valor
+Terra Santa,dados_terra_santa__populacao_de_mulheres,População de Mulheres,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.23711773634378375,2010,8.29,Valor
+Terra Santa,dados_terra_santa__populacao_de_mulheres,População de Mulheres,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.23711773634378375,2022,9.31,Valor
+Terra Santa,dados_terra_santa__populacao_de_homens,População de Homens,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.20883511448390144,2000,7.64,Valor
+Terra Santa,dados_terra_santa__populacao_de_homens,População de Homens,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.20883511448390144,2010,8.659,Valor
+Terra Santa,dados_terra_santa__populacao_de_homens,População de Homens,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.20883511448390144,2022,9.607,Valor
+Terra Santa,dados_terra_santa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.5240414083280361,2000,106.4,Valor
+Terra Santa,dados_terra_santa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.5240414083280361,2010,104.5,Valor
+Terra Santa,dados_terra_santa__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.5240414083280361,2022,103.2,Valor
+Terra Santa,dados_terra_santa__idade_mediana,Idade Mediana,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2000,19.0,Valor
+Terra Santa,dados_terra_santa__idade_mediana,Idade Mediana,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2010,22.0,Valor
+Terra Santa,dados_terra_santa__idade_mediana,Idade Mediana,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2022,28.0,Valor
+Terra Santa,dados_terra_santa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_santa,Grupo 2 — 3 censos,3,relu,sgd,True,6.836626929625097,2000,5.1,Valor
+Terra Santa,dados_terra_santa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_santa,Grupo 2 — 3 censos,3,relu,sgd,True,6.836626929625097,2010,7.8,Valor
+Terra Santa,dados_terra_santa__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_santa,Grupo 2 — 3 censos,3,relu,sgd,True,6.836626929625097,2022,23.8,Valor
+Terra Santa,dados_terra_santa__populacao_parda,População Parda,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.422581802310176,2000,11.24,Valor
+Terra Santa,dados_terra_santa__populacao_parda,População Parda,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.422581802310176,2010,13.12,Valor
+Terra Santa,dados_terra_santa__populacao_parda,População Parda,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.422581802310176,2022,14.82,Valor
+Terra Santa,dados_terra_santa__populacao_branca,População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.007596127996675713,2000,2.84,Valor
+Terra Santa,dados_terra_santa__populacao_branca,População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.007596127996675713,2010,2.89,Valor
+Terra Santa,dados_terra_santa__populacao_branca,População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.007596127996675713,2022,2.94,Valor
+Terra Santa,dados_terra_santa__populacao_preta,População Preta,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,501.2028557109457,2000,680.0,Valor
+Terra Santa,dados_terra_santa__populacao_preta,População Preta,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,501.2028557109457,2010,840.0,Valor
+Terra Santa,dados_terra_santa__populacao_preta,População Preta,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,501.2028557109457,2022,1.02,Valor
+Terra Santa,dados_terra_santa__populacao_amarela,População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.297661191557693,2000,38.0,Valor
+Terra Santa,dados_terra_santa__populacao_amarela,População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.297661191557693,2010,24.0,Valor
+Terra Santa,dados_terra_santa__populacao_amarela,População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.297661191557693,2022,18.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena,População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2000,22.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena,População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2010,75.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena,População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2022,119.0,Valor
+Terra Santa,dados_terra_santa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,104.33670801851133,2000,82.4,Valor
+Terra Santa,dados_terra_santa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,104.33670801851133,2010,248.1,Valor
+Terra Santa,dados_terra_santa__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,104.33670801851133,2022,584.0,Valor
+Terra Santa,dados_terra_santa__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6756645549346558,2000,96.1,Valor
+Terra Santa,dados_terra_santa__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6756645549346558,2010,95.2,Valor
+Terra Santa,dados_terra_santa__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6756645549346558,2022,92.8,Valor
+Terra Santa,dados_terra_santa__2_trabalhos,2 trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7911097140575579,2000,3.3,Valor
+Terra Santa,dados_terra_santa__2_trabalhos,2 trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7911097140575579,2010,4.2,Valor
+Terra Santa,dados_terra_santa__2_trabalhos,2 trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.7911097140575579,2022,6.4,Valor
+Terra Santa,dados_terra_santa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958867005,2000,0.6,Valor
+Terra Santa,dados_terra_santa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958867005,2010,0.6,Valor
+Terra Santa,dados_terra_santa__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,0.062348953958867005,2022,0.8,Valor
+Terra Santa,dados_terra_santa__setor_privado,Setor privado,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,451.4245367122381,2000,820.0,Valor
+Terra Santa,dados_terra_santa__setor_privado,Setor privado,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,451.4245367122381,2010,1.54,Valor
+Terra Santa,dados_terra_santa__setor_privado,Setor privado,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,451.4245367122381,2022,2.28,Valor
+Terra Santa,dados_terra_santa__conta_propria,Conta própria,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.21609209443517305,2000,2.94,Valor
+Terra Santa,dados_terra_santa__conta_propria,Conta própria,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.21609209443517305,2010,3.68,Valor
+Terra Santa,dados_terra_santa__conta_propria,Conta própria,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.21609209443517305,2022,4.12,Valor
+Terra Santa,dados_terra_santa__setor_publico,Setor público,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,429.3891441362735,2000,780.0,Valor
+Terra Santa,dados_terra_santa__setor_publico,Setor público,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,429.3891441362735,2010,1.24,Valor
+Terra Santa,dados_terra_santa__setor_publico,Setor público,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,429.3891441362735,2022,1.68,Valor
+Terra Santa,dados_terra_santa__trabalhador_domestico,Trabalhador doméstico,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2000,190.0,Valor
+Terra Santa,dados_terra_santa__trabalhador_domestico,Trabalhador doméstico,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2010,290.0,Valor
+Terra Santa,dados_terra_santa__trabalhador_domestico,Trabalhador doméstico,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2022,380.0,Valor
+Terra Santa,dados_terra_santa__empregador,Empregador,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,18.283392902027686,2000,80.0,Valor
+Terra Santa,dados_terra_santa__empregador,Empregador,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,18.283392902027686,2010,160.0,Valor
+Terra Santa,dados_terra_santa__empregador,Empregador,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,18.283392902027686,2022,280.0,Valor
+Terra Santa,dados_terra_santa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,418.00494657835105,2000,1.42,Valor
+Terra Santa,dados_terra_santa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,418.00494657835105,2010,820.0,Valor
+Terra Santa,dados_terra_santa__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,418.00494657835105,2022,390.0,Valor
+Terra Santa,dados_terra_santa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2000,10.0,Valor
+Terra Santa,dados_terra_santa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2010,20.0,Valor
+Terra Santa,dados_terra_santa__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2022,40.0,Valor
+Terra Santa,dados_terra_santa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,335.6340554969191,2000,240.0,Valor
+Terra Santa,dados_terra_santa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,335.6340554969191,2010,620.0,Valor
+Terra Santa,dados_terra_santa__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,335.6340554969191,2022,1.14,Valor
+Terra Santa,dados_terra_santa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,494.5209593911815,2000,580.0,Valor
+Terra Santa,dados_terra_santa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,494.5209593911815,2010,920.0,Valor
+Terra Santa,dados_terra_santa__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,494.5209593911815,2022,1.14,Valor
+Terra Santa,dados_terra_santa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,14.519481698406585,2000,15.0,Valor
+Terra Santa,dados_terra_santa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,14.519481698406585,2010,30.0,Valor
+Terra Santa,dados_terra_santa__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,14.519481698406585,2022,70.0,Valor
+Terra Santa,dados_terra_santa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,421.1184869633157,2000,765.0,Valor
+Terra Santa,dados_terra_santa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,421.1184869633157,2010,1.21,Valor
+Terra Santa,dados_terra_santa__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,adam,True,421.1184869633157,2022,1.61,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2000,15.0,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2010,30.0,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,9.13511073726297,2022,60.0,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,24.576810175438492,2000,175.0,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,24.576810175438492,2010,260.0,Valor
+Terra Santa,dados_terra_santa__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,24.576810175438492,2022,320.0,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.478210709899102,1991,48.2,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.478210709899102,2000,64.1,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.478210709899102,2010,81.2,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,2.478210709899102,2022,88.4,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,adam,True,5.65941684276036,2000,82.1,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,adam,True,5.65941684276036,2010,94.2,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_santa,Grupo 2 — 3 censos,3,logistic,adam,True,5.65941684276036,2022,97.1,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.712718888937309,2000,16.4,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.712718888937309,2010,26.1,Valor
+Terra Santa,dados_terra_santa__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.712718888937309,2022,36.8,Valor
+Terra Santa,dados_terra_santa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2000,72.4,Valor
+Terra Santa,dados_terra_santa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2010,91.2,Valor
+Terra Santa,dados_terra_santa__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2022,94.8,Valor
+Terra Santa,dados_terra_santa__populacao_com_superior_completo,População com Superior Completo,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.10384821468503,2000,38.0,Valor
+Terra Santa,dados_terra_santa__populacao_com_superior_completo,População com Superior Completo,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.10384821468503,2010,280.0,Valor
+Terra Santa,dados_terra_santa__populacao_com_superior_completo,População com Superior Completo,dados_terra_santa,Grupo 2 — 3 censos,3,relu,lbfgs,True,220.10384821468503,2022,890.0,Valor
+Terra Santa,dados_terra_santa__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.31746432389131835,1991,1.8,Valor
+Terra Santa,dados_terra_santa__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.31746432389131835,2000,3.4,Valor
+Terra Santa,dados_terra_santa__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.31746432389131835,2010,5.8,Valor
+Terra Santa,dados_terra_santa__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.31746432389131835,2022,7.6,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33335770100228324,1991,2.1,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33335770100228324,2000,3.8,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33335770100228324,2010,6.2,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.33335770100228324,2022,8.1,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3398288465765342,1991,1.5,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3398288465765342,2000,3.0,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3398288465765342,2010,5.4,Valor
+Terra Santa,dados_terra_santa__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_santa,Grupo 1 — 4 censos,4,logistic,lbfgs,True,0.3398288465765342,2022,7.1,Valor
+Terra Santa,dados_terra_santa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.062298904409650135,1991,0.124,Valor
+Terra Santa,dados_terra_santa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.062298904409650135,2000,0.278,Valor
+Terra Santa,dados_terra_santa__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.062298904409650135,2010,0.528,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2000,72.4,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2010,91.2,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,8.825624460532367,2022,94.8,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.163859492352053,2000,38.4,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.163859492352053,2010,56.2,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,5.163859492352053,2022,68.1,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.5810483375086026,2000,8.4,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.5810483375086026,2010,14.8,Valor
+Terra Santa,dados_terra_santa__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.5810483375086026,2022,20.4,Valor
+Terra Santa,dados_terra_santa__media_populacao_amarela,Média: População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172822,2000,3.9,Valor
+Terra Santa,dados_terra_santa__media_populacao_amarela,Média: População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172822,2010,6.1,Valor
+Terra Santa,dados_terra_santa__media_populacao_amarela,Média: População Amarela,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172822,2022,7.9,Valor
+Terra Santa,dados_terra_santa__media_populacao_branca,Média: População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2000,3.8,Valor
+Terra Santa,dados_terra_santa__media_populacao_branca,Média: População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2010,6.0,Valor
+Terra Santa,dados_terra_santa__media_populacao_branca,Média: População Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6297178458172823,2022,7.8,Valor
+Terra Santa,dados_terra_santa__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6911958226434946,2000,3.2,Valor
+Terra Santa,dados_terra_santa__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6911958226434946,2010,5.6,Valor
+Terra Santa,dados_terra_santa__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.6911958226434946,2022,7.4,Valor
+Terra Santa,dados_terra_santa__media_populacao_indigena,Média: População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2000,2.1,Valor
+Terra Santa,dados_terra_santa__media_populacao_indigena,Média: População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2010,4.1,Valor
+Terra Santa,dados_terra_santa__media_populacao_indigena,Média: População Indígena,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.4560311083505512,2022,5.9,Valor
+Terra Santa,dados_terra_santa__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_residente_em_favelas,População Residente em Favelas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_residente_em_favelas,População Residente em Favelas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_parda_2,População Parda,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_parda_2,População Parda,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_branca_2,População Branca,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_branca_2,População Branca,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_preta_2,População Preta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_preta_2,População Preta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_amarela_2,População Amarela,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_amarela_2,População Amarela,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena_2,População Indígena,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena_2,População Indígena,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Santa,dados_terra_santa__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.8,Valor
+Terra Santa,dados_terra_santa__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,79.4,Valor
+Terra Santa,dados_terra_santa__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.2,Valor
+Terra Santa,dados_terra_santa__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.6,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos,Casais com filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.211597123533122,2000,69.4,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos,Casais com filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.211597123533122,2010,58.4,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos,Casais com filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.211597123533122,2022,48.1,Valor
+Terra Santa,dados_terra_santa__casais_sem_filhos,Casais sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2000,5.2,Valor
+Terra Santa,dados_terra_santa__casais_sem_filhos,Casais sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2010,7.8,Valor
+Terra Santa,dados_terra_santa__casais_sem_filhos,Casais sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2022,12.1,Valor
+Terra Santa,dados_terra_santa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2000,13.1,Valor
+Terra Santa,dados_terra_santa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2010,16.2,Valor
+Terra Santa,dados_terra_santa__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2022,21.4,Valor
+Terra Santa,dados_terra_santa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,3.2,Valor
+Terra Santa,dados_terra_santa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.5,Valor
+Terra Santa,dados_terra_santa__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_santa,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.9,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2000,7.8,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2010,8.1,Valor
+Terra Santa,dados_terra_santa__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2022,7.8,Valor
+Terra Santa,dados_terra_santa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.6130033846205715,2000,3.8,Valor
+Terra Santa,dados_terra_santa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.6130033846205715,2010,4.8,Valor
+Terra Santa,dados_terra_santa__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.6130033846205715,2022,4.7,Valor
+Terra Santa,dados_terra_santa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2000,1.2,Valor
+Terra Santa,dados_terra_santa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2010,1.5,Valor
+Terra Santa,dados_terra_santa__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.10660922050348913,2022,2.0,Valor
+Terra Santa,dados_terra_santa__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Terra Santa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.4,Valor
+Terra Santa,dados_terra_santa__trabalha_no_proprio_municipio_de_residencia_t,Trabalha no próprio município de residência (Terra Santa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+Terra Santa,dados_terra_santa__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,41.2,Valor
+Terra Santa,dados_terra_santa__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.8,Valor
+Terra Santa,dados_terra_santa__trabalha_em_outro_municipio_ex_oriximina_juru,Trabalha em outro município (ex: Oriximiná / Juruti / Santarém),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.6,Valor
+Terra Santa,dados_terra_santa__trabalha_em_outro_municipio_ex_oriximina_juru,Trabalha em outro município (ex: Oriximiná / Juruti / Santarém),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Terra Santa,dados_terra_santa__motocicleta,Motocicleta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.1,Valor
+Terra Santa,dados_terra_santa__motocicleta,Motocicleta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,44.2,Valor
+Terra Santa,dados_terra_santa__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.2,Valor
+Terra Santa,dados_terra_santa__automovel_onibus_caminhao,Automóvel / Ônibus / Caminhão,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Terra Santa,dados_terra_santa__a_pe,A pé,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Terra Santa,dados_terra_santa__a_pe,A pé,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.2,Valor
+Terra Santa,dados_terra_santa__bicicleta,Bicicleta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.1,Valor
+Terra Santa,dados_terra_santa__bicicleta,Bicicleta,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Terra Santa,dados_terra_santa__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Terra Santa,dados_terra_santa__embarcacao_transporte_hidroviario,Embarcação / Transporte Hidroviário,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+Terra Santa,dados_terra_santa__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,61.2,Valor
+Terra Santa,dados_terra_santa__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.4,Valor
+Terra Santa,dados_terra_santa__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Terra Santa,dados_terra_santa__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.2,Valor
+Terra Santa,dados_terra_santa__mais_de_1_hora_deslocamento_fluvial_vicinais,Mais de 1 hora (Deslocamento fluvial / vicinais),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.0,Valor
+Terra Santa,dados_terra_santa__mais_de_1_hora_deslocamento_fluvial_vicinais,Mais de 1 hora (Deslocamento fluvial / vicinais),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.4,Valor
+Terra Santa,dados_terra_santa__estuda_no_proprio_municipio_terra_santa,Estuda no próprio município (Terra Santa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,94.2,Valor
+Terra Santa,dados_terra_santa__estuda_no_proprio_municipio_terra_santa,Estuda no próprio município (Terra Santa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.1,Valor
+Terra Santa,dados_terra_santa__estuda_em_outro_municipio_ex_oriximina_santar,Estuda em outro município (ex: Oriximiná / Santarém),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Terra Santa,dados_terra_santa__estuda_em_outro_municipio_ex_oriximina_santar,Estuda em outro município (ex: Oriximiná / Santarém),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.9,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.28479884350215523,1991,2.48,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.28479884350215523,2000,3.12,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.28479884350215523,2010,4.21,Valor
+Terra Santa,dados_terra_santa__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.28479884350215523,2022,5.84,Valor
+Terra Santa,dados_terra_santa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.29342446374325715,1991,2.38,Valor
+Terra Santa,dados_terra_santa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.29342446374325715,2000,3.01,Valor
+Terra Santa,dados_terra_santa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.29342446374325715,2010,4.09,Valor
+Terra Santa,dados_terra_santa__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_santa,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.29342446374325715,2022,5.74,Valor
+Terra Santa,dados_terra_santa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,sgd,True,10.009350956997036,1991,100.0,Valor
+Terra Santa,dados_terra_santa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,sgd,True,10.009350956997036,2000,110.0,Valor
+Terra Santa,dados_terra_santa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,sgd,True,10.009350956997036,2010,120.0,Valor
+Terra Santa,dados_terra_santa__domicilios_coletivos_hoteis_abrigos_alojament,Domicílios Coletivos (Hotéis abrigos alojamentos),dados_terra_santa,Grupo 1 — 4 censos,4,logistic,sgd,True,10.009350956997036,2022,100.0,Valor
+Terra Santa,dados_terra_santa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07611678560271251,1991,5.6,Valor
+Terra Santa,dados_terra_santa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07611678560271251,2000,4.9,Valor
+Terra Santa,dados_terra_santa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07611678560271251,2010,4.1,Valor
+Terra Santa,dados_terra_santa__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_santa,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.07611678560271251,2022,3.3,Valor
+Terra Santa,dados_terra_santa__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.1,Valor
+Terra Santa,dados_terra_santa__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Terra Santa,dados_terra_santa__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.4,Valor
+Terra Santa,dados_terra_santa__via_pavimentada_asfalto_calcamento_picarra,Via Pavimentada (Asfalto/Calçamento/Piçarra),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,42.1,Valor
+Terra Santa,dados_terra_santa__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Terra Santa,dados_terra_santa__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.4,Valor
+Terra Santa,dados_terra_santa__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,52.4,Valor
+Terra Santa,dados_terra_santa__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.1,Valor
+Terra Santa,dados_terra_santa__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Terra Santa,dados_terra_santa__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,24.8,Valor
+Terra Santa,dados_terra_santa__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.4,Valor
+Terra Santa,dados_terra_santa__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.8,Valor
+Terra Santa,dados_terra_santa__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Terra Santa,dados_terra_santa__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,81.1,Valor
+Terra Santa,dados_terra_santa__ruas_sem_arvores,Ruas Sem Árvores,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Terra Santa,dados_terra_santa__ruas_sem_arvores,Ruas Sem Árvores,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.9,Valor
+Terra Santa,dados_terra_santa__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+Terra Santa,dados_terra_santa__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.2,Valor
+Terra Santa,dados_terra_santa__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Santa,dados_terra_santa__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Terra Santa,dados_terra_santa__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+Terra Santa,dados_terra_santa__ponto_de_onibus_ou_rodoviaria_proximo,Ponto de Ônibus ou Rodoviária próximo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.8,Valor
+Terra Santa,dados_terra_santa__populacao_indigena_total,População Indígena Total,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2000,22.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena_total,População Indígena Total,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2010,75.0,Valor
+Terra Santa,dados_terra_santa__populacao_indigena_total,População Indígena Total,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,14.900265158235136,2022,119.0,Valor
+Terra Santa,dados_terra_santa__proporcao_na_populacao_de_terra_santa,Proporção na população de Terra Santa,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.08423052147495236,2000,0.15,Valor
+Terra Santa,dados_terra_santa__proporcao_na_populacao_de_terra_santa,Proporção na população de Terra Santa,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.08423052147495236,2010,0.44,Valor
+Terra Santa,dados_terra_santa__proporcao_na_populacao_de_terra_santa,Proporção na população de Terra Santa,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.08423052147495236,2022,0.63,Valor
+Terra Santa,dados_terra_santa__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Terra Santa,dados_terra_santa__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.4,Valor
+Terra Santa,dados_terra_santa__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.4,Valor
+Terra Santa,dados_terra_santa__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.4,Valor
+Terra Santa,dados_terra_santa__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.2,Valor
+Terra Santa,dados_terra_santa__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Terra Santa,dados_terra_santa__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Terra Santa,dados_terra_santa__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Terra Santa,dados_terra_santa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2000,13.1,Valor
+Terra Santa,dados_terra_santa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2010,16.2,Valor
+Terra Santa,dados_terra_santa__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,1.1269929432833106,2022,21.4,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2000,64.2,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2010,53.4,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.1048301534637517,2022,43.2,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2000,5.2,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2010,7.8,Valor
+Terra Santa,dados_terra_santa__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.8985822462829809,2022,12.1,Valor
+Terra Santa,dados_terra_santa__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.4,Valor
+Terra Santa,dados_terra_santa__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,63.1,Valor
+Terra Santa,dados_terra_santa__sem_conjuge,Sem cônjuge,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.1,Valor
+Terra Santa,dados_terra_santa__sem_conjuge,Sem cônjuge,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.4,Valor
+Terra Santa,dados_terra_santa__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Terra Santa,dados_terra_santa__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Terra Santa,dados_terra_santa__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Terra Santa,dados_terra_santa__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_terra_santa,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Terra Santa,dados_terra_santa__responsavel_mulher,Responsável Mulher,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Terra Santa,dados_terra_santa__responsavel_mulher,Responsável Mulher,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Terra Santa,dados_terra_santa__responsavel_mulher,Responsável Mulher,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Terra Santa,dados_terra_santa__responsavel_homem,Responsável Homem,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408355,2000,5.1,Valor
+Terra Santa,dados_terra_santa__responsavel_homem,Responsável Homem,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408355,2010,4.2,Valor
+Terra Santa,dados_terra_santa__responsavel_homem,Responsável Homem,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353361935408355,2022,3.4,Valor
+Terra Santa,dados_terra_santa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,4.0,Valor
+Terra Santa,dados_terra_santa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.4,Valor
+Terra Santa,dados_terra_santa__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_santa,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.9,Valor
+Terra Santa,dados_terra_santa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.274544595331817,2000,11.2,Valor
+Terra Santa,dados_terra_santa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.274544595331817,2010,15.4,Valor
+Terra Santa,dados_terra_santa__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.274544595331817,2022,20.8,Valor
+Terra Santa,dados_terra_santa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.12061604802168269,2000,13.8,Valor
+Terra Santa,dados_terra_santa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.12061604802168269,2010,18.1,Valor
+Terra Santa,dados_terra_santa__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,adam,True,0.12061604802168269,2022,23.1,Valor
+Terra Santa,dados_terra_santa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6081583221641744,2000,53.8,Valor
+Terra Santa,dados_terra_santa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6081583221641744,2010,39.2,Valor
+Terra Santa,dados_terra_santa__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_santa,Grupo 2 — 3 censos,3,identity,lbfgs,True,2.6081583221641744,2022,25.1,Valor
