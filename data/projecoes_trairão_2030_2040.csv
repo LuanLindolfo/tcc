@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Trairão,dados_trairao__2_trabalhos,2 trabalhos,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.0440345348976938,2030,3.774474633992478
+Trairão,dados_trairao__2_trabalhos,2 trabalhos,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.0440345348976938,2040,3.771932523351341
+Trairão,dados_trairao__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2030,0.6749786523588253
+Trairão,dados_trairao__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2040,0.7652897162635125
+Trairão,dados_trairao__anos_de_estudo_media,Anos de Estudo (Média),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2030,8.421460816733447
+Trairão,dados_trairao__anos_de_estudo_media,Anos de Estudo (Média),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2040,10.04966415250405
+Trairão,dados_trairao__apenas_1_trabalho,Apenas 1 trabalho,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1226185478916666,2030,95.73560130660474
+Trairão,dados_trairao__apenas_1_trabalho,Apenas 1 trabalho,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1226185478916666,2040,95.73113799538807
+Trairão,dados_trairao__casais_com_filhos,Casais com filhos,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.976149655754476,2030,36.18215353799397
+Trairão,dados_trairao__casais_com_filhos,Casais com filhos,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.976149655754476,2040,26.37996743305313
+Trairão,dados_trairao__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.9575306056808826,2030,7.569677326996134
+Trairão,dados_trairao__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.9575306056808826,2040,7.5656780101947705
+Trairão,dados_trairao__casais_sem_filhos,Casais sem filhos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.9899992107931203,2030,18.09589015465559
+Trairão,dados_trairao__casais_sem_filhos,Casais sem filhos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.9899992107931203,2040,21.689741503917535
+Trairão,dados_trairao__conta_propria,Conta própria,dados_trairao,Grupo 2 — 3 censos,logistic,lbfgs,True,0.19955998703935673,2030,2.3073660924788775
+Trairão,dados_trairao__conta_propria,Conta própria,dados_trairao,Grupo 2 — 3 censos,logistic,lbfgs,True,0.19955998703935673,2040,2.319659410639839
+Trairão,dados_trairao__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2030,49.630091475975
+Trairão,dados_trairao__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2040,49.3756492442494
+Trairão,dados_trairao__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8468762497126274,2030,4.768838613572134
+Trairão,dados_trairao__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8468762497126274,2040,4.730156977687482
+Trairão,dados_trairao__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.9143013593764024,2030,26.467059976869123
+Trairão,dados_trairao__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.9143013593764024,2040,31.50813399573279
+Trairão,dados_trairao__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,1.0641164909096272,2030,27.25725027534336
+Trairão,dados_trairao__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,1.0641164909096272,2040,31.08925108275247
+Trairão,dados_trairao__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,4.707162590430481,2030,13.332841760343477
+Trairão,dados_trairao__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,4.707162590430481,2040,4.732134906475277
+Trairão,dados_trairao__empregador,Empregador,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,28.929103441454117,2030,341.8877933940611
+Trairão,dados_trairao__empregador,Empregador,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,28.929103441454117,2040,379.04834566167017
+Trairão,dados_trairao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_trairao,Grupo 2 — 3 censos,logistic,adam,True,5.535242469589439,2030,96.73774600684507
+Trairão,dados_trairao__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_trairao,Grupo 2 — 3 censos,logistic,adam,True,5.535242469589439,2040,97.51727825005236
+Trairão,dados_trairao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,3.507402501306603,2030,79.135356868987
+Trairão,dados_trairao__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,3.507402501306603,2040,83.47681736553265
+Trairão,dados_trairao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.556294313946798,2030,19.385689231107552
+Trairão,dados_trairao__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.556294313946798,2040,19.379460406931198
+Trairão,dados_trairao__idade_mediana,Idade Mediana,dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,2.903896339681316,2030,35.75332338377795
+Trairão,dados_trairao__idade_mediana,Idade Mediana,dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,2.903896339681316,2040,40.28973191824742
+Trairão,dados_trairao__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,84.99573047176506
+Trairão,dados_trairao__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,103.05794325270251
+Trairão,dados_trairao__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.7752001984859328,2030,21.029137150357208
+Trairão,dados_trairao__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.7752001984859328,2040,24.14111448756609
+Trairão,dados_trairao__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.26803580578339464,2030,3.5353302924952996
+Trairão,dados_trairao__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.26803580578339464,2040,3.5345345357058324
+Trairão,dados_trairao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518944,2030,7.998035864902133
+Trairão,dados_trairao__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518944,2040,9.57976755951999
+Trairão,dados_trairao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2030,8.873013772284235
+Trairão,dados_trairao__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2040,10.545055732181002
+Trairão,dados_trairao__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592627,2030,2.3247110460912745
+Trairão,dados_trairao__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592627,2040,1.7340528684958147
+Trairão,dados_trairao__media_populacao_amarela,Média: População Amarela,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.5169318465989727,2030,9.354556514632055
+Trairão,dados_trairao__media_populacao_amarela,Média: População Amarela,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.5169318465989727,2040,10.931307514967852
+Trairão,dados_trairao__media_populacao_branca,Média: População Branca,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803112,2030,9.049615742458856
+Trairão,dados_trairao__media_populacao_branca,Média: População Branca,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803112,2040,10.675214892743227
+Trairão,dados_trairao__media_populacao_indigena,Média: População Indígena,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.13659858966513724,2030,6.473102763877445
+Trairão,dados_trairao__media_populacao_indigena,Média: População Indígena,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.13659858966513724,2040,7.78390432756542
+Trairão,dados_trairao__media_populacao_preta_parda,Média: População Preta / Parda,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341885,2030,8.22146081673345
+Trairão,dados_trairao__media_populacao_preta_parda,Média: População Preta / Parda,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341885,2040,9.849664152504051
+Trairão,dados_trairao__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,78.4494144943477,2030,88.48141659278502
+Trairão,dados_trairao__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,78.4494144943477,2040,-28.55793469597677
+Trairão,dados_trairao__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683908,2030,4.297042932464106
+Trairão,dados_trairao__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683908,2040,4.570862352657443
+Trairão,dados_trairao__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2030,0.8336989060632846
+Trairão,dados_trairao__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2040,0.8334905168116217
+Trairão,dados_trairao__populacao_amarela,População Amarela,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,95.75273623874614,2030,146.8539264135942
+Trairão,dados_trairao__populacao_amarela,População Amarela,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,95.75273623874614,2040,146.4735049682074
+Trairão,dados_trairao__populacao_branca,População Branca,dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,0.7554068943321197,2030,1.9870121948112498
+Trairão,dados_trairao__populacao_branca,População Branca,dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,0.7554068943321197,2040,0.7819939968246032
+Trairão,dados_trairao__populacao_indigena,População Indígena,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,44.37157538058784,2030,181.97187109639788
+Trairão,dados_trairao__populacao_indigena,População Indígena,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,44.37157538058784,2040,186.7140152737618
+Trairão,dados_trairao__populacao_indigena_total,População Indígena Total,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,44.37157538058784,2030,181.97187109639788
+Trairão,dados_trairao__populacao_indigena_total,População Indígena Total,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,44.37157538058784,2040,186.7140152737618
+Trairão,dados_trairao__populacao_parda,População Parda,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.6361247339123655,2030,10.224693353200783
+Trairão,dados_trairao__populacao_parda,População Parda,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.6361247339123655,2040,10.21986145933968
+Trairão,dados_trairao__populacao_preta,População Preta,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,563.927852461909,2030,570.3931782876249
+Trairão,dados_trairao__populacao_preta,População Preta,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,563.927852461909,2040,568.701763233151
+Trairão,dados_trairao__populacao_rural,População Rural,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.199012471964314,2030,8.664690670424202
+Trairão,dados_trairao__populacao_rural,População Rural,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.199012471964314,2040,8.655928929644874
+Trairão,dados_trairao__populacao_total,População Total,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.2451284965569958,2030,15.14515638996091
+Trairão,dados_trairao__populacao_total,População Total,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,2.2451284965569958,2040,15.138074882407732
+Trairão,dados_trairao__populacao_urbana,População Urbana,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0707229753770966,2030,7.448591740778602
+Trairão,dados_trairao__populacao_urbana,População Urbana,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,1.0707229753770966,2040,7.408207658830333
+Trairão,dados_trairao__populacao_com_superior_completo,População com Superior Completo,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,156.8226938465564,2030,1183.644662174492
+Trairão,dados_trairao__populacao_com_superior_completo,População com Superior Completo,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,156.8226938465564,2040,1548.6309748211354
+Trairão,dados_trairao__populacao_de_homens,População de Homens,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1426466632255183,2030,8.11231784357065
+Trairão,dados_trairao__populacao_de_homens,População de Homens,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1426466632255183,2040,8.108549570390629
+Trairão,dados_trairao__populacao_de_mulheres,População de Mulheres,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1019253538794611,2030,7.032916153870754
+Trairão,dados_trairao__populacao_de_mulheres,População de Mulheres,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,1.1019253538794611,2040,7.029558978998544
+Trairão,dados_trairao__proporcao_na_populacao_de_trairao,Proporção na população de Trairão,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,0.4391175436723032,2030,1.3202138761995652
+Trairão,dados_trairao__proporcao_na_populacao_de_trairao,Proporção na população de Trairão,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,0.4391175436723032,2040,1.355542092313108
+Trairão,dados_trairao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,2.7112105466837164,2030,112.31031718328092
+Trairão,dados_trairao__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,2.7112105466837164,2040,112.35584770196952
+Trairão,dados_trairao__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.4544297443516214,2030,37.8235675161539
+Trairão,dados_trairao__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.4544297443516214,2040,30.433782876640652
+Trairão,dados_trairao__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_trairao,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861547,2030,16.9134713650637
+Trairão,dados_trairao__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_trairao,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861547,2040,19.7738652549576
+Trairão,dados_trairao__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,1.1880253958067464,2030,25.414710584174927
+Trairão,dados_trairao__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_trairao,Grupo 2 — 3 censos,identity,adam,True,1.1880253958067464,2040,29.826914632747314
+Trairão,dados_trairao__responsavel_homem,Responsável Homem,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Trairão,dados_trairao__responsavel_homem,Responsável Homem,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Trairão,dados_trairao__responsavel_mulher,Responsável Mulher,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Trairão,dados_trairao__responsavel_mulher,Responsável Mulher,dados_trairao,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Trairão,dados_trairao__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Trairão,dados_trairao__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Trairão,dados_trairao__setor_privado,Setor privado,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,0.30928575743810693,2030,3.410114835075736
+Trairão,dados_trairao__setor_privado,Setor privado,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,0.30928575743810693,2040,3.7450098652000587
+Trairão,dados_trairao__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,286.2142463083489,2030,-1.6622647473200516
+Trairão,dados_trairao__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,286.2142463083489,2040,13.426383836620488
+Trairão,dados_trairao__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,495.2869700586485,2030,-4.975423388778552
+Trairão,dados_trairao__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_trairao,Grupo 2 — 3 censos,tanh,adam,True,495.2869700586485,2040,21.141382710310154
+Trairão,dados_trairao__setor_publico,Setor público,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,415.2904408446716,2030,421.48432146302696
+Trairão,dados_trairao__setor_publico,Setor público,dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,415.2904408446716,2040,419.79457016300603
+Trairão,dados_trairao__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,11.519930377391582,2030,103.69339123544303
+Trairão,dados_trairao__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,11.519930377391582,2040,120.46113847787593
+Trairão,dados_trairao__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,388.93515406444584,2030,394.67531304664857
+Trairão,dados_trairao__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_trairao,Grupo 2 — 3 censos,logistic,sgd,True,388.93515406444584,2040,393.10097244826017
+Trairão,dados_trairao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,2.516573444410554,2030,89.97920064550783
+Trairão,dados_trairao__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,2.516573444410554,2040,93.21835857378146
+Trairão,dados_trairao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.7425765438239402,2030,59.65022571713414
+Trairão,dados_trairao__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_trairao,Grupo 2 — 3 censos,identity,adam,True,0.7425765438239402,2040,71.04764906752835
+Trairão,dados_trairao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,1.8408909215240878,2030,98.63014968233057
+Trairão,dados_trairao__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_trairao,Grupo 2 — 3 censos,relu,adam,True,1.8408909215240878,2040,100.5117801355035
+Trairão,dados_trairao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_trairao,Grupo 2 — 3 censos,logistic,adam,True,5.535242469589439,2030,96.73774600684507
+Trairão,dados_trairao__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_trairao,Grupo 2 — 3 censos,logistic,adam,True,5.535242469589439,2040,97.51727825005236
+Trairão,dados_trairao__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8523962028856952,2030,4.818469637014048
+Trairão,dados_trairao__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_trairao,Grupo 2 — 3 censos,tanh,lbfgs,True,0.8523962028856952,2040,4.77953233039496
+Trairão,dados_trairao__trabalhador_domestico,Trabalhador doméstico,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,32.26155727871509,2030,407.06186555350786
+Trairão,dados_trairao__trabalhador_domestico,Trabalhador doméstico,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,32.26155727871509,2040,438.1184710795435
+Trairão,dados_trairao__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_trairao,Grupo 2 — 3 censos,logistic,lbfgs,True,12.27783576263885,2030,51.21746842358159
+Trairão,dados_trairao__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_trairao,Grupo 2 — 3 censos,logistic,lbfgs,True,12.27783576263885,2040,51.70745128241681
+Trairão,dados_trairao__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,23.298415750733493,2030,352.6957437212336
+Trairão,dados_trairao__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_trairao,Grupo 2 — 3 censos,relu,adam,True,23.298415750733493,2040,378.9604954449552
+Trairão,dados_trairao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,7.9393101964435475,2030,44.0909428836262
+Trairão,dados_trairao__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_trairao,Grupo 2 — 3 censos,relu,lbfgs,True,7.9393101964435475,2040,56.72487892807622
+Trairão,dados_trairao__a_pe,A pé,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.42695824773179
+Trairão,dados_trairao__a_pe,A pé,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.61486252777457
+Trairão,dados_trairao__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.2090894592111
+Trairão,dados_trairao__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.58155066527314
+Trairão,dados_trairao__automovel_carro,Automóvel (Carro),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.48119213525173
+Trairão,dados_trairao__automovel_carro,Automóvel (Carro),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.542286058288866
+Trairão,dados_trairao__bicicleta,Bicicleta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.994353867061262
+Trairão,dados_trairao__bicicleta,Bicicleta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.6520188472109947
+Trairão,dados_trairao__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.60441407388475
+Trairão,dados_trairao__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,71.77812926803495
+Trairão,dados_trairao__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Trairão,dados_trairao__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Trairão,dados_trairao__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.99435386706126
+Trairão,dados_trairao__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.65201884721099
+Trairão,dados_trairao__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8507832990927158
+Trairão,dados_trairao__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.1259450111098275
+Trairão,dados_trairao__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.6304470507194
+Trairão,dados_trairao__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.403357271858326
+Trairão,dados_trairao__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.283697809664737
+Trairão,dados_trairao__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.018578159718212
+Trairão,dados_trairao__estuda_em_outro_municipio,Estuda em outro município,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.598566264244572
+Trairão,dados_trairao__estuda_em_outro_municipio,Estuda em outro município,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.57758587768721
+Trairão,dados_trairao__estuda_no_proprio_municipio_trairao,Estuda no próprio município (Trairão),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.89561033534521
+Trairão,dados_trairao__estuda_no_proprio_municipio_trairao,Estuda no próprio município (Trairão),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.17411940138585
+Trairão,dados_trairao__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.1015466023739
+Trairão,dados_trairao__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.233301023409375
+Trairão,dados_trairao__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.334481108757451
+Trairão,dados_trairao__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.3445231708280385
+Trairão,dados_trairao__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.78698351158269
+Trairão,dados_trairao__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.48738599808833
+Trairão,dados_trairao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7380182209109093
+Trairão,dados_trairao__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8442180617198853
+Trairão,dados_trairao__mais_de_1_hora,Mais de 1 hora,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.388417247338108
+Trairão,dados_trairao__mais_de_1_hora,Mais de 1 hora,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.109800120401104
+Trairão,dados_trairao__motocicleta,Motocicleta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.6493113487769
+Trairão,dados_trairao__motocicleta,Motocicleta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.91651466411775
+Trairão,dados_trairao__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.69278726887585
+Trairão,dados_trairao__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.800128824991354
+Trairão,dados_trairao__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.23480469129492
+Trairão,dados_trairao__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.62604308934499
+Trairão,dados_trairao__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.48990741640277
+Trairão,dados_trairao__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,37.78765769326218
+Trairão,dados_trairao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_amarela_2,População Amarela,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_amarela_2,População Amarela,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_branca_2,População Branca,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_branca_2,População Branca,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_indigena_2,População Indígena,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_indigena_2,População Indígena,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_parda_2,População Parda,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_parda_2,População Parda,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_preta_2,População Preta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_preta_2,População Preta,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__populacao_residente_em_favelas,População Residente em Favelas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__populacao_residente_em_favelas,População Residente em Favelas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.9202980338129327
+Trairão,dados_trairao__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4355715145722163
+Trairão,dados_trairao__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,671.4033632842527
+Trairão,dados_trairao__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,819.7744199493512
+Trairão,dados_trairao__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.8880874743195366
+Trairão,dados_trairao__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.3444587583323706
+Trairão,dados_trairao__ruas_sem_arvores,Ruas Sem Árvores,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.460894101438804
+Trairão,dados_trairao__ruas_sem_arvores,Ruas Sem Árvores,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.006714543716654
+Trairão,dados_trairao__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.74043737159768
+Trairão,dados_trairao__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.02229379166185
+Trairão,dados_trairao__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.313072921726558
+Trairão,dados_trairao__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.168057452459976
+Trairão,dados_trairao__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.36823208014366
+Trairão,dados_trairao__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.68511550692548
+Trairão,dados_trairao__sem_conjuge,Sem cônjuge,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.742086236690525
+Trairão,dados_trairao__sem_conjuge,Sem cônjuge,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.34900060200551
+Trairão,dados_trairao__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Trairão,dados_trairao__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Trairão,dados_trairao__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.221001984891558
+Trairão,dados_trairao__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.137091906940753
+Trairão,dados_trairao__trabalha_em_outro_municipio,Trabalha em outro município,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.776834494676212
+Trairão,dados_trairao__trabalha_em_outro_municipio,Trabalha em outro município,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.219600240802208
+Trairão,dados_trairao__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.4777415468245
+Trairão,dados_trairao__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.9408075388844
+Trairão,dados_trairao__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.856592894172515
+Trairão,dados_trairao__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.33947217677828
+Trairão,dados_trairao__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.095755226042954
+Trairão,dados_trairao__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.588201083609924
+Trairão,dados_trairao__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Trairão,dados_trairao__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Trairão,dados_trairao__onibus,Ônibus,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.6681192135251734
+Trairão,dados_trairao__onibus,Ônibus,dados_trairao,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.874228605828887
