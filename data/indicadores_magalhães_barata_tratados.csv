@@ -1,0 +1,296 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Magalhães Barata,dados_magalhaes_barata__populacao_total,População Total,dados_magalhaes_barata,Grupo 1 — 4 censos,4,tanh,lbfgs,True,0.10015231400038571,1991,8.412,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_total,População Total,dados_magalhaes_barata,Grupo 1 — 4 censos,4,tanh,lbfgs,True,0.10015231400038571,2000,8.12,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_total,População Total,dados_magalhaes_barata,Grupo 1 — 4 censos,4,tanh,lbfgs,True,0.10015231400038571,2010,8.115,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_total,População Total,dados_magalhaes_barata,Grupo 1 — 4 censos,4,tanh,lbfgs,True,0.10015231400038571,2022,8.115,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_urbana,População Urbana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.15226501704855058,2000,3.98,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_urbana,População Urbana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.15226501704855058,2010,4.28,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_urbana,População Urbana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.15226501704855058,2022,4.84,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_rural,População Rural,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.1302898332247541,2000,4.14,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_rural,População Rural,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.1302898332247541,2010,3.835,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_rural,População Rural,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.1302898332247541,2022,3.275,Valor
+Magalhães Barata,dados_magalhaes_barata__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_mulheres,População de Mulheres,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04044973019613529,2000,3.98,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_mulheres,População de Mulheres,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04044973019613529,2010,3.94,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_mulheres,População de Mulheres,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04044973019613529,2022,4.02,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_homens,População de Homens,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.041272850430941865,2000,4.14,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_homens,População de Homens,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.041272850430941865,2010,4.175,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_de_homens,População de Homens,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,0.041272850430941865,2022,4.095,Valor
+Magalhães Barata,dados_magalhaes_barata__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,2.049459263484323,2000,104.0,Valor
+Magalhães Barata,dados_magalhaes_barata__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,2.049459263484323,2010,106.0,Valor
+Magalhães Barata,dados_magalhaes_barata__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,2.049459263484323,2022,101.9,Valor
+Magalhães Barata,dados_magalhaes_barata__idade_mediana,Idade Mediana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678772,2000,22.0,Valor
+Magalhães Barata,dados_magalhaes_barata__idade_mediana,Idade Mediana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678772,2010,27.0,Valor
+Magalhães Barata,dados_magalhaes_barata__idade_mediana,Idade Mediana,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678772,2022,34.0,Valor
+Magalhães Barata,dados_magalhaes_barata__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.030252172887979,2000,12.8,Valor
+Magalhães Barata,dados_magalhaes_barata__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.030252172887979,2010,20.2,Valor
+Magalhães Barata,dados_magalhaes_barata__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.030252172887979,2022,42.1,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_parda,População Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.029187658437404156,2000,5.92,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_parda,População Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.029187658437404156,2010,6.02,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_parda,População Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.029187658437404156,2022,6.08,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_branca,População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252378469245173,2000,1.58,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_branca,População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252378469245173,2010,1.48,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_branca,População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015252378469245173,2022,1.38,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_preta,População Preta,dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,adam,True,14.766301598875847,2000,580.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_preta,População Preta,dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,adam,True,14.766301598875847,2010,580.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_preta,População Preta,dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,adam,True,14.766301598875847,2022,610.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_amarela,População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,2.71329649070625,2000,30.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_amarela,População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,2.71329649070625,2010,20.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_amarela,População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,2.71329649070625,2022,12.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena,População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2000,10.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena,População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2010,15.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena,População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2022,33.0,Valor
+Magalhães Barata,dados_magalhaes_barata__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2000,112.8,Valor
+Magalhães Barata,dados_magalhaes_barata__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2010,298.4,Valor
+Magalhães Barata,dados_magalhaes_barata__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2022,818.0,Valor
+Magalhães Barata,dados_magalhaes_barata__apenas_1_trabalho,Apenas 1 trabalho,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2000,96.5,Valor
+Magalhães Barata,dados_magalhaes_barata__apenas_1_trabalho,Apenas 1 trabalho,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2010,96.1,Valor
+Magalhães Barata,dados_magalhaes_barata__apenas_1_trabalho,Apenas 1 trabalho,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2022,94.4,Valor
+Magalhães Barata,dados_magalhaes_barata__2_trabalhos,2 trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2000,3.1,Valor
+Magalhães Barata,dados_magalhaes_barata__2_trabalhos,2 trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2010,3.4,Valor
+Magalhães Barata,dados_magalhaes_barata__2_trabalhos,2 trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2022,4.9,Valor
+Magalhães Barata,dados_magalhaes_barata__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2000,0.4,Valor
+Magalhães Barata,dados_magalhaes_barata__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2010,0.5,Valor
+Magalhães Barata,dados_magalhaes_barata__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2022,0.7,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado,Setor privado,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,534.0894527349454,2000,680.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado,Setor privado,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,534.0894527349454,2010,940.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado,Setor privado,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,534.0894527349454,2022,1.22,Valor
+Magalhães Barata,dados_magalhaes_barata__conta_propria,Conta própria,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.05555997302944856,2000,1.12,Valor
+Magalhães Barata,dados_magalhaes_barata__conta_propria,Conta própria,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.05555997302944856,2010,1.31,Valor
+Magalhães Barata,dados_magalhaes_barata__conta_propria,Conta própria,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.05555997302944856,2022,1.42,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico,Setor público,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,74.49171495911976,2000,450.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico,Setor público,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,74.49171495911976,2010,710.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico,Setor público,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,74.49171495911976,2022,920.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalhador_domestico,Trabalhador doméstico,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,17.409173064062532,2000,160.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalhador_domestico,Trabalhador doméstico,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,17.409173064062532,2010,220.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalhador_domestico,Trabalhador doméstico,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,17.409173064062532,2022,260.0,Valor
+Magalhães Barata,dados_magalhaes_barata__empregador,Empregador,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2000,40.0,Valor
+Magalhães Barata,dados_magalhaes_barata__empregador,Empregador,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2010,60.0,Valor
+Magalhães Barata,dados_magalhaes_barata__empregador,Empregador,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,4.570848225506921,2022,90.0,Valor
+Magalhães Barata,dados_magalhaes_barata__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,58.797073035512604,2000,380.0,Valor
+Magalhães Barata,dados_magalhaes_barata__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,58.797073035512604,2010,190.0,Valor
+Magalhães Barata,dados_magalhaes_barata__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,58.797073035512604,2022,90.0,Valor
+Magalhães Barata,dados_magalhaes_barata__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Magalhães Barata,dados_magalhaes_barata__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Magalhães Barata,dados_magalhaes_barata__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,45.60311083505527,2000,220.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,45.60311083505527,2010,420.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,45.60311083505527,2022,600.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,21.321844100697792,2000,460.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,21.321844100697792,2010,520.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,21.321844100697792,2022,620.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2000,10.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2010,20.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2022,40.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,71.93492610970979,2000,440.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,71.93492610970979,2010,690.0,Valor
+Magalhães Barata,dados_magalhaes_barata__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,71.93492610970979,2022,880.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2000,10.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2010,15.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2022,20.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,16.001501141382374,2000,150.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,16.001501141382374,2010,205.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,16.001501141382374,2022,240.0,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_magalhaes_barata,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,1991,71.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_magalhaes_barata,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2000,78.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_magalhaes_barata,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2010,85.4,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_magalhaes_barata,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2022,90.4,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2000,91.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2010,96.1,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2022,98.4,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2000,31.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2010,43.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2022,57.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Magalhães Barata,dados_magalhaes_barata__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_com_superior_completo,População com Superior Completo,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,97.44118119747168,2000,60.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_com_superior_completo,População com Superior Completo,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,97.44118119747168,2010,220.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_com_superior_completo,População com Superior Completo,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,97.44118119747168,2022,540.0,Valor
+Magalhães Barata,dados_magalhaes_barata__anos_de_estudo_media,Anos de Estudo (Média),dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,1991,3.7,Valor
+Magalhães Barata,dados_magalhaes_barata__anos_de_estudo_media,Anos de Estudo (Média),dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2000,5.1,Valor
+Magalhães Barata,dados_magalhaes_barata__anos_de_estudo_media,Anos de Estudo (Média),dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2010,6.9,Valor
+Magalhães Barata,dados_magalhaes_barata__anos_de_estudo_media,Anos de Estudo (Média),dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2022,8.6,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,1991,4.0,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2000,5.4,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2010,7.3,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2022,9.0,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,1991,3.4,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2000,4.8,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2010,6.5,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_magalhaes_barata,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2022,8.2,Valor
+Magalhães Barata,dados_magalhaes_barata__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,1991,0.314,Valor
+Magalhães Barata,dados_magalhaes_barata__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2000,0.471,Valor
+Magalhães Barata,dados_magalhaes_barata__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2010,0.584,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2000,63.1,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2010,75.1,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2022,82.1,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2000,21.2,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2010,27.1,Valor
+Magalhães Barata,dados_magalhaes_barata__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2022,26.2,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_amarela,Média: População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2000,5.8,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_amarela,Média: População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2010,7.9,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_amarela,Média: População Amarela,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2022,9.5,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_branca,Média: População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2000,5.6,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_branca,Média: População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2010,7.5,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_branca,Média: População Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2022,9.2,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_preta_parda,Média: População Preta / Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2000,4.9,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_preta_parda,Média: População Preta / Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2010,6.7,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_preta_parda,Média: População Preta / Parda,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2022,8.4,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_indigena,Média: População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2000,4.0,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_indigena,Média: População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2010,5.4,Valor
+Magalhães Barata,dados_magalhaes_barata__media_populacao_indigena,Média: População Indígena,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2022,7.1,Valor
+Magalhães Barata,dados_magalhaes_barata__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_residente_em_favelas,População Residente em Favelas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_residente_em_favelas,População Residente em Favelas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_parda_2,População Parda,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_parda_2,População Parda,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_branca_2,População Branca,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_branca_2,População Branca,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_preta_2,População Preta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_preta_2,População Preta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_amarela_2,População Amarela,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_amarela_2,População Amarela,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena_2,População Indígena,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena_2,População Indígena,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Magalhães Barata,dados_magalhaes_barata__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,85.5,Valor
+Magalhães Barata,dados_magalhaes_barata__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.5,Valor
+Magalhães Barata,dados_magalhaes_barata__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Magalhães Barata,dados_magalhaes_barata__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.5,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos,Casais com filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2000,61.1,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos,Casais com filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2010,51.1,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos,Casais com filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2022,41.1,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_sem_filhos,Casais sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2000,9.4,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_sem_filhos,Casais sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2010,13.0,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_sem_filhos,Casais sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2022,17.6,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2000,14.9,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2010,18.2,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2022,21.9,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,2.7,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.0,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.4,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2000,7.8,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2010,8.8,Valor
+Magalhães Barata,dados_magalhaes_barata__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2022,6.8,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2000,3.4,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2010,5.1,Valor
+Magalhães Barata,dados_magalhaes_barata__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2022,8.4,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2000,0.7,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2010,0.8,Valor
+Magalhães Barata,dados_magalhaes_barata__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2022,0.8,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.1,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_em_outro_municipio,Trabalha em outro município,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Magalhães Barata,dados_magalhaes_barata__trabalha_em_outro_municipio,Trabalha em outro município,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.9,Valor
+Magalhães Barata,dados_magalhaes_barata__motocicleta,Motocicleta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.9,Valor
+Magalhães Barata,dados_magalhaes_barata__motocicleta,Motocicleta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.7,Valor
+Magalhães Barata,dados_magalhaes_barata__bicicleta,Bicicleta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.7,Valor
+Magalhães Barata,dados_magalhaes_barata__bicicleta,Bicicleta,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.1,Valor
+Magalhães Barata,dados_magalhaes_barata__automovel_carro,Automóvel (Carro),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Magalhães Barata,dados_magalhaes_barata__automovel_carro,Automóvel (Carro),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Magalhães Barata,dados_magalhaes_barata__a_pe,A pé,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.0,Valor
+Magalhães Barata,dados_magalhaes_barata__a_pe,A pé,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.5,Valor
+Magalhães Barata,dados_magalhaes_barata__onibus,Ônibus,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+Magalhães Barata,dados_magalhaes_barata__onibus,Ônibus,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.9,Valor
+Magalhães Barata,dados_magalhaes_barata__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.0,Valor
+Magalhães Barata,dados_magalhaes_barata__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Magalhães Barata,dados_magalhaes_barata__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.9,Valor
+Magalhães Barata,dados_magalhaes_barata__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.6,Valor
+Magalhães Barata,dados_magalhaes_barata__mais_de_1_hora,Mais de 1 hora,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.1,Valor
+Magalhães Barata,dados_magalhaes_barata__mais_de_1_hora,Mais de 1 hora,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Magalhães Barata,dados_magalhaes_barata__estuda_no_proprio_municipio_magalhaes_barata,Estuda no próprio município (Magalhães Barata),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.1,Valor
+Magalhães Barata,dados_magalhaes_barata__estuda_no_proprio_municipio_magalhaes_barata,Estuda no próprio município (Magalhães Barata),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.0,Valor
+Magalhães Barata,dados_magalhaes_barata__estuda_em_outro_municipio,Estuda em outro município,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Magalhães Barata,dados_magalhaes_barata__estuda_em_outro_municipio,Estuda em outro município,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.0,Valor
+Magalhães Barata,dados_magalhaes_barata__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24628704944303204,2000,2.04,Valor
+Magalhães Barata,dados_magalhaes_barata__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24628704944303204,2010,2.22,Valor
+Magalhães Barata,dados_magalhaes_barata__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24628704944303204,2022,2.88,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24728195335700587,2000,2.01,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24728195335700587,2010,2.18,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24728195335700587,2022,2.84,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2000,30.0,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2010,40.0,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_magalhaes_barata,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2022,40.0,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2000,4.2,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2010,3.7,Valor
+Magalhães Barata,dados_magalhaes_barata__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2022,2.9,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.2,Valor
+Magalhães Barata,dados_magalhaes_barata__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.1,Valor
+Magalhães Barata,dados_magalhaes_barata__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.1,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.7,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.6,Valor
+Magalhães Barata,dados_magalhaes_barata__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Magalhães Barata,dados_magalhaes_barata__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.2,Valor
+Magalhães Barata,dados_magalhaes_barata__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Magalhães Barata,dados_magalhaes_barata__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Magalhães Barata,dados_magalhaes_barata__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Magalhães Barata,dados_magalhaes_barata__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.9,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.9,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.8,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_sem_arvores,Ruas Sem Árvores,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.1,Valor
+Magalhães Barata,dados_magalhaes_barata__ruas_sem_arvores,Ruas Sem Árvores,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.2,Valor
+Magalhães Barata,dados_magalhaes_barata__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.3,Valor
+Magalhães Barata,dados_magalhaes_barata__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Magalhães Barata,dados_magalhaes_barata__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Magalhães Barata,dados_magalhaes_barata__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Magalhães Barata,dados_magalhaes_barata__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.1,Valor
+Magalhães Barata,dados_magalhaes_barata__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.1,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena_total,População Indígena Total,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2000,10.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena_total,População Indígena Total,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2010,15.0,Valor
+Magalhães Barata,dados_magalhaes_barata__populacao_indigena_total,População Indígena Total,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.707874949228386,2022,33.0,Valor
+Magalhães Barata,dados_magalhaes_barata__proporcao_na_populacao_de_magalhaes_barata,Proporção na população de Magalhães Barata,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08609864254001924,2000,0.12,Valor
+Magalhães Barata,dados_magalhaes_barata__proporcao_na_populacao_de_magalhaes_barata,Proporção na população de Magalhães Barata,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08609864254001924,2010,0.18,Valor
+Magalhães Barata,dados_magalhaes_barata__proporcao_na_populacao_de_magalhaes_barata,Proporção na população de Magalhães Barata,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.08609864254001924,2022,0.41,Valor
+Magalhães Barata,dados_magalhaes_barata__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.6,Valor
+Magalhães Barata,dados_magalhaes_barata__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.6,Valor
+Magalhães Barata,dados_magalhaes_barata__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Magalhães Barata,dados_magalhaes_barata__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Magalhães Barata,dados_magalhaes_barata__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Magalhães Barata,dados_magalhaes_barata__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.7,Valor
+Magalhães Barata,dados_magalhaes_barata__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Magalhães Barata,dados_magalhaes_barata__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2000,16.3,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2010,19.9,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2022,25.9,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2000,55.7,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2010,47.7,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2022,39.7,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2000,10.1,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2010,12.8,Valor
+Magalhães Barata,dados_magalhaes_barata__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2022,16.0,Valor
+Magalhães Barata,dados_magalhaes_barata__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Magalhães Barata,dados_magalhaes_barata__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.7,Valor
+Magalhães Barata,dados_magalhaes_barata__sem_conjuge,Sem cônjuge,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.1,Valor
+Magalhães Barata,dados_magalhaes_barata__sem_conjuge,Sem cônjuge,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Magalhães Barata,dados_magalhaes_barata__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Magalhães Barata,dados_magalhaes_barata__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_magalhaes_barata,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_mulher,Responsável Mulher,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_mulher,Responsável Mulher,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_mulher,Responsável Mulher,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_homem,Responsável Homem,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2000,4.5,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_homem,Responsável Homem,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2010,3.8,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_homem,Responsável Homem,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2022,3.1,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Magalhães Barata,dados_magalhaes_barata__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2000,13.5,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2010,17.5,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2022,24.0,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2000,16.8,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2010,21.1,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2022,25.1,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2000,44.6,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2010,28.4,Valor
+Magalhães Barata,dados_magalhaes_barata__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_magalhaes_barata,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2022,17.7,Valor
