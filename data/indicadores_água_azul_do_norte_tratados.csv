@@ -1,0 +1,289 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_total,População Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7092712705419877,2000,22.341,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_total,População Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7092712705419877,2010,25.053,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_total,População Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,3.7092712705419877,2022,18.08,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_urbana,População Urbana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.2085547453089913,2000,6.24,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_urbana,População Urbana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.2085547453089913,2010,9.81,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_urbana,População Urbana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.2085547453089913,2022,9.42,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_rural,População Rural,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.729899140647195,2000,16.101,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_rural,População Rural,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.729899140647195,2010,15.243,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_rural,População Rural,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.729899140647195,2022,8.66,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_mulheres,População de Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5992649683378215,2000,10.24,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_mulheres,População de Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5992649683378215,2010,11.82,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_mulheres,População de Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5992649683378215,2022,8.64,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_homens,População de Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1309961640966253,2000,12.101,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_homens,População de Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1309961640966253,2010,13.233,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_de_homens,População de Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.1309961640966253,2022,9.44,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.3158768896845365,2000,118.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.3158768896845365,2010,112.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.3158768896845365,2022,109.3,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__idade_mediana,Idade Mediana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2000,21.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__idade_mediana,Idade Mediana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2010,25.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__idade_mediana,Idade Mediana,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013838,2022,31.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.209061904046742,2000,6.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.209061904046742,2010,13.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.209061904046742,2022,32.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_parda,População Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.0866185072288563,2000,14.82,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_parda,População Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.0866185072288563,2010,17.12,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_parda,População Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.0866185072288563,2022,13.21,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_branca,População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3951313020806424,2000,5.81,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_branca,População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3951313020806424,2010,5.98,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_branca,População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.3951313020806424,2022,3.64,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_preta,População Preta,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2049535714904097,2000,1.21,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_preta,População Preta,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2049535714904097,2010,1.42,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_preta,População Preta,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2049535714904097,2022,1.02,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_amarela,População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,138.676357982015,2000,280.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_amarela,População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,138.676357982015,2010,320.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_amarela,População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,138.676357982015,2022,90.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena,População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2000,221.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena,População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2010,213.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena,População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2022,120.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,138.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,392.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575273623874665,2000,96.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575273623874665,2010,96.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__apenas_1_trabalho,Apenas 1 trabalho,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575273623874665,2022,94.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__2_trabalhos,2 trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.875608595976605,2000,3.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__2_trabalhos,2 trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.875608595976605,2010,3.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__2_trabalhos,2 trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.875608595976605,2022,4.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2000,0.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2010,0.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2022,0.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado,Setor privado,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.23014005255188139,2000,2.41,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado,Setor privado,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.23014005255188139,2010,3.21,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado,Setor privado,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.23014005255188139,2022,3.82,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__conta_propria,Conta própria,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.1468177542490222,2000,2.12,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__conta_propria,Conta própria,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.1468177542490222,2010,2.48,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__conta_propria,Conta própria,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.1468177542490222,2022,2.61,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico,Setor público,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,407.4252154408327,2000,740.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico,Setor público,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,407.4252154408327,2010,1.02,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico,Setor público,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,407.4252154408327,2022,1.38,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,49.178775586083226,2000,380.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,49.178775586083226,2010,490.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalhador_domestico,Trabalhador doméstico,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,49.178775586083226,2022,520.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__empregador,Empregador,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,38.15079996538602,2000,210.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__empregador,Empregador,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,38.15079996538602,2010,340.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__empregador,Empregador,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,38.15079996538602,2022,410.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,143.83580114588707,2000,940.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,143.83580114588707,2010,480.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,143.83580114588707,2022,240.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2000,50.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2010,80.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2022,110.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,539.4779584984258,2000,980.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,539.4779584984258,2010,1.68,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,adam,True,539.4779584984258,2022,2.34,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05020352518853747,2000,1.43,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05020352518853747,2010,1.53,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.05020352518853747,2022,1.48,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2000,40.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2010,90.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,14.59382921870222,2022,120.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,537.3646889661876,2000,700.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,537.3646889661876,2010,930.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,537.3646889661876,2022,1.26,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,8.704586532031266,2000,30.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,8.704586532031266,2010,60.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,8.704586532031266,2022,80.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,38.612960848399005,2000,350.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,38.612960848399005,2010,430.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,tanh,lbfgs,True,38.612960848399005,2022,440.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.4754922561594412,2000,72.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.4754922561594412,2010,81.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.4754922561594412,2022,87.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.024148073701312,2000,87.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.024148073701312,2010,93.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,2.024148073701312,2022,97.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.153426027019486,2000,26.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.153426027019486,2010,38.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.153426027019486,2022,51.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2000,79.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2010,91.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2022,94.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,291.92791410211305,2000,210.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,291.92791410211305,2010,540.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_com_superior_completo,População com Superior Completo,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,291.92791410211305,2022,1.21,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2000,3.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2010,5.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__anos_de_estudo_media,Anos de Estudo (Média),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.27346060788031085,2022,7.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.364745858115432,2000,3.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.364745858115432,2010,5.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.364745858115432,2022,7.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2000,3.3,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2010,5.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2022,6.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.364,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.532,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2000,79.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2010,91.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,adam,True,5.286893723247616,2022,94.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,3.371518797856664,2000,56.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,3.371518797856664,2010,68.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,3.371518797856664,2022,76.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.6225726180587543,2000,17.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.6225726180587543,2010,21.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,2.6225726180587543,2022,20.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_amarela,Média: População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.5785820688290823,2000,4.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_amarela,Média: População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.5785820688290823,2010,6.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_amarela,Média: População Amarela,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.5785820688290823,2022,8.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_branca,Média: População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2000,4.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_branca,Média: População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2010,6.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_branca,Média: População Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2022,7.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2000,3.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2010,5.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_preta_parda,Média: População Preta / Parda,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2022,7.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_indigena,Média: População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336753,2000,2.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_indigena,Média: População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336753,2010,4.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_populacao_indigena,Média: População Indígena,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.06050559542336753,2022,5.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_residente_em_favelas,População Residente em Favelas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_residente_em_favelas,População Residente em Favelas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_parda_2,População Parda,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_parda_2,População Parda,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_branca_2,População Branca,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_branca_2,População Branca,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_preta_2,População Preta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_preta_2,População Preta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_amarela_2,População Amarela,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_amarela_2,População Amarela,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena_2,População Indígena,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena_2,População Indígena,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,87.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos,Casais com filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948389108847275,2000,65.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos,Casais com filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948389108847275,2010,55.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos,Casais com filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948389108847275,2022,44.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_sem_filhos,Casais sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.06609220503489,2000,7.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_sem_filhos,Casais sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.06609220503489,2010,10.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_sem_filhos,Casais sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.06609220503489,2022,15.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739171,2000,11.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739171,2010,15.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.5165367037739171,2022,18.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2000,3.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2010,3.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2022,4.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235668636630033,2000,7.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235668636630033,2010,8.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0235668636630033,2022,6.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2000,3.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2010,3.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.19602088086826974,2022,3.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.061577470809780634,2000,0.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.061577470809780634,2010,0.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.061577470809780634,2022,0.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_em_outro_municipio,Trabalha em outro município,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__trabalha_em_outro_municipio,Trabalha em outro município,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__motocicleta,Motocicleta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__motocicleta,Motocicleta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,40.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__bicicleta,Bicicleta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,21.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__bicicleta,Bicicleta,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__automovel_carro,Automóvel (Carro),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__automovel_carro,Automóvel (Carro),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__a_pe,A pé,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__a_pe,A pé,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__onibus,Ônibus,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__onibus,Ônibus,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__mais_de_1_hora,Mais de 1 hora,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__mais_de_1_hora,Mais de 1 hora,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estuda_no_proprio_municipio_agua_azul_do_nort,Estuda no próprio município (Água Azul do Norte),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estuda_no_proprio_municipio_agua_azul_do_nort,Estuda no próprio município (Água Azul do Norte),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estuda_em_outro_municipio,Estuda em outro município,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estuda_em_outro_municipio,Estuda em outro município,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9248303426512526,2000,5.38,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9248303426512526,2010,7.12,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9248303426512526,2022,6.42,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9148377125273864,2000,5.34,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9148377125273864,2010,7.06,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9148377125273864,2022,6.37,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,10.040705037707497,2000,40.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,10.040705037707497,2010,60.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,logistic,sgd,True,10.040705037707497,2022,50.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471598,2000,4.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471598,2010,3.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471598,2022,2.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,54.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,58.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,59.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,56.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_sem_arvores,Ruas Sem Árvores,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,40.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ruas_sem_arvores,Ruas Sem Árvores,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,43.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,1.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.9,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena_total,População Indígena Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2000,221.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena_total,População Indígena Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2010,213.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__populacao_indigena_total,População Indígena Total,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,lbfgs,True,42.50071703001893,2022,120.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__proporcao_na_populacao_de_agua_azul_do_norte,Proporção na população de Água Azul do Norte,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.016777776708495524,2000,0.99,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__proporcao_na_populacao_de_agua_azul_do_norte,Proporção na população de Água Azul do Norte,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.016777776708495524,2010,0.85,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__proporcao_na_populacao_de_agua_azul_do_norte,Proporção na população de Água Azul do Norte,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.016777776708495524,2022,0.66,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,15.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.6097976681343015,2000,12.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.6097976681343015,2010,16.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.6097976681343015,2022,22.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2851306336089318,2000,59.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2851306336089318,2010,52.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.2851306336089318,2022,43.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2000,8.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2010,11.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,sgd,True,0.21101351656861608,2022,14.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.1,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__sem_conjuge,Sem cônjuge,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.5,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__sem_conjuge,Sem cônjuge,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_agua_azul_do_norte,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_mulher,Responsável Mulher,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_mulher,Responsável Mulher,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_mulher,Responsável Mulher,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_homem,Responsável Homem,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2000,4.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_homem,Responsável Homem,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2010,3.6,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_homem,Responsável Homem,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,0.2186119147281079,2022,3.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0055866096115256,2000,11.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0055866096115256,2010,16.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,1.0055866096115256,2022,22.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9728312406745067,2000,15.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9728312406745067,2010,20.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,identity,adam,True,0.9728312406745067,2022,24.2,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,4.745132923638802,2000,49.8,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,4.745132923638802,2010,32.4,Valor
+Água Azul do Norte,dados_agua_azul_do_norte__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_agua_azul_do_norte,Grupo 2 — 3 censos,3,relu,adam,True,4.745132923638802,2022,19.1,Valor
