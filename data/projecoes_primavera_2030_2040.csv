@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Primavera,dados_primavera__anos_de_estudo_media,Anos de Estudo (Média),dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409483,2030,9.9519456444278
+Primavera,dados_primavera__anos_de_estudo_media,Anos de Estudo (Média),dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409483,2040,11.550753376064177
+Primavera,dados_primavera__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.12580102302297358,2030,9.508635216364182
+Primavera,dados_primavera__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.12580102302297358,2040,11.068962521087636
+Primavera,dados_primavera__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106285,2030,10.39525598673518
+Primavera,dados_primavera__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_primavera,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106285,2040,12.032544198956307
+Primavera,dados_primavera__populacao_total,População Total,dados_primavera,Grupo 1 — 4 censos,identity,adam,True,0.18553754595863703,2030,11.246687865514058
+Primavera,dados_primavera__populacao_total,População Total,dados_primavera,Grupo 1 — 4 censos,identity,adam,True,0.18553754595863703,2040,11.688656203546836
+Primavera,dados_primavera__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_primavera,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3595513307531597,2030,91.98982602353193
+Primavera,dados_primavera__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_primavera,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3595513307531597,2040,93.07197826195961
+Primavera,dados_primavera__2_trabalhos,2 trabalhos,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.6215770336287946,2030,5.674888374478787
+Primavera,dados_primavera__2_trabalhos,2 trabalhos,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.6215770336287946,2040,6.583449107842972
+Primavera,dados_primavera__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2030,0.7985214662320534
+Primavera,dados_primavera__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2040,0.9354311763287215
+Primavera,dados_primavera__apenas_1_trabalho,Apenas 1 trabalho,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.54700880039537,2030,93.3248761898689
+Primavera,dados_primavera__apenas_1_trabalho,Apenas 1 trabalho,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.54700880039537,2040,91.950520754989
+Primavera,dados_primavera__casais_com_filhos,Casais com filhos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2030,33.57223261346623
+Primavera,dados_primavera__casais_com_filhos,Casais com filhos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2040,24.50629542632597
+Primavera,dados_primavera__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2030,7.804315605138771
+Primavera,dados_primavera__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2040,7.800149798290406
+Primavera,dados_primavera__casais_sem_filhos,Casais sem filhos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2030,20.545965097787594
+Primavera,dados_primavera__casais_sem_filhos,Casais sem filhos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2040,24.276785620406738
+Primavera,dados_primavera__conta_propria,Conta própria,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.015165913138347031,2030,1.894638904939482
+Primavera,dados_primavera__conta_propria,Conta própria,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.015165913138347031,2040,2.084551730984792
+Primavera,dados_primavera__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_primavera,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2030,39.630091475975
+Primavera,dados_primavera__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_primavera,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2040,39.3756492442494
+Primavera,dados_primavera__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.3804912359004928,2030,4.270491137001884
+Primavera,dados_primavera__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.3804912359004928,2040,4.862097469844079
+Primavera,dados_primavera__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102351,2030,27.586658095692606
+Primavera,dados_primavera__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102351,2040,32.362911612839156
+Primavera,dados_primavera__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2030,28.25397760692442
+Primavera,dados_primavera__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2040,31.998121431198957
+Primavera,dados_primavera__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2030,12.244354613037402
+Primavera,dados_primavera__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2040,4.901418755136248
+Primavera,dados_primavera__empregador,Empregador,dados_primavera,Grupo 2 — 3 censos,identity,sgd,True,3.0370808233056885,2030,146.8974426752009
+Primavera,dados_primavera__empregador,Empregador,dados_primavera,Grupo 2 — 3 censos,identity,sgd,True,3.0370808233056885,2040,180.27820913983348
+Primavera,dados_primavera__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2030,98.51290692535788
+Primavera,dados_primavera__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2040,99.11378443954173
+Primavera,dados_primavera__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,3.507690112407533,2030,85.2680387322737
+Primavera,dados_primavera__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,3.507690112407533,2040,88.91844428046004
+Primavera,dados_primavera__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,3.6167471797380806,2030,24.860480907198177
+Primavera,dados_primavera__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,3.6167471797380806,2040,24.851889641572267
+Primavera,dados_primavera__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.0434138248824793,2030,0.7334834363398779
+Primavera,dados_primavera__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.0434138248824793,2040,0.8062501151894985
+Primavera,dados_primavera__idade_mediana,Idade Mediana,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2030,36.70464018886804
+Primavera,dados_primavera__idade_mediana,Idade Mediana,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.6750995875190877,2040,41.71417399679638
+Primavera,dados_primavera__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,47.49786523588253
+Primavera,dados_primavera__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,56.52897162635126
+Primavera,dados_primavera__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348657,2030,24.467946075120572
+Primavera,dados_primavera__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348657,2040,27.634044993283126
+Primavera,dados_primavera__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2030,10.051232925576262
+Primavera,dados_primavera__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2040,12.33200018072798
+Primavera,dados_primavera__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525247470464072,2030,2.452721295350667
+Primavera,dados_primavera__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525247470464072,2040,1.8593126317199382
+Primavera,dados_primavera__media_populacao_amarela,Média: População Amarela,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2030,10.230984450071759
+Primavera,dados_primavera__media_populacao_amarela,Média: População Amarela,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2040,11.126336378216408
+Primavera,dados_primavera__media_populacao_branca,Média: População Branca,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572026,2030,10.577875818825987
+Primavera,dados_primavera__media_populacao_branca,Média: População Branca,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572026,2040,12.200983996543755
+Primavera,dados_primavera__media_populacao_indigena,Média: População Indígena,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833650851,2030,8.2246540391214
+Primavera,dados_primavera__media_populacao_indigena,Média: População Indígena,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833650851,2040,9.634014018787937
+Primavera,dados_primavera__media_populacao_preta_parda,Média: População Preta / Parda,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2030,9.726244088120604
+Primavera,dados_primavera__media_populacao_preta_parda,Média: População Preta / Parda,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2040,11.305428803558552
+Primavera,dados_primavera__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,92.83239629372291,2030,48.75201967455675
+Primavera,dados_primavera__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,92.83239629372291,2040,-34.53867627861058
+Primavera,dados_primavera__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_primavera,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,3.668974426752009
+Primavera,dados_primavera__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_primavera,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.002782091398335
+Primavera,dados_primavera__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2030,0.8180979135796016
+Primavera,dados_primavera__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2040,0.8206676756222387
+Primavera,dados_primavera__populacao_amarela,População Amarela,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,7.971156875629197,2030,6.087342294696551
+Primavera,dados_primavera__populacao_amarela,População Amarela,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,7.971156875629197,2040,-0.7318004358642654
+Primavera,dados_primavera__populacao_branca,População Branca,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,0.05102910412104918,2030,1.8738043984110224
+Primavera,dados_primavera__populacao_branca,População Branca,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,0.05102910412104918,2040,1.8718186922476987
+Primavera,dados_primavera__populacao_indigena,População Indígena,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,12.0210381279117,2030,32.920688097209954
+Primavera,dados_primavera__populacao_indigena,População Indígena,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,12.0210381279117,2040,33.98931687334814
+Primavera,dados_primavera__populacao_indigena_total,População Indígena Total,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,12.0210381279117,2030,32.920688097209954
+Primavera,dados_primavera__populacao_indigena_total,População Indígena Total,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,12.0210381279117,2040,33.98931687334814
+Primavera,dados_primavera__populacao_parda,População Parda,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.1187893681531736,2030,8.471650887955219
+Primavera,dados_primavera__populacao_parda,População Parda,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.1187893681531736,2040,8.863081215662122
+Primavera,dados_primavera__populacao_preta,População Preta,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,57.25794301940167,2030,723.7611324662959
+Primavera,dados_primavera__populacao_preta,População Preta,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,57.25794301940167,2040,723.6197668506148
+Primavera,dados_primavera__populacao_rural,População Rural,dados_primavera,Grupo 2 — 3 censos,tanh,sgd,True,0.40617669234331216,2030,3.5808842316747906
+Primavera,dados_primavera__populacao_rural,População Rural,dados_primavera,Grupo 2 — 3 censos,tanh,sgd,True,0.40617669234331216,2040,3.527855241055233
+Primavera,dados_primavera__populacao_urbana,População Urbana,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.32152383058316286,2030,7.5220447784386995
+Primavera,dados_primavera__populacao_urbana,População Urbana,dados_primavera,Grupo 2 — 3 censos,relu,adam,True,0.32152383058316286,2040,8.014988152330995
+Primavera,dados_primavera__populacao_com_superior_completo,População com Superior Completo,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,153.22407950519593,2030,907.8167916889619
+Primavera,dados_primavera__populacao_com_superior_completo,População com Superior Completo,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,153.22407950519593,2040,1149.2838371217922
+Primavera,dados_primavera__populacao_de_homens,População de Homens,dados_primavera,Grupo 2 — 3 censos,relu,sgd,True,0.11913706753321425,2030,5.571853055979075
+Primavera,dados_primavera__populacao_de_homens,População de Homens,dados_primavera,Grupo 2 — 3 censos,relu,sgd,True,0.11913706753321425,2040,5.695491755523725
+Primavera,dados_primavera__populacao_de_mulheres,População de Mulheres,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.13617065054896185,2030,5.577684867903741
+Primavera,dados_primavera__populacao_de_mulheres,População de Mulheres,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.13617065054896185,2040,5.786358988032115
+Primavera,dados_primavera__proporcao_na_populacao_de_primavera,Proporção na população de Primavera,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,0.11034195668521297,2030,0.3065253545329781
+Primavera,dados_primavera__proporcao_na_populacao_de_primavera,Proporção na população de Primavera,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,0.11034195668521297,2040,0.31617247299638457
+Primavera,dados_primavera__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,4.5686159410252e-05,2030,99.69995223386657
+Primavera,dados_primavera__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,4.5686159410252e-05,2040,97.69995628402302
+Primavera,dados_primavera__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,189.58851449229465,2030,1058.9813237091755
+Primavera,dados_primavera__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,189.58851449229465,2040,1352.6683448580595
+Primavera,dados_primavera__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2030,33.67778609077298
+Primavera,dados_primavera__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2040,26.425036341060775
+Primavera,dados_primavera__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2030,18.14155426993752
+Primavera,dados_primavera__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2040,20.812317407676943
+Primavera,dados_primavera__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418688,2030,29.16337633736586
+Primavera,dados_primavera__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418688,2040,33.531976799873846
+Primavera,dados_primavera__responsavel_homem,Responsável Homem,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2030,2.5730562829426358
+Primavera,dados_primavera__responsavel_homem,Responsável Homem,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2040,1.938440679842818
+Primavera,dados_primavera__responsavel_mulher,Responsável Mulher,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Primavera,dados_primavera__responsavel_mulher,Responsável Mulher,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Primavera,dados_primavera__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2030,2.348333956807973
+Primavera,dados_primavera__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_primavera,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2040,1.804377725579558
+Primavera,dados_primavera__setor_privado,Setor privado,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,462.5089736491261,2030,-4.183409383654464
+Primavera,dados_primavera__setor_privado,Setor privado,dados_primavera,Grupo 2 — 3 censos,tanh,adam,True,462.5089736491261,2040,20.20259150164418
+Primavera,dados_primavera__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,4.504991087998178,2030,961.8204230094568
+Primavera,dados_primavera__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,4.504991087998178,2040,1188.124028962598
+Primavera,dados_primavera__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,61.085982271994304,2030,877.5757960471635
+Primavera,dados_primavera__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,61.085982271994304,2040,972.9353924726585
+Primavera,dados_primavera__setor_publico,Setor público,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,428.55030522792003,2030,434.72944625374276
+Primavera,dados_primavera__setor_publico,Setor público,dados_primavera,Grupo 2 — 3 censos,logistic,sgd,True,428.55030522792003,2040,433.0038023355644
+Primavera,dados_primavera__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,74.99573047176506
+Primavera,dados_primavera__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,93.05794325270251
+Primavera,dados_primavera__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,36.46141438404137,2030,1159.9487656611807
+Primavera,dados_primavera__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,36.46141438404137,2040,1376.6953190324302
+Primavera,dados_primavera__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.3012108343666628,2030,66.66588428345148
+Primavera,dados_primavera__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_primavera,Grupo 2 — 3 censos,identity,adam,True,0.3012108343666628,2040,78.43258769152484
+Primavera,dados_primavera__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,1.6580694495763169,2030,99.42382808609165
+Primavera,dados_primavera__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_primavera,Grupo 2 — 3 censos,relu,adam,True,1.6580694495763169,2040,100.59660746312225
+Primavera,dados_primavera__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2030,98.51290692535788
+Primavera,dados_primavera__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_primavera,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2040,99.11378443954173
+Primavera,dados_primavera__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.37949633198651894,2030,4.30306030490796
+Primavera,dados_primavera__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,0.37949633198651894,2040,4.891105623336943
+Primavera,dados_primavera__trabalhador_domestico,Trabalhador doméstico,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,9.115353596010342,2030,354.9871914152952
+Primavera,dados_primavera__trabalhador_domestico,Trabalhador doméstico,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,9.115353596010342,2040,409.17382975810756
+Primavera,dados_primavera__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,37.49786523588253
+Primavera,dados_primavera__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,46.52897162635126
+Primavera,dados_primavera__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,7.596127996675297,2030,317.4893261794126
+Primavera,dados_primavera__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_primavera,Grupo 2 — 3 censos,identity,adam,True,7.596127996675297,2040,362.6448581317563
+Primavera,dados_primavera__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,7.499218100650407,2030,49.64091137064297
+Primavera,dados_primavera__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_primavera,Grupo 2 — 3 censos,relu,lbfgs,True,7.499218100650407,2040,61.67852258451455
+Primavera,dados_primavera__a_pe,A pé,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.410656057396526
+Primavera,dados_primavera__a_pe,A pé,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.333440687492782
+Primavera,dados_primavera__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.91661232023675
+Primavera,dados_primavera__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.11121130832659
+Primavera,dados_primavera__automovel_carro,Automóvel (Carro),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.081192135251731
+Primavera,dados_primavera__automovel_carro,Automóvel (Carro),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.142286058288864
+Primavera,dados_primavera__bicicleta,Bicicleta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.255483093649012
+Primavera,dados_primavera__bicicleta,Bicicleta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.181615077768795
+Primavera,dados_primavera__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.3102054502157
+Primavera,dados_primavera__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.12322920783441
+Primavera,dados_primavera__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Primavera,dados_primavera__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Primavera,dados_primavera__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.78683100603559
+Primavera,dados_primavera__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.62235820415751
+Primavera,dados_primavera__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8840596067625865
+Primavera,dados_primavera__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.987114302914444
+Primavera,dados_primavera__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.31450665748199
+Primavera,dados_primavera__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.190471574772772
+Primavera,dados_primavera__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.771785283984274
+Primavera,dados_primavera__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.963036918050584
+Primavera,dados_primavera__estuda_em_outro_municipio,Estuda em outro município,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.882625871007159
+Primavera,dados_primavera__estuda_em_outro_municipio,Estuda em outro município,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.964700180601653
+Primavera,dados_primavera__estuda_no_proprio_municipio_primavera,Estuda no próprio município (Primavera),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.55830616011838
+Primavera,dados_primavera__estuda_no_proprio_municipio_primavera,Estuda no próprio município (Primavera),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.65560565416331
+Primavera,dados_primavera__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.08417247338106
+Primavera,dados_primavera__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.29800120401103
+Primavera,dados_primavera__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.753916495463578
+Primavera,dados_primavera__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.129725055549139
+Primavera,dados_primavera__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.18119213525173
+Primavera,dados_primavera__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.24228605828887
+Primavera,dados_primavera__mais_de_1_hora,Mais de 1 hora,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.650745084532332
+Primavera,dados_primavera__mais_de_1_hora,Mais de 1 hora,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.938928786430541
+Primavera,dados_primavera__motocicleta,Motocicleta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.13772859611501
+Primavera,dados_primavera__motocicleta,Motocicleta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.126314784518854
+Primavera,dados_primavera__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.16739561932947
+Primavera,dados_primavera__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.637156319436414
+Primavera,dados_primavera__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.034804691294916
+Primavera,dados_primavera__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.42604308934498
+Primavera,dados_primavera__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.30298033812933
+Primavera,dados_primavera__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.45571514572217
+Primavera,dados_primavera__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_amarela_2,População Amarela,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_amarela_2,População Amarela,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_branca_2,População Branca,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_branca_2,População Branca,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_indigena_2,População Indígena,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_indigena_2,População Indígena,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_parda_2,População Parda,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_parda_2,População Parda,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_preta_2,População Preta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_preta_2,População Preta,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__populacao_residente_em_favelas,População Residente em Favelas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__populacao_residente_em_favelas,População Residente em Favelas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.424655674388452
+Primavera,dados_primavera__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.558257332058876
+Primavera,dados_primavera__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Primavera,dados_primavera__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Primavera,dados_primavera__ruas_sem_arvores,Ruas Sem Árvores,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.92322193863303
+Primavera,dados_primavera__ruas_sem_arvores,Ruas Sem Árvores,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.03584320974609
+Primavera,dados_primavera__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.98526440785017
+Primavera,dados_primavera__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.270468181937865
+Primavera,dados_primavera__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.50005643330924
+Primavera,dados_primavera__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.055443450548296
+Primavera,dados_primavera__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.70590424294943
+Primavera,dados_primavera__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.45598684089603
+Primavera,dados_primavera__sem_conjuge,Sem cônjuge,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.195698792733715
+Primavera,dados_primavera__sem_conjuge,Sem cônjuge,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.13275763306163
+Primavera,dados_primavera__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Primavera,dados_primavera__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Primavera,dados_primavera__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.6304470507194
+Primavera,dados_primavera__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.403357271858326
+Primavera,dados_primavera__trabalha_em_outro_municipio,Trabalha em outro município,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.118864298057503
+Primavera,dados_primavera__trabalha_em_outro_municipio,Trabalha em outro município,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.613157392259424
+Primavera,dados_primavera__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.10908945921108
+Primavera,dados_primavera__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.4815506652731
+Primavera,dados_primavera__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.020354467122168
+Primavera,dados_primavera__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.091014965120504
+Primavera,dados_primavera__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.824768541006925
+Primavera,dados_primavera__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.069144233155455
+Primavera,dados_primavera__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7884172473381055
+Primavera,dados_primavera__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.5098001204011036
+Primavera,dados_primavera__onibus,Ônibus,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.942029803381294
+Primavera,dados_primavera__onibus,Ônibus,dados_primavera,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.993557151457221
