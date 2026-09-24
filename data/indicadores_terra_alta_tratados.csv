@@ -1,0 +1,290 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Terra Alta,dados_terra_alta__populacao_total,População Total,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.3624848061323937,2000,9.42,Valor
+Terra Alta,dados_terra_alta__populacao_total,População Total,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.3624848061323937,2010,10.261,Valor
+Terra Alta,dados_terra_alta__populacao_total,População Total,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.3624848061323937,2022,10.512,Valor
+Terra Alta,dados_terra_alta__populacao_urbana,População Urbana,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.46488406339480254,2000,4.82,Valor
+Terra Alta,dados_terra_alta__populacao_urbana,População Urbana,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.46488406339480254,2010,5.98,Valor
+Terra Alta,dados_terra_alta__populacao_urbana,População Urbana,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.46488406339480254,2022,6.42,Valor
+Terra Alta,dados_terra_alta__populacao_rural,População Rural,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.08911642155904047,2000,4.6,Valor
+Terra Alta,dados_terra_alta__populacao_rural,População Rural,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.08911642155904047,2010,4.281,Valor
+Terra Alta,dados_terra_alta__populacao_rural,População Rural,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.08911642155904047,2022,4.092,Valor
+Terra Alta,dados_terra_alta__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_de_mulheres,População de Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.16033568434301593,2000,4.58,Valor
+Terra Alta,dados_terra_alta__populacao_de_mulheres,População de Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.16033568434301593,2010,5.02,Valor
+Terra Alta,dados_terra_alta__populacao_de_mulheres,População de Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.16033568434301593,2022,5.21,Valor
+Terra Alta,dados_terra_alta__populacao_de_homens,População de Homens,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.1875154685695435,2000,4.84,Valor
+Terra Alta,dados_terra_alta__populacao_de_homens,População de Homens,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.1875154685695435,2010,5.241,Valor
+Terra Alta,dados_terra_alta__populacao_de_homens,População de Homens,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.1875154685695435,2022,5.302,Valor
+Terra Alta,dados_terra_alta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6383520437985103,2000,105.7,Valor
+Terra Alta,dados_terra_alta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6383520437985103,2010,104.4,Valor
+Terra Alta,dados_terra_alta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6383520437985103,2022,101.8,Valor
+Terra Alta,dados_terra_alta__idade_mediana,Idade Mediana,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.6750995875190877,2000,22.0,Valor
+Terra Alta,dados_terra_alta__idade_mediana,Idade Mediana,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.6750995875190877,2010,26.0,Valor
+Terra Alta,dados_terra_alta__idade_mediana,Idade Mediana,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.6750995875190877,2022,33.0,Valor
+Terra Alta,dados_terra_alta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.489269061510671,2000,12.4,Valor
+Terra Alta,dados_terra_alta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.489269061510671,2010,18.8,Valor
+Terra Alta,dados_terra_alta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.489269061510671,2022,39.1,Valor
+Terra Alta,dados_terra_alta__populacao_parda,População Parda,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.32551289349120466,2000,6.82,Valor
+Terra Alta,dados_terra_alta__populacao_parda,População Parda,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.32551289349120466,2010,7.62,Valor
+Terra Alta,dados_terra_alta__populacao_parda,População Parda,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,lbfgs,True,0.32551289349120466,2022,7.89,Valor
+Terra Alta,dados_terra_alta__populacao_branca,População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.049527355651261505,2000,1.88,Valor
+Terra Alta,dados_terra_alta__populacao_branca,População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.049527355651261505,2010,1.91,Valor
+Terra Alta,dados_terra_alta__populacao_branca,População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.049527355651261505,2022,1.82,Valor
+Terra Alta,dados_terra_alta__populacao_preta,População Preta,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,22.027948526103312,2000,660.0,Valor
+Terra Alta,dados_terra_alta__populacao_preta,População Preta,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,22.027948526103312,2010,680.0,Valor
+Terra Alta,dados_terra_alta__populacao_preta,População Preta,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,22.027948526103312,2022,740.0,Valor
+Terra Alta,dados_terra_alta__populacao_amarela,População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.131305254869606,2000,40.0,Valor
+Terra Alta,dados_terra_alta__populacao_amarela,População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.131305254869606,2010,30.0,Valor
+Terra Alta,dados_terra_alta__populacao_amarela,População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,4.131305254869606,2022,12.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena,População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2000,20.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena,População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2010,21.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena,População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2022,50.0,Valor
+Terra Alta,dados_terra_alta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,190.62975080903252,2000,114.8,Valor
+Terra Alta,dados_terra_alta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,190.62975080903252,2010,301.4,Valor
+Terra Alta,dados_terra_alta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,190.62975080903252,2022,824.0,Valor
+Terra Alta,dados_terra_alta__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5571580496623909,2000,96.6,Valor
+Terra Alta,dados_terra_alta__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5571580496623909,2010,96.1,Valor
+Terra Alta,dados_terra_alta__apenas_1_trabalho,Apenas 1 trabalho,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5571580496623909,2022,94.3,Valor
+Terra Alta,dados_terra_alta__2_trabalhos,2 trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6017229378922563,2000,3.0,Valor
+Terra Alta,dados_terra_alta__2_trabalhos,2 trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6017229378922563,2010,3.4,Valor
+Terra Alta,dados_terra_alta__2_trabalhos,2 trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6017229378922563,2022,5.0,Valor
+Terra Alta,dados_terra_alta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2000,0.4,Valor
+Terra Alta,dados_terra_alta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2010,0.5,Valor
+Terra Alta,dados_terra_alta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2022,0.7,Valor
+Terra Alta,dados_terra_alta__setor_privado,Setor privado,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,429.44476901810145,2000,780.0,Valor
+Terra Alta,dados_terra_alta__setor_privado,Setor privado,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,429.44476901810145,2010,1.12,Valor
+Terra Alta,dados_terra_alta__setor_privado,Setor privado,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,429.44476901810145,2022,1.54,Valor
+Terra Alta,dados_terra_alta__conta_propria,Conta própria,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.03038451198670115,2000,1.28,Valor
+Terra Alta,dados_terra_alta__conta_propria,Conta própria,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.03038451198670115,2010,1.48,Valor
+Terra Alta,dados_terra_alta__conta_propria,Conta própria,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.03038451198670115,2022,1.68,Valor
+Terra Alta,dados_terra_alta__setor_publico,Setor público,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,54.71846443106555,2000,480.0,Valor
+Terra Alta,dados_terra_alta__setor_publico,Setor público,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,54.71846443106555,2010,740.0,Valor
+Terra Alta,dados_terra_alta__setor_publico,Setor público,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,54.71846443106555,2022,980.0,Valor
+Terra Alta,dados_terra_alta__trabalhador_domestico,Trabalhador doméstico,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2000,180.0,Valor
+Terra Alta,dados_terra_alta__trabalhador_domestico,Trabalhador doméstico,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2010,240.0,Valor
+Terra Alta,dados_terra_alta__trabalhador_domestico,Trabalhador doméstico,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2022,300.0,Valor
+Terra Alta,dados_terra_alta__empregador,Empregador,dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2000,50.0,Valor
+Terra Alta,dados_terra_alta__empregador,Empregador,dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2010,80.0,Valor
+Terra Alta,dados_terra_alta__empregador,Empregador,dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2022,120.0,Valor
+Terra Alta,dados_terra_alta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,86.02533164208084,2000,440.0,Valor
+Terra Alta,dados_terra_alta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,86.02533164208084,2010,210.0,Valor
+Terra Alta,dados_terra_alta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,86.02533164208084,2022,110.0,Valor
+Terra Alta,dados_terra_alta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Terra Alta,dados_terra_alta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Terra Alta,dados_terra_alta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2000,260.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2010,500.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2022,760.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2000,520.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2010,620.0,Valor
+Terra Alta,dados_terra_alta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,30.463540551711635,2022,780.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2000,10.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2010,30.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2022,50.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,51.680013232395446,2000,470.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,51.680013232395446,2010,710.0,Valor
+Terra Alta,dados_terra_alta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,51.680013232395446,2022,930.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2000,170.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2010,220.0,Valor
+Terra Alta,dados_terra_alta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2022,270.0,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,2.083929667768492,2000,78.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,2.083929667768492,2010,85.6,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,2.083929667768492,2022,90.6,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,1.5917251550461582,2000,91.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,1.5917251550461582,2010,96.2,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,1.5917251550461582,2022,98.5,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666616,2000,31.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666616,2010,43.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666616,2022,57.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2000,86.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2010,94.4,Valor
+Terra Alta,dados_terra_alta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2022,96.9,Valor
+Terra Alta,dados_terra_alta__populacao_com_superior_completo,População com Superior Completo,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,146.14860036870576,2000,80.0,Valor
+Terra Alta,dados_terra_alta__populacao_com_superior_completo,População com Superior Completo,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,146.14860036870576,2010,270.0,Valor
+Terra Alta,dados_terra_alta__populacao_com_superior_completo,População com Superior Completo,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,146.14860036870576,2022,690.0,Valor
+Terra Alta,dados_terra_alta__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220819,2000,5.1,Valor
+Terra Alta,dados_terra_alta__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220819,2010,6.9,Valor
+Terra Alta,dados_terra_alta__anos_de_estudo_media,Anos de Estudo (Média),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220819,2022,8.6,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2000,5.4,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2010,7.3,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572005,2022,9.0,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188696,2000,4.8,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188696,2010,6.5,Valor
+Terra Alta,dados_terra_alta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.25826835188696,2022,8.2,Valor
+Terra Alta,dados_terra_alta__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.472,Valor
+Terra Alta,dados_terra_alta__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.586,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2000,86.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2010,94.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,3.377972236028967,2022,96.9,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,3.5076901124075426,2000,63.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,3.5076901124075426,2010,75.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,3.5076901124075426,2022,82.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6503951768647824,2000,21.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6503951768647824,2010,27.4,Valor
+Terra Alta,dados_terra_alta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6503951768647824,2022,26.4,Valor
+Terra Alta,dados_terra_alta__media_populacao_amarela,Média: População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2000,5.8,Valor
+Terra Alta,dados_terra_alta__media_populacao_amarela,Média: População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2010,7.9,Valor
+Terra Alta,dados_terra_alta__media_populacao_amarela,Média: População Amarela,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,0.6015644073636791,2022,9.6,Valor
+Terra Alta,dados_terra_alta__media_populacao_branca,Média: População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2000,5.6,Valor
+Terra Alta,dados_terra_alta__media_populacao_branca,Média: População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2010,7.5,Valor
+Terra Alta,dados_terra_alta__media_populacao_branca,Média: População Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2022,9.2,Valor
+Terra Alta,dados_terra_alta__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2000,4.9,Valor
+Terra Alta,dados_terra_alta__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2010,6.7,Valor
+Terra Alta,dados_terra_alta__media_populacao_preta_parda,Média: População Preta / Parda,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2022,8.4,Valor
+Terra Alta,dados_terra_alta__media_populacao_indigena,Média: População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151486511060562,2000,4.0,Valor
+Terra Alta,dados_terra_alta__media_populacao_indigena,Média: População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151486511060562,2010,5.4,Valor
+Terra Alta,dados_terra_alta__media_populacao_indigena,Média: População Indígena,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151486511060562,2022,7.2,Valor
+Terra Alta,dados_terra_alta__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_residente_em_favelas,População Residente em Favelas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_residente_em_favelas,População Residente em Favelas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_parda_2,População Parda,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_parda_2,População Parda,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_branca_2,População Branca,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_branca_2,População Branca,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_preta_2,População Preta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_preta_2,População Preta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_amarela_2,População Amarela,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_amarela_2,População Amarela,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena_2,População Indígena,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena_2,População Indígena,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Terra Alta,dados_terra_alta__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,85.6,Valor
+Terra Alta,dados_terra_alta__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.6,Valor
+Terra Alta,dados_terra_alta__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.4,Valor
+Terra Alta,dados_terra_alta__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.4,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos,Casais com filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2000,61.1,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos,Casais com filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2010,51.1,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos,Casais com filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2022,41.1,Valor
+Terra Alta,dados_terra_alta__casais_sem_filhos,Casais sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2000,9.4,Valor
+Terra Alta,dados_terra_alta__casais_sem_filhos,Casais sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2010,13.0,Valor
+Terra Alta,dados_terra_alta__casais_sem_filhos,Casais sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2022,17.6,Valor
+Terra Alta,dados_terra_alta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2000,14.9,Valor
+Terra Alta,dados_terra_alta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2010,18.2,Valor
+Terra Alta,dados_terra_alta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2022,21.9,Valor
+Terra Alta,dados_terra_alta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,2.7,Valor
+Terra Alta,dados_terra_alta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.0,Valor
+Terra Alta,dados_terra_alta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_terra_alta,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.4,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2000,7.8,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2010,8.8,Valor
+Terra Alta,dados_terra_alta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2022,6.8,Valor
+Terra Alta,dados_terra_alta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2000,3.4,Valor
+Terra Alta,dados_terra_alta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2010,5.1,Valor
+Terra Alta,dados_terra_alta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2022,8.4,Valor
+Terra Alta,dados_terra_alta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2000,0.7,Valor
+Terra Alta,dados_terra_alta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2010,0.8,Valor
+Terra Alta,dados_terra_alta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_terra_alta,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2022,0.8,Valor
+Terra Alta,dados_terra_alta__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.0,Valor
+Terra Alta,dados_terra_alta__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.1,Valor
+Terra Alta,dados_terra_alta__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Terra Alta,dados_terra_alta__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.0,Valor
+Terra Alta,dados_terra_alta__trabalha_em_outro_municipio,Trabalha em outro município,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Terra Alta,dados_terra_alta__trabalha_em_outro_municipio,Trabalha em outro município,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.9,Valor
+Terra Alta,dados_terra_alta__motocicleta,Motocicleta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.9,Valor
+Terra Alta,dados_terra_alta__motocicleta,Motocicleta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.7,Valor
+Terra Alta,dados_terra_alta__bicicleta,Bicicleta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.7,Valor
+Terra Alta,dados_terra_alta__bicicleta,Bicicleta,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.1,Valor
+Terra Alta,dados_terra_alta__automovel_carro,Automóvel (Carro),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Terra Alta,dados_terra_alta__automovel_carro,Automóvel (Carro),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Terra Alta,dados_terra_alta__a_pe,A pé,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.0,Valor
+Terra Alta,dados_terra_alta__a_pe,A pé,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.5,Valor
+Terra Alta,dados_terra_alta__onibus,Ônibus,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+Terra Alta,dados_terra_alta__onibus,Ônibus,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.9,Valor
+Terra Alta,dados_terra_alta__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.0,Valor
+Terra Alta,dados_terra_alta__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Terra Alta,dados_terra_alta__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.9,Valor
+Terra Alta,dados_terra_alta__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.6,Valor
+Terra Alta,dados_terra_alta__mais_de_1_hora,Mais de 1 hora,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.1,Valor
+Terra Alta,dados_terra_alta__mais_de_1_hora,Mais de 1 hora,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Terra Alta,dados_terra_alta__estuda_no_proprio_municipio_terra_alta,Estuda no próprio município (Terra Alta),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.1,Valor
+Terra Alta,dados_terra_alta__estuda_no_proprio_municipio_terra_alta,Estuda no próprio município (Terra Alta),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.0,Valor
+Terra Alta,dados_terra_alta__estuda_em_outro_municipio,Estuda em outro município,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Terra Alta,dados_terra_alta__estuda_em_outro_municipio,Estuda em outro município,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.0,Valor
+Terra Alta,dados_terra_alta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.22841069700032893,2000,2.28,Valor
+Terra Alta,dados_terra_alta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.22841069700032893,2010,2.78,Valor
+Terra Alta,dados_terra_alta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.22841069700032893,2022,3.68,Valor
+Terra Alta,dados_terra_alta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.2375392220238405,2000,2.25,Valor
+Terra Alta,dados_terra_alta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.2375392220238405,2010,2.74,Valor
+Terra Alta,dados_terra_alta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.2375392220238405,2022,3.64,Valor
+Terra Alta,dados_terra_alta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2000,30.0,Valor
+Terra Alta,dados_terra_alta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2010,40.0,Valor
+Terra Alta,dados_terra_alta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_terra_alta,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2022,40.0,Valor
+Terra Alta,dados_terra_alta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2000,4.2,Valor
+Terra Alta,dados_terra_alta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2010,3.7,Valor
+Terra Alta,dados_terra_alta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2022,2.9,Valor
+Terra Alta,dados_terra_alta__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Terra Alta,dados_terra_alta__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.2,Valor
+Terra Alta,dados_terra_alta__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.1,Valor
+Terra Alta,dados_terra_alta__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.1,Valor
+Terra Alta,dados_terra_alta__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.7,Valor
+Terra Alta,dados_terra_alta__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.6,Valor
+Terra Alta,dados_terra_alta__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Terra Alta,dados_terra_alta__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.2,Valor
+Terra Alta,dados_terra_alta__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Terra Alta,dados_terra_alta__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Terra Alta,dados_terra_alta__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Terra Alta,dados_terra_alta__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.9,Valor
+Terra Alta,dados_terra_alta__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.9,Valor
+Terra Alta,dados_terra_alta__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.8,Valor
+Terra Alta,dados_terra_alta__ruas_sem_arvores,Ruas Sem Árvores,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.1,Valor
+Terra Alta,dados_terra_alta__ruas_sem_arvores,Ruas Sem Árvores,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.2,Valor
+Terra Alta,dados_terra_alta__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.3,Valor
+Terra Alta,dados_terra_alta__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Terra Alta,dados_terra_alta__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Terra Alta,dados_terra_alta__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Terra Alta,dados_terra_alta__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.1,Valor
+Terra Alta,dados_terra_alta__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.1,Valor
+Terra Alta,dados_terra_alta__populacao_indigena_total,População Indígena Total,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2000,20.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena_total,População Indígena Total,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2010,21.0,Valor
+Terra Alta,dados_terra_alta__populacao_indigena_total,População Indígena Total,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,13.743869971270477,2022,50.0,Valor
+Terra Alta,dados_terra_alta__proporcao_na_populacao_de_terra_alta,Proporção na população de Terra Alta,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,0.1439867996877425,2000,0.21,Valor
+Terra Alta,dados_terra_alta__proporcao_na_populacao_de_terra_alta,Proporção na população de Terra Alta,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,0.1439867996877425,2010,0.2,Valor
+Terra Alta,dados_terra_alta__proporcao_na_populacao_de_terra_alta,Proporção na população de Terra Alta,dados_terra_alta,Grupo 2 — 3 censos,3,tanh,adam,True,0.1439867996877425,2022,0.48,Valor
+Terra Alta,dados_terra_alta__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.6,Valor
+Terra Alta,dados_terra_alta__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.6,Valor
+Terra Alta,dados_terra_alta__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Terra Alta,dados_terra_alta__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Terra Alta,dados_terra_alta__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Terra Alta,dados_terra_alta__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.7,Valor
+Terra Alta,dados_terra_alta__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Terra Alta,dados_terra_alta__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Terra Alta,dados_terra_alta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2000,16.3,Valor
+Terra Alta,dados_terra_alta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2010,19.9,Valor
+Terra Alta,dados_terra_alta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2022,25.9,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2000,55.7,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2010,47.7,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2022,39.7,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2000,10.1,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2010,12.8,Valor
+Terra Alta,dados_terra_alta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2022,16.0,Valor
+Terra Alta,dados_terra_alta__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Terra Alta,dados_terra_alta__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.7,Valor
+Terra Alta,dados_terra_alta__sem_conjuge,Sem cônjuge,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.1,Valor
+Terra Alta,dados_terra_alta__sem_conjuge,Sem cônjuge,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Terra Alta,dados_terra_alta__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Terra Alta,dados_terra_alta__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Terra Alta,dados_terra_alta__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Terra Alta,dados_terra_alta__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_terra_alta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Terra Alta,dados_terra_alta__responsavel_mulher,Responsável Mulher,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Terra Alta,dados_terra_alta__responsavel_mulher,Responsável Mulher,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Terra Alta,dados_terra_alta__responsavel_mulher,Responsável Mulher,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Terra Alta,dados_terra_alta__responsavel_homem,Responsável Homem,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2000,4.5,Valor
+Terra Alta,dados_terra_alta__responsavel_homem,Responsável Homem,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2010,3.8,Valor
+Terra Alta,dados_terra_alta__responsavel_homem,Responsável Homem,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2022,3.1,Valor
+Terra Alta,dados_terra_alta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Terra Alta,dados_terra_alta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Terra Alta,dados_terra_alta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_terra_alta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Terra Alta,dados_terra_alta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2000,13.5,Valor
+Terra Alta,dados_terra_alta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2010,17.5,Valor
+Terra Alta,dados_terra_alta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2022,24.0,Valor
+Terra Alta,dados_terra_alta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2000,16.8,Valor
+Terra Alta,dados_terra_alta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2010,21.1,Valor
+Terra Alta,dados_terra_alta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_terra_alta,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2022,25.1,Valor
+Terra Alta,dados_terra_alta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2000,44.6,Valor
+Terra Alta,dados_terra_alta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2010,28.4,Valor
+Terra Alta,dados_terra_alta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_terra_alta,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2022,17.7,Valor
