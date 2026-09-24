@@ -1,0 +1,296 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Bonito,dados_bonito__populacao_total,População Total,dados_bonito,Grupo 1 — 4 censos,4,tanh,sgd,True,1.0397397904943495,1991,10.84,Valor
+Bonito,dados_bonito__populacao_total,População Total,dados_bonito,Grupo 1 — 4 censos,4,tanh,sgd,True,1.0397397904943495,2000,11.28,Valor
+Bonito,dados_bonito__populacao_total,População Total,dados_bonito,Grupo 1 — 4 censos,4,tanh,sgd,True,1.0397397904943495,2010,13.63,Valor
+Bonito,dados_bonito__populacao_total,População Total,dados_bonito,Grupo 1 — 4 censos,4,tanh,sgd,True,1.0397397904943495,2022,12.622,Valor
+Bonito,dados_bonito__populacao_urbana,População Urbana,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.7005696000349128,2000,4.82,Valor
+Bonito,dados_bonito__populacao_urbana,População Urbana,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.7005696000349128,2010,6.42,Valor
+Bonito,dados_bonito__populacao_urbana,População Urbana,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.7005696000349128,2022,6.88,Valor
+Bonito,dados_bonito__populacao_rural,População Rural,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7452142481773306,2000,6.46,Valor
+Bonito,dados_bonito__populacao_rural,População Rural,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7452142481773306,2010,7.21,Valor
+Bonito,dados_bonito__populacao_rural,População Rural,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7452142481773306,2022,5.742,Valor
+Bonito,dados_bonito__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_de_mulheres,População de Mulheres,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.641977206512775,2000,5.48,Valor
+Bonito,dados_bonito__populacao_de_mulheres,População de Mulheres,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.641977206512775,2010,6.68,Valor
+Bonito,dados_bonito__populacao_de_mulheres,População de Mulheres,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.641977206512775,2022,6.21,Valor
+Bonito,dados_bonito__populacao_de_homens,População de Homens,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5866494457068262,2000,5.8,Valor
+Bonito,dados_bonito__populacao_de_homens,População de Homens,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5866494457068262,2010,6.95,Valor
+Bonito,dados_bonito__populacao_de_homens,População de Homens,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5866494457068262,2022,6.412,Valor
+Bonito,dados_bonito__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.7315115498757621,2000,105.8,Valor
+Bonito,dados_bonito__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.7315115498757621,2010,104.0,Valor
+Bonito,dados_bonito__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.7315115498757621,2022,103.3,Valor
+Bonito,dados_bonito__idade_mediana,Idade Mediana,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.903896339681316,2000,22.0,Valor
+Bonito,dados_bonito__idade_mediana,Idade Mediana,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.903896339681316,2010,25.0,Valor
+Bonito,dados_bonito__idade_mediana,Idade Mediana,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.903896339681316,2022,33.0,Valor
+Bonito,dados_bonito__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.2389090214659575,2000,12.1,Valor
+Bonito,dados_bonito__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.2389090214659575,2010,18.2,Valor
+Bonito,dados_bonito__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.2389090214659575,2022,37.8,Valor
+Bonito,dados_bonito__populacao_parda,População Parda,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1365138397529293,2000,8.12,Valor
+Bonito,dados_bonito__populacao_parda,População Parda,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1365138397529293,2010,10.14,Valor
+Bonito,dados_bonito__populacao_parda,População Parda,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.1365138397529293,2022,9.52,Valor
+Bonito,dados_bonito__populacao_branca,População Branca,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.194904718874922,2000,2.28,Valor
+Bonito,dados_bonito__populacao_branca,População Branca,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.194904718874922,2010,2.52,Valor
+Bonito,dados_bonito__populacao_branca,População Branca,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.194904718874922,2022,2.18,Valor
+Bonito,dados_bonito__populacao_preta,População Preta,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,53.226181317854184,2000,810.0,Valor
+Bonito,dados_bonito__populacao_preta,População Preta,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,53.226181317854184,2010,910.0,Valor
+Bonito,dados_bonito__populacao_preta,População Preta,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,53.226181317854184,2022,870.0,Valor
+Bonito,dados_bonito__populacao_amarela,População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.468590500995679,2000,50.0,Valor
+Bonito,dados_bonito__populacao_amarela,População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.468590500995679,2010,40.0,Valor
+Bonito,dados_bonito__populacao_amarela,População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,6.468590500995679,2022,16.0,Valor
+Bonito,dados_bonito__populacao_indigena,População Indígena,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2000,20.0,Valor
+Bonito,dados_bonito__populacao_indigena,População Indígena,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2010,20.0,Valor
+Bonito,dados_bonito__populacao_indigena,População Indígena,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2022,36.0,Valor
+Bonito,dados_bonito__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2000,112.8,Valor
+Bonito,dados_bonito__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2010,298.4,Valor
+Bonito,dados_bonito__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2022,818.0,Valor
+Bonito,dados_bonito__apenas_1_trabalho,Apenas 1 trabalho,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2000,96.5,Valor
+Bonito,dados_bonito__apenas_1_trabalho,Apenas 1 trabalho,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2010,96.1,Valor
+Bonito,dados_bonito__apenas_1_trabalho,Apenas 1 trabalho,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2022,94.4,Valor
+Bonito,dados_bonito__2_trabalhos,2 trabalhos,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2000,3.1,Valor
+Bonito,dados_bonito__2_trabalhos,2 trabalhos,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2010,3.4,Valor
+Bonito,dados_bonito__2_trabalhos,2 trabalhos,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2022,4.9,Valor
+Bonito,dados_bonito__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2000,0.4,Valor
+Bonito,dados_bonito__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2010,0.5,Valor
+Bonito,dados_bonito__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2022,0.7,Valor
+Bonito,dados_bonito__setor_privado,Setor privado,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,517.4520364590758,2000,940.0,Valor
+Bonito,dados_bonito__setor_privado,Setor privado,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,517.4520364590758,2010,1.42,Valor
+Bonito,dados_bonito__setor_privado,Setor privado,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,517.4520364590758,2022,1.84,Valor
+Bonito,dados_bonito__conta_propria,Conta própria,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.1012074036850658,2000,1.48,Valor
+Bonito,dados_bonito__conta_propria,Conta própria,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.1012074036850658,2010,1.81,Valor
+Bonito,dados_bonito__conta_propria,Conta própria,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.1012074036850658,2022,1.98,Valor
+Bonito,dados_bonito__setor_publico,Setor público,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,484.5889440259995,2000,580.0,Valor
+Bonito,dados_bonito__setor_publico,Setor público,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,484.5889440259995,2010,890.0,Valor
+Bonito,dados_bonito__setor_publico,Setor público,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,484.5889440259995,2022,1.18,Valor
+Bonito,dados_bonito__trabalhador_domestico,Trabalhador doméstico,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,23.298415750733493,2000,210.0,Valor
+Bonito,dados_bonito__trabalhador_domestico,Trabalhador doméstico,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,23.298415750733493,2010,290.0,Valor
+Bonito,dados_bonito__trabalhador_domestico,Trabalhador doméstico,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,23.298415750733493,2022,340.0,Valor
+Bonito,dados_bonito__empregador,Empregador,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,6.076902397340234,2000,60.0,Valor
+Bonito,dados_bonito__empregador,Empregador,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,6.076902397340234,2010,100.0,Valor
+Bonito,dados_bonito__empregador,Empregador,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,6.076902397340234,2022,140.0,Valor
+Bonito,dados_bonito__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,92.33909452786973,2000,520.0,Valor
+Bonito,dados_bonito__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,92.33909452786973,2010,260.0,Valor
+Bonito,dados_bonito__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,92.33909452786973,2022,140.0,Valor
+Bonito,dados_bonito__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,20.0,Valor
+Bonito,dados_bonito__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,30.0,Valor
+Bonito,dados_bonito__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,40.0,Valor
+Bonito,dados_bonito__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,45.57676798005176,2000,310.0,Valor
+Bonito,dados_bonito__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,45.57676798005176,2010,610.0,Valor
+Bonito,dados_bonito__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,45.57676798005176,2022,910.0,Valor
+Bonito,dados_bonito__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218763,2000,630.0,Valor
+Bonito,dados_bonito__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218763,2010,810.0,Valor
+Bonito,dados_bonito__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,52.22751919218763,2022,930.0,Valor
+Bonito,dados_bonito__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2000,20.0,Valor
+Bonito,dados_bonito__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2010,40.0,Valor
+Bonito,dados_bonito__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2022,60.0,Valor
+Bonito,dados_bonito__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,464.8175802763717,2000,560.0,Valor
+Bonito,dados_bonito__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,464.8175802763717,2010,850.0,Valor
+Bonito,dados_bonito__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,464.8175802763717,2022,1.12,Valor
+Bonito,dados_bonito__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Bonito,dados_bonito__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Bonito,dados_bonito__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Bonito,dados_bonito__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,20.483071905373162,2000,200.0,Valor
+Bonito,dados_bonito__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,20.483071905373162,2010,270.0,Valor
+Bonito,dados_bonito__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,20.483071905373162,2022,310.0,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bonito,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,1991,71.2,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bonito,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2000,78.2,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bonito,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2010,85.4,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bonito,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2022,90.4,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2000,91.2,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2010,96.1,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2022,98.4,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.20992558413154563,2000,31.2,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.20992558413154563,2010,43.1,Valor
+Bonito,dados_bonito__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.20992558413154563,2022,57.1,Valor
+Bonito,dados_bonito__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Bonito,dados_bonito__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Bonito,dados_bonito__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Bonito,dados_bonito__populacao_com_superior_completo,População com Superior Completo,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,164.4188218432317,2000,110.0,Valor
+Bonito,dados_bonito__populacao_com_superior_completo,População com Superior Completo,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,164.4188218432317,2010,330.0,Valor
+Bonito,dados_bonito__populacao_com_superior_completo,População com Superior Completo,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,164.4188218432317,2022,810.0,Valor
+Bonito,dados_bonito__anos_de_estudo_media,Anos de Estudo (Média),dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,1991,3.7,Valor
+Bonito,dados_bonito__anos_de_estudo_media,Anos de Estudo (Média),dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2000,5.1,Valor
+Bonito,dados_bonito__anos_de_estudo_media,Anos de Estudo (Média),dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2010,6.9,Valor
+Bonito,dados_bonito__anos_de_estudo_media,Anos de Estudo (Média),dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2022,8.6,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,1991,4.0,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2000,5.4,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2010,7.3,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2022,9.0,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,1991,3.4,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2000,4.8,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2010,6.5,Valor
+Bonito,dados_bonito__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bonito,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2022,8.2,Valor
+Bonito,dados_bonito__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,1991,0.314,Valor
+Bonito,dados_bonito__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2000,0.471,Valor
+Bonito,dados_bonito__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2010,0.584,Valor
+Bonito,dados_bonito__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Bonito,dados_bonito__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Bonito,dados_bonito__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2000,63.1,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2010,75.1,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2022,82.1,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2000,21.2,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2010,27.1,Valor
+Bonito,dados_bonito__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2022,26.2,Valor
+Bonito,dados_bonito__media_populacao_amarela,Média: População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2000,5.8,Valor
+Bonito,dados_bonito__media_populacao_amarela,Média: População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2010,7.9,Valor
+Bonito,dados_bonito__media_populacao_amarela,Média: População Amarela,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2022,9.5,Valor
+Bonito,dados_bonito__media_populacao_branca,Média: População Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2000,5.6,Valor
+Bonito,dados_bonito__media_populacao_branca,Média: População Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2010,7.5,Valor
+Bonito,dados_bonito__media_populacao_branca,Média: População Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2022,9.2,Valor
+Bonito,dados_bonito__media_populacao_preta_parda,Média: População Preta / Parda,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2000,4.9,Valor
+Bonito,dados_bonito__media_populacao_preta_parda,Média: População Preta / Parda,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2010,6.7,Valor
+Bonito,dados_bonito__media_populacao_preta_parda,Média: População Preta / Parda,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2022,8.4,Valor
+Bonito,dados_bonito__media_populacao_indigena,Média: População Indígena,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2000,4.0,Valor
+Bonito,dados_bonito__media_populacao_indigena,Média: População Indígena,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2010,5.4,Valor
+Bonito,dados_bonito__media_populacao_indigena,Média: População Indígena,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2022,7.1,Valor
+Bonito,dados_bonito__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_residente_em_favelas,População Residente em Favelas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_residente_em_favelas,População Residente em Favelas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_parda_2,População Parda,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_parda_2,População Parda,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_branca_2,População Branca,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_branca_2,População Branca,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_preta_2,População Preta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_preta_2,População Preta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_amarela_2,População Amarela,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_amarela_2,População Amarela,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__populacao_indigena_2,População Indígena,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bonito,dados_bonito__populacao_indigena_2,População Indígena,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bonito,dados_bonito__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,85.5,Valor
+Bonito,dados_bonito__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.5,Valor
+Bonito,dados_bonito__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Bonito,dados_bonito__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.5,Valor
+Bonito,dados_bonito__casais_com_filhos,Casais com filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.4489756337936346,2000,61.2,Valor
+Bonito,dados_bonito__casais_com_filhos,Casais com filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.4489756337936346,2010,51.2,Valor
+Bonito,dados_bonito__casais_com_filhos,Casais com filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.4489756337936346,2022,41.1,Valor
+Bonito,dados_bonito__casais_sem_filhos,Casais sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2135345330624284,2000,9.3,Valor
+Bonito,dados_bonito__casais_sem_filhos,Casais sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2135345330624284,2010,12.9,Valor
+Bonito,dados_bonito__casais_sem_filhos,Casais sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2135345330624284,2022,17.5,Valor
+Bonito,dados_bonito__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2000,14.9,Valor
+Bonito,dados_bonito__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2010,18.2,Valor
+Bonito,dados_bonito__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2022,21.9,Valor
+Bonito,dados_bonito__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,2.7,Valor
+Bonito,dados_bonito__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.0,Valor
+Bonito,dados_bonito__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bonito,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.4,Valor
+Bonito,dados_bonito__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2000,7.8,Valor
+Bonito,dados_bonito__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2010,8.8,Valor
+Bonito,dados_bonito__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2022,6.8,Valor
+Bonito,dados_bonito__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.035312550223137,2000,3.4,Valor
+Bonito,dados_bonito__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.035312550223137,2010,5.1,Valor
+Bonito,dados_bonito__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.035312550223137,2022,8.5,Valor
+Bonito,dados_bonito__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2000,0.7,Valor
+Bonito,dados_bonito__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2010,0.8,Valor
+Bonito,dados_bonito__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bonito,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2022,0.8,Valor
+Bonito,dados_bonito__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.1,Valor
+Bonito,dados_bonito__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.2,Valor
+Bonito,dados_bonito__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.4,Valor
+Bonito,dados_bonito__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Bonito,dados_bonito__trabalha_em_outro_municipio,Trabalha em outro município,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.9,Valor
+Bonito,dados_bonito__trabalha_em_outro_municipio,Trabalha em outro município,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.8,Valor
+Bonito,dados_bonito__motocicleta,Motocicleta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.9,Valor
+Bonito,dados_bonito__motocicleta,Motocicleta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.7,Valor
+Bonito,dados_bonito__bicicleta,Bicicleta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.9,Valor
+Bonito,dados_bonito__bicicleta,Bicicleta,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.2,Valor
+Bonito,dados_bonito__automovel_carro,Automóvel (Carro),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.3,Valor
+Bonito,dados_bonito__automovel_carro,Automóvel (Carro),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.3,Valor
+Bonito,dados_bonito__a_pe,A pé,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.1,Valor
+Bonito,dados_bonito__a_pe,A pé,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.6,Valor
+Bonito,dados_bonito__onibus,Ônibus,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.7,Valor
+Bonito,dados_bonito__onibus,Ônibus,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.8,Valor
+Bonito,dados_bonito__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.1,Valor
+Bonito,dados_bonito__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.9,Valor
+Bonito,dados_bonito__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.8,Valor
+Bonito,dados_bonito__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.5,Valor
+Bonito,dados_bonito__mais_de_1_hora,Mais de 1 hora,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.1,Valor
+Bonito,dados_bonito__mais_de_1_hora,Mais de 1 hora,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Bonito,dados_bonito__estuda_no_proprio_municipio_bonito,Estuda no próprio município (Bonito),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.2,Valor
+Bonito,dados_bonito__estuda_no_proprio_municipio_bonito,Estuda no próprio município (Bonito),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.1,Valor
+Bonito,dados_bonito__estuda_em_outro_municipio,Estuda em outro município,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Bonito,dados_bonito__estuda_em_outro_municipio,Estuda em outro município,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.9,Valor
+Bonito,dados_bonito__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.25751782601763357,2000,2.74,Valor
+Bonito,dados_bonito__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.25751782601763357,2010,3.64,Valor
+Bonito,dados_bonito__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,0.25751782601763357,2022,4.38,Valor
+Bonito,dados_bonito__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.24935056970347613,2000,2.71,Valor
+Bonito,dados_bonito__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.24935056970347613,2010,3.6,Valor
+Bonito,dados_bonito__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.24935056970347613,2022,4.34,Valor
+Bonito,dados_bonito__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bonito,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2000,30.0,Valor
+Bonito,dados_bonito__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bonito,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2010,40.0,Valor
+Bonito,dados_bonito__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bonito,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2022,40.0,Valor
+Bonito,dados_bonito__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.19641601347646556,2000,4.1,Valor
+Bonito,dados_bonito__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.19641601347646556,2010,3.7,Valor
+Bonito,dados_bonito__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bonito,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.19641601347646556,2022,2.9,Valor
+Bonito,dados_bonito__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Bonito,dados_bonito__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.2,Valor
+Bonito,dados_bonito__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.1,Valor
+Bonito,dados_bonito__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.1,Valor
+Bonito,dados_bonito__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.7,Valor
+Bonito,dados_bonito__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.6,Valor
+Bonito,dados_bonito__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Bonito,dados_bonito__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.2,Valor
+Bonito,dados_bonito__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Bonito,dados_bonito__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Bonito,dados_bonito__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Bonito,dados_bonito__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.9,Valor
+Bonito,dados_bonito__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.9,Valor
+Bonito,dados_bonito__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.8,Valor
+Bonito,dados_bonito__ruas_sem_arvores,Ruas Sem Árvores,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.1,Valor
+Bonito,dados_bonito__ruas_sem_arvores,Ruas Sem Árvores,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.2,Valor
+Bonito,dados_bonito__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.3,Valor
+Bonito,dados_bonito__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Bonito,dados_bonito__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Bonito,dados_bonito__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Bonito,dados_bonito__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.1,Valor
+Bonito,dados_bonito__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.1,Valor
+Bonito,dados_bonito__populacao_indigena_total,População Indígena Total,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2000,20.0,Valor
+Bonito,dados_bonito__populacao_indigena_total,População Indígena Total,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2010,20.0,Valor
+Bonito,dados_bonito__populacao_indigena_total,População Indígena Total,dados_bonito,Grupo 2 — 3 censos,3,tanh,adam,True,7.8584043831430295,2022,36.0,Valor
+Bonito,dados_bonito__proporcao_na_populacao_de_bonito,Proporção na população de Bonito,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0841785883917016,2000,0.18,Valor
+Bonito,dados_bonito__proporcao_na_populacao_de_bonito,Proporção na população de Bonito,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0841785883917016,2010,0.15,Valor
+Bonito,dados_bonito__proporcao_na_populacao_de_bonito,Proporção na população de Bonito,dados_bonito,Grupo 2 — 3 censos,3,logistic,sgd,True,0.0841785883917016,2022,0.29,Valor
+Bonito,dados_bonito__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.6,Valor
+Bonito,dados_bonito__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.6,Valor
+Bonito,dados_bonito__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Bonito,dados_bonito__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Bonito,dados_bonito__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Bonito,dados_bonito__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.7,Valor
+Bonito,dados_bonito__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Bonito,dados_bonito__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Bonito,dados_bonito__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2000,16.3,Valor
+Bonito,dados_bonito__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2010,19.9,Valor
+Bonito,dados_bonito__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2022,25.9,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2000,55.7,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2010,47.7,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2022,39.7,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2000,10.1,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2010,12.8,Valor
+Bonito,dados_bonito__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2022,16.0,Valor
+Bonito,dados_bonito__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Bonito,dados_bonito__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.7,Valor
+Bonito,dados_bonito__sem_conjuge,Sem cônjuge,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.1,Valor
+Bonito,dados_bonito__sem_conjuge,Sem cônjuge,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Bonito,dados_bonito__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Bonito,dados_bonito__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Bonito,dados_bonito__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Bonito,dados_bonito__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bonito,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Bonito,dados_bonito__responsavel_mulher,Responsável Mulher,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Bonito,dados_bonito__responsavel_mulher,Responsável Mulher,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Bonito,dados_bonito__responsavel_mulher,Responsável Mulher,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Bonito,dados_bonito__responsavel_homem,Responsável Homem,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2000,4.5,Valor
+Bonito,dados_bonito__responsavel_homem,Responsável Homem,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2010,3.8,Valor
+Bonito,dados_bonito__responsavel_homem,Responsável Homem,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2022,3.1,Valor
+Bonito,dados_bonito__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Bonito,dados_bonito__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Bonito,dados_bonito__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bonito,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Bonito,dados_bonito__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2000,13.5,Valor
+Bonito,dados_bonito__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2010,17.5,Valor
+Bonito,dados_bonito__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2022,24.0,Valor
+Bonito,dados_bonito__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2000,16.8,Valor
+Bonito,dados_bonito__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2010,21.1,Valor
+Bonito,dados_bonito__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bonito,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2022,25.1,Valor
+Bonito,dados_bonito__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2000,44.6,Valor
+Bonito,dados_bonito__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2010,28.4,Valor
+Bonito,dados_bonito__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bonito,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2022,17.7,Valor
