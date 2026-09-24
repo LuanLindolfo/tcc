@@ -1,0 +1,290 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Bannach,dados_bannach__populacao_total,População Total,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.10156046229565623,2000,4.32,Valor
+Bannach,dados_bannach__populacao_total,População Total,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.10156046229565623,2010,3.951,Valor
+Bannach,dados_bannach__populacao_total,População Total,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.10156046229565623,2022,3.693,Valor
+Bannach,dados_bannach__populacao_urbana,População Urbana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.05622451860289875,2000,1.82,Valor
+Bannach,dados_bannach__populacao_urbana,População Urbana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.05622451860289875,2010,2.14,Valor
+Bannach,dados_bannach__populacao_urbana,População Urbana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.05622451860289875,2022,2.45,Valor
+Bannach,dados_bannach__populacao_rural,População Rural,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.18629588611158523,2000,2.5,Valor
+Bannach,dados_bannach__populacao_rural,População Rural,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.18629588611158523,2010,1.811,Valor
+Bannach,dados_bannach__populacao_rural,População Rural,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.18629588611158523,2022,1.243,Valor
+Bannach,dados_bannach__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_de_mulheres,População de Mulheres,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.03922470724717386,2000,1.98,Valor
+Bannach,dados_bannach__populacao_de_mulheres,População de Mulheres,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.03922470724717386,2010,1.84,Valor
+Bannach,dados_bannach__populacao_de_mulheres,População de Mulheres,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.03922470724717386,2022,1.76,Valor
+Bannach,dados_bannach__populacao_de_homens,População de Homens,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.062335755048482065,2000,2.34,Valor
+Bannach,dados_bannach__populacao_de_homens,População de Homens,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.062335755048482065,2010,2.111,Valor
+Bannach,dados_bannach__populacao_de_homens,População de Homens,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.062335755048482065,2022,1.933,Valor
+Bannach,dados_bannach__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338377374087125,2000,118.2,Valor
+Bannach,dados_bannach__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338377374087125,2010,114.7,Valor
+Bannach,dados_bannach__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5338377374087125,2022,109.8,Valor
+Bannach,dados_bannach__idade_mediana,Idade Mediana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2000,19.0,Valor
+Bannach,dados_bannach__idade_mediana,Idade Mediana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2010,23.0,Valor
+Bannach,dados_bannach__idade_mediana,Idade Mediana,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.4360295299367913,2022,31.0,Valor
+Bannach,dados_bannach__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.777011812485561,2000,4.5,Valor
+Bannach,dados_bannach__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.777011812485561,2010,9.2,Valor
+Bannach,dados_bannach__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.777011812485561,2022,24.8,Valor
+Bannach,dados_bannach__populacao_parda,População Parda,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09905449508296164,2000,2.82,Valor
+Bannach,dados_bannach__populacao_parda,População Parda,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09905449508296164,2010,2.84,Valor
+Bannach,dados_bannach__populacao_parda,População Parda,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.09905449508296164,2022,2.68,Valor
+Bannach,dados_bannach__populacao_branca,População Branca,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,536.8243293997979,2000,1.12,Valor
+Bannach,dados_bannach__populacao_branca,População Branca,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,536.8243293997979,2010,880.0,Valor
+Bannach,dados_bannach__populacao_branca,População Branca,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,536.8243293997979,2022,740.0,Valor
+Bannach,dados_bannach__populacao_preta,População Preta,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,53.28652285008667,2000,280.0,Valor
+Bannach,dados_bannach__populacao_preta,População Preta,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,53.28652285008667,2010,190.0,Valor
+Bannach,dados_bannach__populacao_preta,População Preta,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,53.28652285008667,2022,210.0,Valor
+Bannach,dados_bannach__populacao_amarela,População Amarela,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.7520013774964496,2000,25.0,Valor
+Bannach,dados_bannach__populacao_amarela,População Amarela,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.7520013774964496,2010,15.0,Valor
+Bannach,dados_bannach__populacao_amarela,População Amarela,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.7520013774964496,2022,8.0,Valor
+Bannach,dados_bannach__populacao_indigena,População Indígena,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2000,15.0,Valor
+Bannach,dados_bannach__populacao_indigena,População Indígena,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2010,26.0,Valor
+Bannach,dados_bannach__populacao_indigena,População Indígena,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2022,55.0,Valor
+Bannach,dados_bannach__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,178.93317251300255,2000,102.0,Valor
+Bannach,dados_bannach__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,178.93317251300255,2010,275.0,Valor
+Bannach,dados_bannach__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,178.93317251300255,2022,765.0,Valor
+Bannach,dados_bannach__apenas_1_trabalho,Apenas 1 trabalho,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.630093531465396,2000,97.1,Valor
+Bannach,dados_bannach__apenas_1_trabalho,Apenas 1 trabalho,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.630093531465396,2010,96.8,Valor
+Bannach,dados_bannach__apenas_1_trabalho,Apenas 1 trabalho,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.630093531465396,2022,95.1,Valor
+Bannach,dados_bannach__2_trabalhos,2 trabalhos,dados_bannach,Grupo 2 — 3 censos,3,relu,sgd,True,0.6788428275186402,2000,2.6,Valor
+Bannach,dados_bannach__2_trabalhos,2 trabalhos,dados_bannach,Grupo 2 — 3 censos,3,relu,sgd,True,0.6788428275186402,2010,2.8,Valor
+Bannach,dados_bannach__2_trabalhos,2 trabalhos,dados_bannach,Grupo 2 — 3 censos,3,relu,sgd,True,0.6788428275186402,2022,4.3,Valor
+Bannach,dados_bannach__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.06090073824841976,2000,0.3,Valor
+Bannach,dados_bannach__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.06090073824841976,2010,0.4,Valor
+Bannach,dados_bannach__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.06090073824841976,2022,0.6,Valor
+Bannach,dados_bannach__setor_privado,Setor privado,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,31.890566158534437,2000,380.0,Valor
+Bannach,dados_bannach__setor_privado,Setor privado,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,31.890566158534437,2010,640.0,Valor
+Bannach,dados_bannach__setor_privado,Setor privado,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,31.890566158534437,2022,910.0,Valor
+Bannach,dados_bannach__conta_propria,Conta própria,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,54.784308041597605,2000,490.0,Valor
+Bannach,dados_bannach__conta_propria,Conta própria,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,54.784308041597605,2010,680.0,Valor
+Bannach,dados_bannach__conta_propria,Conta própria,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,54.784308041597605,2022,820.0,Valor
+Bannach,dados_bannach__setor_publico,Setor público,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,4.53133394300166,2000,180.0,Valor
+Bannach,dados_bannach__setor_publico,Setor público,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,4.53133394300166,2010,310.0,Valor
+Bannach,dados_bannach__setor_publico,Setor público,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,4.53133394300166,2022,460.0,Valor
+Bannach,dados_bannach__trabalhador_domestico,Trabalhador doméstico,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2000,70.0,Valor
+Bannach,dados_bannach__trabalhador_domestico,Trabalhador doméstico,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2010,100.0,Valor
+Bannach,dados_bannach__trabalhador_domestico,Trabalhador doméstico,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2022,140.0,Valor
+Bannach,dados_bannach__empregador,Empregador,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7626200710304119,2000,25.0,Valor
+Bannach,dados_bannach__empregador,Empregador,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7626200710304119,2010,45.0,Valor
+Bannach,dados_bannach__empregador,Empregador,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.7626200710304119,2022,70.0,Valor
+Bannach,dados_bannach__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,24.88412705783864,2000,210.0,Valor
+Bannach,dados_bannach__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,24.88412705783864,2010,120.0,Valor
+Bannach,dados_bannach__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,24.88412705783864,2022,60.0,Valor
+Bannach,dados_bannach__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2000,8.0,Valor
+Bannach,dados_bannach__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2010,14.0,Valor
+Bannach,dados_bannach__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9115353596010346,2022,20.0,Valor
+Bannach,dados_bannach__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,16.69831016518391,2000,120.0,Valor
+Bannach,dados_bannach__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,16.69831016518391,2010,280.0,Valor
+Bannach,dados_bannach__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,16.69831016518391,2022,450.0,Valor
+Bannach,dados_bannach__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,15.192255993350594,2000,260.0,Valor
+Bannach,dados_bannach__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,15.192255993350594,2010,360.0,Valor
+Bannach,dados_bannach__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,15.192255993350594,2022,460.0,Valor
+Bannach,dados_bannach__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.893114352487484,2000,8.0,Valor
+Bannach,dados_bannach__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.893114352487484,2010,14.0,Valor
+Bannach,dados_bannach__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,2.893114352487484,2022,25.0,Valor
+Bannach,dados_bannach__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,7.424448295489175,2000,172.0,Valor
+Bannach,dados_bannach__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,7.424448295489175,2010,296.0,Valor
+Bannach,dados_bannach__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,7.424448295489175,2022,435.0,Valor
+Bannach,dados_bannach__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013835,2000,8.0,Valor
+Bannach,dados_bannach__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013835,2010,12.0,Valor
+Bannach,dados_bannach__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.9141696451013835,2022,18.0,Valor
+Bannach,dados_bannach__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,2.1101351656861618,2000,62.0,Valor
+Bannach,dados_bannach__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,2.1101351656861618,2010,88.0,Valor
+Bannach,dados_bannach__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,2.1101351656861618,2022,122.0,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.892910344145411,2000,67.5,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.892910344145411,2010,77.5,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.892910344145411,2022,84.5,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.342769324870867,2000,83.0,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.342769324870867,2010,91.0,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,2.342769324870867,2022,95.5,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.1492882744331574,2000,19.0,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.1492882744331574,2010,30.0,Valor
+Bannach,dados_bannach__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.1492882744331574,2022,43.0,Valor
+Bannach,dados_bannach__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2000,74.0,Valor
+Bannach,dados_bannach__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2010,87.5,Valor
+Bannach,dados_bannach__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2022,92.5,Valor
+Bannach,dados_bannach__populacao_com_superior_completo,População com Superior Completo,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.09042136050707,2000,25.0,Valor
+Bannach,dados_bannach__populacao_com_superior_completo,População com Superior Completo,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.09042136050707,2010,95.0,Valor
+Bannach,dados_bannach__populacao_com_superior_completo,População com Superior Completo,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.09042136050707,2022,280.0,Valor
+Bannach,dados_bannach__anos_de_estudo_media,Anos de Estudo (Média),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2000,2.8,Valor
+Bannach,dados_bannach__anos_de_estudo_media,Anos de Estudo (Média),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2010,4.6,Valor
+Bannach,dados_bannach__anos_de_estudo_media,Anos de Estudo (Média),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2022,6.5,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2000,3.1,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2010,5.0,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2022,6.9,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2000,2.5,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2010,4.2,Valor
+Bannach,dados_bannach__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2022,6.1,Valor
+Bannach,dados_bannach__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.275,Valor
+Bannach,dados_bannach__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.45,Valor
+Bannach,dados_bannach__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2000,74.0,Valor
+Bannach,dados_bannach__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2010,87.5,Valor
+Bannach,dados_bannach__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,5.4938689302641945,2022,92.5,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,3.763368997348541,2000,49.0,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,3.763368997348541,2010,62.0,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,3.763368997348541,2022,71.0,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bannach,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.295505947404434,2000,13.5,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bannach,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.295505947404434,2010,17.5,Valor
+Bannach,dados_bannach__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_bannach,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.295505947404434,2022,17.5,Valor
+Bannach,dados_bannach__media_populacao_amarela,Média: População Amarela,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056213,2000,3.8,Valor
+Bannach,dados_bannach__media_populacao_amarela,Média: População Amarela,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056213,2010,5.6,Valor
+Bannach,dados_bannach__media_populacao_amarela,Média: População Amarela,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056213,2022,7.1,Valor
+Bannach,dados_bannach__media_populacao_branca,Média: População Branca,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056218,2000,3.4,Valor
+Bannach,dados_bannach__media_populacao_branca,Média: População Branca,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056218,2010,5.2,Valor
+Bannach,dados_bannach__media_populacao_branca,Média: População Branca,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.5017395906056218,2022,6.7,Valor
+Bannach,dados_bannach__media_populacao_preta_parda,Média: População Preta / Parda,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612872975,2000,2.6,Valor
+Bannach,dados_bannach__media_populacao_preta_parda,Média: População Preta / Parda,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612872975,2010,4.3,Valor
+Bannach,dados_bannach__media_populacao_preta_parda,Média: População Preta / Parda,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.33436134612872975,2022,5.9,Valor
+Bannach,dados_bannach__media_populacao_indigena,Média: População Indígena,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.030121083436666012,2000,1.8,Valor
+Bannach,dados_bannach__media_populacao_indigena,Média: População Indígena,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.030121083436666012,2010,3.0,Valor
+Bannach,dados_bannach__media_populacao_indigena,Média: População Indígena,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.030121083436666012,2022,4.4,Valor
+Bannach,dados_bannach__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_residente_em_favelas,População Residente em Favelas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_residente_em_favelas,População Residente em Favelas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_parda_2,População Parda,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_parda_2,População Parda,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_branca_2,População Branca,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_branca_2,População Branca,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_preta_2,População Preta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_preta_2,População Preta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_amarela_2,População Amarela,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_amarela_2,População Amarela,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__populacao_indigena_2,População Indígena,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__populacao_indigena_2,População Indígena,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Bannach,dados_bannach__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.0,Valor
+Bannach,dados_bannach__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.2,Valor
+Bannach,dados_bannach__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.0,Valor
+Bannach,dados_bannach__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.8,Valor
+Bannach,dados_bannach__casais_com_filhos,Casais com filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6100909685693333,2000,67.5,Valor
+Bannach,dados_bannach__casais_com_filhos,Casais com filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6100909685693333,2010,57.0,Valor
+Bannach,dados_bannach__casais_com_filhos,Casais com filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6100909685693333,2022,45.2,Valor
+Bannach,dados_bannach__casais_sem_filhos,Casais sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.522518456210495,2000,7.0,Valor
+Bannach,dados_bannach__casais_sem_filhos,Casais sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.522518456210495,2010,9.5,Valor
+Bannach,dados_bannach__casais_sem_filhos,Casais sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.522518456210495,2022,14.5,Valor
+Bannach,dados_bannach__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.18178021482013543,2000,11.0,Valor
+Bannach,dados_bannach__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.18178021482013543,2010,14.2,Valor
+Bannach,dados_bannach__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.18178021482013543,2022,17.8,Valor
+Bannach,dados_bannach__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2000,3.8,Valor
+Bannach,dados_bannach__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2010,4.1,Valor
+Bannach,dados_bannach__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_bannach,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2022,4.5,Valor
+Bannach,dados_bannach__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058148,2000,7.1,Valor
+Bannach,dados_bannach__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058148,2010,8.0,Valor
+Bannach,dados_bannach__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058148,2022,6.2,Valor
+Bannach,dados_bannach__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2324829094625683,2000,2.8,Valor
+Bannach,dados_bannach__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2324829094625683,2010,3.2,Valor
+Bannach,dados_bannach__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,logistic,sgd,True,0.2324829094625683,2022,3.1,Valor
+Bannach,dados_bannach__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2000,0.8,Valor
+Bannach,dados_bannach__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2010,0.8,Valor
+Bannach,dados_bannach__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2022,0.8,Valor
+Bannach,dados_bannach__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,89.0,Valor
+Bannach,dados_bannach__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,86.2,Valor
+Bannach,dados_bannach__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.5,Valor
+Bannach,dados_bannach__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.8,Valor
+Bannach,dados_bannach__trabalha_em_outro_municipio,Trabalha em outro município,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.0,Valor
+Bannach,dados_bannach__trabalha_em_outro_municipio,Trabalha em outro município,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+Bannach,dados_bannach__motocicleta,Motocicleta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.0,Valor
+Bannach,dados_bannach__motocicleta,Motocicleta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.2,Valor
+Bannach,dados_bannach__bicicleta,Bicicleta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,26.0,Valor
+Bannach,dados_bannach__bicicleta,Bicicleta,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.2,Valor
+Bannach,dados_bannach__automovel_carro,Automóvel (Carro),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.5,Valor
+Bannach,dados_bannach__automovel_carro,Automóvel (Carro),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.0,Valor
+Bannach,dados_bannach__a_pe,A pé,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.5,Valor
+Bannach,dados_bannach__a_pe,A pé,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.2,Valor
+Bannach,dados_bannach__onibus,Ônibus,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.5,Valor
+Bannach,dados_bannach__onibus,Ônibus,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.0,Valor
+Bannach,dados_bannach__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.5,Valor
+Bannach,dados_bannach__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.2,Valor
+Bannach,dados_bannach__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.0,Valor
+Bannach,dados_bannach__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Bannach,dados_bannach__mais_de_1_hora,Mais de 1 hora,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.5,Valor
+Bannach,dados_bannach__mais_de_1_hora,Mais de 1 hora,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.0,Valor
+Bannach,dados_bannach__estuda_no_proprio_mun_bannach,Estuda no próprio mun. (Bannach),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.8,Valor
+Bannach,dados_bannach__estuda_no_proprio_mun_bannach,Estuda no próprio mun. (Bannach),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,95.0,Valor
+Bannach,dados_bannach__estuda_em_outro_municipio,Estuda em outro município,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.2,Valor
+Bannach,dados_bannach__estuda_em_outro_municipio,Estuda em outro município,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.0,Valor
+Bannach,dados_bannach__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,522.9838325225682,2000,950.0,Valor
+Bannach,dados_bannach__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,522.9838325225682,2010,1.42,Valor
+Bannach,dados_bannach__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,522.9838325225682,2022,1.88,Valor
+Bannach,dados_bannach__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,514.7289321917987,2000,935.0,Valor
+Bannach,dados_bannach__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,514.7289321917987,2010,1.39,Valor
+Bannach,dados_bannach__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_bannach,Grupo 2 — 3 censos,3,tanh,adam,True,514.7289321917987,2022,1.84,Valor
+Bannach,dados_bannach__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.352293266015633,2000,15.0,Valor
+Bannach,dados_bannach__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.352293266015633,2010,30.0,Valor
+Bannach,dados_bannach__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.352293266015633,2022,40.0,Valor
+Bannach,dados_bannach__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.28447477094768264,2000,4.4,Valor
+Bannach,dados_bannach__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.28447477094768264,2010,3.9,Valor
+Bannach,dados_bannach__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.28447477094768264,2022,2.8,Valor
+Bannach,dados_bannach__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,38.0,Valor
+Bannach,dados_bannach__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.0,Valor
+Bannach,dados_bannach__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Bannach,dados_bannach__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.2,Valor
+Bannach,dados_bannach__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.2,Valor
+Bannach,dados_bannach__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.8,Valor
+Bannach,dados_bannach__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,43.0,Valor
+Bannach,dados_bannach__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.0,Valor
+Bannach,dados_bannach__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.8,Valor
+Bannach,dados_bannach__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.2,Valor
+Bannach,dados_bannach__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,36.0,Valor
+Bannach,dados_bannach__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.5,Valor
+Bannach,dados_bannach__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.0,Valor
+Bannach,dados_bannach__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,65.5,Valor
+Bannach,dados_bannach__ruas_sem_arvores,Ruas Sem Árvores,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.0,Valor
+Bannach,dados_bannach__ruas_sem_arvores,Ruas Sem Árvores,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,34.5,Valor
+Bannach,dados_bannach__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Bannach,dados_bannach__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Bannach,dados_bannach__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Bannach,dados_bannach__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.1,Valor
+Bannach,dados_bannach__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.0,Valor
+Bannach,dados_bannach__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.5,Valor
+Bannach,dados_bannach__populacao_indigena_total,População Indígena Total,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2000,15.0,Valor
+Bannach,dados_bannach__populacao_indigena_total,População Indígena Total,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2010,26.0,Valor
+Bannach,dados_bannach__populacao_indigena_total,População Indígena Total,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,10.514187932420098,2022,55.0,Valor
+Bannach,dados_bannach__proporcao_na_populacao_de_bannach,Proporção na população de Bannach,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.30140360823118334,2000,0.35,Valor
+Bannach,dados_bannach__proporcao_na_populacao_de_bannach,Proporção na população de Bannach,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.30140360823118334,2010,0.66,Valor
+Bannach,dados_bannach__proporcao_na_populacao_de_bannach,Proporção na população de Bannach,dados_bannach,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.30140360823118334,2022,1.49,Valor
+Bannach,dados_bannach__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,76.2,Valor
+Bannach,dados_bannach__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.5,Valor
+Bannach,dados_bannach__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.5,Valor
+Bannach,dados_bannach__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Bannach,dados_bannach__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.0,Valor
+Bannach,dados_bannach__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.5,Valor
+Bannach,dados_bannach__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.3,Valor
+Bannach,dados_bannach__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Bannach,dados_bannach__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3096951580285712,2000,10.8,Valor
+Bannach,dados_bannach__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3096951580285712,2010,14.2,Valor
+Bannach,dados_bannach__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3096951580285712,2022,20.0,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.3770196591594157,2000,63.0,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.3770196591594157,2010,55.5,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.3770196591594157,2022,46.0,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.4267003105639902,2000,7.8,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.4267003105639902,2010,10.0,Valor
+Bannach,dados_bannach__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.4267003105639902,2022,13.2,Valor
+Bannach,dados_bannach__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.0,Valor
+Bannach,dados_bannach__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,68.2,Valor
+Bannach,dados_bannach__sem_conjuge,Sem cônjuge,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.6,Valor
+Bannach,dados_bannach__sem_conjuge,Sem cônjuge,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.4,Valor
+Bannach,dados_bannach__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Bannach,dados_bannach__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Bannach,dados_bannach__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Bannach,dados_bannach__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_bannach,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Bannach,dados_bannach__responsavel_mulher,Responsável Mulher,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+Bannach,dados_bannach__responsavel_mulher,Responsável Mulher,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+Bannach,dados_bannach__responsavel_mulher,Responsável Mulher,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+Bannach,dados_bannach__responsavel_homem,Responsável Homem,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2000,4.3,Valor
+Bannach,dados_bannach__responsavel_homem,Responsável Homem,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2010,3.6,Valor
+Bannach,dados_bannach__responsavel_homem,Responsável Homem,dados_bannach,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2022,3.0,Valor
+Bannach,dados_bannach__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Bannach,dados_bannach__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Bannach,dados_bannach__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Bannach,dados_bannach__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3403430985653066,2000,9.8,Valor
+Bannach,dados_bannach__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3403430985653066,2010,14.0,Valor
+Bannach,dados_bannach__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,1.3403430985653066,2022,20.8,Valor
+Bannach,dados_bannach__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.6380747517207238,2000,13.8,Valor
+Bannach,dados_bannach__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.6380747517207238,2010,18.0,Valor
+Bannach,dados_bannach__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_bannach,Grupo 2 — 3 censos,3,identity,adam,True,0.6380747517207238,2022,22.2,Valor
+Bannach,dados_bannach__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.860710751197132,2000,55.5,Valor
+Bannach,dados_bannach__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.860710751197132,2010,37.5,Valor
+Bannach,dados_bannach__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_bannach,Grupo 2 — 3 censos,3,relu,adam,True,4.860710751197132,2022,22.5,Valor
