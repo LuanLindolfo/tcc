@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Santarém Novo,dados_santarem_novo__anos_de_estudo_media,Anos de Estudo (Média),dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409483,2030,9.9519456444278
+Santarém Novo,dados_santarem_novo__anos_de_estudo_media,Anos de Estudo (Média),dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.15504495713409483,2040,11.550753376064177
+Santarém Novo,dados_santarem_novo__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.12580102302297358,2030,9.508635216364182
+Santarém Novo,dados_santarem_novo__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.12580102302297358,2040,11.068962521087636
+Santarém Novo,dados_santarem_novo__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106285,2030,10.39525598673518
+Santarém Novo,dados_santarem_novo__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_santarem_novo,Grupo 1 — 4 censos,identity,lbfgs,True,0.18428872622106285,2040,12.032544198956307
+Santarém Novo,dados_santarem_novo__populacao_total,População Total,dados_santarem_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,0.15721556741220954,2030,5.96909939257982
+Santarém Novo,dados_santarem_novo__populacao_total,População Total,dados_santarem_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,0.15721556741220954,2040,5.8862173645912925
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_santarem_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3595513307531597,2030,91.98982602353193
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_santarem_novo,Grupo 1 — 4 censos,logistic,lbfgs,True,1.3595513307531597,2040,93.07197826195961
+Santarém Novo,dados_santarem_novo__2_trabalhos,2 trabalhos,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.6215770336287946,2030,5.674888374478787
+Santarém Novo,dados_santarem_novo__2_trabalhos,2 trabalhos,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.6215770336287946,2040,6.583449107842972
+Santarém Novo,dados_santarem_novo__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2030,0.7985214662320534
+Santarém Novo,dados_santarem_novo__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2040,0.9354311763287215
+Santarém Novo,dados_santarem_novo__apenas_1_trabalho,Apenas 1 trabalho,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.54700880039537,2030,93.3248761898689
+Santarém Novo,dados_santarem_novo__apenas_1_trabalho,Apenas 1 trabalho,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,0.54700880039537,2040,91.950520754989
+Santarém Novo,dados_santarem_novo__casais_com_filhos,Casais com filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2030,33.57223261346623
+Santarém Novo,dados_santarem_novo__casais_com_filhos,Casais com filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2040,24.50629542632597
+Santarém Novo,dados_santarem_novo__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2030,7.804315605138771
+Santarém Novo,dados_santarem_novo__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2040,7.800149798290406
+Santarém Novo,dados_santarem_novo__casais_sem_filhos,Casais sem filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2030,20.545965097787594
+Santarém Novo,dados_santarem_novo__casais_sem_filhos,Casais sem filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2040,24.276785620406738
+Santarém Novo,dados_santarem_novo__conta_propria,Conta própria,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.029187658437404524,2030,1.207223348349106
+Santarém Novo,dados_santarem_novo__conta_propria,Conta própria,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.029187658437404524,2040,1.2386194564412587
+Santarém Novo,dados_santarem_novo__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,4.897877004971829,2030,41.33020789959976
+Santarém Novo,dados_santarem_novo__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,4.897877004971829,2040,41.85711280819576
+Santarém Novo,dados_santarem_novo__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,0.1664075781039537,2030,2.1782383218629366
+Santarém Novo,dados_santarem_novo__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,0.1664075781039537,2040,2.1918007916112066
+Santarém Novo,dados_santarem_novo__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102351,2030,27.586658095692606
+Santarém Novo,dados_santarem_novo__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102351,2040,32.362911612839156
+Santarém Novo,dados_santarem_novo__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2030,28.25397760692442
+Santarém Novo,dados_santarem_novo__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2040,31.998121431198957
+Santarém Novo,dados_santarem_novo__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2030,12.244354613037402
+Santarém Novo,dados_santarem_novo__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2040,4.901418755136248
+Santarém Novo,dados_santarem_novo__empregador,Empregador,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,84.99573047176506
+Santarém Novo,dados_santarem_novo__empregador,Empregador,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,103.05794325270251
+Santarém Novo,dados_santarem_novo__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2030,98.51290692535788
+Santarém Novo,dados_santarem_novo__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2040,99.11378443954173
+Santarém Novo,dados_santarem_novo__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,3.507690112407533,2030,85.2680387322737
+Santarém Novo,dados_santarem_novo__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,3.507690112407533,2040,88.91844428046004
+Santarém Novo,dados_santarem_novo__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,sgd,True,3.6167471797380806,2030,24.860480907198177
+Santarém Novo,dados_santarem_novo__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,sgd,True,3.6167471797380806,2040,24.851889641572267
+Santarém Novo,dados_santarem_novo__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.0434138248824793,2030,0.7334834363398779
+Santarém Novo,dados_santarem_novo__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.0434138248824793,2040,0.8062501151894985
+Santarém Novo,dados_santarem_novo__idade_mediana,Idade Mediana,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.5231770275855812,2030,39.453843659597325
+Santarém Novo,dados_santarem_novo__idade_mediana,Idade Mediana,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.5231770275855812,2040,45.36585884551684
+Santarém Novo,dados_santarem_novo__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2030,23.748932617941264
+Santarém Novo,dados_santarem_novo__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2040,28.26448581317563
+Santarém Novo,dados_santarem_novo__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348657,2030,24.467946075120572
+Santarém Novo,dados_santarem_novo__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348657,2040,27.634044993283126
+Santarém Novo,dados_santarem_novo__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2030,10.051232925576262
+Santarém Novo,dados_santarem_novo__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2040,12.33200018072798
+Santarém Novo,dados_santarem_novo__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525247470464078,2030,2.352721295350667
+Santarém Novo,dados_santarem_novo__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.1525247470464078,2040,1.759312631719939
+Santarém Novo,dados_santarem_novo__media_populacao_amarela,Média: População Amarela,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2030,10.230984450071759
+Santarém Novo,dados_santarem_novo__media_populacao_amarela,Média: População Amarela,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231824,2040,11.126336378216408
+Santarém Novo,dados_santarem_novo__media_populacao_branca,Média: População Branca,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572026,2030,10.577875818825987
+Santarém Novo,dados_santarem_novo__media_populacao_branca,Média: População Branca,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572026,2040,12.200983996543755
+Santarém Novo,dados_santarem_novo__media_populacao_indigena,Média: População Indígena,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833650851,2030,8.2246540391214
+Santarém Novo,dados_santarem_novo__media_populacao_indigena,Média: População Indígena,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833650851,2040,9.634014018787937
+Santarém Novo,dados_santarem_novo__media_populacao_preta_parda,Média: População Preta / Parda,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2030,9.726244088120604
+Santarém Novo,dados_santarem_novo__media_populacao_preta_parda,Média: População Preta / Parda,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2040,11.305428803558552
+Santarém Novo,dados_santarem_novo__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,72.90450410464992,2030,13.437319411632387
+Santarém Novo,dados_santarem_novo__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,72.90450410464992,2040,-52.83133460992016
+Santarém Novo,dados_santarem_novo__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_santarem_novo,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,3.668974426752009
+Santarém Novo,dados_santarem_novo__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_santarem_novo,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.002782091398335
+Santarém Novo,dados_santarem_novo__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2030,0.8180979135796016
+Santarém Novo,dados_santarem_novo__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2040,0.8206676756222387
+Santarém Novo,dados_santarem_novo__populacao_amarela,População Amarela,dados_santarem_novo,Grupo 2 — 3 censos,tanh,sgd,True,6.578750478028674,2030,4.304858056772478
+Santarém Novo,dados_santarem_novo__populacao_amarela,População Amarela,dados_santarem_novo,Grupo 2 — 3 censos,tanh,sgd,True,6.578750478028674,2040,3.151457428720544
+Santarém Novo,dados_santarem_novo__populacao_branca,População Branca,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.07162944558848805,2030,0.950637102820382
+Santarém Novo,dados_santarem_novo__populacao_branca,População Branca,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.07162944558848805,2040,0.8295669003027504
+Santarém Novo,dados_santarem_novo__populacao_indigena,População Indígena,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,6.1455934708236875,2030,30.98188174235791
+Santarém Novo,dados_santarem_novo__populacao_indigena,População Indígena,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,6.1455934708236875,2040,31.959851312410724
+Santarém Novo,dados_santarem_novo__populacao_indigena_total,População Indígena Total,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,6.1455934708236875,2030,30.98188174235791
+Santarém Novo,dados_santarem_novo__populacao_indigena_total,População Indígena Total,dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,6.1455934708236875,2040,31.959851312410724
+Santarém Novo,dados_santarem_novo__populacao_parda,População Parda,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.19457534076426164,2030,4.346485662627279
+Santarém Novo,dados_santarem_novo__populacao_parda,População Parda,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.19457534076426164,2040,4.037992221356461
+Santarém Novo,dados_santarem_novo__populacao_preta,População Preta,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,42.44276753620784,2030,449.8143974179015
+Santarém Novo,dados_santarem_novo__populacao_preta,População Preta,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,42.44276753620784,2040,449.64399058921856
+Santarém Novo,dados_santarem_novo__populacao_rural,População Rural,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.33618602679362697,2030,1.8412501986559062
+Santarém Novo,dados_santarem_novo__populacao_rural,População Rural,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.33618602679362697,2040,1.332776163758192
+Santarém Novo,dados_santarem_novo__populacao_urbana,População Urbana,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.051330682366533154,2030,3.9068375202978474
+Santarém Novo,dados_santarem_novo__populacao_urbana,População Urbana,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.051330682366533154,2040,3.9374789114821525
+Santarém Novo,dados_santarem_novo__populacao_com_superior_completo,População com Superior Completo,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,63.95236087459167,2030,543.3524366337751
+Santarém Novo,dados_santarem_novo__populacao_com_superior_completo,População com Superior Completo,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,63.95236087459167,2040,711.9966513596556
+Santarém Novo,dados_santarem_novo__populacao_de_homens,População de Homens,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.15665190859631664,2030,2.949789302475761
+Santarém Novo,dados_santarem_novo__populacao_de_homens,População de Homens,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.15665190859631664,2040,2.706575855510649
+Santarém Novo,dados_santarem_novo__populacao_de_mulheres,População de Mulheres,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.1395353132143322,2030,2.814888037416169
+Santarém Novo,dados_santarem_novo__populacao_de_mulheres,População de Mulheres,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.1395353132143322,2040,2.6002542149426953
+Santarém Novo,dados_santarem_novo__proporcao_na_populacao_de_santarem_novo,Proporção na população de Santarém Novo,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.06978000967758279,2030,0.5092831826135211
+Santarém Novo,dados_santarem_novo__proporcao_na_populacao_de_santarem_novo,Proporção na população de Santarém Novo,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,0.06978000967758279,2040,0.5657275584844994
+Santarém Novo,dados_santarem_novo__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935409035,2030,104.54611772569834
+Santarém Novo,dados_santarem_novo__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353361935409035,2040,103.7768835702961
+Santarém Novo,dados_santarem_novo__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,189.52835338272735,2030,1058.9546923764333
+Santarém Novo,dados_santarem_novo__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,189.52835338272735,2040,1352.5610514886753
+Santarém Novo,dados_santarem_novo__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2030,33.67778609077298
+Santarém Novo,dados_santarem_novo__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2040,26.425036341060775
+Santarém Novo,dados_santarem_novo__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2030,18.14155426993752
+Santarém Novo,dados_santarem_novo__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2040,20.812317407676943
+Santarém Novo,dados_santarem_novo__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418688,2030,29.16337633736586
+Santarém Novo,dados_santarem_novo__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418688,2040,33.531976799873846
+Santarém Novo,dados_santarem_novo__responsavel_homem,Responsável Homem,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2030,2.5730562829426358
+Santarém Novo,dados_santarem_novo__responsavel_homem,Responsável Homem,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2040,1.938440679842818
+Santarém Novo,dados_santarem_novo__responsavel_mulher,Responsável Mulher,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Santarém Novo,dados_santarem_novo__responsavel_mulher,Responsável Mulher,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Santarém Novo,dados_santarem_novo__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2030,2.348333956807973
+Santarém Novo,dados_santarem_novo__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2040,1.804377725579558
+Santarém Novo,dados_santarem_novo__setor_privado,Setor privado,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,6.100960568243295,2030,1109.8818306880748
+Santarém Novo,dados_santarem_novo__setor_privado,Setor privado,dados_santarem_novo,Grupo 2 — 3 censos,identity,lbfgs,True,6.100960568243295,2040,1273.6203416542724
+Santarém Novo,dados_santarem_novo__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,21.26915839069081,2030,584.9701133023555
+Santarém Novo,dados_santarem_novo__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,21.26915839069081,2040,711.4056027689176
+Santarém Novo,dados_santarem_novo__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,22.02794852610333,2030,528.4104076444759
+Santarém Novo,dados_santarem_novo__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,22.02794852610333,2040,562.633992347069
+Santarém Novo,dados_santarem_novo__setor_publico,Setor público,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,19.736761363853986,2030,917.3013772284235
+Santarém Novo,dados_santarem_novo__setor_publico,Setor público,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,19.736761363853986,2040,1084.5055732181002
+Santarém Novo,dados_santarem_novo__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,5.506987131525835,2030,37.10260191111897
+Santarém Novo,dados_santarem_novo__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,5.506987131525835,2040,45.65849808676725
+Santarém Novo,dados_santarem_novo__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,26.586447988363528,2030,881.2126416279443
+Santarém Novo,dados_santarem_novo__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,26.586447988363528,2040,1039.257003461147
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.3012108343666628,2030,66.66588428345148
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.3012108343666628,2040,78.43258769152484
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,1.6580694495763169,2030,99.42382808609165
+Santarém Novo,dados_santarem_novo__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,1.6580694495763169,2040,100.59660746312225
+Santarém Novo,dados_santarem_novo__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2030,98.51290692535788
+Santarém Novo,dados_santarem_novo__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_santarem_novo,Grupo 2 — 3 censos,logistic,adam,True,3.315534353956167,2040,99.11378443954173
+Santarém Novo,dados_santarem_novo__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,0.17134179040090594,2030,2.2195862788572307
+Santarém Novo,dados_santarem_novo__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_santarem_novo,Grupo 2 — 3 censos,tanh,adam,True,0.17134179040090594,2040,2.2336715939439116
+Santarém Novo,dados_santarem_novo__trabalhador_domestico,Trabalhador doméstico,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,11.519930377391594,2030,223.69339123544304
+Santarém Novo,dados_santarem_novo__trabalhador_domestico,Trabalhador doméstico,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,11.519930377391594,2040,240.46113847787595
+Santarém Novo,dados_santarem_novo__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2030,23.748932617941264
+Santarém Novo,dados_santarem_novo__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2040,28.26448581317563
+Santarém Novo,dados_santarem_novo__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,10.112258454711423,2030,201.37523382506646
+Santarém Novo,dados_santarem_novo__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_santarem_novo,Grupo 2 — 3 censos,relu,adam,True,10.112258454711423,2040,214.6495744623581
+Santarém Novo,dados_santarem_novo__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,8.710755269586093,2030,55.73765948614616
+Santarém Novo,dados_santarem_novo__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_santarem_novo,Grupo 2 — 3 censos,relu,lbfgs,True,8.710755269586093,2040,69.74387305403395
+Santarém Novo,dados_santarem_novo__a_pe,A pé,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.410656057396526
+Santarém Novo,dados_santarem_novo__a_pe,A pé,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.333440687492782
+Santarém Novo,dados_santarem_novo__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.91661232023675
+Santarém Novo,dados_santarem_novo__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.11121130832659
+Santarém Novo,dados_santarem_novo__automovel_carro,Automóvel (Carro),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.081192135251731
+Santarém Novo,dados_santarem_novo__automovel_carro,Automóvel (Carro),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.142286058288864
+Santarém Novo,dados_santarem_novo__bicicleta,Bicicleta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.255483093649012
+Santarém Novo,dados_santarem_novo__bicicleta,Bicicleta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.181615077768795
+Santarém Novo,dados_santarem_novo__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.3102054502157
+Santarém Novo,dados_santarem_novo__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.12322920783441
+Santarém Novo,dados_santarem_novo__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Santarém Novo,dados_santarem_novo__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Santarém Novo,dados_santarem_novo__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.78683100603559
+Santarém Novo,dados_santarem_novo__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.62235820415751
+Santarém Novo,dados_santarem_novo__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8840596067625865
+Santarém Novo,dados_santarem_novo__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.987114302914444
+Santarém Novo,dados_santarem_novo__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.31450665748199
+Santarém Novo,dados_santarem_novo__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.190471574772772
+Santarém Novo,dados_santarem_novo__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.771785283984274
+Santarém Novo,dados_santarem_novo__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.963036918050584
+Santarém Novo,dados_santarem_novo__estuda_em_outro_municipio,Estuda em outro município,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.882625871007159
+Santarém Novo,dados_santarem_novo__estuda_em_outro_municipio,Estuda em outro município,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.964700180601653
+Santarém Novo,dados_santarem_novo__estuda_no_proprio_municipio_santarem_novo,Estuda no próprio município (Santarém Novo),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.55830616011838
+Santarém Novo,dados_santarem_novo__estuda_no_proprio_municipio_santarem_novo,Estuda no próprio município (Santarém Novo),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.65560565416331
+Santarém Novo,dados_santarem_novo__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.08417247338106
+Santarém Novo,dados_santarem_novo__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.29800120401103
+Santarém Novo,dados_santarem_novo__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.753916495463578
+Santarém Novo,dados_santarem_novo__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.129725055549139
+Santarém Novo,dados_santarem_novo__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.18119213525173
+Santarém Novo,dados_santarem_novo__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.24228605828887
+Santarém Novo,dados_santarem_novo__mais_de_1_hora,Mais de 1 hora,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.650745084532332
+Santarém Novo,dados_santarem_novo__mais_de_1_hora,Mais de 1 hora,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.938928786430541
+Santarém Novo,dados_santarem_novo__motocicleta,Motocicleta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.13772859611501
+Santarém Novo,dados_santarem_novo__motocicleta,Motocicleta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.126314784518854
+Santarém Novo,dados_santarem_novo__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.16739561932947
+Santarém Novo,dados_santarem_novo__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.637156319436414
+Santarém Novo,dados_santarem_novo__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.034804691294916
+Santarém Novo,dados_santarem_novo__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.42604308934498
+Santarém Novo,dados_santarem_novo__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.30298033812933
+Santarém Novo,dados_santarem_novo__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.45571514572217
+Santarém Novo,dados_santarem_novo__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_amarela_2,População Amarela,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_amarela_2,População Amarela,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_branca_2,População Branca,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_branca_2,População Branca,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_indigena_2,População Indígena,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_indigena_2,População Indígena,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_parda_2,População Parda,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_parda_2,População Parda,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_preta_2,População Preta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_preta_2,População Preta,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__populacao_residente_em_favelas,População Residente em Favelas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__populacao_residente_em_favelas,População Residente em Favelas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.424655674388452
+Santarém Novo,dados_santarem_novo__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.558257332058876
+Santarém Novo,dados_santarem_novo__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Santarém Novo,dados_santarem_novo__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Santarém Novo,dados_santarem_novo__ruas_sem_arvores,Ruas Sem Árvores,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,53.92322193863303
+Santarém Novo,dados_santarem_novo__ruas_sem_arvores,Ruas Sem Árvores,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.03584320974609
+Santarém Novo,dados_santarem_novo__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.98526440785017
+Santarém Novo,dados_santarem_novo__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.270468181937865
+Santarém Novo,dados_santarem_novo__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.50005643330924
+Santarém Novo,dados_santarem_novo__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.055443450548296
+Santarém Novo,dados_santarem_novo__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.70590424294943
+Santarém Novo,dados_santarem_novo__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.45598684089603
+Santarém Novo,dados_santarem_novo__sem_conjuge,Sem cônjuge,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.195698792733715
+Santarém Novo,dados_santarem_novo__sem_conjuge,Sem cônjuge,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.13275763306163
+Santarém Novo,dados_santarem_novo__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Santarém Novo,dados_santarem_novo__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Santarém Novo,dados_santarem_novo__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.6304470507194
+Santarém Novo,dados_santarem_novo__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.403357271858326
+Santarém Novo,dados_santarem_novo__trabalha_em_outro_municipio,Trabalha em outro município,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.118864298057503
+Santarém Novo,dados_santarem_novo__trabalha_em_outro_municipio,Trabalha em outro município,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.613157392259424
+Santarém Novo,dados_santarem_novo__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.10908945921108
+Santarém Novo,dados_santarem_novo__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.4815506652731
+Santarém Novo,dados_santarem_novo__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.020354467122168
+Santarém Novo,dados_santarem_novo__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.091014965120504
+Santarém Novo,dados_santarem_novo__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.824768541006925
+Santarém Novo,dados_santarem_novo__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,60.069144233155455
+Santarém Novo,dados_santarem_novo__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7884172473381055
+Santarém Novo,dados_santarem_novo__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.5098001204011036
+Santarém Novo,dados_santarem_novo__onibus,Ônibus,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.942029803381294
+Santarém Novo,dados_santarem_novo__onibus,Ônibus,dados_santarem_novo,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.993557151457221
