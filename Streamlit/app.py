@@ -35,6 +35,11 @@ MUNICIPIOS = [
         "arquivo": "indicadores_abaetetuba_tratados.csv",
     },
     {
+        "nome":    "Abel Figueiredo",
+        "pasta":   "data",
+        "arquivo": "indicadores_abel_figueiredo_tratados.csv",
+    },
+    {
         "nome":    "Acará",
         "pasta":   "data",
         "arquivo": "indicadores_acará_tratados.csv",
@@ -43,6 +48,11 @@ MUNICIPIOS = [
         "nome":    "Afuá",
         "pasta":   "data",
         "arquivo": "indicadores_afuá_tratados.csv",
+    },
+    {
+        "nome":    "Água Azul do Norte",
+        "pasta":   "data",
+        "arquivo": "indicadores_água_azul_do_norte_tratados.csv",
     },
     {
         "nome":    "Alenquer",
@@ -80,6 +90,16 @@ MUNICIPIOS = [
         "arquivo": "indicadores_augusto_corrêa_tratados.csv",
     },
     {
+        "nome":    "Aurora do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_aurora_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Aveiro",
+        "pasta":   "data",
+        "arquivo": "indicadores_aveiro_tratados.csv",
+    },
+    {
         "nome":    "Bagre",
         "pasta":   "data",
         "arquivo": "indicadores_bagre_tratados.csv",
@@ -90,9 +110,19 @@ MUNICIPIOS = [
         "arquivo": "indicadores_baião_tratados.csv",
     },
     {
+        "nome":    "Bannach",
+        "pasta":   "data",
+        "arquivo": "indicadores_bannach_tratados.csv",
+    },
+    {
         "nome":    "Barcarena",
         "pasta":   "data",
         "arquivo": "indicadores_barcarena_tratados.csv",
+    },
+    {
+        "nome":    "Beijo Grando do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_beijo_grande_do_araguaia_tratados.csv",
     },
     {
         "nome":    "Belém",
@@ -100,14 +130,34 @@ MUNICIPIOS = [
         "arquivo": "indicadores_belem_tratados.csv",
     },
     {
+        "nome":    "Belterra",
+        "pasta":   "data",
+        "arquivo": "indicadores_belterra_tratados.csv",
+    },
+    {
         "nome":    "Benevides",
         "pasta":   "data",
         "arquivo": "indicadores_benevides_tratados.csv",
     },
     {
+        "nome":    "Bom Jesus do Tocantins",
+        "pasta":   "data",
+        "arquivo": "indicadores_bom_jesus_do_tocantins_tratados.csv",
+    },
+    {
+        "nome":    "Bonito",
+        "pasta":   "data",
+        "arquivo": "indicadores_bonito_tratados.csv",
+    },
+    {
         "nome":    "Bragança",
         "pasta":   "data",
         "arquivo": "indicadores_braganca_tratados.csv",
+    },
+    {
+        "nome":    "Brasil Novo",
+        "pasta":   "data",
+        "arquivo": "indicadores_brasil_novo_tratados.csv",
     },
     {
         "nome":    "Breu Branco",
@@ -118,6 +168,21 @@ MUNICIPIOS = [
         "nome":    "Breves",
         "pasta":   "data",
         "arquivo": "indicadores_breves_tratados.csv",
+    },
+    {
+        "nome":    "Bujaru",
+        "pasta":   "data",
+        "arquivo": "indicadores_bujaru_tratados.csv",
+    },
+    {
+        "nome":    "Cachoeira do Piriá",
+        "pasta":   "data",
+        "arquivo": "indicadores_cachoeira_do_piriá_tratados.csv",
+    },
+    {
+        "nome":    "Cachoeria do Arari",
+        "pasta":   "data",
+        "arquivo": "indicadores_cachoeira_do_arari_tratados.csv",
     },
     {
         "nome":    "Cametá",
@@ -145,6 +210,16 @@ MUNICIPIOS = [
         "arquivo": "indicadores_castanhal_tratados.csv",
     },
     {
+        "nome":    "Chaves",
+        "pasta":   "data",
+        "arquivo": "indicadores_chaves_tratados.csv",
+    },
+    {
+        "nome":    "Colares",
+        "pasta":   "data",
+        "arquivo": "indicadores_colares_tratados.csv",
+    },
+    {
         "nome":    "Conceição do Araguaia",
         "pasta":   "data",
         "arquivo": "indicadores_conceição_do_araguaia_tratados.csv",
@@ -155,14 +230,29 @@ MUNICIPIOS = [
         "arquivo": "indicadores_concórdia_do_pará_tratados.csv",
     },
     {
-        "nome":    "Curuçá",
+        "nome":    "Cumaru do Norte",
         "pasta":   "data",
-        "arquivo": "indicadores_curuçá_tratados.csv",
+        "arquivo": "indicadores_cumaru_do_norte_tratados.csv",
+    },
+    {
+        "nome":    "Curionópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_curionópolis_tratados.csv",
     },
     {
         "nome":    "Curralinho",
         "pasta":   "data",
         "arquivo": "indicadores_curralinho_tratados.csv",
+    },
+    {
+        "nome":    "Curuá",
+        "pasta":   "data",
+        "arquivo": "indicadores_curuá_tratados.csv",
+    },
+    {
+        "nome":    "Curuçá",
+        "pasta":   "data",
+        "arquivo": "indicadores_curuçá_tratados.csv",
     },
     {
         "nome":    "Dom Eliseu",
@@ -173,6 +263,26 @@ MUNICIPIOS = [
         "nome":    "Eldorado do Carajás",
         "pasta":   "data",
         "arquivo": "indicadores_eldorado_do_carajás_tratados.csv",
+    },
+    {
+        "nome":    "Faro",
+        "pasta":   "data",
+        "arquivo": "indicadores_faro_tratados.csv",
+    },
+    {
+        "nome":    "Floresta do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
+    },
+    {
+        "nome":    "Garrafão do Norte",
+        "pasta":   "data",
+        "arquivo": "indicadores_garrafão_do_norte_tratados.csv",
+    },
+    {
+        "nome":    "Goianésia do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_goianésia_do_pará_tratados.csv",
     },
     {
         "nome":    "Gurupá",
@@ -188,6 +298,11 @@ MUNICIPIOS = [
         "nome":    "Igarapé-Miri",
         "pasta":   "data",
         "arquivo": "indicadores_igarapé_miri_tratados.csv",
+    },
+    {
+        "nome":    "Inhangapi",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
     },
     {
         "nome":    "Ipixuna do Pará",
@@ -210,6 +325,11 @@ MUNICIPIOS = [
         "arquivo": "indicadores_itupiranga_tratados.csv",
     },
     {
+        "nome":    "Jacareacanga",
+        "pasta":   "data",
+        "arquivo": "indicadores_jacareacanga_tratados.csv",
+    },
+    {
         "nome":    "Jacundá",
         "pasta":   "data",
         "arquivo": "indicadores_jacundá_tratados.csv",
@@ -230,9 +350,19 @@ MUNICIPIOS = [
         "arquivo": "indicadores_mãe_do_rio_tratados.csv",
     },
     {
+        "nome":    "Magalhães Barata",
+        "pasta":   "data",
+        "arquivo": "indicadores_magalhães_barata_tratados.csv",
+    },
+    {
         "nome":    "Marabá",
         "pasta":   "data",
         "arquivo": "indicadores_maraba_tratados.csv",
+    },
+    {
+        "nome":    "Maracanã",
+        "pasta":   "data",
+        "arquivo": "indicadores_maracanã_tratados.csv",
     },
     {
         "nome":    "Marapanim",
@@ -265,6 +395,11 @@ MUNICIPIOS = [
         "arquivo": "indicadores_moju_tratados.csv",
     },
     {
+        "nome":    "Mojuí dos Campos",
+        "pasta":   "data",
+        "arquivo": "indicadores_mojuí_dos_campos_tratados.csv",
+    },
+    {
         "nome":    "Monte Alegre",
         "pasta":   "data",
         "arquivo": "indicadores_monte_alegre_tratados.csv",
@@ -273,6 +408,21 @@ MUNICIPIOS = [
         "nome":    "Muaná",
         "pasta":   "data",
         "arquivo": "indicadores_muaná_tratados.csv",
+    },
+    {
+        "nome":    "Nova Esperança do Piriá",
+        "pasta":   "data",
+        "arquivo": "indicadores_nova_esperança_do_piriá_tratados.csv",
+    },
+    {
+        "nome":    "Nova Ipixuna",
+        "pasta":   "data",
+        "arquivo": "indicadores_nova_ipixuna_tratados.csv",
+    },
+    {
+        "nome":    "Nova Timboteua",
+        "pasta":   "data",
+        "arquivo": "indicadores_nova_timboteua_tratados.csv",
     },
     {
         "nome":    "Novo Progresso",
@@ -300,6 +450,11 @@ MUNICIPIOS = [
         "arquivo": "indicadores_oriximiná_tratados.csv",
     },
     {
+        "nome":    "Ourém",
+        "pasta":   "data",
+        "arquivo": "indicadores_ourém_tratados.csv",
+    },
+    {
         "nome":    "Ourilândia do Norte",
         "pasta":   "data",
         "arquivo": "indicadores_ourilândia_do_norte_tratados.csv",
@@ -310,6 +465,11 @@ MUNICIPIOS = [
         "arquivo": "indicadores_pacajá_tratados.csv",
     },
     {
+        "nome":    "Palestina do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_palestina_do_pará_tratados.csv",
+    },
+    {
         "nome":    "Paragominas",
         "pasta":   "data",
         "arquivo": "indicadores_paragominas_tratados.csv",
@@ -318,6 +478,31 @@ MUNICIPIOS = [
         "nome":    "Parauapebas",
         "pasta":   "data",
         "arquivo": "indicadores_parauapebas_tratados.csv",
+    },
+    {
+        "nome":    "Pau D'Arco",
+        "pasta":   "data",
+        "arquivo": "indicadores_pau_d_arco_tratados.csv",
+    },
+    {
+        "nome":    "Peixe-Boi",
+        "pasta":   "data",
+        "arquivo": "indicadores_peixe_boi_tratados.csv",
+    },
+    {
+        "nome":    "Piçarra",
+        "pasta":   "data",
+        "arquivo": "indicadores_piçarra_tratados.csv",
+    },
+    {
+        "nome":    "Placas",
+        "pasta":   "data",
+        "arquivo": "indicadores_placas_tratados.csv",
+    },
+    {
+        "nome":    "Ponta de Pedras",
+        "pasta":   "data",
+        "arquivo": "indicadores_ponta_de_pedras_tratados.csv",
     },
     {
         "nome":    "Portel",
@@ -335,9 +520,24 @@ MUNICIPIOS = [
         "arquivo": "indicadores_prainha_tratados.csv",
     },
     {
+        "nome":    "Primavera",
+        "pasta":   "data",
+        "arquivo": "indicadores_primavera_tratados.csv",
+    },
+    {
+        "nome":    "Quatipuru",
+        "pasta":   "data",
+        "arquivo": "indicadores_quatipuru_tratados.csv",
+    },
+    {
         "nome":    "Redenção",
         "pasta":   "data",
         "arquivo": "indicadores_redenção_tratados.csv",
+    },
+    {
+        "nome":    "Rio Maria",
+        "pasta":   "data",
+        "arquivo": "indicadores_rio_maria_tratados.csv",
     },
     {
         "nome":    "Rondon do Pará",
@@ -355,9 +555,39 @@ MUNICIPIOS = [
         "arquivo": "indicadores_salinópolis_tratados.csv",
     },
     {
+        "nome":    "Salvaterra",
+        "pasta":   "data",
+        "arquivo": "indicadores_salvaterra_tratados.csv",
+    },
+    {
+        "nome":    "Santa Bárbara do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_bárbara_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santa Cruz do Arari",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_cruz_do_arari_tratados.csv",
+    },
+    {
         "nome":    "Santa Izabel do Pará",
         "pasta":   "data",
         "arquivo": "indicadores_santa_izabel_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santa Luzia do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_luzia_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santa Maria das Barreiras",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_maria_das_barreiras_tratados.csv",
+    },
+    {
+        "nome":    "Santa Maria do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_maria_do_pará_tratados.csv",
     },
     {
         "nome":    "Santana do Araguaia",
@@ -370,9 +600,24 @@ MUNICIPIOS = [
         "arquivo": "indicadores_santarem_tratados.csv",
     },
     {
+        "nome":    "Santarém Novo",
+        "pasta":   "data",
+        "arquivo": "indicadores_santarém_novo_tratados.csv",
+    },
+    {
         "nome":    "Santo Antônio do Tauá",
         "pasta":   "data",
         "arquivo": "indicadores_santo_antônio_do_tauá_tratados.csv",
+    },
+    {
+        "nome":    "São Caetano de Odivelas",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_caetano_de_odivelas_tratados.csv",
+    },
+    {
+        "nome":    "São Domingos do Aragauaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
     },
     {
         "nome":    "São Domingos do Capim",
@@ -385,6 +630,31 @@ MUNICIPIOS = [
         "arquivo": "indicadores_são_félix_do_xingu_tratados.csv",
     },
     {
+        "nome":    "São Francisco do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_francisco_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "São Geraldo do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_geraldo_do_araguaia_tratados.csv",
+    },
+    {
+        "nome":    "São João da Ponta",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_joão_da_ponta_tratados.csv",
+    },
+    {
+        "nome":    "São João de Pirabas",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_joão_de_pirabas_tratados.csv",
+    },
+    {
+        "nome":    "São João do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_joão_do_araguaia_tratados.csv",
+    },
+    {
         "nome":    "São Miguel do Guamá",
         "pasta":   "data",
         "arquivo": "indicadores_são_miguel_do_guamá_tratados.csv",
@@ -395,9 +665,34 @@ MUNICIPIOS = [
         "arquivo": "indicadores_são_sebastião_da_boa_vista_tratados.csv",
     },
     {
+        "nome":    "Sapucaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_sapucaia_tratados.csv",
+    },
+    {
+        "nome":    "Senador José Porfírio",
+        "pasta":   "data",
+        "arquivo": "indicadores_senador_josé_porfírio_tratados.csv",
+    },
+    {
+        "nome":    "Soure",
+        "pasta":   "data",
+        "arquivo": "indicadores_soure_tratados.csv",
+    },
+    {
         "nome":    "Tailândia",
         "pasta":   "data",
         "arquivo": "indicadores_tailândia_tratados.csv",
+    },
+    {
+        "nome":    "Terra Alta",
+        "pasta":   "data",
+        "arquivo": "indicadores_terra_alta_tratados.csv",
+    },
+    {
+        "nome":    "Terra Santa",
+        "pasta":   "data",
+        "arquivo": "indicadores_terra_santa_tratados.csv",
     },
     {
         "nome":    "Tomé-Açu",
@@ -408,6 +703,11 @@ MUNICIPIOS = [
         "nome":    "Tracuateua",
         "pasta":   "data",
         "arquivo": "indicadores_tracuateua_tratados.csv",
+    },
+    {
+        "nome":    "Trairão",
+        "pasta":   "data",
+        "arquivo": "indicadores_trairão_tratados.csv",
     },
     {
         "nome":    "Tucumã",
@@ -440,314 +740,14 @@ MUNICIPIOS = [
         "arquivo": "indicadores_viseu_tratados.csv",
     },
     {
-        "nome":    "Xinguara",
-        "pasta":   "data",
-        "arquivo": "indicadores_xinguara_tratados.csv",
-    },
-    {
-        "nome":    "Brasil Novo",
-        "pasta":   "data",
-        "arquivo": "indicadores_brasil_novo_tratados.csv",
-    },
-    {
-        "nome":    "Maracanã",
-        "pasta":   "data",
-        "arquivo": "indicadores_maracanã_tratados.csv",
-    },
-    {
-        "nome":    "Goianésia do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_goianésia_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Jacareacanga",
-        "pasta":   "data",
-        "arquivo": "indicadores_jacareacanga_tratados.csv",
-    },
-    {
-        "nome":    "Mojuí dos Campos",
-        "pasta":   "data",
-        "arquivo": "indicadores_mojuí_dos_campos_tratados.csv",
-    },
-    {
-        "nome":    "Santa Maria do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_maria_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Ponta de Pedras",
-        "pasta":   "data",
-        "arquivo": "indicadores_ponta_de_pedras_tratados.csv",
-    },
-    {
-        "nome":    "Salvaterra",
-        "pasta":   "data",
-        "arquivo": "indicadores_salvaterra_tratados.csv",
-    },
-    {
-        "nome":    "Garrafão do Norte",
-        "pasta":   "data",
-        "arquivo": "indicadores_garrafão_do_norte_tratados.csv",
-    },
-    {
-        "nome":    "Cachoeria do Arari",
-        "pasta":   "data",
-        "arquivo": "indicadores_cachoeira_do_arari_tratados.csv",
-    },
-    {
-        "nome":    "Soure",
-        "pasta":   "data",
-        "arquivo": "indicadores_soure_tratados.csv",
-    },
-    {
-        "nome":    "Bujaru",
-        "pasta":   "data",
-        "arquivo": "indicadores_bujaru_tratados.csv",
-    },
-    {
-        "nome":    "Senador José Porfírio",
-        "pasta":   "data",
-        "arquivo": "indicadores_senador_josé_porfírio_tratados.csv",
-    },
-    {
-        "nome":    "São Geraldo do Araguaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_geraldo_do_araguaia_tratados.csv",
-    },
-    {
-        "nome":    "Aurora do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_aurora_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Santa Bárbara do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_bárbara_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "São Domingos do Aragauaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_viseu_tratados.csv",
-    },
-    {
-        "nome":    "Chaves",
-        "pasta":   "data",
-        "arquivo": "indicadores_chaves_tratados.csv",
-    },
-    {
-        "nome":    "São João de Pirabas",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_joão_de_pirabas_tratados.csv",
-    },
-    {
-        "nome":    "Nova Esperança do Piriá",
-        "pasta":   "data",
-        "arquivo": "indicadores_nova_esperança_do_piriá_tratados.csv",
-    },
-    {
-        "nome":    "Santa Luzia do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_luzia_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Curionópolis",
-        "pasta":   "data",
-        "arquivo": "indicadores_curionópolis_tratados.csv",
-    },
-    {
-        "nome":    "Terra Santa",
-        "pasta":   "data",
-        "arquivo": "indicadores_terra_santa_tratados.csv",
-    },
-    {
-        "nome":    "Cachoeira do Piriá",
-        "pasta":   "data",
-        "arquivo": "indicadores_cachoeira_do_piriá_tratados.csv",
-    },
-    {
-        "nome":    "Aveiro",
-        "pasta":   "data",
-        "arquivo": "indicadores_aveiro_tratados.csv",
-    },
-    {
-        "nome":    "Rio Maria",
-        "pasta":   "data",
-        "arquivo": "indicadores_rio_maria_tratados.csv",
-    },
-    {
-        "nome":    "Bom Jesus do Tocantins",
-        "pasta":   "data",
-        "arquivo": "indicadores_bom_jesus_do_tocantins_tratados.csv",
-    },
-    {
-        "nome":    "Belterra",
-        "pasta":   "data",
-        "arquivo": "indicadores_belterra_tratados.csv",
-    },
-    {
-        "nome":    "Placas",
-        "pasta":   "data",
-        "arquivo": "indicadores_placas_tratados.csv",
-    },
-    {
-        "nome":    "Ourém",
-        "pasta":   "data",
-        "arquivo": "indicadores_ourém_tratados.csv",
-    },
-    {
-        "nome":    "Floresta do Araguaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_viseu_tratados.csv",
-    },
-    {
-        "nome":    "Água Azul do Norte",
-        "pasta":   "data",
-        "arquivo": "indicadores_água_azul_do_norte_tratados.csv",
-    },
-    {
-        "nome":    "São Caetano de Odivelas",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_caetano_de_odivelas_tratados.csv",
-    },
-    {
-        "nome":    "Santa Maria das Barreiras",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_maria_das_barreiras_tratados.csv",
-    },
-    {
         "nome":    "Vitória do Xingu",
         "pasta":   "data",
         "arquivo": "indicadores_vitória_do_xingu_tratados.csv",
     },
     {
-        "nome":    "Trairão",
+        "nome":    "Xinguara",
         "pasta":   "data",
-        "arquivo": "indicadores_trairão_tratados.csv",
-    },
-    {
-        "nome":    "São Francisco do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_francisco_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Cumaru do Norte",
-        "pasta":   "data",
-        "arquivo": "indicadores_cumaru_do_norte_tratados.csv",
-    },
-    {
-        "nome":    "Curuá",
-        "pasta":   "data",
-        "arquivo": "indicadores_curuá_tratados.csv",
-    },
-    {
-        "nome":    "Nova Ipixuna",
-        "pasta":   "data",
-        "arquivo": "indicadores_nova_ipixuna_tratados.csv",
-    },
-    {
-        "nome":    "São João do Araguaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_joão_do_araguaia_tratados.csv",
-    },
-    {
-        "nome":    "Colares",
-        "pasta":   "data",
-        "arquivo": "indicadores_colares_tratados.csv",
-    },
-    {
-        "nome":    "Piçarra",
-        "pasta":   "data",
-        "arquivo": "indicadores_piçarra_tratados.csv",
-    },
-    {
-        "nome":    "Nova Timboteua",
-        "pasta":   "data",
-        "arquivo": "indicadores_nova_timboteua_tratados.csv",
-    },
-    {
-        "nome":    "Bonito",
-        "pasta":   "data",
-        "arquivo": "indicadores_bonito_tratados.csv",
-    },
-    {
-        "nome":    "Quatipuru",
-        "pasta":   "data",
-        "arquivo": "indicadores_quatipuru_tratados.csv",
-    },
-    {
-        "nome":    "Primavera",
-        "pasta":   "data",
-        "arquivo": "indicadores_primavera_tratados.csv",
-    },
-    {
-        "nome":    "Terra Alta",
-        "pasta":   "data",
-        "arquivo": "indicadores_terra_alta_tratados.csv",
-    },
-    {
-        "nome":    "Inhangapi",
-        "pasta":   "data",
-        "arquivo": "indicadores_viseu_tratados.csv",
-    },
-    {
-        "nome":    "Faro",
-        "pasta":   "data",
-        "arquivo": "indicadores_faro_tratados.csv",
-    },
-    {
-        "nome":    "Peixe-Boi",
-        "pasta":   "data",
-        "arquivo": "indicadores_peixe_boi_tratados.csv",
-    },
-    {
-        "nome":    "Magalhães Barata",
-        "pasta":   "data",
-        "arquivo": "indicadores_magalhães_barata_tratados.csv",
-    },
-    {
-        "nome":    "Santa Cruz do Arari",
-        "pasta":   "data",
-        "arquivo": "indicadores_santa_cruz_do_arari_tratados.csv",
-    },
-    {
-        "nome":    "Pau D'Arco",
-        "pasta":   "data",
-        "arquivo": "indicadores_pau_d_arco_tratados.csv",
-    },
-    {
-        "nome":    "Palestina do Pará",
-        "pasta":   "data",
-        "arquivo": "indicadores_palestina_do_pará_tratados.csv",
-    },
-    {
-        "nome":    "Beijo Grando do Araguaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_beijo_grande_do_araguaia_tratados.csv",
-    },
-    {
-        "nome":    "Santarém Novo",
-        "pasta":   "data",
-        "arquivo": "indicadores_santarém_novo_tratados.csv",
-    },
-    {
-        "nome":    "Abel Figueiredo",
-        "pasta":   "data",
-        "arquivo": "indicadores_abel_figueiredo_tratados.csv",
-    },
-    {
-        "nome":    "Sapucaia",
-        "pasta":   "data",
-        "arquivo": "indicadores_sapucaia_tratados.csv",
-    },
-    {
-        "nome":    "São João da Ponta",
-        "pasta":   "data",
-        "arquivo": "indicadores_são_joão_da_ponta_tratados.csv",
-    },
-    {
-        "nome":    "Bannach",
-        "pasta":   "data",
-        "arquivo": "indicadores_bannach_tratados.csv",
+        "arquivo": "indicadores_xinguara_tratados.csv",
     },
 ]
 
