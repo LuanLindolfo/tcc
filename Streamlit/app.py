@@ -122,7 +122,7 @@ MUNICIPIOS = [
     {
         "nome":    "Beijo Grando do Araguaia",
         "pasta":   "data",
-        "arquivo": "indicadores_beijo_grande_do_araguaia_tratados.csv",
+        "arquivo": "indicadores_beijo_grando_do_araguaia_tratados.csv",
     },
     {
         "nome":    "Belém",
