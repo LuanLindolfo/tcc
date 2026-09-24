@@ -444,6 +444,151 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_xinguara_tratados.csv",
     },
+    {
+        "nome":    "Brasil Novo",
+        "pasta":   "data",
+        "arquivo": "indicadores_brasil_novo_tratados.csv",
+    },
+    {
+        "nome":    "Maracanã",
+        "pasta":   "data",
+        "arquivo": "indicadores_maracanã_tratados.csv",
+    },
+    {
+        "nome":    "Goianésia do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_goianésia_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Jacareacanga",
+        "pasta":   "data",
+        "arquivo": "indicadores_jacareacanga_tratados.csv",
+    },
+    {
+        "nome":    "Mojuí dos Campos",
+        "pasta":   "data",
+        "arquivo": "indicadores_mojuí_dos_campos_tratados.csv",
+    },
+    {
+        "nome":    "Santa Maria do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_maria_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Ponta de Pedras",
+        "pasta":   "data",
+        "arquivo": "indicadores_ponta_de_pedras_tratados.csv",
+    },
+    {
+        "nome":    "Salvaterra",
+        "pasta":   "data",
+        "arquivo": "indicadores_salvaterra_tratados.csv",
+    },
+    {
+        "nome":    "Garrafão do Norte",
+        "pasta":   "data",
+        "arquivo": "indicadores_garrafão_do_norte_tratados.csv",
+    },
+    {
+        "nome":    "Cachoeria do Arari",
+        "pasta":   "data",
+        "arquivo": "indicadores_cachoeira_do_arari_tratados.csv",
+    },
+    {
+        "nome":    "Sou",
+        "pasta":   "data",
+        "arquivo": "indicadores_soure_tratados.csv",
+    },
+    {
+        "nome":    "Bujaru",
+        "pasta":   "data",
+        "arquivo": "indicadores_bujaru_tratados.csv",
+    },
+    {
+        "nome":    "Senador José Porfírio",
+        "pasta":   "data",
+        "arquivo": "indicadores_senador_josé_porfírio_tratados.csv",
+    },
+    {
+        "nome":    "São Geraldo do Araguaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_geraldo_do_araguaia_tratados.csv",
+    },
+    {
+        "nome":    "Aurora do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_aurora_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Santa Bárbara do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_bárbara_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "São Domingos do Aragauaia",
+        "pasta":   "data",
+        "arquivo": "indicadores_viseu_tratados.csv",
+    },
+    {
+        "nome":    "Chaves",
+        "pasta":   "data",
+        "arquivo": "indicadores_chaves_tratados.csv",
+    },
+    {
+        "nome":    "São João de Pirabas",
+        "pasta":   "data",
+        "arquivo": "indicadores_são_joão_de_pirabas_tratados.csv",
+    },
+    {
+        "nome":    "Nova Esperança do Piriá",
+        "pasta":   "data",
+        "arquivo": "indicadores_nova_esperança_do_piriá_tratados.csv",
+    },
+    {
+        "nome":    "Santa Luzia do Pará",
+        "pasta":   "data",
+        "arquivo": "indicadores_santa_luzia_do_pará_tratados.csv",
+    },
+    {
+        "nome":    "Curionópolis",
+        "pasta":   "data",
+        "arquivo": "indicadores_curionópolis_tratados.csv",
+    },
+    {
+        "nome":    "Terra Santa",
+        "pasta":   "data",
+        "arquivo": "indicadores_terra_santa_tratados.csv",
+    },
+    {
+        "nome":    "Cachoeira do Piriá",
+        "pasta":   "data",
+        "arquivo": "indicadores_cachoeira_do_piriá_tratados.csv",
+    },
+    {
+        "nome":    "Aveiro",
+        "pasta":   "data",
+        "arquivo": "indicadores_aveiro_tratados.csv",
+    },
+    {
+        "nome":    "Rio Maria",
+        "pasta":   "data",
+        "arquivo": "indicadores_rio_maria_tratados.csv",
+    },
+    {
+        "nome":    "Bom Jesus do Tocantins",
+        "pasta":   "data",
+        "arquivo": "indicadores_bom_jesus_do_tocantins_tratados.csv",
+    },
+    {
+        "nome":    "Belterra",
+        "pasta":   "data",
+        "arquivo": "indicadores_belterra_tratados.csv",
+    },
+    {
+        "nome":    "Placas",
+        "pasta":   "data",
+        "arquivo": "indicadores_placas_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
