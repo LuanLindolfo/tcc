@@ -1,0 +1,296 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Inhangapi,dados_inhangapi__populacao_total,População Total,dados_inhangapi,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.21206628115351966,1991,8.412,Valor
+Inhangapi,dados_inhangapi__populacao_total,População Total,dados_inhangapi,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.21206628115351966,2000,8.82,Valor
+Inhangapi,dados_inhangapi__populacao_total,População Total,dados_inhangapi,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.21206628115351966,2010,10.037,Valor
+Inhangapi,dados_inhangapi__populacao_total,População Total,dados_inhangapi,Grupo 1 — 4 censos,4,relu,lbfgs,True,0.21206628115351966,2022,11.586,Valor
+Inhangapi,dados_inhangapi__populacao_urbana,População Urbana,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006101554131286324,2000,3.98,Valor
+Inhangapi,dados_inhangapi__populacao_urbana,População Urbana,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006101554131286324,2010,5.12,Valor
+Inhangapi,dados_inhangapi__populacao_urbana,População Urbana,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.006101554131286324,2022,6.48,Valor
+Inhangapi,dados_inhangapi__populacao_rural,População Rural,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.06799517237766217,2000,4.84,Valor
+Inhangapi,dados_inhangapi__populacao_rural,População Rural,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.06799517237766217,2010,4.917,Valor
+Inhangapi,dados_inhangapi__populacao_rural,População Rural,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.06799517237766217,2022,5.106,Valor
+Inhangapi,dados_inhangapi__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_de_mulheres,População de Mulheres,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.04374516459887209,2000,4.28,Valor
+Inhangapi,dados_inhangapi__populacao_de_mulheres,População de Mulheres,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.04374516459887209,2010,4.89,Valor
+Inhangapi,dados_inhangapi__populacao_de_mulheres,População de Mulheres,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.04374516459887209,2022,5.68,Valor
+Inhangapi,dados_inhangapi__populacao_de_homens,População de Homens,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.023336176456464724,2000,4.54,Valor
+Inhangapi,dados_inhangapi__populacao_de_homens,População de Homens,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.023336176456464724,2010,5.147,Valor
+Inhangapi,dados_inhangapi__populacao_de_homens,População de Homens,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.023336176456464724,2022,5.906,Valor
+Inhangapi,dados_inhangapi__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2592920379004274,2000,106.1,Valor
+Inhangapi,dados_inhangapi__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2592920379004274,2010,105.3,Valor
+Inhangapi,dados_inhangapi__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.2592920379004274,2022,104.0,Valor
+Inhangapi,dados_inhangapi__idade_mediana,Idade Mediana,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2000,22.0,Valor
+Inhangapi,dados_inhangapi__idade_mediana,Idade Mediana,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2010,25.0,Valor
+Inhangapi,dados_inhangapi__idade_mediana,Idade Mediana,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,2.5036004004471324,2022,32.0,Valor
+Inhangapi,dados_inhangapi__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.449006030222788,2000,12.1,Valor
+Inhangapi,dados_inhangapi__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.449006030222788,2010,18.1,Valor
+Inhangapi,dados_inhangapi__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,7.449006030222788,2022,38.2,Valor
+Inhangapi,dados_inhangapi__populacao_parda,População Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2000,6.42,Valor
+Inhangapi,dados_inhangapi__populacao_parda,População Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2010,7.48,Valor
+Inhangapi,dados_inhangapi__populacao_parda,População Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02407052389432973,2022,8.72,Valor
+Inhangapi,dados_inhangapi__populacao_branca,População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.03148589229086407,2000,1.78,Valor
+Inhangapi,dados_inhangapi__populacao_branca,População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.03148589229086407,2010,1.89,Valor
+Inhangapi,dados_inhangapi__populacao_branca,População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.03148589229086407,2022,1.98,Valor
+Inhangapi,dados_inhangapi__populacao_preta,População Preta,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.07874949228388,2000,580.0,Valor
+Inhangapi,dados_inhangapi__populacao_preta,População Preta,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.07874949228388,2010,630.0,Valor
+Inhangapi,dados_inhangapi__populacao_preta,População Preta,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,67.07874949228388,2022,810.0,Valor
+Inhangapi,dados_inhangapi__populacao_amarela,População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,4.244276753620785,2000,30.0,Valor
+Inhangapi,dados_inhangapi__populacao_amarela,População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,4.244276753620785,2010,20.0,Valor
+Inhangapi,dados_inhangapi__populacao_amarela,População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,4.244276753620785,2022,18.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena,População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2000,10.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena,População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2010,17.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena,População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2022,58.0,Valor
+Inhangapi,dados_inhangapi__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2000,112.8,Valor
+Inhangapi,dados_inhangapi__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2010,298.4,Valor
+Inhangapi,dados_inhangapi__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,189.52835338272735,2022,818.0,Valor
+Inhangapi,dados_inhangapi__apenas_1_trabalho,Apenas 1 trabalho,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2000,96.5,Valor
+Inhangapi,dados_inhangapi__apenas_1_trabalho,Apenas 1 trabalho,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2010,96.1,Valor
+Inhangapi,dados_inhangapi__apenas_1_trabalho,Apenas 1 trabalho,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.54700880039537,2022,94.4,Valor
+Inhangapi,dados_inhangapi__2_trabalhos,2 trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2000,3.1,Valor
+Inhangapi,dados_inhangapi__2_trabalhos,2 trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2010,3.4,Valor
+Inhangapi,dados_inhangapi__2_trabalhos,2 trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287946,2022,4.9,Valor
+Inhangapi,dados_inhangapi__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2000,0.4,Valor
+Inhangapi,dados_inhangapi__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2010,0.5,Valor
+Inhangapi,dados_inhangapi__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.060900738248419774,2022,0.7,Valor
+Inhangapi,dados_inhangapi__setor_privado,Setor privado,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,396.41259508387606,2000,720.0,Valor
+Inhangapi,dados_inhangapi__setor_privado,Setor privado,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,396.41259508387606,2010,1.08,Valor
+Inhangapi,dados_inhangapi__setor_privado,Setor privado,dados_inhangapi,Grupo 2 — 3 censos,3,tanh,adam,True,396.41259508387606,2022,1.52,Valor
+Inhangapi,dados_inhangapi__conta_propria,Conta própria,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.015165913138347031,2000,1.22,Valor
+Inhangapi,dados_inhangapi__conta_propria,Conta própria,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.015165913138347031,2010,1.42,Valor
+Inhangapi,dados_inhangapi__conta_propria,Conta própria,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.015165913138347031,2022,1.64,Valor
+Inhangapi,dados_inhangapi__setor_publico,Setor público,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,47.10916500688851,2000,450.0,Valor
+Inhangapi,dados_inhangapi__setor_publico,Setor público,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,47.10916500688851,2010,710.0,Valor
+Inhangapi,dados_inhangapi__setor_publico,Setor público,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,47.10916500688851,2022,960.0,Valor
+Inhangapi,dados_inhangapi__trabalhador_domestico,Trabalhador doméstico,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2000,170.0,Valor
+Inhangapi,dados_inhangapi__trabalhador_domestico,Trabalhador doméstico,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2010,230.0,Valor
+Inhangapi,dados_inhangapi__trabalhador_domestico,Trabalhador doméstico,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,9.115353596010342,2022,290.0,Valor
+Inhangapi,dados_inhangapi__empregador,Empregador,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2000,40.0,Valor
+Inhangapi,dados_inhangapi__empregador,Empregador,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2010,70.0,Valor
+Inhangapi,dados_inhangapi__empregador,Empregador,dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2022,110.0,Valor
+Inhangapi,dados_inhangapi__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,79.4649178733654,2000,410.0,Valor
+Inhangapi,dados_inhangapi__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,79.4649178733654,2010,200.0,Valor
+Inhangapi,dados_inhangapi__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,79.4649178733654,2022,110.0,Valor
+Inhangapi,dados_inhangapi__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Inhangapi,dados_inhangapi__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Inhangapi,dados_inhangapi__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2000,240.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2010,480.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,21.24281553568731,2022,740.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304151,2000,480.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304151,2010,600.0,Valor
+Inhangapi,dados_inhangapi__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,27.42508935304151,2022,780.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2000,10.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2010,30.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,3.038451198670117,2022,50.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,44.07071380821844,2000,440.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,44.07071380821844,2010,680.0,Valor
+Inhangapi,dados_inhangapi__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,44.07071380821844,2022,910.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2000,160.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2010,210.0,Valor
+Inhangapi,dados_inhangapi__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,7.596127996675297,2022,260.0,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_inhangapi,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,1991,71.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_inhangapi,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2000,78.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_inhangapi,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2010,85.4,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_inhangapi,Grupo 1 — 4 censos,4,logistic,lbfgs,True,1.3595513307531597,2022,90.4,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2000,91.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2010,96.1,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,1.6580694495763169,2022,98.4,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2000,31.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2010,43.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3012108343666628,2022,57.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Inhangapi,dados_inhangapi__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Inhangapi,dados_inhangapi__populacao_com_superior_completo,População com Superior Completo,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.21898341916975,2000,70.0,Valor
+Inhangapi,dados_inhangapi__populacao_com_superior_completo,População com Superior Completo,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.21898341916975,2010,250.0,Valor
+Inhangapi,dados_inhangapi__populacao_com_superior_completo,População com Superior Completo,dados_inhangapi,Grupo 2 — 3 censos,3,relu,lbfgs,True,154.21898341916975,2022,680.0,Valor
+Inhangapi,dados_inhangapi__anos_de_estudo_media,Anos de Estudo (Média),dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,1991,3.7,Valor
+Inhangapi,dados_inhangapi__anos_de_estudo_media,Anos de Estudo (Média),dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2000,5.1,Valor
+Inhangapi,dados_inhangapi__anos_de_estudo_media,Anos de Estudo (Média),dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2010,6.9,Valor
+Inhangapi,dados_inhangapi__anos_de_estudo_media,Anos de Estudo (Média),dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.15504495713409483,2022,8.6,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,1991,4.0,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2000,5.4,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2010,7.3,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.18428872622106285,2022,9.0,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,1991,3.4,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2000,4.8,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2010,6.5,Valor
+Inhangapi,dados_inhangapi__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_inhangapi,Grupo 1 — 4 censos,4,identity,lbfgs,True,0.12580102302297358,2022,8.2,Valor
+Inhangapi,dados_inhangapi__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,1991,0.314,Valor
+Inhangapi,dados_inhangapi__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2000,0.471,Valor
+Inhangapi,dados_inhangapi__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.0434138248824793,2010,0.584,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2000,86.2,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2010,94.2,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,3.315534353956167,2022,96.8,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2000,63.1,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2010,75.1,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,3.507690112407533,2022,82.1,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2000,21.2,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2010,27.1,Valor
+Inhangapi,dados_inhangapi__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,3.6167471797380806,2022,26.2,Valor
+Inhangapi,dados_inhangapi__media_populacao_amarela,Média: População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2000,5.8,Valor
+Inhangapi,dados_inhangapi__media_populacao_amarela,Média: População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2010,7.9,Valor
+Inhangapi,dados_inhangapi__media_populacao_amarela,Média: População Amarela,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,0.6041499573231824,2022,9.5,Valor
+Inhangapi,dados_inhangapi__media_populacao_branca,Média: População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2000,5.6,Valor
+Inhangapi,dados_inhangapi__media_populacao_branca,Média: População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2010,7.5,Valor
+Inhangapi,dados_inhangapi__media_populacao_branca,Média: População Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4408388523572026,2022,9.2,Valor
+Inhangapi,dados_inhangapi__media_populacao_preta_parda,Média: População Preta / Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2000,4.9,Valor
+Inhangapi,dados_inhangapi__media_populacao_preta_parda,Média: População Preta / Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2010,6.7,Valor
+Inhangapi,dados_inhangapi__media_populacao_preta_parda,Média: População Preta / Parda,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.3495536021220804,2022,8.4,Valor
+Inhangapi,dados_inhangapi__media_populacao_indigena,Média: População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2000,4.0,Valor
+Inhangapi,dados_inhangapi__media_populacao_indigena,Média: População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2010,5.4,Valor
+Inhangapi,dados_inhangapi__media_populacao_indigena,Média: População Indígena,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.015251944833650851,2022,7.1,Valor
+Inhangapi,dados_inhangapi__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_residente_em_favelas,População Residente em Favelas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_residente_em_favelas,População Residente em Favelas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_parda_2,População Parda,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_parda_2,População Parda,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_branca_2,População Branca,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_branca_2,População Branca,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_preta_2,População Preta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_preta_2,População Preta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_amarela_2,População Amarela,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_amarela_2,População Amarela,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena_2,População Indígena,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena_2,População Indígena,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Inhangapi,dados_inhangapi__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,85.5,Valor
+Inhangapi,dados_inhangapi__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,89.5,Valor
+Inhangapi,dados_inhangapi__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Inhangapi,dados_inhangapi__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.5,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos,Casais com filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2000,61.1,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos,Casais com filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2010,51.1,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos,Casais com filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.525237846924514,2022,41.1,Valor
+Inhangapi,dados_inhangapi__casais_sem_filhos,Casais sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2000,9.4,Valor
+Inhangapi,dados_inhangapi__casais_sem_filhos,Casais sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2010,13.0,Valor
+Inhangapi,dados_inhangapi__casais_sem_filhos,Casais sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.21353453306243017,2022,17.6,Valor
+Inhangapi,dados_inhangapi__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2000,14.9,Valor
+Inhangapi,dados_inhangapi__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2010,18.2,Valor
+Inhangapi,dados_inhangapi__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.19697247081348657,2022,21.9,Valor
+Inhangapi,dados_inhangapi__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2000,2.7,Valor
+Inhangapi,dados_inhangapi__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2010,3.0,Valor
+Inhangapi,dados_inhangapi__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_inhangapi,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233056934,2022,3.4,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2000,7.8,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2010,8.8,Valor
+Inhangapi,dados_inhangapi__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,sgd,True,1.0079433183397948,2022,6.8,Valor
+Inhangapi,dados_inhangapi__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2000,3.4,Valor
+Inhangapi,dados_inhangapi__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2010,5.1,Valor
+Inhangapi,dados_inhangapi__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.9592195559813669,2022,8.4,Valor
+Inhangapi,dados_inhangapi__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2000,0.7,Valor
+Inhangapi,dados_inhangapi__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2010,0.8,Valor
+Inhangapi,dados_inhangapi__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_inhangapi,Grupo 2 — 3 censos,3,logistic,adam,True,0.0620018047064936,2022,0.8,Valor
+Inhangapi,dados_inhangapi__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,81.0,Valor
+Inhangapi,dados_inhangapi__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,78.1,Valor
+Inhangapi,dados_inhangapi__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.5,Valor
+Inhangapi,dados_inhangapi__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.0,Valor
+Inhangapi,dados_inhangapi__trabalha_em_outro_municipio,Trabalha em outro município,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Inhangapi,dados_inhangapi__trabalha_em_outro_municipio,Trabalha em outro município,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.9,Valor
+Inhangapi,dados_inhangapi__motocicleta,Motocicleta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.9,Valor
+Inhangapi,dados_inhangapi__motocicleta,Motocicleta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,28.7,Valor
+Inhangapi,dados_inhangapi__bicicleta,Bicicleta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.7,Valor
+Inhangapi,dados_inhangapi__bicicleta,Bicicleta,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.1,Valor
+Inhangapi,dados_inhangapi__automovel_carro,Automóvel (Carro),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Inhangapi,dados_inhangapi__automovel_carro,Automóvel (Carro),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.4,Valor
+Inhangapi,dados_inhangapi__a_pe,A pé,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.0,Valor
+Inhangapi,dados_inhangapi__a_pe,A pé,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.5,Valor
+Inhangapi,dados_inhangapi__onibus,Ônibus,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.8,Valor
+Inhangapi,dados_inhangapi__onibus,Ônibus,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.9,Valor
+Inhangapi,dados_inhangapi__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.0,Valor
+Inhangapi,dados_inhangapi__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.8,Valor
+Inhangapi,dados_inhangapi__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.9,Valor
+Inhangapi,dados_inhangapi__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,26.6,Valor
+Inhangapi,dados_inhangapi__mais_de_1_hora,Mais de 1 hora,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.1,Valor
+Inhangapi,dados_inhangapi__mais_de_1_hora,Mais de 1 hora,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.6,Valor
+Inhangapi,dados_inhangapi__estuda_no_proprio_municipio_inhangapi,Estuda no próprio município (Inhangapi),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,93.1,Valor
+Inhangapi,dados_inhangapi__estuda_no_proprio_municipio_inhangapi,Estuda no próprio município (Inhangapi),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.0,Valor
+Inhangapi,dados_inhangapi__estuda_em_outro_municipio,Estuda em outro município,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.9,Valor
+Inhangapi,dados_inhangapi__estuda_em_outro_municipio,Estuda em outro município,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,9.0,Valor
+Inhangapi,dados_inhangapi__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.41106022603558073,2000,2.12,Valor
+Inhangapi,dados_inhangapi__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.41106022603558073,2010,2.72,Valor
+Inhangapi,dados_inhangapi__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.41106022603558073,2022,3.98,Valor
+Inhangapi,dados_inhangapi__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4201887510590927,2000,2.09,Valor
+Inhangapi,dados_inhangapi__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4201887510590927,2010,2.68,Valor
+Inhangapi,dados_inhangapi__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.4201887510590927,2022,3.94,Valor
+Inhangapi,dados_inhangapi__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_inhangapi,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2000,30.0,Valor
+Inhangapi,dados_inhangapi__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_inhangapi,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2010,40.0,Valor
+Inhangapi,dados_inhangapi__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_inhangapi,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245162,2022,40.0,Valor
+Inhangapi,dados_inhangapi__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2000,4.2,Valor
+Inhangapi,dados_inhangapi__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2010,3.7,Valor
+Inhangapi,dados_inhangapi__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.1525247470464072,2022,2.9,Valor
+Inhangapi,dados_inhangapi__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.1,Valor
+Inhangapi,dados_inhangapi__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,82.2,Valor
+Inhangapi,dados_inhangapi__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.1,Valor
+Inhangapi,dados_inhangapi__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,45.1,Valor
+Inhangapi,dados_inhangapi__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.7,Valor
+Inhangapi,dados_inhangapi__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.6,Valor
+Inhangapi,dados_inhangapi__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Inhangapi,dados_inhangapi__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,72.2,Valor
+Inhangapi,dados_inhangapi__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.2,Valor
+Inhangapi,dados_inhangapi__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,46.2,Valor
+Inhangapi,dados_inhangapi__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.2,Valor
+Inhangapi,dados_inhangapi__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,31.9,Valor
+Inhangapi,dados_inhangapi__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,51.9,Valor
+Inhangapi,dados_inhangapi__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,47.8,Valor
+Inhangapi,dados_inhangapi__ruas_sem_arvores,Ruas Sem Árvores,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,48.1,Valor
+Inhangapi,dados_inhangapi__ruas_sem_arvores,Ruas Sem Árvores,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,52.2,Valor
+Inhangapi,dados_inhangapi__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.3,Valor
+Inhangapi,dados_inhangapi__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Inhangapi,dados_inhangapi__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.8,Valor
+Inhangapi,dados_inhangapi__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,2.2,Valor
+Inhangapi,dados_inhangapi__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.1,Valor
+Inhangapi,dados_inhangapi__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,59.1,Valor
+Inhangapi,dados_inhangapi__populacao_indigena_total,População Indígena Total,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2000,10.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena_total,População Indígena Total,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2010,17.0,Valor
+Inhangapi,dados_inhangapi__populacao_indigena_total,População Indígena Total,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,17.460877955721752,2022,58.0,Valor
+Inhangapi,dados_inhangapi__proporcao_na_populacao_de_inhangapi,Proporção na população de Inhangapi,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,0.13947827116984776,2000,0.11,Valor
+Inhangapi,dados_inhangapi__proporcao_na_populacao_de_inhangapi,Proporção na população de Inhangapi,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,0.13947827116984776,2010,0.17,Valor
+Inhangapi,dados_inhangapi__proporcao_na_populacao_de_inhangapi,Proporção na população de Inhangapi,dados_inhangapi,Grupo 2 — 3 censos,3,relu,sgd,True,0.13947827116984776,2022,0.5,Valor
+Inhangapi,dados_inhangapi__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,69.6,Valor
+Inhangapi,dados_inhangapi__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.6,Valor
+Inhangapi,dados_inhangapi__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+Inhangapi,dados_inhangapi__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.9,Valor
+Inhangapi,dados_inhangapi__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,6.8,Valor
+Inhangapi,dados_inhangapi__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.7,Valor
+Inhangapi,dados_inhangapi__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.6,Valor
+Inhangapi,dados_inhangapi__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.8,Valor
+Inhangapi,dados_inhangapi__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2000,16.3,Valor
+Inhangapi,dados_inhangapi__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2010,19.9,Valor
+Inhangapi,dados_inhangapi__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2793106460418688,2022,25.9,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2000,55.7,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2010,47.7,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.2201902775396103,2022,39.7,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2000,10.1,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2010,12.8,Valor
+Inhangapi,dados_inhangapi__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.02972594061161497,2022,16.0,Valor
+Inhangapi,dados_inhangapi__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,68.4,Valor
+Inhangapi,dados_inhangapi__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.7,Valor
+Inhangapi,dados_inhangapi__sem_conjuge,Sem cônjuge,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.1,Valor
+Inhangapi,dados_inhangapi__sem_conjuge,Sem cônjuge,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.8,Valor
+Inhangapi,dados_inhangapi__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.5,Valor
+Inhangapi,dados_inhangapi__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Inhangapi,dados_inhangapi__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Inhangapi,dados_inhangapi__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_inhangapi,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Inhangapi,dados_inhangapi__responsavel_mulher,Responsável Mulher,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.8,Valor
+Inhangapi,dados_inhangapi__responsavel_mulher,Responsável Mulher,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.3,Valor
+Inhangapi,dados_inhangapi__responsavel_mulher,Responsável Mulher,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.8,Valor
+Inhangapi,dados_inhangapi__responsavel_homem,Responsável Homem,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2000,4.5,Valor
+Inhangapi,dados_inhangapi__responsavel_homem,Responsável Homem,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2010,3.8,Valor
+Inhangapi,dados_inhangapi__responsavel_homem,Responsável Homem,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.10676664928471673,2022,3.1,Valor
+Inhangapi,dados_inhangapi__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2000,4.0,Valor
+Inhangapi,dados_inhangapi__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2010,3.4,Valor
+Inhangapi,dados_inhangapi__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_inhangapi,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151427081547103,2022,2.8,Valor
+Inhangapi,dados_inhangapi__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2000,13.5,Valor
+Inhangapi,dados_inhangapi__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2010,17.5,Valor
+Inhangapi,dados_inhangapi__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,1.2946346163102351,2022,24.0,Valor
+Inhangapi,dados_inhangapi__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2000,16.8,Valor
+Inhangapi,dados_inhangapi__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2010,21.1,Valor
+Inhangapi,dados_inhangapi__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_inhangapi,Grupo 2 — 3 censos,3,identity,adam,True,0.881545990439386,2022,25.1,Valor
+Inhangapi,dados_inhangapi__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2000,44.6,Valor
+Inhangapi,dados_inhangapi__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2010,28.4,Valor
+Inhangapi,dados_inhangapi__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_inhangapi,Grupo 2 — 3 censos,3,relu,adam,True,4.4830133590899734,2022,17.7,Valor
