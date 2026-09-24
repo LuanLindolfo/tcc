@@ -1,0 +1,290 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+São João da Ponta,dados_sao_joao_da_ponta__populacao_total,População Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.12658074172783143,2000,5.42,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_total,População Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.12658074172783143,2010,5.642,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_total,População Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.12658074172783143,2022,5.579,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_urbana,População Urbana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.0972831240674507,2000,2.98,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_urbana,População Urbana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.0972831240674507,2010,3.42,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_urbana,População Urbana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.0972831240674507,2022,3.82,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_rural,População Rural,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.11756451095224096,2000,2.44,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_rural,População Rural,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.11756451095224096,2010,2.222,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_rural,População Rural,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.11756451095224096,2022,1.759,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_mulheres,População de Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.08626356435968645,2000,2.64,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_mulheres,População de Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.08626356435968645,2010,2.78,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_mulheres,População de Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.08626356435968645,2022,2.76,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_homens,População de Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04184761784822907,2000,2.78,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_homens,População de Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04184761784822907,2010,2.862,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_de_homens,População de Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04184761784822907,2022,2.819,Valor
+São João da Ponta,dados_sao_joao_da_ponta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.9307904717664902,2000,105.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.9307904717664902,2010,103.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.9307904717664902,2022,102.1,Valor
+São João da Ponta,dados_sao_joao_da_ponta__idade_mediana,Idade Mediana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678784,2000,21.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__idade_mediana,Idade Mediana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678784,2010,26.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__idade_mediana,Idade Mediana,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7622470851678784,2022,33.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.230166705140606,2000,7.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.230166705140606,2010,14.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,8.230166705140606,2022,36.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_parda,População Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.11950448542980958,2000,4.12,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_parda,População Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.11950448542980958,2010,4.32,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_parda,População Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.11950448542980958,2022,4.28,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_branca,População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,19.22530475568495,2000,980.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_branca,População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,19.22530475568495,2010,910.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_branca,População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,19.22530475568495,2022,860.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_preta,População Preta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936791,2000,240.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_preta,População Preta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936791,2010,280.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_preta,População Preta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,24.36029529936791,2022,360.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_amarela,População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,sgd,True,8.202217527049237,2000,35.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_amarela,População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,sgd,True,8.202217527049237,2010,15.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_amarela,População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,sgd,True,8.202217527049237,2022,8.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena,População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2000,10.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena,População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2010,12.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena,População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2022,25.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,184.53965003592575,2000,108.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,184.53965003592575,2010,285.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,184.53965003592575,2022,790.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6840058871107288,2000,96.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6840058871107288,2010,96.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__apenas_1_trabalho,Apenas 1 trabalho,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6840058871107288,2022,94.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__2_trabalhos,2 trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287942,2000,3.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__2_trabalhos,2 trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287942,2010,3.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__2_trabalhos,2 trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.6215770336287942,2022,4.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,adam,True,0.11169107692838691,2000,0.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,adam,True,0.11169107692838691,2010,0.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,tanh,adam,True,0.11169107692838691,2022,0.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado,Setor privado,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,45.58993940755346,2000,460.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado,Setor privado,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,45.58993940755346,2010,710.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado,Setor privado,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,45.58993940755346,2022,950.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__conta_propria,Conta própria,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,560.6221725334772,2000,780.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__conta_propria,Conta própria,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,560.6221725334772,2010,920.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__conta_propria,Conta própria,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,560.6221725334772,2022,1.04,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico,Setor público,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.479711316829821,2000,260.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico,Setor público,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.479711316829821,2010,420.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico,Setor público,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.479711316829821,2022,610.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalhador_domestico,Trabalhador doméstico,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,14.335274222751897,2000,100.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalhador_domestico,Trabalhador doméstico,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,14.335274222751897,2010,150.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalhador_domestico,Trabalhador doméstico,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,14.335274222751897,2022,190.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__empregador,Empregador,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528443,2000,30.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__empregador,Empregador,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528443,2010,45.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__empregador,Empregador,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,sgd,True,1.5185404116528443,2022,65.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,36.39529609609701,2000,280.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,36.39529609609701,2010,150.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,36.39529609609701,2022,75.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.5374548973666493,2000,10.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.5374548973666493,2010,18.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.5374548973666493,2022,22.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.78838399002588,2000,160.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.78838399002588,2010,310.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.78838399002588,2022,460.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2000,300.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2010,400.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,22.801555417527634,2022,490.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,3.3501991750381754,2000,10.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,3.3501991750381754,2010,18.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,3.3501991750381754,2022,32.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,4.829910491868001,2000,250.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,4.829910491868001,2010,402.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,4.829910491868001,2022,578.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2000,10.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2010,15.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2022,20.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,12.927602300071735,2000,90.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,12.927602300071735,2010,135.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,12.927602300071735,2022,170.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.300273843394308,2000,70.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.300273843394308,2010,81.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.300273843394308,2022,88.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.1597445848576577,2000,87.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.1597445848576577,2010,94.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,2.1597445848576577,2022,97.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6512912935888053,2000,25.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6512912935888053,2010,36.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6512912935888053,2022,50.1,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2000,79.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2010,91.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2022,95.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_com_superior_completo,População com Superior Completo,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,82.20941092161586,2000,40.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_com_superior_completo,População com Superior Completo,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,82.20941092161586,2010,150.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_com_superior_completo,População com Superior Completo,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,82.20941092161586,2022,390.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2000,3.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2010,5.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__anos_de_estudo_media,Anos de Estudo (Média),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3038451198670116,2022,7.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2000,3.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2010,5.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.39513037010213203,2022,7.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189052,2000,2.9,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189052,2010,4.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.21255986963189052,2022,6.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.305,Valor
+São João da Ponta,dados_sao_joao_da_ponta__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.488,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2000,79.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2010,91.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,adam,True,5.406859750570405,2022,95.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.7070621204413308,2000,55.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.7070621204413308,2010,68.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,3.7070621204413308,2022,76.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,2.620537237775853,2000,16.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,2.620537237775853,2010,21.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,2.620537237775853,2022,20.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_amarela,Média: População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2000,4.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_amarela,Média: População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2010,6.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_amarela,Média: População Amarela,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803103,2022,7.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_branca,Média: População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2000,3.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_branca,Média: População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2010,5.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_branca,Média: População Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2022,7.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575697596834664,2000,3.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575697596834664,2010,4.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_preta_parda,Média: População Preta / Parda,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.04575697596834664,2022,6.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_indigena,Média: População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001684,2000,2.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_indigena,Média: População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001684,2010,3.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_populacao_indigena,Média: População Indígena,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.04531333943001684,2022,5.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_residente_em_favelas,População Residente em Favelas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_residente_em_favelas,População Residente em Favelas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_parda_2,População Parda,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_parda_2,População Parda,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_branca_2,População Branca,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_branca_2,População Branca,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_preta_2,População Preta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_preta_2,População Preta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_amarela_2,População Amarela,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_amarela_2,População Amarela,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena_2,População Indígena,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena_2,População Indígena,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos,Casais com filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.067664247354595,2000,65.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos,Casais com filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.067664247354595,2010,55.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos,Casais com filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.067664247354595,2022,43.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_sem_filhos,Casais sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5639574716042149,2000,7.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_sem_filhos,Casais sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5639574716042149,2010,10.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_sem_filhos,Casais sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5639574716042149,2022,15.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903768,2000,11.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903768,2010,15.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903768,2022,18.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2000,3.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2010,3.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.12180147649683952,2022,4.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575306056808829,2000,7.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575306056808829,2010,8.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9575306056808829,2022,6.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2000,3.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2010,3.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2022,3.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2000,0.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2010,0.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2022,0.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,86.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,83.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,28.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,25.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_em_outro_municipio,Trabalha em outro município,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__trabalha_em_outro_municipio,Trabalha em outro município,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__motocicleta,Motocicleta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,31.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__motocicleta,Motocicleta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,37.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__bicicleta,Bicicleta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__bicicleta,Bicicleta,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__automovel_carro,Automóvel (Carro),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__automovel_carro,Automóvel (Carro),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__a_pe,A pé,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,22.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__a_pe,A pé,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__onibus,Ônibus,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__onibus,Ônibus,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,19.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__mais_de_1_hora,Mais de 1 hora,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__mais_de_1_hora,Mais de 1 hora,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estuda_no_proprio_mun_sao_joao_da_ponta,Estuda no próprio mun. (São João da Ponta),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estuda_no_proprio_mun_sao_joao_da_ponta,Estuda no próprio mun. (São João da Ponta),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estuda_em_outro_municipio,Estuda em outro município,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estuda_em_outro_municipio,Estuda em outro município,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05771740134723028,2000,1.25,Valor
+São João da Ponta,dados_sao_joao_da_ponta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05771740134723028,2010,1.68,Valor
+São João da Ponta,dados_sao_joao_da_ponta__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05771740134723028,2022,2.12,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05619817574789517,2000,1.23,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05619817574789517,2010,1.65,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.05619817574789517,2022,2.08,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,20.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,30.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,40.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727236857716182,2000,4.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727236857716182,2010,3.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.13727236857716182,2022,2.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,43.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.9,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,49.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,57.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,65.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,62.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_sem_arvores,Ruas Sem Árvores,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,34.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ruas_sem_arvores,Ruas Sem Árvores,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+São João da Ponta,dados_sao_joao_da_ponta__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,16.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,22.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena_total,População Indígena Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2000,10.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena_total,População Indígena Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2010,12.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__populacao_indigena_total,População Indígena Total,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,5.693015926068026,2022,25.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__proporcao_na_pop_de_sao_joao_da_ponta,Proporção na pop. de São João da Ponta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,0.11004201674618382,2000,0.18,Valor
+São João da Ponta,dados_sao_joao_da_ponta__proporcao_na_pop_de_sao_joao_da_ponta,Proporção na pop. de São João da Ponta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,0.11004201674618382,2010,0.21,Valor
+São João da Ponta,dados_sao_joao_da_ponta__proporcao_na_pop_de_sao_joao_da_ponta,Proporção na pop. de São João da Ponta,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,sgd,True,0.11004201674618382,2022,0.45,Valor
+São João da Ponta,dados_sao_joao_da_ponta__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,13.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1423169135516773,2000,11.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1423169135516773,2010,14.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1423169135516773,2022,20.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6541913508311055,2000,62.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6541913508311055,2010,55.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.6541913508311055,2022,45.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5027933048057628,2000,8.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5027933048057628,2010,10.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.5027933048057628,2022,13.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,67.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__sem_conjuge,Sem cônjuge,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__sem_conjuge,Sem cônjuge,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.1,Valor
+São João da Ponta,dados_sao_joao_da_ponta__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sao_joao_da_ponta,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_mulher,Responsável Mulher,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_mulher,Responsável Mulher,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_mulher,Responsável Mulher,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_homem,Responsável Homem,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2000,4.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_homem,Responsável Homem,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2010,3.6,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_homem,Responsável Homem,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2022,3.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+São João da Ponta,dados_sao_joao_da_ponta__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1729648540884134,2000,10.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1729648540884134,2010,14.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,1.1729648540884134,2022,21.2,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2000,14.0,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2010,18.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2022,22.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,4.777763661004336,2000,54.5,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,4.777763661004336,2010,36.8,Valor
+São João da Ponta,dados_sao_joao_da_ponta__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sao_joao_da_ponta,Grupo 2 — 3 censos,3,relu,adam,True,4.777763661004336,2022,22.0,Valor
