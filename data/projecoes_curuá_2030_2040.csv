@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Curuá,dados_curua__2_trabalhos,2 trabalhos,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.48058856444548503,2030,5.25240883824607
+Curuá,dados_curua__2_trabalhos,2 trabalhos,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.48058856444548503,2040,6.02168374538916
+Curuá,dados_curua__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.06343637243416621,2030,0.644802893285019
+Curuá,dados_curua__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.06343637243416621,2040,0.6961159622586357
+Curuá,dados_curua__anos_de_estudo_media,Anos de Estudo (Média),dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803101,2030,8.149615742458856
+Curuá,dados_curua__anos_de_estudo_media,Anos de Estudo (Média),dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803101,2040,9.775214892743225
+Curuá,dados_curua__apenas_1_trabalho,Apenas 1 trabalho,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.37253352841890336,2030,93.91323113176934
+Curuá,dados_curua__apenas_1_trabalho,Apenas 1 trabalho,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.37253352841890336,2040,92.77757976707873
+Curuá,dados_curua__casais_com_filhos,Casais com filhos,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.5185763769692121,2030,36.44041029642801
+Curuá,dados_curua__casais_com_filhos,Casais com filhos,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.5185763769692121,2040,26.35801089281512
+Curuá,dados_curua__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.9245119361409184,2030,7.336085930129405
+Curuá,dados_curua__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.9245119361409184,2040,7.332262399587292
+Curuá,dados_curua__casais_sem_filhos,Casais sem filhos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348913,2030,17.919480281138217
+Curuá,dados_curua__casais_sem_filhos,Casais sem filhos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.0660922050348913,2040,21.55998066656154
+Curuá,dados_curua__conta_propria,Conta própria,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.06687226922574603,2030,2.390253247936926
+Curuá,dados_curua__conta_propria,Conta própria,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.06687226922574603,2040,2.68802815208705
+Curuá,dados_curua__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_curua,Grupo 2 — 3 censos,tanh,adam,True,4.897877004971829,2030,41.33020789959976
+Curuá,dados_curua__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_curua,Grupo 2 — 3 censos,tanh,adam,True,4.897877004971829,2040,41.85711280819576
+Curuá,dados_curua__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.3487851478903458,2030,5.892233361446128
+Curuá,dados_curua__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.3487851478903458,2040,7.161438897241153
+Curuá,dados_curua__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.3099585865786036,2030,25.709950481218147
+Curuá,dados_curua__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.3099585865786036,2040,30.8938687532009
+Curuá,dados_curua__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.9271227584194387,2030,26.47891018800044
+Curuá,dados_curua__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.9271227584194387,2040,30.49398354885885
+Curuá,dados_curua__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curua,Grupo 2 — 3 censos,relu,adam,True,4.702557548169583,2030,15.931810394875633
+Curuá,dados_curua__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_curua,Grupo 2 — 3 censos,relu,adam,True,4.702557548169583,2040,6.9842594784755185
+Curuá,dados_curua__empregador,Empregador,dados_curua,Grupo 2 — 3 censos,relu,adam,True,14.3352742227519,2030,168.27961348703056
+Curuá,dados_curua__empregador,Empregador,dados_curua,Grupo 2 — 3 censos,relu,adam,True,14.3352742227519,2040,190.692841340084
+Curuá,dados_curua__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curua,Grupo 2 — 3 censos,logistic,lbfgs,True,5.132675497015626,2030,94.42628559867562
+Curuá,dados_curua__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_curua,Grupo 2 — 3 censos,logistic,lbfgs,True,5.132675497015626,2040,94.71338262421216
+Curuá,dados_curua__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curua,Grupo 2 — 3 censos,relu,adam,True,3.4712048018735593,2030,78.18641637494844
+Curuá,dados_curua__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_curua,Grupo 2 — 3 censos,relu,adam,True,3.4712048018735593,2040,83.56506860427172
+Curuá,dados_curua__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curua,Grupo 2 — 3 censos,tanh,lbfgs,True,2.501404534629858,2030,18.905154029268978
+Curuá,dados_curua__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_curua,Grupo 2 — 3 censos,tanh,lbfgs,True,2.501404534629858,2040,18.794526583301423
+Curuá,dados_curua__idade_mediana,Idade Mediana,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2030,30.719480281138217
+Curuá,dados_curua__idade_mediana,Idade Mediana,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.066092205034889,2040,34.35998066656154
+Curuá,dados_curua__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curua,Grupo 2 — 3 censos,relu,adam,True,6.343637243416622,2030,44.48028932850191
+Curuá,dados_curua__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_curua,Grupo 2 — 3 censos,relu,adam,True,6.343637243416622,2040,49.61159622586358
+Curuá,dados_curua__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903804,2030,20.996071729804264
+Curuá,dados_curua__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903804,2040,24.159535119039983
+Curuá,dados_curua__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.29876121357452307,2030,3.2022261321365706
+Curuá,dados_curua__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.29876121357452307,2040,3.2015014471722485
+Curuá,dados_curua__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518855,2030,7.698035864902133
+Curuá,dados_curua__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.18217535764518855,2040,9.27976755951999
+Curuá,dados_curua__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.364745858115432,2030,8.60122202238414
+Curuá,dados_curua__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.364745858115432,2040,10.270717025602437
+Curuá,dados_curua__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.23537076757856643,2030,2.3297807367611774
+Curuá,dados_curua__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,0.23537076757856643,2040,1.5993962001889601
+Curuá,dados_curua__media_populacao_amarela,Média: População Amarela,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803103,2030,9.149615742458856
+Curuá,dados_curua__media_populacao_amarela,Média: População Amarela,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803103,2040,10.775214892743225
+Curuá,dados_curua__media_populacao_branca,Média: População Branca,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803097,2030,8.749615742458856
+Curuá,dados_curua__media_populacao_branca,Média: População Branca,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803097,2040,10.375214892743227
+Curuá,dados_curua__media_populacao_indigena,Média: População Indígena,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.21269158390690812,2030,6.049701133023554
+Curuá,dados_curua__media_populacao_indigena,Média: População Indígena,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.21269158390690812,2040,7.314056027689176
+Curuá,dados_curua__media_populacao_preta_parda,Média: População Preta / Parda,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2030,7.921460816733447
+Curuá,dados_curua__media_populacao_preta_parda,Média: População Preta / Parda,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2040,9.54966415250405
+Curuá,dados_curua__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curua,Grupo 2 — 3 censos,relu,adam,True,78.47831434165901,2030,82.90323296131149
+Curuá,dados_curua__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_curua,Grupo 2 — 3 censos,relu,adam,True,78.47831434165901,2040,-13.456895298210497
+Curuá,dados_curua__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curua,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.568974426752009
+Curuá,dados_curua__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_curua,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.902782091398334
+Curuá,dados_curua__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2030,0.8180979135796016
+Curuá,dados_curua__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_curua,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2040,0.8206676756222387
+Curuá,dados_curua__populacao_amarela,População Amarela,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,42.04029930690774,2030,-22.14832277087146
+Curuá,dados_curua__populacao_amarela,População Amarela,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,42.04029930690774,2040,-90.4970476654718
+Curuá,dados_curua__populacao_branca,População Branca,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.021242815535687038,2030,2.3646296261919755
+Curuá,dados_curua__populacao_branca,População Branca,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.021242815535687038,2040,2.5906660857827606
+Curuá,dados_curua__populacao_indigena,População Indígena,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,28.561313310127776,2030,51.45809942775726
+Curuá,dados_curua__populacao_indigena,População Indígena,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,28.561313310127776,2040,51.342593012318375
+Curuá,dados_curua__populacao_indigena_total,População Indígena Total,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,28.561313310127776,2030,51.45809942775726
+Curuá,dados_curua__populacao_indigena_total,População Indígena Total,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,28.561313310127776,2040,51.342593012318375
+Curuá,dados_curua__populacao_parda,População Parda,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.7618092126633602,2030,12.62854328123532
+Curuá,dados_curua__populacao_parda,População Parda,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.7618092126633602,2040,13.839834129977607
+Curuá,dados_curua__populacao_preta,População Preta,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,119.50448542980928,2030,640.8904528546284
+Curuá,dados_curua__populacao_preta,População Preta,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,119.50448542980928,2040,640.6005788688994
+Curuá,dados_curua__populacao_rural,População Rural,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.3635126899336732,2030,8.04428902608178
+Curuá,dados_curua__populacao_rural,População Rural,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.3635126899336732,2040,8.586082779455495
+Curuá,dados_curua__populacao_total,População Total,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.8755032042377232,2030,15.646185616888085
+Curuá,dados_curua__populacao_total,População Total,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.8755032042377232,2040,16.949456405740314
+Curuá,dados_curua__populacao_urbana,População Urbana,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.5119905143040496,2030,7.6011073580704265
+Curuá,dados_curua__populacao_urbana,População Urbana,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.5119905143040496,2040,8.362186485326752
+Curuá,dados_curua__populacao_com_superior_completo,População com Superior Completo,dados_curua,Grupo 2 — 3 censos,identity,adam,True,103.53125502231364,2030,747.486492594491
+Curuá,dados_curua__populacao_com_superior_completo,População com Superior Completo,dados_curua,Grupo 2 — 3 censos,identity,adam,True,103.53125502231364,2040,980.2329997588267
+Curuá,dados_curua__populacao_de_homens,População de Homens,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.4421125237179053,2030,8.021617974489319
+Curuá,dados_curua__populacao_de_homens,População de Homens,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.4421125237179053,2040,8.657438975488171
+Curuá,dados_curua__populacao_de_mulheres,População de Mulheres,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.43339068051981783,2030,7.623693450517347
+Curuá,dados_curua__populacao_de_mulheres,População de Mulheres,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.43339068051981783,2040,8.290339424998542
+Curuá,dados_curua__proporcao_na_populacao_de_curua,Proporção na população de Curuá,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.39970150676699023,2030,0.47087783476253636
+Curuá,dados_curua__proporcao_na_populacao_de_curua,Proporção na população de Curuá,dados_curua,Grupo 2 — 3 censos,logistic,sgd,True,0.39970150676699023,2040,0.4693261720596078
+Curuá,dados_curua__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.5795913441852699,2030,104.3394624770178
+Curuá,dados_curua__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.5795913441852699,2040,102.39439707453998
+Curuá,dados_curua__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,180.9763158646481,2030,1010.6096561735044
+Curuá,dados_curua__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_curua,Grupo 2 — 3 censos,relu,lbfgs,True,180.9763158646481,2040,1291.1044101993143
+Curuá,dados_curua__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.6387093337926567,2030,38.91369301705604
+Curuá,dados_curua__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.6387093337926567,2040,31.105650617484905
+Curuá,dados_curua__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.48760104881241073,2030,15.782778031412269
+Curuá,dados_curua__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.48760104881241073,2040,18.371755839193476
+Curuá,dados_curua__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,24.063376337365863
+Curuá,dados_curua__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,28.43197679987385
+Curuá,dados_curua__responsavel_homem,Responsável Homem,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Curuá,dados_curua__responsavel_homem,Responsável Homem,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Curuá,dados_curua__responsavel_mulher,Responsável Mulher,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Curuá,dados_curua__responsavel_mulher,Responsável Mulher,dados_curua,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Curuá,dados_curua__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Curuá,dados_curua__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_curua,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Curuá,dados_curua__setor_privado,Setor privado,dados_curua,Grupo 2 — 3 censos,tanh,adam,True,451.3866545657802,2030,-3.731749827529825
+Curuá,dados_curua__setor_privado,Setor privado,dados_curua,Grupo 2 — 3 censos,tanh,adam,True,451.3866545657802,2040,20.06740415795943
+Curuá,dados_curua__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,4.491819660496428,2030,1111.6526115809806
+Curuá,dados_curua__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,4.491819660496428,2040,1387.7593042006856
+Curuá,dados_curua__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curua,Grupo 2 — 3 censos,relu,adam,True,81.67373262554231,2030,1067.1689105584082
+Curuá,dados_curua__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_curua,Grupo 2 — 3 censos,relu,adam,True,81.67373262554231,2040,1156.2708488389271
+Curuá,dados_curua__setor_publico,Setor público,dados_curua,Grupo 2 — 3 censos,identity,adam,True,24.281266734357434,2030,1119.6250695513384
+Curuá,dados_curua__setor_publico,Setor público,dados_curua,Grupo 2 — 3 censos,identity,adam,True,24.281266734357434,2040,1363.7234343920438
+Curuá,dados_curua__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,64.99573047176506
+Curuá,dados_curua__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,83.05794325270251
+Curuá,dados_curua__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curua,Grupo 2 — 3 censos,identity,adam,True,21.24281553568731,2030,1054.6296261919751
+Curuá,dados_curua__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_curua,Grupo 2 — 3 censos,identity,adam,True,21.24281553568731,2040,1280.6660857827603
+Curuá,dados_curua__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curua,Grupo 2 — 3 censos,relu,adam,True,2.8621713557323005,2030,89.35355760406294
+Curuá,dados_curua__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_curua,Grupo 2 — 3 censos,relu,adam,True,2.8621713557323005,2040,93.10703599265315
+Curuá,dados_curua__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.0470802350660253,2030,53.85819625979386
+Curuá,dados_curua__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.0470802350660253,2040,64.57169386394563
+Curuá,dados_curua__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curua,Grupo 2 — 3 censos,relu,adam,True,2.2115492689078216,2030,97.90890131201832
+Curuá,dados_curua__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_curua,Grupo 2 — 3 censos,relu,adam,True,2.2115492689078216,2040,99.86603886909877
+Curuá,dados_curua__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curua,Grupo 2 — 3 censos,logistic,lbfgs,True,5.132675497015626,2030,94.42628559867562
+Curuá,dados_curua__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_curua,Grupo 2 — 3 censos,logistic,lbfgs,True,5.132675497015626,2040,94.71338262421216
+Curuá,dados_curua__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.35639444731452263,2030,5.934592135741994
+Curuá,dados_curua__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_curua,Grupo 2 — 3 censos,identity,adam,True,0.35639444731452263,2040,7.2084623116640545
+Curuá,dados_curua__trabalhador_domestico,Trabalhador doméstico,dados_curua,Grupo 2 — 3 censos,relu,adam,True,29.187658437404433,2030,367.22334834910623
+Curuá,dados_curua__trabalhador_domestico,Trabalhador doméstico,dados_curua,Grupo 2 — 3 censos,relu,adam,True,29.187658437404433,2040,398.61945644125893
+Curuá,dados_curua__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,37.49786523588253
+Curuá,dados_curua__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_curua,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,46.52897162635126
+Curuá,dados_curua__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curua,Grupo 2 — 3 censos,relu,adam,True,26.37231459204413,2030,330.5363978321833
+Curuá,dados_curua__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_curua,Grupo 2 — 3 censos,relu,adam,True,26.37231459204413,2040,355.7987546564472
+Curuá,dados_curua__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curua,Grupo 2 — 3 censos,identity,adam,True,4.07995431981907,2030,27.801142683029447
+Curuá,dados_curua__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_curua,Grupo 2 — 3 censos,identity,adam,True,4.07995431981907,2040,35.47415718034752
+Curuá,dados_curua__a_pe,A pé,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.728524845917217
+Curuá,dados_curua__a_pe,A pé,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.466752549994222
+Curuá,dados_curua__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.06582902114405
+Curuá,dados_curua__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,63.98526629721679
+Curuá,dados_curua__automovel_carro,Automóvel (Carro),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.65510272510785
+Curuá,dados_curua__automovel_carro,Automóvel (Carro),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.5616146039172
+Curuá,dados_curua__bicicleta,Bicicleta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.39435386706126
+Curuá,dados_curua__bicicleta,Bicicleta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.052018847210993
+Curuá,dados_curua__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.41456309079122
+Curuá,dados_curua__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.84591502532105
+Curuá,dados_curua__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Curuá,dados_curua__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Curuá,dados_curua__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.39435386706126
+Curuá,dados_curua__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.052018847210995
+Curuá,dados_curua__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.5134791238658947
+Curuá,dados_curua__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.607431263887285
+Curuá,dados_curua__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.07247685410069
+Curuá,dados_curua__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.896914423315543
+Curuá,dados_curua__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.152349897278148
+Curuá,dados_curua__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.9778350333294865
+Curuá,dados_curua__estuda_em_outro_municipio,Estuda em outro município,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.598566264244572
+Curuá,dados_curua__estuda_em_outro_municipio,Estuda em outro município,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.57758587768721
+Curuá,dados_curua__estuda_no_proprio_municipio_curua,Estuda no próprio município (Curuá),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.89561033534521
+Curuá,dados_curua__estuda_no_proprio_municipio_curua,Estuda no próprio município (Curuá),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,91.17411940138585
+Curuá,dados_curua__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.255159158417086
+Curuá,dados_curua__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,31.717058054465493
+Curuá,dados_curua__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.728524845917218
+Curuá,dados_curua__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.466752549994222
+Curuá,dados_curua__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.31307292172656
+Curuá,dados_curua__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.16805745245998
+Curuá,dados_curua__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6885068048749895
+Curuá,dados_curua__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.7959415275538375
+Curuá,dados_curua__mais_de_1_hora,Mais de 1 hora,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.956536460863278
+Curuá,dados_curua__mais_de_1_hora,Mais de 1 hora,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.884028726229987
+Curuá,dados_curua__motocicleta,Motocicleta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.49569879273372
+Curuá,dados_curua__motocicleta,Motocicleta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.432757633061634
+Curuá,dados_curua__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.09278726887582
+Curuá,dados_curua__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.200128824991324
+Curuá,dados_curua__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.934804691294914
+Curuá,dados_curua__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.32604308934498
+Curuá,dados_curua__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,24.48990741640277
+Curuá,dados_curua__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.787657693262183
+Curuá,dados_curua__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_amarela_2,População Amarela,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_amarela_2,População Amarela,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_branca_2,População Branca,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_branca_2,População Branca,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_indigena_2,População Indígena,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_indigena_2,População Indígena,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_parda_2,População Parda,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_parda_2,População Parda,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_preta_2,População Preta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_preta_2,População Preta,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__populacao_residente_em_favelas,População Residente em Favelas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__populacao_residente_em_favelas,População Residente em Favelas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.9101490169064662
+Curuá,dados_curua__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.1677857572861081
+Curuá,dados_curua__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.088087474319537
+Curuá,dados_curua__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.5444587583323717
+Curuá,dados_curua__ruas_sem_arvores,Ruas Sem Árvores,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.62901331496398
+Curuá,dados_curua__ruas_sem_arvores,Ruas Sem Árvores,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.380943149545544
+Curuá,dados_curua__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.46582902114403
+Curuá,dados_curua__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.38526629721676
+Curuá,dados_curua__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.782625871007158
+Curuá,dados_curua__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.864700180601652
+Curuá,dados_curua__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.536351293668815
+Curuá,dados_curua__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,70.05934411275436
+Curuá,dados_curua__sem_conjuge,Sem cônjuge,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.34208623669053
+Curuá,dados_curua__sem_conjuge,Sem cônjuge,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.94900060200551
+Curuá,dados_curua__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Curuá,dados_curua__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Curuá,dados_curua__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.15234989727815
+Curuá,dados_curua__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.977835033329487
+Curuá,dados_curua__trabalha_em_outro_municipio,Trabalha em outro município,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.776834494676212
+Curuá,dados_curua__trabalha_em_outro_municipio,Trabalha em outro município,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.219600240802205
+Curuá,dados_curua__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.4777415468245
+Curuá,dados_curua__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.9408075388844
+Curuá,dados_curua__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.898622697553805
+Curuá,dados_curua__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.433029328235495
+Curuá,dados_curua__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.318920731366738
+Curuá,dados_curua__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.36860084280771
+Curuá,dados_curua__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Curuá,dados_curua__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Curuá,dados_curua__onibus,Ônibus,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.0942086236690525
+Curuá,dados_curua__onibus,Ônibus,dados_curua,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.454900060200551
