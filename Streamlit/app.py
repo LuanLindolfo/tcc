@@ -495,7 +495,7 @@ MUNICIPIOS = [
         "arquivo": "indicadores_cachoeira_do_arari_tratados.csv",
     },
     {
-        "nome":    "Sou",
+        "nome":    "Soure",
         "pasta":   "data",
         "arquivo": "indicadores_soure_tratados.csv",
     },
@@ -748,11 +748,6 @@ MUNICIPIOS = [
         "nome":    "Bannach",
         "pasta":   "data",
         "arquivo": "indicadores_bannach_tratados.csv",
-    },
-    {
-        "nome":    "Soure",
-        "pasta":   "data",
-        "arquivo": "indicadores_soure_tratados.csv",
     },
 ]
 
