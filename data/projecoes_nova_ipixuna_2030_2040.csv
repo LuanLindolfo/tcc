@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Nova Ipixuna,dados_nova_ipixuna__2_trabalhos,2 trabalhos,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.0775134362688548,2030,3.7414229855630485
+Nova Ipixuna,dados_nova_ipixuna__2_trabalhos,2 trabalhos,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.0775134362688548,2040,3.7388787322957806
+Nova Ipixuna,dados_nova_ipixuna__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2030,0.6749786523588253
+Nova Ipixuna,dados_nova_ipixuna__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2040,0.7652897162635125
+Nova Ipixuna,dados_nova_ipixuna__anos_de_estudo_media,Anos de Estudo (Média),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853983,2030,8.573013772284234
+Nova Ipixuna,dados_nova_ipixuna__anos_de_estudo_media,Anos de Estudo (Média),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853983,2040,10.245055732181001
+Nova Ipixuna,dados_nova_ipixuna__apenas_1_trabalho,Apenas 1 trabalho,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.1556361363338254,2030,95.76883794738119
+Nova Ipixuna,dados_nova_ipixuna__apenas_1_trabalho,Apenas 1 trabalho,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.1556361363338254,2040,95.76424784542293
+Nova Ipixuna,dados_nova_ipixuna__casais_com_filhos,Casais com filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083728510234778,2030,35.8101848303903
+Nova Ipixuna,dados_nova_ipixuna__casais_com_filhos,Casais com filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.8083728510234778,2040,26.005254039612765
+Nova Ipixuna,dados_nova_ipixuna__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9575306056808829,2030,7.469677326996134
+Nova Ipixuna,dados_nova_ipixuna__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9575306056808829,2040,7.465678010194771
+Nova Ipixuna,dados_nova_ipixuna__casais_sem_filhos,Casais sem filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811066,2030,18.375034951504063
+Nova Ipixuna,dados_nova_ipixuna__casais_sem_filhos,Casais sem filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.7313357160811066,2040,22.009517171677082
+Nova Ipixuna,dados_nova_ipixuna__conta_propria,Conta própria,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.13897843493596507,2030,2.2279108831594927
+Nova Ipixuna,dados_nova_ipixuna__conta_propria,Conta própria,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.13897843493596507,2040,2.351544666940912
+Nova Ipixuna,dados_nova_ipixuna__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2030,39.630091475975
+Nova Ipixuna,dados_nova_ipixuna__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2040,39.3756492442494
+Nova Ipixuna,dados_nova_ipixuna__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.4916587820486817,2030,5.094372018818721
+Nova Ipixuna,dados_nova_ipixuna__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.4916587820486817,2040,5.431063697682348
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.0055866096115256,2030,26.61567305831809
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.0055866096115256,2040,31.61308611105599
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.9728312406745067,2030,27.405609155156302
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.9728312406745067,2040,31.19367622984833
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,4.612604034200625,2030,12.990065265150875
+Nova Ipixuna,dados_nova_ipixuna__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,4.612604034200625,2040,4.424567002362693
+Nova Ipixuna,dados_nova_ipixuna__empregador,Empregador,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,28.6705484455038,2030,326.5592269740611
+Nova Ipixuna,dados_nova_ipixuna__empregador,Empregador,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,28.6705484455038,2040,371.385682680168
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,adam,True,5.782188433981891,2030,97.41903382550491
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,adam,True,5.782188433981891,2040,98.21164514082648
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,3.5996194665459265,2030,80.13376998422687
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,3.5996194665459265,2040,84.46633836450245
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,2.6541852349025548,2030,19.78663279799125
+Nova Ipixuna,dados_nova_ipixuna__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,2.6541852349025548,2040,19.780360123495438
+Nova Ipixuna,dados_nova_ipixuna__idade_mediana,Idade Mediana,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,32.955643986961604
+Nova Ipixuna,dados_nova_ipixuna__idade_mediana,Idade Mediana,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,37.06293528986165
+Nova Ipixuna,dados_nova_ipixuna__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,74.99573047176506
+Nova Ipixuna,dados_nova_ipixuna__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,93.05794325270251
+Nova Ipixuna,dados_nova_ipixuna__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903768,2030,21.396071729804266
+Nova Ipixuna,dados_nova_ipixuna__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903768,2040,24.559535119039978
+Nova Ipixuna,dados_nova_ipixuna__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2030,3.568186467509041
+Nova Ipixuna,dados_nova_ipixuna__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2040,3.5674912838412336
+Nova Ipixuna,dados_nova_ipixuna__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2030,8.12146081673345
+Nova Ipixuna,dados_nova_ipixuna__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2040,9.749664152504051
+Nova Ipixuna,dados_nova_ipixuna__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736614,2030,9.024594394817681
+Nova Ipixuna,dados_nova_ipixuna__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736614,2040,10.740504609006738
+Nova Ipixuna,dados_nova_ipixuna__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592627,2030,2.3247110460912745
+Nova Ipixuna,dados_nova_ipixuna__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.015252057684592627,2040,1.7340528684958147
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_amarela,Média: População Amarela,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.5169318465989727,2030,9.354556514632055
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_amarela,Média: População Amarela,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.5169318465989727,2040,10.931307514967852
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_branca,Média: População Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803112,2030,9.049615742458856
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_branca,Média: População Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.2734606078803112,2040,10.675214892743227
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_indigena,Média: População Indígena,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.13659858966513724,2030,6.473102763877445
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_indigena,Média: População Indígena,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.13659858966513724,2040,7.78390432756542
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_preta_parda,Média: População Preta / Parda,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341885,2030,8.22146081673345
+Nova Ipixuna,dados_nova_ipixuna__media_populacao_preta_parda,Média: População Preta / Parda,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341885,2040,9.849664152504051
+Nova Ipixuna,dados_nova_ipixuna__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,72.79059219219403,2030,84.83160289701124
+Nova Ipixuna,dados_nova_ipixuna__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,72.79059219219403,2040,-24.422183686873836
+Nova Ipixuna,dados_nova_ipixuna__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683952,2030,4.197042932464107
+Nova Ipixuna,dados_nova_ipixuna__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683952,2040,4.470862352657443
+Nova Ipixuna,dados_nova_ipixuna__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2030,0.8336989060632846
+Nova Ipixuna,dados_nova_ipixuna__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2040,0.8334905168116217
+Nova Ipixuna,dados_nova_ipixuna__populacao_amarela,População Amarela,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,56.1309814494737,2030,96.79668253805484
+Nova Ipixuna,dados_nova_ipixuna__populacao_amarela,População Amarela,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,56.1309814494737,2040,96.57181140477142
+Nova Ipixuna,dados_nova_ipixuna__populacao_branca,População Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.29013126790921245,2030,2.828275186678452
+Nova Ipixuna,dados_nova_ipixuna__populacao_branca,População Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.29013126790921245,2040,2.827358273971135
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena,População Indígena,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,38.61968483982454,2030,102.28387408654233
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena,População Indígena,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,38.61968483982454,2040,105.66036554873459
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena_total,População Indígena Total,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,38.61968483982454,2030,102.28387408654233
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena_total,População Indígena Total,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,38.61968483982454,2040,105.66036554873459
+Nova Ipixuna,dados_nova_ipixuna__populacao_parda,População Parda,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,1.6182120269390001,2030,9.986328540805689
+Nova Ipixuna,dados_nova_ipixuna__populacao_parda,População Parda,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,1.6182120269390001,2040,9.917957808597903
+Nova Ipixuna,dados_nova_ipixuna__populacao_preta,População Preta,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,161.82120269390006,2030,896.632854080569
+Nova Ipixuna,dados_nova_ipixuna__populacao_preta,População Preta,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,lbfgs,True,161.82120269390006,2040,889.7957808597904
+Nova Ipixuna,dados_nova_ipixuna__populacao_rural,População Rural,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9015356751953328,2030,6.632684400597993
+Nova Ipixuna,dados_nova_ipixuna__populacao_rural,População Rural,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9015356751953328,2040,6.629306627943876
+Nova Ipixuna,dados_nova_ipixuna__populacao_total,População Total,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.941385589758249,2030,13.283054617216294
+Nova Ipixuna,dados_nova_ipixuna__populacao_total,População Total,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.941385589758249,2040,13.278245749253497
+Nova Ipixuna,dados_nova_ipixuna__populacao_urbana,População Urbana,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.930349711208804,2030,8.324437628700501
+Nova Ipixuna,dados_nova_ipixuna__populacao_urbana,População Urbana,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.930349711208804,2040,8.750209391540686
+Nova Ipixuna,dados_nova_ipixuna__populacao_com_superior_completo,População com Superior Completo,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,147.6941688230443,2030,1188.7711875435973
+Nova Ipixuna,dados_nova_ipixuna__populacao_com_superior_completo,População com Superior Completo,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,147.6941688230443,2040,1558.1098859828476
+Nova Ipixuna,dados_nova_ipixuna__populacao_de_homens,População de Homens,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9321235250019212,2030,6.982218101863649
+Nova Ipixuna,dados_nova_ipixuna__populacao_de_homens,População de Homens,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.9321235250019212,2040,6.979868421567497
+Nova Ipixuna,dados_nova_ipixuna__populacao_de_mulheres,População de Mulheres,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.0092620647563286,2030,6.300841172577392
+Nova Ipixuna,dados_nova_ipixuna__populacao_de_mulheres,População de Mulheres,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,1.0092620647563286,2040,6.298378927190188
+Nova Ipixuna,dados_nova_ipixuna__proporcao_na_populacao_de_nova_ipixuna,Proporção na população de Nova Ipixuna,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.30975932712566356,2030,0.36566468866061985
+Nova Ipixuna,dados_nova_ipixuna__proporcao_na_populacao_de_nova_ipixuna,Proporção na população de Nova Ipixuna,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,0.30975932712566356,2040,0.364942403183471
+Nova Ipixuna,dados_nova_ipixuna__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,2.07970335171756,2030,108.76147309710002
+Nova Ipixuna,dados_nova_ipixuna__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,2.07970335171756,2040,108.80810840411417
+Nova Ipixuna,dados_nova_ipixuna__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,lbfgs,True,221.44122133197027,2030,1267.9250994008648
+Nova Ipixuna,dados_nova_ipixuna__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,lbfgs,True,221.44122133197027,2040,1615.1356184731426
+Nova Ipixuna,dados_nova_ipixuna__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.7930279658369864,2030,37.27971607421071
+Nova Ipixuna,dados_nova_ipixuna__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.7930279658369864,2040,29.88443448560013
+Nova Ipixuna,dados_nova_ipixuna__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861608,2030,17.113471365063702
+Nova Ipixuna,dados_nova_ipixuna__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,sgd,True,0.21101351656861608,2040,19.9738652549576
+Nova Ipixuna,dados_nova_ipixuna__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.6140671349956517,2030,25.60797308513117
+Nova Ipixuna,dados_nova_ipixuna__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,1.6140671349956517,2040,29.98275985041914
+Nova Ipixuna,dados_nova_ipixuna__responsavel_homem,Responsável Homem,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Nova Ipixuna,dados_nova_ipixuna__responsavel_homem,Responsável Homem,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Nova Ipixuna,dados_nova_ipixuna__responsavel_mulher,Responsável Mulher,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Nova Ipixuna,dados_nova_ipixuna__responsavel_mulher,Responsável Mulher,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Nova Ipixuna,dados_nova_ipixuna__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Nova Ipixuna,dados_nova_ipixuna__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Nova Ipixuna,dados_nova_ipixuna__setor_privado,Setor privado,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.25188713832691295,2030,3.1696473916053307
+Nova Ipixuna,dados_nova_ipixuna__setor_privado,Setor privado,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.25188713832691295,2040,3.573360265763471
+Nova Ipixuna,dados_nova_ipixuna__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,264.2157018539978,2030,-1.5079699271178981
+Nova Ipixuna,dados_nova_ipixuna__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,264.2157018539978,2040,12.420782167487062
+Nova Ipixuna,dados_nova_ipixuna__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,418.33175615835563,2030,-4.144382132708614
+Nova Ipixuna,dados_nova_ipixuna__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,tanh,adam,True,418.33175615835563,2040,17.913951916963754
+Nova Ipixuna,dados_nova_ipixuna__setor_publico,Setor público,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,408.6869231562402,2030,414.85115740147353
+Nova Ipixuna,dados_nova_ipixuna__setor_publico,Setor público,dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,408.6869231562402,2040,413.17747193132374
+Nova Ipixuna,dados_nova_ipixuna__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,4.557676798005173,2030,102.49359570764759
+Nova Ipixuna,dados_nova_ipixuna__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,4.557676798005173,2040,129.58691487905378
+Nova Ipixuna,dados_nova_ipixuna__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,385.6268997042126,2030,391.40169460822943
+Nova Ipixuna,dados_nova_ipixuna__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,sgd,True,385.6268997042126,2040,389.82779550162064
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,2.734331913261807,2030,90.65521290834918
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,2.734331913261807,2040,93.86254970123903
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.48391304911191096,2030,59.37060498457738
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,0.48391304911191096,2040,70.72688710373339
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,1.9356934367229048,2030,99.02371193321048
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,1.9356934367229048,2040,100.88710826477262
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,adam,True,5.782188433981891,2030,97.41903382550491
+Nova Ipixuna,dados_nova_ipixuna__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_nova_ipixuna,Grupo 2 — 3 censos,logistic,adam,True,5.782188433981891,2040,98.21164514082648
+Nova Ipixuna,dados_nova_ipixuna__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.49829321150169825,2030,5.135000486000831
+Nova Ipixuna,dados_nova_ipixuna__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,0.49829321150169825,2040,5.47218176206756
+Nova Ipixuna,dados_nova_ipixuna__trabalhador_domestico,Trabalhador doméstico,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,28.929103441454117,2030,411.8877933940611
+Nova Ipixuna,dados_nova_ipixuna__trabalhador_domestico,Trabalhador doméstico,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,28.929103441454117,2040,449.04834566167017
+Nova Ipixuna,dados_nova_ipixuna__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,64.99573047176506
+Nova Ipixuna,dados_nova_ipixuna__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,83.05794325270251
+Nova Ipixuna,dados_nova_ipixuna__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,23.298415750733493,2030,352.6957437212336
+Nova Ipixuna,dados_nova_ipixuna__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_nova_ipixuna,Grupo 2 — 3 censos,relu,adam,True,23.298415750733493,2040,378.9604954449552
+Nova Ipixuna,dados_nova_ipixuna__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,lbfgs,True,6.5084272917046855,2030,38.54536560316884
+Nova Ipixuna,dados_nova_ipixuna__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_nova_ipixuna,Grupo 2 — 3 censos,relu,lbfgs,True,6.5084272917046855,2040,48.64735861318573
+Nova Ipixuna,dados_nova_ipixuna__a_pe,A pé,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.826958247731788
+Nova Ipixuna,dados_nova_ipixuna__a_pe,A pé,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.014862527774568
+Nova Ipixuna,dados_nova_ipixuna__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.01504572205131
+Nova Ipixuna,dados_nova_ipixuna__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.65932128610693
+Nova Ipixuna,dados_nova_ipixuna__automovel_carro,Automóvel (Carro),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.88119213525173
+Nova Ipixuna,dados_nova_ipixuna__automovel_carro,Automóvel (Carro),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.942286058288865
+Nova Ipixuna,dados_nova_ipixuna__bicicleta,Bicicleta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.763005954674673
+Nova Ipixuna,dados_nova_ipixuna__bicicleta,Bicicleta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.511275720822267
+Nova Ipixuna,dados_nova_ipixuna__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.84644387726605
+Nova Ipixuna,dados_nova_ipixuna__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.07168641949218
+Nova Ipixuna,dados_nova_ipixuna__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Nova Ipixuna,dados_nova_ipixuna__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Nova Ipixuna,dados_nova_ipixuna__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.594353867061265
+Nova Ipixuna,dados_nova_ipixuna__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.252018847211
+Nova Ipixuna,dados_nova_ipixuna__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.988087474319537
+Nova Ipixuna,dados_nova_ipixuna__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.444458758332372
+Nova Ipixuna,dados_nova_ipixuna__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.18841724733811
+Nova Ipixuna,dados_nova_ipixuna__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.90980012040111
+Nova Ipixuna,dados_nova_ipixuna__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.415045722051325
+Nova Ipixuna,dados_nova_ipixuna__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.059321286106938
+Nova Ipixuna,dados_nova_ipixuna__estuda_em_outro_municipio,Estuda em outro município,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.356536460863278
+Nova Ipixuna,dados_nova_ipixuna__estuda_em_outro_municipio,Estuda em outro município,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.284028726229987
+Nova Ipixuna,dados_nova_ipixuna__estuda_no_proprio_municipio_nova_ipixuna,Estuda no próprio município (Nova Ipixuna),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.16426242295861
+Nova Ipixuna,dados_nova_ipixuna__estuda_no_proprio_municipio_nova_ipixuna,Estuda no próprio município (Nova Ipixuna),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.53337627499712
+Nova Ipixuna,dados_nova_ipixuna__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.28560620913648
+Nova Ipixuna,dados_nova_ipixuna__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.520415326323814
+Nova Ipixuna,dados_nova_ipixuna__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.234481108757452
+Nova Ipixuna,dados_nova_ipixuna__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.244523170828039
+Nova Ipixuna,dados_nova_ipixuna__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.88698351158268
+Nova Ipixuna,dados_nova_ipixuna__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.58738599808832
+Nova Ipixuna,dados_nova_ipixuna__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7519725567672306
+Nova Ipixuna,dados_nova_ipixuna__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.863111925055694
+Nova Ipixuna,dados_nova_ipixuna__mais_de_1_hora,Mais de 1 hora,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.104357640575518
+Nova Ipixuna,dados_nova_ipixuna__mais_de_1_hora,Mais de 1 hora,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.722685817486658
+Nova Ipixuna,dados_nova_ipixuna__motocicleta,Motocicleta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.92322193863303
+Nova Ipixuna,dados_nova_ipixuna__motocicleta,Motocicleta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,44.03584320974609
+Nova Ipixuna,dados_nova_ipixuna__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.46143935648922
+Nova Ipixuna,dados_nova_ipixuna__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.659385698602584
+Nova Ipixuna,dados_nova_ipixuna__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.492774887913626
+Nova Ipixuna,dados_nova_ipixuna__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.83248593788776
+Nova Ipixuna,dados_nova_ipixuna__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.88990741640278
+Nova Ipixuna,dados_nova_ipixuna__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.187657693262196
+Nova Ipixuna,dados_nova_ipixuna__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_amarela_2,População Amarela,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_amarela_2,População Amarela,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_branca_2,População Branca,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_branca_2,População Branca,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena_2,População Indígena,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_indigena_2,População Indígena,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_parda_2,População Parda,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_parda_2,População Parda,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_preta_2,População Preta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_preta_2,População Preta,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__populacao_residente_em_favelas,População Residente em Favelas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__populacao_residente_em_favelas,População Residente em Favelas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.020298033812933
+Nova Ipixuna,dados_nova_ipixuna__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.535571514572216
+Nova Ipixuna,dados_nova_ipixuna__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Nova Ipixuna,dados_nova_ipixuna__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Nova Ipixuna,dados_nova_ipixuna__ruas_sem_arvores,Ruas Sem Árvores,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.0188642980575
+Nova Ipixuna,dados_nova_ipixuna__ruas_sem_arvores,Ruas Sem Árvores,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.51315739225942
+Nova Ipixuna,dados_nova_ipixuna__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.20908945921109
+Nova Ipixuna,dados_nova_ipixuna__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.58155066527313
+Nova Ipixuna,dados_nova_ipixuna__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.75510272510785
+Nova Ipixuna,dados_nova_ipixuna__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.661614603917199
+Nova Ipixuna,dados_nova_ipixuna__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,72.68417247338105
+Nova Ipixuna,dados_nova_ipixuna__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.89800120401102
+Nova Ipixuna,dados_nova_ipixuna__sem_conjuge,Sem cônjuge,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.14208623669053
+Nova Ipixuna,dados_nova_ipixuna__sem_conjuge,Sem cônjuge,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.749000602005516
+Nova Ipixuna,dados_nova_ipixuna__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Nova Ipixuna,dados_nova_ipixuna__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Nova Ipixuna,dados_nova_ipixuna__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.15234989727815
+Nova Ipixuna,dados_nova_ipixuna__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.977835033329487
+Nova Ipixuna,dados_nova_ipixuna__trabalha_em_outro_municipio,Trabalha em outro município,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.034804691294916
+Nova Ipixuna,dados_nova_ipixuna__trabalha_em_outro_municipio,Trabalha em outro município,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,19.426043089344983
+Nova Ipixuna,dados_nova_ipixuna__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,81.24639363443791
+Nova Ipixuna,dados_nova_ipixuna__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.80006441249566
+Nova Ipixuna,dados_nova_ipixuna__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.87253328740993
+Nova Ipixuna,dados_nova_ipixuna__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.252357873863836
+Nova Ipixuna,dados_nova_ipixuna__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.57981483280554
+Nova Ipixuna,dados_nova_ipixuna__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.17531538652436
+Nova Ipixuna,dados_nova_ipixuna__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.194208623669053
+Nova Ipixuna,dados_nova_ipixuna__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.554900060200551
+Nova Ipixuna,dados_nova_ipixuna__onibus,Ônibus,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.968119213525173
+Nova Ipixuna,dados_nova_ipixuna__onibus,Ônibus,dados_nova_ipixuna,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.174228605828886
