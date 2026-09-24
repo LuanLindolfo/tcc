@@ -1,0 +1,290 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Faro,dados_faro__populacao_total,População Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04200936081519006,2000,8.12,Valor
+Faro,dados_faro__populacao_total,População Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04200936081519006,2010,8.177,Valor
+Faro,dados_faro__populacao_total,População Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.04200936081519006,2022,8.109,Valor
+Faro,dados_faro__populacao_urbana,População Urbana,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.2270661537105707,2000,3.42,Valor
+Faro,dados_faro__populacao_urbana,População Urbana,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.2270661537105707,2010,4.21,Valor
+Faro,dados_faro__populacao_urbana,População Urbana,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.2270661537105707,2022,4.82,Valor
+Faro,dados_faro__populacao_rural,População Rural,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15374415140154962,2000,4.7,Valor
+Faro,dados_faro__populacao_rural,População Rural,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15374415140154962,2010,3.967,Valor
+Faro,dados_faro__populacao_rural,População Rural,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.15374415140154962,2022,3.289,Valor
+Faro,dados_faro__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_de_mulheres,População de Mulheres,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.032368220015945415,2000,3.92,Valor
+Faro,dados_faro__populacao_de_mulheres,População de Mulheres,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.032368220015945415,2010,3.98,Valor
+Faro,dados_faro__populacao_de_mulheres,População de Mulheres,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.032368220015945415,2022,3.98,Valor
+Faro,dados_faro__populacao_de_homens,População de Homens,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.03379623669377363,2000,4.2,Valor
+Faro,dados_faro__populacao_de_homens,População de Homens,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.03379623669377363,2010,4.197,Valor
+Faro,dados_faro__populacao_de_homens,População de Homens,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.03379623669377363,2022,4.129,Valor
+Faro,dados_faro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2000,107.1,Valor
+Faro,dados_faro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2010,105.5,Valor
+Faro,dados_faro__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.09151362924616535,2022,103.7,Valor
+Faro,dados_faro__idade_mediana,Idade Mediana,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2000,21.0,Valor
+Faro,dados_faro__idade_mediana,Idade Mediana,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2010,24.0,Valor
+Faro,dados_faro__idade_mediana,Idade Mediana,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2022,30.0,Valor
+Faro,dados_faro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.957728578552104,2000,6.4,Valor
+Faro,dados_faro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.957728578552104,2010,12.1,Valor
+Faro,dados_faro__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.957728578552104,2022,28.4,Valor
+Faro,dados_faro__populacao_parda,População Parda,dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2979172031672081,2000,5.82,Valor
+Faro,dados_faro__populacao_parda,População Parda,dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2979172031672081,2010,6.42,Valor
+Faro,dados_faro__populacao_parda,População Parda,dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,0.2979172031672081,2022,6.48,Valor
+Faro,dados_faro__populacao_branca,População Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.06635767215423642,2000,1.62,Valor
+Faro,dados_faro__populacao_branca,População Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.06635767215423642,2010,1.38,Valor
+Faro,dados_faro__populacao_branca,População Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.06635767215423642,2022,1.22,Valor
+Faro,dados_faro__populacao_preta,População Preta,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,123.20536456907286,2000,520.0,Valor
+Faro,dados_faro__populacao_preta,População Preta,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,123.20536456907286,2010,310.0,Valor
+Faro,dados_faro__populacao_preta,População Preta,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,123.20536456907286,2022,360.0,Valor
+Faro,dados_faro__populacao_amarela,População Amarela,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,16.782942472510083,2000,110.0,Valor
+Faro,dados_faro__populacao_amarela,População Amarela,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,16.782942472510083,2010,50.0,Valor
+Faro,dados_faro__populacao_amarela,População Amarela,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,16.782942472510083,2022,15.0,Valor
+Faro,dados_faro__populacao_indigena,População Indígena,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2000,50.0,Valor
+Faro,dados_faro__populacao_indigena,População Indígena,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2010,17.0,Valor
+Faro,dados_faro__populacao_indigena,População Indígena,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2022,34.0,Valor
+Faro,dados_faro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,186.36344765176815,2000,110.2,Valor
+Faro,dados_faro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,186.36344765176815,2010,291.4,Valor
+Faro,dados_faro__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,186.36344765176815,2022,802.0,Valor
+Faro,dados_faro__apenas_1_trabalho,Apenas 1 trabalho,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5470088003953748,2000,96.7,Valor
+Faro,dados_faro__apenas_1_trabalho,Apenas 1 trabalho,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5470088003953748,2010,96.3,Valor
+Faro,dados_faro__apenas_1_trabalho,Apenas 1 trabalho,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5470088003953748,2022,94.6,Valor
+Faro,dados_faro__2_trabalhos,2 trabalhos,dados_faro,Grupo 2 — 3 censos,3,relu,sgd,True,0.6758317798695583,2000,2.9,Valor
+Faro,dados_faro__2_trabalhos,2 trabalhos,dados_faro,Grupo 2 — 3 censos,3,relu,sgd,True,0.6758317798695583,2010,3.2,Valor
+Faro,dados_faro__2_trabalhos,2 trabalhos,dados_faro,Grupo 2 — 3 censos,3,relu,sgd,True,0.6758317798695583,2022,4.8,Valor
+Faro,dados_faro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2000,0.4,Valor
+Faro,dados_faro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2010,0.5,Valor
+Faro,dados_faro__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.015192255993350575,2022,0.6,Valor
+Faro,dados_faro__setor_privado,Setor privado,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,547.2176770413524,2000,680.0,Valor
+Faro,dados_faro__setor_privado,Setor privado,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,547.2176770413524,2010,980.0,Valor
+Faro,dados_faro__setor_privado,Setor privado,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,547.2176770413524,2022,1.34,Valor
+Faro,dados_faro__conta_propria,Conta própria,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.0573410968910076,2000,1.12,Valor
+Faro,dados_faro__conta_propria,Conta própria,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.0573410968910076,2010,1.32,Valor
+Faro,dados_faro__conta_propria,Conta própria,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.0573410968910076,2022,1.48,Valor
+Faro,dados_faro__setor_publico,Setor público,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538528,2000,340.0,Valor
+Faro,dados_faro__setor_publico,Setor público,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538528,2010,520.0,Valor
+Faro,dados_faro__setor_publico,Setor público,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,33.52833460538528,2022,780.0,Valor
+Faro,dados_faro__trabalhador_domestico,Trabalhador doméstico,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,20.224516909422846,2000,140.0,Valor
+Faro,dados_faro__trabalhador_domestico,Trabalhador doméstico,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,20.224516909422846,2010,210.0,Valor
+Faro,dados_faro__trabalhador_domestico,Trabalhador doméstico,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,20.224516909422846,2022,260.0,Valor
+Faro,dados_faro__empregador,Empregador,dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2000,40.0,Valor
+Faro,dados_faro__empregador,Empregador,dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2010,70.0,Valor
+Faro,dados_faro__empregador,Empregador,dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,3.0370808233056885,2022,110.0,Valor
+Faro,dados_faro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,65.85078857008126,2000,380.0,Valor
+Faro,dados_faro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,65.85078857008126,2010,190.0,Valor
+Faro,dados_faro__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,65.85078857008126,2022,100.0,Valor
+Faro,dados_faro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Faro,dados_faro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Faro,dados_faro__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Faro,dados_faro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.775212562524132,2000,210.0,Valor
+Faro,dados_faro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.775212562524132,2010,410.0,Valor
+Faro,dados_faro__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.775212562524132,2022,620.0,Valor
+Faro,dados_faro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.854241127534618,2000,470.0,Valor
+Faro,dados_faro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.854241127534618,2010,570.0,Valor
+Faro,dados_faro__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,22.854241127534618,2022,720.0,Valor
+Faro,dados_faro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2000,10.0,Valor
+Faro,dados_faro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2010,20.0,Valor
+Faro,dados_faro__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,6.09007382484198,2022,40.0,Valor
+Faro,dados_faro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,27.438260780543278,2000,330.0,Valor
+Faro,dados_faro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,27.438260780543278,2010,500.0,Valor
+Faro,dados_faro__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,27.438260780543278,2022,740.0,Valor
+Faro,dados_faro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2000,10.0,Valor
+Faro,dados_faro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2010,15.0,Valor
+Faro,dados_faro__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2022,20.0,Valor
+Faro,dados_faro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,18.816844986742684,2000,130.0,Valor
+Faro,dados_faro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,18.816844986742684,2010,195.0,Valor
+Faro,dados_faro__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,18.816844986742684,2022,240.0,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,2.526628033147636,2000,71.4,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,2.526628033147636,2010,80.2,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,2.526628033147636,2022,87.1,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,1.963846875176505,2000,86.4,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,1.963846875176505,2010,93.1,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,1.963846875176505,2022,96.8,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.6058462398837735,2000,23.8,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.6058462398837735,2010,34.8,Valor
+Faro,dados_faro__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.6058462398837735,2022,47.2,Valor
+Faro,dados_faro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2000,78.1,Valor
+Faro,dados_faro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2010,90.4,Valor
+Faro,dados_faro__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2022,94.2,Valor
+Faro,dados_faro__populacao_com_superior_completo,População com Superior Completo,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,73.08088589810376,2000,60.0,Valor
+Faro,dados_faro__populacao_com_superior_completo,População com Superior Completo,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,73.08088589810376,2010,180.0,Valor
+Faro,dados_faro__populacao_com_superior_completo,População com Superior Completo,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,73.08088589810376,2022,420.0,Valor
+Faro,dados_faro__anos_de_estudo_media,Anos de Estudo (Média),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2000,3.3,Valor
+Faro,dados_faro__anos_de_estudo_media,Anos de Estudo (Média),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2010,5.1,Valor
+Faro,dados_faro__anos_de_estudo_media,Anos de Estudo (Média),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.19736761363853925,2022,7.0,Valor
+Faro,dados_faro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2000,3.6,Valor
+Faro,dados_faro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2010,5.5,Valor
+Faro,dados_faro__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.28865286387366035,2022,7.4,Valor
+Faro,dados_faro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2000,3.0,Valor
+Faro,dados_faro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2010,4.7,Valor
+Faro,dados_faro__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341959,2022,6.6,Valor
+Faro,dados_faro__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.312,Valor
+Faro,dados_faro__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.494,Valor
+Faro,dados_faro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2000,78.1,Valor
+Faro,dados_faro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2010,90.4,Valor
+Faro,dados_faro__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_faro,Grupo 2 — 3 censos,3,logistic,adam,True,5.220948886301396,2022,94.2,Valor
+Faro,dados_faro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,3.555952728335304,2000,53.8,Valor
+Faro,dados_faro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,3.555952728335304,2010,66.1,Valor
+Faro,dados_faro__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,3.555952728335304,2022,74.8,Valor
+Faro,dados_faro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.678620200988109,2000,15.8,Valor
+Faro,dados_faro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.678620200988109,2010,20.1,Valor
+Faro,dados_faro__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_faro,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.678620200988109,2022,19.6,Valor
+Faro,dados_faro__media_populacao_amarela,Média: População Amarela,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2000,4.3,Valor
+Faro,dados_faro__media_populacao_amarela,Média: População Amarela,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2010,6.1,Valor
+Faro,dados_faro__media_populacao_amarela,Média: População Amarela,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803097,2022,7.9,Valor
+Faro,dados_faro__media_populacao_branca,Média: População Branca,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803113,2000,3.9,Valor
+Faro,dados_faro__media_populacao_branca,Média: População Branca,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803113,2010,5.7,Valor
+Faro,dados_faro__media_populacao_branca,Média: População Branca,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803113,2022,7.5,Valor
+Faro,dados_faro__media_populacao_preta_parda,Média: População Preta / Parda,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341899,2000,3.1,Valor
+Faro,dados_faro__media_populacao_preta_parda,Média: População Preta / Parda,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341899,2010,4.8,Valor
+Faro,dados_faro__media_populacao_preta_parda,Média: População Preta / Parda,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.10608236340341899,2022,6.7,Valor
+Faro,dados_faro__media_populacao_indigena,Média: População Indígena,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.212691583906909,2000,2.3,Valor
+Faro,dados_faro__media_populacao_indigena,Média: População Indígena,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.212691583906909,2010,3.7,Valor
+Faro,dados_faro__media_populacao_indigena,Média: População Indígena,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.212691583906909,2022,5.1,Valor
+Faro,dados_faro__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_residente_em_favelas,População Residente em Favelas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_residente_em_favelas,População Residente em Favelas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_parda_2,População Parda,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_parda_2,População Parda,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_branca_2,População Branca,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_branca_2,População Branca,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_preta_2,População Preta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_preta_2,População Preta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_amarela_2,População Amarela,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_amarela_2,População Amarela,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__populacao_indigena_2,População Indígena,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Faro,dados_faro__populacao_indigena_2,População Indígena,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Faro,dados_faro__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.1,Valor
+Faro,dados_faro__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,91.6,Valor
+Faro,dados_faro__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.9,Valor
+Faro,dados_faro__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,8.4,Valor
+Faro,dados_faro__casais_com_filhos,Casais com filhos,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6711008032309707,2000,66.2,Valor
+Faro,dados_faro__casais_com_filhos,Casais com filhos,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6711008032309707,2010,55.8,Valor
+Faro,dados_faro__casais_com_filhos,Casais com filhos,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.6711008032309707,2022,44.2,Valor
+Faro,dados_faro__casais_sem_filhos,Casais sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.8987139605579989,2000,7.3,Valor
+Faro,dados_faro__casais_sem_filhos,Casais sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.8987139605579989,2010,10.4,Valor
+Faro,dados_faro__casais_sem_filhos,Casais sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.8987139605579989,2022,15.3,Valor
+Faro,dados_faro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903774,2000,11.6,Valor
+Faro,dados_faro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903774,2010,15.0,Valor
+Faro,dados_faro__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.3643507152903774,2022,18.6,Valor
+Faro,dados_faro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057527,2000,3.5,Valor
+Faro,dados_faro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057527,2010,3.8,Valor
+Faro,dados_faro__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_faro,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057527,2022,4.2,Valor
+Faro,dados_faro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9905481941230395,2000,7.5,Valor
+Faro,dados_faro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9905481941230395,2010,8.3,Valor
+Faro,dados_faro__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9905481941230395,2022,6.4,Valor
+Faro,dados_faro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2000,3.1,Valor
+Faro,dados_faro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2010,3.5,Valor
+Faro,dados_faro__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.232482909462568,2022,3.4,Valor
+Faro,dados_faro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2000,0.8,Valor
+Faro,dados_faro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2010,0.8,Valor
+Faro,dados_faro__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2022,0.8,Valor
+Faro,dados_faro__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,87.4,Valor
+Faro,dados_faro__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,84.6,Valor
+Faro,dados_faro__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,29.8,Valor
+Faro,dados_faro__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,27.2,Valor
+Faro,dados_faro__trabalha_em_outro_municipio,Trabalha em outro município,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.6,Valor
+Faro,dados_faro__trabalha_em_outro_municipio,Trabalha em outro município,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,15.4,Valor
+Faro,dados_faro__motocicleta,Motocicleta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,30.2,Valor
+Faro,dados_faro__motocicleta,Motocicleta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,36.2,Valor
+Faro,dados_faro__bicicleta,Bicicleta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,24.1,Valor
+Faro,dados_faro__bicicleta,Bicicleta,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,17.1,Valor
+Faro,dados_faro__automovel_carro,Automóvel (Carro),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Faro,dados_faro__automovel_carro,Automóvel (Carro),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.2,Valor
+Faro,dados_faro__a_pe,A pé,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,23.8,Valor
+Faro,dados_faro__a_pe,A pé,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.1,Valor
+Faro,dados_faro__onibus,Ônibus,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.8,Valor
+Faro,dados_faro__onibus,Ônibus,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Faro,dados_faro__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,72.6,Valor
+Faro,dados_faro__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.2,Valor
+Faro,dados_faro__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.9,Valor
+Faro,dados_faro__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.5,Valor
+Faro,dados_faro__mais_de_1_hora,Mais de 1 hora,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.5,Valor
+Faro,dados_faro__mais_de_1_hora,Mais de 1 hora,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.3,Valor
+Faro,dados_faro__estuda_no_proprio_municipio_faro,Estuda no próprio município (Faro),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,95.8,Valor
+Faro,dados_faro__estuda_no_proprio_municipio_faro,Estuda no próprio município (Faro),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,93.8,Valor
+Faro,dados_faro__estuda_em_outro_municipio,Estuda em outro município,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.2,Valor
+Faro,dados_faro__estuda_em_outro_municipio,Estuda em outro município,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,6.2,Valor
+Faro,dados_faro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.27035149326997593,2000,1.98,Valor
+Faro,dados_faro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.27035149326997593,2010,2.24,Valor
+Faro,dados_faro__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.27035149326997593,2022,2.98,Valor
+Faro,dados_faro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.26634853387763396,2000,1.95,Valor
+Faro,dados_faro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.26634853387763396,2010,2.21,Valor
+Faro,dados_faro__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.26634853387763396,2022,2.94,Valor
+Faro,dados_faro__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_faro,Grupo 2 — 3 censos,3,tanh,adam,True,4.897877004971829,2000,30.0,Valor
+Faro,dados_faro__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_faro,Grupo 2 — 3 censos,3,tanh,adam,True,4.897877004971829,2010,30.0,Valor
+Faro,dados_faro__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_faro,Grupo 2 — 3 censos,3,tanh,adam,True,4.897877004971829,2022,40.0,Valor
+Faro,dados_faro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2065652627434805,2000,4.2,Valor
+Faro,dados_faro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2065652627434805,2010,3.7,Valor
+Faro,dados_faro__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_faro,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.2065652627434805,2022,2.8,Valor
+Faro,dados_faro__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,44.2,Valor
+Faro,dados_faro__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.2,Valor
+Faro,dados_faro__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,9.8,Valor
+Faro,dados_faro__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.1,Valor
+Faro,dados_faro__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.1,Valor
+Faro,dados_faro__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.5,Valor
+Faro,dados_faro__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,50.2,Valor
+Faro,dados_faro__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,58.4,Valor
+Faro,dados_faro__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,12.8,Valor
+Faro,dados_faro__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.6,Valor
+Faro,dados_faro__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,33.2,Valor
+Faro,dados_faro__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.6,Valor
+Faro,dados_faro__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,64.8,Valor
+Faro,dados_faro__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,61.2,Valor
+Faro,dados_faro__ruas_sem_arvores,Ruas Sem Árvores,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.2,Valor
+Faro,dados_faro__ruas_sem_arvores,Ruas Sem Árvores,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,38.8,Valor
+Faro,dados_faro__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.3,Valor
+Faro,dados_faro__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.9,Valor
+Faro,dados_faro__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Faro,dados_faro__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Faro,dados_faro__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,17.2,Valor
+Faro,dados_faro__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,23.4,Valor
+Faro,dados_faro__populacao_indigena_total,População Indígena Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2000,50.0,Valor
+Faro,dados_faro__populacao_indigena_total,População Indígena Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2010,17.0,Valor
+Faro,dados_faro__populacao_indigena_total,População Indígena Total,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,16.676065116394742,2022,34.0,Valor
+Faro,dados_faro__proporcao_na_populacao_de_faro,Proporção na população de Faro,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20679025139481003,2000,0.62,Valor
+Faro,dados_faro__proporcao_na_populacao_de_faro,Proporção na população de Faro,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20679025139481003,2010,0.21,Valor
+Faro,dados_faro__proporcao_na_populacao_de_faro,Proporção na população de Faro,dados_faro,Grupo 2 — 3 censos,3,logistic,sgd,True,0.20679025139481003,2022,0.42,Valor
+Faro,dados_faro__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.8,Valor
+Faro,dados_faro__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.2,Valor
+Faro,dados_faro__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,14.6,Valor
+Faro,dados_faro__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,12.1,Valor
+Faro,dados_faro__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.5,Valor
+Faro,dados_faro__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.4,Valor
+Faro,dados_faro__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.1,Valor
+Faro,dados_faro__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.3,Valor
+Faro,dados_faro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.3554036402836374,2000,11.5,Valor
+Faro,dados_faro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.3554036402836374,2010,15.1,Valor
+Faro,dados_faro__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.3554036402836374,2022,21.2,Valor
+Faro,dados_faro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.48489224008843007,2000,61.5,Valor
+Faro,dados_faro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.48489224008843007,2010,54.2,Valor
+Faro,dados_faro__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.48489224008843007,2022,44.8,Valor
+Faro,dados_faro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.5636940430541818,2000,8.3,Valor
+Faro,dados_faro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.5636940430541818,2010,10.6,Valor
+Faro,dados_faro__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.5636940430541818,2022,14.1,Valor
+Faro,dados_faro__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.8,Valor
+Faro,dados_faro__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,66.8,Valor
+Faro,dados_faro__sem_conjuge,Sem cônjuge,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Faro,dados_faro__sem_conjuge,Sem cônjuge,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.8,Valor
+Faro,dados_faro__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Faro,dados_faro__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Faro,dados_faro__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.0,Valor
+Faro,dados_faro__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_faro,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.4,Valor
+Faro,dados_faro__responsavel_mulher,Responsável Mulher,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+Faro,dados_faro__responsavel_mulher,Responsável Mulher,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+Faro,dados_faro__responsavel_mulher,Responsável Mulher,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+Faro,dados_faro__responsavel_homem,Responsável Homem,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2000,4.3,Valor
+Faro,dados_faro__responsavel_homem,Responsável Homem,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2010,3.6,Valor
+Faro,dados_faro__responsavel_homem,Responsável Homem,dados_faro,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2022,3.0,Valor
+Faro,dados_faro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Faro,dados_faro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Faro,dados_faro__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Faro,dados_faro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.2338655923368365,2000,10.8,Valor
+Faro,dados_faro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.2338655923368365,2010,15.2,Valor
+Faro,dados_faro__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,1.2338655923368365,2022,22.1,Valor
+Faro,dados_faro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.9271227584194411,2000,14.5,Valor
+Faro,dados_faro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.9271227584194411,2010,19.1,Valor
+Faro,dados_faro__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_faro,Grupo 2 — 3 censos,3,identity,adam,True,0.9271227584194411,2022,23.4,Valor
+Faro,dados_faro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,4.778498214586219,2000,53.4,Valor
+Faro,dados_faro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,4.778498214586219,2010,35.8,Valor
+Faro,dados_faro__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_faro,Grupo 2 — 3 censos,3,relu,adam,True,4.778498214586219,2022,21.8,Valor
