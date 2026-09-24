@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Colares,dados_colares__anos_de_estudo_media,Anos de Estudo (Média),dados_colares,Grupo 1 — 4 censos,identity,lbfgs,True,0.1894429465733234,2030,10.094083693726052
+Colares,dados_colares__anos_de_estudo_media,Anos de Estudo (Média),dados_colares,Grupo 1 — 4 censos,identity,lbfgs,True,0.1894429465733234,2040,11.720578524551023
+Colares,dados_colares__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_colares,Grupo 1 — 4 censos,identity,adam,True,0.16716492380340187,2030,9.644518083940417
+Colares,dados_colares__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_colares,Grupo 1 — 4 censos,identity,adam,True,0.16716492380340187,2040,11.226369442979294
+Colares,dados_colares__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_colares,Grupo 1 — 4 censos,identity,lbfgs,True,0.21868666219627086,2030,10.53739407646007
+Colares,dados_colares__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_colares,Grupo 1 — 4 censos,identity,lbfgs,True,0.21868666219627086,2040,12.202369362059887
+Colares,dados_colares__populacao_total,População Total,dados_colares,Grupo 1 — 4 censos,identity,adam,True,0.21420384258549463,2030,14.116407206187656
+Colares,dados_colares__populacao_total,População Total,dados_colares,Grupo 1 — 4 censos,identity,adam,True,0.21420384258549463,2040,15.554964140067302
+Colares,dados_colares__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_colares,Grupo 1 — 4 censos,logistic,lbfgs,True,1.444861168557125,2030,92.59060694424261
+Colares,dados_colares__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_colares,Grupo 1 — 4 censos,logistic,lbfgs,True,1.444861168557125,2040,93.8977624385937
+Colares,dados_colares__2_trabalhos,2 trabalhos,dados_colares,Grupo 2 — 3 censos,relu,sgd,True,0.6758317798695591,2030,5.460222379256116
+Colares,dados_colares__2_trabalhos,2 trabalhos,dados_colares,Grupo 2 — 3 censos,relu,sgd,True,0.6758317798695591,2040,6.234270174557609
+Colares,dados_colares__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2030,0.7985214662320534
+Colares,dados_colares__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.060900738248419774,2040,0.9354311763287215
+Colares,dados_colares__apenas_1_trabalho,Apenas 1 trabalho,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,0.5885337156089795,2030,93.2612647884571
+Colares,dados_colares__apenas_1_trabalho,Apenas 1 trabalho,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,0.5885337156089795,2040,91.80576569194685
+Colares,dados_colares__casais_com_filhos,Casais com filhos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2030,33.47223261346622
+Colares,dados_colares__casais_com_filhos,Casais com filhos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.525237846924514,2040,24.40629542632597
+Colares,dados_colares__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2030,7.804315605138771
+Colares,dados_colares__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,1.0079433183397948,2040,7.800149798290406
+Colares,dados_colares__casais_sem_filhos,Casais sem filhos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2030,20.545965097787594
+Colares,dados_colares__casais_sem_filhos,Casais sem filhos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.21353453306243017,2040,24.276785620406738
+Colares,dados_colares__conta_propria,Conta própria,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.024281266734357414,2030,2.1196250695513386
+Colares,dados_colares__conta_propria,Conta própria,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.024281266734357414,2040,2.363723434392044
+Colares,dados_colares__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_colares,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2030,39.630091475975
+Colares,dados_colares__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_colares,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2040,39.3756492442494
+Colares,dados_colares__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.404996495065743,2030,5.115071454078001
+Colares,dados_colares__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.404996495065743,2040,6.050408555320933
+Colares,dados_colares__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102345,2030,27.686658095692607
+Colares,dados_colares__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.2946346163102345,2040,32.462911612839164
+Colares,dados_colares__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2030,28.25397760692442
+Colares,dados_colares__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.881545990439386,2040,31.998121431198957
+Colares,dados_colares__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_colares,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2030,12.1443546130374
+Colares,dados_colares__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_colares,Grupo 2 — 3 censos,relu,adam,True,4.4830133590899734,2040,4.80141875513625
+Colares,dados_colares__empregador,Empregador,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608237,2030,172.47045767201874
+Colares,dados_colares__empregador,Empregador,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.5252401420608237,2040,213.40508541356817
+Colares,dados_colares__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_colares,Grupo 2 — 3 censos,logistic,adam,True,3.565285882247366,2030,98.70106725404803
+Colares,dados_colares__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_colares,Grupo 2 — 3 censos,logistic,adam,True,3.565285882247366,2040,99.24849951818172
+Colares,dados_colares__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_colares,Grupo 2 — 3 censos,relu,adam,True,3.502519012488534,2030,85.66680180189276
+Colares,dados_colares__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_colares,Grupo 2 — 3 censos,relu,adam,True,3.502519012488534,2040,89.43433477295108
+Colares,dados_colares__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,3.317985966163556,2030,25.158256593190394
+Colares,dados_colares__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,3.317985966163556,2040,25.15038882370106
+Colares,dados_colares__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.04305297572369954,2030,0.7408626768034985
+Colares,dados_colares__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.04305297572369954,2040,0.8168199970511691
+Colares,dados_colares__idade_mediana,Idade Mediana,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2030,35.16120281806134
+Colares,dados_colares__idade_mediana,Idade Mediana,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,2.5036004004471324,2040,39.07294055052432
+Colares,dados_colares__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_colares,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Colares,dados_colares__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_colares,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Colares,dados_colares__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348954,2030,24.567946075120574
+Colares,dados_colares__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.19697247081348954,2040,27.73404499328313
+Colares,dados_colares__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2030,10.051232925576262
+Colares,dados_colares__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.9592195559813669,2040,12.33200018072798
+Colares,dados_colares__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,0.19641601347646556,2030,2.375153012013197
+Colares,dados_colares__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,0.19641601347646556,2040,1.7209686811188263
+Colares,dados_colares__media_populacao_amarela,Média: População Amarela,dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231818,2030,10.330984450071758
+Colares,dados_colares__media_populacao_amarela,Média: População Amarela,dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.6041499573231818,2040,11.22633637821641
+Colares,dados_colares__media_populacao_branca,Média: População Branca,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572005,2030,10.677875818825989
+Colares,dados_colares__media_populacao_branca,Média: População Branca,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.4408388523572005,2040,12.300983996543755
+Colares,dados_colares__media_populacao_indigena,Média: População Indígena,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833651443,2030,8.324654039121402
+Colares,dados_colares__media_populacao_indigena,Média: População Indígena,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.015251944833651443,2040,9.73401401878794
+Colares,dados_colares__media_populacao_preta_parda,Média: População Preta / Parda,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2030,9.826244088120603
+Colares,dados_colares__media_populacao_preta_parda,Média: População Preta / Parda,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220804,2040,11.405428803558552
+Colares,dados_colares__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_colares,Grupo 2 — 3 censos,relu,adam,True,85.77868075915426,2030,57.611072177333796
+Colares,dados_colares__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_colares,Grupo 2 — 3 censos,relu,adam,True,85.77868075915426,2040,-29.40968257477931
+Colares,dados_colares__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_colares,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,3.668974426752009
+Colares,dados_colares__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_colares,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.002782091398335
+Colares,dados_colares__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2030,0.8180979135796016
+Colares,dados_colares__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_colares,Grupo 2 — 3 censos,logistic,adam,True,0.0620018047064936,2040,0.8206676756222387
+Colares,dados_colares__populacao_amarela,População Amarela,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,5.689495418953655,2030,3.536852921652418
+Colares,dados_colares__populacao_amarela,População Amarela,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,5.689495418953655,2040,-14.440383914694266
+Colares,dados_colares__populacao_branca,População Branca,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,0.09951922518207794,2030,2.0807505270469915
+Colares,dados_colares__populacao_branca,População Branca,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,0.09951922518207794,2040,2.080516597861327
+Colares,dados_colares__populacao_indigena,População Indígena,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,16.504366771513002,2030,33.789937903058636
+Colares,dados_colares__populacao_indigena,População Indígena,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,16.504366771513002,2040,33.74891263551114
+Colares,dados_colares__populacao_indigena_total,População Indígena Total,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,16.504366771513002,2030,33.789937903058636
+Colares,dados_colares__populacao_indigena_total,População Indígena Total,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,16.504366771513002,2040,33.74891263551114
+Colares,dados_colares__populacao_parda,População Parda,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.10618773482343287,2030,10.84281004096109
+Colares,dados_colares__populacao_parda,População Parda,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.10618773482343287,2040,12.072595876007481
+Colares,dados_colares__populacao_preta,População Preta,dados_colares,Grupo 2 — 3 censos,relu,adam,True,34.81834612812505,2030,876.4013990909632
+Colares,dados_colares__populacao_preta,População Preta,dados_colares,Grupo 2 — 3 censos,relu,adam,True,34.81834612812505,2040,918.6817812814593
+Colares,dados_colares__populacao_rural,População Rural,dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.05850171826177449,2030,6.080998368736537
+Colares,dados_colares__populacao_rural,População Rural,dados_colares,Grupo 2 — 3 censos,relu,adam,True,0.05850171826177449,2040,6.146136822664815
+Colares,dados_colares__populacao_urbana,População Urbana,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.20661468150956855,2030,7.859709672080024
+Colares,dados_colares__populacao_urbana,População Urbana,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.20661468150956855,2040,9.08794014118377
+Colares,dados_colares__populacao_com_superior_completo,População com Superior Completo,dados_colares,Grupo 2 — 3 censos,identity,adam,True,156.80952241905467,2030,1003.8390774042839
+Colares,dados_colares__populacao_com_superior_completo,População com Superior Completo,dados_colares,Grupo 2 — 3 censos,identity,adam,True,156.80952241905467,2040,1319.0527568267407
+Colares,dados_colares__populacao_de_homens,População de Homens,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.12626608730324604,2030,7.115314247796315
+Colares,dados_colares__populacao_de_homens,População de Homens,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.12626608730324604,2040,7.79608205846424
+Colares,dados_colares__populacao_de_mulheres,População de Mulheres,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.1671938444918668,2030,6.905809108335709
+Colares,dados_colares__populacao_de_mulheres,População de Mulheres,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.1671938444918668,2040,7.600452078152216
+Colares,dados_colares__proporcao_na_populacao_de_colares,Proporção na população de Colares,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,0.10961826628448325,2030,0.2908783691887416
+Colares,dados_colares__proporcao_na_populacao_de_colares,Proporção na população de Colares,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,0.10961826628448325,2040,0.2905579293947921
+Colares,dados_colares__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_colares,Grupo 2 — 3 censos,tanh,sgd,True,0.5703355242058592,2030,103.30716924038877
+Colares,dados_colares__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_colares,Grupo 2 — 3 censos,tanh,sgd,True,0.5703355242058592,2040,103.22432580021676
+Colares,dados_colares__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,192.2674625994257,2030,1066.9766178986706
+Colares,dados_colares__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,192.2674625994257,2040,1366.062113982884
+Colares,dados_colares__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2030,33.47778609077298
+Colares,dados_colares__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,1.2201902775396103,2040,26.225036341060775
+Colares,dados_colares__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2030,18.14155426993752
+Colares,dados_colares__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.02972594061161497,2040,20.812317407676943
+Colares,dados_colares__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.2032176518000952,2030,29.23978570928093
+Colares,dados_colares__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.2032176518000952,2040,33.561736581166656
+Colares,dados_colares__responsavel_homem,Responsável Homem,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2030,2.5730562829426358
+Colares,dados_colares__responsavel_homem,Responsável Homem,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471673,2040,1.938440679842818
+Colares,dados_colares__responsavel_mulher,Responsável Mulher,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.4236116306733106
+Colares,dados_colares__responsavel_mulher,Responsável Mulher,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.9703147713162976
+Colares,dados_colares__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2030,2.348333956807973
+Colares,dados_colares__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_colares,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2040,1.804377725579558
+Colares,dados_colares__setor_privado,Setor privado,dados_colares,Grupo 2 — 3 censos,tanh,adam,True,429.42220885791704,2030,-3.7252834872236917
+Colares,dados_colares__setor_privado,Setor privado,dados_colares,Grupo 2 — 3 censos,tanh,adam,True,429.42220885791704,2040,18.916016689565083
+Colares,dados_colares__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,16.671967310180378,2030,1011.9679075119702
+Colares,dados_colares__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,16.671967310180378,2040,1260.7138031165832
+Colares,dados_colares__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,13.659858966513752,2030,917.3102763877445
+Colares,dados_colares__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,13.659858966513752,2040,1048.390432756542
+Colares,dados_colares__setor_publico,Setor público,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,408.7395359430645,2030,414.74283361040955
+Colares,dados_colares__setor_publico,Setor público,dados_colares,Grupo 2 — 3 censos,logistic,sgd,True,408.7395359430645,2040,413.085795208495
+Colares,dados_colares__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2030,64.99573047176506
+Colares,dados_colares__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,3.038451198670117,2040,83.05794325270251
+Colares,dados_colares__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_colares,Grupo 2 — 3 censos,identity,adam,True,39.499865582711514,2030,1184.9444961329457
+Colares,dados_colares__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_colares,Grupo 2 — 3 censos,identity,adam,True,39.499865582711514,2040,1419.7532622851327
+Colares,dados_colares__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.5141658468236111,2030,67.11887282759025
+Colares,dados_colares__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.5141658468236111,2040,79.15379580950051
+Colares,dados_colares__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_colares,Grupo 2 — 3 censos,relu,adam,True,1.5282887826120042,2030,99.48755496345365
+Colares,dados_colares__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_colares,Grupo 2 — 3 censos,relu,adam,True,1.5282887826120042,2040,100.58138881169046
+Colares,dados_colares__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_colares,Grupo 2 — 3 censos,logistic,adam,True,3.565285882247366,2030,98.70106725404803
+Colares,dados_colares__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_colares,Grupo 2 — 3 censos,logistic,adam,True,3.565285882247366,2040,99.24849951818172
+Colares,dados_colares__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.39586797004223057,2030,5.160197433152938
+Colares,dados_colares__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_colares,Grupo 2 — 3 censos,identity,adam,True,0.39586797004223057,2040,6.099886238807824
+Colares,dados_colares__trabalhador_domestico,Trabalhador doméstico,dados_colares,Grupo 2 — 3 censos,relu,adam,True,20.224516909422846,2030,332.750467650133
+Colares,dados_colares__trabalhador_domestico,Trabalhador doméstico,dados_colares,Grupo 2 — 3 censos,relu,adam,True,20.224516909422846,2040,359.29914892471623
+Colares,dados_colares__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,37.49786523588253
+Colares,dados_colares__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_colares,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,46.52897162635126
+Colares,dados_colares__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_colares,Grupo 2 — 3 censos,relu,adam,True,17.409173064062532,2030,298.2006995454816
+Colares,dados_colares__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_colares,Grupo 2 — 3 censos,relu,adam,True,17.409173064062532,2040,319.34089064072964
+Colares,dados_colares__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,7.368713405011488,2030,47.02836425300029
+Colares,dados_colares__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_colares,Grupo 2 — 3 censos,relu,lbfgs,True,7.368713405011488,2040,58.703160706494984
+Colares,dados_colares__a_pe,A pé,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.410656057396526
+Colares,dados_colares__a_pe,A pé,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,12.333440687492782
+Colares,dados_colares__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,56.91661232023675
+Colares,dados_colares__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.11121130832659
+Colares,dados_colares__automovel_carro,Automóvel (Carro),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.081192135251731
+Colares,dados_colares__automovel_carro,Automóvel (Carro),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.142286058288864
+Colares,dados_colares__bicicleta,Bicicleta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.1868310060356
+Colares,dados_colares__bicicleta,Bicicleta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.022358204157523
+Colares,dados_colares__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,75.51020545021571
+Colares,dados_colares__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.32322920783442
+Colares,dados_colares__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Colares,dados_colares__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Colares,dados_colares__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,58.686831006035604
+Colares,dados_colares__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.52235820415753
+Colares,dados_colares__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.8840596067625865
+Colares,dados_colares__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.987114302914444
+Colares,dados_colares__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,27.31450665748199
+Colares,dados_colares__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,28.190471574772772
+Colares,dados_colares__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.871785283984272
+Colares,dados_colares__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.063036918050582
+Colares,dados_colares__estuda_em_outro_municipio,Estuda em outro município,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.882625871007159
+Colares,dados_colares__estuda_em_outro_municipio,Estuda em outro município,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.964700180601653
+Colares,dados_colares__estuda_no_proprio_municipio_colares,Estuda no próprio município (Colares),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,89.55830616011838
+Colares,dados_colares__estuda_no_proprio_municipio_colares,Estuda no próprio município (Colares),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,87.65560565416331
+Colares,dados_colares__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.41026188352494
+Colares,dados_colares__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.77867265838269
+Colares,dados_colares__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.653916495463578
+Colares,dados_colares__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.0297250555491395
+Colares,dados_colares__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.28119213525173
+Colares,dados_colares__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,93.34228605828886
+Colares,dados_colares__mais_de_1_hora,Mais de 1 hora,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.650745084532332
+Colares,dados_colares__mais_de_1_hora,Mais de 1 hora,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.938928786430541
+Colares,dados_colares__motocicleta,Motocicleta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.03772859611501
+Colares,dados_colares__motocicleta,Motocicleta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.02631478451885
+Colares,dados_colares__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,61.067395619329474
+Colares,dados_colares__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.53715631943642
+Colares,dados_colares__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.93480469129492
+Colares,dados_colares__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,34.326043089344985
+Colares,dados_colares__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,63.40298033812933
+Colares,dados_colares__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,68.55571514572216
+Colares,dados_colares__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_amarela_2,População Amarela,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_amarela_2,População Amarela,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_branca_2,População Branca,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_branca_2,População Branca,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_indigena_2,População Indígena,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_indigena_2,População Indígena,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_parda_2,População Parda,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_parda_2,População Parda,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_preta_2,População Preta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_preta_2,População Preta,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__populacao_residente_em_favelas,População Residente em Favelas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__populacao_residente_em_favelas,População Residente em Favelas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.566685477769745
+Colares,dados_colares__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.751814483516096
+Colares,dados_colares__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Colares,dados_colares__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Colares,dados_colares__ruas_sem_arvores,Ruas Sem Árvores,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,54.16525174201431
+Colares,dados_colares__ruas_sem_arvores,Ruas Sem Árvores,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,56.329400361203305
+Colares,dados_colares__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.71661232023676
+Colares,dados_colares__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.9112113083266
+Colares,dados_colares__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.74208623669053
+Colares,dados_colares__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,25.349000602005514
+Colares,dados_colares__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,87.52184463618683
+Colares,dados_colares__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.16887253798157
+Colares,dados_colares__sem_conjuge,Sem cônjuge,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,39.29569879273372
+Colares,dados_colares__sem_conjuge,Sem cônjuge,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,42.23275763306164
+Colares,dados_colares__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Colares,dados_colares__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Colares,dados_colares__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.6304470507194
+Colares,dados_colares__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.403357271858326
+Colares,dados_colares__trabalha_em_outro_municipio,Trabalha em outro município,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.118864298057503
+Colares,dados_colares__trabalha_em_outro_municipio,Trabalha em outro município,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.613157392259424
+Colares,dados_colares__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,76.10908945921108
+Colares,dados_colares__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,73.4815506652731
+Colares,dados_colares__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.020354467122168
+Colares,dados_colares__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.091014965120504
+Colares,dados_colares__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,51.84070893424435
+Colares,dados_colares__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.982029930241026
+Colares,dados_colares__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.7884172473381055
+Colares,dados_colares__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.5098001204011036
+Colares,dados_colares__onibus,Ônibus,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,14.942029803381294
+Colares,dados_colares__onibus,Ônibus,dados_colares,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.993557151457221
