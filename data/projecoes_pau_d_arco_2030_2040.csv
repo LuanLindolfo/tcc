@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Pau D Arco,dados_pau_d_arco__2_trabalhos,2 trabalhos,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.9767329214669442,2030,3.6406325417928476
+Pau D Arco,dados_pau_d_arco__2_trabalhos,2 trabalhos,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.9767329214669442,2040,3.638230122306566
+Pau D Arco,dados_pau_d_arco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2030,0.6749786523588253
+Pau D Arco,dados_pau_d_arco__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.015192255993350575,2040,0.7652897162635125
+Pau D Arco,dados_pau_d_arco__anos_de_estudo_media,Anos de Estudo (Média),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2030,8.373013772284235
+Pau D Arco,dados_pau_d_arco__anos_de_estudo_media,Anos de Estudo (Média),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2040,10.045055732181002
+Pau D Arco,dados_pau_d_arco__apenas_1_trabalho,Apenas 1 trabalho,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,1.056582289909547,2030,95.86883770422688
+Pau D Arco,dados_pau_d_arco__apenas_1_trabalho,Apenas 1 trabalho,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,1.056582289909547,2040,95.86463464405762
+Pau D Arco,dados_pau_d_arco__casais_com_filhos,Casais com filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,1.2354410520855883,2030,36.002464545579336
+Pau D Arco,dados_pau_d_arco__casais_com_filhos,Casais com filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,1.2354410520855883,2040,26.159064889266528
+Pau D Arco,dados_pau_d_arco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,1.023566863663003,2030,7.536412331420504
+Pau D Arco,dados_pau_d_arco__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,1.023566863663003,2040,7.532171602957634
+Pau D Arco,dados_pau_d_arco__casais_sem_filhos,Casais sem filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.503056733355797,2030,17.804391831270465
+Pau D Arco,dados_pau_d_arco__casais_sem_filhos,Casais sem filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.503056733355797,2040,21.299065306863536
+Pau D Arco,dados_pau_d_arco__conta_propria,Conta própria,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,494.55950004816367,2030,501.3055509037671
+Pau D Arco,dados_pau_d_arco__conta_propria,Conta própria,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,494.55950004816367,2040,499.3411461278627
+Pau D Arco,dados_pau_d_arco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_pau_d_arco,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245161,2030,29.630091475974996
+Pau D Arco,dados_pau_d_arco__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_pau_d_arco,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245161,2040,29.375649244249402
+Pau D Arco,dados_pau_d_arco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,0.25732436744253034,2030,2.722419394644937
+Pau D Arco,dados_pau_d_arco__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,0.25732436744253034,2040,3.1221712365413268
+Pau D Arco,dados_pau_d_arco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.8382083651346299,2030,26.443511516289703
+Pau D Arco,dados_pau_d_arco__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.8382083651346299,2040,31.437981816114796
+Pau D Arco,dados_pau_d_arco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.064116490909629,2030,27.35725027534336
+Pau D Arco,dados_pau_d_arco__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.064116490909629,2040,31.18925108275247
+Pau D Arco,dados_pau_d_arco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,4.642833390050908,2030,13.065004106493973
+Pau D Arco,dados_pau_d_arco__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,4.642833390050908,2040,4.476166383711302
+Pau D Arco,dados_pau_d_arco__empregador,Empregador,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2030,159.99146094353011
+Pau D Arco,dados_pau_d_arco__empregador,Empregador,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2040,196.11588650540503
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,adam,True,5.718347769959706,2030,96.77339226172666
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,adam,True,5.718347769959706,2040,97.61369285595289
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,3.6047905664649327,2030,78.8366354936576
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,3.6047905664649327,2040,83.05240345212466
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,2.455350322566691,2030,18.885104486115544
+Pau D Arco,dados_pau_d_arco__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,2.455350322566691,2040,18.879277955424573
+Pau D Arco,dados_pau_d_arco__idade_mediana,Idade Mediana,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,34.46879368938008
+Pau D Arco,dados_pau_d_arco__idade_mediana,Idade Mediana,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,39.011896464596354
+Pau D Arco,dados_pau_d_arco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,37.49786523588253
+Pau D Arco,dados_pau_d_arco__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,46.52897162635126
+Pau D Arco,dados_pau_d_arco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.5317289597672712,2030,21.024252832558886
+Pau D Arco,dados_pau_d_arco__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.5317289597672712,2040,24.185140069222935
+Pau D Arco,dados_pau_d_arco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2030,3.668186467509041
+Pau D Arco,dados_pau_d_arco__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2040,3.6674912838412337
+Pau D Arco,dados_pau_d_arco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2030,7.921460816733447
+Pau D Arco,dados_pau_d_arco__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341959,2040,9.54966415250405
+Pau D Arco,dados_pau_d_arco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366035,2030,8.82459439481768
+Pau D Arco,dados_pau_d_arco__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.28865286387366035,2040,10.540504609006737
+Pau D Arco,dados_pau_d_arco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2030,2.448333956807974
+Pau D Arco,dados_pau_d_arco__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547044,2040,1.9043777255795584
+Pau D Arco,dados_pau_d_arco__media_populacao_amarela,Média: População Amarela,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385055,2030,9.002900110137343
+Pau D Arco,dados_pau_d_arco__media_populacao_amarela,Média: População Amarela,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385055,2040,10.535700433100988
+Pau D Arco,dados_pau_d_arco__media_populacao_branca,Média: População Branca,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2030,8.726244088120605
+Pau D Arco,dados_pau_d_arco__media_populacao_branca,Média: População Branca,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.3495536021220806,2040,10.305428803558554
+Pau D Arco,dados_pau_d_arco__media_populacao_indigena,Média: População Indígena,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.212691583906909,2030,6.149701133023555
+Pau D Arco,dados_pau_d_arco__media_populacao_indigena,Média: População Indígena,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.212691583906909,2040,7.414056027689176
+Pau D Arco,dados_pau_d_arco__media_populacao_preta_parda,Média: População Preta / Parda,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341899,2030,8.021460816733448
+Pau D Arco,dados_pau_d_arco__media_populacao_preta_parda,Média: População Preta / Parda,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.10608236340341899,2040,9.649664152504052
+Pau D Arco,dados_pau_d_arco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,53.22326279850352,2030,41.90151200220545
+Pau D Arco,dados_pau_d_arco__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,53.22326279850352,2040,-1.6366720302757471
+Pau D Arco,dados_pau_d_arco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683908,2030,4.297042932464106
+Pau D Arco,dados_pau_d_arco__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.12180147649683908,2040,4.570862352657443
+Pau D Arco,dados_pau_d_arco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2030,0.8336989060632846
+Pau D Arco,dados_pau_d_arco__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2040,0.8334905168116217
+Pau D Arco,dados_pau_d_arco__populacao_amarela,População Amarela,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,11.162825057146591,2030,2.791042993293509
+Pau D Arco,dados_pau_d_arco__populacao_amarela,População Amarela,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,11.162825057146591,2040,-14.379662804584427
+Pau D Arco,dados_pau_d_arco__populacao_branca,População Branca,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.1480157287621792,2030,1.2153123782810484
+Pau D Arco,dados_pau_d_arco__populacao_branca,População Branca,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.1480157287621792,2040,1.2220913065883579
+Pau D Arco,dados_pau_d_arco__populacao_indigena,População Indígena,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,19.19299320185871,2030,26.14413950799525
+Pau D Arco,dados_pau_d_arco__populacao_indigena,População Indígena,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,19.19299320185871,2040,26.098899115448695
+Pau D Arco,dados_pau_d_arco__populacao_indigena_total,População Indígena Total,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,19.19299320185871,2030,26.14413950799525
+Pau D Arco,dados_pau_d_arco__populacao_indigena_total,População Indígena Total,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,19.19299320185871,2040,26.098899115448695
+Pau D Arco,dados_pau_d_arco__populacao_parda,População Parda,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.23446125654266461,2030,5.579404617454068
+Pau D Arco,dados_pau_d_arco__populacao_parda,População Parda,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.23446125654266461,2040,6.081620356295641
+Pau D Arco,dados_pau_d_arco__populacao_preta,População Preta,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,93.16760215483924,2030,413.806053418
+Pau D Arco,dados_pau_d_arco__populacao_preta,População Preta,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,93.16760215483924,2040,413.4910506578111
+Pau D Arco,dados_pau_d_arco__populacao_rural,População Rural,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.5838484358800772,2030,2.3319199872387095
+Pau D Arco,dados_pau_d_arco__populacao_rural,População Rural,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.5838484358800772,2040,2.358678350624291
+Pau D Arco,dados_pau_d_arco__populacao_total,População Total,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.4938033060121416,2030,7.050056248559574
+Pau D Arco,dados_pau_d_arco__populacao_total,População Total,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.4938033060121416,2040,7.0934810570704565
+Pau D Arco,dados_pau_d_arco__populacao_urbana,População Urbana,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.1915277969362307,2030,5.246126523616495
+Pau D Arco,dados_pau_d_arco__populacao_urbana,População Urbana,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.1915277969362307,2040,5.985678185560461
+Pau D Arco,dados_pau_d_arco__populacao_com_superior_completo,População com Superior Completo,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,100.14401601788529,2030,566.4481127224536
+Pau D Arco,dados_pau_d_arco__populacao_com_superior_completo,População com Superior Completo,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,100.14401601788529,2040,722.9176220209728
+Pau D Arco,dados_pau_d_arco__populacao_de_homens,População de Homens,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.2690366938397338,2030,3.3266875399416613
+Pau D Arco,dados_pau_d_arco__populacao_de_homens,População de Homens,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.2690366938397338,2040,3.3260540856029994
+Pau D Arco,dados_pau_d_arco__populacao_de_mulheres,População de Mulheres,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.21630332282104714,2030,3.400055286842877
+Pau D Arco,dados_pau_d_arco__populacao_de_mulheres,População de Mulheres,dados_pau_d_arco,Grupo 2 — 3 censos,tanh,adam,True,0.21630332282104714,2040,3.424754397958956
+Pau D Arco,dados_pau_d_arco__proporcao_na_populacao_de_pau_d_arco,Proporção na população de Pau d'Arco,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.25930030758702266,2030,0.3952758278617811
+Pau D Arco,dados_pau_d_arco__proporcao_na_populacao_de_pau_d_arco,Proporção na população de Pau d'Arco,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,0.25930030758702266,2040,0.3946545189042377
+Pau D Arco,dados_pau_d_arco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_pau_d_arco,Grupo 2 — 3 censos,tanh,sgd,True,1.5176224482089775,2030,106.6485679424482
+Pau D Arco,dados_pau_d_arco__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_pau_d_arco,Grupo 2 — 3 censos,tanh,sgd,True,1.5176224482089775,2040,106.38936422073847
+Pau D Arco,dados_pau_d_arco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,210.2282662861239,2030,1214.2480117493035
+Pau D Arco,dados_pau_d_arco__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,210.2282662861239,2040,1545.6207978590496
+Pau D Arco,dados_pau_d_arco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.7930279658369983,2030,37.479716074210714
+Pau D Arco,dados_pau_d_arco__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.7930279658369983,2040,30.084434485600127
+Pau D Arco,dados_pau_d_arco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,sgd,True,0.2110135165686137,2030,17.0134713650637
+Pau D Arco,dados_pau_d_arco__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_pau_d_arco,Grupo 2 — 3 censos,identity,sgd,True,0.2110135165686137,2040,19.8738652549576
+Pau D Arco,dados_pau_d_arco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.705352385230772,2030,25.25669227004928
+Pau D Arco,dados_pau_d_arco__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,1.705352385230772,2040,29.58793629069034
+Pau D Arco,dados_pau_d_arco__responsavel_homem,Responsável Homem,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Pau D Arco,dados_pau_d_arco__responsavel_homem,Responsável Homem,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Pau D Arco,dados_pau_d_arco__responsavel_mulher,Responsável Mulher,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Pau D Arco,dados_pau_d_arco__responsavel_mulher,Responsável Mulher,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Pau D Arco,dados_pau_d_arco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2030,2.348333956807973
+Pau D Arco,dados_pau_d_arco__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_pau_d_arco,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151427081547103,2040,1.804377725579558
+Pau D Arco,dados_pau_d_arco__setor_privado,Setor privado,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,474.5911086223967,2030,481.6639660195981
+Pau D Arco,dados_pau_d_arco__setor_privado,Setor privado,dados_pau_d_arco,Grupo 2 — 3 censos,logistic,sgd,True,474.5911086223967,2040,479.7418910151468
+Pau D Arco,dados_pau_d_arco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,48.76010488124107,2030,978.2778031412267
+Pau D Arco,dados_pau_d_arco__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,48.76010488124107,2040,1237.1755839193474
+Pau D Arco,dados_pau_d_arco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.0637309698385025,2030,609.8218310568107
+Pau D Arco,dados_pau_d_arco__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.0637309698385025,2040,695.7473986605127
+Pau D Arco,dados_pau_d_arco__setor_publico,Setor público,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,28.957486379878315,2030,746.3965788447765
+Pau D Arco,dados_pau_d_arco__setor_publico,Setor público,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,28.957486379878315,2040,923.4599702344931
+Pau D Arco,dados_pau_d_arco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2030,49.85214662320534
+Pau D Arco,dados_pau_d_arco__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,6.09007382484198,2040,63.54311763287215
+Pau D Arco,dados_pau_d_arco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,22.86741255503635,2030,696.5477291918962
+Pau D Arco,dados_pau_d_arco__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,22.86741255503635,2040,859.9237769828094
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,2.734331913261807,2030,89.65521290834918
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,2.734331913261807,2040,92.86254970123903
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.11877204817143767,2030,57.76453929733796
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.11877204817143767,2040,68.94562306931448
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,1.8638732600586774,2030,98.61565949769869
+Pau D Arco,dados_pau_d_arco__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,1.8638732600586774,2040,100.71683963559641
+Pau D Arco,dados_pau_d_arco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,adam,True,5.718347769959706,2030,96.77339226172666
+Pau D Arco,dados_pau_d_arco__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_pau_d_arco,Grupo 2 — 3 censos,logistic,adam,True,5.718347769959706,2040,97.61369285595289
+Pau D Arco,dados_pau_d_arco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,0.25632946352855646,2030,2.7480290256991413
+Pau D Arco,dados_pau_d_arco__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,0.25632946352855646,2040,3.146247983411829
+Pau D Arco,dados_pau_d_arco__trabalhador_domestico,Trabalhador doméstico,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,14.335274222751897,2030,198.27961348703056
+Pau D Arco,dados_pau_d_arco__trabalhador_domestico,Trabalhador doméstico,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,14.335274222751897,2040,220.69284134008396
+Pau D Arco,dados_pau_d_arco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2030,23.748932617941264
+Pau D Arco,dados_pau_d_arco__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2040,28.26448581317563
+Pau D Arco,dados_pau_d_arco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,12.92760230007174,2030,175.98555741184032
+Pau D Arco,dados_pau_d_arco__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_pau_d_arco,Grupo 2 — 3 censos,relu,adam,True,12.92760230007174,2040,195.5821115222907
+Pau D Arco,dados_pau_d_arco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,7.0693084813614755,2030,42.153651507988045
+Pau D Arco,dados_pau_d_arco__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_pau_d_arco,Grupo 2 — 3 censos,relu,lbfgs,True,7.0693084813614755,2040,53.09531289926814
+Pau D Arco,dados_pau_d_arco__a_pe,A pé,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,15.689654072504968
+Pau D Arco,dados_pau_d_arco__a_pe,A pé,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,13.696348780552027
+Pau D Arco,dados_pau_d_arco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.64639363443791
+Pau D Arco,dados_pau_d_arco__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.20006441249566
+Pau D Arco,dados_pau_d_arco__automovel_carro,Automóvel (Carro),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.639162331870438
+Pau D Arco,dados_pau_d_arco__automovel_carro,Automóvel (Carro),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,18.648728906831643
+Pau D Arco,dados_pau_d_arco__bicicleta,Bicicleta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.12570177944785
+Pau D Arco,dados_pau_d_arco__bicicleta,Bicicleta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.692761973599719
+Pau D Arco,dados_pau_d_arco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.90441407388475
+Pau D Arco,dados_pau_d_arco__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,72.07812926803496
+Pau D Arco,dados_pau_d_arco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Pau D Arco,dados_pau_d_arco__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Pau D Arco,dados_pau_d_arco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.794353867061254
+Pau D Arco,dados_pau_d_arco__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.45201884721099
+Pau D Arco,dados_pau_d_arco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.988087474319537
+Pau D Arco,dados_pau_d_arco__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.444458758332372
+Pau D Arco,dados_pau_d_arco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.288417247338103
+Pau D Arco,dados_pau_d_arco__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.0098001204011
+Pau D Arco,dados_pau_d_arco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,11.383697809664735
+Pau D Arco,dados_pau_d_arco__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.118578159718211
+Pau D Arco,dados_pau_d_arco__estuda_em_outro_municipio,Estuda em outro município,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,7.614506657481986
+Pau D Arco,dados_pau_d_arco__estuda_em_outro_municipio,Estuda em outro município,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,8.490471574772767
+Pau D Arco,dados_pau_d_arco__estuda_no_proprio_municipio_pau_d_arco,Estuda no próprio município (Pau d'Arco),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,91.93291451057202
+Pau D Arco,dados_pau_d_arco__estuda_no_proprio_municipio_pau_d_arco,Estuda no próprio município (Pau d'Arco),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.39263314860838
+Pau D Arco,dados_pau_d_arco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.54357640575519
+Pau D Arco,dados_pau_d_arco__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.72685817486659
+Pau D Arco,dados_pau_d_arco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.065829021144041
+Pau D Arco,dados_pau_d_arco__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.985266297216766
+Pau D Arco,dados_pau_d_arco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.02901331496396
+Pau D Arco,dados_pau_d_arco__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.78094314954552
+Pau D Arco,dados_pau_d_arco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7404611407313109
+Pau D Arco,dados_pau_d_arco__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8528353908896462
+Pau D Arco,dados_pau_d_arco__mais_de_1_hora,Mais de 1 hora,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.346387443956814
+Pau D Arco,dados_pau_d_arco__mais_de_1_hora,Mais de 1 hora,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.016242968943882
+Pau D Arco,dados_pau_d_arco__motocicleta,Motocicleta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,41.081192135251726
+Pau D Arco,dados_pau_d_arco__motocicleta,Motocicleta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,43.14228605828886
+Pau D Arco,dados_pau_d_arco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,64.49278726887583
+Pau D Arco,dados_pau_d_arco__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,59.600128824991344
+Pau D Arco,dados_pau_d_arco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,33.79277488791363
+Pau D Arco,dados_pau_d_arco__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,35.132485937887765
+Pau D Arco,dados_pau_d_arco__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,34.91599682654665
+Pau D Arco,dados_pau_d_arco__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.36832914763385
+Pau D Arco,dados_pau_d_arco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_amarela_2,População Amarela,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_amarela_2,População Amarela,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_branca_2,População Branca,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_branca_2,População Branca,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_indigena_2,População Indígena,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_indigena_2,População Indígena,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_parda_2,População Parda,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_parda_2,População Parda,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_preta_2,População Preta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_preta_2,População Preta,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__populacao_residente_em_favelas,População Residente em Favelas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__populacao_residente_em_favelas,População Residente em Favelas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.9202980338129327
+Pau D Arco,dados_pau_d_arco__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4355715145722163
+Pau D Arco,dados_pau_d_arco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Pau D Arco,dados_pau_d_arco__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Pau D Arco,dados_pau_d_arco__ruas_sem_arvores,Ruas Sem Árvores,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.0608941014388
+Pau D Arco,dados_pau_d_arco__ruas_sem_arvores,Ruas Sem Árvores,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.60671454371665
+Pau D Arco,dados_pau_d_arco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,55.140437371597685
+Pau D Arco,dados_pau_d_arco__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,52.42229379166186
+Pau D Arco,dados_pau_d_arco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.213072921726557
+Pau D Arco,dados_pau_d_arco__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.068057452459978
+Pau D Arco,dados_pau_d_arco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,71.28417247338106
+Pau D Arco,dados_pau_d_arco__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.49800120401103
+Pau D Arco,dados_pau_d_arco__sem_conjuge,Sem cônjuge,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,36.94208623669053
+Pau D Arco,dados_pau_d_arco__sem_conjuge,Sem cônjuge,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.54900060200551
+Pau D Arco,dados_pau_d_arco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Pau D Arco,dados_pau_d_arco__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Pau D Arco,dados_pau_d_arco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.521001984891562
+Pau D Arco,dados_pau_d_arco__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.43709190694076
+Pau D Arco,dados_pau_d_arco__trabalha_em_outro_municipio,Trabalha em outro município,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.57683449467621
+Pau D Arco,dados_pau_d_arco__trabalha_em_outro_municipio,Trabalha em outro município,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.019600240802202
+Pau D Arco,dados_pau_d_arco__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,80.67774154682449
+Pau D Arco,dados_pau_d_arco__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,78.14080753888437
+Pau D Arco,dados_pau_d_arco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.87253328740993
+Pau D Arco,dados_pau_d_arco__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.252357873863836
+Pau D Arco,dados_pau_d_arco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,32.39575522604295
+Pau D Arco,dados_pau_d_arco__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,38.88820108360993
+Pau D Arco,dados_pau_d_arco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,1.0521788202877598
+Pau D Arco,dados_pau_d_arco__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.3613429087433297
+Pau D Arco,dados_pau_d_arco__onibus,Ônibus,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.6681192135251734
+Pau D Arco,dados_pau_d_arco__onibus,Ônibus,dados_pau_d_arco,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.874228605828887
