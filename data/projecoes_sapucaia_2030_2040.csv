@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Sapucaia,dados_sapucaia__2_trabalhos,2 trabalhos,dados_sapucaia,Grupo 2 — 3 censos,relu,sgd,True,0.7336134449745586,2030,5.263881579859012
+Sapucaia,dados_sapucaia__2_trabalhos,2 trabalhos,dados_sapucaia,Grupo 2 — 3 censos,relu,sgd,True,0.7336134449745586,2040,6.041010601012396
+Sapucaia,dados_sapucaia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.06090073824841976,2030,0.6985214662320534
+Sapucaia,dados_sapucaia__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.06090073824841976,2040,0.8354311763287217
+Sapucaia,dados_sapucaia__anos_de_estudo_media,Anos de Estudo (Média),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2030,8.22459439481768
+Sapucaia,dados_sapucaia__anos_de_estudo_media,Anos de Estudo (Média),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.2886528638736621,2040,9.940504609006737
+Sapucaia,dados_sapucaia__apenas_1_trabalho,Apenas 1 trabalho,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.6840058871107288,2030,93.54216210658188
+Sapucaia,dados_sapucaia__apenas_1_trabalho,Apenas 1 trabalho,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.6840058871107288,2040,92.0634166077699
+Sapucaia,dados_sapucaia__casais_com_filhos,Casais com filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.8541299864312014,2030,36.384352389596884
+Sapucaia,dados_sapucaia__casais_com_filhos,Casais com filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.8541299864312014,2040,26.307443645443055
+Sapucaia,dados_sapucaia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.9245119361409184,2030,7.336085930129405
+Sapucaia,dados_sapucaia__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.9245119361409184,2040,7.332262399587292
+Sapucaia,dados_sapucaia__casais_sem_filhos,Casais sem filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.0812844610282422,2030,17.644560972766385
+Sapucaia,dados_sapucaia__casais_sem_filhos,Casais sem filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.0812844610282422,2040,21.194814346556406
+Sapucaia,dados_sapucaia__conta_propria,Conta própria,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,30.384511986701188,2030,1129.9573047176505
+Sapucaia,dados_sapucaia__conta_propria,Conta própria,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,30.384511986701188,2040,1310.5794325270251
+Sapucaia,dados_sapucaia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2030,47.49786523588253
+Sapucaia,dados_sapucaia__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.5192255993350585,2040,56.52897162635126
+Sapucaia,dados_sapucaia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.007626086563565189,2030,2.4623396547852185
+Sapucaia,dados_sapucaia__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.007626086563565189,2040,2.917016218361466
+Sapucaia,dados_sapucaia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.401243836813725,2030,25.658605681035095
+Sapucaia,dados_sapucaia__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.401243836813725,2040,30.79890874798721
+Sapucaia,dados_sapucaia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.0032157526612107,2030,26.355562510271064
+Sapucaia,dados_sapucaia__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.0032157526612107,2040,30.324247422516493
+Sapucaia,dados_sapucaia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,4.797116104399435,2030,15.71529000350991
+Sapucaia,dados_sapucaia__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,4.797116104399435,2040,6.749373002824523
+Sapucaia,dados_sapucaia__empregador,Empregador,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2030,97.34396844690039
+Sapucaia,dados_sapucaia__empregador,Empregador,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,4.570848225506921,2040,120.05948232298175
+Sapucaia,dados_sapucaia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sapucaia,Grupo 2 — 3 censos,logistic,lbfgs,True,5.168061533485276,2030,94.15450200140128
+Sapucaia,dados_sapucaia__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_sapucaia,Grupo 2 — 3 censos,logistic,lbfgs,True,5.168061533485276,2040,94.46018765810976
+Sapucaia,dados_sapucaia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,3.6096740552830084,2030,77.58963224101618
+Sapucaia,dados_sapucaia__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,3.6096740552830084,2040,82.5955289546681
+Sapucaia,dados_sapucaia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sapucaia,Grupo 2 — 3 censos,tanh,lbfgs,True,2.5014045346298617,2030,18.705154029268975
+Sapucaia,dados_sapucaia__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_sapucaia,Grupo 2 — 3 censos,tanh,lbfgs,True,2.5014045346298617,2040,18.59452658330142
+Sapucaia,dados_sapucaia__idade_mediana,Idade Mediana,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2030,33.46879368938008
+Sapucaia,dados_sapucaia__idade_mediana,Idade Mediana,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.9141696451013838,2040,38.011896464596354
+Sapucaia,dados_sapucaia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,3.04503691242099,2030,29.92607331160267
+Sapucaia,dados_sapucaia__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,3.04503691242099,2040,36.771558816436084
+Sapucaia,dados_sapucaia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.4404437095321481,2030,20.772666184063297
+Sapucaia,dados_sapucaia__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.4404437095321481,2040,23.88967870226231
+Sapucaia,dados_sapucaia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.232482909462568,2030,3.2350544240384416
+Sapucaia,dados_sapucaia__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.232482909462568,2040,3.2344755758797623
+Sapucaia,dados_sapucaia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2030,7.773013772284235
+Sapucaia,dados_sapucaia__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.19736761363853925,2040,9.445055732181
+Sapucaia,dados_sapucaia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087818,2030,8.676200029443443
+Sapucaia,dados_sapucaia__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.3799381141087818,2040,10.436005399351053
+Sapucaia,dados_sapucaia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.24552001684558133,2030,2.1439412650164966
+Sapucaia,dados_sapucaia__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.24552001684558133,2040,1.3262108513985336
+Sapucaia,dados_sapucaia__media_populacao_amarela,Média: População Amarela,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.5452575304564728,2030,8.0853298165041
+Sapucaia,dados_sapucaia__media_populacao_amarela,Média: População Amarela,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.5452575304564728,2040,8.925625178459146
+Sapucaia,dados_sapucaia__media_populacao_branca,Média: População Branca,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.5452575304564733,2030,7.6853298165040975
+Sapucaia,dados_sapucaia__media_populacao_branca,Média: População Branca,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.5452575304564733,2040,8.525625178459148
+Sapucaia,dados_sapucaia__media_populacao_indigena,Média: População Indígena,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.03012108343666675,2030,5.546588428345148
+Sapucaia,dados_sapucaia__media_populacao_indigena,Média: População Indígena,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.03012108343666675,2040,6.723258769152483
+Sapucaia,dados_sapucaia__media_populacao_preta_parda,Média: População Preta / Parda,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385044,2030,7.502900110137344
+Sapucaia,dados_sapucaia__media_populacao_preta_parda,Média: População Preta / Parda,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.42564659636385044,2040,9.035700433100988
+Sapucaia,dados_sapucaia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,27.520013774964486,2030,35.50181003954695
+Sapucaia,dados_sapucaia__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,27.520013774964486,2040,-11.320455757489924
+Sapucaia,dados_sapucaia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sapucaia,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.568974426752009
+Sapucaia,dados_sapucaia__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_sapucaia,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.902782091398334
+Sapucaia,dados_sapucaia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,1.1516024901903066e-05,2030,0.8000142724576783
+Sapucaia,dados_sapucaia__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,1.1516024901903066e-05,2040,0.8000188615001167
+Sapucaia,dados_sapucaia__populacao_amarela,População Amarela,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,6.560413768715466,2030,3.8832607070164364
+Sapucaia,dados_sapucaia__populacao_amarela,População Amarela,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,6.560413768715466,2040,-3.6740912877065313
+Sapucaia,dados_sapucaia__populacao_branca,População Branca,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,26.561026772779655,2030,805.0862481138116
+Sapucaia,dados_sapucaia__populacao_branca,População Branca,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,26.561026772779655,2040,805.4947429168001
+Sapucaia,dados_sapucaia__populacao_indigena,População Indígena,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,19.700513895827836,2030,55.32083159839906
+Sapucaia,dados_sapucaia__populacao_indigena,População Indígena,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,19.700513895827836,2040,57.42845123278303
+Sapucaia,dados_sapucaia__populacao_indigena_total,População Indígena Total,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,19.700513895827836,2030,55.32083159839906
+Sapucaia,dados_sapucaia__populacao_indigena_total,População Indígena Total,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,19.700513895827836,2040,57.42845123278303
+Sapucaia,dados_sapucaia__populacao_parda,População Parda,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.213165755296972,2030,5.1646338352325785
+Sapucaia,dados_sapucaia__populacao_parda,População Parda,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.213165755296972,2040,5.693594516244837
+Sapucaia,dados_sapucaia__populacao_preta,População Preta,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,45.30255374870248,2030,300.58921112974
+Sapucaia,dados_sapucaia__populacao_preta,População Preta,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,45.30255374870248,2040,304.37065592954053
+Sapucaia,dados_sapucaia__populacao_rural,População Rural,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.1498468526839146,2030,2.290731227421086
+Sapucaia,dados_sapucaia__populacao_rural,População Rural,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,0.1498468526839146,2040,2.2901975006041035
+Sapucaia,dados_sapucaia__populacao_total,População Total,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.29839555275281554,2030,6.316713112359327
+Sapucaia,dados_sapucaia__populacao_total,População Total,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.29839555275281554,2040,6.778328438390139
+Sapucaia,dados_sapucaia__populacao_urbana,População Urbana,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.033330763192858694,2030,4.06376740593366
+Sapucaia,dados_sapucaia__populacao_urbana,População Urbana,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.033330763192858694,2040,4.611061645433888
+Sapucaia,dados_sapucaia__populacao_com_superior_completo,População com Superior Completo,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,83.11393079809764,2030,458.41634207864365
+Sapucaia,dados_sapucaia__populacao_com_superior_completo,População com Superior Completo,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,83.11393079809764,2040,589.4185420261093
+Sapucaia,dados_sapucaia__populacao_de_homens,População de Homens,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.14419991307009195,2030,3.248470023620589
+Sapucaia,dados_sapucaia__populacao_de_homens,População de Homens,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.14419991307009195,2040,3.4761033146881024
+Sapucaia,dados_sapucaia__populacao_de_mulheres,População de Mulheres,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.15419563968272318,2030,3.078872853511331
+Sapucaia,dados_sapucaia__populacao_de_mulheres,População de Mulheres,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,0.15419563968272318,2040,3.3184379464294826
+Sapucaia,dados_sapucaia__proporcao_na_populacao_de_sapucaia,Proporção na população de Sapucaia,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,0.32161844237801446,2030,0.9248729677777947
+Sapucaia,dados_sapucaia__proporcao_na_populacao_de_sapucaia,Proporção na população de Sapucaia,dados_sapucaia,Grupo 2 — 3 censos,tanh,adam,True,0.32161844237801446,2040,0.9578206082017127
+Sapucaia,dados_sapucaia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,1.1556361363338208,2030,107.36883794738118
+Sapucaia,dados_sapucaia__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,1.1556361363338208,2040,107.36424784542294
+Sapucaia,dados_sapucaia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,178.73419173020775,2030,997.2421588962434
+Sapucaia,dados_sapucaia__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,178.73419173020775,2040,1274.1294762587277
+Sapucaia,dados_sapucaia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.48489224008842297,2030,38.863850936965065
+Sapucaia,dados_sapucaia__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.48489224008842297,2040,31.15059078117676
+Sapucaia,dados_sapucaia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.5788862990475314,2030,15.731400963295219
+Sapucaia,dados_sapucaia__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.5788862990475314,2040,18.27672844942525
+Sapucaia,dados_sapucaia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2030,24.063376337365863
+Sapucaia,dados_sapucaia__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,1.2793106460418666,2040,28.43197679987385
+Sapucaia,dados_sapucaia__responsavel_homem,Responsável Homem,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2030,2.496672306080835
+Sapucaia,dados_sapucaia__responsavel_homem,Responsável Homem,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.18302886241559335,2040,1.9087566606929216
+Sapucaia,dados_sapucaia__responsavel_mulher,Responsável Mulher,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2030,2.3236116306733114
+Sapucaia,dados_sapucaia__responsavel_mulher,Responsável Mulher,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.07626189234622564,2040,1.8703147713162984
+Sapucaia,dados_sapucaia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Sapucaia,dados_sapucaia__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Sapucaia,dados_sapucaia__setor_privado,Setor privado,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,375.6686860553991,2030,381.43771497428565
+Sapucaia,dados_sapucaia__setor_privado,Setor privado,dados_sapucaia,Grupo 2 — 3 censos,logistic,sgd,True,375.6686860553991,2040,379.89652074619187
+Sapucaia,dados_sapucaia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,sgd,True,12.110502800875016,2030,690.6547103881094
+Sapucaia,dados_sapucaia__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,sgd,True,12.110502800875016,2040,876.5517592220403
+Sapucaia,dados_sapucaia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,18.296564329529446,2030,689.2040641922266
+Sapucaia,dados_sapucaia__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,18.296564329529446,2040,829.8649240649232
+Sapucaia,dados_sapucaia__setor_publico,Setor público,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.009038179016386039,2030,659.9924184602288
+Sapucaia,dados_sapucaia__setor_publico,Setor público,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.009038179016386039,2040,809.994474555529
+Sapucaia,dados_sapucaia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,5.506987131525835,2030,37.10260191111897
+Sapucaia,dados_sapucaia__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,5.506987131525835,2040,45.65849808676725
+Sapucaia,dados_sapucaia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,6.810172342004289,2030,623.4022927208658
+Sapucaia,dados_sapucaia__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,6.810172342004289,2040,763.6457954675752
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,2.7392154020798785,2030,89.19622980027323
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,2.7392154020798785,2040,93.10691820149572
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.1492882744331574,2030,54.21616054339873
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.1492882744331574,2040,65.07982042772639
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,2.043136090618314,2030,98.10563438443744
+Sapucaia,dados_sapucaia__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_sapucaia,Grupo 2 — 3 censos,relu,adam,True,2.043136090618314,2040,100.30336195088813
+Sapucaia,dados_sapucaia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sapucaia,Grupo 2 — 3 censos,logistic,lbfgs,True,5.168061533485276,2030,94.15450200140128
+Sapucaia,dados_sapucaia__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_sapucaia,Grupo 2 — 3 censos,logistic,lbfgs,True,5.168061533485276,2040,94.46018765810976
+Sapucaia,dados_sapucaia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.006100823592156468,2030,2.5098666697966023
+Sapucaia,dados_sapucaia__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_sapucaia,Grupo 2 — 3 censos,identity,lbfgs,True,0.006100823592156468,2040,2.9736092911113756
+Sapucaia,dados_sapucaia__trabalhador_domestico,Trabalhador doméstico,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2030,189.99146094353011
+Sapucaia,dados_sapucaia__trabalhador_domestico,Trabalhador doméstico,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,6.076902397340234,2040,226.11588650540503
+Sapucaia,dados_sapucaia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2030,23.748932617941264
+Sapucaia,dados_sapucaia__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,0.7596127996675293,2040,28.26448581317563
+Sapucaia,dados_sapucaia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,5.317289597672698,2030,166.24252832558886
+Sapucaia,dados_sapucaia__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_sapucaia,Grupo 2 — 3 censos,identity,adam,True,5.317289597672698,2040,197.8514006922294
+Sapucaia,dados_sapucaia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,5.337153154056885,2030,33.09095241466061
+Sapucaia,dados_sapucaia__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_sapucaia,Grupo 2 — 3 censos,relu,lbfgs,True,5.337153154056885,2040,41.424311577319735
+Sapucaia,dados_sapucaia__a_pe,A pé,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.59717693353063
+Sapucaia,dados_sapucaia__a_pe,A pé,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.426009423605496
+Sapucaia,dados_sapucaia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,67.23448110875745
+Sapucaia,dados_sapucaia__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.24452317082805
+Sapucaia,dados_sapucaia__automovel_carro,Automóvel (Carro),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.771043118345265
+Sapucaia,dados_sapucaia__automovel_carro,Automóvel (Carro),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,14.574500301002756
+Sapucaia,dados_sapucaia__bicicleta,Bicicleta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.194353867061261
+Sapucaia,dados_sapucaia__bicicleta,Bicicleta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,6.852018847210994
+Sapucaia,dados_sapucaia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.788473680647336
+Sapucaia,dados_sapucaia__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,64.06524357094939
+Sapucaia,dados_sapucaia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.42386112814835725
+Sapucaia,dados_sapucaia__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.32563695873307524
+Sapucaia,dados_sapucaia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.19435386706126
+Sapucaia,dados_sapucaia__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,55.85201884721099
+Sapucaia,dados_sapucaia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8507832990927158
+Sapucaia,dados_sapucaia__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.1259450111098275
+Sapucaia,dados_sapucaia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,20.972476854100695
+Sapucaia,dados_sapucaia__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,21.79691442331555
+Sapucaia,dados_sapucaia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.152349897278148
+Sapucaia,dados_sapucaia__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.9778350333294865
+Sapucaia,dados_sapucaia__estuda_em_outro_municipio,Estuda em outro município,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,6.8405960676258655
+Sapucaia,dados_sapucaia__estuda_em_outro_municipio,Estuda em outro município,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,7.871143029144433
+Sapucaia,dados_sapucaia__estuda_no_proprio_municipio_sapucaia,Estuda no próprio município (Sapucaia),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,92.62695824773179
+Sapucaia,dados_sapucaia__estuda_no_proprio_municipio_sapucaia,Estuda no próprio município (Sapucaia),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.81486252777457
+Sapucaia,dados_sapucaia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,25.70298033812933
+Sapucaia,dados_sapucaia__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,30.85571514572216
+Sapucaia,dados_sapucaia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.86582902114404
+Sapucaia,dados_sapucaia__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.785266297216765
+Sapucaia,dados_sapucaia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.22901331496396
+Sapucaia,dados_sapucaia__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,94.98094314954552
+Sapucaia,dados_sapucaia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.6989725567672305
+Sapucaia,dados_sapucaia__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.810111925055694
+Sapucaia,dados_sapucaia__mais_de_1_hora,Mais de 1 hora,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,10.914506657481985
+Sapucaia,dados_sapucaia__mais_de_1_hora,Mais de 1 hora,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.790471574772766
+Sapucaia,dados_sapucaia__motocicleta,Motocicleta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.521788202877595
+Sapucaia,dados_sapucaia__motocicleta,Motocicleta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.613429087433296
+Sapucaia,dados_sapucaia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,66.09278726887582
+Sapucaia,dados_sapucaia__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,61.200128824991324
+Sapucaia,dados_sapucaia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,37.75074508453233
+Sapucaia,dados_sapucaia__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.038928786430546
+Sapucaia,dados_sapucaia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,23.8797583994963
+Sapucaia,dados_sapucaia__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,26.919871935976072
+Sapucaia,dados_sapucaia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_amarela_2,População Amarela,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_amarela_2,População Amarela,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_branca_2,População Branca,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_branca_2,População Branca,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_indigena_2,População Indígena,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_indigena_2,População Indígena,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_parda_2,População Parda,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_parda_2,População Parda,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_preta_2,População Preta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_preta_2,População Preta,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__populacao_residente_em_favelas,População Residente em Favelas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__populacao_residente_em_favelas,População Residente em Favelas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.9101490169064662
+Sapucaia,dados_sapucaia__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1.1677857572861081
+Sapucaia,dados_sapucaia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.9880874743195367
+Sapucaia,dados_sapucaia__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.4444587583323703
+Sapucaia,dados_sapucaia__ruas_sem_arvores,Ruas Sem Árvores,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.87104311834526
+Sapucaia,dados_sapucaia__ruas_sem_arvores,Ruas Sem Árvores,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,40.67450030100275
+Sapucaia,dados_sapucaia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,60.197176933530635
+Sapucaia,dados_sapucaia__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.02600942360551
+Sapucaia,dados_sapucaia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.640596067625864
+Sapucaia,dados_sapucaia__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,5.6711430291444325
+Sapucaia,dados_sapucaia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.16823208014365
+Sapucaia,dados_sapucaia__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,69.48511550692547
+Sapucaia,dados_sapucaia__sem_conjuge,Sem cônjuge,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,35.44208623669053
+Sapucaia,dados_sapucaia__sem_conjuge,Sem cônjuge,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,39.04900060200551
+Sapucaia,dados_sapucaia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Sapucaia,dados_sapucaia__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Sapucaia,dados_sapucaia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,26.446393634437914
+Sapucaia,dados_sapucaia__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,24.00006441249567
+Sapucaia,dados_sapucaia__trabalha_em_outro_municipio,Trabalha em outro município,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,16.118864298057506
+Sapucaia,dados_sapucaia__trabalha_em_outro_municipio,Trabalha em outro município,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,17.61315739225943
+Sapucaia,dados_sapucaia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,83.10908945921108
+Sapucaia,dados_sapucaia__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,80.4815506652731
+Sapucaia,dados_sapucaia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.614563090791222
+Sapucaia,dados_sapucaia__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.045915025321058
+Sapucaia,dados_sapucaia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,22.576890927985446
+Sapucaia,dados_sapucaia__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,27.575043691350494
+Sapucaia,dados_sapucaia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.38405960676258655
+Sapucaia,dados_sapucaia__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4871143029144432
+Sapucaia,dados_sapucaia__onibus,Ônibus,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.8681192135251736
+Sapucaia,dados_sapucaia__onibus,Ônibus,dados_sapucaia,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.074228605828887
