@@ -749,6 +749,11 @@ MUNICIPIOS = [
         "pasta":   "data",
         "arquivo": "indicadores_bannach_tratados.csv",
     },
+    {
+        "nome":    "Soure",
+        "pasta":   "data",
+        "arquivo": "indicadores_soure_tratados.csv",
+    },
 ]
 
 NIVEIS_ACIMA_PARA_DADOS = 1
