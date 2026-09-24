@@ -1,0 +1,223 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,ativacao,solver,auto_selecionado,loocv_mae,ano_previsto,valor_previsto
+Vitória do Xingu,dados_vitoria_do_xingu__2_trabalhos,2 trabalhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.0775134362688548,2030,4.441422985563048
+Vitória do Xingu,dados_vitoria_do_xingu__2_trabalhos,2 trabalhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.0775134362688548,2040,4.43887873229578
+Vitória do Xingu,dados_vitoria_do_xingu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958866915,2030,0.7266041579919953
+Vitória do Xingu,dados_vitoria_do_xingu__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,0.062348953958866915,2040,0.737142256163915
+Vitória do Xingu,dados_vitoria_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189052,2030,9.247991756515653
+Vitória do Xingu,dados_vitoria_do_xingu__anos_de_estudo_media,Anos de Estudo (Média),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189052,2040,11.01034406398324
+Vitória do Xingu,dados_vitoria_do_xingu__apenas_1_trabalho,Apenas 1 trabalho,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.1886548058737862,2030,95.0023656361365
+Vitória do Xingu,dados_vitoria_do_xingu__apenas_1_trabalho,Apenas 1 trabalho,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.1886548058737862,2040,94.99764159937797
+Vitória do Xingu,dados_vitoria_do_xingu__casais_com_filhos,Casais com filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,1.4337229345397375,2030,34.923882336206404
+Vitória do Xingu,dados_vitoria_do_xingu__casais_com_filhos,Casais com filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,1.4337229345397375,2040,25.401905515947213
+Vitória do Xingu,dados_vitoria_do_xingu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.0565844521051602,2030,7.269568571751368
+Vitória do Xingu,dados_vitoria_do_xingu__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,1.0565844521051602,2040,7.265253849405311
+Vitória do Xingu,dados_vitoria_do_xingu__casais_sem_filhos,Casais sem filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2030,19.72491887883439
+Vitória do Xingu,dados_vitoria_do_xingu__casais_sem_filhos,Casais sem filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.700951204094407,2040,23.539944657139355
+Vitória do Xingu,dados_vitoria_do_xingu__conta_propria,Conta própria,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.05162732752238819,2030,2.4745852134769457
+Vitória do Xingu,dados_vitoria_do_xingu__conta_propria,Conta própria,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.05162732752238819,2040,2.881241960239504
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2030,39.630091475975
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,lbfgs,True,5.607477851245162,2040,39.3756492442494
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.2156905208230726,2030,6.564181721180243
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.2156905208230726,2040,7.995995552882837
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.0055866096115256,2030,27.61567305831809
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.0055866096115256,2040,32.61308611105599
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.3227799856216436,2030,28.337254054934295
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.3227799856216436,2040,32.21081058111188
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,4.693149742878165,2030,11.847930789063994
+Vitória do Xingu,dados_vitoria_do_xingu__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,4.693149742878165,2040,3.730765137161736
+Vitória do Xingu,dados_vitoria_do_xingu__empregador,Empregador,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,9.1021821685086,2030,424.8171165818612
+Vitória do Xingu,dados_vitoria_do_xingu__empregador,Empregador,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,9.1021821685086,2040,528.8044206677528
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,adam,True,5.042753322753929,2030,98.52860399283445
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,adam,True,5.042753322753929,2040,99.25004964641388
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,3.389330036472257,2030,84.59925957016378
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,3.389330036472257,2040,89.74863931216295
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,lbfgs,True,2.954617859641503,2030,22.858940564412247
+Vitória do Xingu,dados_vitoria_do_xingu__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,lbfgs,True,2.954617859641503,2040,22.732451916303052
+Vitória do Xingu,dados_vitoria_do_xingu__idade_mediana,Idade Mediana,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2030,32.955643986961604
+Vitória do Xingu,dados_vitoria_do_xingu__idade_mediana,Idade Mediana,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,1.8270221474525943,2040,37.06293528986165
+Vitória do Xingu,dados_vitoria_do_xingu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,4.557676798005173,2030,112.49359570764759
+Vitória do Xingu,dados_vitoria_do_xingu__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,4.557676798005173,2040,139.58691487905378
+Vitória do Xingu,dados_vitoria_do_xingu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903768,2030,22.396071729804266
+Vitória do Xingu,dados_vitoria_do_xingu__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3643507152903768,2040,25.559535119039978
+Vitória do Xingu,dados_vitoria_do_xingu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2030,3.7681864675090413
+Vitória do Xingu,dados_vitoria_do_xingu__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.23485046043556412,2040,3.7674912838412338
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.12127461939676983,2030,8.796436621136214
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.12127461939676983,2040,10.514947973210257
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670125,2030,9.699573047176505
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3038451198670125,2040,11.505794325270248
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471598,2030,2.273056282942635
+Vitória do Xingu,dados_vitoria_do_xingu__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471598,2040,1.6384406798428173
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_amarela,Média: População Amarela,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.573410968910076,2030,9.131184539481223
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_amarela,Média: População Amarela,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.573410968910076,2040,10.02771365360336
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_branca,Média: População Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3647458581154324,2030,9.601222022384139
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_branca,Média: População Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.3647458581154324,2040,11.270717025602437
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_indigena,Média: População Indígena,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.1669831016518398,2030,7.323058048423071
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_indigena,Média: População Indígena,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.1669831016518398,2040,8.814479575086828
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_preta_parda,Média: População Preta / Parda,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2030,9.047991756515652
+Vitória do Xingu,dados_vitoria_do_xingu__media_populacao_preta_parda,Média: População Preta / Parda,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.21255986963189008,2040,10.810344063983242
+Vitória do Xingu,dados_vitoria_do_xingu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,92.33909452786973,2030,81.43280167995604
+Vitória do Xingu,dados_vitoria_do_xingu__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,92.33909452786973,2040,-13.156610401805608
+Vitória do Xingu,dados_vitoria_do_xingu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2030,4.168974426752009
+Vitória do Xingu,dados_vitoria_do_xingu__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,sgd,True,0.030370808233056934,2040,4.502782091398335
+Vitória do Xingu,dados_vitoria_do_xingu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2030,0.8336989060632846
+Vitória do Xingu,dados_vitoria_do_xingu__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.061577470809780634,2040,0.8334905168116217
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_amarela,População Amarela,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,66.03647420168217,2030,126.82825802832623
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_amarela,População Amarela,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,66.03647420168217,2040,126.56236909268384
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_branca,População Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.13645804066714007,2030,3.2501453253796795
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_branca,População Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.13645804066714007,2040,3.4099945549690194
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena,População Indígena,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,34.01653869104512,2030,266.5876054479264
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena,População Indígena,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,34.01653869104512,2040,266.5042508695254
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena_total,População Indígena Total,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,34.01653869104512,2030,266.5876054479264
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena_total,População Indígena Total,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,34.01653869104512,2040,266.5042508695254
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_parda,População Parda,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.2059802434039328,2030,11.406637599351093
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_parda,População Parda,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.2059802434039328,2040,12.107336645173222
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_preta,População Preta,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,78.85838878018205,2030,1012.3953168396711
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_preta,População Preta,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,78.85838878018205,2040,1095.9106373999164
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_rural,População Rural,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.8182081838144395,2030,6.075770849203919
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_rural,População Rural,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.8182081838144395,2040,6.073794145397671
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_total,População Total,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.4289456446680795,2030,16.077075157860627
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_total,População Total,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.4289456446680795,2040,17.01137754333883
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_urbana,População Urbana,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.7759146930002544,2030,9.864210688809987
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_urbana,População Urbana,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.7759146930002544,2040,11.033713616807088
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_com_superior_completo,População com Superior Completo,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,244.92101807957076,2030,178.21647230019474
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_com_superior_completo,População com Superior Completo,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,244.92101807957076,2040,177.37133077763397
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_de_homens,População de Homens,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.7527397981411174,2030,8.379103207742766
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_de_homens,População de Homens,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.7527397981411174,2040,8.823053271139798
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_de_mulheres,População de Mulheres,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.6762058465269633,2030,7.654249781899238
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_de_mulheres,População de Mulheres,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.6762058465269633,2040,8.128600566855331
+Vitória do Xingu,dados_vitoria_do_xingu__proporcao_na_populacao_de_vitoria_do_xingu,Proporção na população de Vitória do Xingu,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.5796881312122183,2030,2.171235086647586
+Vitória do Xingu,dados_vitoria_do_xingu__proporcao_na_populacao_de_vitoria_do_xingu,Proporção na população de Vitória do Xingu,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,0.5796881312122183,2040,2.168985677088348
+Vitória do Xingu,dados_vitoria_do_xingu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.2415455983973942,2030,109.56427370727272
+Vitória do Xingu,dados_vitoria_do_xingu__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,1.2415455983973942,2040,108.01534376723218
+Vitória do Xingu,dados_vitoria_do_xingu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151940336989621,2030,34.851469930777554
+Vitória do Xingu,dados_vitoria_do_xingu__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.09151940336989621,2040,27.39544097949562
+Vitória do Xingu,dados_vitoria_do_xingu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830297302212139,2030,18.09655593811158
+Vitória do Xingu,dados_vitoria_do_xingu__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.1830297302212139,2040,21.00868391113574
+Vitória do Xingu,dados_vitoria_do_xingu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.7164068886377901,2030,27.846530678165855
+Vitória do Xingu,dados_vitoria_do_xingu__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.7164068886377901,2040,32.567249977356404
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_homem,Responsável Homem,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471613,2030,2.4730562829426352
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_homem,Responsável Homem,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.10676664928471613,2040,1.838440679842817
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_mulher,Responsável Mulher,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.1356648245353127,2030,2.6173548607397317
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_mulher,Responsável Mulher,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.1356648245353127,2040,2.365428441245961
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2030,2.576471460335163
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.16202369170657116,2040,2.2667646038818914
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado,Setor privado,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.5007866611427948,2030,4.370229980502318
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado,Setor privado,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,0.5007866611427948,2040,4.923655059320469
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,225.50121322191396,2030,-0.21078038246980668
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,225.50121322191396,2040,11.674709278034626
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,390.70910695008524,2030,-3.4567824416929227
+Vitória do Xingu,dados_vitoria_do_xingu__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,tanh,adam,True,390.70910695008524,2040,17.14441742845483
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico,Setor público,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,456.4501713406258,2030,439.1306172599646
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico,Setor público,dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,456.4501713406258,2040,437.293227924221
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,14.335274222751899,2030,128.27961348703056
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,14.335274222751899,2040,150.692841340084
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,416.16172335454166,2030,408.91156619479204
+Vitória do Xingu,dados_vitoria_do_xingu__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,sgd,True,416.16172335454166,2040,407.2121675424322
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,2.421770929211737,2030,92.2309246680585
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,2.421770929211737,2040,95.69472109200218
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100503981287275,2030,62.09831289995877
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,lbfgs,True,0.06100503981287275,2040,73.7358350581724
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,2.0386876841813355,2030,99.2695272686446
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,2.0386876841813355,2040,100.7108957271441
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,adam,True,5.042753322753929,2030,98.52860399283445
+Vitória do Xingu,dados_vitoria_do_xingu__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_vitoria_do_xingu,Grupo 2 — 3 censos,logistic,adam,True,5.042753322753929,2040,99.25004964641388
+Vitória do Xingu,dados_vitoria_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.22481904584658471,2030,6.609340323581347
+Vitória do Xingu,dados_vitoria_do_xingu__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_vitoria_do_xingu,Grupo 2 — 3 censos,identity,adam,True,0.22481904584658471,2040,8.045541559920231
+Vitória do Xingu,dados_vitoria_do_xingu__trabalhador_domestico,Trabalhador doméstico,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,40.707588814796,2030,447.6239662003079
+Vitória do Xingu,dados_vitoria_do_xingu__trabalhador_domestico,Trabalhador doméstico,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,40.707588814796,2040,493.8597358675554
+Vitória do Xingu,dados_vitoria_do_xingu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,8.704586532031266,2030,69.1003497727408
+Vitória do Xingu,dados_vitoria_do_xingu__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,8.704586532031266,2040,79.67044532036482
+Vitória do Xingu,dados_vitoria_do_xingu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,32.00300228276475,2030,379.22920361984814
+Vitória do Xingu,dados_vitoria_do_xingu__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,adam,True,32.00300228276475,2040,415.15148918513523
+Vitória do Xingu,dados_vitoria_do_xingu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,lbfgs,True,5.927648023768424,2030,36.24552657518879
+Vitória do Xingu,dados_vitoria_do_xingu__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_vitoria_do_xingu,Grupo 2 — 3 censos,relu,lbfgs,True,5.927648023768424,2040,45.463189016998165
+Vitória do Xingu,dados_vitoria_do_xingu__a_pe,A pé,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.752349897278147
+Vitória do Xingu,dados_vitoria_do_xingu__a_pe,A pé,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,11.577835033329482
+Vitória do Xingu,dados_vitoria_do_xingu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,68.01504572205131
+Vitória do Xingu,dados_vitoria_do_xingu__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,65.65932128610693
+Vitória do Xingu,dados_vitoria_do_xingu__automovel_carro,Automóvel (Carro),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,18.649311348776905
+Vitória do Xingu,dados_vitoria_do_xingu__automovel_carro,Automóvel (Carro),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,20.91651466411775
+Vitória do Xingu,dados_vitoria_do_xingu__bicicleta,Bicicleta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.268962217514904
+Vitória do Xingu,dados_vitoria_do_xingu__bicicleta,Bicicleta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,3.2890463416560802
+Vitória do Xingu,dados_vitoria_do_xingu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,74.73050348402865
+Vitória do Xingu,dados_vitoria_do_xingu__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,79.05880072240663
+Vitória do Xingu,dados_vitoria_do_xingu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.5238611281483572
+Vitória do Xingu,dados_vitoria_do_xingu__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.4256369587330752
+Vitória do Xingu,dados_vitoria_do_xingu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,59.40626639274172
+Vitória do Xingu,dados_vitoria_do_xingu__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.607560088878614
+Vitória do Xingu,dados_vitoria_do_xingu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,4.823861128148357
+Vitória do Xingu,dados_vitoria_do_xingu__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.725636958733075
+Vitória do Xingu,dados_vitoria_do_xingu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.388417247338108
+Vitória do Xingu,dados_vitoria_do_xingu__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.109800120401104
+Vitória do Xingu,dados_vitoria_do_xingu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,12.477741546824506
+Vitória do Xingu,dados_vitoria_do_xingu__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.940807538884398
+Vitória do Xingu,dados_vitoria_do_xingu__estuda_em_outro_municipio,Estuda em outro município,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,8.78262587100716
+Vitória do Xingu,dados_vitoria_do_xingu__estuda_em_outro_municipio,Estuda em outro município,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.864700180601655
+Vitória do Xingu,dados_vitoria_do_xingu__estuda_no_proprio_municipio_vitoria_do_xingu,Estuda no próprio município (Vitória do Xingu),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,90.65830616011837
+Vitória do Xingu,dados_vitoria_do_xingu__estuda_no_proprio_municipio_vitoria_do_xingu,Estuda no próprio município (Vitória do Xingu),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,88.75560565416328
+Vitória do Xingu,dados_vitoria_do_xingu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,44.40011286661847
+Vitória do Xingu,dados_vitoria_do_xingu__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,51.510886901096576
+Vitória do Xingu,dados_vitoria_do_xingu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,5.853916495463578
+Vitória do Xingu,dados_vitoria_do_xingu__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.229725055549139
+Vitória do Xingu,dados_vitoria_do_xingu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,93.08119213525174
+Vitória do Xingu,dados_vitoria_do_xingu__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,95.14228605828887
+Vitória do Xingu,dados_vitoria_do_xingu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.7785068048749897
+Vitória do Xingu,dados_vitoria_do_xingu__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,0.8859415275538376
+Vitória do Xingu,dados_vitoria_do_xingu__mais_de_1_hora,Mais de 1 hora,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.90435764057552
+Vitória do Xingu,dados_vitoria_do_xingu__mais_de_1_hora,Mais de 1 hora,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,10.52268581748666
+Vitória do Xingu,dados_vitoria_do_xingu__motocicleta,Motocicleta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,43.04931134877691
+Vitória do Xingu,dados_vitoria_do_xingu__motocicleta,Motocicleta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,45.31651466411776
+Vitória do Xingu,dados_vitoria_do_xingu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,62.630091444102646
+Vitória do Xingu,dados_vitoria_do_xingu__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,57.91864257221388
+Vitória do Xingu,dados_vitoria_do_xingu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,31.492774887913622
+Vitória do Xingu,dados_vitoria_do_xingu__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,32.83248593788776
+Vitória do Xingu,dados_vitoria_do_xingu__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,49.84644387726605
+Vitória do Xingu,dados_vitoria_do_xingu__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,54.07168641949217
+Vitória do Xingu,dados_vitoria_do_xingu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_amarela_2,População Amarela,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_amarela_2,População Amarela,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_branca_2,População Branca,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_branca_2,População Branca,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena_2,População Indígena,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_indigena_2,População Indígena,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_parda_2,População Parda,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_parda_2,População Parda,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_preta_2,População Preta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_preta_2,População Preta,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_residente_em_favelas,População Residente em Favelas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__populacao_residente_em_favelas,População Residente em Favelas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,3.514506657481985
+Vitória do Xingu,dados_vitoria_do_xingu__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,4.390471574772767
+Vitória do Xingu,dados_vitoria_do_xingu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,898.2423803978247
+Vitória do Xingu,dados_vitoria_do_xingu__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,1104.5911408534048
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.788087474319537
+Vitória do Xingu,dados_vitoria_do_xingu__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.244458758332372
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_sem_arvores,Ruas Sem Árvores,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,46.62901331496398
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_sem_arvores,Ruas Sem Árvores,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,48.380943149545544
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,52.46582902114403
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,49.38526629721676
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,13.469609382589836
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,16.252086178689964
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,82.4204109004314
+Vitória do Xingu,dados_vitoria_do_xingu__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,90.04645841566881
+Vitória do Xingu,dados_vitoria_do_xingu__sem_conjuge,Sem cônjuge,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,38.38990741640278
+Vitória do Xingu,dados_vitoria_do_xingu__sem_conjuge,Sem cônjuge,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,41.687657693262196
+Vitória do Xingu,dados_vitoria_do_xingu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,0.023861128148357225
+Vitória do Xingu,dados_vitoria_do_xingu__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,-0.07436304126692478
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.752349897278144
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,15.577835033329475
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_em_outro_municipio,Trabalha em outro município,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,21.292774887913623
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_em_outro_municipio,Trabalha em outro município,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.63248593788776
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,78.01504572205131
+Vitória do Xingu,dados_vitoria_do_xingu__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,75.65932128610693
+Vitória do Xingu,dados_vitoria_do_xingu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,17.962384270503463
+Vitória do Xingu,dados_vitoria_do_xingu__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,22.08457211657773
+Vitória do Xingu,dados_vitoria_do_xingu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,45.12476854100692
+Vitória do Xingu,dados_vitoria_do_xingu__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,53.36914423315545
+Vitória do Xingu,dados_vitoria_do_xingu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,2.3043576405755193
+Vitória do Xingu,dados_vitoria_do_xingu__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,2.9226858174866592
+Vitória do Xingu,dados_vitoria_do_xingu__onibus,Ônibus,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2030,9.05217882028776
+Vitória do Xingu,dados_vitoria_do_xingu__onibus,Ônibus,dados_vitoria_do_xingu,Grupo 3 — 2 censos,relu,lbfgs,False,,2040,9.361342908743332
