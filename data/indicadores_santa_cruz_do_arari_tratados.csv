@@ -1,0 +1,290 @@
+municipio,indicador_id,indicador_nome,df_origem,grupo_censo,n_censos,ativacao,solver,auto_selecionado,loocv_mae,ano,valor,unidade_medida
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_total,População Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5816890440063858,2000,5.42,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_total,População Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5816890440063858,2010,8.155,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_total,População Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.5816890440063858,2022,7.447,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_urbana,População Urbana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0746446193350694,2000,3.21,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_urbana,População Urbana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0746446193350694,2010,4.98,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_urbana,População Urbana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,1.0746446193350694,2022,4.82,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_rural,População Rural,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5067578336607131,2000,2.21,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_rural,População Rural,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5067578336607131,2010,3.175,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_rural,População Rural,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.5067578336607131,2022,2.627,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pop_em_favelas_comunidades_urbanas,Pop. em Favelas / Comunidades Urbanas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_mulheres,População de Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7801439550064305,2000,2.58,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_mulheres,População de Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7801439550064305,2010,3.89,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_mulheres,População de Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.7801439550064305,2022,3.62,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_homens,População de Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.801545088999955,2000,2.84,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_homens,População de Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.801545088999955,2010,4.265,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_de_homens,População de Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.801545088999955,2022,3.827,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6252210126591962,2000,110.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6252210126591962,2010,109.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__razao_de_sexo_homens_100_mulheres,Razão de Sexo (homens/100 mulheres),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,1.6252210126591962,2022,105.7,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__idade_mediana,Idade Mediana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2000,19.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__idade_mediana,Idade Mediana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2010,22.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__idade_mediana,Idade Mediana,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.8270221474525943,2022,28.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.126355833206666,2000,5.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.126355833206666,2010,10.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__indice_de_envelhecimento_60,Índice de Envelhecimento (60+),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,5.126355833206666,2022,24.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_parda,População Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4140685649099798,2000,4.12,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_parda,População Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4140685649099798,2010,6.48,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_parda,População Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,1.4140685649099798,2022,6.02,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_branca,População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,650.135813273593,2000,980.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_branca,População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,650.135813273593,2010,1.22,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_branca,População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,650.135813273593,2022,980.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_preta,População Preta,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,60.66606217759437,2000,260.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_preta,População Preta,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,60.66606217759437,2010,390.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_preta,População Preta,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,60.66606217759437,2022,410.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_amarela,População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,20.47535704877478,2000,50.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_amarela,População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,20.47535704877478,2010,50.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_amarela,População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,20.47535704877478,2022,12.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena,População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2000,10.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena,População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2010,15.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena,População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2022,25.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,170.4149505475384,2000,102.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,170.4149505475384,2010,272.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__rendimento_domiciliar_mensal_per_capita,Rendimento domiciliar mensal per capita,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,170.4149505475384,2022,740.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.44029378735608776,2000,96.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.44029378735608776,2010,96.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__apenas_1_trabalho,Apenas 1 trabalho,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.44029378735608776,2022,94.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__2_trabalhos,2 trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5648154235589263,2000,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__2_trabalhos,2 trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5648154235589263,2010,3.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__2_trabalhos,2 trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.5648154235589263,2022,4.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416621,2000,0.3,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416621,2010,0.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__3_ou_mais_trabalhos,3 ou mais trabalhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.06343637243416621,2022,0.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado,Setor privado,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,451.55154470644794,2000,480.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado,Setor privado,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,451.55154470644794,2010,890.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado,Setor privado,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,451.55154470644794,2022,1.21,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__conta_propria,Conta própria,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,451.3182927597898,2000,820.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__conta_propria,Conta própria,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,451.3182927597898,2010,1.18,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__conta_propria,Conta própria,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,451.3182927597898,2022,1.34,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico,Setor público,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,30.38451198670117,2000,280.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico,Setor público,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,30.38451198670117,2010,480.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico,Setor público,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,30.38451198670117,2022,680.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537317,2000,110.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537317,2010,180.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalhador_domestico,Trabalhador doméstico,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,20.48307190537317,2022,220.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__empregador,Empregador,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2000,30.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__empregador,Empregador,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2010,60.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__empregador,Empregador,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,4.557676798005173,2022,90.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,39.22470724717385,2000,320.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,39.22470724717385,2010,180.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__nao_remunerado_ajuda_a_parente,Não remunerado (ajuda a parente),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,39.22470724717385,2022,100.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2000,10.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2010,20.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__militar_e_empresa_estatal,Militar e Empresa Estatal,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2022,20.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,15.165913138347094,2000,160.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,15.165913138347094,2010,360.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_com_carteira_assinada,Setor privado com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,15.165913138347094,2022,580.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2000,320.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2010,530.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_privado_sem_carteira_assinada,Setor privado sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,70.07080188718304,2022,630.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2000,10.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2010,20.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_com_carteira_assinada,Setor público com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.5192255993350585,2022,30.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,28.865286387366137,2000,270.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,28.865286387366137,2010,460.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__setor_publico_sem_carteira_estatutarios_outro,Setor público sem carteira (estatutários/outros),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,28.865286387366137,2022,650.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2000,10.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2010,15.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_com_carteira_assinada,Trabalho doméstico com carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.7596127996675293,2022,20.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,19.07539998269301,2000,100.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,19.07539998269301,2010,165.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalho_domestico_sem_carteira_assinada,Trabalho doméstico sem carteira assinada,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,19.07539998269301,2022,200.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.918478232639515,2000,68.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.918478232639515,2010,78.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_geral,Taxa de Alfabetização (Geral),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.918478232639515,2022,85.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.2720777192459756,2000,84.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.2720777192459756,2010,91.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_jovens_15_a_19_anos,Taxa de Alfabetização: Jovens (15 a 19 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,2.2720777192459756,2022,95.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.48404476338693786,2000,20.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.48404476338693786,2010,31.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_alfabetizacao_idosos_80_anos_ou_mais,Taxa de Alfabetização: Idosos (80 anos ou mais),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.48404476338693786,2022,44.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2000,75.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2010,88.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__taxa_de_escolarizacao_6_a_14_anos,Taxa de Escolarização (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2022,93.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,86.12198627646563,2000,40.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,86.12198627646563,2010,140.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_com_superior_completo,População com Superior Completo,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,86.12198627646563,2022,380.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518988,2000,3.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518988,2010,4.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__anos_de_estudo_media,Anos de Estudo (Média),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518988,2022,6.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2000,3.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2010,5.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_mulheres,Média de Anos de Estudo: Mulheres,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2734606078803112,2022,7.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006905,2000,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006905,2010,4.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_anos_de_estudo_homens,Média de Anos de Estudo: Homens,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.09089010741006905,2022,6.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2000,0.284,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__idhm_educacao_indice_de_desenv_humano,IDHM Educação (Índice de Desenv. Humano),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.458,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2000,75.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2010,88.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_criancas_6_a_14_anos,Frequência Escolar: Crianças (6 a 14 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,lbfgs,True,5.372746033602856,2022,93.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,3.5404394285782863,2000,50.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,3.5404394285782863,2010,63.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_15_a_17_anos,Frequência Escolar: Jovens (15 a 17 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,3.5404394285782863,2022,72.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.6728116654050047,2000,14.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.6728116654050047,2010,18.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__frequencia_escolar_jovens_18_a_24_anos,Frequência Escolar: Jovens (18 a 24 anos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,2.6728116654050047,2022,18.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_amarela,Média: População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1821753576451902,2000,4.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_amarela,Média: População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1821753576451902,2010,5.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_amarela,Média: População Amarela,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.1821753576451902,2022,7.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_branca,Média: População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2000,3.7,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_branca,Média: População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2010,5.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_branca,Média: População Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.18217535764518944,2022,7.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.014797113168298015,2000,2.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.014797113168298015,2010,4.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_preta_parda,Média: População Preta / Parda,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.014797113168298015,2022,6.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_indigena,Média: População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12140633367178714,2000,2.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_indigena,Média: População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12140633367178714,2010,3.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_populacao_indigena,Média: População Indígena,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.12140633367178714,2022,4.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__numero_de_favelas_comunidades,Número de Favelas / Comunidades,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_residente_em_favelas,População Residente em Favelas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_residente_em_favelas,População Residente em Favelas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__total_de_domicilios_em_favelas,Total de Domicílios em Favelas,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_parda_2,População Parda,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_parda_2,População Parda,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_branca_2,População Branca,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_branca_2,População Branca,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_preta_2,População Preta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_preta_2,População Preta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_amarela_2,População Amarela,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_amarela_2,População Amarela,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena_2,População Indígena,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena_2,População Indígena,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__familia_unica_apenas_1_nucleo_familiar_na_cas,Família Única (apenas 1 núcleo familiar na casa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,92.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__familia_convivente_2_ou_mais_familias_partilh,Família Convivente (2 ou mais famílias partilham a casa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,7.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos,Casais com filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948385901000938,2000,67.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos,Casais com filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948385901000938,2010,56.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos,Casais com filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.5948385901000938,2022,45.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_sem_filhos,Casais sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.3399479557402525,2000,7.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_sem_filhos,Casais sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.3399479557402525,2010,9.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_sem_filhos,Casais sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.3399479557402525,2022,14.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2730654650552579,2000,11.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2730654650552579,2010,14.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_mulheres_sem_conjuge_com_filhos,Mães solo (Mulheres sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.2730654650552579,2022,18.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2000,3.7,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2010,4.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_homens_sem_conjuge_com_filhos,Pais solo (Homens sem cônjuge com filhos),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,sgd,True,0.030370808233057378,2022,4.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058145,2000,7.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058145,2010,8.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__casais_com_filhos_vivendo_com_outros_parentes,Casais com filhos vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,logistic,sgd,True,0.9071489865058145,2022,6.3,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1575053517796444,2000,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1575053517796444,2010,3.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__maes_solo_vivendo_com_outros_parentes,Mães solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.1575053517796444,2022,3.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2000,0.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2010,0.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__pais_solo_vivendo_com_outros_parentes,Pais solo vivendo com outros parentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,1.1516024901903066e-05,2022,0.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,88.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_no_proprio_municipio_de_residencia,Trabalha no próprio município de residência,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,85.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_em_casa_ou_na_propriedade,Trabalha em casa ou na propriedade,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,29.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_em_outro_municipio,Trabalha em outro município,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,11.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__trabalha_em_outro_municipio,Trabalha em outro município,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__motocicleta,Motocicleta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,27.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__motocicleta,Motocicleta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,33.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__bicicleta,Bicicleta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__bicicleta,Bicicleta,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,18.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__automovel_carro,Automóvel (Carro),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__automovel_carro,Automóvel (Carro),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__a_pe,A pé,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__a_pe,A pé,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,21.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__onibus,Ônibus,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__onibus,Ônibus,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,73.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ate_30_minutos_trajeto_rapido,Até 30 minutos (Trajeto rápido),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,69.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,18.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__de_31_minutos_a_1_hora,De 31 minutos a 1 hora,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,20.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__mais_de_1_hora,Mais de 1 hora,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,8.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__mais_de_1_hora,Mais de 1 hora,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,10.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estuda_no_proprio_mun_santa_cruz_do_arari,Estuda no próprio mun. (Santa Cruz do Arari),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,96.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estuda_no_proprio_mun_santa_cruz_do_arari,Estuda no próprio mun. (Santa Cruz do Arari),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,94.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estuda_em_outro_municipio,Estuda em outro município,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,3.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estuda_em_outro_municipio,Estuda em outro município,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,5.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.26372314592044127,2000,1.28,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.26372314592044127,2010,2.18,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__total_de_domicilios_recenseados,Total de Domicílios Recenseados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.26372314592044127,2022,2.68,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.2606492470791306,2000,1.26,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.2606492470791306,2010,2.15,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_particulares_permanentes,Domicílios Particulares Permanentes,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.2606492470791306,2022,2.65,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2000,20.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2010,30.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_coletivos_hoteis_abrigos_etc,Domicílios Coletivos (Hotéis abrigos etc.),dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,lbfgs,True,5.607477851245161,2022,30.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24552001684558133,2000,4.3,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24552001684558133,2010,3.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__media_de_moradores_por_domicilio,Média de Moradores por Domicílio,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,lbfgs,True,0.24552001684558133,2022,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,39.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_com_iluminacao_publica,Ruas com Iluminação Pública,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,7.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__via_pavimentada_asfalto_paralelepipedo_etc,Via Pavimentada (Asfalto Paralelepípedo etc.),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,16.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,1.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_com_bueiro_ou_boca_de_lobo,Ruas com Bueiro ou Boca de Lobo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,45.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__capacidade_da_rua_para_caminhoes_e_onibus,Capacidade da rua para Caminhões e Ônibus,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,54.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,10.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__existencia_de_calcada_ou_passeio,Existência de Calçada ou Passeio,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,35.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__obstaculo_na_calcada_entulhos_postes_mato_etc,Obstáculo na calçada (Entulhos postes mato etc.),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,37.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,67.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_arborizadas_com_pelo_menos_1_arvore,Ruas arborizadas (Com pelo menos 1 árvore),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,64.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_sem_arvores,Ruas Sem Árvores,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,32.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ruas_sem_arvores,Ruas Sem Árvores,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,35.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__rampa_para_cadeirantes,Rampa para Cadeirantes,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__via_sinalizada_para_bicicletas_ciclovia_ciclo,Via Sinalizada para Bicicletas (Ciclovia/Ciclofaixa),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__ponto_de_onibus_ou_van_proximo,Ponto de Ônibus ou Van próximo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,19.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena_total,População Indígena Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2000,10.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena_total,População Indígena Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2010,15.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__populacao_indigena_total,População Indígena Total,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,3.04503691242099,2022,25.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__proporcao_na_pop_de_santa_cruz_do_arari,Proporção na pop. de Santa Cruz do Arari,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.04261210477105895,2000,0.18,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__proporcao_na_pop_de_santa_cruz_do_arari,Proporção na pop. de Santa Cruz do Arari,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.04261210477105895,2010,0.18,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__proporcao_na_pop_de_santa_cruz_do_arari,Proporção na pop. de Santa Cruz do Arari,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,tanh,adam,True,0.04261210477105895,2022,0.34,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,75.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__nuclear_casal_c_ou_s_filhos_ou_1_dos_pais_c_f,Nuclear (Casal c/ ou s/ filhos ou 1 dos pais c/ filhos),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,70.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,13.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__estendida_nucleo_familiar_outros_parentes,Estendida (Núcleo familiar + outros parentes),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,11.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__unipessoal_pessoa_morando_sozinha,Unipessoal (Pessoa morando sozinha),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,14.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,5.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__composta_inclui_pessoas_sem_parentesco,Composta (Inclui pessoas sem parentesco),dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,4.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2032176518000977,2000,11.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2032176518000977,2010,14.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_mulher_sem_conjuge_com_filhos_enteados,Resp. Mulher: Sem cônjuge com filhos/enteados,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.2032176518000977,2022,20.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4694102230499813,2000,62.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4694102230499813,2010,55.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_e_apenas_filhos_de_amb,Resp. Homem: Com cônjuge e apenas filhos de ambos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.4694102230499813,2022,45.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5788862990475329,2000,8.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5788862990475329,2010,10.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__resp_homem_com_conjuge_sem_filhos,Resp. Homem: Com cônjuge sem filhos,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.5788862990475329,2022,13.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,74.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__com_conjuge_de_sexo_diferente,Com cônjuge de sexo diferente,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,67.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__sem_conjuge,Sem cônjuge,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,25.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__sem_conjuge,Sem cônjuge,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,32.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,0.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__com_conjuge_de_mesmo_sexo,Com cônjuge de mesmo sexo,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,0.4,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2010,4.1,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_de_cor_ou_raca_indigena,Responsável de Cor ou Raça Indígena,dados_santa_cruz_do_arari,Grupo 3 — 2 censos,2,relu,lbfgs,False,,2022,3.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_mulher,Responsável Mulher,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2000,3.7,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_mulher,Responsável Mulher,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2010,3.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_mulher,Responsável Mulher,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.07626189234622564,2022,2.7,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_homem,Responsável Homem,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2000,4.3,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_homem,Responsável Homem,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2010,3.6,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_homem,Responsável Homem,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,lbfgs,True,0.18302886241559335,2022,3.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2000,3.9,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2010,3.3,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__responsavel_de_cor_ou_raca_branca,Responsável de Cor ou Raça Branca,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,0.16202369170657116,2022,2.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.401243836813725,2000,10.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.401243836813725,2010,14.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_2_moradores,Domicílios com 2 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,1.401243836813725,2022,21.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2000,14.0,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2010,18.5,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_3_moradores,Domicílios com 3 moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,identity,adam,True,0.8358375081843157,2022,22.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,4.763016259870134,2000,54.8,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,4.763016259870134,2010,37.2,Valor
+Santa Cruz do Arari,dados_santa_cruz_do_arari__domicilios_com_5_ou_mais_moradores,Domicílios com 5 ou mais moradores,dados_santa_cruz_do_arari,Grupo 2 — 3 censos,3,relu,adam,True,4.763016259870134,2022,22.8,Valor
