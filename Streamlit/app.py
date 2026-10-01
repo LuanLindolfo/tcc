@@ -120,7 +120,7 @@ MUNICIPIOS = [
         "arquivo": "indicadores_barcarena_tratados.csv",
     },
     {
-        "nome":    "Beijo Grando do Araguaia",
+        "nome":    "Brejo Grando do Araguaia",
         "pasta":   "data",
         "arquivo": "indicadores_beijo_grando_do_araguaia_tratados.csv",
     },
